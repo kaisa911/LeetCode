@@ -16,17 +16,17 @@ some exercises for leetcode
 | 20 | [Valid Parentheses 有效的括号](https://github.com/kaisa911/LeetCode/blob/master/ValidParentheses.js) | Easy | 
 | 21 | [Merge Two Sorted Lists 合并两个有序链表](https://github.com/kaisa911/LeetCode/blob/master/MergeTwoSortedLists.js) | Easy | 
 | 26 | [Remove Duplicates from Sorted Array 从有序数组中删除重复项](https://github.com/kaisa911/LeetCode/blob/master/RemoveDuplicatesfromSortedArray.js) | Easy |
-| 27 | [Remove Element 移除元素](http://blog.csdn.net/u014627807/article/details/79384092) | Easy |
-| 28 | [Implement strStr() 实现strStr()](http://blog.csdn.net/u014627807/article/details/79384489) | Easy | 
-| 35 | [Search Insert Position 搜索插入位置](http://blog.csdn.net/u014627807/article/details/79384624) | Easy | 
-| 38 | [Count and Say 数数并说](http://blog.csdn.net/u014627807/article/details/79384757) | Easy | 
-| 53 | [Maximum Subarray 最大子序和](http://blog.csdn.net/u014627807/article/details/79397193) | Easy | 
-| 58 | [Length of Last Word 最后一个单词的长度](http://blog.csdn.net/u014627807/article/details/79397256) | Easy |
-| 66 | [Plus One 加一](http://blog.csdn.net/u014627807/article/details/79397308) | Easy | 
-| 67 | [Add Binary 二进制求和](http://blog.csdn.net/u014627807/article/details/79399461) | Easy | 
-| 69 | [Sqrt(x) x 的平方根](http://blog.csdn.net/u014627807/article/details/79399512) | Easy | 
-| 70 | [Climbing Stairs 爬楼梯](http://blog.csdn.net/u014627807/article/details/79399805) | Easy |
-| 83 | [Remove Duplicates from Sorted List 删除排序链表中的重复元素](http://blog.csdn.net/u014627807/article/details/79399890) | Easy |
-| 88 | [Merge Sorted Array 合并两个有序数组](http://blog.csdn.net/u014627807/article/details/79399948) | Easy |
-| 100 | [Same Tree 相同的树](http://blog.csdn.net/u014627807/article/details/79400026) | Easy |
-| 203 | [Remove Linked List Elements 删除链表中的元素](http://blog.csdn.net/u014627807/article/details/79400068) | Easy |
+| 27 | [Remove Element 移除元素](https://github.com/kaisa911/LeetCode/blob/master/RemoveElement.js) | Easy |
+| 28 | [Implement strStr() 实现strStr()](https://github.com/kaisa911/LeetCode/blob/master/ImplementstrStr().js) | Easy | 
+| 35 | [Search Insert Position 搜索插入位置](https://github.com/kaisa911/LeetCode/blob/master/SearchInsertPosition.js) | Easy | 
+| 38 | [Count and Say 数数并说](https://github.com/kaisa911/LeetCode/blob/master/CountandSay.js) | Easy | 
+| 53 | [Maximum Subarray 最大子序和](https://github.com/kaisa911/LeetCode/blob/master/MaximumSubarray.js) | Easy | 
+| 58 | [Length of Last Word 最后一个单词的长度](https://github.com/kaisa911/LeetCode/blob/master/LengthofLastWord.js) | Easy |
+| 66 | [Plus One 加一](https://github.com/kaisa911/LeetCode/blob/master/PlusOne.js) | Easy | 
+| 67 | [Add Binary 二进制求和](https://github.com/kaisa911/LeetCode/blob/master/AddBinary.js) | Easy | 
+| 69 | [Sqrt(x) x 的平方根](https://github.com/kaisa911/LeetCode/blob/master/Sqrt(x).js) | Easy | 
+| 70 | [Climbing Stairs 爬楼梯](https://github.com/kaisa911/LeetCode/blob/master/ClimbingStairs.js) | Easy |
+| 83 | [Remove Duplicates from Sorted List 删除排序链表中的重复元素](https://github.com/kaisa911/LeetCode/blob/master/RemoveDuplicatesfromSortedList.js) | Easy |
+| 88 | [Merge Sorted Array 合并两个有序数组](https://github.com/kaisa911/LeetCode/blob/master/MergeSortedArray.js) | Easy |
+| 100 | [Same Tree 相同的树](https://github.com/kaisa911/LeetCode/blob/master/SameTree.js) | Easy |
+| 203 | [Remove Linked List Elements 删除链表中的元素](https://github.com/kaisa911/LeetCode/blob/master/RemoveLinkedListElements.js) | Easy |
