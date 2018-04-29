@@ -7,7 +7,8 @@ some exercises for leetcode
 | 2 | [Add Two Numbers 两数相加](https://github.com/kaisa911/LeetCode/blob/master/AddTwoNumbers.js) | Medium | 
 | 3 | [Longest Substring Without Repeating Characters 无重复字符的最长子串](https://github.com/kaisa911/LeetCode/blob/master/LongestSubstringWithoutRepeatingCharacters%20.js) | Medium |
 | 4 | [Median of Two Sorted Arrays 两个排序数组的中位数](https://github.com/kaisa911/LeetCode/blob/master/MedianofTwoSortedArrays.js) | Hard | 
-| 5 | [Longest Palindromic Substring 最长回文子串](https://github.com/kaisa911/LeetCode/blob/master/LongestPalindromicSubstring.js) | Medium || 6 | [ZigZag Converesion Z字形变换](https://github.com/kaisa911/LeetCode/blob/master/ZigZagConveresion.js) | Medium | 
+| 5 | [Longest Palindromic Substring 最长回文子串](https://github.com/kaisa911/LeetCode/blob/master/LongestPalindromicSubstring.js) | Medium |
+| 6 | [ZigZag Converesion Z字形变换](https://github.com/kaisa911/LeetCode/blob/master/ZigZagConveresion.js) | Medium | 
 | 7 | [Reverse Integer 翻转整数](https://github.com/kaisa911/LeetCode/blob/master/ReverseInteger.js) | Easy | 
 | 9 | [Palindrome Number 回文数字](https://github.com/kaisa911/LeetCode/blob/master/PalindromeNumber.js) | Easy | 
 | 12 | [Integer to Roman 整数转罗马数字](https://github.com/kaisa911/LeetCode/blob/master/IntegertoRoman.js) | Medium | 
