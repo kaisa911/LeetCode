@@ -12,6 +12,8 @@ some exercises for leetcode
 | 7 | [Reverse Integer 翻转整数](https://github.com/kaisa911/LeetCode/blob/master/ReverseInteger.js) | Easy | 
 | 8 | [String to Integer (atoi) 字符串转为整数](https://github.com/kaisa911/LeetCode/blob/master/StringtoInteger(atoi).js) | Medium | 
 | 9 | [Palindrome Number 回文数字](https://github.com/kaisa911/LeetCode/blob/master/PalindromeNumber.js) | Easy | 
+| 10 | [Regular Expression Matching 正则表达式匹配](https://github.com/kaisa911/LeetCode/blob/master/RegularExpressionMatching.js) | Hard | 
+| 11 | [Container With Most Water 盛最多水的容器](https://github.com/kaisa911/LeetCode/blob/master/ContainerWithMostWater.js) | Medium | 
 | 12 | [Integer to Roman 整数转罗马数字](https://github.com/kaisa911/LeetCode/blob/master/IntegertoRoman.js) | Medium | 
 | 13 | [Roman to Integer 罗马数字转整数](https://github.com/kaisa911/LeetCode/blob/master/RomantoInteger.js) | Easy | 
 | 14 | [Longest Common Prefix 最长共同前缀](https://github.com/kaisa911/LeetCode/blob/master/LongestCommonPrefix.js) | Easy | 
