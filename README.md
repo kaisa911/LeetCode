@@ -18,7 +18,8 @@ some exercises for leetcode
 | 13 | [Roman to Integer 罗马数字转整数](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/RomantoInteger.js) | Easy | 
 | 14 | [Longest Common Prefix 最长共同前缀](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/LongestCommonPrefix.js) | Easy | 
 | 15 | [3Sum 三数之和](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/3Sum.js) | Medium | 
-| 16 | [3Sum Closest 最接近的三数之和](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/3SumClosest.js) | Medium | 
+| 16 | [3Sum Closest 最接近的三数之和](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/3SumClosest.js) | Medium |
+| 17 | [Letter Combinations of a PhoneNumber 电话号码的字母组合](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/LetterCombinationsofaPhoneNumber.js) | Medium | 
 | 20 | [Valid Parentheses 有效的括号](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/ValidParentheses.js) | Easy | 
 | 21 | [Merge Two Sorted Lists 合并两个有序链表](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/MergeTwoSortedLists.js) | Easy | 
 | 26 | [Remove Duplicates from Sorted Array 从有序数组中删除重复项](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/RemoveDuplicatesfromSortedArray.js) | Easy |
