@@ -13,10 +13,10 @@ var letterCombinations = function (digits) {
   }
 
   let lastDigit = digits[digits.length - 1];
-  let result = [];
+  let res = [];
   for (let dig of strMap[lastDigit]) {
-    result = result.concat(letterCombinations(digits.slice(0, -1)).map(el => el + dig))
+    res = result.concat(letterCombinations(digits.slice(0, -1)).map(el => el + dig))
   }
-  return result
+  return res
 
 };
