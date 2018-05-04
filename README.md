@@ -1,6 +1,7 @@
 # LeetCode
-some exercises for leetcode
-[具体的思路可以参考：](https://blog.csdn.net/u014627807/article/details/79326846）
+some exercises for leetcode<br/>
+具体的思路可以参考：https://blog.csdn.net/u014627807/article/details/79326846<br/>
+<br/>
 
 | Number | Name | Difficulty | 
 | ------------- |:-------------:| -----:| 
