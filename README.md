@@ -1,5 +1,6 @@
 # LeetCode
 some exercises for leetcode
+[具体的思路可以参考：](https://blog.csdn.net/u014627807/article/details/79326846）
 
 | Number | Name | Difficulty | 
 | ------------- |:-------------:| -----:| 
@@ -20,6 +21,8 @@ some exercises for leetcode
 | 15 | [3Sum 三数之和](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/3Sum.js) | Medium | 
 | 16 | [3Sum Closest 最接近的三数之和](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/3SumClosest.js) | Medium |
 | 17 | [Letter Combinations of a PhoneNumber 电话号码的字母组合](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/LetterCombinationsofaPhoneNumber.js) | Medium | 
+| 18 | [4Sum 四数之和](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/4Sum.js) | Medium | 
+| 19 | [Remove Nth Node From End of List 删除链表的倒数第N个节点](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/RemoveNthNodeFromEndofList.js) | Medium | 
 | 20 | [Valid Parentheses 有效的括号](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/ValidParentheses.js) | Easy | 
 | 21 | [Merge Two Sorted Lists 合并两个有序链表](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/MergeTwoSortedLists.js) | Easy | 
 | 26 | [Remove Duplicates from Sorted Array 从有序数组中删除重复项](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/RemoveDuplicatesfromSortedArray.js) | Easy |
