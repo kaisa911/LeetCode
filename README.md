@@ -26,6 +26,7 @@ some exercises of leetcode<br/>
 | 19 | [Remove Nth Node From End of List 删除链表的倒数第N个节点](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/RemoveNthNodeFromEndofList.js) | Medium | 
 | 20 | [Valid Parentheses 有效的括号](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/ValidParentheses.js) | Easy | 
 | 21 | [Merge Two Sorted Lists 合并两个有序链表](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/MergeTwoSortedLists.js) | Easy | 
+| 22 | [Generate Parentheses 生成括号](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/GenerateParentheses.js) | Medium | 
 | 26 | [Remove Duplicates from Sorted Array 从有序数组中删除重复项](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/RemoveDuplicatesfromSortedArray.js) | Easy |
 | 27 | [Remove Element 移除元素](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/RemoveElement.js) | Easy |
 | 28 | [Implement strStr() 实现strStr()](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/ImplementstrStr().js) | Easy | 
