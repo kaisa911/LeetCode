@@ -42,4 +42,6 @@ some exercises of leetcode<br/>
 | 83 | [Remove Duplicates from Sorted List 删除排序链表中的重复元素](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/RemoveDuplicatesfromSortedList.js) | Easy |
 | 88 | [Merge Sorted Array 合并两个有序数组](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/MergeSortedArray.js) | Easy |
 | 100 | [Same Tree 相同的树](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/SameTree.js) | Easy |
+| 118 | [Pascals Triangle 杨辉三角](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/PascalsTriangle.js) | Easy |
+| 119 | [Pascals Triangle ii 杨辉三角2](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/PascalsTriangleii.js) | Easy |
 | 203 | [Remove Linked List Elements 删除链表中的元素](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/RemoveLinkedListElements.js) | Easy |
