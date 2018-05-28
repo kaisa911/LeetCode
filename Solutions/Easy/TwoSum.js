@@ -7,11 +7,11 @@ const twoSum = (nums, target) => {
 	const len = nums.length
 	const map = {}
 	for (let i = 0; i < len; i++) {
-		const curr = nums[i]
-		const j = map[target - curr]
+		const cur = nums[i]
+		const j = map[target - cur]
 		if (j != null) {
 			return [j, i]
 		}
-		map[curr] = i
+		map[cur] = i
 	}
 }
