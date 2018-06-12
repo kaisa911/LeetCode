@@ -11,14 +11,15 @@ var multiply = function(num1, num2) {
     char2,
     sum,
     index,
+    product,
     tag,
     res = [];
 
   if (
     !num1 ||
     !num2 ||
-    num1.length === 0 ||
-    num2.length === 0 ||
+    !num1.length ||
+    !num2.length ||
     num1 === '0' ||
     num2 === '0'
   ) {
@@ -34,14 +35,13 @@ var multiply = function(num1, num2) {
 
     for (var j = 0; j < arr2.length; j++) {
       char2 = parseInt(arr2[j]);
-      let product = char1 * char2 + carry;
+      product = char1 * char2 + carry;
       tag = res[i + j] || 0;
-      sum = product + exist;
+      sum = product + tag;
       index = sum % 10;
       carry = Math.floor(sum / 10);
-      res[i + j] = index;
+      res[i + j] = index; 
     }
-
     if (carry > 0) {
       res[i + j] = carry;
     }
