@@ -31,6 +31,7 @@ some exercises of leetcode<br/>
 | 26 | [Remove Duplicates from Sorted Array 从有序数组中删除重复项](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/RemoveDuplicatesfromSortedArray.js) | Easy |
 | 27 | [Remove Element 移除元素](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/RemoveElement.js) | Easy |
 | 28 | [Implement strStr() 实现strStr()](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/ImplementstrStr().js) | Easy | 
+| 29 | [Divide Two Integers 两数相除](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/DivideTwoIntegers.js) | Medium | 
 | 35 | [Search Insert Position 搜索插入位置](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/SearchInsertPosition.js) | Easy | 
 | 38 | [Count and Say 数数并说](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/CountandSay.js) | Easy | 
 | 43 | [Maximum Subarray 最大子序和](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/MaximumSubarray.js) | Medium | 
