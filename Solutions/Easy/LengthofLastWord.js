@@ -2,7 +2,7 @@
  * @param {string} s
  * @return {number}
  */
-var lengthOfLastWord = function (s) {
+var lengthOfLastWord = function(s) {
   let res = 0;
   for (let i = 0; i < s.length; ++i) {
     if (s[i] != ' ') {

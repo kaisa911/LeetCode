@@ -10,7 +10,7 @@
  * @param {ListNode} l2
  * @return {ListNode}
  */
-var mergeTwoLists = function (l1, l2) {
+var mergeTwoLists = function(l1, l2) {
   let res = new ListNode(-1),
     cur = res;
   while (l1 !== null && l2 !== null) {
@@ -23,6 +23,6 @@ var mergeTwoLists = function (l1, l2) {
     }
     cur = cur.next;
   }
-  cur.next = (l1 === null) ? l2 : l1;
+  cur.next = l1 === null ? l2 : l1;
   return res.next;
 };

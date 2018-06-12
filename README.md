@@ -33,7 +33,8 @@ some exercises of leetcode<br/>
 | 28 | [Implement strStr() 实现strStr()](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/ImplementstrStr().js) | Easy | 
 | 35 | [Search Insert Position 搜索插入位置](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/SearchInsertPosition.js) | Easy | 
 | 38 | [Count and Say 数数并说](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/CountandSay.js) | Easy | 
-| 53 | [Maximum Subarray 最大子序和](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/MaximumSubarray.js) | Easy | 
+| 43 | [Maximum Subarray 最大子序和](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/MaximumSubarray.js) | Medium | 
+| 53 | [Multiply String 字符串相乘](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/MaximumSubarray.js) | Easy | 
 | 58 | [Length of Last Word 最后一个单词的长度](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/LengthofLastWord.js) | Easy |
 | 66 | [Plus One 加一](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/PlusOne.js) | Easy | 
 | 67 | [Add Binary 二进制求和](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/AddBinary.js) | Easy | 

@@ -2,7 +2,7 @@
  * @param {string} str
  * @return {number}
  */
-var myAtoi = function (str) {
+var myAtoi = function(str) {
   if (!str) return 0;
 
   str = str.trim();
@@ -30,4 +30,4 @@ var myAtoi = function (str) {
   if (res > INT_MAX) return INT_MAX;
   if (res < INT_MIN) return INT_MIN;
   return res;
-}
+};

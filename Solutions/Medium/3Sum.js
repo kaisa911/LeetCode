@@ -2,14 +2,14 @@
  * @param {number[]} nums
  * @return {number[][]}
  */
-var threeSum = function (nums) {
+var threeSum = function(nums) {
   if (nums.length < 3) {
     return [];
   }
   var result = [];
   var arr = [];
 
-  nums.sort(function (a, b) {
+  nums.sort(function(a, b) {
     return a - b;
   });
   for (var i = 0; i < nums.length - 1; i++) {

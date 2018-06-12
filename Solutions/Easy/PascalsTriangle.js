@@ -2,7 +2,7 @@
  * @param {number} numRows
  * @return {number[][]}
  */
-var generate = function (numRows) {
+var generate = function(numRows) {
   var res = [];
 
   for (var i = 0; i < numRows; i++) {
@@ -10,11 +10,9 @@ var generate = function (numRows) {
     for (var j = 0; j <= i; j++) {
       if (i == j) {
         e.push(1);
-      }
-      else {
+      } else {
         e.push(j == 0 ? res[i - 1][j] : res[i - 1][j - 1] + res[i - 1][j]);
       }
-
     }
     res.push(e);
   }
