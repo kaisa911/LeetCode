@@ -28,10 +28,13 @@ some exercises of leetcode<br/>
 | 21 | [Merge Two Sorted Lists 合并两个有序链表](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/MergeTwoSortedLists.js) | Easy | 
 | 22 | [Generate Parentheses 生成括号](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/GenerateParentheses.js) | Medium | 
 | 23 | [Merge k Sorted Lists 合并K个排序链表](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Hard/MergekSortedLists.js) | Hard | 
+| 24 | [Swap Nodes In Pairs 两两交换链表中的节点](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/SwapNodesInPairs.js) | Medium | 
+| 25 | [Reverse Nodes in k-Group k个一组翻转链表](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Hard/ReverseNodesInk-Group.js) | Hard | 
 | 26 | [Remove Duplicates from Sorted Array 从有序数组中删除重复项](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/RemoveDuplicatesfromSortedArray.js) | Easy |
 | 27 | [Remove Element 移除元素](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/RemoveElement.js) | Easy |
 | 28 | [Implement strStr() 实现strStr()](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/ImplementstrStr().js) | Easy | 
 | 29 | [Divide Two Integers 两数相除](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/DivideTwoIntegers.js) | Medium | 
+| 31 | [Next-permutation 下一个排列](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/Next-permutation.js) | Medium | 
 | 35 | [Search Insert Position 搜索插入位置](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/SearchInsertPosition.js) | Easy | 
 | 38 | [Count and Say 数数并说](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/CountandSay.js) | Easy | 
 | 43 | [Maximum Subarray 最大子序和](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/MaximumSubarray.js) | Medium | 
