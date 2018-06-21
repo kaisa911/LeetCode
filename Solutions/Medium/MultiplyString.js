@@ -33,7 +33,7 @@ var multiply = function(num1, num2) {
     carry = 0;
     char1 = parseInt(arr1[i]);
 
-    for (var j = 0; j < arr2.length; j++) {
+    for (let j = 0; j < arr2.length; j++) {
       char2 = parseInt(arr2[j]);
       product = char1 * char2 + carry;
       tag = res[i + j] || 0;

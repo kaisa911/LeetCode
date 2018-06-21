@@ -3,11 +3,11 @@
  * @return {number[]}
  */
 var getRow = function(rowIndex) {
-  var res = [];
+  let res = [];
 
-  for (var i = 0; i < rowIndex + 1; i++) {
-    var e = [];
-    for (var j = 0; j <= i; j++) {
+  for (let i = 0; i < rowIndex + 1; i++) {
+    let e = [];
+    for (let j = 0; j <= i; j++) {
       if (j == i) {
         e.push(1);
       } else {

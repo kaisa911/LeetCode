@@ -4,10 +4,10 @@
  * @return {number}
  */
 var findMedianSortedArrays = function(nums1, nums2) {
-  var m = nums1.length;
-  var n = nums2.length;
-  var total = m + n;
-  var half = total >> 1;
+  let m = nums1.length;
+  let n = nums2.length;
+  let total = m + n;
+  let half = total >> 1;
 
   if (total & 1) return findKth(nums1, m, nums2, n, half + 1);
   else
@@ -25,7 +25,7 @@ function findKth(a, m, b, n, k) {
   if (k === 1) return Math.min(a[0], b[0]);
 
   // divide k into two parts
-  var pa = Math.min(k >> 1, m),
+  let pa = Math.min(k >> 1, m),
     pb = k - pa;
 
   if (a[pa - 1] < b[pb - 1]) return findKth(a.slice(pa), m - pa, b, n, k - pa);

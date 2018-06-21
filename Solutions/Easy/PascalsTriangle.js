@@ -3,11 +3,11 @@
  * @return {number[][]}
  */
 var generate = function(numRows) {
-  var res = [];
+  let res = [];
 
-  for (var i = 0; i < numRows; i++) {
-    var e = [];
-    for (var j = 0; j <= i; j++) {
+  for (let i = 0; i < numRows; i++) {
+    let e = [];
+    for (let j = 0; j <= i; j++) {
       if (i == j) {
         e.push(1);
       } else {

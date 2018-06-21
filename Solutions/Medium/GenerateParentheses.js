@@ -3,7 +3,7 @@
  * @return {string[]}
  */
 var generateParenthesis = function(n) {
-  var res = [];
+  let res = [];
   Helper(n, n, '', res);
   return res;
 };

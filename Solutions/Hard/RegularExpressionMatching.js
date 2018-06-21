@@ -27,6 +27,6 @@ var isMatch = function(s, p) {
  * @return {boolean}
  */
 var isMatch = function(s, p) {
-  var r = new RegExp('^' + p + '$');
+  let r = new RegExp('^' + p + '$');
   return r.test(s);
 };

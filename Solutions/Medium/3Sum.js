@@ -6,20 +6,20 @@ var threeSum = function(nums) {
   if (nums.length < 3) {
     return [];
   }
-  var result = [];
-  var arr = [];
+  let result = [];
+  let arr = [];
 
   nums.sort(function(a, b) {
     return a - b;
   });
-  for (var i = 0; i < nums.length - 1; i++) {
+  for (let i = 0; i < nums.length - 1; i++) {
     // 去重
     if (nums[i] !== nums[i - 1]) {
-      var left = i + 1;
-      var right = nums.length - 1;
+      let left = i + 1;
+      let right = nums.length - 1;
 
       while (left < right) {
-        var sum = nums[i] + nums[left] + nums[right];
+        let sum = nums[i] + nums[left] + nums[right];
         if (sum > 0) {
           right--;
         } else if (sum < 0) {
