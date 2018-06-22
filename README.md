@@ -36,6 +36,7 @@ some exercises of leetcode<br/>
 | 30 | [Substring with Concatenation of All Words 串联所有单词的子串](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Hard/SubstringwithConcatenationofAllWords.js) | Hard | 
 | 31 | [Next-permutation 下一个排列](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/Next-permutation.js) | Medium | 
 | 32 | [Longest Valid Parentheses 最长有效括号](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Hard/LongestValidParentheses.js) | Hard | 
+| 33 | [Search in Rotated Sorted Array 在旋转有序数组中搜索](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/SearchinRotatedSortedArray.js) | Medium | 
 | 35 | [Search Insert Position 搜索插入位置](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/SearchInsertPosition.js) | Easy | 
 | 38 | [Count and Say 数数并说](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/CountandSay.js) | Easy | 
 | 43 | [Maximum Subarray 最大子序和](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/MaximumSubarray.js) | Medium | 
