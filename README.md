@@ -3,15 +3,15 @@ some exercises of leetcode<br/>
 具体的思路可以参考：https://blog.csdn.net/u014627807/article/details/79326846<br/>
 <br/>
 
-| Number | Name | Difficulty | Expansion |
+| Number | Name | Difficulty | Thinking |
 | ------------- |:-------------:| -----:| -----:| 
 | 1 | [Two Sum 两数之和](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/TwoSum.js) | Easy | [Two Sum](http://blog.csdn.net/u014627807/article/details/79337822)
-| 2 | [Add Two Numbers 两数相加](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/AddTwoNumbers.js) | Medium | 
-| 3 | [Longest Substring Without Repeating Characters 无重复字符的最长子串](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/LongestSubstringWithoutRepeatingCharacters%20.js) | Medium |
-| 4 | [Median of Two Sorted Arrays 两个排序数组的中位数](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Hard/MedianofTwoSortedArrays.js) | Hard | 
-| 5 | [Longest Palindromic Substring 最长回文子串](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/LongestPalindromicSubstring.js) | Medium |
-| 6 | [ZigZag Converesion Z字形变换](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/ZigZagConveresion.js) | Medium | 
-| 7 | [Reverse Integer 翻转整数](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/ReverseInteger.js) | Easy | 
+| 2 | [Add Two Numbers 两数相加](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/AddTwoNumbers.js) | Medium | [Add Two Numbers](http://blog.csdn.net/u014627807/article/details/79341302)
+| 3 | [Longest Substring Without Repeating Characters 无重复字符的最长子串](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/LongestSubstringWithoutRepeatingCharacters%20.js) | Medium |[Longest Substring Without Repeating Characters](http://blog.csdn.net/u014627807/article/details/79359428)
+| 4 | [Median of Two Sorted Arrays 两个排序数组的中位数](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Hard/MedianofTwoSortedArrays.js) | Hard |[Median of Two Sorted Arrays](http://blog.csdn.net/u014627807/article/details/79376119)
+| 5 | [Longest Palindromic Substring 最长回文子串](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/LongestPalindromicSubstring.js) | Medium |[Longest Palindromic Substring](http://blog.csdn.net/u014627807/article/details/79859735)
+| 6 | [ZigZag Converesion Z字形变换](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/ZigZagConveresion.js) | Medium | [ZigZag Converesion](http://blog.csdn.net/u014627807/article/details/80145960) 
+| 7 | [Reverse Integer 翻转整数](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/ReverseInteger.js) | Easy | [Reverse Integer](http://blog.csdn.net/u014627807/article/details/79337844) 
 | 8 | [String to Integer (atoi) 字符串转为整数](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/StringtoInteger(atoi).js) | Medium | 
 | 9 | [Palindrome Number 回文数字](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/PalindromeNumber.js) | Easy | 
 | 10 | [Regular Expression Matching 正则表达式匹配](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Hard/RegularExpressionMatching.js) | Hard | 
