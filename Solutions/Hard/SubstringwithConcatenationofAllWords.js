@@ -3,7 +3,7 @@
  * @param {string[]} words
  * @return {number[]}
  */
-var findSubstring = function(s, words) {
+const findSubstring = (s, words) => {
   if (words.length === 0 || s.length === 0) return [];
   let map = {},
     res = [],

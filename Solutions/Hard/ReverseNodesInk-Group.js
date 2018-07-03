@@ -10,7 +10,7 @@
  * @param {number} k
  * @return {ListNode}
  */
-var reverseKGroup = function (head, k) {
+const reverseKGroup = (head, k) => {
   if (!head || head.next === null || k < 2) {
     return head;
   }

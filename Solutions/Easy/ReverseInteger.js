@@ -2,7 +2,7 @@
  * @param {number} x
  * @return {number}
  */
-var reverse = function(x) {
+const reverse = x => {
   let res = 0;
   while (x) {
     res = res * 10 + (x % 10);

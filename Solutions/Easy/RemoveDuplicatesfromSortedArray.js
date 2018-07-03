@@ -2,7 +2,7 @@
  * @param {number[]} nums
  * @return {number}
  */
-var removeDuplicates = function(nums) {
+const removeDuplicates = nums => {
   if (nums.length === 0) return 0;
   let i = 0,
     j = 0,

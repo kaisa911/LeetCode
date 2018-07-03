@@ -2,7 +2,7 @@
  * @param {character[][]} board
  * @return {void} Do not return anything, modify board in-place instead.
  */
-var solveSudoku = function(board) {
+const solveSudoku = board => {
   var row = new Array(9),
     col = new Array(9),
     cell = new Array(9);

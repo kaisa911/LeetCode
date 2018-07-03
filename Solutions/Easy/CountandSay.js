@@ -2,7 +2,7 @@
  * @param {number} n
  * @return {string}
  */
-var countAndSay = function(n) {
+const countAndSay = n => {
   if (n <= 0) return '';
   let res = '1';
   while (--n) {

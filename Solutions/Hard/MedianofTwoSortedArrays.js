@@ -3,33 +3,33 @@
  * @param {number[]} nums2
  * @return {number}
  */
-var findMedianSortedArrays = function(nums1, nums2) {
-  let m = nums1.length;
-  let n = nums2.length;
-  let total = m + n;
-  let half = total >> 1;
-
-  if (total & 1) return findKth(nums1, m, nums2, n, half + 1);
-  else
-    return (
-      (findKth(nums1, m, nums2, n, half) +
-        findKth(nums1, m, nums2, n, half + 1)) /
-      2
-    );
+const findMedianSortedArrays = function(nums1, nums2) {
+  let i,
+    j,
+    left,
+    arr = [];
+  for (i = 0, j = 0; i < nums1.length && j < nums2.length; ) {
+    if (nums1[i] > nums2[j]) {
+      arr.push(nums2[j++]);
+    } else {
+      arr.push(nums1[i++]);
+    }
+  }
+  left = nums1.length === i ? nums2.slice(j) : nums1.slice(i);
+  arr = arr.concat(left);
+  if (arr.length % 2) {
+    return arr[Math.floor(arr.length / 2)];
+  } else {
+    return (arr[Math.floor(arr.length / 2)] + arr[Math.floor(arr.length / 2 - 1)]) / 2;
+  }
 };
 
-function findKth(a, m, b, n, k) {
-  // always assume that m is equal or smaller than n
-  if (m > n) return findKth(b, n, a, m, k);
-  if (m === 0) return b[k - 1];
-  if (k === 1) return Math.min(a[0], b[0]);
-
-  // divide k into two parts
-  let pa = Math.min(k >> 1, m),
-    pb = k - pa;
-
-  if (a[pa - 1] < b[pb - 1]) return findKth(a.slice(pa), m - pa, b, n, k - pa);
-  else if (a[pa - 1] > b[pb - 1])
-    return findKth(a, m, b.slice(pb), n - pb, k - pb);
-  else return a[pa - 1];
-}
+const findMedianSortedArrays = (nums1, nums2) => {
+  let arr = nums1.concat(nums2).sort((a, b) => a - b);
+  let l = arr.length;
+  let m = Math.floor(l / 2);
+  if (l % 2) {
+    return arr[m];
+  }
+  return (arr[m - 1] + arr[m]) / 2;
+};

@@ -2,13 +2,13 @@
  * @param {string} s
  * @return {boolean}
  */
-var isValid = function(s) {
+const isValid = s => {
   let bracketStack = [];
 
   for (let i = 0; i < s.length; i++) {
     let char = s.charAt(i);
 
-    if (char == '(' || char == '[' || char == '{') {
+    if (char === '(' || char === '[' || char === '{') {
       bracketStack.push(char);
     } else {
       if (bracketStack.length === 0) {
@@ -16,11 +16,11 @@ var isValid = function(s) {
       }
 
       let oldChar = bracketStack.pop();
-      if (oldChar == '(' && char != ')') {
+      if (oldChar === '(' && char !== ')') {
         return false;
-      } else if (oldChar == '[' && char != ']') {
+      } else if (oldChar === '[' && char !== ']') {
         return false;
-      } else if (oldChar == '{' && char != '}') {
+      } else if (oldChar === '{' && char !== '}') {
         return false;
       }
     }

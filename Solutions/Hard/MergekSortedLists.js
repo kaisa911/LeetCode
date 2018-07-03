@@ -9,7 +9,7 @@
  * @param {ListNode[]} lists
  * @return {ListNode}
  */
-var mergeKLists = function(lists) {
+const mergeKLists = lists => {
   const merge2Lists = (l1, l2) => {
     if (!l1 && l2) return l2;
     if (l1 && !l2) return l1;
