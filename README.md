@@ -5,7 +5,7 @@ some exercises of leetcode<br/>
 
 | Number | Name | Difficulty | Expansion |
 | ------------- |:-------------:| -----:| -----:| 
-| 1 | [Two Sum 两数之和](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/TwoSum.js) | Easy | 
+| 1 | [Two Sum 两数之和](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/TwoSum.js) | Easy | [Two Sum](http://blog.csdn.net/u014627807/article/details/79337822)
 | 2 | [Add Two Numbers 两数相加](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/AddTwoNumbers.js) | Medium | 
 | 3 | [Longest Substring Without Repeating Characters 无重复字符的最长子串](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/LongestSubstringWithoutRepeatingCharacters%20.js) | Medium |
 | 4 | [Median of Two Sorted Arrays 两个排序数组的中位数](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Hard/MedianofTwoSortedArrays.js) | Hard | 
@@ -39,6 +39,7 @@ some exercises of leetcode<br/>
 | 34 | [Search for a Range 搜索范围](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/SearchforaRange.js) | Medium | 
 | 35 | [Search Insert Position 搜索插入位置](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/SearchInsertPosition.js) | Easy | 
 | 36 | [Valid Sudoku 验证数独](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/ValidSudoku.js) | Medium | 
+| 37 | [Sudoku Solver 解数独](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Hard/SudokuSolver.js) | Hard | 
 | 38 | [Count and Say 数数并说](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/CountandSay.js) | Easy | 
 | 43 | [Maximum Subarray 最大子序和](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/MaximumSubarray.js) | Medium | 
 | 53 | [Multiply String 字符串相乘](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/MaximumSubarray.js) | Easy | 
