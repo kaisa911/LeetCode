@@ -41,6 +41,8 @@ some exercises of leetcode<br/>
 | 36 | [Valid Sudoku 验证数独](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/ValidSudoku.js) | Medium | 
 | 37 | [Sudoku Solver 解数独](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Hard/SudokuSolver.js) | Hard | 
 | 38 | [Count and Say 数数并说](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/CountandSay.js) | Easy | 
+| 39 | [CombinationSum 组合之和](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/CombinationSum.js) | Medium | 
+| 40 | [CombinationSumII 组合之和](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/CombinationSumII.js) | Medium | 
 | 43 | [Maximum Subarray 最大子序和](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/MaximumSubarray.js) | Medium | 
 | 53 | [Multiply String 字符串相乘](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/MaximumSubarray.js) | Easy | 
 | 58 | [Length of Last Word 最后一个单词的长度](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/LengthofLastWord.js) | Easy |
