@@ -10,7 +10,7 @@
  * @param {number} n
  * @return {ListNode}
  */
-var removeNthFromEnd = function(head, n) {
+const removeNthFromEnd = (head, n) => {
   let temp = head;
   let target = null; //倒数n+1个节点或头节点
   if (head === null || head.next === null) {

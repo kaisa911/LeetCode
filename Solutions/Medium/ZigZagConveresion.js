@@ -3,7 +3,7 @@
  * @param {number} numRows
  * @return {string}
  */
-var convert = function(s, numRows) {
+const convert = (s, numRows) => {
   if (numRows <= 1) return s;
   let res = '';
   let size = 2 * numRows - 2;

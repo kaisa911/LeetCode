@@ -2,15 +2,15 @@
  * @param {number[]} nums
  * @return {void} Do not return anything, modify nums in-place instead.
  */
-var nextPermutation = function(nums) {
-  var pivot = nums.length - 1;
+const nextPermutation = nums => {
+  let pivot = nums.length - 1;
   while (nums[pivot] <= nums[--pivot]) {}
 
-  for (var successor = nums.length - 1; successor > pivot; successor--) {
+  for (let successor = nums.length - 1; successor > pivot; successor--) {
     if (nums[successor] > nums[pivot]) break;
   }
   if (pivot != successor) {
-    var b = nums[pivot];
+    let b = nums[pivot];
     nums[pivot] = nums[successor];
     nums[successor] = b;
   }

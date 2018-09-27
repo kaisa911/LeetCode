@@ -2,7 +2,7 @@
  * @param {string} s
  * @return {string}
  */
-var longestPalindrome = function(s) {
+const longestPalindrome = s => {
   let Maxlen = 0,
     len = 0,
     left,
@@ -21,11 +21,7 @@ var longestPalindrome = function(s) {
     //重复的两侧的字符是否回文
     let offstart = start;
     let offend = end;
-    for (
-      offset = 1;
-      offset <= Math.min(offstart, s.length - offend - 1);
-      offset++
-    ) {
+    for (offset = 1; offset <= Math.min(offstart, s.length - offend - 1); offset++) {
       if (s[offstart - offset] === s[offend + offset]) {
         len += 2;
         start = start - 1;

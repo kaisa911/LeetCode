@@ -2,13 +2,13 @@
  * @param {number} n
  * @return {string[]}
  */
-var generateParenthesis = function(n) {
+const generateParenthesis = (n) => {
   let res = [];
   Helper(n, n, '', res);
   return res;
 };
 
-function Helper(left, right, str, res) {
+const Helper = (left, right, str, res)=> {
   if (left > right) return;
   if ((left == 0) & (right == 0)) {
     res.push(str);

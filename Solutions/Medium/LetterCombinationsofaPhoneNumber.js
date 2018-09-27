@@ -2,7 +2,7 @@
  * @param {string} digits
  * @return {string[]}
  */
-var letterCombinations = function(digits) {
+const letterCombinations = (digits) => {
   let strMap = {
     '2': 'abc',
     '3': 'def',

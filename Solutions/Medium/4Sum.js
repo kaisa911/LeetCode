@@ -3,10 +3,8 @@
  * @param {number} target
  * @return {number[][]}
  */
-var fourSum = function(nums, target) {
-  nums = nums.sort(function(a, b) {
-    return a - b;
-  });
+const fourSum = (nums, target) => {
+  nums = nums.sort((a, b)=> a - b);
   const res = [];
   for (let i = 0; i < nums.length - 3; i++) {
     if (i > 0 && nums[i] == nums[i - 1]) continue;

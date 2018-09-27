@@ -9,9 +9,7 @@ const threeSum = nums => {
   let result = [];
   let arr = [];
 
-  nums.sort(function(a, b) {
-    return a - b;
-  });
+  nums.sort((a, b) => a - b);
   for (let i = 0; i < nums.length - 1; i++) {
     // 去重
     if (nums[i] !== nums[i - 1]) {

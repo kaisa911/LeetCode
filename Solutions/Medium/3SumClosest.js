@@ -6,9 +6,7 @@
 const threeSumClosest = (nums, target) => {
   let closest = nums[0] + nums[1] + nums[2];
   let diff = Math.abs(closest - target);
-  nums.sort(function(a, b) {
-    return a - b;
-  });
+  nums.sort((a, b) => a - b);
   for (let i = 0; i < nums.length - 2; ++i) {
     let left = i + 1,
       right = nums.length - 1;

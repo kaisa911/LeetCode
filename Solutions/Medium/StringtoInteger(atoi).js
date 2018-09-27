@@ -2,7 +2,7 @@
  * @param {string} str
  * @return {number}
  */
-var myAtoi = function(str) {
+const myAtoi = str => {
   if (!str) return 0;
 
   str = str.trim();

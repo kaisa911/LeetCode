@@ -3,7 +3,7 @@
  * @param {number} target
  * @return {number}
  */
-var search = function(nums, target) {
+const search = (nums, target) => {
   if (nums.length == 0) return -1;
   let left = 0,
     right = nums.length - 1;

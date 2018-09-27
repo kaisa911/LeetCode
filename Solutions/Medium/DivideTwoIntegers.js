@@ -3,7 +3,7 @@
  * @param {number} divisor
  * @return {number}
  */
-var divide = function(dividend, divisor) {
+const divide = (dividend, divisor) => {
   let MAX_VALUE = Math.pow(2, 31) - 1,
     MIN_VALUE = -Math.pow(2, 31),
     flag = 1,

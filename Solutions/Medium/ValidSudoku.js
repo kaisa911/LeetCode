@@ -2,7 +2,7 @@
  * @param {character[][]} board
  * @return {boolean}
  */
-var isValidSudoku = function(board) {
+const isValidSudoku = board => {
   let char,
     rowNums = [],
     colNums = [],
@@ -10,8 +10,8 @@ var isValidSudoku = function(board) {
     m = board.length,
     n = board[0].length;
 
-  for (var i = 0; i < m; i++) {
-    for (var j = 0; j < n; j++) {
+  for (let i = 0; i < m; i++) {
+    for (let j = 0; j < n; j++) {
       char = board[i][j];
       if (char !== '.') {
         if (rowNums.indexOf(char) > -1) return false;

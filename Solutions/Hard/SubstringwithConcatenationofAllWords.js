@@ -24,11 +24,11 @@ const findSubstring = (s, words) => {
   }
   return res;
 
-  function checkSubstring(s, compare, i, word_len, total_len) {
+  const checkSubstring = (s, compare, i, word_len, total_len) => {
     let words = [];
     for (let j = i; j < i + total_len; j += word_len) {
       words.push(s.substr(j, word_len));
     }
     return compare === words.sort().join('');
-  }
+  };
 };

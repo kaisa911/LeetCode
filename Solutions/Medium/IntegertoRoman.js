@@ -2,7 +2,7 @@
  * @param {number} num
  * @return {string}
  */
-var intToRoman = function(num) {
+const intToRoman = (num) => {
   let res = '',
     val = [1000, 900, 500, 400, 100, 90, 50, 40, 10, 9, 5, 4, 1],
     str = [
@@ -22,7 +22,7 @@ var intToRoman = function(num) {
     ],
     i;
 
-  for (i = 0; i < val.length; ++i) {
+  for (let i = 0; i < val.length; ++i) {
     while (num >= val[i]) {
       num -= val[i];
       res += str[i];

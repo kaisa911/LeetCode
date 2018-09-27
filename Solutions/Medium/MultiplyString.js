@@ -3,7 +3,7 @@
  * @param {string} num2
  * @return {string}
  */
-var multiply = function(num1, num2) {
+const multiply = (num1, num2) => {
   let arr1,
     arr2,
     carry,
@@ -15,14 +15,7 @@ var multiply = function(num1, num2) {
     tag,
     res = [];
 
-  if (
-    !num1 ||
-    !num2 ||
-    !num1.length ||
-    !num2.length ||
-    num1 === '0' ||
-    num2 === '0'
-  ) {
+  if (!num1 || !num2 || !num1.length || !num2.length || num1 === '0' || num2 === '0') {
     return '0';
   }
 
@@ -40,7 +33,7 @@ var multiply = function(num1, num2) {
       sum = product + tag;
       index = sum % 10;
       carry = Math.floor(sum / 10);
-      res[i + j] = index; 
+      res[i + j] = index;
     }
     if (carry > 0) {
       res[i + j] = carry;
