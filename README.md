@@ -57,3 +57,7 @@ some exercises of leetcode<br/>
 | 118 | [Pascals Triangle 杨辉三角](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/PascalsTriangle.js) | Easy |
 | 119 | [Pascals Triangle ii 杨辉三角2](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/PascalsTriangleii.js) | Easy |
 | 203 | [Remove Linked List Elements 删除链表中的元素](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/RemoveLinkedListElements.js) | Easy |
+| 231 | [isPowerOfTwo 2的幂](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/231-isPowerOfTwo.js) | Easy |
+| 321 | [isPowerOfThree 3的幂](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/321-isPowerOfThree.js) | Easy |
+| 342 | [isPowerOfFour 4的幂](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/342-isPowerOfFour.js) | Easy |
+| 405 | [ToHex 转16进制](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/405-ToHex.js) | Easy |
