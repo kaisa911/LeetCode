@@ -56,8 +56,14 @@ some exercises of leetcode<br/>
 | 100 | [Same Tree 相同的树](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/SameTree.js) | Easy |
 | 118 | [Pascals Triangle 杨辉三角](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/PascalsTriangle.js) | Easy |
 | 119 | [Pascals Triangle ii 杨辉三角2](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/PascalsTriangleii.js) | Easy |
+| 136 | [SingleNumber 只出现一次的数字](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/136-singleNumber.js) | Easy |
+| 189 | [RotateArray 旋转数组](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/189-rotateArray.js) | Easy |
+| 190 | [190-reverseBits 颠倒二进制位](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/190-reverseBits.js) | Easy |
+| 191 | [HammingWeight 颠倒二进制位](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/191-hammingWeight.js) | Easy |
 | 203 | [Remove Linked List Elements 删除链表中的元素](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/RemoveLinkedListElements.js) | Easy |
 | 231 | [isPowerOfTwo 2的幂](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/231-isPowerOfTwo.js) | Easy |
 | 321 | [isPowerOfThree 3的幂](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/321-isPowerOfThree.js) | Easy |
 | 342 | [isPowerOfFour 4的幂](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/342-isPowerOfFour.js) | Easy |
+| 389 | [FindTheDifference 找不同](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/389-findTheDifference.js) | Easy |
 | 405 | [ToHex 转16进制](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/405-ToHex.js) | Easy |
+| 643 | [FindMaxAverage 子数组最大平均数 I](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/643-findMaxAverage.js) | Easy |
