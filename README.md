@@ -10,7 +10,7 @@ some exercises of leetcode<br/>
 | 4 | [Median of Two Sorted Arrays 两个排序数组的中位数](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Hard/MedianofTwoSortedArrays.js) | Hard |
 | 5 | [Longest Palindromic Substring 最长回文子串](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/LongestPalindromicSubstring.js) | Medium |
 | 6 | [ZigZag Converesion Z字形变换](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/ZigZagConveresion.js) | Medium |  
-| 7 | [Reverse Integer 翻转整数](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/ReverseInteger.js) | Easy | [Reverse Integer](http://blog.csdn.net/u014627807/article/details/79337844) 
+| 7 | [Reverse Integer 翻转整数](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/ReverseInteger.js) | Easy |
 | 8 | [String to Integer (atoi) 字符串转为整数](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/StringtoInteger(atoi).js) | Medium | 
 | 9 | [Palindrome Number 回文数字](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/PalindromeNumber.js) | Easy | 
 | 10 | [Regular Expression Matching 正则表达式匹配](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Hard/RegularExpressionMatching.js) | Hard | 
