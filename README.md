@@ -1,16 +1,15 @@
 # LeetCode
 some exercises of leetcode<br/>
-具体的思路可以参考：https://blog.csdn.net/u014627807/article/details/79326846<br/>
 <br/>
 
 | Number | Name | Difficulty | Thinking |
 | ------------- |:-------------:| :-----:| :-----:| 
-| 1 | [Two Sum 两数之和](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/TwoSum.js) | Easy | [Two Sum](http://blog.csdn.net/u014627807/article/details/79337822)
-| 2 | [Add Two Numbers 两数相加](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/AddTwoNumbers.js) | Medium | [Add Two Numbers](http://blog.csdn.net/u014627807/article/details/79341302)
-| 3 | [Longest Substring Without Repeating Characters 无重复字符的最长子串](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/LongestSubstringWithoutRepeatingCharacters%20.js) | Medium |[Longest Substring Without Repeating Characters](http://blog.csdn.net/u014627807/article/details/79359428)
-| 4 | [Median of Two Sorted Arrays 两个排序数组的中位数](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Hard/MedianofTwoSortedArrays.js) | Hard |[Median of Two Sorted Arrays](http://blog.csdn.net/u014627807/article/details/79376119)
-| 5 | [Longest Palindromic Substring 最长回文子串](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/LongestPalindromicSubstring.js) | Medium |[Longest Palindromic Substring](http://blog.csdn.net/u014627807/article/details/79859735)
-| 6 | [ZigZag Converesion Z字形变换](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/ZigZagConveresion.js) | Medium | [ZigZag Converesion](http://blog.csdn.net/u014627807/article/details/80145960) 
+| 1 | [Two Sum 两数之和](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/TwoSum.js) | Easy | 
+| 2 | [Add Two Numbers 两数相加](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/AddTwoNumbers.js) | Medium | 
+| 3 | [Longest Substring Without Repeating Characters 无重复字符的最长子串](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/LongestSubstringWithoutRepeatingCharacters%20.js) | Medium |
+| 4 | [Median of Two Sorted Arrays 两个排序数组的中位数](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Hard/MedianofTwoSortedArrays.js) | Hard |
+| 5 | [Longest Palindromic Substring 最长回文子串](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/LongestPalindromicSubstring.js) | Medium |
+| 6 | [ZigZag Converesion Z字形变换](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/ZigZagConveresion.js) | Medium |  
 | 7 | [Reverse Integer 翻转整数](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/ReverseInteger.js) | Easy | [Reverse Integer](http://blog.csdn.net/u014627807/article/details/79337844) 
 | 8 | [String to Integer (atoi) 字符串转为整数](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/StringtoInteger(atoi).js) | Medium | 
 | 9 | [Palindrome Number 回文数字](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/PalindromeNumber.js) | Easy | 
@@ -57,15 +56,18 @@ some exercises of leetcode<br/>
 | 118 | [Pascals Triangle 杨辉三角](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/PascalsTriangle.js) | Easy |
 | 119 | [Pascals Triangle ii 杨辉三角2](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/PascalsTriangleii.js) | Easy |
 | 136 | [SingleNumber 只出现一次的数字](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/136-singleNumber.js) | Easy |
+| 167 | [TwoSum-II 两数之和 II - 输入有序数组](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/167-TwoSumII.js) | Easy |
+| 169 | [MajorityElement 求众数](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/169-majorityElement.js) | Easy |
 | 189 | [RotateArray 旋转数组](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/189-rotateArray.js) | Easy |
-| 190 | [190-reverseBits 颠倒二进制位](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/190-reverseBits.js) | Easy |
+| 190 | [ReverseBits 颠倒二进制位](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/190-reverseBits.js) | Easy |
 | 191 | [HammingWeight 颠倒二进制位](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/191-hammingWeight.js) | Easy |
 | 203 | [Remove Linked List Elements 删除链表中的元素](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/RemoveLinkedListElements.js) | Easy |
-| 217 | [containsDuplicate 存在重复元素](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/217-containsDuplicate.js) | Easy |
-| 219 | [containsNearbyDuplicate 存在重复元素II](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/219-containsNearbyDuplicate.js) | Easy |
-| 231 | [isPowerOfTwo 2的幂](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/231-isPowerOfTwo.js) | Easy |
-| 321 | [isPowerOfThree 3的幂](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/321-isPowerOfThree.js) | Easy |
-| 342 | [isPowerOfFour 4的幂](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/342-isPowerOfFour.js) | Easy |
+| 217 | [ContainsDuplicate 存在重复元素](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/217-containsDuplicate.js) | Easy |
+| 219 | [ContainsNearbyDuplicate 存在重复元素II](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/219-containsNearbyDuplicate.js) | Easy |
+| 231 | [IsPowerOfTwo 2的幂](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/231-isPowerOfTwo.js) | Easy |
+| 268 | [MissingNumber 缺失数字](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/268-missingNumber.js) | Easy |
+| 321 | [IsPowerOfThree 3的幂](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/321-isPowerOfThree.js) | Easy |
+| 342 | [IsPowerOfFour 4的幂](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/342-isPowerOfFour.js) | Easy |
 | 344 | [ReverseString  反转字符串](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/344-reverseString.js) | Easy |
 | 389 | [FindTheDifference 找不同](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/389-findTheDifference.js) | Easy |
 | 405 | [ToHex 转16进制](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/405-ToHex.js) | Easy |
