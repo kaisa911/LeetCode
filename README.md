@@ -4,7 +4,7 @@ some exercises of leetcode<br/>
 
 | Number | Name | Difficulty | Thinking |
 | ------------- |:-------------:| :-----:| :-----:| 
-| 1 | [Two Sum 两数之和](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/TwoSum.js) | Easy | 
+| 1 | [Two Sum 两数之和](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/1-TwoSum.js) | Easy | 
 | 2 | [Add Two Numbers 两数相加](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/AddTwoNumbers.js) | Medium | 
 | 3 | [Longest Substring Without Repeating Characters 无重复字符的最长子串](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/LongestSubstringWithoutRepeatingCharacters%20.js) | Medium |
 | 4 | [Median of Two Sorted Arrays 两个排序数组的中位数](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Hard/MedianofTwoSortedArrays.js) | Hard |
