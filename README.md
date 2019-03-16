@@ -77,6 +77,7 @@ some exercises of leetcode<br/>
 | 509 | [Fibonacci 斐波那契数](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/509-Fibonacci.js) | Easy |
 | 628 | [MaximumProduct 三个数的最大乘积](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/628-maximumProduct.js) | Easy |
 | 643 | [FindMaxAverage 子数组最大平均数 I](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/643-findMaxAverage.js) | Easy |
+| 747 | [DominantIndex 至少是其他数字两倍的最大数](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/747-dominantIndex.js) | Easy |
 | 907 | [SortedSquares 有序数组的平方](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/907-sortedSquares.js) | Easy |
 | 989 | [AddToArrayForm 数组形式的整数加法](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/989-addToArrayForm.js) | Easy |
 | 1002 | [CommonChars 查找常用字符](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/1002-commonChars.js) | Easy |
