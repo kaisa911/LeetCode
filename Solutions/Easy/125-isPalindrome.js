@@ -3,10 +3,10 @@
  * @param {string} s
  * @return {boolean}
  */
-var isPalindrome = function(s) {
+const isPalindrome = s => {
   if (s === '') return true;
   const test = /[^A-Za-z0-9]/g;
-  const newStr = s.replace(test, '');
+  const newStr = s.replace(test, '').toLocaleLowerCase();
   const len = newStr.length / 2;
   const mid = Math.floor(len);
   if (newStr.length % 2 === 1) {
@@ -26,21 +26,7 @@ var isPalindrome = function(s) {
   return true;
 };
 
-const helper = (a, b) => {
-  console.log(a, b);
-  if (a === b) {
-    return true;
-  } else {
-    if (typeof a === 'string' && typeof b === 'string') {
-      if (a === b.toLowerCase()) {
-        return true;
-      } else if (b === a.toLowerCase()) {
-        return true;
-      }
-    }
-  }
-  return false;
-};
+const helper = (a, b) => a === b;
 
 /**
  * 大佬的写法
