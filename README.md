@@ -71,6 +71,7 @@ some exercises of leetcode<br/>
 | 321 | [IsPowerOfThree 3的幂](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/321-isPowerOfThree.js) | Easy |
 | 342 | [IsPowerOfFour 4的幂](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/342-isPowerOfFour.js) | Easy |
 | 344 | [ReverseString  反转字符串](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/344-reverseString.js) | Easy |
+| 387 | [FirstUniqChar  字符串中的第一个唯一字符](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/387-firstUniqChar.js) | Easy |
 | 389 | [FindTheDifference 找不同](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/389-findTheDifference.js) | Easy |
 | 405 | [ToHex 转16进制](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/405-ToHex.js) | Easy |
 | 414 | [ThirdMax 转16进制](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/414-thirdMax.js) | Easy |
