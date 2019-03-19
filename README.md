@@ -22,17 +22,17 @@ some exercises of leetcode<br/>
 | 16 | [3Sum Closest 最接近的三数之和](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/16-3SumClosest.js) | Medium |
 | 17 | [Letter Combinations of a PhoneNumber 电话号码的字母组合](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/17-LetterCombinationsofaPhoneNumber.js) | Medium | 
 | 18 | [4Sum 四数之和](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/18-4Sum.js) | Medium | 
-| 19 | [Remove Nth Node From End of List 删除链表的倒数第N个节点](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/RemoveNthNodeFromEndofList.js) | Medium | 
-| 20 | [Valid Parentheses 有效的括号](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/ValidParentheses.js) | Easy | 
-| 21 | [Merge Two Sorted Lists 合并两个有序链表](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/MergeTwoSortedLists.js) | Easy | 
-| 22 | [Generate Parentheses 生成括号](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/GenerateParentheses.js) | Medium | 
-| 23 | [Merge k Sorted Lists 合并K个排序链表](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Hard/MergekSortedLists.js) | Hard | 
-| 24 | [Swap Nodes In Pairs 两两交换链表中的节点](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/SwapNodesInPairs.js) | Medium | 
-| 26 | [Remove Duplicates from Sorted Array 从有序数组中删除重复项](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/RemoveDuplicatesfromSortedArray.js) | Easy |
-| 27 | [Remove Element 移除元素](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/RemoveElement.js) | Easy |
-| 28 | [Implement strStr() 实现strStr()](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/ImplementstrStr().js) | Easy | 
-| 29 | [Divide Two Integers 两数相除](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/DivideTwoIntegers.js) | Medium | 
-| 30 | [Substring with Concatenation of All Words 串联所有单词的子串](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Hard/SubstringwithConcatenationofAllWords.js) | Hard | 
+| 19 | [Remove Nth Node From End of List 删除链表的倒数第N个节点](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/19-RemoveNthNodeFromEndofList.js) | Medium | 
+| 20 | [Valid Parentheses 有效的括号](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/20-ValidParentheses.js) | Easy | 
+| 21 | [Merge Two Sorted Lists 合并两个有序链表](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/21-MergeTwoSortedLists.js) | Easy | 
+| 22 | [Generate Parentheses 生成括号](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/22-GenerateParentheses.js) | Medium | 
+| 23 | [Merge k Sorted Lists 合并K个排序链表](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Hard/23-MergekSortedLists.js) | Hard | 
+| 24 | [Swap Nodes In Pairs 两两交换链表中的节点](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/24-SwapNodesInPairs.js) | Medium | 
+| 26 | [Remove Duplicates from Sorted Array 从有序数组中删除重复项](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/26-RemoveDuplicatesfromSortedArray.js) | Easy |
+| 27 | [Remove Element 移除元素](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/27-RemoveElement.js) | Easy |
+| 28 | [Implement strStr() 实现strStr()](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/28-ImplementstrStr().js) | Easy | 
+| 29 | [Divide Two Integers 两数相除](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/29-DivideTwoIntegers.js) | Medium | 
+| 30 | [Substring with Concatenation of All Words 串联所有单词的子串](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Hard/30-SubstringwithConcatenationofAllWords.js) | Hard | 
 | 31 | [Next-permutation 下一个排列](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/Next-permutation.js) | Medium | 
 | 32 | [Longest Valid Parentheses 最长有效括号](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Hard/LongestValidParentheses.js) | Hard | 
 | 33 | [Search in Rotated Sorted Array 在旋转有序数组中搜索](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/SearchinRotatedSortedArray.js) | Medium | 
