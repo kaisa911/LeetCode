@@ -28,16 +28,17 @@ some exercises of leetcode
 | 22 | [Generate Parentheses 生成括号](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/22-GenerateParentheses.js) | Medium |  
 | 23 | [Merge k Sorted Lists 合并K个排序链表](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Hard/23-MergekSortedLists.js) | Hard |  
 | 24 | [Swap Nodes In Pairs 两两交换链表中的节点](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/24-SwapNodesInPairs.js) | Medium |  
+| 25| [Reverse Nodes in k-Group 每k个一组翻转链表](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Hard/25-ReverseNodesInk-Group.js) | Hard |  
 | 26 | [Remove Duplicates from Sorted Array 从有序数组中删除重复项](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/26-RemoveDuplicatesfromSortedArray.js) | Easy |
 | 27 | [Remove Element 移除元素](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/27-RemoveElement.js) | Easy |
 | 28 | [Implement strStr() 实现strStr()](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/28-ImplementstrStr().js) | Easy |  
 | 29 | [Divide Two Integers 两数相除](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/29-DivideTwoIntegers.js) | Medium |  
 | 30 | [Substring with Concatenation of All Words 串联所有单词的子串](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Hard/30-SubstringwithConcatenationofAllWords.js) | Hard |  
 | 31 | [Next-permutation 下一个排列](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/Next-permutation.js) | Medium |  
-| 32 | [Longest Valid Parentheses 最长有效括号](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Hard/LongestValidParentheses.js) | Hard |  
+| 32 | [Longest Valid Parentheses 最长有效括号](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Hard/32-LongestValidParentheses.js) | Hard |  
 | 33 | [Search in Rotated Sorted Array 在旋转有序数组中搜索](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/SearchinRotatedSortedArray.js) | Medium |  
 | 34 | [Search for a Range 搜索范围](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/SearchforaRange.js) | Medium |  
-| 35 | [Search Insert Position 搜索插入位置](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/SearchInsertPosition.js) | Easy |  
+| 35 | [Search Insert Position 搜索插入位置](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/35-SearchInsertPosition.js) | Easy |  
 | 36 | [Valid Sudoku 验证数独](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/ValidSudoku.js) | Medium |  
 | 37 | [Sudoku Solver 解数独](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Hard/SudokuSolver.js) | Hard |  
 | 38 | [Count and Say 数数并说](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/38-CountandSay.js) | Easy |  
@@ -48,7 +49,7 @@ some exercises of leetcode
 | 58 | [Length of Last Word 最后一个单词的长度](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/58-LengthofLastWord.js) | Easy |
 | 66 | [Plus One 加一](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/66-PlusOne.js) | Easy |  
 | 67 | [Add Binary 二进制求和](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/67-AddBinary.js) | Easy |  
-| 69 | [Sqrt(x) x 的平方根](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/Sqrt(x).js) | Easy |  
+| 69 | [Sqrt(x) x 的平方根](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/69-Sqrt(x).js) | Easy |  
 | 70 | [Climbing Stairs 爬楼梯](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/70-ClimbingStairs.js) | Easy |
 | 83 | [Remove Duplicates from Sorted List 删除排序链表中的重复元素](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/83-RemoveDuplicatesfromSortedList.js) | Easy |
 | 88 | [Merge Sorted Array 合并两个有序数组](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/88-MergeSortedArray.js) | Easy |
