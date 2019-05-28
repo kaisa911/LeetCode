@@ -43,7 +43,7 @@ some exercises of leetcode
 | 38 | [Count and Say 数数并说](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/38-CountandSay.js) | Easy |  
 | 39 | [CombinationSum 组合之和](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/CombinationSum.js) | Medium |  
 | 40 | [CombinationSumII 组合之和](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/CombinationSumII.js) | Medium |  
-| 43 | [Maximum Subarray 最大子序和](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/MaximumSubarray.js) | Medium |  
+| 43 | [Maximum Subarray 最大子序和](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/43-MaximumSubarray.js) | Medium |  
 | 53 | [Multiply String 字符串相乘](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/53-MultiplyString.js) | Easy |  
 | 58 | [Length of Last Word 最后一个单词的长度](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/58-LengthofLastWord.js) | Easy |
 | 66 | [Plus One 加一](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/PlusOne.js) | Easy |  
@@ -51,10 +51,10 @@ some exercises of leetcode
 | 69 | [Sqrt(x) x 的平方根](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/Sqrt(x).js) | Easy |  
 | 70 | [Climbing Stairs 爬楼梯](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/70-ClimbingStairs.js) | Easy |
 | 83 | [Remove Duplicates from Sorted List 删除排序链表中的重复元素](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/RemoveDuplicatesfromSortedList.js) | Easy |
-| 88 | [Merge Sorted Array 合并两个有序数组](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/MergeSortedArray.js) | Easy |
+| 88 | [Merge Sorted Array 合并两个有序数组](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/88-MergeSortedArray.js) | Easy |
 | 100 | [Same Tree 相同的树](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/SameTree.js) | Easy |
-| 118 | [Pascals Triangle 杨辉三角](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/PascalsTriangle.js) | Easy |
-| 119 | [Pascals Triangle ii 杨辉三角2](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/PascalsTriangleii.js) | Easy |
+| 118 | [Pascals Triangle 杨辉三角](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/118-PascalsTriangle.js) | Easy |
+| 119 | [Pascals Triangle ii 杨辉三角2](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/119-PascalsTriangleii.js) | Easy |
 | 125 | [IsPalindrome 验证回文串](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/125-isPalindrome.js) | Easy |
 | 136 | [SingleNumber 只出现一次的数字](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/136-singleNumber.js) | Easy |
 | 155 | [MinStack 最小栈](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/155-MinStack.js) | Easy |
