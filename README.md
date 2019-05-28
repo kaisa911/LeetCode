@@ -47,7 +47,7 @@ some exercises of leetcode<br/>
 | 53 | [Multiply String 字符串相乘](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/MaximumSubarray.js) | Easy | 
 | 58 | [Length of Last Word 最后一个单词的长度](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/LengthofLastWord.js) | Easy |
 | 66 | [Plus One 加一](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/PlusOne.js) | Easy | 
-| 67 | [Add Binary 二进制求和](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/AddBinary.js) | Easy | 
+| 67 | [Add Binary 二进制求和](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/67-AddBinary.js) | Easy | 
 | 69 | [Sqrt(x) x 的平方根](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/Sqrt(x).js) | Easy | 
 | 70 | [Climbing Stairs 爬楼梯](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/ClimbingStairs.js) | Easy |
 | 83 | [Remove Duplicates from Sorted List 删除排序链表中的重复元素](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/RemoveDuplicatesfromSortedList.js) | Easy |
