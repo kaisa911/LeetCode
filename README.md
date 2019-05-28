@@ -57,6 +57,7 @@ some exercises of leetcode<br/>
 | 119 | [Pascals Triangle ii 杨辉三角2](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/PascalsTriangleii.js) | Easy |
 | 125 | [IsPalindrome 验证回文串](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/125-isPalindrome.js) | Easy |
 | 136 | [SingleNumber 只出现一次的数字](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/136-singleNumber.js) | Easy |
+| 155 | [MinStack 最小栈](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/155-MinStack.js) | Easy |
 | 167 | [TwoSum-II 两数之和 II - 输入有序数组](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/167-TwoSumII.js) | Easy |
 | 169 | [MajorityElement 求众数](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/169-majorityElement.js) | Easy |
 | 189 | [RotateArray 旋转数组](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/189-rotateArray.js) | Easy |
