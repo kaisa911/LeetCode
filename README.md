@@ -46,13 +46,13 @@ some exercises of leetcode
 | 43 | [Maximum Subarray 最大子序和](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/43-MaximumSubarray.js) | Medium |  
 | 53 | [Multiply String 字符串相乘](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/53-MultiplyString.js) | Easy |  
 | 58 | [Length of Last Word 最后一个单词的长度](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/58-LengthofLastWord.js) | Easy |
-| 66 | [Plus One 加一](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/PlusOne.js) | Easy |  
+| 66 | [Plus One 加一](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/66-PlusOne.js) | Easy |  
 | 67 | [Add Binary 二进制求和](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/67-AddBinary.js) | Easy |  
 | 69 | [Sqrt(x) x 的平方根](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/Sqrt(x).js) | Easy |  
 | 70 | [Climbing Stairs 爬楼梯](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/70-ClimbingStairs.js) | Easy |
-| 83 | [Remove Duplicates from Sorted List 删除排序链表中的重复元素](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/RemoveDuplicatesfromSortedList.js) | Easy |
+| 83 | [Remove Duplicates from Sorted List 删除排序链表中的重复元素](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/83-RemoveDuplicatesfromSortedList.js) | Easy |
 | 88 | [Merge Sorted Array 合并两个有序数组](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/88-MergeSortedArray.js) | Easy |
-| 100 | [Same Tree 相同的树](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/SameTree.js) | Easy |
+| 100 | [Same Tree 相同的树](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/100-SameTree.js) | Easy |
 | 118 | [Pascals Triangle 杨辉三角](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/118-PascalsTriangle.js) | Easy |
 | 119 | [Pascals Triangle ii 杨辉三角2](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/119-PascalsTriangleii.js) | Easy |
 | 125 | [IsPalindrome 验证回文串](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/125-isPalindrome.js) | Easy |
@@ -63,7 +63,7 @@ some exercises of leetcode
 | 189 | [RotateArray 旋转数组](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/189-rotateArray.js) | Easy |
 | 190 | [ReverseBits 颠倒二进制位](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/190-reverseBits.js) | Easy |
 | 191 | [HammingWeight 颠倒二进制位](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/191-hammingWeight.js) | Easy |
-| 203 | [Remove Linked List Elements 删除链表中的元素](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/RemoveLinkedListElements.js) | Easy |
+| 203 | [Remove Linked List Elements 删除链表中的元素](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/203-RemoveLinkedListElements.js) | Easy |
 | 217 | [ContainsDuplicate 存在重复元素](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/217-containsDuplicate.js) | Easy |
 | 219 | [ContainsNearbyDuplicate 存在重复元素II](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/219-containsNearbyDuplicate.js) | Easy |
 | 231 | [IsPowerOfTwo 2的幂](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/231-isPowerOfTwo.js) | Easy |
