@@ -79,6 +79,7 @@ some exercises of leetcode
 | 414 | [ThirdMax 转16进制](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/414-thirdMax.js) | Easy |
 | 485 | [FindMaxConsecutiveOnes 最大连续1的个数](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/485-findMaxConsecutiveOnes.js) | Easy |
 | 509 | [Fibonacci 斐波那契数](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/509-Fibonacci.js) | Easy |
+| 561 | [ArrayPairSum 数组拆分 I](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/561-arrayPairSum.js) | Easy |
 | 628 | [MaximumProduct 三个数的最大乘积](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/628-maximumProduct.js) | Easy |
 | 643 | [FindMaxAverage 子数组最大平均数 I](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/643-findMaxAverage.js) | Easy |
 | 709 | [ToLowerCase 转换成小写字母](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/709-toLowerCase.js) | Easy |
