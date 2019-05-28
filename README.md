@@ -34,16 +34,16 @@ some exercises of leetcode
 | 28 | [Implement strStr() 实现strStr()](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/28-ImplementstrStr().js) | Easy |  
 | 29 | [Divide Two Integers 两数相除](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/29-DivideTwoIntegers.js) | Medium |  
 | 30 | [Substring with Concatenation of All Words 串联所有单词的子串](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Hard/30-SubstringwithConcatenationofAllWords.js) | Hard |  
-| 31 | [Next-permutation 下一个排列](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/Next-permutation.js) | Medium |  
+| 31 | [Next-permutation 下一个排列](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/31-Next-permutation.js) | Medium |  
 | 32 | [Longest Valid Parentheses 最长有效括号](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Hard/32-LongestValidParentheses.js) | Hard |  
-| 33 | [Search in Rotated Sorted Array 在旋转有序数组中搜索](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/SearchinRotatedSortedArray.js) | Medium |  
-| 34 | [Search for a Range 搜索范围](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/SearchforaRange.js) | Medium |  
+| 33 | [Search in Rotated Sorted Array 在旋转有序数组中搜索](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/33-SearchinRotatedSortedArray.js) | Medium |  
+| 34 | [Search for a Range 搜索范围](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/34-SearchforaRange.js) | Medium |  
 | 35 | [Search Insert Position 搜索插入位置](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/35-SearchInsertPosition.js) | Easy |  
-| 36 | [Valid Sudoku 验证数独](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/ValidSudoku.js) | Medium |  
-| 37 | [Sudoku Solver 解数独](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Hard/SudokuSolver.js) | Hard |  
+| 36 | [Valid Sudoku 验证数独](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/36-ValidSudoku.js) | Medium |  
+| 37 | [Sudoku Solver 解数独](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Hard/37-SudokuSolver.js) | Hard |  
 | 38 | [Count and Say 数数并说](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/38-CountandSay.js) | Easy |  
-| 39 | [CombinationSum 组合之和](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/CombinationSum.js) | Medium |  
-| 40 | [CombinationSumII 组合之和](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/CombinationSumII.js) | Medium |  
+| 39 | [CombinationSum 组合之和](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/39-CombinationSum.js) | Medium |  
+| 40 | [CombinationSumII 组合之和](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/40-CombinationSumII.js) | Medium |  
 | 43 | [Maximum Subarray 最大子序和](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/43-MaximumSubarray.js) | Medium |  
 | 53 | [Multiply String 字符串相乘](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/53-MultiplyString.js) | Easy |  
 | 58 | [Length of Last Word 最后一个单词的长度](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/58-LengthofLastWord.js) | Easy |
