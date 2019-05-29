@@ -6,7 +6,7 @@ some exercises of leetcode
 | ------------- |:-------------:| :-----:|  
 | 1 | [Two Sum 两数之和](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/1-TwoSum.md) | Easy |
 | 2 | [Add Two Numbers 两数相加](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/2-AddTwoNumbers.md) | Medium |
-| 3 | [Longest Substring Without Repeating Characters 无重复字符的最长子串](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/3-LongestSubstringWithoutRepeatingCharacters%20.js) | Medium |
+| 3 | [Longest Substring Without Repeating Characters 无重复字符的最长子串](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/3-LongestSubstringWithoutRepeatingCharacters%20.md) | Medium |
 | 4 | [Median of Two Sorted Arrays 两个排序数组的中位数](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Hard/4-MedianofTwoSortedArrays.js) | Hard |
 | 5 | [Longest Palindromic Substring 最长回文子串](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/5-LongestPalindromicSubstring.js) | Medium |
 | 6 | [ZigZag Converesion Z字形变换](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/6-ZigZagConveresion.js) | Medium |  
