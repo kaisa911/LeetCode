@@ -17,10 +17,10 @@
 
 做这个题的时候，就想要搞一个 map 对象，建立 nums 的值和下标的对应关系。把 nums 里的 value 和 index 分别作为这个 map 对象的 key 和 value，这样就可以通过 value 找到数组中对应的下标。nums 当前的值是 current，检查 map[target-current]的值是否存在，如果不存在那就吧当前的 value 和 key 放进 map 里备用，然后继续向下查找，如果存在就返回 map[target-current]和 current 对应的 index 就可以了。
 
-1、设置一个 map 对象，用来存放 nums 的 value 和 index
-2、遍历 nums，获取到当前 index 的 value，赋值给 current
-3、判断 map[target-current] 是否存在
-4、存在就返回 map[target-current]和 current 对应的 index 的数组
+1、设置一个 map 对象，用来存放 nums 的 value 和 index  
+2、遍历 nums，获取到当前 index 的 value，赋值给 current  
+3、判断 map[target-current] 是否存在  
+4、存在就返回 map[target-current]和 current 对应的 index 的数组  
 5、不存在就将 current 和 index 放进 map 里备查。
 
 ```js
