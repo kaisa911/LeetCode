@@ -20,16 +20,19 @@ const findMedianSortedArrays = (nums1, nums2) => {
   if (arr.length % 2) {
     return arr[Math.floor(arr.length / 2)];
   } else {
-    return (arr[Math.floor(arr.length / 2)] + arr[Math.floor(arr.length / 2 - 1)]) / 2;
+    return (
+      (arr[Math.floor(arr.length / 2)] + arr[Math.floor(arr.length / 2 - 1)]) /
+      2
+    );
   }
 };
 
 const findMedianSortedArrays = (nums1, nums2) => {
   let arr = nums1.concat(nums2).sort((a, b) => a - b);
-  let l = arr.length;
-  let m = Math.floor(l / 2);
-  if (l % 2) {
-    return arr[m];
+  let len = arr.length;
+  let middle = Math.floor(len / 2);
+  if (len % 2) {
+    return arr[middle];
   }
-  return (arr[m - 1] + arr[m]) / 2;
+  return (arr[middle - 1] + arr[middle]) / 2;
 };
