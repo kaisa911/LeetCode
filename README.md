@@ -44,7 +44,8 @@ some exercises of leetcode
 | 38 | [Count and Say 数数并说](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/38-CountandSay.js) | Easy |  
 | 39 | [CombinationSum 组合之和](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/39-CombinationSum.js) | Medium |  
 | 40 | [CombinationSumII 组合之和](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/40-CombinationSumII.js) | Medium |  
-| 41 | [First Missing Positive  缺失的第一个正数](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Hard/41-FirstMissingPositive.js) | Hard |  
+| 41 | [First Missing Positive 缺失的第一个正数](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Hard/41-FirstMissingPositive.js) | Hard |  
+| 42 | [Trapping Rain Water 接雨水](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Hard/42-TrappingRainWater.js) | Hard |  
 | 43 | [Maximum Subarray 最大子序和](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/43-MaximumSubarray.js) | Medium |  
 | 46 | [Permutations 全排列](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/46-Permutations.js) | Medium |  
 | 53 | [Multiply String 字符串相乘](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/53-MultiplyString.js) | Easy |  
