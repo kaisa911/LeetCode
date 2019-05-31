@@ -48,6 +48,7 @@ some exercises of leetcode
 | 42 | [Trapping Rain Water 接雨水](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Hard/42-TrappingRainWater.js) | Hard |  
 | 43 | [Maximum Subarray 最大子序和](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/43-MaximumSubarray.js) | Medium |  
 | 44 | [Wildcard Matching 通配符匹配](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Hard/44-WildcardMatching.js) | Hard |  
+| 45 | [Jump Game II 跳跃游戏 II](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Hard/45-JumpGameII.js) | Hard |  
 | 46 | [Permutations 全排列](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/46-Permutations.js) | Medium |  
 | 53 | [Multiply String 字符串相乘](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/53-MultiplyString.js) | Easy |  
 | 58 | [Length of Last Word 最后一个单词的长度](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/58-LengthofLastWord.js) | Easy |
