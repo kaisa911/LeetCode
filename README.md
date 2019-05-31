@@ -50,6 +50,7 @@ some exercises of leetcode
 | 44 | [Wildcard Matching 通配符匹配](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Hard/44-WildcardMatching.js) | Hard |  
 | 45 | [Jump Game II 跳跃游戏 II](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Hard/45-JumpGameII.js) | Hard |  
 | 46 | [Permutations 全排列](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/46-Permutations.js) | Medium |  
+| 47 | [PermutationsII 全排列II](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/47-PermutationsII.js) | Medium |  
 | 53 | [Multiply String 字符串相乘](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/53-MultiplyString.js) | Easy |  
 | 58 | [Length of Last Word 最后一个单词的长度](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/58-LengthofLastWord.js) | Easy |
 | 66 | [Plus One 加一](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/66-PlusOne.js) | Easy |  
