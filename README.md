@@ -52,6 +52,7 @@ some exercises of leetcode
 | 46     |                                       [Permutations 全排列](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/46-Permutations.js)                                        |   Medium   |
 | 47     |                                    [PermutationsII 全排列 II](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/47-PermutationsII.js)                                    |   Medium   |
 | 48     |                                       [Rotate Image 旋转图像](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/48-RotateImage.js)                                       |   Medium   |
+| 49     |                                  [Group Anagrams 字母异位词分组](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/49-GroupAnagrams.js)                                  |   Medium   |
 | 53     |                                   [Multiply String 字符串相乘](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/53-MultiplyString.js)                                   |    Easy    |
 | 58     |                             [Length of Last Word 最后一个单词的长度](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/58-LengthofLastWord.js)                             |    Easy    |
 | 66     |                                              [Plus One 加一](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/66-PlusOne.js)                                              |    Easy    |
