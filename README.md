@@ -8,7 +8,7 @@ some exercises of leetcode
 | 2      |                                     [Add Two Numbers 两数相加](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/2-AddTwoNumbers.md)                                     |   Medium   |
 | 3      | [Longest Substring Without Repeating Characters 无重复字符的最长子串](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/3-LongestSubstringWithoutRepeatingCharacters.md) |   Medium   |
 | 4      |                     [Median of Two Sorted Arrays 两个排序数组的中位数](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Hard/4-MedianofTwoSortedArrays.md)                     |    Hard    |
-| 5      |                     [Longest Palindromic Substring 最长回文子串](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/5-LongestPalindromicSubstring.js)                     |   Medium   |
+| 5      |                     [Longest Palindromic Substring 最长回文子串](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/5-LongestPalindromicSubstring.md)                     |   Medium   |
 | 6      |                                [ZigZag Converesion Z 字形变换](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/6-ZigZagConveresion.js)                                 |   Medium   |
 | 7      |                                     [Reverse Integer 翻转整数](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/7-ReverseInteger.js)                                      |    Easy    |
 | 8      |                        [String to Integer (atoi) 字符串转为整数](<https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/8-StringtoInteger(atoi).js>)                         |   Medium   |
