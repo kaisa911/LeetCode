@@ -3,37 +3,24 @@
  * @return {string}
  */
 const longestPalindrome = s => {
-  let Maxlen = 0,
-    len = 0,
-    left,
-    start,
-    end,
-    offset;
-
-  for (let i = 0; i < s.length; i++) {
-    start = i;
-    //判断重复的字符长度
-    while (i < s.length - 1 && s.charAt(i) === s.charAt(i + 1)) {
-      i++;
+  if (s.length < 2) return s;
+  let len = s.length,
+    maxLen = 0,
+    start = 0;
+  for (let i = 0; i < len; ) {
+    if (len - i <= maxLen / 2) break;
+    let left = i,
+      right = i;
+    while (right < len - 1 && s[right + 1] == s[right]) ++right;
+    i = right + 1;
+    while (right < len - 1 && left > 0 && s[right + 1] == s[left - 1]) {
+      ++right;
+      --left;
     }
-    end = i;
-    len = end - start + 1;
-    //重复的两侧的字符是否回文
-    let offstart = start;
-    let offend = end;
-    for (offset = 1; offset <= Math.min(offstart, s.length - offend - 1); offset++) {
-      if (s[offstart - offset] === s[offend + offset]) {
-        len += 2;
-        start = start - 1;
-        end = end + 1;
-      } else {
-        break;
-      }
-    }
-    if (len > Maxlen) {
-      Maxlen = len;
-      left = start;
+    if (maxLen < right - left + 1) {
+      maxLen = right - left + 1;
+      start = left;
     }
   }
-  return s.substring(left, left + Maxlen);
+  return s.substring(start, start + maxLen);
 };
