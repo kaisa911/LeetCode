@@ -58,6 +58,7 @@ some exercises of leetcode
 | 52     |                                         [N-Queens II N 皇后 2](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Hard/52-N-QueensII.js)                                         |    Hard    |
 | 53     |                                   [Multiply String 字符串相乘](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/53-MultiplyString.js)                                   |    Easy    |
 | 54     |                                      [Spiral Matrix 螺旋矩阵](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/54-SpiralMatrix.js)                                      |   Medium   |
+| 55     |                                          [Jump Game 跳跃游戏](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/55-JumpGame.js)                                          |   Medium   |
 | 58     |                             [Length of Last Word 最后一个单词的长度](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/58-LengthofLastWord.js)                             |    Easy    |
 | 66     |                                              [Plus One 加一](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/66-PlusOne.js)                                              |    Easy    |
 | 67     |                                         [Add Binary 二进制求和](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/67-AddBinary.js)                                         |    Easy    |
