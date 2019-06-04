@@ -55,6 +55,7 @@ some exercises of leetcode
 | 49     |                                  [Group Anagrams 字母异位词分组](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/49-GroupAnagrams.js)                                  |   Medium   |
 | 50     |                                         [Pow(x, n) Pow(x, n)](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/50-Pow(x, n).js)                                         |   Medium   |
 | 51     |                                            [N-Queens N 皇后](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Hard/51-N-Queens.js)                                             |    Hard    |
+| 52     |                                         [N-Queens II N 皇后 2](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Hard/52-N-QueensII.js)                                         |    Hard    |
 | 53     |                                   [Multiply String 字符串相乘](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/53-MultiplyString.js)                                   |    Easy    |
 | 58     |                             [Length of Last Word 最后一个单词的长度](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/58-LengthofLastWord.js)                             |    Easy    |
 | 66     |                                              [Plus One 加一](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/66-PlusOne.js)                                              |    Easy    |
