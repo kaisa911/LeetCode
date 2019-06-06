@@ -60,6 +60,7 @@ some exercises of leetcode
 | 54     |                                      [Spiral Matrix 螺旋矩阵](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/54-SpiralMatrix.js)                                      |   Medium   |
 | 55     |                                          [Jump Game 跳跃游戏](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/55-JumpGame.js)                                          |   Medium   |
 | 56     |                                    [Merge Intervals 合并区间](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/56-MergeIntervals.js)                                    |   Medium   |
+| 57     |                                     [Insert Interval 插入区间](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Hard/57-InsertInterval.js)                                     |    Hard    |
 | 58     |                             [Length of Last Word 最后一个单词的长度](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/58-LengthofLastWord.js)                             |    Easy    |
 | 66     |                                              [Plus One 加一](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/66-PlusOne.js)                                              |    Easy    |
 | 67     |                                         [Add Binary 二进制求和](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/67-AddBinary.js)                                         |    Easy    |
