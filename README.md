@@ -92,6 +92,7 @@ some exercises of leetcode
 | 321    |                                      [IsPowerOfThree 3 的幂](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/321-isPowerOfThree.js)                                      |    Easy    |
 | 342    |                                       [IsPowerOfFour 4 的幂](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/342-isPowerOfFour.js)                                       |    Easy    |
 | 344    |                                     [ReverseString 反转字符串](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/344-reverseString.js)                                     |    Easy    |
+| 349    |                       [Intersection of Two Arrays 两个数组的交集](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/349-IntersectionofTwoArrays.js)                        |    Easy    |
 | 387    |                              [FirstUniqChar 字符串中的第一个唯一字符](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/387-firstUniqChar.js)                              |    Easy    |
 | 389    |                                   [FindTheDifference 找不同](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/389-findTheDifference.js)                                   |    Easy    |
 | 405    |                                             [ToHex 转 16 进制](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/405-ToHex.js)                                             |    Easy    |
