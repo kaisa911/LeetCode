@@ -106,6 +106,7 @@ some exercises of leetcode
 | 581    |          [Shortest Unsorted Continuous Subarray 最短无序连续子数组](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/581-ShortestUnsortedContinuousSubarray.js)           |    Easy    |
 | 628    |                                 [MaximumProduct 三个数的最大乘积](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/628-maximumProduct.js)                                 |    Easy    |
 | 643    |                                [FindMaxAverage 子数组最大平均数 I](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/643-findMaxAverage.js)                                |    Easy    |
+| 665    |                             [Non-decreasing Array 非递减数列](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/665-Non-decreasingArray.js.js)                             |    Easy    |
 | 703    |                [Kth Largest Element in a Stream 数据流中的第 K 大元素](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/703-KthLargestElementinaStream.js)                |    Easy    |
 | 709    |                                     [ToLowerCase 转换成小写字母](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/709-toLowerCase.js)                                     |    Easy    |
 | 724    |                                [FindPivotIndex 寻找数组的中心索引](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/724-FindPivotIndex.js)                                |    Easy    |
