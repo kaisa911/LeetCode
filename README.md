@@ -103,6 +103,7 @@ some exercises of leetcode
 | 485    |                        [FindMaxConsecutiveOnes 最大连续 1 的个数](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/485-findMaxConsecutiveOnes.js)                         |    Easy    |
 | 509    |                                         [Fibonacci 斐波那契数](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/509-Fibonacci.js)                                         |    Easy    |
 | 561    |                                      [ArrayPairSum 数组拆分 I](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/561-arrayPairSum.js)                                      |    Easy    |
+| 581    |          [Shortest Unsorted Continuous Subarray 最短无序连续子数组](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/581-ShortestUnsortedContinuousSubarray.js)           |    Easy    |
 | 628    |                                 [MaximumProduct 三个数的最大乘积](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/628-maximumProduct.js)                                 |    Easy    |
 | 643    |                                [FindMaxAverage 子数组最大平均数 I](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/643-findMaxAverage.js)                                |    Easy    |
 | 703    |                [Kth Largest Element in a Stream 数据流中的第 K 大元素](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/703-KthLargestElementinaStream.js)                |    Easy    |
