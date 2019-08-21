@@ -82,6 +82,7 @@ some exercises of leetcode
 | 189    |                                        [RotateArray 旋转数组](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/189-rotateArray.js)                                        |    Easy    |
 | 190    |                                      [ReverseBits 颠倒二进制位](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/190-reverseBits.js)                                      |    Easy    |
 | 191    |                                    [HammingWeight 颠倒二进制位](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/191-hammingWeight.js)                                    |    Easy    |
+| 198    |                                       [House Robber 打家劫舍](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/198-HouseRobber.js)                                        |    Easy    |
 | 203    |                     [Remove Linked List Elements 删除链表中的元素](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/203-RemoveLinkedListElements.js)                      |    Easy    |
 | 217    |                                [ContainsDuplicate 存在重复元素](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/217-containsDuplicate.js)                                |    Easy    |
 | 219    |                        [ContainsNearbyDuplicate 存在重复元素 II](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/219-containsNearbyDuplicate.js)                         |    Easy    |
@@ -90,6 +91,7 @@ some exercises of leetcode
 | 232    |                      [Implement Queue using Stacks 用栈实现队列](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/232-ImplementQueueusingStacks.js)                       |    Easy    |
 | 268    |                                      [MissingNumber 缺失数字](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/268-missingNumber.js)                                      |    Easy    |
 | 283    |                                          [MoveZeroes 移动零](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/283-moveZeroes.js)                                          |    Easy    |
+| 300    |                   [Longest Increasing Subsequence 最长上升子序列](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/300-LongestIncreasingSubsequence.js)                   |   Medium   |
 | 321    |                                      [IsPowerOfThree 3 的幂](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/321-isPowerOfThree.js)                                      |    Easy    |
 | 342    |                                       [IsPowerOfFour 4 的幂](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/342-isPowerOfFour.js)                                       |    Easy    |
 | 344    |                                     [ReverseString 反转字符串](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/344-reverseString.js)                                     |    Easy    |
