@@ -92,6 +92,7 @@ some exercises of leetcode
 | 268    |                                      [MissingNumber 缺失数字](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/268-missingNumber.js)                                      |    Easy    |
 | 283    |                                          [MoveZeroes 移动零](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/283-moveZeroes.js)                                          |    Easy    |
 | 300    |                   [Longest Increasing Subsequence 最长上升子序列](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/300-LongestIncreasingSubsequence.js)                   |   Medium   |
+| 303    |                   [Range Sum Query-Immutable 区域和检索 - 数组不可变](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/303-RangeSumQuery-Immutable.md)                    |    Easy    |
 | 326    |                                      [IsPowerOfThree 3 的幂](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/326-isPowerOfThree.js)                                      |    Easy    |
 | 342    |                                       [IsPowerOfFour 4 的幂](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/342-isPowerOfFour.js)                                       |    Easy    |
 | 344    |                                     [ReverseString 反转字符串](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/344-reverseString.js)                                     |    Easy    |
