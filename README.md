@@ -98,7 +98,7 @@ some exercises of leetcode
 | 349    |                       [Intersection of Two Arrays 两个数组的交集](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/349-IntersectionofTwoArrays.js)                        |    Easy    |
 | 387    |                              [FirstUniqChar 字符串中的第一个唯一字符](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/387-firstUniqChar.js)                              |    Easy    |
 | 389    |                                   [FindTheDifference 找不同](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/389-findTheDifference.js)                                   |    Easy    |
-| 392    |                                    [Is Subsequence 判断子序列](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/392-IsSubsequence.js)                                     |    Easy    |
+| 392    |                                    [Is Subsequence 判断子序列](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/392-IsSubsequence.md)                                     |    Easy    |
 | 405    |                                             [ToHex 转 16 进制](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/405-ToHex.js)                                             |    Easy    |
 | 414    |                                          [ThirdMax 转 16 进制](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/414-thirdMax.js)                                          |    Easy    |
 | 485    |                        [FindMaxConsecutiveOnes 最大连续 1 的个数](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/485-findMaxConsecutiveOnes.js)                         |    Easy    |
