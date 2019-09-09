@@ -92,7 +92,7 @@ some exercises of leetcode
 | 268    |                                      [MissingNumber 缺失数字](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/268-missingNumber.js)                                      |    Easy    |
 | 283    |                                          [MoveZeroes 移动零](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/283-moveZeroes.js)                                          |    Easy    |
 | 300    |                   [Longest Increasing Subsequence 最长上升子序列](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/300-LongestIncreasingSubsequence.js)                   |   Medium   |
-| 303    |                   [Range Sum Query-Immutable 区域和检索 - 数组不可变](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/303-RangeSumQuery-Immutable.md)                    |    Easy    |
+| 303    |                   [Range Sum Query-Immutable 区域和检索 - 数组不可变](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/303-RangeSumQuery-Immutable.md)                    |    Easy    |
 | 326    |                                      [IsPowerOfThree 3 的幂](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/326-isPowerOfThree.js)                                      |    Easy    |
 | 342    |                                       [IsPowerOfFour 4 的幂](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/342-isPowerOfFour.js)                                       |    Easy    |
 | 344    |                                     [ReverseString 反转字符串](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/344-reverseString.js)                                     |    Easy    |
@@ -112,7 +112,7 @@ some exercises of leetcode
 | 703    |                [Kth Largest Element in a Stream 数据流中的第 K 大元素](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/703-KthLargestElementinaStream.js)                |    Easy    |
 | 709    |                                     [ToLowerCase 转换成小写字母](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/709-toLowerCase.js)                                     |    Easy    |
 | 724    |                                [FindPivotIndex 寻找数组的中心索引](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/724-FindPivotIndex.js)                                |    Easy    |
-| 746    |                       [Min Cost Climbing Stairs 使用最小花费爬楼梯](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/746-MinCostClimbingStairs.md)                        |    Easy    |
+| 746    |                       [Min Cost Climbing Stairs 使用最小花费爬楼梯](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/746-MinCostClimbingStairs.md)                        |    Easy    |
 | 747    |                             [DominantIndex 至少是其他数字两倍的最大数](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/747-dominantIndex.js)                             |    Easy    |
 | 905    |                               [SortArrayByParity 按奇偶排序数组](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/905-sortArrayByParity.js)                               |    Easy    |
 | 907    |                                   [SortedSquares 有序数组的平方](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/907-sortedSquares.js)                                   |    Easy    |
