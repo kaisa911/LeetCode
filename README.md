@@ -100,21 +100,23 @@ some exercises of leetcode
 | 387    |                              [FirstUniqChar 字符串中的第一个唯一字符](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/387-firstUniqChar.js)                              |    Easy    |
 | 389    |                                   [FindTheDifference 找不同](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/389-findTheDifference.js)                                   |    Easy    |
 | 392    |                                    [Is Subsequence 判断子序列](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/392-IsSubsequence.md)                                     |    Easy    |
-| 405    |                                             [ToHex 转 16 进制](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/405-ToHex.js)                                             |    Easy    |
-| 414    |                                          [ThirdMax 转 16 进制](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/414-thirdMax.js)                                          |    Easy    |
-| 485    |                        [FindMaxConsecutiveOnes 最大连续 1 的个数](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/485-findMaxConsecutiveOnes.js)                         |    Easy    |
-| 509    |                                         [Fibonacci 斐波那契数](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/509-Fibonacci.js)                                         |    Easy    |
-| 561    |                                      [ArrayPairSum 数组拆分 I](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/561-arrayPairSum.js)                                      |    Easy    |
-| 581    |          [Shortest Unsorted Continuous Subarray 最短无序连续子数组](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/581-ShortestUnsortedContinuousSubarray.js)           |    Easy    |
-| 628    |                                 [MaximumProduct 三个数的最大乘积](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/628-maximumProduct.js)                                 |    Easy    |
-| 643    |                                [FindMaxAverage 子数组最大平均数 I](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/643-findMaxAverage.js)                                |    Easy    |
-| 665    |                             [Non-decreasing Array 非递减数列](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/665-Non-decreasingArray.js.js)                             |    Easy    |
-| 703    |                [Kth Largest Element in a Stream 数据流中的第 K 大元素](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/703-KthLargestElementinaStream.js)                |    Easy    |
-| 709    |                                     [ToLowerCase 转换成小写字母](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/709-toLowerCase.js)                                     |    Easy    |
-| 724    |                                [FindPivotIndex 寻找数组的中心索引](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/724-FindPivotIndex.js)                                |    Easy    |
-| 746    |                       [Min Cost Climbing Stairs 使用最小花费爬楼梯](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/746-MinCostClimbingStairs.md)                        |    Easy    |
-| 747    |                             [DominantIndex 至少是其他数字两倍的最大数](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/747-dominantIndex.js)                             |    Easy    |
-| 905    |                               [SortArrayByParity 按奇偶排序数组](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/905-sortArrayByParity.js)                               |    Easy    |
-| 907    |                                   [SortedSquares 有序数组的平方](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/907-sortedSquares.js)                                   |    Easy    |
-| 989    |                                [AddToArrayForm 数组形式的整数加法](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/989-addToArrayForm.js)                                |    Easy    |
-| 1002   |                                     [CommonChars 查找常用字符](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/1002-commonChars.js)                                      |    Easy    |
+| 400    |                                    [Find Nth Digit 第 N 个数字](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/400-FindNthDigit.md)                                     |    Easy    |
+
+| 405 | [ToHex 转 16 进制](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/405-ToHex.js) | Easy |
+| 414 | [ThirdMax 转 16 进制](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/414-thirdMax.js) | Easy |
+| 485 | [FindMaxConsecutiveOnes 最大连续 1 的个数](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/485-findMaxConsecutiveOnes.js) | Easy |
+| 509 | [Fibonacci 斐波那契数](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/509-Fibonacci.js) | Easy |
+| 561 | [ArrayPairSum 数组拆分 I](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/561-arrayPairSum.js) | Easy |
+| 581 | [Shortest Unsorted Continuous Subarray 最短无序连续子数组](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/581-ShortestUnsortedContinuousSubarray.js) | Easy |
+| 628 | [MaximumProduct 三个数的最大乘积](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/628-maximumProduct.js) | Easy |
+| 643 | [FindMaxAverage 子数组最大平均数 I](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/643-findMaxAverage.js) | Easy |
+| 665 | [Non-decreasing Array 非递减数列](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/665-Non-decreasingArray.js.js) | Easy |
+| 703 | [Kth Largest Element in a Stream 数据流中的第 K 大元素](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/703-KthLargestElementinaStream.js) | Easy |
+| 709 | [ToLowerCase 转换成小写字母](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/709-toLowerCase.js) | Easy |
+| 724 | [FindPivotIndex 寻找数组的中心索引](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/724-FindPivotIndex.js) | Easy |
+| 746 | [Min Cost Climbing Stairs 使用最小花费爬楼梯](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/746-MinCostClimbingStairs.md) | Easy |
+| 747 | [DominantIndex 至少是其他数字两倍的最大数](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/747-dominantIndex.js) | Easy |
+| 905 | [SortArrayByParity 按奇偶排序数组](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/905-sortArrayByParity.js) | Easy |
+| 907 | [SortedSquares 有序数组的平方](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/907-sortedSquares.js) | Easy |
+| 989 | [AddToArrayForm 数组形式的整数加法](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/989-addToArrayForm.js) | Easy |
+| 1002 | [CommonChars 查找常用字符](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/1002-commonChars.js) | Easy |
