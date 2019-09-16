@@ -10,13 +10,13 @@ some exercises of leetcode
 | 4      |                     [Median of Two Sorted Arrays 两个排序数组的中位数](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Hard/4-MedianofTwoSortedArrays.md)                     |    Hard    |
 | 5      |                     [Longest Palindromic Substring 最长回文子串](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/5-LongestPalindromicSubstring.md)                     |   Medium   |
 | 6      |                                [ZigZag Converesion Z 字形变换](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/6-ZigZagConveresion.js)                                 |   Medium   |
-| 7      |                                     [Reverse Integer 翻转整数](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/7-ReverseInteger.js)                                      |    Easy    |
+| 7      |                                     [Reverse Integer 翻转整数](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/7-ReverseInteger.md)                                      |    Easy    |
 | 8      |                            [String to Integer (atoi) 字符串转为整数](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/8-StringtoInteger.js)                             |   Medium   |
-| 9      |                                   [Palindrome Number 回文数字](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/9-PalindromeNumber.js)                                    |    Easy    |
+| 9      |                                   [Palindrome Number 回文数字](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/9-PalindromeNumber.md)                                    |    Easy    |
 | 10     |                      [Regular Expression Matching 正则表达式匹配](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Hard/10-RegularExpressionMatching.js)                       |    Hard    |
 | 11     |                        [Container With Most Water 盛最多水的容器](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/11-ContainerWithMostWater.js)                        |   Medium   |
 | 12     |                                [Integer to Roman 整数转罗马数字](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/12-IntegertoRoman.js)                                 |   Medium   |
-| 13     |                                 [Roman to Integer 罗马数字转整数](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/13-RomantoInteger.js)                                  |    Easy    |
+| 13     |                                 [Roman to Integer 罗马数字转整数](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/13-RomantoInteger.md)                                  |    Easy    |
 | 14     |                             [Longest Common Prefix 最长共同前缀](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/14-LongestCommonPrefix.js)                              |    Easy    |
 | 15     |                                              [3Sum 三数之和](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/15-3Sum.js)                                               |   Medium   |
 | 16     |                                   [3Sum Closest 最接近的三数之和](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/16-3SumClosest.js)                                   |   Medium   |
