@@ -89,6 +89,7 @@ some exercises of leetcode
 | 225    |                      [Implement Stack using Queues 用队列实现栈](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/225-ImplementStackusingQueues.js)                       |    Easy    |
 | 231    |                                        [IsPowerOfTwo 2 的幂](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/231-isPowerOfTwo.js)                                        |    Easy    |
 | 232    |                      [Implement Queue using Stacks 用栈实现队列](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/232-ImplementQueueusingStacks.js)                       |    Easy    |
+| 242    |                                  [Valid Anagram 有效的字母异位词](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/242-ValidAnagram.md)                                   |    Easy    |
 | 258    |                                         [Add Digits 各位相加](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/258-AddDigits.md)                                          |    Easy    |
 | 268    |                                      [MissingNumber 缺失数字](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/268-missingNumber.js)                                      |    Easy    |
 | 283    |                                          [MoveZeroes 移动零](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/283-moveZeroes.js)                                          |    Easy    |
