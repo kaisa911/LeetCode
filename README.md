@@ -92,7 +92,9 @@ some exercises of leetcode
 | 242    |                                  [Valid Anagram 有效的字母异位词](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/242-ValidAnagram.md)                                   |    Easy    |
 | 258    |                                         [Add Digits 各位相加](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/258-AddDigits.md)                                          |    Easy    |
 | 268    |                                      [MissingNumber 缺失数字](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/268-missingNumber.js)                                      |    Easy    |
+| 278    |                               [First Bad Version 第一个错误的版本](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/278-FirstBadVersion.md)                               |    Easy    |
 | 283    |                                          [MoveZeroes 移动零](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/283-moveZeroes.js)                                          |    Easy    |
+| 290    |                                       [Word Pattern 单词规律](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/290-WordPattern.md)                                        |    Easy    |
 | 300    |                   [Longest Increasing Subsequence 最长上升子序列](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/300-LongestIncreasingSubsequence.js)                   |   Medium   |
 | 303    |                   [Range Sum Query-Immutable 区域和检索 - 数组不可变](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/303-RangeSumQuery-Immutable.md)                    |    Easy    |
 | 326    |                                      [IsPowerOfThree 3 的幂](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/326-isPowerOfThree.js)                                      |    Easy    |
