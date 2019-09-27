@@ -84,6 +84,7 @@ some exercises of leetcode
 | 191    |                                    [HammingWeight 颠倒二进制位](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/191-hammingWeight.js)                                    |    Easy    |
 | 198    |                                       [House Robber 打家劫舍](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/198-HouseRobber.js)                                        |    Easy    |
 | 203    |                     [Remove Linked List Elements 删除链表中的元素](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/203-RemoveLinkedListElements.js)                      |    Easy    |
+| 204    |                                       [Count Primes 计数质数](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/204-CountPrimes.md)                                        |    Easy    |
 | 217    |                                [ContainsDuplicate 存在重复元素](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/217-containsDuplicate.js)                                |    Easy    |
 | 219    |                        [ContainsNearbyDuplicate 存在重复元素 II](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/219-containsNearbyDuplicate.js)                         |    Easy    |
 | 225    |                      [Implement Stack using Queues 用队列实现栈](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/225-ImplementStackusingQueues.js)                       |    Easy    |
@@ -109,6 +110,7 @@ some exercises of leetcode
 | 400    |                                    [Find Nth Digit 第 N 个数字](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/400-FindNthDigit.md)                                     |    Easy    |
 | 405    |                                             [ToHex 转 16 进制](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/405-ToHex.js)                                             |    Easy    |
 | 414    |                                          [ThirdMax 转 16 进制](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/414-thirdMax.js)                                          |    Easy    |
+| 448    |      [Find All Numbers Disappeared in an Array 找到所有数组中消失的数字](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/448-FindAllNumbersDisappearedinanArray.md)      |    Easy    |
 | 459    |                       [Repeated Substring Pattern 重复的子字符串](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/459-RepeatedSubstringPattern.md)                       |    Easy    |
 | 485    |                       [Find Max Consecutive Ones 最大连续 1 的个数](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/485-findMaxConsecutiveOnes.js)                       |    Easy    |
 | 509    |                                         [Fibonacci 斐波那契数](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/509-Fibonacci.js)                                         |    Easy    |
