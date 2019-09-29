@@ -128,3 +128,4 @@ some exercises of leetcode
 | 907    |                                   [SortedSquares 有序数组的平方](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/907-sortedSquares.js)                                   |    Easy    |
 | 989    |                                [AddToArrayForm 数组形式的整数加法](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/989-addToArrayForm.js)                                |    Easy    |
 | 1002   |                                     [CommonChars 查找常用字符](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/1002-commonChars.js)                                      |    Easy    |
+| 1122   |                             [Relative Sort Array 数组的相对排序](https://github.com/kaisa911/LeetCode/blob/master/Thingkings/Easy/1122-RelativeSortArray.md)                             |    Easy    |
