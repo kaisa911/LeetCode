@@ -2,7 +2,7 @@
 
 some exercises of leetcode
 
-solutions 进度：126/1217
+solutions 进度：126/1217 <br />
 thinkings 进度： 24/1217
 
 | Number |                                                                                           Name                                                                                           | Difficulty |
