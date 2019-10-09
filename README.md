@@ -71,7 +71,8 @@ some exercises of leetcode
 | 70     |                                      [Climbing Stairs 爬楼梯](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/70-ClimbingStairs.js)                                      |    Easy    |
 | 83     |           [Remove Duplicates from Sorted List 删除排序链表中的重复元素](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/83-RemoveDuplicatesfromSortedList.js)            |    Easy    |
 | 88     |                              [Merge Sorted Array 合并两个有序数组](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/88-MergeSortedArray.js)                               |    Easy    |
-| 100    |                                          [Same Tree 相同的树](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/100-SameTree.js)                                           |    Easy    |
+| 100    |                                          [Same Tree 相同的树](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/100-SameTree.md)                                           |    Easy    |
+| 110    |                               [Balanced Binary Tree 平衡二叉树](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/110-BalancedBinaryTree.md)                               |    Easy    |
 | 118    |                                   [Pascals Triangle 杨辉三角](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/118-PascalsTriangle.js)                                    |    Easy    |
 | 119    |                                [Pascals Triangle ii 杨辉三角 2](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/119-PascalsTriangleii.js)                                |    Easy    |
 | 125    |                                      [IsPalindrome 验证回文串](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/125-isPalindrome.js)                                      |    Easy    |
