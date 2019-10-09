@@ -2,6 +2,9 @@
 
 some exercises of leetcode
 
+solutions 进度：126/1217
+thinkings 进度： 24/1217
+
 | Number |                                                                                           Name                                                                                           | Difficulty |
 | ------ | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: | :--------: |
 | 1      |                                             [Two Sum 两数之和](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/1-TwoSum.md)                                              |    Easy    |
