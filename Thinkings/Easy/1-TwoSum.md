@@ -24,16 +24,20 @@
 5、不存在就将 current 和 index 放进 map 里备查。
 
 ```js
+/**
+ * @param {number[]} nums
+ * @param {number} target
+ * @return {number[]}
+ */
 const twoSum = (nums, target) => {
-  const len = nums.length;
   const map = {};
-  for (let i = 0; i < len; i++) {
-    const cur = nums[i];
-    const j = map[target - cur];
-    if (j !== undefine) {
+  for (let i = 0, len = nums.length; i < len; ++i) {
+    const current = nums[i];
+    const j = map[target - current];
+    if (j !== undefined) {
       return [j, i];
     }
-    map[cur] = i;
+    map[current] = i;
   }
 };
 ```
