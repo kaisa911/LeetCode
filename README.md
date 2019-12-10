@@ -2,8 +2,8 @@
 
 some exercises of leetcode
 
-solutions 进度：143/1284 <br />
-thinkings 进度： 41/1284
+solutions 进度：144/1289 <br />
+thinkings 进度： 42/1289
 
 | Number |                                                                                                          Name                                                                                                          | Difficulty |
 | ------ | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: | :--------: |
@@ -111,6 +111,7 @@ thinkings 进度： 41/1284
 | 242    |                                                 [Valid Anagram 有效的字母异位词](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/242-ValidAnagram.md)                                                  |    Easy    |
 | 257    |                                              [Binary Tree Paths 二叉树的所有路径](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/257-BinaryTreePaths.md)                                              |    Easy    |
 | 258    |                                                        [Add Digits 各位相加](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/258-AddDigits.md)                                                         |    Easy    |
+| 263    |                                                         [Ugly Number 丑数](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/263-UglyNumber.md)                                                          |    Easy    |
 | 268    |                                                     [MissingNumber 缺失数字](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/268-missingNumber.js)                                                     |    Easy    |
 | 278    |                                              [First Bad Version 第一个错误的版本](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/278-FirstBadVersion.md)                                              |    Easy    |
 | 283    |                                                         [MoveZeroes 移动零](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/283-moveZeroes.js)                                                         |    Easy    |
