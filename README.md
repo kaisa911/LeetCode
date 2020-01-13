@@ -2,8 +2,12 @@
 
 some exercises of leetcode
 
-solutions 进度：144/1289 <br />
-thinkings 进度： 42/1289
+solutions 进度：148/1289 <br />
+thinkings 进度： 46/1289
+
+简单：85 <br />
+中等：46 <br />
+困难：17 <br />
 
 | Number |                                                                                                          Name                                                                                                          | Difficulty |
 | ------ | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: | :--------: |
@@ -59,7 +63,7 @@ thinkings 进度： 42/1289
 | 50     |                                                           [Pow(x, n) Pow(x, n)](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/50-Pow.js)                                                           |   Medium   |
 | 51     |                                                           [N-Queens N 皇后](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Hard/51-N-Queens.js)                                                            |    Hard    |
 | 52     |                                                        [N-Queens II N 皇后 2](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Hard/52-N-QueensII.js)                                                        |    Hard    |
-| 53     |                                                  [Multiply String 字符串相乘](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/53-MultiplyString.js)                                                  |    Easy    |
+| 53     |                                                  [Multiply String 字符串相乘](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/53-MultiplyString.js)                                                  |   Medium   |
 | 54     |                                                     [Spiral Matrix 螺旋矩阵](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/54-SpiralMatrix.js)                                                     |   Medium   |
 | 55     |                                                         [Jump Game 跳跃游戏](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/55-JumpGame.js)                                                         |   Medium   |
 | 56     |                                                   [Merge Intervals 合并区间](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/56-MergeIntervals.js)                                                   |   Medium   |
@@ -120,7 +124,7 @@ thinkings 进度： 42/1289
 | 278    |                                              [First Bad Version 第一个错误的版本](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/278-FirstBadVersion.md)                                              |    Easy    |
 | 283    |                                                         [MoveZeroes 移动零](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/283-moveZeroes.js)                                                         |    Easy    |
 | 290    |                                                      [Word Pattern 单词规律](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/290-WordPattern.md)                                                       |    Easy    |
-| 300    |                                  [Longest Increasing Subsequence 最长上升子序列](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/300-LongestIncreasingSubsequence.js)                                  |   Medium   |
+| 300    |                                 [Longest Increasing Subsequence 最长上升子序列](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/300-LongestIncreasingSubsequence.js)                                 |   Medium   |
 | 303    |                                  [Range Sum Query-Immutable 区域和检索 - 数组不可变](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/303-RangeSumQuery-Immutable.md)                                   |    Easy    |
 | 326    |                                                     [IsPowerOfThree 3 的幂](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/326-isPowerOfThree.js)                                                     |    Easy    |
 | 342    |                                                      [IsPowerOfFour 4 的幂](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/342-isPowerOfFour.js)                                                      |    Easy    |
