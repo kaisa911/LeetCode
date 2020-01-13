@@ -2,9 +2,6 @@
 
 some exercises of leetcode
 
-solutions 进度：148/1289 <br />
-thinkings 进度： 46/1289
-
 简单：85 <br />
 中等：46 <br />
 困难：17 <br />
