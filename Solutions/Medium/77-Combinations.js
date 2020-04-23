@@ -3,21 +3,21 @@
  * @param {number} k
  * @return {number[][]}
  */
-var combine = function(n, k) {
+var combine = function (n, k) {
   if (n < k) return 0;
   let res = [];
 
-  function backTrack(index, start, current) {
-    if (index === k) {
+  const backTrack = (start = 1, current = []) => {
+    if (current.length === k) {
       res.push([...current]);
       return;
     }
-    for (let i = start; i <= n + 1 - (k - index); i++) {
+    for (let i = start; i <= n; i++) {
       current.push(i);
-      backTrack(index + 1, i + 1, current);
+      backTrack(i + 1, current);
       current.pop();
     }
-  }
-  backTrack(0, 1, []);
+  };
+  backTrack(1, []);
   return res;
 };
