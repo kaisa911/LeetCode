@@ -15,3 +15,29 @@ let combinationSum = (candidates, target) => {
   find(target, temp, candidates.length - 1);
   return result;
 };
+
+// 回溯
+/**
+ * @param {number[]} candidates
+ * @param {number} target
+ * @return {number[][]}
+ */
+var combinationSum = function (candidates, target) {
+  const res = [];
+  if (candidates.length === 0) return res;
+
+  const backTrace = (start, current) => {
+    if (current.reduce((pre, cur) => pre + cur, 0) > target) return;
+    if (current.reduce((pre, cur) => pre + cur, 0) === target) {
+      res.push([...current]);
+      return;
+    }
+    for (let i = start; i < candidates.length; i++) {
+      current.push(candidates[i]);
+      backTrace(i, current);
+      current.pop();
+    }
+  };
+  backTrace(0, []);
+  return res;
+};
