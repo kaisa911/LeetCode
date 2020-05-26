@@ -3,25 +3,27 @@
  * @param {number} target
  * @return {number[][]}
  */
-const combinationSum2 = (candidates, target) => {
-  const res = [];
-  const temp = [];
+var combinationSum2 = function (candidates, target) {
+  let len = candidates.length;
+  let res = [];
   candidates.sort((a, b) => a - b);
-  let end = candidates.length - 1;
-  let find = (target, end, cur) => {
-    if (target < candidates[0] || end < 0) {
+  const backTrack = (start, current) => {
+    if (current.reduce((pre, cur) => pre + cur, 0) === target) {
+      res.push(current);
       return;
     }
-    while (end >= 0 && candidates[end] > target) {
-      end--;
-    }
-    for (let i = end; i >= 0; i--) {
-      if (i != end && candidates[i] == candidates[i + 1]) continue;
-      let tmp = [...cur, candidates[i]];
-      if (candidates[i] === target) res.push(tmp);
-      else find(target - candidates[i], i - 1, tmp);
+    for (let i = start; i < len; i++) {
+      if (current.reduce((pre, cur) => pre + cur, 0) + candidates[i] > target) {
+        break;
+      }
+      if (i > start && candidates[i] === candidates[i - 1]) {
+        continue;
+      }
+      current.push(candidates[i]);
+      backTrack(i + 1, [...current]);
+      current.pop();
     }
   };
-  find(target, end, temp);
+  backTrack(0, []);
   return res;
 };
