@@ -2,9 +2,7 @@
 
 some exercises of leetcode
 
-简单：89 <br />
-中等：49 <br />
-困难：19 <br />
+简单：89 <br /> 中等：49 <br /> 困难：19 <br />
 
 | Number |                                                                                                          Name                                                                                                          | Difficulty |
 | ------ | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: | :--------: |
@@ -103,6 +101,7 @@ some exercises of leetcode
 | 125    |                                                     [IsPalindrome 验证回文串](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/125-isPalindrome.js)                                                     |    Easy    |
 | 129    |                                    [Sum Root to Leaf Numbers 求根到叶子节点数字之和](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/129-SumRoottoLeafNumbers.md)                                    |   Medium   |
 | 136    |                                                  [SingleNumber 只出现一次的数字](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/136-singleNumber.js)                                                  |    Easy    |
+| 141    |                                                  [Linked List Cycle 环形链表](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/141-LinkedListCycle.md)                                                  |    Easy    |
 | 155    |                                                           [MinStack 最小栈](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/155-MinStack.js)                                                           |    Easy    |
 | 167    |                                                [TwoSum-II 两数之和 II - 输入有序数组](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/167-TwoSumII.js)                                                 |    Easy    |
 | 169    |                                                    [MajorityElement 求众数](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/169-majorityElement.js)                                                    |    Easy    |
