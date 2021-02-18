@@ -1,8 +1,8 @@
 /**
  * Definition for singly-linked list.
- * function ListNode(val) {
- *     this.val = val;
- *     this.next = null;
+ * function ListNode(val, next) {
+ *     this.val = (val===undefined ? 0 : val)
+ *     this.next = (next===undefined ? null : next)
  * }
  */
 /**
@@ -10,32 +10,20 @@
  * @param {number} n
  * @return {ListNode}
  */
-const removeNthFromEnd = (head, n) => {
-  let temp = head;
-  let target = null; //倒数n+1个节点或头节点
-  if (head === null || head.next === null) {
-    //边界情况一
-    return (head = null);
+var removeNthFromEnd = function (head, n) {
+  let res = new ListNode(-1);
+  res.next = head;
+  let fast = res,
+    slow = res;
+  // 快先走 n+1 步
+  while (n--) {
+    fast = fast.next;
   }
-  let count = 0;
-  while (temp) {
-    //循环结束后target为倒数第n+1个节 若n+1超出节点数则为null
-    temp = temp.next;
-    count++;
-    if (count > n) {
-      if (target === null) {
-        target = head;
-      } else {
-        target = target.next;
-      }
-    }
+  // fast、slow 一起前进
+  while (fast && fast.next) {
+    fast = fast.next;
+    slow = slow.next;
   }
-  if (target === null) {
-    //说明此时要移除头节点
-    return head.next;
-  }
-  temp = target.next; //倒数第n个节点
-  target.next = temp.next;
-  temp.next = null;
-  return head;
+  slow.next = slow.next.next;
+  return res.next;
 };
