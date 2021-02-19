@@ -9,14 +9,14 @@
  * @param {ListNode} head
  * @return {ListNode}
  */
-const swapPairs = head => {
+const swapPairs = (head) => {
   if (!head || head.next === null) {
     return head;
   }
 
-  let dumpHead = new ListNode(0);
-  dumpHead.next = head;
-  let curr = dumpHead;
+  let tempHead = new ListNode(0);
+  tempHead.next = head;
+  let curr = tempHead;
   while (curr.next !== null && curr.next.next !== null) {
     let preNext = curr.next;
     let preNextNext = curr.next.next;
@@ -26,5 +26,5 @@ const swapPairs = head => {
     curr.next.next = preNext;
     curr = curr.next.next;
   }
-  return dumpHead.next;
+  return tempHead.next;
 };
