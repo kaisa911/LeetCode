@@ -2,9 +2,9 @@
 
 some exercises of leetcode
 
-简单：92 <br /> 中等：52 <br /> 困难：19 <br />
+简单：94 <br /> 中等：68 <br /> 困难：22 <br />
 
-总计：163
+总计：184
 
 | Number |                                                                                                          Name                                                                                                          | Difficulty |
 | ------ | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: | :--------: |
@@ -107,7 +107,7 @@ some exercises of leetcode
 | 155    |                                                           [MinStack 最小栈](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/155-MinStack.js)                                                           |    Easy    |
 | 167    |                                                [TwoSum-II 两数之和 II - 输入有序数组](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/167-TwoSumII.js)                                                 |    Easy    |
 | 169    |                                                    [MajorityElement 求众数](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/169-majorityElement.js)                                                    |    Easy    |
-| 171    |                                         [Excel Sheet Column Number Excel 表列序号](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/171-ExcelSheetColumnNumber.md)                                         |    Easy    |
+| 171    |                                       [Excel Sheet Column Number Excel 表列序号](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/171-ExcelSheetColumnNumber.md)                                        |    Easy    |
 | 172    |                                         [Factorial Trailing Zeroes 阶乘后的零](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/172-FactorialTrailingZeroes.md)                                         |    Easy    |
 | 189    |                                                       [RotateArray 旋转数组](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/189-rotateArray.js)                                                       |    Easy    |
 | 190    |                                                     [ReverseBits 颠倒二进制位](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/190-reverseBits.js)                                                     |    Easy    |
@@ -154,6 +154,7 @@ some exercises of leetcode
 | 459    |                                      [Repeated Substring Pattern 重复的子字符串](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/459-RepeatedSubstringPattern.md)                                      |    Easy    |
 | 485    |                                      [Find Max Consecutive Ones 最大连续 1 的个数](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/485-findMaxConsecutiveOnes.js)                                      |    Easy    |
 | 509    |                                                        [Fibonacci 斐波那契数](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/509-Fibonacci.js)                                                        |    Easy    |
+| 541    |                                               [Reverse String II 反转字符串 II](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/541-ReverseStringII.md)                                                |    Easy    |
 | 561    |                                                     [ArrayPairSum 数组拆分 I](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/561-arrayPairSum.js)                                                     |    Easy    |
 | 581    |                         [Shortest Unsorted Continuous Subarray 最短无序连续子数组](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/581-ShortestUnsortedContinuousSubarray.js)                          |    Easy    |
 | 628    |                                                [MaximumProduct 三个数的最大乘积](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/628-maximumProduct.js)                                                |    Easy    |
@@ -171,7 +172,13 @@ some exercises of leetcode
 | 994    |                                                  [Rotting Oranges 腐烂的橘子](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/994-RottingOranges.md)                                                   |    Easy    |
 | 1002   |                                                    [CommonChars 查找常用字符](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/1002-commonChars.js)                                                     |    Easy    |
 | 1122   |                                            [Relative Sort Array 数组的相对排序](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/1122-RelativeSortArray.md)                                             |    Easy    |
-| 1137   |                                            [N-th Tribonacci Number 第 N 个泰波那契数](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/1137-N-thTribonacciNumber.md)                                             |    Easy    |
+| 1137   |                                        [N-th Tribonacci Number 第 N 个泰波那契数](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/1137-N-thTribonacciNumber.md)                                        |    Easy    |
 | 1365   |         [How Many Numbers Are Smaller Than the Current Number 有多少小于当前数字的数字](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/1365-HowManyNumbersAreSmallerThantheCurrentNumber.js)          |    Easy    |
 | 1431   |                       [Kids With the Greatest Number of Candies 拥有最多糖果的孩子](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/1431-KidsWiththeGreatestNumberofCandies.md)                        |    Easy    |
-| 1945   |                       [Sum of Digits of String After Convert 字符串转化后的各位数字之和](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/1945-SumofDigitsofStringAfterConvert.md)                        |    Easy    |
+| 1945   |                      [Sum of Digits of String After Convert 字符串转化后的各位数字之和](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/1945-SumofDigitsofStringAfterConvert.md)                       |    Easy    |
+
+## 剑指 Offer
+
+| Number |                                                          Name                                                           | Difficulty |
+| ------ | :---------------------------------------------------------------------------------------------------------------------: | :--------: |
+| 22     | [链表中倒数第 k 个节点](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/剑指Offer/22-链表中倒数第k个节点.md) |    Easy    |
