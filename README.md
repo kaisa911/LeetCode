@@ -181,4 +181,5 @@ some exercises of leetcode
 
 | Number |                                                          Name                                                           | Difficulty |
 | ------ | :---------------------------------------------------------------------------------------------------------------------: | :--------: |
+| 10 - I    | [斐波那契数列](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/剑指Offer/10(1)-斐波那契数列.md) |    Easy    |
 | 22     | [链表中倒数第 k 个节点](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/剑指Offer/22-链表中倒数第k个节点.md) |    Easy    |
