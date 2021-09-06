@@ -12,3 +12,4 @@ function cuttingRope(n: number): number {
   
   return (res * n) % MOD;
 }
+
