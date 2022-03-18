@@ -105,7 +105,7 @@ some exercises of leetcode
 | 136    |                                                  [SingleNumber 只出现一次的数字](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/136-singleNumber.js)                                                  |    Easy    |
 | 141    |                                                  [Linked List Cycle 环形链表](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/141-LinkedListCycle.md)                                                  |    Easy    |
 | 155    |                                                           [MinStack 最小栈](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/155-MinStack.js)                                                           |    Easy    |
-| 165    |                                                [Compare Version Numbers 比较版本号](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/165-CompareVersionNumbers.md)                                                 |    Easy    |
+| 165    |                                           [Compare Version Numbers 比较版本号](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/165-CompareVersionNumbers.md)                                           |    Easy    |
 | 167    |                                                [TwoSum-II 两数之和 II - 输入有序数组](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/167-TwoSumII.js)                                                 |    Easy    |
 | 169    |                                                    [MajorityElement 求众数](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/169-majorityElement.js)                                                    |    Easy    |
 | 171    |                                       [Excel Sheet Column Number Excel 表列序号](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/171-ExcelSheetColumnNumber.md)                                        |    Easy    |
@@ -118,7 +118,7 @@ some exercises of leetcode
 | 202    |                                                       [Happy Number 快乐数](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/202-HappyNumber.md)                                                        |    Easy    |
 | 203    |                                    [Remove Linked List Elements 删除链表中的元素](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/203-RemoveLinkedListElements.js)                                     |    Easy    |
 | 204    |                                                      [Count Primes 计数质数](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/204-CountPrimes.md)                                                       |    Easy    |
-| 205    |                                                      [Isomorphic Strings 同构字符串](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/205-IsomorphicStrings.ts)                                                       |    Easy    |
+| 205    |                                               [Isomorphic Strings 同构字符串](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/205-IsomorphicStrings.ts)                                                |    Easy    |
 | 206    |                                                [Reverse Linked List 反转链表](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/206-ReverseLinkedList.md)                                                |    Easy    |
 | 217    |                                               [ContainsDuplicate 存在重复元素](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/217-containsDuplicate.js)                                               |    Easy    |
 | 219    |                                       [ContainsNearbyDuplicate 存在重复元素 II](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/219-containsNearbyDuplicate.js)                                        |    Easy    |
@@ -165,6 +165,7 @@ some exercises of leetcode
 | 703    |                               [Kth Largest Element in a Stream 数据流中的第 K 大元素](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/703-KthLargestElementinaStream.js)                               |    Easy    |
 | 704    |                                                     [Binary Search 二分查找](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/704-BinarySearch.md)                                                      |    Easy    |
 | 709    |                                                    [ToLowerCase 转换成小写字母](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/709-toLowerCase.js)                                                    |    Easy    |
+| 720    |                                     [Longest Word in Dictionary 词典中最长的单词](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/720-LongestWordinDictionary.md)                                     |    Easy    |
 | 724    |                                               [FindPivotIndex 寻找数组的中心索引](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/724-FindPivotIndex.js)                                               |    Easy    |
 | 746    |                                      [Min Cost Climbing Stairs 使用最小花费爬楼梯](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/746-MinCostClimbingStairs.md)                                       |    Easy    |
 | 747    |                                            [DominantIndex 至少是其他数字两倍的最大数](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/747-dominantIndex.js)                                            |    Easy    |
@@ -183,5 +184,5 @@ some exercises of leetcode
 
 | Number |                                                          Name                                                           | Difficulty |
 | ------ | :---------------------------------------------------------------------------------------------------------------------: | :--------: |
-| 10 - I    | [斐波那契数列](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/剑指Offer/10(1)-斐波那契数列.md) |    Easy    |
+| 10 - I |      [斐波那契数列](<https://github.com/kaisa911/LeetCode/blob/master/Thinkings/剑指Offer/10(1)-斐波那契数列.md>)       |    Easy    |
 | 22     | [链表中倒数第 k 个节点](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/剑指Offer/22-链表中倒数第k个节点.md) |    Easy    |
