@@ -15,7 +15,7 @@
 
 思路：
 
-做这个题的时候，就想要搞一个 map 对象，建立 nums 的值和下标的对应关系。把 nums 里的 value 和 index 分别作为这个 map 对象的 key 和 value，这样就可以通过 value 找到数组中对应的下标。nums 当前的值是 current，检查 map[target-current]的值是否存在，如果不存在那就吧当前的 value 和 key 放进 map 里备用，然后继续向下查找，如果存在就返回 map[target-current]和 current 对应的 index 就可以了。
+做这个题的时候，就想要搞一个 map 对象，建立 nums 的值和下标的对应关系。把 nums 里的 value 和 index 分别作为这个 map 对象的 key 和 value，这样就可以通过 value 找到数组中对应的下标。nums 当前的值是 current，检查 map[target-current]的值是否存在，如果不存在那就吧当前的 value 和 key 放进 map 里备用，然后继续向下查找，如果存在就返回 map[target-current]和 current对应的 index 就可以了。
 
 1、设置一个 map 对象，用来存放 nums 的 value 和 index  
 2、遍历 nums，获取到当前 index 的 value，赋值给 current  
@@ -30,14 +30,13 @@
  * @return {number[]}
  */
 const twoSum = (nums, target) => {
-  const map = {};
-  for (let i = 0, len = nums.length; i < len; ++i) {
-    const current = nums[i];
-    const j = map[target - current];
-    if (j !== undefined) {
-      return [j, i];
+  const hash = {};
+  for (let i = 0, len = nums.length; i < len; i += 1) {
+    if (hash[target - nums[i]] !== undefined) {
+      return [hash[target - nums[i]], i];
     }
-    map[current] = i;
+    hash[nums[i]] = i;
   }
+  return [];
 };
 ```
