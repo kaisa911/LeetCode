@@ -186,11 +186,12 @@ some exercises of leetcode
 | 1365   |             [How Many Numbers Are Smaller Than the Current Number 有多少小于当前数字的数字](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/1365-HowManyNumbersAreSmallerThantheCurrentNumber.js)              |    Easy    |
 | 1431   |                           [Kids With the Greatest Number of Candies 拥有最多糖果的孩子](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/1431-KidsWiththeGreatestNumberofCandies.md)                            |    Easy    |
 | 1945   |                          [Sum of Digits of String After Convert 字符串转化后的各位数字之和](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/1945-SumofDigitsofStringAfterConvert.md)                           |    Easy    |
-| 2038   | [Remove Colored Pieces if Both Neighbors are the Same Color 如果相邻两个颜色均相同则删除当前颜色](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/2038-RemoveColoredPiecesifBothNeighborsaretheSameColor.md) |    Easy    |
+| 2038   | [Remove Colored Pieces if Both Neighbors are the Same Color 如果相邻两个颜色均相同则删除当前颜色](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/2038-RemoveColoredPiecesifBothNeighborsaretheSameColor.md) |    Medium    |
 
 ## 剑指 Offer
 
 | Number |                                                          Name                                                           | Difficulty |
 | ------ | :---------------------------------------------------------------------------------------------------------------------: | :--------: |
+| 3 |      [数组中重复的数字](<https://github.com/kaisa911/LeetCode/blob/master/Thinkings/剑指Offer/3-数组中重复的数字.md>)       |    Easy    |
 | 10 - I |      [斐波那契数列](<https://github.com/kaisa911/LeetCode/blob/master/Thinkings/剑指Offer/10(1)-斐波那契数列.md>)       |    Easy    |
 | 22     | [链表中倒数第 k 个节点](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/剑指Offer/22-链表中倒数第k个节点.md) |    Easy    |

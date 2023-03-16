@@ -1,7 +1,7 @@
+type Hash = {
+  [num: string]: number;
+};
 function findRepeatNumber(nums: number[]): number {
-  type Hash = {
-    [num: string]: number;
-  };
   const hash: Hash = {};
   let res: number = 0;
   for (let i: number = 0, len = nums.length; i < len; ++i) {
