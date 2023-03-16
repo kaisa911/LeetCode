@@ -2,17 +2,17 @@
 
 some exercises of leetcode
 
-简单： <br /> 中等： <br /> 困难： <br />
+简单：112 <br /> 中等：55 <br /> 困难：19 <br />
 
 总计：
 
-| Number |                                                                                                              Name                                                                                                              | Difficulty |
-| ------ | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: | :--------: | --- | --- | ----------------------------------------------------------------------------------------------------------------------------- | ---- |
-| 1      |                                                                [Two Sum 两数之和](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/1-TwoSum.md)                                                                 |    Easy    |
-| 2      |                                                        [Add Two Numbers 两数相加](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/2-AddTwoNumbers.md)                                                        |   Medium   |
-| 3      |                    [Longest Substring Without Repeating Characters 无重复字符的最长子串](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/3-LongestSubstringWithoutRepeatingCharacters.md)                    |   Medium   |
-| 4      |                                        [Median of Two Sorted Arrays 两个排序数组的中位数](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Hard/4-MedianofTwoSortedArrays.md)                                        |    Hard    |
-| 5      |                                        [Longest Palindromic Substring 最长回文子串](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/5-LongestPalindromicSubstring.md)                                        |   Medium   |
+| Number |  Name | Difficulty |
+| ------ | :-----------------: | :--------: |
+| 1 | [Two Sum 两数之和](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/1-TwoSum.md) | Easy |
+| 2 | [Add Two Numbers 两数相加](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/2-AddTwoNumbers.md) | Medium |
+| 3 | [Longest Substring Without Repeating Characters 无重复字符的最长子串](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/3-LongestSubstringWithoutRepeatingCharacters.md) | Medium |
+| 4 | [Median of Two Sorted Arrays 两个排序数组的中位数](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Hard/4-MedianofTwoSortedArrays.md) |Hard |
+| 5 | [Longest Palindromic Substring 最长回文子串](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/5-LongestPalindromicSubstring.md) | Medium |
 | 6      |                                                   [ZigZag Converesion Z 字形变换](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/6-ZigZagConveresion.js)                                                    |   Medium   |
 | 7      |                                                        [Reverse Integer 翻转整数](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/7-ReverseInteger.md)                                                         |    Easy    |
 | 8      |                                               [String to Integer (atoi) 字符串转为整数](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/8-StringtoInteger.js)                                                |   Medium   |
@@ -190,9 +190,11 @@ some exercises of leetcode
 
 ## 剑指 Offer
 
-| Number |                                                          Name                                                           | Difficulty |
-| ------ | :---------------------------------------------------------------------------------------------------------------------: | :--------: |
-| 3 |      [数组中重复的数字](<https://github.com/kaisa911/LeetCode/blob/master/Thinkings/剑指Offer/03-数组中重复的数字.md>)       |    Easy    |
-| 4 |      [二维数组中的查找](<https://github.com/kaisa911/LeetCode/blob/master/Thinkings/剑指Offer/04-二维数组中的查找.md>)       |    Easy    |
-| 10 - I |      [斐波那契数列](<https://github.com/kaisa911/LeetCode/blob/master/Thinkings/剑指Offer/10(1)-斐波那契数列.md>)       |    Easy    |
-| 22     | [链表中倒数第 k 个节点](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/剑指Offer/22-链表中倒数第k个节点.md) |    Easy    |
+| Number | Name | Difficulty |
+| ------ | :-----: | :--------: |
+| 3 | [数组中重复的数字](<https://github.com/kaisa911/LeetCode/blob/master/Thinkings/剑指Offer/03-数组中重复的数字.md>) |    Easy    |
+| 4 | [二维数组中的查找](<https://github.com/kaisa911/LeetCode/blob/master/Thinkings/剑指Offer/04-二维数组中的查找.md>) |    Medium    |
+| 5 | [替换空格](<https://github.com/kaisa911/LeetCode/blob/master/Thinkings/剑指Offer/05-替换空格.md>) |    Easy    |
+| 6 | [从尾到头打印链表](<https://github.com/kaisa911/LeetCode/blob/master/Thinkings/剑指Offer/06-从尾到头打印链表.md>) |    Easy    |
+| 10 - I | [斐波那契数列](<https://github.com/kaisa911/LeetCode/blob/master/Thinkings/剑指Offer/10(1)-斐波那契数列.md>) |    Easy    |
+| 22 | [链表中倒数第 k 个节点](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/剑指Offer/22-链表中倒数第k个节点.md) |    Easy    |
