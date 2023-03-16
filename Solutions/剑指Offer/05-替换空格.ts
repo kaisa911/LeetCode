@@ -6,7 +6,9 @@ function replaceSpace(s: string): string {
 
   // 求空格的长度
   for (let i: number = 0; i < originLength; i += 1) {
-    if (s[i] === ' ') blankNum += 1;
+    if (s[i] === ' ') {
+      blankNum += 1;
+    }
   }
 
   const newLength: number = originLength + 2 * blankNum; // 新字符串的长度

@@ -192,6 +192,7 @@ some exercises of leetcode
 
 | Number |                                                          Name                                                           | Difficulty |
 | ------ | :---------------------------------------------------------------------------------------------------------------------: | :--------: |
-| 3 |      [数组中重复的数字](<https://github.com/kaisa911/LeetCode/blob/master/Thinkings/剑指Offer/3-数组中重复的数字.md>)       |    Easy    |
+| 3 |      [数组中重复的数字](<https://github.com/kaisa911/LeetCode/blob/master/Thinkings/剑指Offer/03-数组中重复的数字.md>)       |    Easy    |
+| 4 |      [二维数组中的查找](<https://github.com/kaisa911/LeetCode/blob/master/Thinkings/剑指Offer/04-二维数组中的查找.md>)       |    Easy    |
 | 10 - I |      [斐波那契数列](<https://github.com/kaisa911/LeetCode/blob/master/Thinkings/剑指Offer/10(1)-斐波那契数列.md>)       |    Easy    |
 | 22     | [链表中倒数第 k 个节点](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/剑指Offer/22-链表中倒数第k个节点.md) |    Easy    |
