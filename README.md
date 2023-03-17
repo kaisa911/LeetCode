@@ -4,6 +4,14 @@ some exercises of leetcode
 
 简单：113 <br /> 中等：56 <br /> 困难：19 <br />
 
+```mermaid
+pie title 已完成的题目
+    "简单" : 113
+    "中等" : 56
+    "困难" : 19
+
+```
+
 总计：
 
 | Number |                                                                                                              Name                                                                                                              | Difficulty |
