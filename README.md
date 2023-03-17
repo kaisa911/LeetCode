@@ -2,17 +2,17 @@
 
 some exercises of leetcode
 
-简单：112 <br /> 中等：55 <br /> 困难：19 <br />
+简单：113 <br /> 中等：56 <br /> 困难：19 <br />
 
 总计：
 
-| Number |  Name | Difficulty |
-| ------ | :-----------------: | :--------: |
-| 1 | [Two Sum 两数之和](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/1-TwoSum.md) | Easy |
-| 2 | [Add Two Numbers 两数相加](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/2-AddTwoNumbers.md) | Medium |
-| 3 | [Longest Substring Without Repeating Characters 无重复字符的最长子串](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/3-LongestSubstringWithoutRepeatingCharacters.md) | Medium |
-| 4 | [Median of Two Sorted Arrays 两个排序数组的中位数](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Hard/4-MedianofTwoSortedArrays.md) |Hard |
-| 5 | [Longest Palindromic Substring 最长回文子串](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/5-LongestPalindromicSubstring.md) | Medium |
+| Number |                                                                                                              Name                                                                                                              | Difficulty |
+| ------ | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: | :--------: | --- | --- | ----------------------------------------------------------------------------------------------------------------------------- | ---- |
+| 1      |                                                                [Two Sum 两数之和](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/1-TwoSum.md)                                                                 |    Easy    |
+| 2      |                                                        [Add Two Numbers 两数相加](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/2-AddTwoNumbers.md)                                                        |   Medium   |
+| 3      |                    [Longest Substring Without Repeating Characters 无重复字符的最长子串](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/3-LongestSubstringWithoutRepeatingCharacters.md)                    |   Medium   |
+| 4      |                                        [Median of Two Sorted Arrays 两个排序数组的中位数](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Hard/4-MedianofTwoSortedArrays.md)                                        |    Hard    |
+| 5      |                                        [Longest Palindromic Substring 最长回文子串](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/5-LongestPalindromicSubstring.md)                                        |   Medium   |
 | 6      |                                                   [ZigZag Converesion Z 字形变换](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/6-ZigZagConveresion.js)                                                    |   Medium   |
 | 7      |                                                        [Reverse Integer 翻转整数](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/7-ReverseInteger.md)                                                         |    Easy    |
 | 8      |                                               [String to Integer (atoi) 字符串转为整数](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/8-StringtoInteger.js)                                                |   Medium   |
@@ -138,7 +138,7 @@ some exercises of leetcode
 | 300    |                                     [Longest Increasing Subsequence 最长上升子序列](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/300-LongestIncreasingSubsequence.js)                                     |   Medium   |
 | 303    |                                      [Range Sum Query-Immutable 区域和检索 - 数组不可变](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/303-RangeSumQuery-Immutable.md)                                       |    Easy    |
 | 326    |                                                         [IsPowerOfThree 3 的幂](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/326-isPowerOfThree.js)                                                         |    Easy    |
-| 342    |                                                          [Counting Bits 比特位计数](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/338-CountingBits.js)                                                          |    Easy    |
+| 342    |                                                        [Counting Bits 比特位计数](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/338-CountingBits.js)                                                         |    Easy    |
 | 342    |                                                          [IsPowerOfFour 4 的幂](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/342-isPowerOfFour.js)                                                          |    Easy    |
 | 344    |                                                        [ReverseString 反转字符串](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/344-reverseString.js)                                                        |    Easy    |
 | 349    |                                          [Intersection of Two Arrays 两个数组的交集](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/349-IntersectionofTwoArrays.js)                                           |    Easy    |
@@ -151,7 +151,7 @@ some exercises of leetcode
 | 392    |                                                       [Is Subsequence 判断子序列](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/392-IsSubsequence.md)                                                        |    Easy    |
 | 400    |                                                       [Find Nth Digit 第 N 个数字](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/400-FindNthDigit.md)                                                        |    Easy    |
 | 405    |                                                                [ToHex 转 16 进制](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/405-ToHex.js)                                                                |    Easy    |
-| 409    |                                                                [Longest Palindrome 最长回文串](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/409-LongestPalindrome.md)                                                                |    Easy    |
+| 409    |                                                   [Longest Palindrome 最长回文串](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/409-LongestPalindrome.md)                                                    |    Easy    |
 | 414    |                                                             [ThirdMax 转 16 进制](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/414-thirdMax.js)                                                             |    Easy    |
 | 448    |                         [Find All Numbers Disappeared in an Array 找到所有数组中消失的数字](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/448-FindAllNumbersDisappearedinanArray.md)                         |    Easy    |
 | 455    |                                                        [Assign Cookies 分发饼干](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/455-AssignCookies.md)                                                         |    Easy    |
@@ -161,7 +161,7 @@ some exercises of leetcode
 | 541    |                                                   [Reverse String II 反转字符串 II](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/541-ReverseStringII.md)                                                    |    Easy    |
 | 561    |                                                         [ArrayPairSum 数组拆分 I](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/561-arrayPairSum.js)                                                         |    Easy    |
 | 581    |                             [Shortest Unsorted Continuous Subarray 最短无序连续子数组](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/581-ShortestUnsortedContinuousSubarray.js)                              |    Easy    |
-| 606    |                                                    [Construct String from Binary Tree 根据二叉树创建字符串](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/606-ConstructStringfromBinaryTree.md)                                                    |    Easy    |
+| 606    |                                 [Construct String from Binary Tree 根据二叉树创建字符串](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/606-ConstructStringfromBinaryTree.md)                                 |    Easy    |
 | 628    |                                                    [MaximumProduct 三个数的最大乘积](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/628-maximumProduct.js)                                                    |    Easy    |
 | 643    |                                                   [FindMaxAverage 子数组最大平均数 I](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/643-findMaxAverage.js)                                                   |    Easy    |
 | 653    |                                       [Two Sum IV - Input is a BST 两数之和 IV - 输入 BST](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/653-TwoSumIV-InputisaBST.md)                                        |    Easy    |     | 665 | [Non-decreasing Array 非递减数列](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/665-Non-decreasingArray.js) | Easy |
@@ -174,27 +174,29 @@ some exercises of leetcode
 | 747    |                                                [DominantIndex 至少是其他数字两倍的最大数](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/747-dominantIndex.js)                                                |    Easy    |
 | 905    |                                                  [SortArrayByParity 按奇偶排序数组](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/905-sortArrayByParity.js)                                                  |    Easy    |
 | 907    |                                                      [SortedSquares 有序数组的平方](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/907-sortedSquares.js)                                                      |    Easy    |
-| 933    |                                                      [Number of Recent Calls 最近的请求次数](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/933-NumberofRecentCalls.md)                                                      |    Easy    |
-| 942    |                                                      [DI String Match 增减字符串匹配](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/942-DIStringMatch.md)                                                      |    Easy    |
-| 965    |                                                      [Univalued Binary Tree 单值二叉树](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/965-UnivaluedBinaryTree.md)                                                      |    Easy    |
+| 933    |                                              [Number of Recent Calls 最近的请求次数](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/933-NumberofRecentCalls.md)                                               |    Easy    |
+| 942    |                                                     [DI String Match 增减字符串匹配](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/942-DIStringMatch.md)                                                     |    Easy    |
+| 965    |                                                 [Univalued Binary Tree 单值二叉树](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/965-UnivaluedBinaryTree.md)                                                 |    Easy    |
 | 989    |                                                   [AddToArrayForm 数组形式的整数加法](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/989-addToArrayForm.js)                                                   |    Easy    |
 | 994    |                                                      [Rotting Oranges 腐烂的橘子](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/994-RottingOranges.md)                                                       |    Easy    |
 | 1002   |                                                        [CommonChars 查找常用字符](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/1002-commonChars.js)                                                         |    Easy    |
-| 1022   |                                                        [Sum of Root To Leaf Binary Numbers 从根到叶的二进制数之和](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/1022-SumofRootToLeafBinaryNumbers.js)                                                         |    Easy    |
+| 1022   |                               [Sum of Root To Leaf Binary Numbers 从根到叶的二进制数之和](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/1022-SumofRootToLeafBinaryNumbers.js)                                |    Easy    |
 | 1122   |                                                [Relative Sort Array 数组的相对排序](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/1122-RelativeSortArray.md)                                                 |    Easy    |
 | 1137   |                                            [N-th Tribonacci Number 第 N 个泰波那契数](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/1137-N-thTribonacciNumber.md)                                            |    Easy    |
 | 1365   |             [How Many Numbers Are Smaller Than the Current Number 有多少小于当前数字的数字](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/1365-HowManyNumbersAreSmallerThantheCurrentNumber.js)              |    Easy    |
 | 1431   |                           [Kids With the Greatest Number of Candies 拥有最多糖果的孩子](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/1431-KidsWiththeGreatestNumberofCandies.md)                            |    Easy    |
 | 1945   |                          [Sum of Digits of String After Convert 字符串转化后的各位数字之和](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/1945-SumofDigitsofStringAfterConvert.md)                           |    Easy    |
-| 2038   | [Remove Colored Pieces if Both Neighbors are the Same Color 如果相邻两个颜色均相同则删除当前颜色](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/2038-RemoveColoredPiecesifBothNeighborsaretheSameColor.md) |    Medium    |
+| 2038   | [Remove Colored Pieces if Both Neighbors are the Same Color 如果相邻两个颜色均相同则删除当前颜色](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/2038-RemoveColoredPiecesifBothNeighborsaretheSameColor.md) |   Medium   |
 
 ## 剑指 Offer
 
-| Number | Name | Difficulty |
-| ------ | :-----: | :--------: |
-| 3 | [数组中重复的数字](<https://github.com/kaisa911/LeetCode/blob/master/Thinkings/剑指Offer/03-数组中重复的数字.md>) |    Easy    |
-| 4 | [二维数组中的查找](<https://github.com/kaisa911/LeetCode/blob/master/Thinkings/剑指Offer/04-二维数组中的查找.md>) |    Medium    |
-| 5 | [替换空格](<https://github.com/kaisa911/LeetCode/blob/master/Thinkings/剑指Offer/05-替换空格.md>) |    Easy    |
-| 6 | [从尾到头打印链表](<https://github.com/kaisa911/LeetCode/blob/master/Thinkings/剑指Offer/06-从尾到头打印链表.md>) |    Easy    |
-| 10 - I | [斐波那契数列](<https://github.com/kaisa911/LeetCode/blob/master/Thinkings/剑指Offer/10(1)-斐波那契数列.md>) |    Easy    |
-| 22 | [链表中倒数第 k 个节点](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/剑指Offer/22-链表中倒数第k个节点.md) |    Easy    |
+| Number |                                                          Name                                                           | Difficulty |
+| ------ | :---------------------------------------------------------------------------------------------------------------------: | :--------: |
+| 3      |     [数组中重复的数字](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/剑指Offer/03-数组中重复的数字.md)     |    Easy    |
+| 4      |     [二维数组中的查找](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/剑指Offer/04-二维数组中的查找.md)     |   Medium   |
+| 5      |             [替换空格](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/剑指Offer/05-替换空格.md)             |    Easy    |
+| 6      |     [从尾到头打印链表](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/剑指Offer/06-从尾到头打印链表.md)     |    Easy    |
+| 7      |           [重建二叉树](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/剑指Offer/07-重建二叉树.md)           |   Medium   |
+| 9      |     [用两个栈实现队列](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/剑指Offer/09-用两个栈实现队列.md)     |    Easy    |
+| 10 - I |      [斐波那契数列](<https://github.com/kaisa911/LeetCode/blob/master/Thinkings/剑指Offer/10(1)-斐波那契数列.md>)       |    Easy    |
+| 22     | [链表中倒数第 k 个节点](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/剑指Offer/22-链表中倒数第k个节点.md) |    Easy    |
