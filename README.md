@@ -14,8 +14,8 @@ pie title 已完成的题目
 
 总计：
 
-| Number |                                                                                                              Name                                                                                                              | Difficulty |
-| ------ | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: | :--------: | --- | --- | ----------------------------------------------------------------------------------------------------------------------------- | ---- |
+| Number |  Name  | Difficulty |
+| ------ | :----------: | :--------: |
 | 1      |                                                                [Two Sum 两数之和](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/1-TwoSum.md)                                                                 |    Easy    |
 | 2      |                                                        [Add Two Numbers 两数相加](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/2-AddTwoNumbers.md)                                                        |   Medium   |
 | 3      |                    [Longest Substring Without Repeating Characters 无重复字符的最长子串](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/3-LongestSubstringWithoutRepeatingCharacters.md)                    |   Medium   |
