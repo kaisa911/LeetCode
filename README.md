@@ -2,12 +2,15 @@
 
 some exercises of leetcode
 
-简单：113 <br /> 中等：56 <br /> 困难：19 <br />
+简单：115 <br /> 中等：57 <br /> 困难：19 <br />
+
+leetcode 简单：107，中等: 54，困难：19
+剑指offer：简单：8，中等： 3， 困难： 0
 
 ```mermaid
 pie title 已完成的题目
-    "简单" : 113
-    "中等" : 56
+    "简单" : 115
+    "中等" : 57
     "困难" : 19
 
 ```
@@ -207,4 +210,7 @@ pie title 已完成的题目
 | 7      |           [重建二叉树](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/剑指Offer/07-重建二叉树.md)           |   Medium   |
 | 9      |     [用两个栈实现队列](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/剑指Offer/09-用两个栈实现队列.md)     |    Easy    |
 | 10 - I |      [斐波那契数列](<https://github.com/kaisa911/LeetCode/blob/master/Thinkings/剑指Offer/10(1)-斐波那契数列.md>)       |    Easy    |
+| 10 - II |      [青蛙跳台阶问题](<https://github.com/kaisa911/LeetCode/blob/master/Thinkings/剑指Offer/10(2)-青蛙跳台阶问题.md>)       |    Easy    |
+| 11 |      [旋转数组的最小数字](<https://github.com/kaisa911/LeetCode/blob/master/Thinkings/剑指Offer/11-旋转数组的最小数字.md>)       |    Easy    |
+| 12 |      [矩阵中的路径](<https://github.com/kaisa911/LeetCode/blob/master/Thinkings/剑指Offer/12-矩阵中的路径.md>)       |    Medium    |
 | 22     | [链表中倒数第 k 个节点](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/剑指Offer/22-链表中倒数第k个节点.md) |    Easy    |
