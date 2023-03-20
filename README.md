@@ -2,17 +2,17 @@
 
 some exercises of leetcode
 
-总计：简单：115，中等：59，困难：19 <br />
+总计：简单：115，中等：60，困难：19 <br />
 
 其中：
 
 - leetcode：简单：107，中等: 54，困难：19
-- 剑指offer：简单：8，中等： 5， 困难： 0
+- 剑指offer：简单：8，中等： 6， 困难： 0
 
 ```mermaid
 pie title 已完成的题目
     "简单" : 115
-    "中等" : 59
+    "中等" : 60
     "困难" : 19
 
 ```
@@ -217,4 +217,6 @@ pie title 已完成的题目
 | 12 |      [矩阵中的路径](<https://github.com/kaisa911/LeetCode/blob/master/Thinkings/剑指Offer/12-矩阵中的路径.md>)       |    Medium    |
 | 13 |      [机器人的运动范围](<https://github.com/kaisa911/LeetCode/blob/master/Thinkings/剑指Offer/13-机器人的运动范围.md>)       |    Medium    |
 | 14 - I |      [剪绳子-I](<https://github.com/kaisa911/LeetCode/blob/master/Thinkings/剑指Offer/14(1)-剪绳子.md>)       |    Medium    |
+| 14 - II |      [剪绳子-II](<https://github.com/kaisa911/LeetCode/blob/master/Thinkings/剑指Offer/14(2)-剪绳子II.md>)       |    Medium    |
+| 15     | [二进制中1的个数](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/剑指Offer/15-二进制中1的个数.md) |    Easy    |
 | 22     | [链表中倒数第 k 个节点](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/剑指Offer/22-链表中倒数第k个节点.md) |    Easy    |
