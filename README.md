@@ -2,15 +2,17 @@
 
 some exercises of leetcode
 
-简单：115 <br /> 中等：57 <br /> 困难：19 <br />
+总计：简单：115，中等：59，困难：19 <br />
 
-leetcode 简单：107，中等: 54，困难：19
-剑指offer：简单：8，中等： 3， 困难： 0
+其中：
+
+- leetcode：简单：107，中等: 54，困难：19
+- 剑指offer：简单：8，中等： 5， 困难： 0
 
 ```mermaid
 pie title 已完成的题目
     "简单" : 115
-    "中等" : 57
+    "中等" : 59
     "困难" : 19
 
 ```
@@ -213,4 +215,6 @@ pie title 已完成的题目
 | 10 - II |      [青蛙跳台阶问题](<https://github.com/kaisa911/LeetCode/blob/master/Thinkings/剑指Offer/10(2)-青蛙跳台阶问题.md>)       |    Easy    |
 | 11 |      [旋转数组的最小数字](<https://github.com/kaisa911/LeetCode/blob/master/Thinkings/剑指Offer/11-旋转数组的最小数字.md>)       |    Easy    |
 | 12 |      [矩阵中的路径](<https://github.com/kaisa911/LeetCode/blob/master/Thinkings/剑指Offer/12-矩阵中的路径.md>)       |    Medium    |
+| 13 |      [机器人的运动范围](<https://github.com/kaisa911/LeetCode/blob/master/Thinkings/剑指Offer/13-机器人的运动范围.md>)       |    Medium    |
+| 14 - I |      [剪绳子-I](<https://github.com/kaisa911/LeetCode/blob/master/Thinkings/剑指Offer/14(1)-剪绳子.md>)       |    Medium    |
 | 22     | [链表中倒数第 k 个节点](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/剑指Offer/22-链表中倒数第k个节点.md) |    Easy    |
