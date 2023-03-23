@@ -7,12 +7,12 @@ some exercises of leetcode
 其中：
 
 - leetcode：简单：107，中等: 54，困难：19
-- 剑指offer：简单：8，中等： 6， 困难： 0
+- 剑指offer：简单：9，中等： 7， 困难： 0
 
 ```mermaid
 pie title 已完成的题目
-    "简单" : 115
-    "中等" : 60
+    "简单" : 116
+    "中等" : 61
     "困难" : 19
 
 ```
