@@ -219,4 +219,6 @@ pie title 已完成的题目
 | 14 - I |      [剪绳子-I](<https://github.com/kaisa911/LeetCode/blob/master/Thinkings/剑指Offer/14(1)-剪绳子.md>)       |    Medium    |
 | 14 - II |      [剪绳子-II](<https://github.com/kaisa911/LeetCode/blob/master/Thinkings/剑指Offer/14(2)-剪绳子II.md>)       |    Medium    |
 | 15     | [二进制中1的个数](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/剑指Offer/15-二进制中1的个数.md) |    Easy    |
+| 16     | [数值的整数次方](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/剑指Offer/16-数值的整数次方.md) |    Medium    |
+| 17     | [打印从 1 到最大的 n 位数](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/剑指Offer/17-打印从1到最大的n位数.md) |    Easy    |
 | 22     | [链表中倒数第 k 个节点](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/剑指Offer/22-链表中倒数第k个节点.md) |    Easy    |
