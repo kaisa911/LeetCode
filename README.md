@@ -2,18 +2,18 @@
 
 some exercises of leetcode
 
-总计：简单：115，中等：60，困难：19 <br />
+总计：简单：117，中等：61，困难：20 <br />
 
 其中：
 
 - leetcode：简单：107，中等: 54，困难：19
-- 剑指offer：简单：10，中等： 7， 困难： 0
+- 剑指offer：简单：10，中等： 7， 困难： 1
 
 ```mermaid
 pie title 已完成的题目
     "简单" : 117
     "中等" : 61
-    "困难" : 19
+    "困难" : 20
 
 ```
 
@@ -221,5 +221,6 @@ pie title 已完成的题目
 | 15     | [二进制中1的个数](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/剑指Offer/15-二进制中1的个数.md) |    Easy    |
 | 16     | [数值的整数次方](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/剑指Offer/16-数值的整数次方.md) |    Medium    |
 | 17     | [打印从 1 到最大的 n 位数](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/剑指Offer/17-打印从1到最大的n位数.md) |    Easy    |
-| 18     | [删除链表的节点](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/剑指Offer/17-删除链表的节点.md) |    Easy    |
+| 18     | [删除链表的节点](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/剑指Offer/18-删除链表的节点.md) |    Easy    |
+| 19     | [正则表达式匹配](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/剑指Offer/19-正则表达式匹配.md) |    Easy    |
 | 22     | [链表中倒数第 k 个节点](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/剑指Offer/22-链表中倒数第k个节点.md) |    Easy    |
