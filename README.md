@@ -2,16 +2,16 @@
 
 some exercises of leetcode
 
-总计：简单：117，中等：62，困难：20 <br />
+总计：简单：118，中等：62，困难：20 <br />
 
 其中：
 
 - leetcode：简单：107，中等: 54，困难：19
-- 剑指offer：简单：10，中等： 8， 困难： 1
+- 剑指offer：简单：11，中等： 8， 困难： 1
 
 ```mermaid
 pie title 已完成的题目
-    "简单" : 117
+    "简单" : 118
     "中等" : 62
     "困难" : 20
 
@@ -224,4 +224,5 @@ pie title 已完成的题目
 | 18     | [删除链表的节点](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/剑指Offer/18-删除链表的节点.md) |    Easy    |
 | 19     | [正则表达式匹配](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/剑指Offer/19-正则表达式匹配.md) |    Hard    |
 | 20     | [表示数值的字符串](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/剑指Offer/20-表示数值的字符串.md) |    Medium    |
+| 21     | [调整数组顺序使奇数位于偶数前面](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/剑指Offer/21-调整数组顺序使奇数位于偶数前面.md) |    Easy    |
 | 22     | [链表中倒数第 k 个节点](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/剑指Offer/22-链表中倒数第k个节点.md) |    Easy    |

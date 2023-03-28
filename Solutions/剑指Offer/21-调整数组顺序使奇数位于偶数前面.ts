@@ -1,14 +1,14 @@
 function exchange(nums: number[]): number[] {
-  let i: number = 0,
-    j: number = nums.length - 1;
-  while (i < j) {
-    while (nums[i] & 1 && i < j) {
-      i += 1;
+  let left: number = 0,
+    right: number = nums.length - 1;
+  while (left < right) {
+    while (nums[left] & 1 && left < right) {
+      left += 1;
     }
-    while (!(nums[j] & 1) && i < j) {
-      j -= 1;
+    while (!(nums[right] & 1) && left < right) {
+      right -= 1;
     }
-    [nums[i], nums[j]] = [nums[j], nums[i]];
+    [nums[left], nums[right]] = [nums[right], nums[left]];
   }
   return nums;
 }
