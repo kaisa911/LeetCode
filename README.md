@@ -227,3 +227,4 @@ pie title 已完成的题目
 | 21     | [调整数组顺序使奇数位于偶数前面](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/剑指Offer/21-调整数组顺序使奇数位于偶数前面.md) |    Easy    |
 | 22     | [链表中倒数第 k 个节点](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/剑指Offer/22-链表中倒数第k个节点.md) |    Easy    |
 | 24     | [反转链表](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/剑指Offer/24-反转链表.md) |    Easy    |
+| 25     | [合并两个排序的链表](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/剑指Offer/25-合并两个排序的链表.md) |    Easy    |
