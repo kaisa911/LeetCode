@@ -2,17 +2,17 @@
 
 some exercises of leetcode
 
-总计：简单：119，中等：62，困难：20 <br />
+总计：简单：121，中等：63，困难：20 <br />
 
 其中：
 
 - leetcode：简单：107，中等: 54，困难：19
-- 剑指offer：简单：12，中等： 8， 困难： 1
+- 剑指offer：简单：14，中等： 9， 困难： 1
 
 ```mermaid
 pie title 已完成的题目
-    "简单" : 119
-    "中等" : 62
+    "简单" : 121
+    "中等" : 63
     "困难" : 20
 
 ```
@@ -228,3 +228,4 @@ pie title 已完成的题目
 | 22     | [链表中倒数第 k 个节点](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/剑指Offer/22-链表中倒数第k个节点.md) |    Easy    |
 | 24     | [反转链表](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/剑指Offer/24-反转链表.md) |    Easy    |
 | 25     | [合并两个排序的链表](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/剑指Offer/25-合并两个排序的链表.md) |    Easy    |
+| 26     | [树的子结构](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/剑指Offer/26-树的子结构.md) |    Medium    |
