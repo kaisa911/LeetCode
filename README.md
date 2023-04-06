@@ -2,16 +2,16 @@
 
 some exercises of leetcode
 
-总计：简单：123，中等：63，困难：20 <br />
+总计：简单：124，中等：63，困难：20 <br />
 
 其中：
 
 - leetcode：简单：107，中等: 54，困难：19
-- 剑指offer：简单：16，中等： 9， 困难： 1
+- 剑指offer：简单：17，中等： 9， 困难： 1
 
 ```mermaid
 pie title 已完成的题目
-    "简单" : 123
+    "简单" : 124
     "中等" : 63
     "困难" : 20
 
@@ -231,3 +231,4 @@ pie title 已完成的题目
 | 26     | [树的子结构](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/剑指Offer/26-树的子结构.md) |    Medium    |
 | 27     | [二叉树的镜像](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/剑指Offer/27-二叉树的镜像.md) |    Easy    |
 | 28     | [对称的二叉树](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/剑指Offer/28-对称的二叉树.md) |    Easy    |
+| 29     | [顺时针打印矩阵](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/剑指Offer/29-顺时针打印矩阵.md) |    Easy    |
