@@ -232,3 +232,4 @@ pie title 已完成的题目
 | 27     | [二叉树的镜像](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/剑指Offer/27-二叉树的镜像.md) |    Easy    |
 | 28     | [对称的二叉树](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/剑指Offer/28-对称的二叉树.md) |    Easy    |
 | 29     | [顺时针打印矩阵](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/剑指Offer/29-顺时针打印矩阵.md) |    Easy    |
+| 30     | [包含min函数的栈](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/剑指Offer/30-包含min函数的栈.md) |    Easy    |
