@@ -3,12 +3,12 @@
 some exercises of leetcode
 
 - leetcode：简单：107，中等: 54，困难：19
-- 剑指offer：简单：17，中等： 11， 困难： 1
+- 剑指offer：简单：18，中等： 15， 困难： 1
 
 ```mermaid
 pie title 已完成的题目
-    "简单" : 124
-    "中等" : 65
+    "简单" : 125
+    "中等" : 69
     "困难" : 20
 
 ```
@@ -230,4 +230,10 @@ pie title 已完成的题目
 | 29     | [顺时针打印矩阵](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/剑指Offer/29-顺时针打印矩阵.md) |    Easy    |
 | 30     | [包含min函数的栈](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/剑指Offer/30-包含min函数的栈.md) |    Easy    |
 | 31     | [栈的压入、弹出序列](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/剑指Offer/31-栈的压入、弹出序列.md) |    Medium    |
-| 32     | [从上到下打印二叉树-I](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/剑指Offer/32(1)-从上到下打印二叉树.md) |    Medium    |
+| 32     | [从上到下打印二叉树](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/剑指Offer/32(1)-从上到下打印二叉树.md) |    Medium    |
+| 32 - II     | [从上到下打印二叉树II](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/剑指Offer/32(2)-从上到下打印二叉树II.md) |    Easy    |
+| 32 - III     | [从上到下打印二叉树III](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/剑指Offer/32(3)-从上到下打印二叉树III.md) |    Medium    |
+| 33    | [二叉搜索树的后序遍历序列](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/剑指Offer/33-二叉搜索树的后序遍历序列.md) |    Medium    |
+| 34    | [二叉树中和为某一值的路径](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/剑指Offer/34-二叉树中和为某一值的路径.md) |    Medium    |
+| 35    | [复杂链表的复制](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/剑指Offer/35-复杂链表的复制.md) |    Medium    |
+  
