@@ -3,12 +3,12 @@
 some exercises of leetcode
 
 - leetcode：简单：107，中等: 54，困难：19
-- 剑指offer：简单：17，中等： 10， 困难： 1
+- 剑指offer：简单：17，中等： 11， 困难： 1
 
 ```mermaid
 pie title 已完成的题目
     "简单" : 124
-    "中等" : 64
+    "中等" : 65
     "困难" : 20
 
 ```
@@ -229,4 +229,5 @@ pie title 已完成的题目
 | 28     | [对称的二叉树](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/剑指Offer/28-对称的二叉树.md) |    Easy    |
 | 29     | [顺时针打印矩阵](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/剑指Offer/29-顺时针打印矩阵.md) |    Easy    |
 | 30     | [包含min函数的栈](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/剑指Offer/30-包含min函数的栈.md) |    Easy    |
-| 31     | [31-栈的压入、弹出序列](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/剑指Offer/31-31-栈的压入、弹出序列.md) |    Medium    |
+| 31     | [栈的压入、弹出序列](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/剑指Offer/31-栈的压入、弹出序列.md) |    Medium    |
+| 32     | [从上到下打印二叉树-I](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/剑指Offer/32(1)-从上到下打印二叉树.md) |    Medium    |
