@@ -3,13 +3,13 @@
 some exercises of leetcode
 
 - leetcode：简单：107，中等: 54，困难：19
-- 剑指offer：简单：18，中等： 15， 困难： 1
+- 剑指offer：简单：20，中等： 17， 困难： 2
 
 ```mermaid
 pie title 已完成的题目
-    "简单" : 125
-    "中等" : 69
-    "困难" : 20
+    "简单" : 127
+    "中等" : 71
+    "困难" : 21
 
 ```
 
@@ -236,4 +236,9 @@ pie title 已完成的题目
 | 33    | [二叉搜索树的后序遍历序列](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/剑指Offer/33-二叉搜索树的后序遍历序列.md) |    Medium    |
 | 34    | [二叉树中和为某一值的路径](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/剑指Offer/34-二叉树中和为某一值的路径.md) |    Medium    |
 | 35    | [复杂链表的复制](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/剑指Offer/35-复杂链表的复制.md) |    Medium    |
+| 36    | [二叉搜索树与双向链表](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/剑指Offer/36-二叉搜索树与双向链表.md) |    Medium    |
+| 37    | [序列化二叉树](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/剑指Offer/37-序列化二叉树.md) |    Hard    |
+| 38    | [字符串的排列](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/剑指Offer/38-字符串的排列.md) |    Medium    |
+| 39    | [数组中出现次数超过一半的数字](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/剑指Offer/39-数组中出现次数超过一半的数字.md) |    Easy    |
+| 40    | [最小的k个数](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/剑指Offer/40-最小的k个数.md) |    Easy    |
   
