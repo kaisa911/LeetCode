@@ -2,14 +2,14 @@
 
 some exercises of leetcode
 
-- leetcode：简单：107，中等: 54，困难：19
-- 剑指offer：简单：20，中等： 17， 困难： 2
+- leetcode：简单：113，中等：70，困难：23
+- 剑指offer：简单：20，中等：17， 困难： 2
 
 ```mermaid
 pie title 已完成的题目
-    "简单" : 127
-    "中等" : 71
-    "困难" : 21
+    "简单" : 133
+    "中等" : 87
+    "困难" : 25
 
 ```
 
@@ -183,6 +183,7 @@ pie title 已完成的题目
 | 747    |                                                [DominantIndex 至少是其他数字两倍的最大数](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/747-dominantIndex.js)                                                |    Easy    |
 | 905    |                                                  [SortArrayByParity 按奇偶排序数组](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/905-sortArrayByParity.js)                                                  |    Easy    |
 | 907    |                                                      [SortedSquares 有序数组的平方](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/907-sortedSquares.js)                                                      |    Easy    |
+| 929    |                                              [Num Unique Emails 独特的电子邮件地址](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/929-numUniqueEmails.js)                                               |    Easy    |
 | 933    |                                              [Number of Recent Calls 最近的请求次数](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/933-NumberofRecentCalls.md)                                               |    Easy    |
 | 942    |                                                     [DI String Match 增减字符串匹配](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/942-DIStringMatch.md)                                                     |    Easy    |
 | 965    |                                                 [Univalued Binary Tree 单值二叉树](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/965-UnivaluedBinaryTree.md)                                                 |    Easy    |
@@ -190,8 +191,11 @@ pie title 已完成的题目
 | 994    |                                                      [Rotting Oranges 腐烂的橘子](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/994-RottingOranges.md)                                                       |    Easy    |
 | 1002   |                                                        [CommonChars 查找常用字符](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/1002-commonChars.js)                                                         |    Easy    |
 | 1022   |                               [Sum of Root To Leaf Binary Numbers 从根到叶的二进制数之和](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/1022-SumofRootToLeafBinaryNumbers.js)                                |    Easy    |
+| 1121   |                                                [Remove Outer Parentheses 删除最外层的括号](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/1021-RemoveOuterParentheses.js)                                                 |    Easy    |
 | 1122   |                                                [Relative Sort Array 数组的相对排序](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/1122-RelativeSortArray.md)                                                 |    Easy    |
 | 1137   |                                            [N-th Tribonacci Number 第 N 个泰波那契数](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/1137-N-thTribonacciNumber.md)                                            |    Easy    |
+| 1200   |                                            [Minimum Abs Difference 最小绝对差](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/1200-MinimumAbsDifference.js)                                            |    Easy    |
+| 1217   |                                            [Min Cost To Move Chips 玩筹码 ](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/1217-MinCostToMoveChips.js)                                            |    Easy    |
 | 1365   |             [How Many Numbers Are Smaller Than the Current Number 有多少小于当前数字的数字](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/1365-HowManyNumbersAreSmallerThantheCurrentNumber.js)              |    Easy    |
 | 1431   |                           [Kids With the Greatest Number of Candies 拥有最多糖果的孩子](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/1431-KidsWiththeGreatestNumberofCandies.md)                            |    Easy    |
 | 1945   |                          [Sum of Digits of String After Convert 字符串转化后的各位数字之和](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/1945-SumofDigitsofStringAfterConvert.md)                           |    Easy    |
