@@ -1,24 +1,19 @@
 var longestConsecutive = function (nums) {
-  let numSet = new Set();
-  for (const num of nums) {
-    numSet.add(num);
-  }
+  const set = new Set(nums);
+  let res = 0;
 
-  let longestStreak = 0;
+  for (let num of set) {
+    if (!set.has(num - 1)) {
+      let count = 1;
 
-  for (const num of numSet) {
-    if (!numSet.has(num - 1)) {
-      let currentNum = num;
-      let currentStreak = 1;
-
-      while (numSet.has(currentNum + 1)) {
-        currentNum += 1;
-        currentStreak += 1;
+      while (set.has(num + 1)) {
+        num += 1;
+        count += 1;
       }
 
-      longestStreak = Math.max(longestStreak, currentStreak);
+      res = Math.max(res, count);
     }
   }
 
-  return longestStreak;
+  return res;
 };
