@@ -12,7 +12,7 @@
  * }
  */
 
-function tree2str(root: TreeNode | null): string {
+function tree2str(root) {
   if (!root) {
     return '';
   }
@@ -22,5 +22,7 @@ function tree2str(root: TreeNode | null): string {
   if (!root.right) {
     return root.val + '(' + tree2str(root.left) + ')';
   }
-  return root.val + '(' + tree2str(root.left) + ')(' + tree2str(root.right) + ')';
+  return (
+    root.val + '(' + tree2str(root.left) + ')(' + tree2str(root.right) + ')'
+  );
 }
