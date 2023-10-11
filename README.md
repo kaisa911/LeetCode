@@ -2,13 +2,13 @@
 
 some exercises of leetcode
 
-- leetcode：简单：119，中等：89，困难：30
-- 总计：238
+- leetcode：简单：119，中等：91，困难：30
+- 总计：240
 
 ```mermaid
 pie title 已完成的题目
     "简单" : 119
-    "中等" : 89
+    "中等" : 90
     "困难" : 30
 
 ```
@@ -22,12 +22,12 @@ pie title 已完成的题目
 | 3      |                    [Longest Substring Without Repeating Characters 无重复字符的最长子串](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/3-LongestSubstringWithoutRepeatingCharacters.md)                    |   Medium   |    子串    |
 | 4      |                                        [Median of Two Sorted Arrays 两个排序数组的中位数](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Hard/4-MedianofTwoSortedArrays.md)                                        |    Hard    |    数组    |
 | 5      |                                        [Longest Palindromic Substring 最长回文子串](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/5-LongestPalindromicSubstring.md)                                        |   Medium   |    子串    |
-| 6      |                                                   [ZigZag Converesion Z 字形变换](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/6-ZigZagConveresion.js)                                                    |   Medium   |
-| 7      |                                                        [Reverse Integer 翻转整数](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/7-ReverseInteger.md)                                                         |    Easy    |
-| 8      |                                               [String to Integer (atoi) 字符串转为整数](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/8-StringtoInteger.js)                                                |   Medium   |
-| 9      |                                                      [Palindrome Number 回文数字](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/9-PalindromeNumber.md)                                                       |    Easy    |
-| 10     |                                         [Regular Expression Matching 正则表达式匹配](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Hard/10-RegularExpressionMatching.js)                                          |    Hard    |
-| 11     |                                           [Container With Most Water 盛最多水的容器](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/11-ContainerWithMostWater.js)                                           |   Medium   |
+| 6      |                                                   [ZigZag Converesion Z 字形变换](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/6-ZigZagConveresion.js)                                                    |   Medium   |   字符串   |
+| 7      |                                                        [Reverse Integer 翻转整数](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/7-ReverseInteger.md)                                                         |    Easy    |    数学    |
+| 8      |                                               [String to Integer (atoi) 字符串转为整数](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/8-StringtoInteger.js)                                                |   Medium   |   字符串   |
+| 9      |                                                      [Palindrome Number 回文数字](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/9-PalindromeNumber.md)                                                       |    Easy    |    数学    |
+| 10     |                                         [Regular Expression Matching 正则表达式匹配](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Hard/10-RegularExpressionMatching.js)                                          |    Hard    |   字符串   |
+| 11     |                                           [Container With Most Water 盛最多水的容器](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/11-ContainerWithMostWater.js)                                           |   Medium   |   双指针   |
 | 12     |                                                   [Integer to Roman 整数转罗马数字](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/12-IntegertoRoman.js)                                                    |   Medium   |
 | 13     |                                                    [Roman to Integer 罗马数字转整数](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/13-RomantoInteger.md)                                                     |    Easy    |
 | 14     |                                                [Longest Common Prefix 最长共同前缀](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/14-LongestCommonPrefix.js)                                                 |    Easy    |
@@ -134,7 +134,7 @@ pie title 已完成的题目
 | 129    |                                        [Sum Root to Leaf Numbers 求根到叶子节点数字之和](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/129-SumRoottoLeafNumbers.md)                                        |   Medium   |
 | 136    |                                                      [SingleNumber 只出现一次的数字](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/136-singleNumber.js)                                                      |    Easy    |
 | 141    |                                                      [Linked List Cycle 环形链表](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/141-LinkedListCycle.md)                                                      |    Easy    |    链表    |
-| 155    |                                                               [MinStack 最小栈](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/155-MinStack.js)                                                               |    Easy    |
+| 155    |                                                               [MinStack 最小栈](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/155-MinStack.js)                                                               |    Easy    |     栈     |
 | 165    |                                               [Compare Version Numbers 比较版本号](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/165-CompareVersionNumbers.md)                                               |    Easy    |
 | 167    |                                                            [TwoSum-II 两数之和 II](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/167-TwoSumII.js)                                                            |    Easy    |
 | 169    |                                                        [MajorityElement 求众数](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/169-majorityElement.js)                                                        |    Easy    |
@@ -152,9 +152,9 @@ pie title 已完成的题目
 | 206    |                                                    [Reverse Linked List 反转链表](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/206-ReverseLinkedList.md)                                                    |    Easy    |    链表    |
 | 217    |                                                   [ContainsDuplicate 存在重复元素](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/217-containsDuplicate.js)                                                   |    Easy    |
 | 219    |                                           [ContainsNearbyDuplicate 存在重复元素 II](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/219-containsNearbyDuplicate.js)                                            |    Easy    |
-| 225    |                                         [Implement Stack using Queues 用队列实现栈](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/225-ImplementStackusingQueues.js)                                          |    Easy    |
+| 225    |                                         [Implement Stack using Queues 用队列实现栈](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/225-ImplementStackusingQueues.js)                                          |    Easy    |     栈     |
 | 231    |                                                           [IsPowerOfTwo 2 的幂](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/231-isPowerOfTwo.js)                                                           |    Easy    |
-| 232    |                                         [Implement Queue using Stacks 用栈实现队列](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/232-ImplementQueueusingStacks.js)                                          |    Easy    |
+| 232    |                                         [Implement Queue using Stacks 用栈实现队列](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/232-ImplementQueueusingStacks.js)                                          |    Easy    |     栈     |
 | 233    |                                                  [Number of Digit One 数字 1 的个数](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Hard/233-NumberofDigitOne.js)                                                  |    Hard    |
 | 236    |                           [Lowest Common Ancestor of a Binary Tree 二叉树的最近公共祖先](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/236-LowestCommonAncestorofaBinaryTree.js)                           |   Medium   |   二叉树   |
 | 238    |                                     [Product of Array Except Self 除自身以外数组的乘积](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/238-ProductofArrayExceptSelf.md)                                     |   Medium   |    数组    |
@@ -180,6 +180,7 @@ pie title 已完成的题目
 | 349    |                                          [Intersection of Two Arrays 两个数组的交集](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/349-IntersectionofTwoArrays.js)                                           |    Easy    |    数组    |
 | 350    |                                       [Intersection of Two ArraysII 两个数组的交集 II](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/350-IntersectionofTwoArraysII.md)                                       |    Easy    |    数组    |
 | 371    |                                                  [Sum of Two Integers 两个整数相加](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/371-SumofTwoIntegers.md)                                                   |    Easy    |
+| 373    |                                  [Find K Pairs with Smallest Sums 查找和最小的 K 对数字](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/373-FindKPairswithSmallestSums.js)                                  |   Medium   |     堆(优先队列)     |
 | 377    |                                                   [Combination Sum IV 组合总和 Ⅳ](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/377-CombinationSumIV.md)                                                   |   Medium   |
 | 383    |                                                            [Ransom Note 赎金信](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/383-RansomNote.md)                                                             |    Easy    |
 | 387    |                                                 [FirstUniqChar 字符串中的第一个唯一字符](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/387-firstUniqChar.md)                                                 |    Easy    |
@@ -227,7 +228,7 @@ pie title 已完成的题目
 | 929    |                                                 [Num Unique Emails 独特的电子邮件地址](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/929-numUniqueEmails.js)                                                 |    Easy    |
 | 933    |                                              [Number of Recent Calls 最近的请求次数](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/933-NumberofRecentCalls.md)                                               |    Easy    |
 | 942    |                                                     [DI String Match 增减字符串匹配](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/942-DIStringMatch.md)                                                     |    Easy    |
-| 946    |                                             [Validate Stack Sequences 验证栈序列](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/946-ValidateStackSequences.js)                                             |   Medium   |
+| 946    |                                             [Validate Stack Sequences 验证栈序列](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/946-ValidateStackSequences.js)                                             |   Medium   |     栈     |
 | 953    |                                       [Verifying an Alien Dictionary 验证外星语词典](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/953-VerigyinganAlienDictionary.js)                                        |    Easy    |
 | 965    |                                                 [Univalued Binary Tree 单值二叉树](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/965-UnivaluedBinaryTree.md)                                                 |    Easy    |   二叉树   |
 | 974    |                                    [Subarray Sums Divisible by K 和可被 K 整除的子数组](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/974-SubarraySumsDivisiblebyK.js)                                     |   Medium   |    数组    |
@@ -254,4 +255,5 @@ pie title 已完成的题目
 | 1945   |                          [Sum of Digits of String After Convert 字符串转化后的各位数字之和](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/1945-SumofDigitsofStringAfterConvert.md)                           |    Easy    |
 | 2038   | [Remove Colored Pieces if Both Neighbors are the Same Color 如果相邻两个颜色均相同则删除当前颜色](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/2038-RemoveColoredPiecesifBothNeighborsaretheSameColor.md) |   Medium   |
 | 2578   |                                                [Split With Minimum Sum 最小和分割](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/2578-SplitWithMinimumSum.js)                                                |    Easy    |    贪心    |
+| 2512   |                                          [Reward Top K Students 奖励最顶尖的 K 名学生](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/2512-RewardTopKStudents.js)                                           |   Medium   |   哈希表   |
 | 2732   |                                                  [Movement of Robots 移动机器人](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/2732-MovementofRobots.js)                                                   |   Medium   | 脑筋急转弯 |
