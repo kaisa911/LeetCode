@@ -2,13 +2,13 @@
 
 some exercises of leetcode
 
-- leetcode：简单：119，中等：91，困难：30
-- 总计：240
+- leetcode：简单：119，中等：93，困难：30
+- 总计：242
 
 ```mermaid
 pie title 已完成的题目
     "简单" : 119
-    "中等" : 90
+    "中等" : 93
     "困难" : 30
 
 ```
@@ -161,6 +161,7 @@ pie title 已完成的题目
 | 242    |                                                     [Valid Anagram 有效的字母异位词](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/242-ValidAnagram.md)                                                      |    Easy    |
 | 257    |                                                  [Binary Tree Paths 二叉树的所有路径](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/257-BinaryTreePaths.md)                                                  |    Easy    |   二叉树   |
 | 258    |                                                            [Add Digits 各位相加](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/258-AddDigits.md)                                                             |    Easy    |
+| 260    |                                                            [Add Digits 各位相加](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/260-SingleNumberIII.js)                                                             |    Medium    |
 | 263    |                                                             [Ugly Number 丑数](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/263-UglyNumber.md)                                                              |    Easy    |
 | 268    |                                                         [MissingNumber 缺失数字](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/268-missingNumber.js)                                                         |    Easy    |
 | 274    |                                                               [H-Index H 指数](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/274-H-Index.js)                                                               |   Medium   |
@@ -241,6 +242,7 @@ pie title 已完成的题目
 | 1108   |                                             [Defanging an Ip Address IP 地址无效化](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/1108-DefanginganIpAddress.js)                                              |    Easy    |
 | 1122   |                                                [Relative Sort Array 数组的相对排序](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/1122-RelativeSortArray.md)                                                 |    Easy    |    数组    |
 | 1137   |                                            [N-th Tribonacci Number 第 N 个泰波那契数](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/1137-N-thTribonacciNumber.md)                                            |    Easy    |
+| 1143   |                                            [Longest Common Subsequence最长公共子序列](<https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/1143-LongestCommonSubsequence.js>)                                            |    Medium    |
 | 1200   |                                               [Minimum Abs Difference 最小绝对差](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/1200-MinimumAbsDifference.js)                                                |    Easy    |
 | 1217   |                           [Minimum Cost to Move Chips to The Same Position 玩筹码](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/1217-MinimumCosttoMoveChipstoTheSamePosition.js)                            |    Easy    |
 | 1260   |                                                       [Shift 2D Grid 二维网格迁移](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/1260-Shift2DGrid.js)                                                        |    Easy    |
