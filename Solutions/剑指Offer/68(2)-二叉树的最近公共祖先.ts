@@ -7,13 +7,27 @@
  *     TreeNode(int x) { val = x; }
  * }
  */
-class Solution {
-    public TreeNode lowestCommonAncestor(TreeNode root, TreeNode p, TreeNode q) {
-         if(root==null||root==p||root==q)return root;
-        TreeNode left = lowestCommonAncestor(root.left,p,q);
-        TreeNode right = lowestCommonAncestor(root.right,p,q);
-        if(left==null)return right;
-        if(right==null)return left;
-        return root;
-    }
+
+interface TreeNode {
+  val: number;
 }
+
+var lowestCommonAncestor = function (root, p, q) {
+  let ans;
+  const dfs = (root, p, q) => {
+    if (root === null) {
+      return false;
+    }
+    const lson = dfs(root.left, p, q);
+    const rson = dfs(root.right, p, q);
+    if (
+      (lson && rson) ||
+      ((root.val === p.val || root.val === q.val) && (lson || rson))
+    ) {
+      ans = root;
+    }
+    return lson || rson || root.val === p.val || root.val === q.val;
+  };
+  dfs(root, p, q);
+  return ans;
+};
