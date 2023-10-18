@@ -62,3 +62,17 @@ function replaceSpace(s: string): string {
   return res.join('');
 }
 ```
+
+```js
+function replaceSpace(s: string): string {
+  let list = [];
+  for (let i = 0; i < s.length; i++) {
+    if (s[i] === ' ') {
+      list.push('%20');
+    } else {
+      list.push(s[i]);
+    }
+  }
+  return list.join('');
+}
+```

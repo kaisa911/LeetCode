@@ -31,10 +31,10 @@
 
   - 行或列索引越界
   - 索引之和大于k
-  - 当前矩阵元素已访问过（通过将访问过的位置的dp设置为true）
+  - 当前矩阵元素已访问过（通过将访问过的位置的memo设置为true）
 
 - 递推过程：
-  - 标记当前矩阵元素： 将dp[i][j] 设置为true ，代表此元素已访问过，防止之后搜索时重复访问。
+  - 标记当前矩阵元素： 将memo[i][j] 设置为true ，代表此元素已访问过，防止之后搜索时重复访问。
   - 搜索下一单元格： 朝当前元素的 下、右 两个方向开启下层递归，并记录结果 res+=1 。
 
 - 返回值： 返回数字型 res ，代表可以访问的坐标数。
@@ -44,11 +44,11 @@ const getSum = (num: number): number => {
   return [...String(num)].reduce((a, b) => (+a) + (+b), 0)
 };
 function movingCount(m: number, n: number, k: number): number {
-  const dp: boolean[][] = new Array(m).fill(null).map(() => new Array(n).fill(false));
+  const memo: boolean[][] = new Array(m).fill(null).map(() => new Array(n).fill(false));
   let res: number = 0;
   const dfs = (i: number, j: number): void => {
-    if (i >= m || j >= n || dp[i][j] || getSum(i) + getSum(j) > k) return;
-    dp[i][j] = true;
+    if (i >= m || j >= n || memo[i][j] || getSum(i) + getSum(j) > k) return;
+    memo[i][j] = true;
     res += 1;
     dfs(i, j + 1);
     dfs(i + 1, j);

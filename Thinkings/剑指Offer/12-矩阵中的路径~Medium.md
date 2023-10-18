@@ -32,11 +32,12 @@
 
 **思路：**
 
-在做这道题的时候，我想到了dfs来做，就是找到起始点，然后上下左右继续深度的找，找到就返回true，到达边界或者其他下一个找不到当前字符，就返回。
+在做这道题的时候，我想到了 dfs 来做，就是找到起始点，然后上下左右继续深度的找，找到就返回 true，到达边界或者其他下一个找不到当前字符，就返回。
 
 - DFS 解析：
   - 递归参数： 当前元素在矩阵 board 中的行列索引 i 和 j ，当前目标字符 word 。
 - 终止条件：
+
   - 返回 false：
     - 行或列索引越界
     - 当前矩阵元素与目标字符不同
@@ -48,7 +49,6 @@
   - 搜索下一单元格： 朝当前元素的 上、下、左、右 四个方向开启下层递归，使用 或 连接 （代表只需找到一条可行路径就直接返回，不再做后续 DFS ），并记录结果至 res 。
   - 还原当前矩阵元素： 将 board[i][j] 元素还原至初始值，即 word[k] 。
 - 返回值： 返回布尔量 res ，代表是否搜索到目标字符串。
-
 
 ```ts
 function exist(board: string[][], word: string): boolean {
@@ -85,5 +85,42 @@ function exist(board: string[][], word: string): boolean {
     }
   }
   return res;
+}
+```
+
+```js
+function exist(board, word) {
+  if (!board.length || !board[0].length) return false;
+  const rows = board.length;
+  const cols = board[0].length;
+  const directions = [
+    [-1, 0],
+    [1, 0],
+    [0, -1],
+    [0, 1],
+  ]; // 上下左右四个方向
+
+  const dfs = (i, j, k) => {
+    if (i < 0 || i >= rows || j < 0 || j >= cols || board[i][j] !== word[k]) {
+      return false;
+    }
+    if (k === word.length - 1) {
+      return true;
+    }
+    board[i][j] = '\0'; // 标记当前位置已访问
+    let result = directions.some(([dx, dy]) => dfs(i + dx, j + dy, k + 1));
+    board[i][j] = word[k]; // 还原当前位置
+    return result;
+  };
+
+  for (let i = 0; i < rows; i++) {
+    for (let j = 0; j < cols; j++) {
+      if (dfs(i, j, 0)) {
+        return true;
+      }
+    }
+  }
+
+  return false;
 }
 ```
