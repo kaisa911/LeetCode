@@ -17,7 +17,7 @@
 
 **思路：**
 
-就双指针，就左右两边同时往中间走，找到left是偶数切right是奇数的时候，交换一下位置就可以
+就双指针，就左右两边同时往中间走，找到 left 是偶数切 right 是奇数的时候，交换一下位置就可以
 
 ```ts
 function exchange(nums: number[]): number[] {
