@@ -3,7 +3,7 @@
 
 some exercises of leetcode
 
-- leetcode：简单：120，中等：95，困难：30，剑指Offer：73,
+- Leetcode: 简单: 120, 中等: 95, 困难: 30, 剑指Offer: 73,
 - 总计：318
 
 ```mermaid
@@ -11,8 +11,7 @@ pie title 已完成的题目
     "简单" : 120
     "中等" : 95
     "困难" : 30
-    "剑指Offer：" : 73
-
+    "剑指Offer" : 73
 ```
 
 | Number | Name | Difficulty | label |
