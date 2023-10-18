@@ -680,7 +680,7 @@ const nameMap = {
   128: {
     cnName: '最长连续序列',
     enName: 'Longest Consecutive Sequence',
-    difficulty: 'Medium	',
+    difficulty: 'Medium',
     label: '',
   },
   129: {
@@ -763,7 +763,7 @@ const nameMap = {
   },
   198: {
     cnName: '打家劫舍',
-    enName: 'House Robber ',
+    enName: 'House Robber',
     difficulty: 'Easy',
     label: '',
   },
@@ -1442,6 +1442,12 @@ const nameMap = {
   2512: {
     cnName: '奖励最顶尖的 K 名学生',
     enName: 'Reward Top K Students',
+    difficulty: 'Medium',
+    label: '',
+  },
+  2530: {
+    cnName: '执行 K 次操作后的最大分数',
+    enName: 'Maximal Score After Applying K Operations',
     difficulty: 'Medium',
     label: '',
   },

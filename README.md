@@ -3,13 +3,13 @@
 
 some exercises of leetcode
 
-- leetcode：简单：120，中等：94，困难：30，剑指Offer：73,
-- 总计：317
+- leetcode：简单：120，中等：95，困难：30，剑指Offer：73,
+- 总计：318
 
 ```mermaid
 pie title 已完成的题目
     "简单" : 120
-    "中等" : 94
+    "中等" : 95
     "困难" : 30
     "剑指Offer：" : 73
 
@@ -130,7 +130,7 @@ pie title 已完成的题目
 | 119 | [Pascals Triangle II 杨辉三角 II](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/119-PascalsTriangleii.js) | Easy | |
 | 122 | [Best Time to Buy and Sell Stock II 股票买卖的最佳时机 II](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/122-BestTimetoBuyandSellStockII.js) | Medium | |
 | 125 | [Is Palindrome 验证回文串](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/125-isPalindrome.js) | Easy | |
-| 128 | [Longest Consecutive Sequence 最长连续序列](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/128-LongestConsecutiveSequence.js) | Medium	 | |
+| 128 | [Longest Consecutive Sequence 最长连续序列](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/128-LongestConsecutiveSequence.js) | Medium | |
 | 129 | [Sum Root to Leaf Numbers 求根到叶子节点数字之和](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/129-SumRoottoLeafNumbers.md) | Medium | |
 | 136 | [Single Number 只出现一次的数字](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/136-singleNumber.js) | Easy | |
 | 137 | [Single Number II 只出现一次的数字 II](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/137-SingleNumberII.md) | Medium | |
@@ -144,7 +144,7 @@ pie title 已完成的题目
 | 189 | [Rotate Array 旋转数组](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/189-rotateArray.js) | Easy | |
 | 190 | [Reverse Bits 颠倒二进制位](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/190-reverseBits.js) | Easy | |
 | 191 | [Number of 1 Bits 位 1 的个数](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/191-hammingWeight.js) | Easy | |
-| 198 | [House Robber  打家劫舍](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/198-HouseRobber.js) | Easy | |
+| 198 | [House Robber 打家劫舍](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/198-HouseRobber.js) | Easy | |
 | 199 | [Binary Tree Right Side View 二叉树的右视图](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/199-BinaryTreeRightSideView.md) | Medium | |
 | 202 | [Happy Number 快乐数](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/202-HappyNumber.md) | Easy | |
 | 203 | [Remove Linked List Elements 删除链表中的元素](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/203-RemoveLinkedListElements.js) | Easy | |
@@ -258,6 +258,7 @@ pie title 已完成的题目
 | 1945 | [Sum of Digits of String After Convert 字符串转化后的各位数字之和](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/1945-SumofDigitsofStringAfterConvert.md) | Easy | |
 | 2038 | [Remove Colored Pieces if Both Neighbors are the Same Color 如果相邻两个颜色均相同则删除当前颜色](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/2038-RemoveColoredPiecesifBothNeighborsaretheSameColor.md) | Medium | |
 | 2512 | [Reward Top K Students 奖励最顶尖的 K 名学生](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/2512-RewardTopKStudents.js) | Medium | |
+| 2530 | [Maximal Score After Applying K Operations 执行 K 次操作后的最大分数](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/2530-MaximalScoreAfterApplyingKOperations.js) | Medium | |
 | 2578 | [Split With Minimum Sum 最小和分割](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/2578-SplitWithMinimumSum.js) | Easy | 贪心|
 | 2652 | [Sum Multiples 倍数求和](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/2652-SumMultiples.md) | Easy | 哈希表|
 | 2732 | [Movement of Robots 移动机器人](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/2732-MovementofRobots.js) | Medium | 脑筋急转弯|
