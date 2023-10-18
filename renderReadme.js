@@ -57,7 +57,8 @@ Object.keys(result).map((key) => {
 
 sortTable.sort((a, b) => a.index - b.index);
 offerTable.sort((a, b) => a.index - b.index);
-
+const noNameList = [];
+const difficultyList = [];
 const tableHeader = `| Number | Name | Difficulty | label |
 |----|:--:|:------:|:-------:| `;
 const tableBody = sortTable.map((item) => {
@@ -68,11 +69,23 @@ const tableBody = sortTable.map((item) => {
     .split(/(?=[A-Z])/)
     .join(' ');
   const flag = temp.split('.')[1];
-  return `| ${index} | [${showName} ${
-    nameMap[index] || ''
+  if (!nameMap[index]) {
+    noNameList.push(index);
+  }
+  if (nameMap[index]?.difficulty && nameMap[index]?.difficulty !== difficulty) {
+    difficultyList.push({
+      index,
+      difficulty: nameMap[index]?.difficulty,
+      difficulty2: difficulty,
+    });
+  }
+  return `| ${index} | [${nameMap[index]?.enName || showName} ${
+    nameMap[index]?.cnName || ''
   }](https://github.com/kaisa911/LeetCode/blob/master/${
     flag === 'md' ? 'Thinkings' : 'Solutions'
-  }/${difficulty}/${name}) | ${difficulty} | |`;
+  }/${difficulty}/${name}) | ${nameMap[index]?.difficulty || difficulty} | ${
+    nameMap[index]?.label || ''
+  }|`;
 });
 
 const tableBody2 = offerTable.map((item) => {
@@ -114,6 +127,8 @@ ${tableBody.join('\n')}
 ${tableHeader}
 ${tableBody2.join('\n')}
 `;
+
+console.log(difficultyList);
 
 const renderReadme = (result) => {
   fs.writeFileSync('README.md', content(result), { flag: 'w+' }, (error) => {
