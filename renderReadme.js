@@ -105,9 +105,9 @@ const content = (result) => `
 
 some exercises of leetcode
 
-- leetcode：简单：${result.solution.Easy}，中等：${
+- Leetcode: 简单: ${result.solution.Easy}, 中等: ${
   result.solution.Medium
-}，困难：${result.solution.Hard}，剑指Offer：${result.solution['剑指Offer']},
+}, 困难: ${result.solution.Hard}, 剑指Offer: ${result.solution['剑指Offer']},
 - 总计：${result.sum}
 
 \`\`\`mermaid
@@ -115,8 +115,7 @@ pie title 已完成的题目
     "简单" : ${result.solution.Easy}
     "中等" : ${result.solution.Medium}
     "困难" : ${result.solution.Hard}
-    "剑指Offer：" : ${result.solution['剑指Offer']}
-
+    "剑指Offer" : ${result.solution['剑指Offer']}
 \`\`\`
 
 ${tableHeader}
@@ -128,7 +127,7 @@ ${tableHeader}
 ${tableBody2.join('\n')}
 `;
 
-console.log(difficultyList);
+console.log(noNameList, difficultyList);
 
 const renderReadme = (result) => {
   fs.writeFileSync('README.md', content(result), { flag: 'w+' }, (error) => {
