@@ -3,7 +3,7 @@
  * @return {number[][]}
  */
 var findContinuousSequence = function (target) {
-  let res = [];
+  let res: Array<number>[] = [];
   //滑动窗口左右界， 闭区间
   let left = 1;
   let right = 2;
