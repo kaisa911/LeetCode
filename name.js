@@ -711,7 +711,7 @@ const nameMap = {
     cnName: '反转字符串中的单词',
     enName: 'Reverse Words in a String',
     difficulty: 'Medium',
-    label: '字符串',
+    label: '双指针',
   },
   155: {
     cnName: '最小栈',
@@ -957,7 +957,7 @@ const nameMap = {
     cnName: '递增的三元子序列',
     enName: 'Increasing Triplet Subsequence',
     difficulty: 'Medium',
-    label: '数组',
+    label: '贪心、数组',
   },
   338: {
     cnName: '比特位计数',
@@ -1077,7 +1077,7 @@ const nameMap = {
     cnName: '压缩字符串',
     enName: 'String Compression',
     difficulty: 'Medium',
-    label: '字符串',
+    label: '字符串、双指针',
   },
   448: {
     cnName: '找到所有数组中消失的数字',
@@ -1125,7 +1125,7 @@ const nameMap = {
     cnName: '随机翻转矩阵',
     enName: 'Random Flip Matrix',
     difficulty: 'Medium',
-    label: '',
+    label: '数组',
   },
   529: {
     cnName: '扫雷游戏',
@@ -1215,7 +1215,7 @@ const nameMap = {
     cnName: '最大交换',
     enName: 'Maximum Swap',
     difficulty: 'Medium',
-    label: '',
+    label: '贪心',
   },
   680: {
     cnName: '验证回文串 II',
@@ -1389,7 +1389,7 @@ const nameMap = {
     cnName: '字符串的最大公因子',
     enName: 'Greatest Common Divisor of Strings',
     difficulty: 'Easy',
-    label: '字符串',
+    label: '字符串、GCD',
   },
   1108: {
     cnName: 'IP 地址无效化',
@@ -1425,7 +1425,7 @@ const nameMap = {
     cnName: '独一无二的出现次数',
     enName: 'Unique Number of Occurrences',
     difficulty: 'Easy',
-    label: '',
+    label: '哈希表',
   },
   1217: {
     cnName: '玩筹码',

@@ -1,6 +1,7 @@
 const path = require('path');
 const fs = require('fs');
 const renderReadme = require('./renderReadme.js');
+const create = require('./create.js');
 
 const result = { solution: {}, thinking: {} };
 const solution = fs.readdirSync(path.join(__dirname, './Solutions'), {
@@ -35,3 +36,4 @@ result.thinkSum = thinkSum;
 console.log(result);
 
 renderReadme(result);
+// create(1207);
