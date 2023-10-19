@@ -3,24 +3,24 @@
 
 some exercises of leetcode
 
-- Leetcode: 简单: 120, 中等: 95, 困难: 30, 剑指Offer: 73,
-- 总计：318
+- Leetcode: 简单: 121, 中等: 96, 困难: 31, 剑指Offer: 73,
+- 总计：321
 
 ```mermaid
 pie title 已完成的题目
-    "简单" : 120
-    "中等" : 95
-    "困难" : 30
+    "简单" : 121
+    "中等" : 96
+    "困难" : 31
     "剑指Offer" : 73
 ```
 
 | Number | Name | Difficulty | label |
 |----|:--:|:------:|:-------:| 
 | 1 | [Two Sum 两数之和](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/1-TwoSum.md) | Easy | 哈希表|
-| 2 | [Add Two Numbers 两数相加](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/2-AddTwoNumbers.md) | Medium | |
-| 3 | [Longest Substring Without Repeating Characters 无重复字符的最长子串](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/3-LongestSubstringWithoutRepeatingCharacters.md) | Medium | |
-| 4 | [Median of Two Sorted Arrays 两个排序数组的中位数](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Hard/4-MedianofTwoSortedArrays.md) | Hard | |
-| 5 | [Longest Palindromic Substring 最长回文子串](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/5-LongestPalindromicSubstring.md) | Medium | |
+| 2 | [Add Two Numbers 两数相加](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/2-AddTwoNumbers.md) | Medium | 链表|
+| 3 | [Longest Substring Without Repeating Characters 无重复字符的最长子串](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/3-LongestSubstringWithoutRepeatingCharacters.md) | Medium | 滑动窗口|
+| 4 | [Median of Two Sorted Arrays 两个排序数组的中位数](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Hard/4-MedianofTwoSortedArrays.md) | Hard | 数组|
+| 5 | [Longest Palindromic Substring 最长回文子串](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/5-LongestPalindromicSubstring.md) | Medium | 双指针|
 | 6 | [ZigZag Conversion Z 字形变换](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/6-ZigZagConveresion.js) | Medium | |
 | 7 | [Reverse Integer 翻转整数](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/7-ReverseInteger.md) | Easy | |
 | 8 | [String to Integer (atoi) 字符串转为整数](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/8-StringtoInteger.js) | Medium | |
@@ -29,13 +29,13 @@ pie title 已完成的题目
 | 11 | [Container With Most Water 盛最多水的容器](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/11-ContainerWithMostWater.js) | Medium | |
 | 12 | [Integer to Roman 整数转罗马数字](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/12-IntegertoRoman.js) | Medium | |
 | 13 | [Roman to Integer 罗马数字转整数](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/13-RomantoInteger.md) | Easy | |
-| 14 | [Longest Common Prefix 最长共同前缀](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/14-LongestCommonPrefix.md) | Easy | |
+| 14 | [Longest Common Prefix 最长共同前缀](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/14-LongestCommonPrefix.md) | Easy | 数组|
 | 15 | [3 Sum 三数之和](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/15-3Sum.js) | Medium | |
 | 16 | [3 Sum Closest 最接近的三数之和](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/16-3SumClosest.js) | Medium | |
 | 17 | [Letter Combinations of a Phone Number 电话号码的字母组合](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/17-LetterCombinationsofaPhoneNumber.md) | Medium | |
 | 18 | [4 Sum 四数之和](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/18-4Sum.js) | Medium | |
 | 19 | [Remove Nth Node From End of List 删除链表的倒数第 N 个节点](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/19-RemoveNthNodeFromEndofLIst.md) | Medium | |
-| 20 | [Valid Parentheses 有效的括号](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/20-ValidParentheses.md) | Easy | |
+| 20 | [Valid Parentheses 有效的括号](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/20-ValidParentheses.md) | Easy | 栈|
 | 21 | [Merge Two Sorted Lists 合并两个有序链表](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/21-MergeTwoSortedLists.md) | Easy | |
 | 22 | [Generate Parentheses 生成括号](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/22-GenerateParentheses.md) | Medium | |
 | 23 | [Merge k Sorted Lists 合并 K 个排序链表](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Hard/23-MergekSortedLists.md) | Hard | |
@@ -225,6 +225,7 @@ pie title 已完成的题目
 | 778 | [Swim In Rising Water 水位上升的泳池中游泳](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Hard/778-SwimInRisingWater.js) | Hard | |
 | 784 | [Letter Case Permutation 字母大小写全排列](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/784-LetterCasePermutation.js) | Medium | |
 | 814 | [Binary Tree Pruning 二叉树剪枝](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/814-BinaryTreePruning.js) | Medium | |
+| 864 | [Shortest Path to Get All Keys 获取所有钥匙的最短路径](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Hard/864-ShortestPathtoGetAllKeys.js) | Hard | BFS|
 | 905 | [Sort Array By Parity 按奇偶排序数组](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/905-sortArrayByParity.js) | Easy | |
 | 929 | [Num Unique Emails 独特的电子邮件地址](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/929-numUniqueEmails.js) | Easy | |
 | 933 | [Number of Recent Calls 最近的请求次数](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/933-NumberofRecentCalls.md) | Easy | |
@@ -251,8 +252,10 @@ pie title 已完成的题目
 | 1388 | [Pizza With 3n Slices 3n 块披萨](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Hard/1388-PizzaWith3nSlices.js) | Hard | |
 | 1413 | [Minimum Value to Get Positive Step by Step Sum 逐步求和得到正数的最小值](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/1413-MinimumValuetoGetPositiveStepbyStepSum.js) | Easy | |
 | 1431 | [Kids With the Greatest Number of Candies 拥有最多糖果的孩子](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/1431-KidsWiththeGreatestNumberofCandies.md) | Easy | |
+| 1528 | [Shuffle String 重新排列字符串](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/1528-ShuffleString.js) | Easy | 数组|
 | 1572 | [Matrix Diagonal Sum 矩阵对角线的元素和](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/1572-MatrixDiagonalSum.js) | Easy | |
 | 1640 | [Check Array Formation Through Concatenation 能否连接成数组](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/1640-CheckArrayFormationThrouthConcatenation.js) | Easy | |
+| 1726 | [Tuple with Same Product 同积元组](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/1726-TuplewithSameProduct.js) | Medium | 哈希表|
 | 1823 | [Find The Winner 找出游戏的获胜者](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/1823-FindTheWinner.js) | Medium | |
 | 1945 | [Sum of Digits of String After Convert 字符串转化后的各位数字之和](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/1945-SumofDigitsofStringAfterConvert.md) | Easy | |
 | 2038 | [Remove Colored Pieces if Both Neighbors are the Same Color 如果相邻两个颜色均相同则删除当前颜色](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/2038-RemoveColoredPiecesifBothNeighborsaretheSameColor.md) | Medium | |
@@ -260,7 +263,7 @@ pie title 已完成的题目
 | 2530 | [Maximal Score After Applying K Operations 执行 K 次操作后的最大分数](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/2530-MaximalScoreAfterApplyingKOperations.js) | Medium | |
 | 2578 | [Split With Minimum Sum 最小和分割](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/2578-SplitWithMinimumSum.js) | Easy | 贪心|
 | 2652 | [Sum Multiples 倍数求和](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/2652-SumMultiples.md) | Easy | 哈希表|
-| 2732 | [Movement of Robots 移动机器人](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/2732-MovementofRobots.js) | Medium | 脑筋急转弯|
+| 2731 | [Movement of Robots 移动机器人](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/2731-MovementofRobots.js) | Medium | 脑筋急转弯|
 
 **剑指offer**
 

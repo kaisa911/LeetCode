@@ -9,25 +9,25 @@ const nameMap = {
     cnName: '两数相加',
     enName: 'Add Two Numbers',
     difficulty: 'Medium',
-    label: '',
+    label: '链表',
   },
   3: {
     cnName: '无重复字符的最长子串',
     enName: 'Longest Substring Without Repeating Characters',
     difficulty: 'Medium',
-    label: '',
+    label: '滑动窗口',
   },
   4: {
     cnName: '两个排序数组的中位数',
     enName: 'Median of Two Sorted Arrays',
     difficulty: 'Hard',
-    label: '',
+    label: '数组',
   },
   5: {
     cnName: '最长回文子串',
     enName: 'Longest Palindromic Substring',
     difficulty: 'Medium',
-    label: '',
+    label: '双指针',
   },
   6: {
     cnName: 'Z 字形变换',
@@ -81,7 +81,7 @@ const nameMap = {
     cnName: '最长共同前缀',
     enName: 'Longest Common Prefix',
     difficulty: 'Easy',
-    label: '',
+    label: '数组',
   },
   15: {
     cnName: '三数之和',
@@ -117,7 +117,7 @@ const nameMap = {
     cnName: '有效的括号',
     enName: 'Valid Parentheses',
     difficulty: 'Easy',
-    label: '',
+    label: '栈',
   },
   21: {
     cnName: '合并两个有序链表',
@@ -707,6 +707,12 @@ const nameMap = {
     difficulty: 'Easy',
     label: '',
   },
+  151: {
+    cnName: '反转字符串中的单词',
+    enName: 'Reverse Words in a String',
+    difficulty: 'Medium',
+    label: '字符串',
+  },
   155: {
     cnName: '最小栈',
     enName: 'Min Stack',
@@ -947,6 +953,12 @@ const nameMap = {
     difficulty: 'Easy',
     label: '',
   },
+  334: {
+    cnName: '递增的三元子序列',
+    enName: 'Increasing Triplet Subsequence',
+    difficulty: 'Medium',
+    label: '数组',
+  },
   338: {
     cnName: '比特位计数',
     enName: 'Counting Bits',
@@ -1061,6 +1073,12 @@ const nameMap = {
     difficulty: 'Medium',
     label: '',
   },
+  443: {
+    cnName: '压缩字符串',
+    enName: 'String Compression',
+    difficulty: 'Medium',
+    label: '字符串',
+  },
   448: {
     cnName: '找到所有数组中消失的数字',
     enName: 'Find All Numbers Disappeared in an Array',
@@ -1101,6 +1119,12 @@ const nameMap = {
     cnName: '斐波那契数',
     enName: 'Fibonacci',
     difficulty: 'Easy',
+    label: '',
+  },
+  519: {
+    cnName: '随机翻转矩阵',
+    enName: 'Random Flip Matrix',
+    difficulty: 'Medium',
     label: '',
   },
   529: {
@@ -1187,6 +1211,12 @@ const nameMap = {
     difficulty: 'Hard',
     label: '',
   },
+  670: {
+    cnName: '最大交换',
+    enName: 'Maximum Swap',
+    difficulty: 'Medium',
+    label: '',
+  },
   680: {
     cnName: '验证回文串 II',
     enName: 'Valid Palindrome II',
@@ -1253,6 +1283,12 @@ const nameMap = {
     difficulty: 'Medium',
     label: '',
   },
+  864: {
+    cnName: '获取所有钥匙的最短路径',
+    enName: 'Shortest Path to Get All Keys',
+    difficulty: 'Hard',
+    label: 'BFS',
+  },
   905: {
     cnName: '按奇偶排序数组',
     enName: 'Sort Array By Parity',
@@ -1268,6 +1304,12 @@ const nameMap = {
   933: {
     cnName: '最近的请求次数',
     enName: 'Number of Recent Calls',
+    difficulty: 'Easy',
+    label: '',
+  },
+  941: {
+    cnName: '有效的山脉数组',
+    enName: 'Valid Mountain Array',
     difficulty: 'Easy',
     label: '',
   },
@@ -1325,6 +1367,12 @@ const nameMap = {
     difficulty: 'Easy',
     label: '',
   },
+  1004: {
+    cnName: '最大连续1的个数 III',
+    enName: 'Max Consecutive Ones III',
+    difficulty: 'Medium',
+    label: '滑动窗口',
+  },
   1021: {
     cnName: '删除最外层的括号',
     enName: 'Remove Outer Parentheses',
@@ -1336,6 +1384,12 @@ const nameMap = {
     enName: 'Sum of Root To Leaf Binary Numbers',
     difficulty: 'Easy',
     label: '',
+  },
+  1071: {
+    cnName: '字符串的最大公因子',
+    enName: 'Greatest Common Divisor of Strings',
+    difficulty: 'Easy',
+    label: '字符串',
   },
   1108: {
     cnName: 'IP 地址无效化',
@@ -1364,6 +1418,12 @@ const nameMap = {
   1200: {
     cnName: '最小绝对差',
     enName: 'Minimum Abs Difference',
+    difficulty: 'Easy',
+    label: '',
+  },
+  1207: {
+    cnName: '独一无二的出现次数',
+    enName: 'Unique Number of Occurrences',
     difficulty: 'Easy',
     label: '',
   },
@@ -1409,6 +1469,36 @@ const nameMap = {
     difficulty: 'Easy',
     label: '',
   },
+  1451: {
+    cnName: '重新排列句子中的单词',
+    enName: 'Rearrange Words in a Sentence',
+    difficulty: 'Medium',
+    label: '',
+  },
+  1456: {
+    cnName: '定长子串中元音的最大数目',
+    enName: 'Maximum Number of Vowels in a Substring of Given Length',
+    difficulty: 'Medium',
+    label: '滑动窗口',
+  },
+  1470: {
+    cnName: '重新排列数组',
+    enName: 'Shuffle the Array',
+    difficulty: 'Easy',
+    label: '',
+  },
+  1493: {
+    cnName: '删掉一个元素以后全为1的最长子数组',
+    enName: "Longest Subarray of 1's After Deleting One Element",
+    difficulty: 'Medium',
+    label: '滑动窗口',
+  },
+  1528: {
+    cnName: '重新排列字符串',
+    enName: 'Shuffle String',
+    difficulty: 'Easy',
+    label: '数组',
+  },
   1572: {
     cnName: '矩阵对角线的元素和',
     enName: 'Matrix Diagonal Sum',
@@ -1420,6 +1510,30 @@ const nameMap = {
     enName: 'Check Array Formation Through Concatenation',
     difficulty: 'Easy',
     label: '',
+  },
+  1679: {
+    cnName: 'K 和数对的最大数目',
+    enName: 'Max Number of K-Sum Pairs',
+    difficulty: 'Medium',
+    label: '双指针',
+  },
+  1726: {
+    cnName: '同积元组',
+    enName: 'Tuple with Same Product',
+    difficulty: 'Medium',
+    label: '哈希表',
+  },
+  1732: {
+    cnName: '找到最高海拔',
+    enName: 'Find the Highest Altitude',
+    difficulty: 'Easy',
+    label: '前缀和',
+  },
+  1768: {
+    cnName: '交替合并字符串',
+    enName: 'Merge String Alternatively',
+    difficulty: 'Easy',
+    label: '字符串',
   },
   1823: {
     cnName: '找出游戏的获胜者',
@@ -1463,7 +1577,7 @@ const nameMap = {
     difficulty: 'Easy',
     label: '哈希表',
   },
-  2732: {
+  2731: {
     cnName: '移动机器人',
     enName: 'Movement of Robots',
     difficulty: 'Medium',

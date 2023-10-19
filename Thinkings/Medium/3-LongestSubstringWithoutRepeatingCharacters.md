@@ -43,14 +43,21 @@
  * @param {string} s
  * @return {number}
  */
-const lengthOfLongestSubstring = s => {
+const lengthOfLongestSubstring = (s) => {
   if (!s.length) return 0;
+  // res 存储最长无重复子串的长度，初始值为1
   let res = 1,
+    // 来标记滑动窗口的起始位置，初始值为0。
     left = 0;
+  // 遍历字符串 s 对于每一个字符 s[i]，查找它在 left 到 i-1 这个区间内是否出现过
   for (let i = 0; i < s.length; i++) {
     let index = s.indexOf(s[i], left);
+    // 如果在这个区间内找到了相同的字符，
+    // 那么更新 left 为该字符的下一个位置。
+    // 这样就保证了从 left 到 i 这个区间内没有重复的字符。
     if (index !== -1 && index < i) left = index + 1;
 
+    // 更新 res 的值为当前无重复子串的长度和 res 中存储的最大长度之间的较大值。
     res = Math.max(res, i - left + 1);
   }
   return res;

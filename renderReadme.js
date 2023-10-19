@@ -57,6 +57,7 @@ Object.keys(result).map((key) => {
 
 sortTable.sort((a, b) => a.index - b.index);
 offerTable.sort((a, b) => a.index - b.index);
+let noSolutionList = Object.keys(nameMap);
 const noNameList = [];
 const difficultyList = [];
 const tableHeader = `| Number | Name | Difficulty | label |
@@ -71,6 +72,9 @@ const tableBody = sortTable.map((item) => {
   const flag = temp.split('.')[1];
   if (!nameMap[index]) {
     noNameList.push(index);
+  }
+  if (nameMap[index]) {
+    noSolutionList = noSolutionList.filter((item) => item !== index);
   }
   if (nameMap[index]?.difficulty && nameMap[index]?.difficulty !== difficulty) {
     difficultyList.push({
@@ -127,12 +131,13 @@ ${tableHeader}
 ${tableBody2.join('\n')}
 `;
 
-console.log(noNameList, difficultyList);
-
 const renderReadme = (result) => {
   fs.writeFileSync('README.md', content(result), { flag: 'w+' }, (error) => {
     console.log(error);
   });
+  console.log(
+    `没有名称的题目：${noNameList} \n难度出错的题目：${difficultyList} \n没有解答的题目数：${noSolutionList.length} \n没有解答的题目：${noSolutionList}`
+  );
 };
 
 module.exports = renderReadme;
