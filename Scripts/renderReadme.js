@@ -3,22 +3,22 @@ const path = require('path');
 const nameMap = require('./name.js');
 
 const result = {};
-const solution = fs.readdirSync(path.join(__dirname, './Solutions'), {
+const solution = fs.readdirSync(path.join(__dirname, '../Solutions'), {
   withFileTypes: true,
 });
-const thinking = fs.readdirSync(path.join(__dirname, './Thinkings'), {
+const thinking = fs.readdirSync(path.join(__dirname, '../Thinkings'), {
   withFileTypes: true,
 });
 
 for (let i = 0; i < solution.length; i++) {
   result[solution[i].name] = fs.readdirSync(
-    path.join(__dirname, `./Solutions/${solution[i].name}`)
+    path.join(__dirname, `../Solutions/${solution[i].name}`)
   );
 }
 
 for (let i = 0; i < thinking.length; i++) {
   const list = fs.readdirSync(
-    path.join(__dirname, `./Thinkings/${thinking[i].name}`)
+    path.join(__dirname, `../Thinkings/${thinking[i].name}`)
   );
   for (let j = 0; j < list.length; j++) {
     const index = result[thinking[i].name].findIndex(
@@ -58,6 +58,7 @@ Object.keys(result).map((key) => {
 sortTable.sort((a, b) => a.index - b.index);
 offerTable.sort((a, b) => a.index - b.index);
 let noSolutionList = Object.keys(nameMap);
+console.log(`name总数：${noSolutionList.length}`);
 const noNameList = [];
 const difficultyList = [];
 const tableHeader = `| Number | Name | Difficulty | label |
@@ -136,8 +137,11 @@ const renderReadme = (result) => {
     console.log(error);
   });
   console.log(
-    `没有名称的题目：${noNameList} \n难度出错的题目：${difficultyList} \n没有解答的题目数：${noSolutionList.length} \n没有解答的题目：${noSolutionList}`
+    `没有名称的题目：${noNameList} \n难度出错的题目：${difficultyList} \n没有解答的题目数TOP5：${
+      noSolutionList.length
+    } \n没有解答的题目：${noSolutionList.slice(0, 5)}`
   );
+  console.log(result);
 };
 
 module.exports = renderReadme;

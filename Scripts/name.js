@@ -719,6 +719,12 @@ const nameMap = {
     difficulty: 'Easy',
     label: '',
   },
+  162: {
+    cnName: '寻找峰值',
+    enName: 'Find Peak Element',
+    difficulty: 'Medium',
+    label: '二分查找',
+  },
   165: {
     cnName: '比较版本号',
     enName: 'Compare Version Numbers',
@@ -808,6 +814,18 @@ const nameMap = {
     enName: 'Reverse Linked List',
     difficulty: 'Easy',
     label: '',
+  },
+  208: {
+    cnName: '实现Tire（前缀树）',
+    enName: 'Implement Tire (Prefix Tree)',
+    difficulty: 'Medium',
+    label: '前缀树',
+  },
+  215: {
+    cnName: '数组中的第 K 大元素',
+    enName: 'Kth Largest Element in an Array',
+    difficulty: 'Medium',
+    label: '优先队列',
   },
   217: {
     cnName: '存在重复元素',
@@ -953,6 +971,12 @@ const nameMap = {
     difficulty: 'Easy',
     label: '',
   },
+  328: {
+    cnName: '奇偶链表',
+    enName: 'Odd Even Linked List',
+    difficulty: 'Medium',
+    label: '链表',
+  },
   334: {
     cnName: '递增的三元子序列',
     enName: 'Increasing Triplet Subsequence',
@@ -1007,6 +1031,12 @@ const nameMap = {
     difficulty: 'Medium',
     label: '',
   },
+  374: {
+    cnName: '猜数字大小',
+    enName: 'Guess Number Higher or lower',
+    difficulty: 'Easy',
+    label: '二分查找',
+  },
   377: {
     cnName: '组合总和 Ⅳ',
     enName: 'Combination Sum IV',
@@ -1043,6 +1073,12 @@ const nameMap = {
     difficulty: 'Medium',
     label: '',
   },
+  399: {
+    cnName: '除法求值',
+    enName: 'Evaluate Division',
+    difficulty: 'Medium',
+    label: '图、DFS',
+  },
   400: {
     cnName: '第 N 个数字',
     enName: 'Find Nth Digit',
@@ -1067,6 +1103,18 @@ const nameMap = {
     difficulty: 'Easy',
     label: '',
   },
+  435: {
+    cnName: '无重叠区间',
+    enName: 'Non-overlapping Intervals',
+    difficulty: 'Medium',
+    label: '区间集合',
+  },
+  437: {
+    cnName: '路径总和 III',
+    enName: 'Path Sum III',
+    difficulty: 'Medium',
+    label: '二叉树、DFS',
+  },
   438: {
     cnName: '找到字符串中所有字母异位词',
     enName: 'Find All Anagrams in a String',
@@ -1084,6 +1132,18 @@ const nameMap = {
     enName: 'Find All Numbers Disappeared in an Array',
     difficulty: 'Easy',
     label: '',
+  },
+  450: {
+    cnName: '删除二叉搜索树中的节点',
+    enName: 'Delete Node in a BST',
+    difficulty: 'Medium',
+    label: '二叉搜索树',
+  },
+  452: {
+    cnName: '用最少数量的箭引爆气球',
+    enName: 'Minimum Number of Arrows to Burst Balloons',
+    difficulty: 'Medium',
+    label: '区间集合',
   },
   455: {
     cnName: '分发饼干',
@@ -1139,6 +1199,12 @@ const nameMap = {
     difficulty: 'Easy',
     label: '',
   },
+  547: {
+    cnName: '省份数量',
+    enName: 'Number of Provinces',
+    difficulty: 'Medium',
+    label: '图、DFS',
+  },
   551: {
     cnName: '学生出勤记录 I',
     enName: 'Student Attendance Record I',
@@ -1193,6 +1259,12 @@ const nameMap = {
     difficulty: 'Easy',
     label: '',
   },
+  649: {
+    cnName: 'Dota2 参议院',
+    enName: 'Dota2 Senate',
+    difficulty: 'Medium',
+    label: '队列',
+  },
   653: {
     cnName: '两数之和 IV-输入 BST',
     enName: 'Two Sum IV - Input is a BST',
@@ -1223,6 +1295,12 @@ const nameMap = {
     difficulty: 'Easy',
     label: '',
   },
+  700: {
+    cnName: '二叉搜索树中的搜索',
+    enName: 'Search in a Binary Search Tree',
+    difficulty: 'Easy',
+    label: '二叉搜索树',
+  },
   703: {
     cnName: '数据流中的第 K 大元素',
     enName: 'Kth Largest Element in a Stream',
@@ -1241,6 +1319,12 @@ const nameMap = {
     difficulty: 'Easy',
     label: '',
   },
+  714: {
+    cnName: '买卖股票的最佳时机含手续费',
+    enName: 'Best Time to Buy and Sell Stock with Transaction Fee',
+    difficulty: 'Medium',
+    label: '多维动态规划',
+  },
   720: {
     cnName: '词典中最长的单词',
     enName: 'Longest Word in Dictionary',
@@ -1252,6 +1336,18 @@ const nameMap = {
     enName: 'Find Pivot Index',
     difficulty: 'Easy',
     label: '',
+  },
+  735: {
+    cnName: '小行星碰撞',
+    enName: 'Asteroid Collision',
+    difficulty: 'Medium',
+    label: '栈',
+  },
+  739: {
+    cnName: '每日温度',
+    enName: 'Daily Temperatures',
+    difficulty: 'Medium',
+    label: '单调栈',
   },
   746: {
     cnName: '使用最小花费爬楼梯',
@@ -1277,6 +1373,12 @@ const nameMap = {
     difficulty: 'Medium',
     label: '',
   },
+  790: {
+    cnName: '多米诺和托米诺平铺',
+    enName: 'Domino and Tromino Tiling',
+    difficulty: 'Medium',
+    label: '一维动态规划',
+  },
   814: {
     cnName: '二叉树剪枝',
     enName: 'Binary Tree Pruning',
@@ -1288,6 +1390,24 @@ const nameMap = {
     enName: 'Shortest Path to Get All Keys',
     difficulty: 'Hard',
     label: 'BFS',
+  },
+  872: {
+    cnName: '叶子相似的树',
+    enName: 'Leaf-Similar Tree',
+    difficulty: 'Easy',
+    label: '二叉树、DFS',
+  },
+  875: {
+    cnName: '爱吃香蕉的珂珂',
+    enName: 'Koko Eating Banana',
+    difficulty: 'Medium',
+    label: '二分查找',
+  },
+  901: {
+    cnName: '股票价格跨度',
+    enName: 'Online Stock Span',
+    difficulty: 'Medium',
+    label: '单调栈',
   },
   905: {
     cnName: '按奇偶排序数组',
@@ -1359,7 +1479,7 @@ const nameMap = {
     cnName: '腐烂的橘子',
     enName: 'Rotting Oranges',
     difficulty: 'Medium',
-    label: '',
+    label: '图、BFS',
   },
   1002: {
     cnName: '查找常用字符',
@@ -1415,6 +1535,12 @@ const nameMap = {
     difficulty: 'Medium',
     label: '',
   },
+  1161: {
+    cnName: '最大层内元素和',
+    enName: 'Maximum Level Sum of a Binary Tree',
+    difficulty: 'Medium',
+    label: '二叉树、BFS',
+  },
   1200: {
     cnName: '最小绝对差',
     enName: 'Minimum Abs Difference',
@@ -1439,17 +1565,35 @@ const nameMap = {
     difficulty: 'Easy',
     label: '',
   },
+  1268: {
+    cnName: '搜索推荐系统',
+    enName: 'Search Suggestion System',
+    difficulty: 'Medium',
+    label: '前缀树',
+  },
   1289: {
     cnName: '下降路径最小和 II',
     enName: 'Minimum Falling Path Sum II',
     difficulty: 'Hard',
     label: '',
   },
+  1318: {
+    cnName: '或运算的最小翻转次数',
+    enName: 'Minimum Flips to Make a OR b Equal to c',
+    difficulty: 'Medium',
+    label: '位运算',
+  },
   1365: {
     cnName: '有多少小于当前数字的数字',
     enName: 'How Many Numbers Are Smaller Than the Current Number',
     difficulty: 'Easy',
     label: '',
+  },
+  1372: {
+    cnName: '二叉树中的最长交错路径',
+    enName: 'Longest ZigZag Path in a Binary Tree',
+    difficulty: 'Medium',
+    label: '二叉树、DFS',
   },
   1388: {
     cnName: '3n 块披萨',
@@ -1469,6 +1613,12 @@ const nameMap = {
     difficulty: 'Easy',
     label: '',
   },
+  1448: {
+    cnName: '统计二叉树中好节点的数目',
+    enName: 'Count Good Nodes in Binary Tree',
+    difficulty: 'Medium',
+    label: '二叉树、DFS',
+  },
   1451: {
     cnName: '重新排列句子中的单词',
     enName: 'Rearrange Words in a Sentence',
@@ -1481,6 +1631,12 @@ const nameMap = {
     difficulty: 'Medium',
     label: '滑动窗口',
   },
+  1466: {
+    cnName: '重新规划路线',
+    enName: 'Reorder Routes to Make All Paths Lead to the City Zero',
+    difficulty: 'Medium',
+    label: '图、DFS',
+  },
   1470: {
     cnName: '重新排列数组',
     enName: 'Shuffle the Array',
@@ -1489,7 +1645,7 @@ const nameMap = {
   },
   1493: {
     cnName: '删掉一个元素以后全为1的最长子数组',
-    enName: "Longest Subarray of 1's After Deleting One Element",
+    enName: 'Longest Subarray of 1’s After Deleting One Element',
     difficulty: 'Medium',
     label: '滑动窗口',
   },
@@ -1510,6 +1666,12 @@ const nameMap = {
     enName: 'Check Array Formation Through Concatenation',
     difficulty: 'Easy',
     label: '',
+  },
+  1657: {
+    cnName: '确定两个字符串是否接近',
+    enName: 'Determine if Two Strings Are Close',
+    difficulty: 'Medium',
+    label: '哈希表',
   },
   1679: {
     cnName: 'K 和数对的最大数目',
@@ -1541,6 +1703,12 @@ const nameMap = {
     difficulty: 'Medium',
     label: '',
   },
+  1926: {
+    cnName: '迷宫中离入口最近的出口',
+    enName: 'Nearest Exit from Entrance in Maze',
+    difficulty: 'Medium',
+    label: '图、BFS',
+  },
   1945: {
     cnName: '字符串转化后的各位数字之和',
     enName: 'Sum of Digits of String After Convert',
@@ -1553,6 +1721,54 @@ const nameMap = {
     difficulty: 'Medium',
     label: '',
   },
+  2095: {
+    cnName: '删除链表的中间节点',
+    enName: 'Delete the Middle Node of a Linked List',
+    difficulty: 'Medium',
+    label: '链表',
+  },
+  2130: {
+    cnName: '链表最大孪生和',
+    enName: 'Maximum Twin Sum of a Linked List',
+    difficulty: 'Medium',
+    label: '链表',
+  },
+  2215: {
+    cnName: '找出两数组的不同',
+    enName: 'Find the Difference of Two Arrays',
+    difficulty: 'Easy',
+    label: '哈希表',
+  },
+  2300: {
+    cnName: '咒语和药水的成功对数',
+    enName: 'Successful Pairs of Spells and Potions',
+    difficulty: 'Medium',
+    label: '二分查找',
+  },
+  2336: {
+    cnName: '无限集中的最小数字',
+    enName: 'Smallest Number in infinite Set',
+    difficulty: 'Medium',
+    label: '优先队列',
+  },
+  2352: {
+    cnName: '相等行列对',
+    enName: 'Equal Row and Column Pairs',
+    difficulty: 'Medium',
+    label: '哈希表',
+  },
+  2390: {
+    cnName: '从字符串中移除星号',
+    enName: 'Removing Stars From a String',
+    difficulty: 'Medium',
+    label: '栈',
+  },
+  2462: {
+    cnName: '雇佣 K 位工人的总代价',
+    enName: 'Total Cost to Hire K Workers',
+    difficulty: 'Medium',
+    label: '优先队列',
+  },
   2512: {
     cnName: '奖励最顶尖的 K 名学生',
     enName: 'Reward Top K Students',
@@ -1564,6 +1780,12 @@ const nameMap = {
     enName: 'Maximal Score After Applying K Operations',
     difficulty: 'Medium',
     label: '',
+  },
+  2542: {
+    cnName: '最大子序列的分数',
+    enName: 'Maximum Subsequence Score',
+    difficulty: 'Medium',
+    label: '优先队列',
   },
   2578: {
     cnName: '最小和分割',
