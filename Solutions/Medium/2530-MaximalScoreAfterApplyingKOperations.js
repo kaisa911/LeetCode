@@ -1,4 +1,5 @@
 var maxKelements = function (nums, k) {
+  // leetcode 内置的优先队列
   q = new MaxPriorityQueue();
   let res = 0;
   for (const num of nums) {

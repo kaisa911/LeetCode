@@ -1779,7 +1779,7 @@ const nameMap = {
     cnName: '执行 K 次操作后的最大分数',
     enName: 'Maximal Score After Applying K Operations',
     difficulty: 'Medium',
-    label: '',
+    label: '贪心、优先队列',
   },
   2542: {
     cnName: '最大子序列的分数',
