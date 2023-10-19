@@ -1,25 +1,25 @@
 const path = require('path');
 const fs = require('fs');
-const renderReadme = require('./Scripts/renderReadme.js');
-const create = require('./Scripts/create.js');
-const sort = require('./Scripts/sort.js');
+const renderReadme = require('./renderReadme.js');
+const create = require('./create.js');
+const sort = require('./sort.js');
 
 const result = { solution: {}, thinking: {} };
-const solution = fs.readdirSync(path.join(__dirname, './Solutions'), {
+const solution = fs.readdirSync(path.join(__dirname, '../Solutions'), {
   withFileTypes: true,
 });
-const thinking = fs.readdirSync(path.join(__dirname, './Thinkings'), {
+const thinking = fs.readdirSync(path.join(__dirname, '../Thinkings'), {
   withFileTypes: true,
 });
 
 for (let i = 0; i < solution.length; i++) {
   result.solution[solution[i].name] = fs.readdirSync(
-    path.join(__dirname, `./Solutions/${solution[i].name}`)
+    path.join(__dirname, `../Solutions/${solution[i].name}`)
   ).length;
 }
 for (let i = 0; i < thinking.length; i++) {
   result.thinking[thinking[i].name] = fs.readdirSync(
-    path.join(__dirname, `./Thinkings/${solution[i].name}`)
+    path.join(__dirname, `../Thinkings/${solution[i].name}`)
   ).length;
 }
 
