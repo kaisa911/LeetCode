@@ -36,7 +36,10 @@ result.sum = sum;
 result.thinkSum = thinkSum;
 renderReadme(result);
 
-
-// create(1207);
+if (process.argv[2] === '-c') {
+  if (process.argv[3]) {
+    create(+process.argv[3]);
+  }
+}
 
 sort();

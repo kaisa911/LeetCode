@@ -137,9 +137,9 @@ const renderReadme = (result) => {
     console.log(error);
   });
   console.log(
-    `没有名称的题目：${noNameList} \n难度出错的题目：${difficultyList} \n没有解答的题目数TOP5：${
+    `没有名称的题目：${noNameList} \n难度出错的题目：${difficultyList} \n没有解答的题目数：${
       noSolutionList.length
-    } \n没有解答的题目：${noSolutionList.slice(0, 5)}`
+    } \n没有解答的题目TOP5：${noSolutionList.slice(0, 5)}`
   );
   console.log(result);
 };
