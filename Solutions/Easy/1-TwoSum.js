@@ -4,13 +4,14 @@
  * @return {number[]}
  */
 const twoSum = (nums, target) => {
-  const map = {};
-  for (let i = 0, len = nums.length; i < len; ++i) {
-    const current = nums[i];
-    const j = map[target - current];
-    if (j !== undefined) {
-      return [j, i];
+  const hash = {};
+  for (let i = 0, len = nums.length; i < len; i += 1) {
+    if (hash[target - nums[i]] !== undefined) {
+      return [hash[target - nums[i]], i];
     }
-    map[current] = i;
+    hash[nums[i]] = i;
   }
+  return [];
 };
+
+module.exports = twoSum;
