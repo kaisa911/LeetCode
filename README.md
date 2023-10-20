@@ -26,11 +26,11 @@ pie title 已完成的题目
 | 8 | [String to Integer (atoi) 字符串转为整数](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/8-StringtoInteger.js) | Medium | |
 | 9 | [Palindrome Number 回文数字](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/9-PalindromeNumber.md) | Easy | |
 | 10 | [Regular Expression Matching 正则表达式匹配](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Hard/10-RegularExpressionMatching.js) | Hard | |
-| 11 | [Container With Most Water 盛最多水的容器](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/11-ContainerWithMostWater.js) | Medium | |
+| 11 | [Container With Most Water 盛最多水的容器](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/11-ContainerWithMostWater.js) | Medium | 双指针|
 | 12 | [Integer to Roman 整数转罗马数字](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/12-IntegertoRoman.js) | Medium | |
 | 13 | [Roman to Integer 罗马数字转整数](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/13-RomantoInteger.md) | Easy | |
 | 14 | [Longest Common Prefix 最长共同前缀](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/14-LongestCommonPrefix.md) | Easy | 数组|
-| 15 | [3 Sum 三数之和](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/15-3Sum.js) | Medium | |
+| 15 | [3 Sum 三数之和](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/15-3Sum.js) | Medium | 双指针|
 | 16 | [3 Sum Closest 最接近的三数之和](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/16-3SumClosest.js) | Medium | |
 | 17 | [Letter Combinations of a Phone Number 电话号码的字母组合](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/17-LetterCombinationsofaPhoneNumber.md) | Medium | |
 | 18 | [4 Sum 四数之和](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/18-4Sum.js) | Medium | |
@@ -56,25 +56,25 @@ pie title 已完成的题目
 | 38 | [Count and Say 数数并说](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/38-CountandSay.js) | Easy | |
 | 39 | [Combination Sum 组合之和](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/39-CombinationSum.md) | Medium | |
 | 40 | [Combination Sum II 组合之和 II](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/40-CombinationSumII.js) | Medium | |
-| 41 | [First Missing Positive 缺失的第一个正数](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Hard/41-FirstMissingPositive.js) | Hard | |
-| 42 | [Trapping Rain Water 接雨水](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Hard/42-TrappingRainWater.js) | Hard | |
+| 41 | [First Missing Positive 缺失的第一个正数](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Hard/41-FirstMissingPositive.js) | Hard | 数组|
+| 42 | [Trapping Rain Water 接雨水](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Hard/42-TrappingRainWater.js) | Hard | 双指针|
 | 43 | [Multiply String 字符串相乘](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/43-MultiplyString.js) | Medium | |
 | 44 | [Wildcard Matching 通配符匹配](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Hard/44-WildcardMatching.js) | Hard | |
 | 45 | [Jump Game II 跳跃游戏 II](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Hard/45-JumpGameII.js) | Hard | |
 | 46 | [Permutations 全排列](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/46-Permutations.md) | Medium | |
 | 47 | [Permutations II 全排列 II](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/47-PermutationsII.js) | Medium | |
 | 48 | [Rotate Image 旋转图像](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/48-RotateImage.js) | Medium | |
-| 49 | [Group Anagrams 字母异位词分组](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/49-GroupAnagrams.js) | Medium | |
+| 49 | [Group Anagrams 字母异位词分组](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/49-GroupAnagrams.js) | Medium | 哈希|
 | 50 | [Pow(x, n) Pow(x, n)](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/50-Pow.js) | Medium | |
 | 51 | [N-Queens N 皇后](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Hard/51-NQueens.js) | Hard | |
 | 52 | [N-Queens II N 皇后 II](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Hard/52-NQueensII.js) | Hard | |
-| 53 | [Maximum Subarray 最大子序和](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/53-MaximumSubarray.js) | Medium | |
-| 54 | [Spiral Matrix 螺旋矩阵](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/54-SpiralMatrix.js) | Medium | |
+| 53 | [Maximum Subarray 最大子数组和](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/53-MaximumSubarray.js) | Medium | 数组|
+| 54 | [Spiral Matrix 螺旋矩阵](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/54-SpiralMatrix.js) | Medium | 矩阵|
 | 55 | [Jump Game 跳跃游戏](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/55-JumpGame.js) | Medium | |
-| 56 | [Merge Intervals 合并区间](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/56-MergeIntervals.js) | Medium | |
+| 56 | [Merge Intervals 合并区间](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/56-MergeIntervals.js) | Medium | 数组|
 | 57 | [Insert Interval 插入区间](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Hard/57-InsertInterval.js) | Hard | |
 | 58 | [Length of Last Word 最后一个单词的长度](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/58-LengthofLastWord.md) | Easy | |
-| 59 | [Spiral Matrix II 螺旋矩阵 II](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/59-SpiralMatrixII.js) | Medium | |
+| 59 | [Spiral Matrix II 螺旋矩阵 II](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/59-SpiralMatrixII.js) | Medium | 矩阵|
 | 60 | [Permutation Sequence 排列序列](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/60-PermutationSequence.js) | Medium | |
 | 61 | [Rotate List 旋转链表](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/61-RotateList.js) | Medium | |
 | 62 | [Unique Paths 不同路径](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/62-UniquePaths.md) | Medium | |
@@ -88,10 +88,10 @@ pie title 已完成的题目
 | 70 | [Climbing Stairs 爬楼梯](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/70-ClimbingStairs.js) | Easy | |
 | 71 | [Simplify Path 简化路径](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/71-SimplifyPath.md) | Medium | |
 | 72 | [Edit Distance 编辑距离](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Hard/72-EditDistance.md) | Hard | |
-| 73 | [Set Matrix Zeroes 矩阵置零](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/73-SetMatrixZeroes.md) | Medium | |
-| 74 | [Search a 2D Matrix 搜索二维矩阵](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/74-Searcha2DMatrix.md) | Medium | |
+| 73 | [Set Matrix Zeroes 矩阵置零](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/73-SetMatrixZeroes.md) | Medium | 矩阵|
+| 74 | [Search a 2D Matrix 搜索二维矩阵](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/74-Searcha2DMatrix.md) | Medium | 矩阵|
 | 75 | [Sort Colors 颜色分类](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/75-SortColors.md) | Medium | |
-| 76 | [Minimum Window Substring 最小覆盖子串](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Hard/76-MinimumWindowSubstring.js) | Hard | |
+| 76 | [Minimum Window Substring 最小覆盖子串](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Hard/76-MinimumWindowSubstring.js) | Hard | 子串|
 | 77 | [Combinations 组合](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/77-Combinations.md) | Medium | |
 | 78 | [Subsets 子集](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/78-Subsets.md) | Medium | |
 | 79 | [Word Search 单词搜索](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/79-WordSearch.js) | Medium | |
@@ -129,7 +129,7 @@ pie title 已完成的题目
 | 119 | [Pascals Triangle II 杨辉三角 II](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/119-PascalsTriangleii.js) | Easy | |
 | 122 | [Best Time to Buy and Sell Stock II 股票买卖的最佳时机 II](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/122-BestTimetoBuyandSellStockII.js) | Medium | |
 | 125 | [Is Palindrome 验证回文串](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/125-isPalindrome.js) | Easy | |
-| 128 | [Longest Consecutive Sequence 最长连续序列](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/128-LongestConsecutiveSequence.js) | Medium | |
+| 128 | [Longest Consecutive Sequence 最长连续序列](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/128-LongestConsecutiveSequence.js) | Medium | 哈希|
 | 129 | [Sum Root to Leaf Numbers 求根到叶子节点数字之和](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/129-SumRoottoLeafNumbers.md) | Medium | |
 | 136 | [Single Number 只出现一次的数字](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/136-singleNumber.js) | Easy | |
 | 137 | [Single Number II 只出现一次的数字 II](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/137-SingleNumberII.md) | Medium | |
@@ -142,7 +142,7 @@ pie title 已完成的题目
 | 169 | [Majority Element 求众数](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/169-majorityElement.js) | Easy | |
 | 171 | [Excel Sheet Column Number Excel 表列序号](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/171-ExcelSheetColumnNumber.md) | Easy | |
 | 172 | [Factorial Trailing Zeroes 阶乘后的零](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/172-FactorialTrailingZeroes.md) | Easy | |
-| 189 | [Rotate Array 旋转数组](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/189-rotateArray.js) | Easy | |
+| 189 | [Rotate Array 旋转数组](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/189-rotateArray.js) | Easy | 数组|
 | 190 | [Reverse Bits 颠倒二进制位](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/190-reverseBits.js) | Easy | |
 | 191 | [Number of 1 Bits 位 1 的个数](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/191-hammingWeight.js) | Easy | |
 | 198 | [House Robber 打家劫舍](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/198-HouseRobber.js) | Easy | |
@@ -161,7 +161,7 @@ pie title 已完成的题目
 | 232 | [Implement Queue using Stacks 用栈实现队列](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/232-ImplementQueueusingStacks.js) | Easy | |
 | 233 | [Number of Digit One 数字 1 的个数](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Hard/233-NumberofDigitOne.js) | Hard | |
 | 236 | [Lowest Common Ancestor of a Binary Tree 二叉树的最近公共祖先](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/236-LowestCommonAncestorofaBinaryTree.js) | Medium | |
-| 238 | [Product of Array Except Self 除自身以外数组的乘积](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/238-ProductofArrayExceptSelf.md) | Medium | |
+| 238 | [Product of Array Except Self 除自身以外数组的乘积](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/238-ProductofArrayExceptSelf.md) | Medium | 数组|
 | 242 | [Valid Anagram 有效的字母异位词](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/242-ValidAnagram.md) | Easy | |
 | 257 | [Binary Tree Paths 二叉树的所有路径](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/257-BinaryTreePaths.md) | Easy | |
 | 258 | [Add Digits 各位相加](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/258-AddDigits.md) | Easy | |
@@ -170,7 +170,7 @@ pie title 已完成的题目
 | 268 | [Missing Number 缺失数字](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/268-missingNumber.js) | Easy | |
 | 274 | [H-Index H 指数](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/274-H-Index.js) | Medium | |
 | 278 | [First Bad Version 第一个错误的版本](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/278-FirstBadVersion.md) | Easy | |
-| 283 | [Move Zeroes 移动零](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/283-moveZeroes.js) | Easy | |
+| 283 | [Move Zeroes 移动零](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/283-moveZeroes.js) | Easy | 双指针|
 | 287 | [Find the Duplicate Number 寻找重复数](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/287-FindtheDuplicateNumber.md) | Medium | |
 | 290 | [Word Pattern 单词规律](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/290-WordPattern.md) | Easy | |
 | 295 | [Find Median from Data Stream 数据流的中位数](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Hard/295-FindMedianfromDataStream.js) | Hard | |
@@ -202,7 +202,7 @@ pie title 已完成的题目
 | 414 | [Third Maximum Number 第三大的数](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/414-thirdMax.js) | Easy | |
 | 435 | [Non-overlapping Intervals 无重叠区间](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/435-Non-overlappingIntervals.js) | Medium | 区间集合|
 | 437 | [Path Sum III 路径总和 III](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/437-PathSumIII.js) | Medium | 二叉树、DFS|
-| 438 | [Find All Anagrams in a String 找到字符串中所有字母异位词](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/438-FindAllAnagramsinaString.js) | Medium | |
+| 438 | [Find All Anagrams in a String 找到字符串中所有字母异位词](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/438-FindAllAnagramsinaString.js) | Medium | 滑动窗口|
 | 443 | [String Compression 压缩字符串](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/443-StringCompression.js) | Medium | 字符串、双指针|
 | 448 | [Find All Numbers Disappeared in an Array 找到所有数组中消失的数字](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/448-FindAllNumbersDisappearedinanArray.md) | Easy | |
 | 450 | [Delete Node in a BST 删除二叉搜索树中的节点](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/450-DeleteNodeinaBST.js) | Medium | 二叉搜索树|
@@ -219,7 +219,7 @@ pie title 已完成的题目
 | 547 | [Number of Provinces 省份数量](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/547-NumberofProvinces.js) | Medium | 图、DFS|
 | 551 | [Student Attendance Record I 学生出勤记录 I](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/551-StudentAttendanceRecordI.js) | Easy | |
 | 552 | [Student Attendance Record II 学生出勤记录 II](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Hard/552-StudentAttendanceRecordII.js) | Hard | |
-| 560 | [Subarray Sum Equals K 和为 k 的子数组](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/560-SubarraySumEqualsK.js) | Medium | |
+| 560 | [Subarray Sum Equals K 和为 k 的子数组](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/560-SubarraySumEqualsK.js) | Medium | 子串|
 | 561 | [Array Partition 数组拆分](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/561-ArrayPairSum.js) | Easy | |
 | 581 | [Shortest Unsorted Continuous Subarray 最短无序连续子数组](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/581-ShortestUnsortedContinuousSubarray.js) | Easy | |
 | 606 | [Construct String from Binary Tree 根据二叉树创建字符串](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/606-ConstructStringfromBinaryTree.md) | Easy | |

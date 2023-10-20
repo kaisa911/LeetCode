@@ -63,7 +63,7 @@ const nameMap = {
     cnName: '盛最多水的容器',
     enName: 'Container With Most Water',
     difficulty: 'Medium',
-    label: '',
+    label: '双指针',
   },
   12: {
     cnName: '整数转罗马数字',
@@ -87,7 +87,7 @@ const nameMap = {
     cnName: '三数之和',
     enName: '3 Sum',
     difficulty: 'Medium',
-    label: '',
+    label: '双指针',
   },
   16: {
     cnName: '最接近的三数之和',
@@ -243,13 +243,13 @@ const nameMap = {
     cnName: '缺失的第一个正数',
     enName: 'First Missing Positive',
     difficulty: 'Hard',
-    label: '',
+    label: '数组',
   },
   42: {
     cnName: '接雨水',
     enName: 'Trapping Rain Water',
     difficulty: 'Hard',
-    label: '',
+    label: '双指针',
   },
   43: {
     cnName: '字符串相乘',
@@ -291,7 +291,7 @@ const nameMap = {
     cnName: '字母异位词分组',
     enName: 'Group Anagrams',
     difficulty: 'Medium',
-    label: '',
+    label: '哈希',
   },
   50: {
     cnName: 'Pow(x, n)',
@@ -312,16 +312,16 @@ const nameMap = {
     label: '',
   },
   53: {
-    cnName: '最大子序和',
+    cnName: '最大子数组和',
     enName: 'Maximum Subarray',
     difficulty: 'Medium',
-    label: '',
+    label: '数组',
   },
   54: {
     cnName: '螺旋矩阵',
     enName: 'Spiral Matrix',
     difficulty: 'Medium',
-    label: '',
+    label: '矩阵',
   },
   55: {
     cnName: '跳跃游戏',
@@ -333,7 +333,7 @@ const nameMap = {
     cnName: '合并区间',
     enName: 'Merge Intervals',
     difficulty: 'Medium',
-    label: '',
+    label: '数组',
   },
   57: {
     cnName: '插入区间',
@@ -351,7 +351,7 @@ const nameMap = {
     cnName: '螺旋矩阵 II',
     enName: 'Spiral Matrix II',
     difficulty: 'Medium',
-    label: '',
+    label: '矩阵',
   },
   60: {
     cnName: '排列序列',
@@ -435,13 +435,13 @@ const nameMap = {
     cnName: '矩阵置零',
     enName: 'Set Matrix Zeroes',
     difficulty: 'Medium',
-    label: '',
+    label: '矩阵',
   },
   74: {
     cnName: '搜索二维矩阵',
     enName: 'Search a 2D Matrix',
     difficulty: 'Medium',
-    label: '',
+    label: '矩阵',
   },
   75: {
     cnName: '颜色分类',
@@ -453,7 +453,7 @@ const nameMap = {
     cnName: '最小覆盖子串',
     enName: 'Minimum Window Substring',
     difficulty: 'Hard',
-    label: '',
+    label: '子串',
   },
   77: {
     cnName: '组合',
@@ -653,6 +653,12 @@ const nameMap = {
     difficulty: 'Medium',
     label: '',
   },
+  114: {
+    cnName: '二叉树展开为链表',
+    enName: 'Flat Binary Tree to Linked List',
+    difficulty: 'Medium',
+    label: '二叉树',
+  },
   118: {
     cnName: '杨辉三角',
     enName: 'Pascals Triangle',
@@ -671,6 +677,12 @@ const nameMap = {
     difficulty: 'Medium',
     label: '',
   },
+  124: {
+    cnName: '二叉树中的最大路径和',
+    enName: 'Binary Tree Maximum Path Sum',
+    difficulty: 'Hard',
+    label: '二叉树',
+  },
   125: {
     cnName: '验证回文串',
     enName: 'Is Palindrome',
@@ -681,13 +693,19 @@ const nameMap = {
     cnName: '最长连续序列',
     enName: 'Longest Consecutive Sequence',
     difficulty: 'Medium',
-    label: '',
+    label: '哈希',
   },
   129: {
     cnName: '求根到叶子节点数字之和',
     enName: 'Sum Root to Leaf Numbers',
     difficulty: 'Medium',
     label: '',
+  },
+  131: {
+    cnName: '分隔回文串',
+    enName: 'Palindrome Partitioning',
+    difficulty: 'Medium',
+    label: '回溯',
   },
   136: {
     cnName: '只出现一次的数字',
@@ -701,11 +719,35 @@ const nameMap = {
     difficulty: 'Medium',
     label: '',
   },
+  138: {
+    cnName: '随机链表的复制',
+    enName: 'Copy List with Random Pointer',
+    difficulty: 'Medium',
+    label: '链表',
+  },
+  139: {
+    cnName: '单词拆分',
+    enName: 'Word Break',
+    difficulty: 'Medium',
+    label: '动态规划',
+  },
   141: {
     cnName: '环形链表',
     enName: 'Linked List Cycle',
     difficulty: 'Easy',
     label: '',
+  },
+  146: {
+    cnName: 'LRU 缓存',
+    enName: 'LRU Cache',
+    difficulty: 'Medium',
+    label: '链表',
+  },
+  148: {
+    cnName: '排序链表',
+    enName: 'Sort List',
+    difficulty: 'Medium',
+    label: '链表',
   },
   151: {
     cnName: '反转字符串中的单词',
@@ -713,9 +755,27 @@ const nameMap = {
     difficulty: 'Medium',
     label: '双指针',
   },
+  152: {
+    cnName: '乘积最大子数组',
+    enName: 'Maximum Product Subarray',
+    difficulty: 'Medium',
+    label: '动态规划',
+  },
+  153: {
+    cnName: '寻找旋转排序数组中的最小值',
+    enName: 'Find Minimum in Rotated Sorted Array',
+    difficulty: 'Medium',
+    label: '二分查找',
+  },
   155: {
     cnName: '最小栈',
     enName: 'Min Stack',
+    difficulty: 'Easy',
+    label: '',
+  },
+  160: {
+    cnName: '相交链表',
+    enName: 'Intersection of Two Linked List',
     difficulty: 'Easy',
     label: '',
   },
@@ -759,7 +819,7 @@ const nameMap = {
     cnName: '旋转数组',
     enName: 'Rotate Array',
     difficulty: 'Easy',
-    label: '',
+    label: '数组',
   },
   190: {
     cnName: '颠倒二进制位',
@@ -784,6 +844,12 @@ const nameMap = {
     enName: 'Binary Tree Right Side View',
     difficulty: 'Medium',
     label: '',
+  },
+  200: {
+    cnName: '岛屿数量',
+    enName: 'Number of Islands',
+    difficulty: 'Medium',
+    label: '图',
   },
   202: {
     cnName: '快乐数',
@@ -815,6 +881,12 @@ const nameMap = {
     difficulty: 'Easy',
     label: '',
   },
+  207: {
+    cnName: '课程表',
+    enName: 'Course Schedule',
+    difficulty: 'Medium',
+    label: '图',
+  },
   208: {
     cnName: '实现Tire（前缀树）',
     enName: 'Implement Tire (Prefix Tree)',
@@ -845,6 +917,18 @@ const nameMap = {
     difficulty: 'Easy',
     label: '',
   },
+  226: {
+    cnName: '翻转二叉树',
+    enName: 'Invert Binary Tree',
+    difficulty: 'Easy',
+    label: '二叉树',
+  },
+  230: {
+    cnName: '二叉搜索树中的第 K 小的元素',
+    enName: 'Kth Smallest Element in a BST',
+    difficulty: 'Medium',
+    label: '二叉树',
+  },
   231: {
     cnName: '2 的幂',
     enName: 'Power of Two',
@@ -873,7 +957,13 @@ const nameMap = {
     cnName: '除自身以外数组的乘积',
     enName: 'Product of Array Except Self',
     difficulty: 'Medium',
-    label: '',
+    label: '数组',
+  },
+  239: {
+    cnName: '滑动窗口最大值',
+    enName: 'Slide Window Maximum',
+    difficulty: 'Hard',
+    label: '子串',
   },
   242: {
     cnName: '有效的字母异位词',
@@ -923,11 +1013,17 @@ const nameMap = {
     difficulty: 'Easy',
     label: '',
   },
+  279: {
+    cnName: '完全平方数',
+    enName: 'Perfect Squares',
+    difficulty: 'Medium',
+    label: '动态规划',
+  },
   283: {
     cnName: '移动零',
     enName: 'Move Zeroes',
     difficulty: 'Easy',
-    label: '',
+    label: '双指针',
   },
   287: {
     cnName: '寻找重复数',
@@ -964,6 +1060,12 @@ const nameMap = {
     enName: 'Range Sum Query-Immutable',
     difficulty: 'Easy',
     label: '',
+  },
+  322: {
+    cnName: '零钱兑换',
+    enName: 'Coin Change',
+    difficulty: 'Medium',
+    label: '动态规划',
   },
   326: {
     cnName: '3 的幂',
@@ -1103,6 +1205,12 @@ const nameMap = {
     difficulty: 'Easy',
     label: '',
   },
+  416: {
+    cnName: '分割等和子集',
+    enName: 'Partition Equal Subset Sum',
+    difficulty: 'Medium',
+    label: '动态规划',
+  },
   435: {
     cnName: '无重叠区间',
     enName: 'Non-overlapping Intervals',
@@ -1119,7 +1227,7 @@ const nameMap = {
     cnName: '找到字符串中所有字母异位词',
     enName: 'Find All Anagrams in a String',
     difficulty: 'Medium',
-    label: '',
+    label: '滑动窗口',
   },
   443: {
     cnName: '压缩字符串',
@@ -1221,7 +1329,7 @@ const nameMap = {
     cnName: '和为 k 的子数组',
     enName: 'Subarray Sum Equals K',
     difficulty: 'Medium',
-    label: '',
+    label: '子串',
   },
   561: {
     cnName: '数组拆分',
