@@ -132,14 +132,21 @@ ${tableHeader}
 ${tableBody2.join('\n')}
 `;
 
+const randomQuestion = [...noSolutionList];
+
+while (randomQuestion.length > 5) {
+  const length = randomQuestion.length;
+  const index = Math.floor(Math.random() * length);
+
+  randomQuestion.splice(index, 1);
+}
+
 const renderReadme = (result) => {
   fs.writeFileSync('README.md', content(result), { flag: 'w+' }, (error) => {
     console.log(error);
   });
   console.log(
-    `没有名称的题目：${noNameList} \n难度出错的题目：${difficultyList} \n没有解答的题目数：${
-      noSolutionList.length
-    } \n没有解答的题目TOP5：${noSolutionList.slice(0, 5)}`
+    `没有名称的题目：${noNameList} \n难度出错的题目：${difficultyList} \n没有解答的题目数：${noSolutionList.length} \n没有解答的题目TOP5：${randomQuestion}`
   );
   console.log(result);
 };
