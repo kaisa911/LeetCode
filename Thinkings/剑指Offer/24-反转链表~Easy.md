@@ -15,12 +15,15 @@
 
 **思路：**
 
-翻转链表的思路就是要拿到pre，current，和next，current !== null的时候
+迭代法来处理翻转链表
 
-- 把 cur.next 赋值给 next，
-- 把 pre 赋值给 cur.next
-- 把 cur 赋值给 pre
-- 把 next 赋值给 cur
+1. 初始化三个指针 pre、cur 和 next。pre 指向 null，cur 和 next 指向链表的头部。
+2. 当 cur 不为 null 时，执行以下操作：
+    - 将 next 指针指向 cur 的下一个节点。
+    - 将 cur 的下一个节点设置为 pre，这样就完成了当前节点的反转。
+    - 将 pre 和 cur 向前移动一步，即将它们分别设置为 cur 和 next。
+
+3. 当 cur 为 null 时，链表已经被完全反转，此时 pre 指向新链表的头部。因此，返回 pre。
 
 ```ts
 /**

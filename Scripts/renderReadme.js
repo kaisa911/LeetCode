@@ -102,7 +102,9 @@ const tableBody2 = offerTable.map((item) => {
     showName[0]
   }](https://github.com/kaisa911/LeetCode/blob/master/${
     flag === 'md' ? 'Thinkings' : 'Solutions'
-  }/${difficulty}/${name}) | ${showName[1]} | |`;
+  }/剑指Offer/${name}) | ${showName[1].split('##')[0]} | ${
+    showName[1].split('##')[1] || ''
+  } |`;
 });
 
 const content = (result) => `

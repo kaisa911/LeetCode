@@ -4,14 +4,14 @@
 
 例如输入：
 
-     4
+4
    /   \
   2     7
  / \   / \
 1   3 6   9
 镜像输出：
 
-     4
+4
    /   \
   7     2
  / \   / \
@@ -31,6 +31,11 @@
 **思路：**
 这是一道很经典的二叉树问题。显然，我们从根节点开始，递归地对树进行遍历，并从叶子节点先开始翻转得到镜像。如果当前遍历到的节点 root 的左右两棵子树都已经翻转得到镜像，那么我们只需要交换两棵子树的位置，即可得到以 root 为根节点的整棵子树的镜像。
 
+1. 如果 root 为 null，即二叉树为空，那么直接返回 null。
+2. 创建一个临时节点 tmpNode，并将其设置为 root 的左子节点。
+3. 将 root 的左子节点设置为 root 的右子节点的镜像反转（通过递归调用 mirrorTree(root.right) 实现）。
+4. 将 root 的右子节点设置为 tmpNode 的镜像反转（通过递归调用 mirrorTree(tmpNode) 实现）。
+5. 返回反转后的 root。
 
 ```ts
 /**
@@ -54,5 +59,4 @@ function mirrorTree(root: TreeNode | null): TreeNode | null {
   root.right = mirrorTree(tmpNode);
   return root;
 }
-
 ```

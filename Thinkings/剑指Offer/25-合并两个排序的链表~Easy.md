@@ -15,12 +15,12 @@
 
 **思路：**
 
-- 声明一个 res 的链表，和一个 cur 的值，cur = res；
-- 只要l1和l2都不为null，就继续向后遍历
-- 把值大的赋值给cur.next
-- cur 继续向后走
+归并排序的思想
 
-返回 res.next
+1. 创建一个新的链表 res，并设置一个指针 cur 指向它。这个新链表用于存储合并后的结果。
+2. 当 l1 和 l2 都不为空时，比较 l1 和 l2 的当前节点的值。如果 l1 的值小于 l2，则将 cur 的下一个节点设置为 l1 的当前节点，并将 l1 向前移动一步。否则，将 cur 的下一个节点设置为 l2 的当前节点，并将 l2 向前移动一步。然后，将 cur 向前移动一步。
+3. 当 l1 和 l2 中有一个为空时，将 cur 的下一个节点设置为不为空的那个链表的剩余部分。
+4. 返回合并后的链表，即 res.next（因为 res 的第一个节点是我们初始化时创建的，其值为 -1，不应包含在最终结果中）。
 
 ```ts
 /**
@@ -35,7 +35,10 @@
  * }
  */
 
-function mergeTwoLists(l1: ListNode | null, l2: ListNode | null): ListNode | null {
+function mergeTwoLists(
+  l1: ListNode | null,
+  l2: ListNode | null
+): ListNode | null {
   let res: ListNode | null = new ListNode(-1),
     cur: ListNode | null = res;
   while (l1 !== null && l2 !== null) {
