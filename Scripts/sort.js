@@ -7,10 +7,10 @@ const sort = () => {
   let inner = '';
   for (let i = 0; i < infos.length; i++) {
     inner += `  ${infos[i]}: {
-    cnName: '${nameMap[infos[i]].cnName}',
-    enName: '${nameMap[infos[i]].enName}',
-    difficulty: '${nameMap[infos[i]].difficulty}',
-    label: '${nameMap[infos[i]].label}',
+    cnName: '${nameMap[infos[i]].cnName || ''}',
+    enName: '${nameMap[infos[i]].enName || ''}',
+    difficulty: '${nameMap[infos[i]].difficulty || ''}',
+    label: '${nameMap[infos[i]].label || ''}',
   },\n`;
   }
 
