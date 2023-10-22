@@ -1916,3 +1916,5 @@ const nameMap = {
 };
 
 module.exports = nameMap;
+
+const hasAnswerItem = [101,];

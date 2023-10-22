@@ -1,4 +1,4 @@
-var miniumAbsDifference = function (arr) {
+var minimumAbsDifference = function (arr) {
   const n = arr.length;
   arr.sort((a, b) => a - b);
 
