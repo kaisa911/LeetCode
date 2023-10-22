@@ -12,17 +12,15 @@ const thinking = fs.readdirSync(path.join(__dirname, '../Thinkings'), {
 
 for (let i = 0; i < solution.length; i++) {
   result[solution[i].name] = fs.readdirSync(
-    path.join(__dirname, `../Solutions/${solution[i].name}`)
+    path.join(__dirname, `../Solutions/${solution[i].name}`),
   );
 }
 
 for (let i = 0; i < thinking.length; i++) {
-  const list = fs.readdirSync(
-    path.join(__dirname, `../Thinkings/${thinking[i].name}`)
-  );
+  const list = fs.readdirSync(path.join(__dirname, `../Thinkings/${thinking[i].name}`));
   for (let j = 0; j < list.length; j++) {
     const index = result[thinking[i].name].findIndex(
-      (item) => item.split('-')[0] === list[j].split('-')[0]
+      (item) => item.split('-')[0] === list[j].split('-')[0],
     );
     if (index !== -1) {
       result[thinking[i].name][index] = list[j];
@@ -77,7 +75,11 @@ const tableBody = sortTable.map((item) => {
   if (nameMap[index]) {
     noSolutionList = noSolutionList.filter((item) => item !== index);
   }
-  if (nameMap[index]?.difficulty && nameMap[index]?.difficulty !== difficulty) {
+  if (
+    nameMap[index]?.difficulty &&
+    nameMap[index]?.difficulty !== undefined &&
+    nameMap[index]?.difficulty !== difficulty
+  ) {
     difficultyList.push({
       index,
       difficulty: nameMap[index]?.difficulty,
@@ -98,13 +100,9 @@ const tableBody2 = offerTable.map((item) => {
   const temp = name.split('-')[1];
   const showName = temp.split('.')[0].split('~');
   const flag = temp.split('.')[1];
-  return `| ${index} | [${
-    showName[0]
-  }](https://github.com/kaisa911/LeetCode/blob/master/${
+  return `| ${index} | [${showName[0]}](https://github.com/kaisa911/LeetCode/blob/master/${
     flag === 'md' ? 'Thinkings' : 'Solutions'
-  }/剑指Offer/${name}) | ${showName[1].split('##')[0]} | ${
-    showName[1].split('##')[1] || ''
-  } |`;
+  }/剑指Offer/${name}) | ${showName[1].split('##')[0]} | ${showName[1].split('##')[1] || ''} |`;
 });
 
 const content = (result) => `
@@ -112,9 +110,9 @@ const content = (result) => `
 
 some exercises of leetcode
 
-- Leetcode: 简单: ${result.solution.Easy}, 中等: ${
-  result.solution.Medium
-}, 困难: ${result.solution.Hard}, 剑指Offer: ${result.solution['剑指Offer']},
+- Leetcode: 简单: ${result.solution.Easy}, 中等: ${result.solution.Medium}, 困难: ${
+  result.solution.Hard
+}, 剑指Offer: ${result.solution['剑指Offer']},
 - 总计：${result.sum}
 
 \`\`\`mermaid
@@ -148,7 +146,7 @@ const renderReadme = (result) => {
     console.log(error);
   });
   console.log(
-    `没有名称的题目：${noNameList} \n难度出错的题目：${difficultyList} \n没有解答的题目数：${noSolutionList.length} \n没有解答的题目TOP5：${randomQuestion}`
+    `没有名称的题目：${noNameList} \n难度出错的题目：${difficultyList} \n没有解答的题目数：${noSolutionList.length} \n没有解答的题目TOP5：${randomQuestion}`,
   );
   console.log(result);
 };

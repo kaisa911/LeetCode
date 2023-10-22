@@ -227,7 +227,7 @@ pie title 已完成的题目
 | 642 | [Palindromic Substrings 设计搜索自动补全系统](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/642-PalindromicSubstrings.js) | Medium | |
 | 643 | [Maximum Average Subarray I 子数组最大平均数 I](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/643-findMaxAverage.js) | Easy | |
 | 649 | [Dota2 Senate Dota2 参议院](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/649-Dota2Senate.js) | Medium | 队列|
-| 653 | [Two Sum IV - Input is a BST 两数之和 IV-输入 BST](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/653-TwoSumIV-InputisaBST.md) | Easy | |
+| 653 | [Two Sum IV - Input is a BST 两数之和 IV - 输入二叉搜索树](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/653-TwoSumIV-InputisaBST.md) | Easy | 二叉搜索树、DFS|
 | 665 | [Non-decreasing Array 非递减数列](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/665-Non-decreasingArray.js) | Easy | |
 | 668 | [Kth Smallest Number in Multiplication Table 乘法表中的第 K 小的数](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Hard/668-KthSmallestNumberinMultiplicationTable.js) | Hard | |
 | 670 | [Maximum Swap 最大交换](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/670-MaximumSwap.js) | Medium | 贪心|
@@ -293,7 +293,7 @@ pie title 已完成的题目
 
 | Number | Name | Difficulty | label |
 |----|:--:|:------:|:-------:| 
-| 03 | [数组中重复的数字](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/剑指Offer/03-数组中重复的数字~Easy##数组.md) | Easy | 数组 |
+| 03 | [数组中重复的数字](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/剑指Offer/03-数组中重复的数字~Easy##哈希.md) | Easy | 哈希 |
 | 04 | [二维数组中的查找](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/剑指Offer/04-二维数组中的查找~Medium.md) | Medium |  |
 | 05 | [替换空格](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/剑指Offer/05-替换空格~Easy.md) | Easy |  |
 | 06 | [从尾到头打印链表](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/剑指Offer/06-从尾到头打印链表~Easy.md) | Easy |  |

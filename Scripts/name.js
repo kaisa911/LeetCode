@@ -599,11 +599,29 @@ const nameMap = {
     difficulty: 'Easy',
     label: '',
   },
+  101: {
+    cnName: 'undefined',
+    enName: 'undefined',
+    difficulty: 'undefined',
+    label: 'undefined',
+  },
   102: {
     cnName: '二叉树的层序遍历',
     enName: 'Binary Tree Level Order Traversal',
     difficulty: 'Medium',
     label: '',
+  },
+  103: {
+    cnName: 'undefined',
+    enName: 'undefined',
+    difficulty: 'undefined',
+    label: 'undefined',
+  },
+  104: {
+    cnName: 'undefined',
+    enName: 'undefined',
+    difficulty: 'undefined',
+    label: 'undefined',
   },
   105: {
     cnName: '从前序与中序遍历序列构造二叉树',
@@ -622,6 +640,12 @@ const nameMap = {
     enName: 'Binary Tree Level Order Traversal II',
     difficulty: 'Easy',
     label: '',
+  },
+  108: {
+    cnName: 'undefined',
+    enName: 'undefined',
+    difficulty: 'undefined',
+    label: 'undefined',
   },
   109: {
     cnName: '将有序数组转换为二叉搜索树',
@@ -659,6 +683,12 @@ const nameMap = {
     difficulty: 'Medium',
     label: '二叉树',
   },
+  116: {
+    cnName: 'undefined',
+    enName: 'undefined',
+    difficulty: 'undefined',
+    label: 'undefined',
+  },
   118: {
     cnName: '杨辉三角',
     enName: 'Pascals Triangle',
@@ -670,6 +700,18 @@ const nameMap = {
     enName: 'Pascals Triangle II',
     difficulty: 'Easy',
     label: '',
+  },
+  120: {
+    cnName: 'undefined',
+    enName: 'undefined',
+    difficulty: 'undefined',
+    label: 'undefined',
+  },
+  121: {
+    cnName: 'undefined',
+    enName: 'undefined',
+    difficulty: 'undefined',
+    label: 'undefined',
   },
   122: {
     cnName: '股票买卖的最佳时机 II',
@@ -689,6 +731,12 @@ const nameMap = {
     difficulty: 'Easy',
     label: '',
   },
+  127: {
+    cnName: 'undefined',
+    enName: 'undefined',
+    difficulty: 'undefined',
+    label: 'undefined',
+  },
   128: {
     cnName: '最长连续序列',
     enName: 'Longest Consecutive Sequence',
@@ -701,11 +749,29 @@ const nameMap = {
     difficulty: 'Medium',
     label: '',
   },
+  130: {
+    cnName: 'undefined',
+    enName: 'undefined',
+    difficulty: 'undefined',
+    label: 'undefined',
+  },
   131: {
     cnName: '分隔回文串',
     enName: 'Palindrome Partitioning',
     difficulty: 'Medium',
     label: '回溯',
+  },
+  133: {
+    cnName: 'undefined',
+    enName: 'undefined',
+    difficulty: 'undefined',
+    label: 'undefined',
+  },
+  134: {
+    cnName: 'undefined',
+    enName: 'undefined',
+    difficulty: 'undefined',
+    label: 'undefined',
   },
   136: {
     cnName: '只出现一次的数字',
@@ -731,11 +797,41 @@ const nameMap = {
     difficulty: 'Medium',
     label: '动态规划',
   },
+  140: {
+    cnName: 'undefined',
+    enName: 'undefined',
+    difficulty: 'undefined',
+    label: 'undefined',
+  },
   141: {
     cnName: '环形链表',
     enName: 'Linked List Cycle',
     difficulty: 'Easy',
     label: '',
+  },
+  142: {
+    cnName: 'undefined',
+    enName: 'undefined',
+    difficulty: 'undefined',
+    label: 'undefined',
+  },
+  143: {
+    cnName: 'undefined',
+    enName: 'undefined',
+    difficulty: 'undefined',
+    label: 'undefined',
+  },
+  144: {
+    cnName: 'undefined',
+    enName: 'undefined',
+    difficulty: 'undefined',
+    label: 'undefined',
+  },
+  145: {
+    cnName: 'undefined',
+    enName: 'undefined',
+    difficulty: 'undefined',
+    label: 'undefined',
   },
   146: {
     cnName: 'LRU 缓存',
@@ -743,11 +839,29 @@ const nameMap = {
     difficulty: 'Medium',
     label: '链表',
   },
+  147: {
+    cnName: 'undefined',
+    enName: 'undefined',
+    difficulty: 'undefined',
+    label: 'undefined',
+  },
   148: {
     cnName: '排序链表',
     enName: 'Sort List',
     difficulty: 'Medium',
     label: '链表',
+  },
+  149: {
+    cnName: 'undefined',
+    enName: 'undefined',
+    difficulty: 'undefined',
+    label: 'undefined',
+  },
+  150: {
+    cnName: 'undefined',
+    enName: 'undefined',
+    difficulty: 'undefined',
+    label: 'undefined',
   },
   151: {
     cnName: '反转字符串中的单词',
@@ -791,11 +905,23 @@ const nameMap = {
     difficulty: 'Easy',
     label: '',
   },
+  166: {
+    cnName: 'undefined',
+    enName: 'undefined',
+    difficulty: 'undefined',
+    label: 'undefined',
+  },
   167: {
     cnName: '两数之和 II',
     enName: 'Two Sum II',
     difficulty: 'Easy',
     label: '',
+  },
+  168: {
+    cnName: 'undefined',
+    enName: 'undefined',
+    difficulty: 'undefined',
+    label: 'undefined',
   },
   169: {
     cnName: '求众数',
@@ -814,6 +940,12 @@ const nameMap = {
     enName: 'Factorial Trailing Zeroes',
     difficulty: 'Easy',
     label: '',
+  },
+  179: {
+    cnName: 'undefined',
+    enName: 'undefined',
+    difficulty: 'undefined',
+    label: 'undefined',
   },
   189: {
     cnName: '旋转数组',
@@ -893,11 +1025,35 @@ const nameMap = {
     difficulty: 'Medium',
     label: '前缀树',
   },
+  210: {
+    cnName: 'undefined',
+    enName: 'undefined',
+    difficulty: 'undefined',
+    label: 'undefined',
+  },
+  212: {
+    cnName: 'undefined',
+    enName: 'undefined',
+    difficulty: 'undefined',
+    label: 'undefined',
+  },
+  214: {
+    cnName: 'undefined',
+    enName: 'undefined',
+    difficulty: 'undefined',
+    label: 'undefined',
+  },
   215: {
     cnName: '数组中的第 K 大元素',
     enName: 'Kth Largest Element in an Array',
     difficulty: 'Medium',
     label: '优先队列',
+  },
+  216: {
+    cnName: 'undefined',
+    enName: 'undefined',
+    difficulty: 'undefined',
+    label: 'undefined',
   },
   217: {
     cnName: '存在重复元素',
@@ -905,11 +1061,23 @@ const nameMap = {
     difficulty: 'Easy',
     label: '',
   },
+  218: {
+    cnName: 'undefined',
+    enName: 'undefined',
+    difficulty: 'undefined',
+    label: 'undefined',
+  },
   219: {
     cnName: '存在重复元素 II',
     enName: 'Contains Nearby Duplicate',
     difficulty: 'Easy',
     label: '',
+  },
+  221: {
+    cnName: 'undefined',
+    enName: 'undefined',
+    difficulty: 'undefined',
+    label: 'undefined',
   },
   225: {
     cnName: '用队列实现栈',
@@ -922,6 +1090,12 @@ const nameMap = {
     enName: 'Invert Binary Tree',
     difficulty: 'Easy',
     label: '二叉树',
+  },
+  227: {
+    cnName: 'undefined',
+    enName: 'undefined',
+    difficulty: 'undefined',
+    label: 'undefined',
   },
   230: {
     cnName: '二叉搜索树中的第 K 小的元素',
@@ -947,11 +1121,29 @@ const nameMap = {
     difficulty: 'Hard',
     label: '',
   },
+  234: {
+    cnName: 'undefined',
+    enName: 'undefined',
+    difficulty: 'undefined',
+    label: 'undefined',
+  },
+  235: {
+    cnName: 'undefined',
+    enName: 'undefined',
+    difficulty: 'undefined',
+    label: 'undefined',
+  },
   236: {
     cnName: '二叉树的最近公共祖先',
     enName: 'Lowest Common Ancestor of a Binary Tree',
     difficulty: 'Medium',
     label: '',
+  },
+  237: {
+    cnName: 'undefined',
+    enName: 'undefined',
+    difficulty: 'undefined',
+    label: 'undefined',
   },
   238: {
     cnName: '除自身以外数组的乘积',
@@ -964,6 +1156,12 @@ const nameMap = {
     enName: 'Slide Window Maximum',
     difficulty: 'Hard',
     label: '子串',
+  },
+  240: {
+    cnName: 'undefined',
+    enName: 'undefined',
+    difficulty: 'undefined',
+    label: 'undefined',
   },
   242: {
     cnName: '有效的字母异位词',
@@ -1031,11 +1229,23 @@ const nameMap = {
     difficulty: 'Medium',
     label: '',
   },
+  289: {
+    cnName: 'undefined',
+    enName: 'undefined',
+    difficulty: 'undefined',
+    label: 'undefined',
+  },
   290: {
     cnName: '单词规律',
     enName: 'Word Pattern',
     difficulty: 'Easy',
     label: '',
+  },
+  292: {
+    cnName: 'undefined',
+    enName: 'undefined',
+    difficulty: 'undefined',
+    label: 'undefined',
   },
   295: {
     cnName: '数据流的中位数',
@@ -1055,17 +1265,47 @@ const nameMap = {
     difficulty: 'Medium',
     label: '',
   },
+  301: {
+    cnName: 'undefined',
+    enName: 'undefined',
+    difficulty: 'undefined',
+    label: 'undefined',
+  },
   303: {
     cnName: '区域和检索-数组不可变',
     enName: 'Range Sum Query-Immutable',
     difficulty: 'Easy',
     label: '',
   },
+  309: {
+    cnName: 'undefined',
+    enName: 'undefined',
+    difficulty: 'undefined',
+    label: 'undefined',
+  },
+  312: {
+    cnName: 'undefined',
+    enName: 'undefined',
+    difficulty: 'undefined',
+    label: 'undefined',
+  },
+  315: {
+    cnName: 'undefined',
+    enName: 'undefined',
+    difficulty: 'undefined',
+    label: 'undefined',
+  },
   322: {
     cnName: '零钱兑换',
     enName: 'Coin Change',
     difficulty: 'Medium',
     label: '动态规划',
+  },
+  324: {
+    cnName: 'undefined',
+    enName: 'undefined',
+    difficulty: 'undefined',
+    label: 'undefined',
   },
   326: {
     cnName: '3 的幂',
@@ -1079,17 +1319,41 @@ const nameMap = {
     difficulty: 'Medium',
     label: '链表',
   },
+  329: {
+    cnName: 'undefined',
+    enName: 'undefined',
+    difficulty: 'undefined',
+    label: 'undefined',
+  },
+  332: {
+    cnName: 'undefined',
+    enName: 'undefined',
+    difficulty: 'undefined',
+    label: 'undefined',
+  },
   334: {
     cnName: '递增的三元子序列',
     enName: 'Increasing Triplet Subsequence',
     difficulty: 'Medium',
     label: '贪心、数组',
   },
+  337: {
+    cnName: 'undefined',
+    enName: 'undefined',
+    difficulty: 'undefined',
+    label: 'undefined',
+  },
   338: {
     cnName: '比特位计数',
     enName: 'Counting Bits',
     difficulty: 'Easy',
     label: '',
+  },
+  341: {
+    cnName: 'undefined',
+    enName: 'undefined',
+    difficulty: 'undefined',
+    label: 'undefined',
   },
   342: {
     cnName: '4 的幂',
@@ -1109,6 +1373,18 @@ const nameMap = {
     difficulty: 'Easy',
     label: '',
   },
+  345: {
+    cnName: 'undefined',
+    enName: 'undefined',
+    difficulty: 'undefined',
+    label: 'undefined',
+  },
+  347: {
+    cnName: 'undefined',
+    enName: 'undefined',
+    difficulty: 'undefined',
+    label: 'undefined',
+  },
   349: {
     cnName: '两个数组的交集',
     enName: 'Intersection of Two Arrays',
@@ -1120,6 +1396,12 @@ const nameMap = {
     enName: 'Intersection of Two Arrays II',
     difficulty: 'Easy',
     label: '',
+  },
+  365: {
+    cnName: 'undefined',
+    enName: 'undefined',
+    difficulty: 'undefined',
+    label: 'undefined',
   },
   371: {
     cnName: '两个整数相加',
@@ -1145,11 +1427,35 @@ const nameMap = {
     difficulty: 'Medium',
     label: '',
   },
+  378: {
+    cnName: 'undefined',
+    enName: 'undefined',
+    difficulty: 'undefined',
+    label: 'undefined',
+  },
+  380: {
+    cnName: 'undefined',
+    enName: 'undefined',
+    difficulty: 'undefined',
+    label: 'undefined',
+  },
+  381: {
+    cnName: 'undefined',
+    enName: 'undefined',
+    difficulty: 'undefined',
+    label: 'undefined',
+  },
   383: {
     cnName: '赎金信',
     enName: 'Ransom Note',
     difficulty: 'Easy',
     label: '',
+  },
+  384: {
+    cnName: 'undefined',
+    enName: 'undefined',
+    difficulty: 'undefined',
+    label: 'undefined',
   },
   387: {
     cnName: '字符串中的第一个唯一字符',
@@ -1175,6 +1481,12 @@ const nameMap = {
     difficulty: 'Medium',
     label: '',
   },
+  395: {
+    cnName: 'undefined',
+    enName: 'undefined',
+    difficulty: 'undefined',
+    label: 'undefined',
+  },
   399: {
     cnName: '除法求值',
     enName: 'Evaluate Division',
@@ -1193,17 +1505,35 @@ const nameMap = {
     difficulty: 'Easy',
     label: '',
   },
+  406: {
+    cnName: 'undefined',
+    enName: 'undefined',
+    difficulty: 'undefined',
+    label: 'undefined',
+  },
   409: {
     cnName: '最长回文串',
     enName: 'Longest Palindrome',
     difficulty: '',
     label: '',
   },
+  412: {
+    cnName: 'undefined',
+    enName: 'undefined',
+    difficulty: 'undefined',
+    label: 'undefined',
+  },
   414: {
     cnName: '第三大的数',
     enName: 'Third Maximum Number',
     difficulty: 'Easy',
     label: '',
+  },
+  415: {
+    cnName: 'undefined',
+    enName: 'undefined',
+    difficulty: 'undefined',
+    label: 'undefined',
   },
   416: {
     cnName: '分割等和子集',
@@ -1229,11 +1559,23 @@ const nameMap = {
     difficulty: 'Medium',
     label: '滑动窗口',
   },
+  440: {
+    cnName: 'undefined',
+    enName: 'undefined',
+    difficulty: 'undefined',
+    label: 'undefined',
+  },
   443: {
     cnName: '压缩字符串',
     enName: 'String Compression',
     difficulty: 'Medium',
     label: '字符串、双指针',
+  },
+  447: {
+    cnName: 'undefined',
+    enName: 'undefined',
+    difficulty: 'undefined',
+    label: 'undefined',
   },
   448: {
     cnName: '找到所有数组中消失的数字',
@@ -1253,6 +1595,12 @@ const nameMap = {
     difficulty: 'Medium',
     label: '区间集合',
   },
+  454: {
+    cnName: 'undefined',
+    enName: 'undefined',
+    difficulty: 'undefined',
+    label: 'undefined',
+  },
   455: {
     cnName: '分发饼干',
     enName: 'Assign Cookies',
@@ -1271,6 +1619,18 @@ const nameMap = {
     difficulty: 'Easy',
     label: '',
   },
+  461: {
+    cnName: 'undefined',
+    enName: 'undefined',
+    difficulty: 'undefined',
+    label: 'undefined',
+  },
+  463: {
+    cnName: 'undefined',
+    enName: 'undefined',
+    difficulty: 'undefined',
+    label: 'undefined',
+  },
   464: {
     cnName: '我能赢吗',
     enName: 'Can I Win',
@@ -1282,6 +1642,30 @@ const nameMap = {
     enName: 'Find Max Consecutive Ones',
     difficulty: 'Easy',
     label: '',
+  },
+  486: {
+    cnName: 'undefined',
+    enName: 'undefined',
+    difficulty: 'undefined',
+    label: 'undefined',
+  },
+  491: {
+    cnName: 'undefined',
+    enName: 'undefined',
+    difficulty: 'undefined',
+    label: 'undefined',
+  },
+  494: {
+    cnName: 'undefined',
+    enName: 'undefined',
+    difficulty: 'undefined',
+    label: 'undefined',
+  },
+  496: {
+    cnName: 'undefined',
+    enName: 'undefined',
+    difficulty: 'undefined',
+    label: 'undefined',
   },
   509: {
     cnName: '斐波那契数',
@@ -1301,11 +1685,23 @@ const nameMap = {
     difficulty: 'Medium',
     label: '',
   },
+  538: {
+    cnName: 'undefined',
+    enName: 'undefined',
+    difficulty: 'undefined',
+    label: 'undefined',
+  },
   541: {
     cnName: '反转字符串 II',
     enName: 'Reverse String II',
     difficulty: 'Easy',
     label: '',
+  },
+  543: {
+    cnName: 'undefined',
+    enName: 'undefined',
+    difficulty: 'undefined',
+    label: 'undefined',
   },
   547: {
     cnName: '省份数量',
@@ -1325,6 +1721,12 @@ const nameMap = {
     difficulty: 'Hard',
     label: '',
   },
+  557: {
+    cnName: 'undefined',
+    enName: 'undefined',
+    difficulty: 'undefined',
+    label: 'undefined',
+  },
   560: {
     cnName: '和为 k 的子数组',
     enName: 'Subarray Sum Equals K',
@@ -1343,11 +1745,41 @@ const nameMap = {
     difficulty: 'Easy',
     label: '',
   },
+  589: {
+    cnName: 'undefined',
+    enName: 'undefined',
+    difficulty: 'undefined',
+    label: 'undefined',
+  },
+  605: {
+    cnName: 'undefined',
+    enName: 'undefined',
+    difficulty: 'undefined',
+    label: 'undefined',
+  },
   606: {
     cnName: '根据二叉树创建字符串',
     enName: 'Construct String from Binary Tree',
     difficulty: 'Easy',
     label: '',
+  },
+  611: {
+    cnName: 'undefined',
+    enName: 'undefined',
+    difficulty: 'undefined',
+    label: 'undefined',
+  },
+  617: {
+    cnName: 'undefined',
+    enName: 'undefined',
+    difficulty: 'undefined',
+    label: 'undefined',
+  },
+  621: {
+    cnName: 'undefined',
+    enName: 'undefined',
+    difficulty: 'undefined',
+    label: 'undefined',
   },
   628: {
     cnName: '三个数的最大乘积',
@@ -1367,6 +1799,12 @@ const nameMap = {
     difficulty: 'Easy',
     label: '',
   },
+  647: {
+    cnName: 'undefined',
+    enName: 'undefined',
+    difficulty: 'undefined',
+    label: 'undefined',
+  },
   649: {
     cnName: 'Dota2 参议院',
     enName: 'Dota2 Senate',
@@ -1374,10 +1812,16 @@ const nameMap = {
     label: '队列',
   },
   653: {
-    cnName: '两数之和 IV-输入 BST',
+    cnName: '两数之和 IV - 输入二叉搜索树',
     enName: 'Two Sum IV - Input is a BST',
     difficulty: 'Easy',
-    label: '',
+    label: '二叉搜索树、DFS',
+  },
+  657: {
+    cnName: 'undefined',
+    enName: 'undefined',
+    difficulty: 'undefined',
+    label: 'undefined',
   },
   665: {
     cnName: '非递减数列',
@@ -1451,6 +1895,12 @@ const nameMap = {
     difficulty: 'Medium',
     label: '栈',
   },
+  738: {
+    cnName: 'undefined',
+    enName: 'undefined',
+    difficulty: 'undefined',
+    label: 'undefined',
+  },
   739: {
     cnName: '每日温度',
     enName: 'Daily Temperatures',
@@ -1468,6 +1918,12 @@ const nameMap = {
     enName: 'Largest Number At Least Twice of Others',
     difficulty: 'Easy',
     label: '',
+  },
+  763: {
+    cnName: 'undefined',
+    enName: 'undefined',
+    difficulty: 'undefined',
+    label: 'undefined',
   },
   778: {
     cnName: '水位上升的泳池中游泳',
@@ -1493,11 +1949,41 @@ const nameMap = {
     difficulty: 'Medium',
     label: '',
   },
+  841: {
+    cnName: 'undefined',
+    enName: 'undefined',
+    difficulty: 'undefined',
+    label: 'undefined',
+  },
+  844: {
+    cnName: 'undefined',
+    enName: 'undefined',
+    difficulty: 'undefined',
+    label: 'undefined',
+  },
+  845: {
+    cnName: 'undefined',
+    enName: 'undefined',
+    difficulty: 'undefined',
+    label: 'undefined',
+  },
+  860: {
+    cnName: 'undefined',
+    enName: 'undefined',
+    difficulty: 'undefined',
+    label: 'undefined',
+  },
   864: {
     cnName: '获取所有钥匙的最短路径',
     enName: 'Shortest Path to Get All Keys',
     difficulty: 'Hard',
     label: 'BFS',
+  },
+  867: {
+    cnName: 'undefined',
+    enName: 'undefined',
+    difficulty: 'undefined',
+    label: 'undefined',
   },
   872: {
     cnName: '叶子相似的树',
@@ -1631,6 +2117,12 @@ const nameMap = {
     difficulty: 'Easy',
     label: '',
   },
+  1128: {
+    cnName: 'undefined',
+    enName: 'undefined',
+    difficulty: 'undefined',
+    label: 'undefined',
+  },
   1137: {
     cnName: '第 N 个泰波那契数',
     enName: 'N-th Tribonacci Number',
@@ -1691,11 +2183,23 @@ const nameMap = {
     difficulty: 'Medium',
     label: '位运算',
   },
+  1356: {
+    cnName: 'undefined',
+    enName: 'undefined',
+    difficulty: 'undefined',
+    label: 'undefined',
+  },
   1365: {
     cnName: '有多少小于当前数字的数字',
     enName: 'How Many Numbers Are Smaller Than the Current Number',
     difficulty: 'Easy',
     label: '',
+  },
+  1370: {
+    cnName: 'undefined',
+    enName: 'undefined',
+    difficulty: 'undefined',
+    label: 'undefined',
   },
   1372: {
     cnName: '二叉树中的最长交错路径',
@@ -1709,6 +2213,12 @@ const nameMap = {
     difficulty: 'Hard',
     label: '',
   },
+  1403: {
+    cnName: 'undefined',
+    enName: 'undefined',
+    difficulty: 'undefined',
+    label: 'undefined',
+  },
   1413: {
     cnName: '逐步求和得到正数的最小值',
     enName: 'Minimum Value to Get Positive Step by Step Sum',
@@ -1720,6 +2230,12 @@ const nameMap = {
     enName: 'Kids With the Greatest Number of Candies',
     difficulty: 'Easy',
     label: '',
+  },
+  1446: {
+    cnName: 'undefined',
+    enName: 'undefined',
+    difficulty: 'undefined',
+    label: 'undefined',
   },
   1448: {
     cnName: '统计二叉树中好节点的数目',
@@ -1757,6 +2273,12 @@ const nameMap = {
     difficulty: 'Medium',
     label: '滑动窗口',
   },
+  1518: {
+    cnName: 'undefined',
+    enName: 'undefined',
+    difficulty: 'undefined',
+    label: 'undefined',
+  },
   1528: {
     cnName: '重新排列字符串',
     enName: 'Shuffle String',
@@ -1768,6 +2290,12 @@ const nameMap = {
     enName: 'Matrix Diagonal Sum',
     difficulty: 'Easy',
     label: '',
+  },
+  1576: {
+    cnName: 'undefined',
+    enName: 'undefined',
+    difficulty: 'undefined',
+    label: 'undefined',
   },
   1640: {
     cnName: '能否连接成数组',
@@ -1822,6 +2350,12 @@ const nameMap = {
     enName: 'Sum of Digits of String After Convert',
     difficulty: 'Easy',
     label: '',
+  },
+  2028: {
+    cnName: 'undefined',
+    enName: 'undefined',
+    difficulty: 'undefined',
+    label: 'undefined',
   },
   2038: {
     cnName: '如果相邻两个颜色均相同则删除当前颜色',
@@ -1916,5 +2450,3 @@ const nameMap = {
 };
 
 module.exports = nameMap;
-
-const hasAnswerItem = [101,];
