@@ -1,5 +1,4 @@
 const fs = require('fs');
-const path = require('path');
 const nameMap = require('./name.js');
 const { execSync } = require('child_process');
 

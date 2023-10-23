@@ -3,14 +3,14 @@
 
 some exercises of leetcode
 
-- Leetcode: 简单: 130, 中等: 126, 困难: 33, 剑指Offer: 73,
-- 总计：362
+- Leetcode: 简单: 132, 中等: 131, 困难: 35, 剑指Offer: 73,
+- 总计：371
 
 ```mermaid
 pie title 已完成的题目
-    "简单" : 130
-    "中等" : 126
-    "困难" : 33
+    "简单" : 132
+    "中等" : 131
+    "困难" : 35
     "剑指Offer" : 73
 ```
 
@@ -149,8 +149,17 @@ pie title 已完成的题目
 | 137 | [Single Number II 只出现一次的数字 II](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/137-SingleNumberII.md) | Medium | |
 | 138 | [Copy List with Random Pointer 随机链表的复制](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/138-CopyListwithRandomPointer.js) | Medium | 链表|
 | 139 | [Word Break 单词拆分](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/139-WordBreak.js) | Medium | 动态规划|
-| 141 | [Linked List Cycle 环形链表](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/141-LinkedListCycle.md) | Easy | |
+| 140 | [Word Break II 单词拆分 II](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Hard/140-WordBreakII.js) | Hard | 记忆化搜索|
+| 141 | [Linked List Cycle 环形链表](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/141-LinkedListCycle.md) | Easy | 双指针、哈希|
+| 142 | [Linked List Cycle II 环形链表 II](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/142-LinkedListCycleII.js) | Medium | 双指针、哈希|
+| 143 | [Reorder List 重排链表](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/143-ReorderList.js) | Medium | 双指针|
+| 144 | [Binary Tree Preorder Traversal 二叉树的前序遍历](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/144-BinaryTreePreorderTraversal.js) | Easy | 二叉树、栈|
+| 145 | [Binary Tree Postorder Traversal 二叉树的后序遍历](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/145-BinaryTreePostorderTraversal.js) | Easy | 二叉树、栈|
 | 146 | [LRU Cache LRU 缓存](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/146-LRUCache.js) | Medium | 链表|
+| 147 | [Insertion Sort List 对链表进行插入排序](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/147-InsertionSortList.js) | Medium | 链表|
+| 148 | [Sort List 排序链表](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/148-SortList.js) | Medium | 链表|
+| 149 | [Max Points on a Line 直线上最多的点](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Hard/149-MaxPointsonaLine.js) | Hard | 哈希|
+| 150 | [Evaluate Reverse Polish Notation 逆波兰表达式求值](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/150-EvaluateReversePolishNotation.js) | Medium | 栈|
 | 151 | [Reverse Words in a String 反转字符串中的单词](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/151-ReverseWordsinaString.js) | Medium | 双指针|
 | 155 | [Min Stack 最小栈](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/155-MinStac.js) | Easy | |
 | 162 | [Find Peak Element 寻找峰值](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/162-FindPeakElement.js) | Medium | 二分查找|
@@ -172,7 +181,7 @@ pie title 已完成的题目
 | 208 | [Implement Tire (Prefix Tree) 实现Tire（前缀树）](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/208-ImplementTire(PrefixTree).js) | Medium | 前缀树|
 | 215 | [Kth Largest Element in an Array 数组中的第 K 大元素](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/215-KthLargestElementinanArray.js) | Medium | 优先队列|
 | 217 | [Contains Duplicate 存在重复元素](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/217-containsDuplicate.js) | Easy | |
-| 219 | [Contains Nearby Duplicate 存在重复元素 II](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/219-containsNearbyDuplicate.js) | Easy | |
+| 219 | [Contains Nearby Duplicate II 存在重复元素 II](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/219-containsNearbyDuplicate.js) | Easy | |
 | 225 | [Implement Stack using Queues 用队列实现栈](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/225-ImplementStackusingQueues.js) | Easy | |
 | 231 | [Power of Two 2 的幂](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/231-isPowerOfTwo.js) | Easy | |
 | 232 | [Implement Queue using Stacks 用栈实现队列](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/232-ImplementQueueusingStacks.js) | Easy | |

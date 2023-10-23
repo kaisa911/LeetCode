@@ -138,7 +138,12 @@ ${tableHeader}
 ${tableBody2.join('\n')}
 `;
 
-const top5Question = [...noSolutionList];
+
+const hasNameNoSolution = [...noSolutionList].filter(
+  (item) => nameMap[item].cnName !== ''
+);
+const top5Question = [...hasNameNoSolution];
+
 
 while (top5Question.length > 5) {
   top5Question.splice(top5Question.length - 1, 1);
@@ -148,9 +153,16 @@ const renderReadme = (result) => {
   fs.writeFileSync('README.md', content(result), { flag: 'w+' }, (error) => {
     console.log(error);
   });
-  console.log(
-    `没有名称的题目：${noNameList} \n难度出错的题目：${difficultyList} \n没有解答的题目数：${noSolutionList.length} \n没有解答的题目TOP5：${top5Question}`
+
+  fs.writeFileSync(
+    'RECORD.md',
+    `没有名称的题目：${noNameList} \n没有名称的题目数: ${noNameList.length} \n难度出错的题目：${difficultyList} \n没有解答的题目数：${noSolutionList.length} \n有名称没有解答的题目数：${hasNameNoSolution.length} \n没有解答的题目TOP5：${top5Question}`,
+    { flag: 'w+' },
+    (error) => {
+      console.log(error);
+    }
   );
+  console.log(`next 5 question: ${top5Question}`);
   console.log(result);
 };
 
