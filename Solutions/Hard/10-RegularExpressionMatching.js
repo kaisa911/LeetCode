@@ -12,13 +12,13 @@ const isMatch = (s, p) => {
   }
 };
 
-/**
- * @param {string} s
- * @param {string} p
- * @return {boolean}
- * 正则表达式
- */
-const isMatch = (s, p) => {
-  let r = new RegExp('^' + p + '$');
-  return r.test(s);
-};
+// /**
+//  * @param {string} s
+//  * @param {string} p
+//  * @return {boolean}
+//  * 正则表达式
+//  */
+// const isMatch = (s, p) => {
+//   let r = new RegExp('^' + p + '$');
+//   return r.test(s);
+// };

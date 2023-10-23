@@ -21,34 +21,34 @@ pie title 已完成的题目
 | 3 | [Longest Substring Without Repeating Characters 无重复字符的最长子串](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/3-LongestSubstringWithoutRepeatingCharacters.md) | Medium | 滑动窗口|
 | 4 | [Median of Two Sorted Arrays 两个排序数组的中位数](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Hard/4-MedianofTwoSortedArrays.md) | Hard | 数组|
 | 5 | [Longest Palindromic Substring 最长回文子串](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/5-LongestPalindromicSubstring.md) | Medium | 双指针|
-| 6 | [ZigZag Conversion Z 字形变换](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/6-ZigZagConveresion.js) | Medium | |
+| 6 | [ZigZag Conversion Z 字形变换](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/6-ZigZagConversion.md) | Medium | |
 | 7 | [Reverse Integer 翻转整数](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/7-ReverseInteger.md) | Easy | |
-| 8 | [String to Integer (atoi) 字符串转为整数](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/8-StringtoInteger.js) | Medium | |
+| 8 | [String to Integer (atoi) 字符串转为整数](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/8-StringtoInteger(atoi).md) | Medium | |
 | 9 | [Palindrome Number 回文数字](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/9-PalindromeNumber.md) | Easy | |
-| 10 | [Regular Expression Matching 正则表达式匹配](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Hard/10-RegularExpressionMatching.js) | Hard | |
-| 11 | [Container With Most Water 盛最多水的容器](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/11-ContainerWithMostWater.js) | Medium | 双指针|
-| 12 | [Integer to Roman 整数转罗马数字](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/12-IntegertoRoman.js) | Medium | |
+| 10 | [Regular Expression Matching 正则表达式匹配](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Hard/10-RegularExpressionMatching.md) | Hard | |
+| 11 | [Container With Most Water 盛最多水的容器](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/11-ContainerWithMostWater.md) | Medium | 双指针|
+| 12 | [Integer to Roman 整数转罗马数字](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/12-IntegertoRoman.md) | Medium | |
 | 13 | [Roman to Integer 罗马数字转整数](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/13-RomantoInteger.md) | Easy | |
 | 14 | [Longest Common Prefix 最长共同前缀](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/14-LongestCommonPrefix.md) | Easy | 数组|
-| 15 | [3 Sum 三数之和](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/15-3Sum.js) | Medium | 双指针|
-| 16 | [3 Sum Closest 最接近的三数之和](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/16-3SumClosest.js) | Medium | |
+| 15 | [3 Sum 三数之和](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/15-3Sum.md) | Medium | 双指针|
+| 16 | [3 Sum Closest 最接近的三数之和](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/16-3SumClosest.md) | Medium | |
 | 17 | [Letter Combinations of a Phone Number 电话号码的字母组合](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/17-LetterCombinationsofaPhoneNumber.md) | Medium | |
-| 18 | [4 Sum 四数之和](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/18-4Sum.js) | Medium | |
+| 18 | [4 Sum 四数之和](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/18-4Sum.md) | Medium | |
 | 19 | [Remove Nth Node From End of List 删除链表的倒数第 N 个节点](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/19-RemoveNthNodeFromEndofLIst.md) | Medium | |
 | 20 | [Valid Parentheses 有效的括号](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/20-ValidParentheses.md) | Easy | 栈|
 | 21 | [Merge Two Sorted Lists 合并两个有序链表](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/21-MergeTwoSortedLists.md) | Easy | |
 | 22 | [Generate Parentheses 生成括号](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/22-GenerateParentheses.md) | Medium | |
 | 23 | [Merge k Sorted Lists 合并 K 个排序链表](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Hard/23-MergekSortedLists.md) | Hard | |
 | 24 | [Swap Nodes In Pairs 两两交换链表中的节点](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/24-SwapNodesInPairs.md) | Medium | |
-| 25 | [Reverse Nodes in k-Group 每 k 个一组翻转链表](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Hard/25-ReverseNodesInk-Group.js) | Hard | |
+| 25 | [Reverse Nodes in k-Group 每 k 个一组翻转链表](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Hard/25-ReverseNodesink-Group.md) | Hard | |
 | 26 | [Remove Duplicates from Sorted Array 从有序数组中删除重复项](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/26-RemoveDuplicatesfromSortedArray.md) | Easy | |
 | 27 | [Remove Element 移除元素](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/27-RemoveElement.md) | Easy | |
 | 28 | [Implement strStr() 实现 strStr()](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/28-ImplementstrStr.md) | Easy | |
-| 29 | [Divide Two Integers 两数相除](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/29-DivideTwoIntegers.js) | Medium | |
-| 30 | [Substring with Concatenation of All Words 串联所有单词的子串](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Hard/30-SubstringwithConcatenationofAllWords.js) | Hard | |
-| 31 | [Next-permutation 下一个排列](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/31-Next-permutation.js) | Medium | |
-| 32 | [Longest Valid Parentheses 最长有效括号](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Hard/32-LongestValidParentheses.js) | Hard | |
-| 33 | [Search in Rotated Sorted Array 在旋转有序数组中搜索](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/33-SearchinRotatedSortedArray.js) | Medium | |
+| 29 | [Divide Two Integers 两数相除](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/29-DivideTwoIntegers.md) | Medium | |
+| 30 | [Substring with Concatenation of All Words 串联所有单词的子串](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Hard/30-SubstringwithConcatenationofAllWords.md) | Hard | |
+| 31 | [Next-permutation 下一个排列](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/31-Next-permutation.md) | Medium | |
+| 32 | [Longest Valid Parentheses 最长有效括号](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Hard/32-LongestValidParentheses.md) | Hard | |
+| 33 | [Search in Rotated Sorted Array 在旋转有序数组中搜索](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/33-SearchinRotatedSortedArray.md) | Medium | |
 | 34 | [Search for a Range 搜索范围](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/34-SearchforaRange.js) | Medium | |
 | 35 | [Search Insert Position 搜索插入位置](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/35-SearchInsertPosition.md) | Easy | |
 | 36 | [Valid Sudoku 验证数独](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/36-ValidSudoku.js) | Medium | |

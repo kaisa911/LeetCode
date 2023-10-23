@@ -14,23 +14,17 @@ const thinking = fs.readdirSync(path.join(__dirname, '../Thinkings'), {
 
 for (let i = 0; i < solution.length; i++) {
   result.solution[solution[i].name] = fs.readdirSync(
-    path.join(__dirname, `../Solutions/${solution[i].name}`)
+    path.join(__dirname, `../Solutions/${solution[i].name}`),
   ).length;
 }
 for (let i = 0; i < thinking.length; i++) {
   result.thinking[thinking[i].name] = fs.readdirSync(
-    path.join(__dirname, `../Thinkings/${solution[i].name}`)
+    path.join(__dirname, `../Thinkings/${solution[i].name}`),
   ).length;
 }
 
-const sum = Object.values(result.solution).reduce(
-  (sum, solution) => (sum += solution),
-  0
-);
-const thinkSum = Object.values(result.thinking).reduce(
-  (sum, solution) => (sum += solution),
-  0
-);
+const sum = Object.values(result.solution).reduce((sum, solution) => (sum += solution), 0);
+const thinkSum = Object.values(result.thinking).reduce((sum, solution) => (sum += solution), 0);
 
 result.sum = sum;
 result.thinkSum = thinkSum;
@@ -39,6 +33,11 @@ renderReadme(result);
 if (process.argv[2] === '-c') {
   if (process.argv[3]) {
     create(+process.argv[3]);
+  }
+}
+if (process.argv[2] === '-t') {
+  if (process.argv[3]) {
+    create(+process.argv[3], false);
   }
 }
 
