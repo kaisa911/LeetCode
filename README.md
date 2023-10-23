@@ -3,14 +3,14 @@
 
 some exercises of leetcode
 
-- Leetcode: 简单: 126, 中等: 115, 困难: 31, 剑指Offer: 73,
-- 总计：345
+- Leetcode: 简单: 130, 中等: 126, 困难: 33, 剑指Offer: 73,
+- 总计：362
 
 ```mermaid
 pie title 已完成的题目
-    "简单" : 126
-    "中等" : 115
-    "困难" : 31
+    "简单" : 130
+    "中等" : 126
+    "困难" : 33
     "剑指Offer" : 73
 ```
 
@@ -116,24 +116,41 @@ pie title 已完成的题目
 | 98 | [Validate Binary Search Tree 验证搜索二叉树](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/98-ValidateBinarySearchTree.js) | Medium | |
 | 99 | [Recover Binary Search Tree 恢复搜索二叉树](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/99-RecoverBinarySearchTree.js) | Medium | |
 | 100 | [Same Tree 相同的树](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/100-SameTree.md) | Easy | |
+| 101 | [Symmetric Tree 对称二叉树](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/101-SymmetricTree.js) | Easy | BFS|
 | 102 | [Binary Tree Level Order Traversal 二叉树的层序遍历](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/102-BinaryTreeLevelOrderTraversal.js) | Medium | |
+| 103 | [Binary Tree Zigzag Level Order Traversal 二叉树的锯齿形层序遍历](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/103-BinaryTreeZigzagLevelOrderTraversal.js) | Medium | BFS|
+| 104 | [Maximum Depth of Binary Tree 二叉树最大深度](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/104-MaximumDepthofBinaryTree.js) | Easy | DFS|
 | 105 | [Construct Binary Tree from Preorderand Inorder Traversal 从前序与中序遍历序列构造二叉树](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/105-ConstructBinaryTreefromPreorderandInorderTraversal.md) | Medium | |
 | 106 | [Construct Binary Tree from In order and Post order Traversal 从中序与后序遍历序列构造二叉树](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/106-ConstructBinaryTreefromInorderandPostorderTraversal.js) | Medium | |
 | 107 | [Binary Tree Level Order Traversal II 二叉树的层次遍历 II](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/107-BinaryTreeLevelOrderTraversalII.md) | Easy | |
+| 108 | [Convert Sorted Array to Binary Search Tree 将有序数组转换成二叉搜索树](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/108-ConvertSortedArraytoBinarySearchTree.js) | Easy | 分治|
 | 109 | [Convert Sorted Array to Binary Search Tree 将有序数组转换为二叉搜索树](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/109-ConvertSortedArraytoBinarySearchTree.js) | Medium | |
 | 110 | [Balanced Binary Tree 平衡二叉树](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/110-BalancedBinaryTree.md) | Easy | |
 | 111 | [Minimum Depth of Binary Tree 二叉树的最小深度](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/111-MinimumDepthofBinaryTree.md) | Easy | |
 | 112 | [Path Sum 路径总和](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/112-PathSum.md) | Easy | |
 | 113 | [Path Sum II 路径总和 II](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/113-PathSumII.js) | Medium | |
+| 114 | [Flat Binary Tree to Linked List 二叉树展开为链表](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/114-FlatBinaryTreetoLinkedList.js) | Medium | 二叉树|
+| 116 | [Populating Next Right Pointers in Each Node 填充每个节点的下一个右侧节点指针](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/116-PopulatingNextRightPointersinEachNode.js) | Medium | 层序遍历|
 | 118 | [Pascals Triangle 杨辉三角](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/118-PascalsTriangle.js) | Easy | |
 | 119 | [Pascals Triangle II 杨辉三角 II](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/119-PascalsTriangleii.js) | Easy | |
+| 120 | [Triangle 三角形最小路径和](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/120-Triangle.js) | Medium | 动态规划|
+| 121 | [Best Time to Buy and Sell Stock 买卖股票的最佳时机](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/121-BestTimetoBuyandSellStock.js) | Easy | 动态规划|
 | 122 | [Best Time to Buy and Sell Stock II 股票买卖的最佳时机 II](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/122-BestTimetoBuyandSellStockII.js) | Medium | |
+| 124 | [Binary Tree Maximum Path Sum 二叉树中的最大路径和](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Hard/124-BinaryTreeMaximumPathSum.js) | Hard | 二叉树|
 | 125 | [Is Palindrome 验证回文串](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/125-isPalindrome.js) | Easy | |
+| 127 | [Word Ladder 单词接龙](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Hard/127-WordLadder.js) | Hard | BFS|
 | 128 | [Longest Consecutive Sequence 最长连续序列](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/128-LongestConsecutiveSequence.js) | Medium | 哈希|
 | 129 | [Sum Root to Leaf Numbers 求根到叶子节点数字之和](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/129-SumRoottoLeafNumbers.md) | Medium | |
+| 130 | [Surrounded Regions 被围绕的区域](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/130-SurroundedRegions.js) | Medium | DFS|
+| 131 | [Palindrome Partitioning 分隔回文串](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/131-PalindromePartitioning.js) | Medium | 回溯|
+| 133 | [Clone Graph 克隆图](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/133-CloneGraph.js) | Medium | DFS|
+| 134 | [Gas Station 加油站](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/134-GasStation.js) | Medium | 数组|
 | 136 | [Single Number 只出现一次的数字](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/136-singleNumber.js) | Easy | |
 | 137 | [Single Number II 只出现一次的数字 II](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/137-SingleNumberII.md) | Medium | |
+| 138 | [Copy List with Random Pointer 随机链表的复制](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/138-CopyListwithRandomPointer.js) | Medium | 链表|
+| 139 | [Word Break 单词拆分](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/139-WordBreak.js) | Medium | 动态规划|
 | 141 | [Linked List Cycle 环形链表](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/141-LinkedListCycle.md) | Easy | |
+| 146 | [LRU Cache LRU 缓存](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/146-LRUCache.js) | Medium | 链表|
 | 151 | [Reverse Words in a String 反转字符串中的单词](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/151-ReverseWordsinaString.js) | Medium | 双指针|
 | 155 | [Min Stack 最小栈](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/155-MinStac.js) | Easy | |
 | 162 | [Find Peak Element 寻找峰值](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/162-FindPeakElement.js) | Medium | 二分查找|
