@@ -2,7 +2,7 @@ const fs = require('fs');
 const nameMap = require('./name.js');
 const { execSync } = require('child_process');
 
-const create = (num, flag = true) => {
+const createHelper = (num, flag = true) => {
   const info = nameMap[num];
   const { enName, difficulty } = info;
   const showName = enName.split(' ').join('');
@@ -17,10 +17,25 @@ const create = (num, flag = true) => {
       });
       execSync(`code ${path}`);
       console.log(
-        `创建${num}成功，请在/${flag ? 'Solutions' : 'Thinkings'}/${difficulty}/目录下查看`,
+        `创建${num}成功，请在/${
+          flag ? 'Solutions' : 'Thinkings'
+        }/${difficulty}/目录下查看`
       );
     }
   });
+};
+
+const create = () => {
+  if (process.argv[2] === '-c') {
+    if (process.argv[3]) {
+      createHelper(+process.argv[3]);
+    }
+  }
+  if (process.argv[2] === '-t') {
+    if (process.argv[3]) {
+      createHelper(+process.argv[3], false);
+    }
+  }
 };
 
 module.exports = create;

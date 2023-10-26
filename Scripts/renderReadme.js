@@ -144,7 +144,37 @@ while (top5Question.length > 5) {
   top5Question.splice(top5Question.length - 1, 1);
 }
 
-const renderReadme = (result) => {
+const renderReadme = () => {
+  const result = { solution: {}, thinking: {} };
+  const solution = fs.readdirSync(path.join(__dirname, '../Solutions'), {
+    withFileTypes: true,
+  });
+  const thinking = fs.readdirSync(path.join(__dirname, '../Thinkings'), {
+    withFileTypes: true,
+  });
+
+  for (let i = 0; i < solution.length; i++) {
+    result.solution[solution[i].name] = fs.readdirSync(
+      path.join(__dirname, `../Solutions/${solution[i].name}`)
+    ).length;
+  }
+  for (let i = 0; i < thinking.length; i++) {
+    result.thinking[thinking[i].name] = fs.readdirSync(
+      path.join(__dirname, `../Thinkings/${solution[i].name}`)
+    ).length;
+  }
+
+  const sum = Object.values(result.solution).reduce(
+    (sum, solution) => (sum += solution),
+    0
+  );
+  const thinkSum = Object.values(result.thinking).reduce(
+    (sum, solution) => (sum += solution),
+    0
+  );
+
+  result.sum = sum;
+  result.thinkSum = thinkSum;
   fs.writeFileSync('README.md', content(result), { flag: 'w+' }, (error) => {
     console.log(error);
   });
@@ -157,8 +187,7 @@ const renderReadme = (result) => {
       console.log(error);
     }
   );
-  console.log(`next 5 question: ${top5Question}`);
-  console.log(result);
+  console.log('设置完成');
 };
 
 module.exports = renderReadme;
