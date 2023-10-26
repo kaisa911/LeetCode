@@ -3,7 +3,7 @@ const nameMap = {
     cnName: '两数之和',
     enName: 'Two Sum',
     difficulty: 'Easy',
-    label: '哈希表',
+    label: '哈希',
   },
   2: {
     cnName: '两数相加',
@@ -625,7 +625,7 @@ const nameMap = {
   },
   105: {
     cnName: '从前序与中序遍历序列构造二叉树',
-    enName: 'Construct Binary Tree from Preorderand Inorder Traversal',
+    enName: 'Construct Binary Tree from Preorder and Inorder Traversal',
     difficulty: 'Medium',
     label: '',
   },
@@ -2181,7 +2181,7 @@ const nameMap = {
     cnName: '独一无二的出现次数',
     enName: 'Unique Number of Occurrences',
     difficulty: 'Easy',
-    label: '哈希表',
+    label: '哈希',
   },
   1217: {
     cnName: '玩筹码',
@@ -2337,7 +2337,7 @@ const nameMap = {
     cnName: '确定两个字符串是否接近',
     enName: 'Determine if Two Strings Are Close',
     difficulty: 'Medium',
-    label: '哈希表',
+    label: '哈希',
   },
   1679: {
     cnName: 'K 和数对的最大数目',
@@ -2349,7 +2349,7 @@ const nameMap = {
     cnName: '同积元组',
     enName: 'Tuple with Same Product',
     difficulty: 'Medium',
-    label: '哈希表',
+    label: '哈希',
   },
   1732: {
     cnName: '找到最高海拔',
@@ -2409,7 +2409,7 @@ const nameMap = {
     cnName: '找出两数组的不同',
     enName: 'Find the Difference of Two Arrays',
     difficulty: 'Easy',
-    label: '哈希表',
+    label: '哈希',
   },
   2300: {
     cnName: '咒语和药水的成功对数',
@@ -2427,7 +2427,7 @@ const nameMap = {
     cnName: '相等行列对',
     enName: 'Equal Row and Column Pairs',
     difficulty: 'Medium',
-    label: '哈希表',
+    label: '哈希',
   },
   2390: {
     cnName: '从字符串中移除星号',
@@ -2469,7 +2469,7 @@ const nameMap = {
     cnName: '倍数求和',
     enName: 'Sum Multiples',
     difficulty: 'Easy',
-    label: '哈希表',
+    label: '哈希',
   },
   2731: {
     cnName: '移动机器人',

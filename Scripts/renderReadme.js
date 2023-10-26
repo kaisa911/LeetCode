@@ -58,10 +58,7 @@ Object.keys(result).map((key) => {
 sortTable.sort((a, b) => a.index - b.index);
 offerTable.sort((a, b) => a.index - b.index);
 let noSolutionList = Object.keys(nameMap);
-console.log(`name总数：${noSolutionList.length}`);
-const noNameList = [...noSolutionList].filter(
-  (item) => nameMap[item].enName === ''
-);
+
 const difficultyList = [];
 const tableHeader = `| Number | Name | Difficulty | label |
 |----|:--:|:------:|:-------:| `;
@@ -138,12 +135,10 @@ ${tableHeader}
 ${tableBody2.join('\n')}
 `;
 
-
 const hasNameNoSolution = [...noSolutionList].filter(
   (item) => nameMap[item].cnName !== ''
 );
 const top5Question = [...hasNameNoSolution];
-
 
 while (top5Question.length > 5) {
   top5Question.splice(top5Question.length - 1, 1);
@@ -156,7 +151,7 @@ const renderReadme = (result) => {
 
   fs.writeFileSync(
     'RECORD.md',
-    `没有名称的题目：${noNameList} \n没有名称的题目数: ${noNameList.length} \n难度出错的题目：${difficultyList} \n没有解答的题目数：${noSolutionList.length} \n有名称没有解答的题目数：${hasNameNoSolution.length} \n没有解答的题目TOP5：${top5Question}`,
+    `难度出错的题目：${difficultyList} \n没有解答的题目数：${noSolutionList.length} \n没有解答的题目TOP5：${top5Question}`,
     { flag: 'w+' },
     (error) => {
       console.log(error);
