@@ -3,14 +3,14 @@
 
 some exercises of leetcode
 
-- Leetcode: 简单: 151, 中等: 147, 困难: 35, 剑指Offer: 73,
-- 总计：406
+- Leetcode: 简单: 154, 中等: 158, 困难: 42, 剑指Offer: 73,
+- 总计：427
 
 ```mermaid
 pie title 已完成的题目
-    "简单" : 151
-    "中等" : 147
-    "困难" : 35
+    "简单" : 154
+    "中等" : 158
+    "困难" : 42
     "剑指Offer" : 73
 ```
 
@@ -187,15 +187,30 @@ pie title 已完成的题目
 | 206 | [Reverse Linked List 反转链表](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/206-ReverseLinkedList.md) | Easy | |
 | 207 | [Course Schedule 课程表](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/207-CourseSchedule.js) | Medium | 图|
 | 208 | [Implement Tire (Prefix Tree) 实现Tire（前缀树）](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/208-ImplementTire(PrefixTree).js) | Medium | 前缀树|
+| 210 | [Course Schedule II 课程表 II](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/210-CourseScheduleII.js) | Medium | BFS|
+| 212 | [Word Search II 单词搜索 II](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Hard/212-WordSearchII.js) | Hard | DFS|
+| 214 | [Shortest Palindrome 最短回文串](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Hard/214-ShortestPalindrome.js) | Hard | KMP|
 | 215 | [Kth Largest Element in an Array 数组中的第 K 大元素](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/215-KthLargestElementinanArray.js) | Medium | 优先队列|
+| 216 | [Combination Sum III 组合总和 III](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/216-CombinationSumIII.js) | Medium | 空间枚举|
 | 217 | [Contains Duplicate 存在重复元素](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/217-containsDuplicate.js) | Easy | |
+| 218 | [The Skyline Problem 天际线问题](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Hard/218-TheSkylineProblem.js) | Hard | 二分查找|
 | 219 | [Contains Nearby Duplicate II 存在重复元素 II](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/219-containsNearbyDuplicate.js) | Easy | |
+| 220 | [Contains Nearby Duplicate III 存在重复元素 III](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Hard/220-ContainsNearbyDuplicateIII.js) | Hard | 桶排序|
+| 221 | [Maximal Square 最大正方形](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/221-MaximalSquare.js) | Medium | 动态规划|
 | 225 | [Implement Stack using Queues 用队列实现栈](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/225-ImplementStackusingQueues.js) | Easy | |
+| 226 | [Invert Binary Tree 翻转二叉树](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/226-InvertBinaryTree.js) | Easy | 二叉树|
+| 227 | [Basic Calculator II 基本计算器 II](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/227-BasicCalculatorII.js) | Medium | 栈|
+| 230 | [Kth Smallest Element in a BST 二叉搜索树中的第 K 小的元素](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/230-KthSmallestElementinaBST.js) | Medium | 二叉树|
 | 231 | [Power of Two 2 的幂](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/231-isPowerOfTwo.js) | Easy | |
 | 232 | [Implement Queue using Stacks 用栈实现队列](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/232-ImplementQueueusingStacks.js) | Easy | |
 | 233 | [Number of Digit One 数字 1 的个数](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Hard/233-NumberofDigitOne.js) | Hard | |
-| 236 | [Lowest Common Ancestor of a Binary Tree 二叉树的最近公共祖先](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/236-LowestCommonAncestorofaBinaryTree.js) | Medium | |
+| 234 | [Palindrome Linked List 回文链表](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/234-PalindromeLinkedList.js) | Easy | 双指针|
+| 235 | [Lowest Common Ancestor of a Binary Search Tree 二叉搜索树的最近公共祖先](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/235-LowestCommonAncestorofaBinarySearchTree.js) | Medium | 二叉树|
+| 236 | [Lowest Common Ancestor of a Binary Tree 二叉树的最近公共祖先](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/236-LowestCommonAncestorofaBinaryTree.js) | Medium | 二叉树|
+| 237 | [Delete Node in a Linked List 删除链表中的节点](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/237-DeleteNodeinaLinkedList.js) | Medium | 链表|
 | 238 | [Product of Array Except Self 除自身以外数组的乘积](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/238-ProductofArrayExceptSelf.md) | Medium | 数组|
+| 239 | [Slide Window Maximum 滑动窗口最大值](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Hard/239-SlideWindowMaximum.js) | Hard | 子串|
+| 240 | [Search a 2D Matrix II 搜索二维矩阵 II](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/240-Searcha2DMatrixII.js) | Medium | 二分查找|
 | 242 | [Valid Anagram 有效的字母异位词](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/242-ValidAnagram.md) | Easy | |
 | 257 | [Binary Tree Paths 二叉树的所有路径](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/257-BinaryTreePaths.md) | Easy | |
 | 258 | [Add Digits 各位相加](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/258-AddDigits.md) | Easy | |
@@ -204,13 +219,19 @@ pie title 已完成的题目
 | 268 | [Missing Number 缺失数字](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/268-missingNumber.js) | Easy | |
 | 274 | [H-Index H 指数](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/274-H-Index.js) | Medium | |
 | 278 | [First Bad Version 第一个错误的版本](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/278-FirstBadVersion.md) | Easy | |
+| 279 | [Perfect Squares 完全平方数](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/279-PerfectSquares.js) | Medium | 动态规划|
 | 283 | [Move Zeroes 移动零](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/283-moveZeroes.js) | Easy | 双指针|
 | 287 | [Find the Duplicate Number 寻找重复数](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/287-FindtheDuplicateNumber.md) | Medium | |
+| 289 | [Game of Life 生命游戏](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/289-GameofLife.js) | Medium | 数组|
 | 290 | [Word Pattern 单词规律](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/290-WordPattern.md) | Easy | |
+| 292 | [Nim Game Nim 游戏](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/292-NimGame.js) | Easy | 数学|
 | 295 | [Find Median from Data Stream 数据流的中位数](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Hard/295-FindMedianfromDataStream.js) | Hard | |
 | 297 | [Serialize and Deserialize Binary Tree 二叉树的序列化与反序列化](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Hard/297-SerializeandDeserializeBinaryTree.js) | Hard | |
 | 300 | [Longest Increasing Subsequence 最长上升子序列](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/300-LongestIncreasingSubsequence.js) | Medium | |
+| 301 | [Remove Invalid Parentheses 删除无效的括号](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Hard/301-RemoveInvalidParentheses.js) | Hard | BFS|
 | 303 | [Range Sum Query-Immutable 区域和检索-数组不可变](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/303-RangeSumQuery-Immutable.md) | Easy | |
+| 309 | [Best Time to Buy and Sell Stock with Cooldown 买卖股票的最佳时机含冷冻期](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/309-BestTimetoBuyandSellStockwithCooldown.js) | Medium | 动态规划|
+| 312 | [Burst Balloons 戳气球](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Hard/312-BurstBalloons.js) | Hard | 动态规划|
 | 326 | [Power of Three 3 的幂](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/326-isPowerOfThree.js) | Easy | |
 | 328 | [Odd Even Linked List 奇偶链表](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/328-OddEvenLinkedList.js) | Medium | 链表|
 | 334 | [Increasing Triplet Subsequence 递增的三元子序列](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/334-IncreasingTripletSubsequence.js) | Medium | 贪心、数组|
