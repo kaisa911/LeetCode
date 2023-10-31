@@ -1311,7 +1311,7 @@ const nameMap = {
     cnName: '摆动排序 II',
     enName: 'Wiggle Sort II',
     difficulty: 'Medium',
-    label: '',
+    label: '排序',
   },
   326: {
     cnName: '3 的幂',
@@ -1329,13 +1329,13 @@ const nameMap = {
     cnName: '矩阵中的最长递增路径',
     enName: 'Longest Increasing Path in a Matrix',
     difficulty: 'Hard',
-    label: '',
+    label: '记忆化搜索',
   },
   332: {
     cnName: '重新安排行程',
     enName: 'Reconstruct Itinerary',
     difficulty: 'Hard',
-    label: '',
+    label: 'DFS',
   },
   334: {
     cnName: '递增的三元子序列',

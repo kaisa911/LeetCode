@@ -3,14 +3,14 @@
 
 some exercises of leetcode
 
-- Leetcode: 简单: 154, 中等: 158, 困难: 43, 剑指Offer: 73,
-- 总计：428
+- Leetcode: 简单: 154, 中等: 160, 困难: 44, 剑指Offer: 73,
+- 总计：431
 
 ```mermaid
 pie title 已完成的题目
     "简单" : 154
-    "中等" : 158
-    "困难" : 43
+    "中等" : 160
+    "困难" : 44
     "剑指Offer" : 73
 ```
 
@@ -233,8 +233,11 @@ pie title 已完成的题目
 | 309 | [Best Time to Buy and Sell Stock with Cooldown 买卖股票的最佳时机含冷冻期](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/309-BestTimetoBuyandSellStockwithCooldown.js) | Medium | 动态规划|
 | 312 | [Burst Balloons 戳气球](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Hard/312-BurstBalloons.js) | Hard | 动态规划|
 | 315 | [Count of Smallest Numbers After Self 计算右侧小于当前元素的个数](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Hard/315-CountofSmallestNumbersAfterSelf.js) | Hard | 归并排序|
+| 322 | [Coin Change 零钱兑换](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/322-CoinChange.js) | Medium | 动态规划|
+| 324 | [Wiggle Sort II 摆动排序 II](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/324-WiggleSortII.js) | Medium | 排序|
 | 326 | [Power of Three 3 的幂](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/326-isPowerOfThree.js) | Easy | |
 | 328 | [Odd Even Linked List 奇偶链表](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/328-OddEvenLinkedList.js) | Medium | 链表|
+| 329 | [Longest Increasing Path in a Matrix 矩阵中的最长递增路径](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Hard/329-LongestIncreasingPathinaMatrix.js) | Hard | 记忆化搜索|
 | 334 | [Increasing Triplet Subsequence 递增的三元子序列](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/334-IncreasingTripletSubsequence.js) | Medium | 贪心、数组|
 | 338 | [Counting Bits 比特位计数](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/338-CountingBits.js) | Easy | |
 | 342 | [Power of Four 4 的幂](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/342-isPowerOfFour.js) | Easy | |
