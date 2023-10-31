@@ -3,14 +3,14 @@
 
 some exercises of leetcode
 
-- Leetcode: 简单: 154, 中等: 160, 困难: 44, 剑指Offer: 73,
-- 总计：431
+- Leetcode: 简单: 154, 中等: 160, 困难: 45, 剑指Offer: 73,
+- 总计：432
 
 ```mermaid
 pie title 已完成的题目
     "简单" : 154
     "中等" : 160
-    "困难" : 44
+    "困难" : 45
     "剑指Offer" : 73
 ```
 
@@ -238,6 +238,7 @@ pie title 已完成的题目
 | 326 | [Power of Three 3 的幂](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/326-isPowerOfThree.js) | Easy | |
 | 328 | [Odd Even Linked List 奇偶链表](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/328-OddEvenLinkedList.js) | Medium | 链表|
 | 329 | [Longest Increasing Path in a Matrix 矩阵中的最长递增路径](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Hard/329-LongestIncreasingPathinaMatrix.js) | Hard | 记忆化搜索|
+| 332 | [Reconstruct Itinerary 重新安排行程](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Hard/332-ReconstructItinerary.js) | Hard | DFS|
 | 334 | [Increasing Triplet Subsequence 递增的三元子序列](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/334-IncreasingTripletSubsequence.js) | Medium | 贪心、数组|
 | 338 | [Counting Bits 比特位计数](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/338-CountingBits.js) | Easy | |
 | 342 | [Power of Four 4 的幂](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/342-isPowerOfFour.js) | Easy | |
