@@ -165,7 +165,7 @@ const nameMap = {
     cnName: '实现 strStr()',
     enName: 'Implement strStr()',
     difficulty: 'Easy',
-    label: '',
+    label: 'KMP算法',
   },
   29: {
     cnName: '两数相除',
@@ -207,7 +207,7 @@ const nameMap = {
     cnName: '搜索插入位置',
     enName: 'Search Insert Position',
     difficulty: 'Easy',
-    label: '',
+    label: '二分查找',
   },
   36: {
     cnName: '验证数独',
@@ -345,7 +345,7 @@ const nameMap = {
     cnName: '最后一个单词的长度',
     enName: 'Length of Last Word',
     difficulty: 'Easy',
-    label: '',
+    label: '字符串',
   },
   59: {
     cnName: '螺旋矩阵 II',
@@ -393,13 +393,13 @@ const nameMap = {
     cnName: '加一',
     enName: 'Plus One',
     difficulty: 'Easy',
-    label: '',
+    label: '数组',
   },
   67: {
     cnName: '二进制求和',
     enName: 'Add Binary',
     difficulty: 'Easy',
-    label: '',
+    label: '字符串',
   },
   68: {
     cnName: '文本左右对齐',
@@ -597,7 +597,7 @@ const nameMap = {
     cnName: '相同的树',
     enName: 'Same Tree',
     difficulty: 'Easy',
-    label: '',
+    label: '二叉树',
   },
   101: {
     cnName: '对称二叉树',

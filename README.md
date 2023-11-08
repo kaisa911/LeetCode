@@ -41,16 +41,16 @@ pie title 已完成的题目
 | 23 | [Merge k Sorted Lists 合并 K 个排序链表](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Hard/23-MergekSortedLists.md) | Hard | |
 | 24 | [Swap Nodes In Pairs 两两交换链表中的节点](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/24-SwapNodesInPairs.md) | Medium | |
 | 25 | [Reverse Nodes in k-Group 每 k 个一组翻转链表](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Hard/25-ReverseNodesink-Group.md) | Hard | |
-| 26 | [Remove Duplicates from Sorted Array 从有序数组中删除重复项](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/26-RemoveDuplicatesfromSortedArray.md) | Easy | |
-| 27 | [Remove Element 移除元素](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/27-RemoveElement.md) | Easy | |
-| 28 | [Implement strStr() 实现 strStr()](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/28-ImplementstrStr.md) | Easy | |
+| 26 | [Remove Duplicates from Sorted Array 从有序数组中删除重复项](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/26-RemoveDuplicatesfromSortedArray.md) | Easy | 双指针|
+| 27 | [Remove Element 移除元素](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/27-RemoveElement.md) | Easy | 双指针|
+| 28 | [Implement strStr() 实现 strStr()](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/28-ImplementstrStr.md) | Easy | KMP算法|
 | 29 | [Divide Two Integers 两数相除](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/29-DivideTwoIntegers.md) | Medium | |
 | 30 | [Substring with Concatenation of All Words 串联所有单词的子串](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Hard/30-SubstringwithConcatenationofAllWords.md) | Hard | |
 | 31 | [Next-permutation 下一个排列](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/31-Next-permutation.md) | Medium | |
 | 32 | [Longest Valid Parentheses 最长有效括号](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Hard/32-LongestValidParentheses.md) | Hard | |
 | 33 | [Search in Rotated Sorted Array 在旋转有序数组中搜索](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/33-SearchinRotatedSortedArray.md) | Medium | |
 | 34 | [Search for a Range 搜索范围](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/34-SearchforaRange.js) | Medium | |
-| 35 | [Search Insert Position 搜索插入位置](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/35-SearchInsertPosition.md) | Easy | |
+| 35 | [Search Insert Position 搜索插入位置](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/35-SearchInsertPosition.md) | Easy | 二分查找|
 | 36 | [Valid Sudoku 验证数独](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/36-ValidSudoku.js) | Medium | |
 | 37 | [Sudoku Solver 解数独](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Hard/37-SudokuSolver.js) | Hard | |
 | 38 | [Count and Say 数数并说](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/38-CountandSay.js) | Easy | |
@@ -73,7 +73,7 @@ pie title 已完成的题目
 | 55 | [Jump Game 跳跃游戏](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/55-JumpGame.js) | Medium | |
 | 56 | [Merge Intervals 合并区间](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/56-MergeIntervals.js) | Medium | 数组|
 | 57 | [Insert Interval 插入区间](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Hard/57-InsertInterval.js) | Hard | |
-| 58 | [Length of Last Word 最后一个单词的长度](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/58-LengthofLastWord.md) | Easy | |
+| 58 | [Length of Last Word 最后一个单词的长度](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/58-LengthofLastWord.md) | Easy | 字符串|
 | 59 | [Spiral Matrix II 螺旋矩阵 II](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/59-SpiralMatrixII.js) | Medium | 矩阵|
 | 60 | [Permutation Sequence 排列序列](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/60-PermutationSequence.js) | Medium | |
 | 61 | [Rotate List 旋转链表](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/61-RotateList.js) | Medium | |
@@ -81,8 +81,8 @@ pie title 已完成的题目
 | 63 | [Unique Paths II 不同路径 II](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/63-UniquePathsII.md) | Medium | |
 | 64 | [Minimum Path Sum 最小路径和](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/64-MinimumPathSum.md) | Medium | |
 | 65 | [Valid Number 有效数字](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Hard/65-ValidNumber.md) | Hard | |
-| 66 | [Plus One 加一](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/66-PlusOne.md) | Easy | |
-| 67 | [Add Binary 二进制求和](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/67-AddBinary.md) | Easy | |
+| 66 | [Plus One 加一](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/66-PlusOne.md) | Easy | 数组|
+| 67 | [Add Binary 二进制求和](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/67-AddBinary.md) | Easy | 字符串|
 | 68 | [Text Justification 文本左右对齐](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Hard/68-TextJustification.md) | Hard | |
 | 69 | [Sqrt(x) x 的平方根](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/69-Sqrt.js) | Easy | |
 | 70 | [Climbing Stairs 爬楼梯](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/70-ClimbingStairs.js) | Easy | |
@@ -115,7 +115,7 @@ pie title 已完成的题目
 | 97 | [Interleaving String 交错字符串](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/97-InterleavingString.js) | Medium | |
 | 98 | [Validate Binary Search Tree 验证搜索二叉树](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/98-ValidateBinarySearchTree.js) | Medium | |
 | 99 | [Recover Binary Search Tree 恢复搜索二叉树](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/99-RecoverBinarySearchTree.js) | Medium | |
-| 100 | [Same Tree 相同的树](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/100-SameTree.md) | Easy | |
+| 100 | [Same Tree 相同的树](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/100-SameTree.md) | Easy | 二叉树|
 | 101 | [Symmetric Tree 对称二叉树](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/101-SymmetricTree.js) | Easy | BFS|
 | 102 | [Binary Tree Level Order Traversal 二叉树的层序遍历](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/102-BinaryTreeLevelOrderTraversal.js) | Medium | |
 | 103 | [Binary Tree Zigzag Level Order Traversal 二叉树的锯齿形层序遍历](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/103-BinaryTreeZigzagLevelOrderTraversal.js) | Medium | BFS|
