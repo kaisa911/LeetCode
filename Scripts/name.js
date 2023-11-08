@@ -153,13 +153,13 @@ const nameMap = {
     cnName: '从有序数组中删除重复项',
     enName: 'Remove Duplicates from Sorted Array',
     difficulty: 'Easy',
-    label: '',
+    label: '双指针',
   },
   27: {
     cnName: '移除元素',
     enName: 'Remove Element',
     difficulty: 'Easy',
-    label: '',
+    label: '双指针',
   },
   28: {
     cnName: '实现 strStr()',
