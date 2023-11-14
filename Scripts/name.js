@@ -3,7 +3,7 @@ const nameMap = {
     cnName: '两数之和',
     enName: 'Two Sum',
     difficulty: 'Easy',
-    label: '哈希',
+    label: '哈希表',
   },
   2: {
     cnName: '两数相加',
@@ -291,7 +291,7 @@ const nameMap = {
     cnName: '字母异位词分组',
     enName: 'Group Anagrams',
     difficulty: 'Medium',
-    label: '哈希',
+    label: '哈希表',
   },
   50: {
     cnName: 'Pow(x, n)',
@@ -741,7 +741,7 @@ const nameMap = {
     cnName: '最长连续序列',
     enName: 'Longest Consecutive Sequence',
     difficulty: 'Medium',
-    label: '哈希',
+    label: '哈希表',
   },
   129: {
     cnName: '求根到叶子节点数字之和',
@@ -855,7 +855,7 @@ const nameMap = {
     cnName: '直线上最多的点',
     enName: 'Max Points on a Line',
     difficulty: 'Hard',
-    label: '哈希',
+    label: '哈希表',
   },
   150: {
     cnName: '逆波兰表达式求值',
@@ -1347,7 +1347,7 @@ const nameMap = {
     cnName: '打家劫舍 III',
     enName: 'House Robber III',
     difficulty: 'Medium',
-    label: '',
+    label: '动态规划',
   },
   338: {
     cnName: '比特位计数',
@@ -1359,7 +1359,7 @@ const nameMap = {
     cnName: '扁平化嵌套列表迭代器',
     enName: 'Flatten Nested List Iterator',
     difficulty: 'Medium',
-    label: '',
+    label: '栈',
   },
   342: {
     cnName: '4 的幂',
@@ -1383,13 +1383,13 @@ const nameMap = {
     cnName: '翻转字符串中的元音字母',
     enName: 'Reverse Vowels of a String',
     difficulty: 'Easy',
-    label: '',
+    label: '双指针',
   },
   347: {
     cnName: '前 K 个高频元素',
     enName: 'Top K Frequent Elements',
     difficulty: 'Medium',
-    label: '',
+    label: '桶排序',
   },
   349: {
     cnName: '两个数组的交集',
@@ -1407,7 +1407,7 @@ const nameMap = {
     cnName: '水壶问题',
     enName: 'Water and Jug Problem',
     difficulty: 'Medium',
-    label: '',
+    label: '数学方法',
   },
   371: {
     cnName: '两个整数相加',
@@ -1437,19 +1437,19 @@ const nameMap = {
     cnName: '有序矩阵中第 K 小的元素',
     enName: 'Kth Smallest Element in a Sorted Matrix',
     difficulty: 'Medium',
-    label: '',
+    label: '二分查找',
   },
   380: {
     cnName: 'O(1)时间插入删除和获取随机元素',
-    enName: 'Insert Delete GetRandom O(1)',
+    enName: 'Insert Delete GetRandom O1',
     difficulty: 'Medium',
-    label: '',
+    label: '哈希表',
   },
   381: {
     cnName: 'O(1)时间插入删除和获取随机元素-允许重复',
     enName: 'Insert Delete GetRandom O(1) - Duplicates allowed',
     difficulty: 'Hard',
-    label: '',
+    label: '哈希表',
   },
   383: {
     cnName: '赎金信',
@@ -1461,7 +1461,7 @@ const nameMap = {
     cnName: '打乱数组',
     enName: 'Shuffle an Array',
     difficulty: 'Medium',
-    label: '',
+    label: '数组',
   },
   387: {
     cnName: '字符串中的第一个唯一字符',
@@ -1491,7 +1491,7 @@ const nameMap = {
     cnName: '至少有 K 个充数字符的最长子串',
     enName: 'Longest Substring with At Least K Repeating Characters',
     difficulty: 'Medium',
-    label: '',
+    label: '分治',
   },
   399: {
     cnName: '除法求值',
@@ -1515,7 +1515,7 @@ const nameMap = {
     cnName: '根据身高重建队列',
     enName: 'Queue Reconstruction by Height',
     difficulty: 'Medium',
-    label: '',
+    label: '数组',
   },
   409: {
     cnName: '最长回文串',
@@ -1527,7 +1527,7 @@ const nameMap = {
     cnName: 'Fizz Buzz',
     enName: 'Fizz Buzz',
     difficulty: 'Easy',
-    label: '',
+    label: '字符串',
   },
   414: {
     cnName: '第三大的数',
@@ -1539,7 +1539,7 @@ const nameMap = {
     cnName: '字符串相加',
     enName: 'Add Strings',
     difficulty: 'Easy',
-    label: '',
+    label: '模拟',
   },
   416: {
     cnName: '分割等和子集',
@@ -1569,19 +1569,19 @@ const nameMap = {
     cnName: '字典序的第 K 小数字',
     enName: 'Kth Smallest in Lexicographical Order',
     difficulty: 'Hard',
-    label: '',
+    label: '字典树',
   },
   441: {
     cnName: '排列硬币',
     enName: 'Arranging Coins',
     difficulty: 'Easy',
-    label: '',
+    label: '二分查找',
   },
   442: {
     cnName: '数组中重复的数据',
     enName: 'Find All Duplicates in an Array',
     difficulty: 'Medium',
-    label: '',
+    label: '数组',
   },
   443: {
     cnName: '压缩字符串',
@@ -1593,7 +1593,7 @@ const nameMap = {
     cnName: '回旋镖的数量',
     enName: 'Number of Boomerangs',
     difficulty: 'Medium',
-    label: '',
+    label: '哈希表',
   },
   448: {
     cnName: '找到所有数组中消失的数字',
@@ -1617,7 +1617,7 @@ const nameMap = {
     cnName: '四数相加 II',
     enName: '4Sum II',
     difficulty: 'Medium',
-    label: '',
+    label: '哈希表',
   },
   455: {
     cnName: '分发饼干',
@@ -1629,7 +1629,7 @@ const nameMap = {
     cnName: '132 模式',
     enName: '132 Pattern',
     difficulty: 'Medium',
-    label: '',
+    label: '枚举',
   },
   458: {
     cnName: '可怜的小猪',
@@ -1647,19 +1647,19 @@ const nameMap = {
     cnName: '汉明距离',
     enName: 'Hamming Distance',
     difficulty: 'Easy',
-    label: '',
+    label: '位运算',
   },
   462: {
     cnName: '最小操作次数是数组元素相等II',
     enName: 'Minimum Move to Equal Array Elements II',
     difficulty: 'Medium',
-    label: '',
+    label: '排序',
   },
   463: {
     cnName: '岛屿的周长',
     enName: 'Island Perimeter',
     difficulty: 'Easy',
-    label: '',
+    label: 'DFS',
   },
   464: {
     cnName: '我能赢吗',
@@ -1677,13 +1677,13 @@ const nameMap = {
     cnName: '预测赢家',
     enName: 'Predict the Winner',
     difficulty: 'Medium',
-    label: '',
+    label: '动态规划',
   },
   491: {
     cnName: '递增子序列',
     enName: 'Non- decreasing Subsequence',
     difficulty: 'Medium',
-    label: '',
+    label: 'DFS',
   },
   494: {
     cnName: '目标和',
@@ -1695,7 +1695,7 @@ const nameMap = {
     cnName: '下一个更大元素 I',
     enName: 'Next Greater Element I',
     difficulty: 'Easy',
-    label: '哈希',
+    label: '哈希表',
   },
   509: {
     cnName: '斐波那契数',
@@ -2181,7 +2181,7 @@ const nameMap = {
     cnName: '独一无二的出现次数',
     enName: 'Unique Number of Occurrences',
     difficulty: 'Easy',
-    label: '哈希',
+    label: '哈希表',
   },
   1217: {
     cnName: '玩筹码',
@@ -2277,7 +2277,7 @@ const nameMap = {
     cnName: '重新排列句子中的单词',
     enName: 'Rearrange Words in a Sentence',
     difficulty: 'Medium',
-    label: '',
+    label: '字符串',
   },
   1456: {
     cnName: '定长子串中元音的最大数目',
@@ -2295,7 +2295,7 @@ const nameMap = {
     cnName: '重新排列数组',
     enName: 'Shuffle the Array',
     difficulty: 'Easy',
-    label: '',
+    label: '数组',
   },
   1493: {
     cnName: '删掉一个元素以后全为1的最长子数组',
@@ -2337,7 +2337,7 @@ const nameMap = {
     cnName: '确定两个字符串是否接近',
     enName: 'Determine if Two Strings Are Close',
     difficulty: 'Medium',
-    label: '哈希',
+    label: '哈希表',
   },
   1679: {
     cnName: 'K 和数对的最大数目',
@@ -2349,7 +2349,7 @@ const nameMap = {
     cnName: '同积元组',
     enName: 'Tuple with Same Product',
     difficulty: 'Medium',
-    label: '哈希',
+    label: '哈希表',
   },
   1732: {
     cnName: '找到最高海拔',
@@ -2409,7 +2409,7 @@ const nameMap = {
     cnName: '找出两数组的不同',
     enName: 'Find the Difference of Two Arrays',
     difficulty: 'Easy',
-    label: '哈希',
+    label: '哈希表',
   },
   2300: {
     cnName: '咒语和药水的成功对数',
@@ -2427,7 +2427,7 @@ const nameMap = {
     cnName: '相等行列对',
     enName: 'Equal Row and Column Pairs',
     difficulty: 'Medium',
-    label: '哈希',
+    label: '哈希表',
   },
   2390: {
     cnName: '从字符串中移除星号',
@@ -2469,7 +2469,7 @@ const nameMap = {
     cnName: '倍数求和',
     enName: 'Sum Multiples',
     difficulty: 'Easy',
-    label: '哈希',
+    label: '哈希表',
   },
   2731: {
     cnName: '移动机器人',

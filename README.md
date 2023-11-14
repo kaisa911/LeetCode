@@ -3,20 +3,20 @@
 
 some exercises of leetcode
 
-- Leetcode: 简单: 154, 中等: 160, 困难: 45, 剑指Offer: 73,
-- 总计：432
+- Leetcode: 简单: 165, 中等: 201, 困难: 47, 剑指Offer: 73,
+- 总计：486
 
 ```mermaid
 pie title 已完成的题目
-    "简单" : 154
-    "中等" : 160
-    "困难" : 45
+    "简单" : 165
+    "中等" : 201
+    "困难" : 47
     "剑指Offer" : 73
 ```
 
 | Number | Name | Difficulty | label |
 |----|:--:|:------:|:-------:| 
-| 1 | [Two Sum 两数之和](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/1-TwoSum.md) | Easy | 哈希|
+| 1 | [Two Sum 两数之和](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/1-TwoSum.md) | Easy | 哈希表|
 | 2 | [Add Two Numbers 两数相加](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/2-AddTwoNumbers.md) | Medium | 链表|
 | 3 | [Longest Substring Without Repeating Characters 无重复字符的最长子串](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/3-LongestSubstringWithoutRepeatingCharacters.md) | Medium | 滑动窗口|
 | 4 | [Median of Two Sorted Arrays 两个排序数组的中位数](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Hard/4-MedianofTwoSortedArrays.md) | Hard | 数组|
@@ -64,7 +64,7 @@ pie title 已完成的题目
 | 46 | [Permutations 全排列](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/46-Permutations.md) | Medium | |
 | 47 | [Permutations II 全排列 II](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/47-PermutationsII.js) | Medium | |
 | 48 | [Rotate Image 旋转图像](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/48-RotateImage.js) | Medium | |
-| 49 | [Group Anagrams 字母异位词分组](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/49-GroupAnagrams.js) | Medium | 哈希|
+| 49 | [Group Anagrams 字母异位词分组](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/49-GroupAnagrams.js) | Medium | 哈希表|
 | 50 | [Pow(x, n) Pow(x, n)](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/50-Pow.js) | Medium | |
 | 51 | [N-Queens N 皇后](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Hard/51-NQueens.js) | Hard | |
 | 52 | [N-Queens II N 皇后 II](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Hard/52-NQueensII.js) | Hard | |
@@ -139,7 +139,7 @@ pie title 已完成的题目
 | 124 | [Binary Tree Maximum Path Sum 二叉树中的最大路径和](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Hard/124-BinaryTreeMaximumPathSum.js) | Hard | 二叉树|
 | 125 | [Is Palindrome 验证回文串](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/125-isPalindrome.js) | Easy | |
 | 127 | [Word Ladder 单词接龙](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Hard/127-WordLadder.js) | Hard | BFS|
-| 128 | [Longest Consecutive Sequence 最长连续序列](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/128-LongestConsecutiveSequence.js) | Medium | 哈希|
+| 128 | [Longest Consecutive Sequence 最长连续序列](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/128-LongestConsecutiveSequence.js) | Medium | 哈希表|
 | 129 | [Sum Root to Leaf Numbers 求根到叶子节点数字之和](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/129-SumRoottoLeafNumbers.md) | Medium | |
 | 130 | [Surrounded Regions 被围绕的区域](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/130-SurroundedRegions.js) | Medium | DFS|
 | 131 | [Palindrome Partitioning 分隔回文串](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/131-PalindromePartitioning.js) | Medium | 回溯|
@@ -158,7 +158,7 @@ pie title 已完成的题目
 | 146 | [LRU Cache LRU 缓存](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/146-LRUCache.js) | Medium | 链表|
 | 147 | [Insertion Sort List 对链表进行插入排序](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/147-InsertionSortList.js) | Medium | 链表|
 | 148 | [Sort List 排序链表](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/148-SortList.js) | Medium | 链表|
-| 149 | [Max Points on a Line 直线上最多的点](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Hard/149-MaxPointsonaLine.js) | Hard | 哈希|
+| 149 | [Max Points on a Line 直线上最多的点](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Hard/149-MaxPointsonaLine.js) | Hard | 哈希表|
 | 150 | [Evaluate Reverse Polish Notation 逆波兰表达式求值](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/150-EvaluateReversePolishNotation.js) | Medium | 栈|
 | 151 | [Reverse Words in a String 反转字符串中的单词](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/151-ReverseWordsinaString.js) | Medium | 双指针|
 | 152 | [Maximum Product Subarray 乘积最大子数组](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/152-MaximumProductSubarray.js) | Medium | 动态规划|
@@ -240,40 +240,65 @@ pie title 已完成的题目
 | 329 | [Longest Increasing Path in a Matrix 矩阵中的最长递增路径](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Hard/329-LongestIncreasingPathinaMatrix.js) | Hard | 记忆化搜索|
 | 332 | [Reconstruct Itinerary 重新安排行程](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Hard/332-ReconstructItinerary.js) | Hard | DFS|
 | 334 | [Increasing Triplet Subsequence 递增的三元子序列](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/334-IncreasingTripletSubsequence.js) | Medium | 贪心、数组|
+| 337 | [House Robber III 打家劫舍 III](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/337-HouseRobberIII.js) | Medium | 动态规划|
 | 338 | [Counting Bits 比特位计数](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/338-CountingBits.js) | Easy | |
+| 341 | [Flatten Nested List Iterator 扁平化嵌套列表迭代器](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/341-FlattenNestedListIterator.js) | Medium | 栈|
 | 342 | [Power of Four 4 的幂](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/342-isPowerOfFour.js) | Easy | |
 | 343 | [Integer Break 整数拆分](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/343-IntegerBreak.js) | Medium | |
 | 344 | [Reverse String 反转字符串](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/344-reverseString.js) | Easy | |
+| 345 | [Reverse Vowels of a String 翻转字符串中的元音字母](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/345-ReverseVowelsofaString.js) | Easy | 双指针|
+| 347 | [Top K Frequent Elements 前 K 个高频元素](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/347-TopKFrequentElements.js) | Medium | 桶排序|
 | 349 | [Intersection of Two Arrays 两个数组的交集](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/349-IntersectionofTwoArrays.js) | Easy | |
 | 350 | [Intersection of Two Arrays II 两个数组的交集 II](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/350-IntersectionofTwoArraysII.md) | Easy | |
+| 365 | [Water and Jug Problem 水壶问题](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/365-WaterandJugProblem.js) | Medium | 数学方法|
 | 371 | [Sum of Two Integers 两个整数相加](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/371-SumofTwoIntegers.md) | Easy | |
 | 373 | [Find K Pairs with Smallest Sums 查找和最小的 K 对数字](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/373-FindKPairswithSmallestSums.js) | Medium | |
 | 374 | [Guess Number Higher or lower 猜数字大小](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/374-GuessNumberHigherorlower.js) | Easy | 二分查找|
 | 377 | [Combination Sum IV 组合总和 Ⅳ](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/377-CombinationSumIV.md) | Medium | |
+| 378 | [Kth Smallest Element in a Sorted Matrix 有序矩阵中第 K 小的元素](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/378-KthSmallestElementinaSortedMatrix.js) | Medium | 二分查找|
+| 380 | [Insert Delete GetRandom O1 O(1)时间插入删除和获取随机元素](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/380-InsertDeleteGetRandomO(1).js) | Medium | 哈希表|
+| 381 | [Insert Delete GetRandom O(1) - Duplicates allowed O(1)时间插入删除和获取随机元素-允许重复](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Hard/381-InsertDeleteGetRandomO(1)-Duplicatesallowed.js) | Hard | 哈希表|
 | 383 | [Ransom Note 赎金信](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/383-RansomNote.md) | Easy | |
+| 384 | [Shuffle an Array 打乱数组](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/384-ShuffleanArray.js) | Medium | 数组|
 | 387 | [First Unique Character in a String 字符串中的第一个唯一字符](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/387-firstUniqChar.md) | Easy | |
 | 389 | [Find The Difference 找不同](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/389-findTheDifference.js) | Easy | |
 | 392 | [Is Subsequence 判断子序列](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/392-IsSubsequence.md) | Easy | |
 | 394 | [Decode String 字符串解码](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/394-DecodeString.js) | Medium | |
+| 395 | [Longest Substring with At Least K Repeating Characters 至少有 K 个充数字符的最长子串](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/395-LongestSubstringwithAtLeastKRepeatingCharacters.js) | Medium | 分治|
 | 399 | [Evaluate Division 除法求值](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/399-EvaluateDivision.js) | Medium | 图、DFS|
 | 400 | [Find Nth Digit 第 N 个数字](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/400-FindNthDigit.md) | Medium | |
 | 405 | [Convert a Number to Hexadecimal 转 16 进制](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/405-ToHex.js) | Easy | |
+| 406 | [Queue Reconstruction by Height 根据身高重建队列](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/406-QueueReconstructionbyHeight.js) | Medium | 数组|
 | 409 | [Longest Palindrome 最长回文串](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/409-LongestPalindrome.md) | Easy | |
+| 412 | [Fizz Buzz Fizz Buzz](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/412-FizzBuzz.js) | Easy | 字符串|
 | 414 | [Third Maximum Number 第三大的数](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/414-thirdMax.js) | Easy | |
+| 415 | [Add Strings 字符串相加](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/415-AddStrings.js) | Easy | 模拟|
+| 416 | [Partition Equal Subset Sum 分割等和子集](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/416-PartitionEqualSubsetSum.js) | Medium | 动态规划|
 | 435 | [Non-overlapping Intervals 无重叠区间](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/435-Non-overlappingIntervals.js) | Medium | 区间集合|
 | 437 | [Path Sum III 路径总和 III](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/437-PathSumIII.js) | Medium | 二叉树、DFS|
 | 438 | [Find All Anagrams in a String 找到字符串中所有字母异位词](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/438-FindAllAnagramsinaString.js) | Medium | 滑动窗口|
+| 440 | [Kth Smallest in Lexicographical Order 字典序的第 K 小数字](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Hard/440-KthSmallestinLexicographicalOrder.js) | Hard | 字典树|
+| 441 | [Arranging Coins 排列硬币](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/441-ArrangingCoins.js) | Easy | 二分查找|
+| 442 | [Find All Duplicates in an Array 数组中重复的数据](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/442-FindAllDuplicatesinanArray.js) | Medium | 数组|
 | 443 | [String Compression 压缩字符串](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/443-StringCompression.js) | Medium | 字符串、双指针|
+| 447 | [Number of Boomerangs 回旋镖的数量](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/447-NumberofBoomerangs.js) | Medium | 哈希表|
 | 448 | [Find All Numbers Disappeared in an Array 找到所有数组中消失的数字](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/448-FindAllNumbersDisappearedinanArray.md) | Easy | |
 | 450 | [Delete Node in a BST 删除二叉搜索树中的节点](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/450-DeleteNodeinaBST.js) | Medium | 二叉搜索树|
 | 452 | [Minimum Number of Arrows to Burst Balloons 用最少数量的箭引爆气球](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/452-MinimumNumberofArrowstoBurstBalloons.js) | Medium | 区间集合|
+| 454 | [4Sum II 四数相加 II](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/454-4SumII.js) | Medium | 哈希表|
 | 455 | [Assign Cookies 分发饼干](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/455-AssignCookies.md) | Easy | |
+| 456 | [132 Pattern 132 模式](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/456-132Pattern.js) | Medium | 枚举|
 | 458 | [Poor Pigs 可怜的小猪](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Hard/458-PoorPigs.js) | Hard | |
 | 459 | [Repeated Substring Pattern 重复的子字符串](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/459-RepeatedSubstringPattern.md) | Easy | |
+| 461 | [Hamming Distance 汉明距离](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/461-HammingDistance.js) | Easy | 位运算|
+| 462 | [Minimum Move to Equal Array Elements II 最小操作次数是数组元素相等II](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/462-MinimumMovetoEqualArrayElementsII.js) | Medium | 排序|
+| 463 | [Island Perimeter 岛屿的周长](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/463-IslandPerimeter.js) | Easy | DFS|
 | 464 | [Can I Win 我能赢吗](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/464-CanIWin.js) | Easy | |
 | 485 | [Find Max Consecutive Ones 最大连续 1 的个数](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/485-findMaxConsecutiveOnes.js) | Easy | |
+| 486 | [Predict the Winner 预测赢家](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/486-PredicttheWinner.js) | Medium | 动态规划|
+| 491 | [Non- decreasing Subsequence 递增子序列](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/491-Non-decreasingSubsequence.js) | Medium | DFS|
 | 494 | [Target Sum 目标和](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/494-TargetSum.js) | Medium | 回溯|
-| 496 | [Next Greater Element I 下一个更大元素 I](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/496-NextGreaterElementI.js) | Easy | 哈希|
+| 496 | [Next Greater Element I 下一个更大元素 I](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/496-NextGreaterElementI.js) | Easy | 哈希表|
 | 509 | [Fibonacci 斐波那契数](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/509-Fibonacci.js) | Easy | |
 | 519 | [Random Flip Matrix 随机翻转矩阵](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/519-RandomFlipMatrix.js) | Medium | 数组|
 | 529 | [Minesweeper 扫雷游戏](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/529-Minesweeper.js) | Medium | |
@@ -313,11 +338,13 @@ pie title 已完成的题目
 | 724 | [Find Pivot Index 寻找数组的中心索引](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/724-FindPivotIndex.js) | Easy | |
 | 735 | [Asteroid Collision 小行星碰撞](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/735-AsteroidCollision.js) | Medium | 栈|
 | 738 | [Monotone Increasing Digits 单调递增的数字](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/738-MonotoneIncreasingDigits.js) | Medium | 贪心|
+| 739 | [Daily Temperatures 每日温度](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/739-DailyTemperatures.js) | Medium | 单调栈|
 | 746 | [Min Cost Climbing Stairs 使用最小花费爬楼梯](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/746-MinCostClimbingStairs.md) | Easy | |
 | 747 | [Largest Number At Least Twice of Others 至少是其他数字两倍的最大数](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/747-dominantIndex.js) | Easy | |
 | 763 | [Partition Labels 划分字母区间](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/763-PartitionLabels.js) | Medium | 贪心|
 | 778 | [Swim In Rising Water 水位上升的泳池中游泳](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Hard/778-SwimInRisingWater.js) | Hard | |
 | 784 | [Letter Case Permutation 字母大小写全排列](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/784-LetterCasePermutation.js) | Medium | |
+| 790 | [Domino and Tromino Tiling 多米诺和托米诺平铺](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/790-DominoandTrominoTiling.js) | Medium | 一维动态规划|
 | 814 | [Binary Tree Pruning 二叉树剪枝](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/814-BinaryTreePruning.js) | Medium | |
 | 841 | [Keys and Rooms 钥匙和房间](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/841-KeysandRooms.js) | Medium | DFS|
 | 844 | [Backspace Sting Compare 比较含退格的字符串](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/844-BackspaceStingCompare.js) | Easy | 双指针|
@@ -325,6 +352,9 @@ pie title 已完成的题目
 | 860 | [Lemonade Change 柠檬水找零](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/860-LemonadeChange.js) | Easy | 贪心|
 | 864 | [Shortest Path to Get All Keys 获取所有钥匙的最短路径](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Hard/864-ShortestPathtoGetAllKeys.js) | Hard | BFS|
 | 867 | [Transpose Matrix 转置矩阵](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/867-TransposeMatrix.js) | Easy | 模拟|
+| 872 | [Leaf-Similar Tree 叶子相似的树](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/872-Leaf-SimilarTree.js) | Easy | 二叉树、DFS|
+| 875 | [Koko Eating Banana 爱吃香蕉的珂珂](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/875-KokoEatingBanana.js) | Medium | 二分查找|
+| 901 | [Online Stock Span 股票价格跨度](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/901-OnlineStockSpan.js) | Medium | 单调栈|
 | 905 | [Sort Array By Parity 按奇偶排序数组](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/905-sortArrayByParity.js) | Easy | |
 | 929 | [Num Unique Emails 独特的电子邮件地址](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/929-numUniqueEmails.js) | Easy | |
 | 933 | [Number of Recent Calls 最近的请求次数](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/933-NumberofRecentCalls.md) | Easy | |
@@ -347,33 +377,57 @@ pie title 已完成的题目
 | 1128 | [Number of Equivalent Domino Pairs 等价多米诺骨牌对的数量](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/1128-NumberofEquivalentDominoPairs.js) | Easy | 数组|
 | 1137 | [N-th Tribonacci Number 第 N 个泰波那契数](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/1137-N-thTribonacciNumber.md) | Easy | |
 | 1143 | [Longest Common Subsequence 最长公共子序列](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/1143-LongestCommonSubsequence.js) | Medium | |
+| 1161 | [Maximum Level Sum of a Binary Tree 最大层内元素和](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/1161-MaximumLevelSumofaBinaryTree.js) | Medium | 二叉树、BFS|
 | 1200 | [Minimum Abs Difference 最小绝对差](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/1200-MinimumAbsDifference.js) | Easy | |
-| 1207 | [Unique Number of Occurrences 独一无二的出现次数](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/1207-UniqueNumberofOccurrences.js) | Easy | 哈希|
+| 1207 | [Unique Number of Occurrences 独一无二的出现次数](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/1207-UniqueNumberofOccurrences.js) | Easy | 哈希表|
 | 1217 | [Minimum Cost to Move Chips to The Same Position 玩筹码](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/1217-MinimumCosttoMoveChipstoTheSamePosition.js) | Easy | |
 | 1260 | [Shift 2D Grid 二维网格迁移](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/1260-Shift2DGrid.js) | Easy | |
+| 1268 | [Search Suggestion System 搜索推荐系统](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/1268-SearchSuggestionSystem.js) | Medium | 前缀树|
 | 1289 | [Minimum Falling Path Sum II 下降路径最小和 II](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Hard/1289-MinimumFallingPathSumII.js) | Hard | |
+| 1318 | [Minimum Flips to Make a OR b Equal to c 或运算的最小翻转次数](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/1318-MinimumFlipstoMakeaORbEqualtoc.js) | Medium | 位运算|
 | 1356 | [Sort Integers by The Number of 1 Bits 根据数字二进制下1的数目排序](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/1356-SortIntegersbyTheNumberof1Bits.js) | Easy | 位运算|
 | 1365 | [How Many Numbers Are Smaller Than the Current Number 有多少小于当前数字的数字](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/1365-HowManyNumbersAreSmallerThantheCurrentNumber.js) | Easy | |
 | 1370 | [Increasing Decreasing String 上升下降字符串](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/1370-IncreasingDecreasingString.js) | Easy | 桶计数|
+| 1372 | [Longest ZigZag Path in a Binary Tree 二叉树中的最长交错路径](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/1372-LongestZigZagPathinaBinaryTree.js) | Medium | 二叉树、DFS|
 | 1388 | [Pizza With 3n Slices 3n 块披萨](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Hard/1388-PizzaWith3nSlices.js) | Hard | |
 | 1403 | [Minimum Subsequence in Non-Increasing Order 非递增顺序的最小子序列](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/1403-MinimumSubsequenceinNon-IncreasingOrder.js) | Easy | 贪心|
 | 1413 | [Minimum Value to Get Positive Step by Step Sum 逐步求和得到正数的最小值](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/1413-MinimumValuetoGetPositiveStepbyStepSum.js) | Easy | |
 | 1431 | [Kids With the Greatest Number of Candies 拥有最多糖果的孩子](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/1431-KidsWiththeGreatestNumberofCandies.md) | Easy | |
 | 1446 | [Consecutive Characters 连续字符](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/1446-ConsecutiveCharacters.js) | Easy | 数组|
+| 1448 | [Count Good Nodes in Binary Tree 统计二叉树中好节点的数目](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/1448-CountGoodNodesinBinaryTree.js) | Medium | 二叉树、DFS|
+| 1451 | [Rearrange Words in a Sentence 重新排列句子中的单词](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/1451-RearrangeWordsinaSentence.js) | Medium | 字符串|
+| 1456 | [Maximum Number of Vowels in a Substring of Given Length 定长子串中元音的最大数目](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/1456-MaximumNumberofVowelsinaSubstringofGivenLength.js) | Medium | 滑动窗口|
+| 1466 | [Reorder Routes to Make All Paths Lead to the City Zero 重新规划路线](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/1466-ReorderRoutestoMakeAllPathsLeadtotheCityZero.js) | Medium | 图、DFS|
+| 1470 | [Shuffle the Array 重新排列数组](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/1470-ShuffletheArray.js) | Easy | 数组|
+| 1493 | [Longest Subarray of 1’s After Deleting One Element 删掉一个元素以后全为1的最长子数组](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/1493-LongestSubarrayof1’sAfterDeletingOneElement.js) | Medium | 滑动窗口|
 | 1518 | [Water Bottles 换水问题](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/1518-WaterBottles.js) | Easy | 数学方法|
 | 1528 | [Shuffle String 重新排列字符串](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/1528-ShuffleString.js) | Easy | 数组|
 | 1572 | [Matrix Diagonal Sum 矩阵对角线的元素和](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/1572-MatrixDiagonalSum.js) | Easy | |
 | 1576 | [Replace All ?‘s to Avoid Consecutive Repeating Characters 替换所有的问号](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/1576-ReplaceAll?‘stoAvoidConsecutiveRepeatingCharacters.js) | Easy | 数组|
 | 1640 | [Check Array Formation Through Concatenation 能否连接成数组](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/1640-CheckArrayFormationThrouthConcatenation.js) | Easy | |
-| 1726 | [Tuple with Same Product 同积元组](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/1726-TuplewithSameProduct.js) | Medium | 哈希|
+| 1657 | [Determine if Two Strings Are Close 确定两个字符串是否接近](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/1657-DetermineifTwoStringsAreClose.js) | Medium | 哈希表|
+| 1679 | [Max Number of K-Sum Pairs K 和数对的最大数目](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/1679-MaxNumberofK-SumPairs.js) | Medium | 双指针|
+| 1726 | [Tuple with Same Product 同积元组](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/1726-TuplewithSameProduct.js) | Medium | 哈希表|
+| 1732 | [Find the Highest Altitude 找到最高海拔](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/1732-FindtheHighestAltitude.js) | Easy | 前缀和|
+| 1768 | [Merge String Alternatively 交替合并字符串](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/1768-MergeStringAlternatively.js) | Easy | 字符串|
 | 1823 | [Find The Winner 找出游戏的获胜者](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/1823-FindTheWinner.js) | Medium | |
+| 1926 | [Nearest Exit from Entrance in Maze 迷宫中离入口最近的出口](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/1926-NearestExitfromEntranceinMaze.js) | Medium | 图、BFS|
 | 1945 | [Sum of Digits of String After Convert 字符串转化后的各位数字之和](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/1945-SumofDigitsofStringAfterConvert.md) | Easy | |
 | 2028 | [Find Missing Observations 找出缺失的观测数据](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/2028-FindMissingObservations.js) | Medium | 数学方法|
 | 2038 | [Remove Colored Pieces if Both Neighbors are the Same Color 如果相邻两个颜色均相同则删除当前颜色](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/2038-RemoveColoredPiecesifBothNeighborsaretheSameColor.md) | Medium | |
+| 2095 | [Delete the Middle Node of a Linked List 删除链表的中间节点](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/2095-DeletetheMiddleNodeofaLinkedList.js) | Medium | 链表|
+| 2130 | [Maximum Twin Sum of a Linked List 链表最大孪生和](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/2130-MaximumTwinSumofaLinkedList.js) | Medium | 链表|
+| 2215 | [Find the Difference of Two Arrays 找出两数组的不同](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/2215-FindtheDifferenceofTwoArrays.js) | Easy | 哈希表|
+| 2300 | [Successful Pairs of Spells and Potions 咒语和药水的成功对数](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/2300-SuccessfulPairsofSpellsandPotions.js) | Medium | 二分查找|
+| 2336 | [Smallest Number in infinite Set 无限集中的最小数字](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/2336-SmallestNumberininfiniteSet.js) | Medium | 优先队列|
+| 2352 | [Equal Row and Column Pairs 相等行列对](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/2352-EqualRowandColumnPairs.js) | Medium | 哈希表|
+| 2390 | [Removing Stars From a String 从字符串中移除星号](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/2390-RemovingStarsFromaString.js) | Medium | 栈|
+| 2462 | [Total Cost to Hire K Workers 雇佣 K 位工人的总代价](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/2462-TotalCosttoHireKWorkers.js) | Medium | 优先队列|
 | 2512 | [Reward Top K Students 奖励最顶尖的 K 名学生](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/2512-RewardTopKStudents.js) | Medium | |
 | 2530 | [Maximal Score After Applying K Operations 执行 K 次操作后的最大分数](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/2530-MaximalScoreAfterApplyingKOperations.js) | Medium | 贪心、优先队列|
+| 2542 | [Maximum Subsequence Score 最大子序列的分数](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/2542-MaximumSubsequenceScore.js) | Medium | 优先队列|
 | 2578 | [Split With Minimum Sum 最小和分割](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/2578-SplitWithMinimumSum.js) | Easy | 贪心|
-| 2652 | [Sum Multiples 倍数求和](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/2652-SumMultiples.md) | Easy | 哈希|
+| 2652 | [Sum Multiples 倍数求和](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/2652-SumMultiples.md) | Easy | 哈希表|
 | 2731 | [Movement of Robots 移动机器人](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/2731-MovementofRobots.js) | Medium | 脑筋急转弯|
 
 **剑指offer**
