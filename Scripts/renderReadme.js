@@ -91,7 +91,7 @@ const tableBody = sortTable.map((item) => {
     flag === 'md' ? 'Thinkings' : 'Solutions'
   }/${difficulty}/${name}) | ${nameMap[index]?.difficulty || difficulty} | ${
     nameMap[index]?.label || ''
-  }|`;
+  } |`;
 });
 
 const tableBody2 = offerTable.map((item) => {

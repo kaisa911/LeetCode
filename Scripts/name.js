@@ -3,7 +3,7 @@ const nameMap = {
     cnName: '两数之和',
     enName: 'Two Sum',
     difficulty: 'Easy',
-    label: '哈希表',
+    label: '哈希',
   },
   2: {
     cnName: '两数相加',
@@ -291,7 +291,7 @@ const nameMap = {
     cnName: '字母异位词分组',
     enName: 'Group Anagrams',
     difficulty: 'Medium',
-    label: '哈希表',
+    label: '哈希',
   },
   50: {
     cnName: 'Pow(x, n)',
@@ -411,13 +411,13 @@ const nameMap = {
     cnName: 'x 的平方根',
     enName: 'Sqrt(x)',
     difficulty: 'Easy',
-    label: '',
+    label: '二分法',
   },
   70: {
     cnName: '爬楼梯',
     enName: 'Climbing Stairs',
     difficulty: 'Easy',
-    label: '',
+    label: '动态规划',
   },
   71: {
     cnName: '简化路径',
@@ -495,7 +495,7 @@ const nameMap = {
     cnName: '删除排序链表中的重复元素',
     enName: 'Remove Duplicates from Sorted List',
     difficulty: 'Easy',
-    label: '',
+    label: '链表',
   },
   84: {
     cnName: '柱状图中最大的矩形',
@@ -741,7 +741,7 @@ const nameMap = {
     cnName: '最长连续序列',
     enName: 'Longest Consecutive Sequence',
     difficulty: 'Medium',
-    label: '哈希表',
+    label: '哈希',
   },
   129: {
     cnName: '求根到叶子节点数字之和',
@@ -855,7 +855,7 @@ const nameMap = {
     cnName: '直线上最多的点',
     enName: 'Max Points on a Line',
     difficulty: 'Hard',
-    label: '哈希表',
+    label: '哈希',
   },
   150: {
     cnName: '逆波兰表达式求值',
@@ -1443,13 +1443,13 @@ const nameMap = {
     cnName: 'O(1)时间插入删除和获取随机元素',
     enName: 'Insert Delete GetRandom O1',
     difficulty: 'Medium',
-    label: '哈希表',
+    label: '哈希',
   },
   381: {
     cnName: 'O(1)时间插入删除和获取随机元素-允许重复',
     enName: 'Insert Delete GetRandom O(1) - Duplicates allowed',
     difficulty: 'Hard',
-    label: '哈希表',
+    label: '哈希',
   },
   383: {
     cnName: '赎金信',
@@ -1593,7 +1593,7 @@ const nameMap = {
     cnName: '回旋镖的数量',
     enName: 'Number of Boomerangs',
     difficulty: 'Medium',
-    label: '哈希表',
+    label: '哈希',
   },
   448: {
     cnName: '找到所有数组中消失的数字',
@@ -1617,7 +1617,7 @@ const nameMap = {
     cnName: '四数相加 II',
     enName: '4Sum II',
     difficulty: 'Medium',
-    label: '哈希表',
+    label: '哈希',
   },
   455: {
     cnName: '分发饼干',
@@ -1695,7 +1695,7 @@ const nameMap = {
     cnName: '下一个更大元素 I',
     enName: 'Next Greater Element I',
     difficulty: 'Easy',
-    label: '哈希表',
+    label: '哈希',
   },
   509: {
     cnName: '斐波那契数',
@@ -2181,7 +2181,7 @@ const nameMap = {
     cnName: '独一无二的出现次数',
     enName: 'Unique Number of Occurrences',
     difficulty: 'Easy',
-    label: '哈希表',
+    label: '哈希',
   },
   1217: {
     cnName: '玩筹码',
@@ -2337,7 +2337,7 @@ const nameMap = {
     cnName: '确定两个字符串是否接近',
     enName: 'Determine if Two Strings Are Close',
     difficulty: 'Medium',
-    label: '哈希表',
+    label: '哈希',
   },
   1679: {
     cnName: 'K 和数对的最大数目',
@@ -2349,7 +2349,7 @@ const nameMap = {
     cnName: '同积元组',
     enName: 'Tuple with Same Product',
     difficulty: 'Medium',
-    label: '哈希表',
+    label: '哈希',
   },
   1732: {
     cnName: '找到最高海拔',
@@ -2409,7 +2409,7 @@ const nameMap = {
     cnName: '找出两数组的不同',
     enName: 'Find the Difference of Two Arrays',
     difficulty: 'Easy',
-    label: '哈希表',
+    label: '哈希',
   },
   2300: {
     cnName: '咒语和药水的成功对数',
@@ -2427,7 +2427,7 @@ const nameMap = {
     cnName: '相等行列对',
     enName: 'Equal Row and Column Pairs',
     difficulty: 'Medium',
-    label: '哈希表',
+    label: '哈希',
   },
   2390: {
     cnName: '从字符串中移除星号',
@@ -2469,13 +2469,19 @@ const nameMap = {
     cnName: '倍数求和',
     enName: 'Sum Multiples',
     difficulty: 'Easy',
-    label: '哈希表',
+    label: '哈希',
   },
   2731: {
     cnName: '移动机器人',
     enName: 'Movement of Robots',
     difficulty: 'Medium',
     label: '脑筋急转弯',
+  },
+  2760: {
+    cnName: '最长奇偶子数组',
+    enName: 'Longest Even Odd Subarray With Threshold',
+    difficulty: 'Easy',
+    label: '动态规划',
   },
 };
 
