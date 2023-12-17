@@ -1941,7 +1941,7 @@ const nameMap = {
     cnName: '使用最小花费爬楼梯',
     enName: 'Min Cost Climbing Stairs',
     difficulty: 'Easy',
-    label: '',
+    label: '动态规划',
   },
   747: {
     cnName: '至少是其他数字两倍的最大数',
@@ -2470,6 +2470,12 @@ const nameMap = {
     enName: 'Sum Multiples',
     difficulty: 'Easy',
     label: '哈希',
+  },
+  2697: {
+    cnName: '字典序最小回文串',
+    enName: 'Lexicographically Smallest Palindrome',
+    difficulty: 'Easy',
+    label: '双指针',
   },
   2731: {
     cnName: '移动机器人',
