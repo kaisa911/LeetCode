@@ -2,15 +2,12 @@
  * @param {number} numRows
  * @return {number[][]}
  */
-const generate = numRows => {
-  let res = [];
+const generate = (numRows) => {
+  const res = [];
   for (let i = 0; i < numRows; i++) {
-    let e = [];
+    const e = [];
     for (let j = 0; j <= i; j++) {
-      if (i === j) {
-        e.push(1);
-      }
-      e.push(j === 0 ? res[i - 1][j] : res[i - 1][j - 1] + res[i - 1][j]);
+      e.push(j === 0 || i === j ? res[i - 1][0] : res[i - 1][j - 1] + res[i - 1][j]);
     }
     res.push(e);
   }
