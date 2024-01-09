@@ -47,7 +47,7 @@ function myPow(x: number, n: number): number {
   while (n) {
     if (n & 1) res *= x;
     x *= x;
-    n /= 2;
+    n >>> 1 ;
   }
   return t > 0 ? res : 1.0 / res;
 }
