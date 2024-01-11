@@ -228,3 +228,112 @@ const printNumbers = (n) => {
   }
   return res;
 };
+// 18
+const deleteNode = (head, val) => {
+  if (!head) return null;
+  if (head.val === val) return head.next;
+
+  const res = head;
+  while (head && head.val) {
+    if (head.val !== val) {
+      head = head.next;
+    } else {
+      head = head.next.next;
+    }
+  }
+  return res;
+};
+// 20
+const isNumber = (s) => {
+  let i,
+    len,
+    numFlag = false,
+    dotFlag = false,
+    eFlag = false;
+  s = s.trim(); // 去掉首尾空格
+  len = s.length; // 去掉后再重新计算长度
+  for (i = 0; i < len; i++) {
+    // 如果是数字，那么直接将 numFlag 变为 true 即可
+    if (s[i] >= '0' && s[i] <= '9') {
+      numFlag = true;
+    } else if (s[i] === '.' && !dotFlag && !eFlag) {
+      // 如果是 .  那必须前面还出现过 .  且前面没出现过 e/E，因为如果前面出现过 e/E 再出现. 说明 e/E 后面跟着小数，不符合题意
+      dotFlag = true;
+    } else if ((s[i] === 'e' || s[i] === 'E') && !eFlag && numFlag) {
+      // 如果是 e 或 E，那必须前面没出现过 e/E，且前面出现过数字
+      eFlag = true;
+      numFlag = false; // 这一步很重要，将是否出现过数字的 Flag 置为 false，防止出现 123E 这种情况，即出现 e/E 后，后面没数字了
+    } else if ((s[i] === '+' || s[i] === '-') && (i === 0 || s[i - 1] === 'e' || s[i - 1] === 'E')) {
+      // 如果是 +/- 那必须是在第一位，或是在 e/E 的后面
+    } else {
+      // 上面情况都不满足，直接返回 false 即可，提前剪枝
+      return false;
+    }
+  }
+  return numFlag;
+};
+
+// 21
+const exchange = (nums) => {
+  let left = 0,
+    right = nums.length - 1;
+
+  while (left < right) {
+    while (left < right && nums[left] % 2 === 1) {
+      left += 1;
+    }
+    while (right > left && nums[right] % 2 === 0) {
+      right -= 1;
+    }
+    [nums[left], nums[right]] = [nums[right], nums[left]];
+  }
+  return nums;
+};
+// 22
+const getKthFromEnd = (head, k) => {
+  const origin = head;
+  while (k > 0) {
+    head = head.next;
+    k -= 1;
+  }
+  while (head) {
+    head = head.next;
+    origin = origin.next;
+  }
+  return origin;
+};
+// 24
+const reverseList = (head) => {
+  let pre = null,
+    cur = head,
+    next = null;
+
+  while (cur) {
+    next = cur.next;
+    cur.next = pre;
+    pre = cur;
+    cur = next;
+  }
+};
+// 25
+const mergeTwoLists = (l1, l2) => {
+  if (!l1 && !l2) return null;
+  if (!l1 && l2) return l2;
+  if (!l2 && l1) return l1;
+
+  let res = new ListNode(-1);
+  let cur = res.next;
+
+  while (l1 && l2) {
+    if (l1.val >= l2.val) {
+      cur.val = l1.val;
+      l1 = l1.next;
+    } else {
+      cur.val = l2.val;
+      l2 = l2.next;
+    }
+    cur = cur.next;
+  }
+  cur.next = l1 === null ? l2 : l1;
+  return res.next;
+};
