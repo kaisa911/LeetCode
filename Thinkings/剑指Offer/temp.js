@@ -337,3 +337,77 @@ const mergeTwoLists = (l1, l2) => {
   cur.next = l1 === null ? l2 : l1;
   return res.next;
 };
+// 26
+const isSubStructure = (A, B) => {
+  if (!A || !B) return false;
+  const dfs = (A, B) => {
+    if (!B) return true;
+    if (!A) return false;
+    return A.val === B.val && dfs(A.left, B.left) && dfs(A.right, B.right);
+  };
+  return dfs(A, B) || isSubStructure(A.left, B) || isSubStructure(A.right, B);
+};
+// 27
+const mirrorTree = (root) => {
+  if (!node) return null;
+  const tempNode = root.left;
+  root.left = mirrorTree(root.right);
+  root.right = mirrorTree(tempNode);
+  return root;
+};
+// 28
+const isSymmetric = (root) => {
+  if (root === null) return true;
+  const helper = (a, b) => {
+    if (a === null || b === null) return a === b;
+    if (a.val !== b.val) return false;
+    return helper(a.left, b.right) && helper(a.right, b.left);
+  };
+
+  return helper(root.left, root.right);
+};
+// 29
+const spiralOrder = (matrix) => {
+  if (!matrix.length || !matrix[0].length) return [];
+  const res = [];
+  const rows = matrix.length;
+  const cols = matrix[0].length;
+  const sum = rows * cols - 1;
+  let left = 0,
+    right = cols - 1,
+    top = 0,
+    bottom = rows - 1;
+
+  while (res.length < sum) {
+    for (let col = 0; col <= right; col++) {
+      res.push(matrix[top][col]);
+    }
+    for (let row = top + 1; row <= bottom; row++) {
+      res.push(matrix[right][row]);
+    }
+
+    if (left < right && top < bottom) {
+      for (let col = right - 1; col >= left; col--) {
+        res.push(matrix[bottom][col]);
+      }
+      for (let row = bottom; row > top; row--) {
+        res.push(matrix[left][row]);
+      }
+    }
+    [left, right, top, bottom] = [left + 1, right - 1, top + 1, bottom - 1];
+  }
+  return res;
+};
+// 31
+const validateStackSequences = (pushed, popped) => {
+  const stack = [];
+  const n = pushed.length;
+  for (let i = 0, j = 0; i < n; i++) {
+    stack.push(pushed[i]);
+    while (stack.length && stack[stack.length - 1] === popped[j]) {
+      stack.pop();
+      j++;
+    }
+  }
+  return stack.length === 0;
+};
