@@ -411,3 +411,68 @@ const validateStackSequences = (pushed, popped) => {
   }
   return stack.length === 0;
 };
+// 32
+const levelOrder = (root) => {
+  const res = [];
+  if (!root) return res;
+  const queue = [root];
+  while (queue.length) {
+    const node = queue.shift();
+    res.push(node.val);
+    node.left ? queue.push(node.left) : undefined;
+    node.right ? queue.push(node.right) : undefined;
+  }
+  return res;
+};
+// 33
+const verifyPostorder = (postorder) => {
+  if (postorder.length <= 2) return true;
+  const length = postorder.length - 1;
+  const mid = postorder[length];
+  const index = postorder.findIndex((item) => item > mid);
+  const left = postorder.slice(0, index);
+  const right = postorder.slice(index);
+  if (!right.every((value) => value >= mid)) {
+    return false;
+  }
+  return verifyPostorder(left) && verifyPostorder(right);
+};
+// 34
+const pathSum = (root, sum) => {
+  const stack = [];
+  const res = [];
+  const dfs = (node) => {
+    if (!root) return;
+    stack.push(root.val);
+    if (!root.left && !root.right) {
+      const pathSum = stack.reduce((a, b) => a + b, 0);
+      if (pathSum === sum) {
+        result.push([...stack]);
+      }
+      return;
+    }
+    dfs(root.left);
+    if (root.left) {
+      stack.pop();
+    }
+    dfs(root.right);
+    if (root.right) {
+      stack.pop();
+    }
+  };
+  dfs(root);
+  return res;
+};
+// 35
+const copyRandomList = (head, memo = new Map()) => {
+  if (!head) return null;
+  if (memo.has(head)) return memo.get(head);
+
+  const node = new Node(head.val);
+  memo.set(head, node);
+
+  node.next = copyRandomList(head.next, memo);
+  node.random = copyRandomList(head.random, memo);
+
+  return node;
+};
