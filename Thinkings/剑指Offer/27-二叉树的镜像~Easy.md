@@ -4,14 +4,14 @@
 
 例如输入：
 
-4
+     4
    /   \
   2     7
  / \   / \
 1   3 6   9
 镜像输出：
 
-4
+     4
    /   \
   7     2
  / \   / \
@@ -53,7 +53,7 @@
  */
 
 function mirrorTree(root: TreeNode | null): TreeNode | null {
-  if (root == null) return null;
+  if (root === null) return null;
   let tmpNode: TreeNode | null = root.left;
   root.left = mirrorTree(root.right);
   root.right = mirrorTree(tmpNode);
