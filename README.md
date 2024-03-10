@@ -428,7 +428,7 @@ pie title 已完成的题目
 | 2542 | [Maximum Subsequence Score 最大子序列的分数](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/2542-MaximumSubsequenceScore.js) | Medium | 优先队列 |
 | 2578 | [Split With Minimum Sum 最小和分割](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/2578-SplitWithMinimumSum.js) | Easy | 贪心 |
 | 2652 | [Sum Multiples 倍数求和](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/2652-SumMultiples.md) | Easy | 哈希 |
-| 2697 | [Lexicographically Smallest Palindrome 字典序最小回文串](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/2697-LexicographicallySmallestPalindrome.js) | Easy | 双指针 |
+| 2697 | [Lexicographically Smallest Palindrome 字典序最小回文串](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/2697-LexicographicallySmallestPalindrome.md) | Easy | 双指针 |
 | 2731 | [Movement of Robots 移动机器人](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/2731-MovementofRobots.js) | Medium | 脑筋急转弯 |
 | 2760 | [Longest Even Odd Subarray With Threshold 最长奇偶子数组](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/2760-LongestEvenOddSubarrayWithThreshold.md) | Easy | 动态规划 |
 

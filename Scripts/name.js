@@ -2888,7 +2888,7 @@ const nameMap = {
     enName: 'Lexicographically Smallest Palindrome',
     difficulty: 'Easy',
     label: '双指针',
-    hasThinkings: 'false',
+    hasThinkings: 'true',
   },
   2731: {
     cnName: '移动机器人',
