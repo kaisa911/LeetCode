@@ -3,12 +3,12 @@
 
 some exercises of leetcode
 
-- Leetcode: 简单: 166, 中等: 201, 困难: 47, 剑指Offer: 73,
-- 总计：487
+- Leetcode: 简单: 167, 中等: 201, 困难: 47, 剑指Offer: 73,
+- 总计：488
 
 ```mermaid
 pie title 已完成的题目
-    "简单" : 166
+    "简单" : 167
     "中等" : 201
     "困难" : 47
     "剑指Offer" : 73
@@ -339,7 +339,7 @@ pie title 已完成的题目
 | 735 | [Asteroid Collision 小行星碰撞](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/735-AsteroidCollision.js) | Medium | 栈 |
 | 738 | [Monotone Increasing Digits 单调递增的数字](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/738-MonotoneIncreasingDigits.js) | Medium | 贪心 |
 | 739 | [Daily Temperatures 每日温度](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/739-DailyTemperatures.js) | Medium | 单调栈 |
-| 746 | [Min Cost Climbing Stairs 使用最小花费爬楼梯](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/746-MinCostClimbingStairs.md) | Easy |  |
+| 746 | [Min Cost Climbing Stairs 使用最小花费爬楼梯](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/746-MinCostClimbingStairs.md) | Easy | 动态规划 |
 | 747 | [Largest Number At Least Twice of Others 至少是其他数字两倍的最大数](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/747-dominantIndex.js) | Easy |  |
 | 763 | [Partition Labels 划分字母区间](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/763-PartitionLabels.js) | Medium | 贪心 |
 | 778 | [Swim In Rising Water 水位上升的泳池中游泳](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Hard/778-SwimInRisingWater.js) | Hard |  |
@@ -428,6 +428,7 @@ pie title 已完成的题目
 | 2542 | [Maximum Subsequence Score 最大子序列的分数](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/2542-MaximumSubsequenceScore.js) | Medium | 优先队列 |
 | 2578 | [Split With Minimum Sum 最小和分割](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/2578-SplitWithMinimumSum.js) | Easy | 贪心 |
 | 2652 | [Sum Multiples 倍数求和](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/2652-SumMultiples.md) | Easy | 哈希 |
+| 2697 | [Lexicographically Smallest Palindrome 字典序最小回文串](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/2697-LexicographicallySmallestPalindrome.js) | Easy | 双指针 |
 | 2731 | [Movement of Robots 移动机器人](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/2731-MovementofRobots.js) | Medium | 脑筋急转弯 |
 | 2760 | [Longest Even Odd Subarray With Threshold 最长奇偶子数组](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/2760-LongestEvenOddSubarrayWithThreshold.md) | Easy | 动态规划 |
 
