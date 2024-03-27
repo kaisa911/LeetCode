@@ -3,13 +3,13 @@
 
 some exercises of leetcode
 
-- Leetcode: 简单: 167, 中等: 201, 困难: 47, 剑指Offer: 73,
-- 总计：488
+- Leetcode: 简单: 165, 中等: 206, 困难: 47, 剑指Offer: 73,
+- 总计：491
 
 ```mermaid
 pie title 已完成的题目
-    "简单" : 167
-    "中等" : 201
+    "简单" : 165
+    "中等" : 206
     "困难" : 47
     "剑指Offer" : 73
 ```
@@ -22,7 +22,7 @@ pie title 已完成的题目
 | 4 | [Median of Two Sorted Arrays 两个排序数组的中位数](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Hard/4-MedianofTwoSortedArrays.md) | Hard | 数组 |
 | 5 | [Longest Palindromic Substring 最长回文子串](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/5-LongestPalindromicSubstring.md) | Medium | 双指针 |
 | 6 | [ZigZag Conversion Z 字形变换](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/6-ZigZagConversion.md) | Medium |  |
-| 7 | [Reverse Integer 翻转整数](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/7-ReverseInteger.md) | Easy |  |
+| 7 | [Reverse Integer 翻转整数](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/7-ReverseInteger.md) | Medium |  |
 | 8 | [String to Integer (atoi) 字符串转为整数](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/8-StringtoInteger(atoi).md) | Medium |  |
 | 9 | [Palindrome Number 回文数字](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/9-PalindromeNumber.md) | Easy |  |
 | 10 | [Regular Expression Matching 正则表达式匹配](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Hard/10-RegularExpressionMatching.md) | Hard |  |
@@ -49,23 +49,23 @@ pie title 已完成的题目
 | 31 | [Next-permutation 下一个排列](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/31-Next-permutation.md) | Medium |  |
 | 32 | [Longest Valid Parentheses 最长有效括号](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Hard/32-LongestValidParentheses.md) | Hard |  |
 | 33 | [Search in Rotated Sorted Array 在旋转有序数组中搜索](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/33-SearchinRotatedSortedArray.md) | Medium |  |
-| 34 | [Search for a Range 搜索范围](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/34-SearchforaRange.js) | Medium |  |
+| 34 | [Search for a Range 搜索范围](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/34-SearchforaRange.md) | Medium |  |
 | 35 | [Search Insert Position 搜索插入位置](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/35-SearchInsertPosition.md) | Easy | 二分查找 |
-| 36 | [Valid Sudoku 验证数独](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/36-ValidSudoku.js) | Medium |  |
+| 36 | [Valid Sudoku 验证数独](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/36-ValidSudoku.md) | Medium |  |
 | 37 | [Sudoku Solver 解数独](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Hard/37-SudokuSolver.js) | Hard |  |
-| 38 | [Count and Say 数数并说](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/38-CountandSay.js) | Easy |  |
+| 38 | [Count and Say 数数并说](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/38-CountandSay.md) | Medium |  |
 | 39 | [Combination Sum 组合之和](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/39-CombinationSum.md) | Medium |  |
-| 40 | [Combination Sum II 组合之和 II](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/40-CombinationSumII.js) | Medium |  |
+| 40 | [Combination Sum II 组合之和 II](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/40-CombinationSumII.md) | Medium |  |
 | 41 | [First Missing Positive 缺失的第一个正数](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Hard/41-FirstMissingPositive.js) | Hard | 数组 |
 | 42 | [Trapping Rain Water 接雨水](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Hard/42-TrappingRainWater.js) | Hard | 双指针 |
-| 43 | [Multiply String 字符串相乘](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/43-MultiplyString.js) | Medium |  |
+| 43 | [Multiply String 字符串相乘](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/43-MultiplyString.md) | Medium |  |
 | 44 | [Wildcard Matching 通配符匹配](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Hard/44-WildcardMatching.js) | Hard |  |
-| 45 | [Jump Game II 跳跃游戏 II](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Hard/45-JumpGameII.js) | Hard |  |
+| 45 | [Jump Game II 跳跃游戏 II](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/45-JumpGameII.md) | Medium |  |
 | 46 | [Permutations 全排列](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/46-Permutations.md) | Medium |  |
-| 47 | [Permutations II 全排列 II](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/47-PermutationsII.js) | Medium |  |
-| 48 | [Rotate Image 旋转图像](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/48-RotateImage.js) | Medium |  |
-| 49 | [Group Anagrams 字母异位词分组](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/49-GroupAnagrams.js) | Medium | 哈希 |
-| 50 | [Pow(x, n) Pow(x, n)](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/50-Pow.js) | Medium |  |
+| 47 | [Permutations II 全排列 II](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/47-PermutationsII.md) | Medium |  |
+| 48 | [Rotate Image 旋转图像](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/48-RotateImage.md) | Medium |  |
+| 49 | [Group Anagrams 字母异位词分组](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/49-GroupAnagrams.md) | Medium | 哈希 |
+| 50 | [Pow(x, n) Pow(x, n)](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/50-Pow(x,n).md) | Medium |  |
 | 51 | [N-Queens N 皇后](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Hard/51-NQueens.js) | Hard |  |
 | 52 | [N-Queens II N 皇后 II](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Hard/52-NQueensII.js) | Hard |  |
 | 53 | [Maximum Subarray 最大子数组和](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/53-MaximumSubarray.js) | Medium | 数组 |
@@ -130,7 +130,9 @@ pie title 已完成的题目
 | 112 | [Path Sum 路径总和](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/112-PathSum.md) | Easy |  |
 | 113 | [Path Sum II 路径总和 II](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/113-PathSumII.js) | Medium |  |
 | 114 | [Flat Binary Tree to Linked List 二叉树展开为链表](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/114-FlatBinaryTreetoLinkedList.js) | Medium | 二叉树 |
+| 115 | [Distinct Subsequences 不同的子序列](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Hard/115-DistinctSubsequences.js) | Hard | 动态规划 |
 | 116 | [Populating Next Right Pointers in Each Node 填充每个节点的下一个右侧节点指针](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/116-PopulatingNextRightPointersinEachNode.js) | Medium | 层序遍历 |
+| 117 | [Populating Next Right Pointers in Each Node II 填充每个节点的下一个右侧节点指针 II](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/117-PopulatingNextRightPointersinEachNodeII.js) | Medium | 层次遍历 |
 | 118 | [Pascals Triangle 杨辉三角](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/118-PascalsTriangle.js) | Easy |  |
 | 119 | [Pascals Triangle II 杨辉三角 II](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/119-PascalsTriangleii.js) | Easy |  |
 | 120 | [Triangle 三角形最小路径和](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/120-Triangle.js) | Medium | 动态规划 |
@@ -300,6 +302,7 @@ pie title 已完成的题目
 | 494 | [Target Sum 目标和](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/494-TargetSum.js) | Medium | 回溯 |
 | 496 | [Next Greater Element I 下一个更大元素 I](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/496-NextGreaterElementI.js) | Easy | 哈希 |
 | 509 | [Fibonacci 斐波那契数](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/509-Fibonacci.js) | Easy |  |
+| 518 | [Coin Change II 零钱兑换 II](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/518-CoinChangeII.js) | Medium | 动态规划 |
 | 519 | [Random Flip Matrix 随机翻转矩阵](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/519-RandomFlipMatrix.js) | Medium | 数组 |
 | 529 | [Minesweeper 扫雷游戏](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/529-Minesweeper.js) | Medium |  |
 | 538 | [Convert BST to Greater Tree 把二叉搜索树转换为累加树](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/538-ConvertBSTtoGreaterTree.js) | Medium | 二叉树 |

@@ -44,7 +44,7 @@ const nameMap = {
   7: {
     cnName: '翻转整数',
     enName: 'Reverse Integer',
-    difficulty: 'Easy',
+    difficulty: 'Medium',
     label: '',
     hasThinkings: 'true',
   },
@@ -249,7 +249,7 @@ const nameMap = {
     enName: 'Valid Sudoku',
     difficulty: 'Medium',
     label: '',
-    hasThinkings: 'false',
+    hasThinkings: 'true',
   },
   37: {
     cnName: '解数独',
@@ -261,9 +261,9 @@ const nameMap = {
   38: {
     cnName: '数数并说',
     enName: 'Count and Say',
-    difficulty: 'Easy',
+    difficulty: 'Medium',
     label: '',
-    hasThinkings: 'false',
+    hasThinkings: 'true',
   },
   39: {
     cnName: '组合之和',
@@ -298,7 +298,7 @@ const nameMap = {
     enName: 'Multiply String',
     difficulty: 'Medium',
     label: '',
-    hasThinkings: 'false',
+    hasThinkings: 'true',
   },
   44: {
     cnName: '通配符匹配',
@@ -310,9 +310,9 @@ const nameMap = {
   45: {
     cnName: '跳跃游戏 II',
     enName: 'Jump Game II',
-    difficulty: 'Hard',
+    difficulty: 'Medium',
     label: '',
-    hasThinkings: 'false',
+    hasThinkings: 'true',
   },
   46: {
     cnName: '全排列',
@@ -333,21 +333,21 @@ const nameMap = {
     enName: 'Rotate Image',
     difficulty: 'Medium',
     label: '',
-    hasThinkings: 'false',
+    hasThinkings: 'true',
   },
   49: {
     cnName: '字母异位词分组',
     enName: 'Group Anagrams',
     difficulty: 'Medium',
     label: '哈希',
-    hasThinkings: 'false',
+    hasThinkings: 'true',
   },
   50: {
     cnName: 'Pow(x, n)',
     enName: 'Pow(x, n)',
     difficulty: 'Medium',
     label: '',
-    hasThinkings: 'false',
+    hasThinkings: 'true',
   },
   51: {
     cnName: 'N 皇后',
@@ -797,11 +797,25 @@ const nameMap = {
     label: '二叉树',
     hasThinkings: 'false',
   },
+  115: {
+    cnName: '不同的子序列',
+    enName: 'Distinct Subsequences',
+    difficulty: 'Hard',
+    label: '动态规划',
+    hasThinkings: 'false',
+  },
   116: {
     cnName: '填充每个节点的下一个右侧节点指针',
     enName: 'Populating Next Right Pointers in Each Node',
     difficulty: 'Medium',
     label: '层序遍历',
+    hasThinkings: 'false',
+  },
+  117: {
+    cnName: '填充每个节点的下一个右侧节点指针 II',
+    enName: 'Populating Next Right Pointers in Each Node II',
+    difficulty: 'Medium',
+    label: '层次遍历',
     hasThinkings: 'false',
   },
   118: {
@@ -1987,6 +2001,13 @@ const nameMap = {
     label: '',
     hasThinkings: 'false',
   },
+  518: {
+    cnName: '零钱兑换 II',
+    enName: 'Coin Change II',
+    difficulty: 'Medium',
+    label: '动态规划',
+    hasThinkings: 'false',
+  },
   519: {
     cnName: '随机翻转矩阵',
     enName: 'Random Flip Matrix',
@@ -2874,6 +2895,13 @@ const nameMap = {
     enName: 'Split With Minimum Sum',
     difficulty: 'Easy',
     label: '贪心',
+    hasThinkings: 'false',
+  },
+  2580: {
+    cnName: '统计将重叠区间合并成组的方案数',
+    enName: 'Count Ways to Group Overlapping Ranges',
+    difficulty: 'Medium',
+    label: '区间合并',
     hasThinkings: 'false',
   },
   2652: {
