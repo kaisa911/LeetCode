@@ -17,29 +17,49 @@
 
 **思路：**
 运用回溯思想：
-声明一个回溯方法，退出条件是左边的值大于右边的值，或者左右两边的值都为 0；
-然后判断，如果哪边大于 0 就走相应-1 继续回溯。
+
+在这个函数中，我们定义了一个内部的 backtrack 函数，它使用三个参数：
+
+- left：表示已经添加的左括号的数量。
+- right：表示已经添加的右括号的数量。
+- current：表示当前生成的括号字符串。
+
+backtrack 函数首先检查当前字符串的长度是否已经达到 2 * n，如果是，说明所有括号都已添加完毕，将其添加到结果列表 result 中。
+
+然后，函数检查是否还有剩余的左括号可以添加（即 left 小于 n）。如果可以添加左括号，递归调用 backtrack 函数，并更新 left 和 current。
+
+接下来，如果当前右括号的数量小于左括号的数量，说明添加的左括号需要匹配，递归调用 backtrack 函数，并更新 right 和 current。
+
+最后，generateParenthesis 函数返回包含所有有效括号组合的列表 result。
+
+这种方法的时间复杂度是 O(4^n)，因为每次递归调用都可能生成两个新的字符串（添加左括号或右括号），空间复杂度是 O(n)，因为递归调用栈的深度最多为 2 * n。
 
 ```js
 /**
  * @param {number} n
  * @return {string[]}
  */
-var generateParenthesis = function (n) {
-  const res = [];
-  if (n === 0) return res;
-
-  const backTrace = (left, right, current) => {
-    console.log(left, right, current);
-    if (left > right || left < 0 || right < 0) return;
-    if (left === 0 && right === 0) {
-      res.push(current);
+function generateParenthesis(n) {
+  function backtrack(left, right, current) {
+    // 如果当前字符串长度达到2*n，说明所有括号都已添加完毕
+    if (current.length === 2 * n) {
+      result.push(current);
       return;
     }
-    backTrace(left - 1, right, current + '(');
-    backTrace(left, right - 1, current + ')');
-  };
-  backTrace(n, n, '');
-  return res;
-};
+
+    // 如果还有剩余的左括号可以添加
+    if (left < n) {
+      backtrack(left + 1, right, current + '(');
+    }
+
+    // 如果添加了左括号，那么必须添加一个右括号来匹配
+    if (right < left) {
+      backtrack(left, right + 1, current + ')');
+    }
+  }
+
+  let result = [];
+  backtrack(0, 0, '');
+  return result;
+}
 ```

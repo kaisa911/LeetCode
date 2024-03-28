@@ -1,6 +1,6 @@
 # 下一个排列
 
-整数数组的一个 排列  就是将其所有成员以序列或线性顺序排列。
+整数数组的一个 排列 就是将其所有成员以序列或线性顺序排列。
 
 例如，arr = [1,2,3] ，以下这些都可以视作 arr 的排列：[1,2,3]、[1,3,2]、[3,1,2]、[2,3,1] 。
 整数数组的 下一个排列 是指其整数的下一个字典序更大的排列。更正式地，如果数组的所有排列根据其字典顺序从小到大排列在一个容器中，那么数组的 下一个排列 就是在这个有序容器中排在它后面的那个排列。如果不存在下一个更大的排列，那么这个数组必须重排为字典序最小的排列（即，其元素按升序排列）。
@@ -38,23 +38,58 @@
 - 1 <= nums.length <= 100
 - 0 <= nums[i] <= 100
 
+**思路：**
+1. 从后向前查找第一个递减的数字序列
+  - 我们需要找到数组中第一个从大到小排列的子序列（例如，3, 2, 1 在 nums = [1, 2, 3] 中是递减的）。
+  - 如果找不到这样的子序列，说明当前排列已经是字典序最小的排列，我们需要将其重排为字典序最大的排列（即升序排列）。
+  - 如果找到了递减的子序列，我们需要在这个子序列中找到可以交换的数字。
+2. 找到可以交换的数字
+  - 在找到的递减子序列中，我们需要找到第一个大于其后所有数字的数字（例如，在 2, 3, 1 中，3 就是可以交换的数字）。
+  - 我们需要在子序列的右侧找到一个比这个数字小的数字，以便进行交换。
+3. 交换数字并反转子序列
+  - 交换找到的可以交换的数字和递减子序列中的最后一个数字。
+  - 反转递减子序列，使其变成一个升序子序列。
+4. 返回结果
+  - 完成上述步骤后，数组 nums 将具有下一个更大的字典序排列。
+  - 返回修改后的数组。
+
 ```js
 /**
  * @param {number[]} nums
  * @return {void} Do not return anything, modify nums in-place instead.
  */
-const nextPermutation = nums => {
-  let pivot = nums.length - 1;
-  while (nums[pivot] <= nums[--pivot]) {}
+function nextPermutation(nums) {
+  let i,
+    j,
+    k,
+    n = nums.length;
 
-  for (let successor = nums.length - 1; successor > pivot; successor--) {
-    if (nums[successor] > nums[pivot]) break;
+  // 从后向前查找第一个递减的数字序列
+  for (i = n - 2; i >= 0; i--) {
+    if (nums[i] < nums[i + 1]) {
+      break;
+    }
   }
-  if (pivot != successor) {
-    let b = nums[pivot];
-    nums[pivot] = nums[successor];
-    nums[successor] = b;
+
+  // 如果没有找到递减的子序列，将数组重排为升序
+  if (i === -1) {
+    nums.reverse();
+    return;
   }
-  nums.push(...nums.splice(pivot + 1).reverse());
-};
+
+  // 在递减子序列的右侧找到比其小的数字
+  for (j = n - 1; j > i; j--) {
+    if (nums[j] > nums[i]) {
+      break;
+    }
+  }
+
+  // 交换数字
+  [k, nums[j]] = [nums[j], k];
+
+  // 反转递减子序列
+  for (let l = i + 1, r = n - 1; l < r; l++, r--) {
+    [k, nums[l]] = [nums[l], k];
+  }
+}
 ```
