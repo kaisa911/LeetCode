@@ -44,21 +44,21 @@ candidates  中的数字可以无限制重复被选取。
  */
 var combinationSum = function (candidates, target) {
   const res = [];
-  if (candidates.length === 0) return res;
 
-  const backTrace = (start, current) => {
-    if (current.reduce((pre, cur) => pre + cur, 0) > target) return;
-    if (current.reduce((pre, cur) => pre + cur, 0) === target) {
+  const backTrace = (start, current, sum) => {
+    if (sum > target) return;
+    if (sum === target) {
       res.push([...current]);
       return;
     }
     for (let i = start; i < candidates.length; i++) {
       current.push(candidates[i]);
-      backTrace(i, current);
+      backTrace(i, current, sum + candidates[i]);
       current.pop();
     }
   };
-  backTrace(0, []);
+
+  backTrace(0, [], 0);
   return res;
 };
 ```
