@@ -3,13 +3,13 @@
 
 some exercises of leetcode
 
-- Leetcode: 简单: 165, 中等: 206, 困难: 47, 剑指Offer: 73,
-- 总计：491
+- Leetcode: 简单: 166, 中等: 207, 困难: 47, 剑指Offer: 73,
+- 总计：493
 
 ```mermaid
 pie title 已完成的题目
-    "简单" : 165
-    "中等" : 206
+    "简单" : 166
+    "中等" : 207
     "困难" : 47
     "剑指Offer" : 73
 ```
@@ -56,22 +56,22 @@ pie title 已完成的题目
 | 38 | [Count and Say 数数并说](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/38-CountandSay.md) | Medium |  |
 | 39 | [Combination Sum 组合之和](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/39-CombinationSum.md) | Medium |  |
 | 40 | [Combination Sum II 组合之和 II](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/40-CombinationSumII.md) | Medium |  |
-| 41 | [First Missing Positive 缺失的第一个正数](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Hard/41-FirstMissingPositive.js) | Hard | 数组 |
-| 42 | [Trapping Rain Water 接雨水](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Hard/42-TrappingRainWater.js) | Hard | 双指针 |
+| 41 | [First Missing Positive 缺失的第一个正数](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Hard/41-FirstMissingPositive.md) | Hard | 数组 |
+| 42 | [Trapping Rain Water 接雨水](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Hard/42-TrappingRainWater.md) | Hard | 双指针 |
 | 43 | [Multiply String 字符串相乘](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/43-MultiplyString.md) | Medium |  |
-| 44 | [Wildcard Matching 通配符匹配](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Hard/44-WildcardMatching.js) | Hard |  |
+| 44 | [Wildcard Matching 通配符匹配](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Hard/44-WildcardMatching.md) | Hard |  |
 | 45 | [Jump Game II 跳跃游戏 II](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/45-JumpGameII.md) | Medium |  |
 | 46 | [Permutations 全排列](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/46-Permutations.md) | Medium |  |
 | 47 | [Permutations II 全排列 II](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/47-PermutationsII.md) | Medium |  |
 | 48 | [Rotate Image 旋转图像](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/48-RotateImage.md) | Medium |  |
 | 49 | [Group Anagrams 字母异位词分组](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/49-GroupAnagrams.md) | Medium | 哈希 |
 | 50 | [Pow(x, n) Pow(x, n)](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/50-Pow(x,n).md) | Medium |  |
-| 51 | [N-Queens N 皇后](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Hard/51-NQueens.js) | Hard |  |
-| 52 | [N-Queens II N 皇后 II](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Hard/52-NQueensII.js) | Hard |  |
-| 53 | [Maximum Subarray 最大子数组和](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/53-MaximumSubarray.js) | Medium | 数组 |
-| 54 | [Spiral Matrix 螺旋矩阵](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/54-SpiralMatrix.js) | Medium | 矩阵 |
-| 55 | [Jump Game 跳跃游戏](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/55-JumpGame.js) | Medium |  |
-| 56 | [Merge Intervals 合并区间](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/56-MergeIntervals.js) | Medium | 数组 |
+| 51 | [N-Queens N 皇后](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Hard/51-N-Queens.md) | Hard |  |
+| 52 | [N-Queens II N 皇后 II](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Hard/52-N-QueensII.md) | Hard |  |
+| 53 | [Maximum Subarray 最大子数组和](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/53-MaximumSubarray.md) | Medium | 数组 |
+| 54 | [Spiral Matrix 螺旋矩阵](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/54-SpiralMatrix.md) | Medium | 矩阵 |
+| 55 | [Jump Game 跳跃游戏](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/55-JumpGame.md) | Medium |  |
+| 56 | [Merge Intervals 合并区间](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/56-MergeIntervals.md) | Medium | 数组 |
 | 57 | [Insert Interval 插入区间](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Hard/57-InsertInterval.js) | Hard |  |
 | 58 | [Length of Last Word 最后一个单词的长度](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/58-LengthofLastWord.md) | Easy | 字符串 |
 | 59 | [Spiral Matrix II 螺旋矩阵 II](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/59-SpiralMatrixII.js) | Medium | 矩阵 |
@@ -408,6 +408,7 @@ pie title 已完成的题目
 | 1572 | [Matrix Diagonal Sum 矩阵对角线的元素和](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/1572-MatrixDiagonalSum.js) | Easy |  |
 | 1576 | [Replace All ?‘s to Avoid Consecutive Repeating Characters 替换所有的问号](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/1576-ReplaceAll?‘stoAvoidConsecutiveRepeatingCharacters.js) | Easy | 数组 |
 | 1640 | [Check Array Formation Through Concatenation 能否连接成数组](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/1640-CheckArrayFormationThrouthConcatenation.js) | Easy |  |
+| 1652 | [Defuse the Bomb 拆炸弹](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/1652-DefusetheBomb.md) | Easy | 滑动窗口 |
 | 1657 | [Determine if Two Strings Are Close 确定两个字符串是否接近](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/1657-DetermineifTwoStringsAreClose.js) | Medium | 哈希 |
 | 1679 | [Max Number of K-Sum Pairs K 和数对的最大数目](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/1679-MaxNumberofK-SumPairs.js) | Medium | 双指针 |
 | 1726 | [Tuple with Same Product 同积元组](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/1726-TuplewithSameProduct.js) | Medium | 哈希 |
@@ -430,6 +431,7 @@ pie title 已完成的题目
 | 2530 | [Maximal Score After Applying K Operations 执行 K 次操作后的最大分数](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/2530-MaximalScoreAfterApplyingKOperations.js) | Medium | 贪心、优先队列 |
 | 2542 | [Maximum Subsequence Score 最大子序列的分数](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/2542-MaximumSubsequenceScore.js) | Medium | 优先队列 |
 | 2578 | [Split With Minimum Sum 最小和分割](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/2578-SplitWithMinimumSum.js) | Easy | 贪心 |
+| 2580 | [Count Ways to Group Overlapping Ranges 统计将重叠区间合并成组的方案数](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/2580-CountWaystoGroupOverlappingRanges.js) | Medium | 区间合并 |
 | 2652 | [Sum Multiples 倍数求和](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/2652-SumMultiples.md) | Easy | 哈希 |
 | 2697 | [Lexicographically Smallest Palindrome 字典序最小回文串](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/2697-LexicographicallySmallestPalindrome.md) | Easy | 双指针 |
 | 2731 | [Movement of Robots 移动机器人](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/2731-MovementofRobots.js) | Medium | 脑筋急转弯 |
