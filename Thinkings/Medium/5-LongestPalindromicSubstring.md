@@ -62,4 +62,30 @@ const longestPalindrome = (s) => {
   }
   return s.substring(start, start + maxLen);
 };
+
+const longestPalindrome = (s) => {
+  const n = s.length;
+  const dp = Array.from(Array(n), () => Array(n).fill(false));
+  let start = 0;
+  let maxLen = 0;
+
+  for (let i = 0; i < n; i++) {
+    dp[i][i] = true;
+  }
+
+  for (let len = 2; len <= n; len++) {
+    for (let i = 0; i < n - len + 1; i++) {
+      let j = i + len - 1;
+
+      if (s[j] === s[i] && (len === 2 || dp[i + 1][j - 1])) {
+        dp[i][j] = true;
+        if (len > maxLen) {
+          start = i;
+          maxLen = len;
+        }
+      }
+    }
+  }
+  return s.slice(start, start + maxLen);
+};
 ```

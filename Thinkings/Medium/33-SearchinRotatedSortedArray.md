@@ -49,8 +49,8 @@ const search = (nums, target) => {
     right = nums.length - 1;
   while (left <= right) {
     let mid = Math.floor((left + right) / 2);
-    console.log(mid);
     if (nums[mid] == target) return mid;
+    
     else if (nums[mid] < nums[right]) {
       if (nums[mid] < target && nums[right] >= target) left = mid + 1;
       else right = mid - 1;
@@ -61,4 +61,5 @@ const search = (nums, target) => {
   }
   return -1;
 };
+
 ```

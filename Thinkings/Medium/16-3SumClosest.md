@@ -27,30 +27,64 @@
 - -1000 <= nums[i] <= 1000
 - -104 <= target <= 104
 
+**思路：**
+
+和上一题一样的思路，排序+双指针法
+
 ```js
 /**
  * @param {number[]} nums
  * @param {number} target
  * @return {number}
  */
-const threeSumClosest = (nums, target) => {
-  let closest = nums[0] + nums[1] + nums[2];
-  let diff = Math.abs(closest - target);
+function threeSumClosest(nums, target) {
+  // 对数组进行排序
   nums.sort((a, b) => a - b);
+
+  // 初始化最接近 target 的和及其差值
+  let closest = Infinity;
+  let diff = Infinity;
+
+  // 遍历数组，寻找最接近 target 的和
   for (let i = 0; i < nums.length - 2; ++i) {
-    let left = i + 1,
-      right = nums.length - 1;
+    // 跳过重复的元素
+    if (i > 0 && nums[i] === nums[i - 1]) {
+      continue;
+    }
+
+    let left = i + 1;
+    let right = nums.length - 1;
+
+    // 确保 left 指针不指向重复的元素
+    while (left < right && nums[left] === nums[left - 1]) {
+      left++;
+    }
+
+    // 确保 right 指针不指向重复的元素
+    while (left < right && nums[right] === nums[right + 1]) {
+      right--;
+    }
+
     while (left < right) {
       let sum = nums[i] + nums[left] + nums[right];
       let newDiff = Math.abs(sum - target);
-      if (diff > newDiff) {
+
+      // 更新最接近 target 的和及其差值
+      if (newDiff < diff) {
         diff = newDiff;
         closest = sum;
       }
-      if (sum < target) ++left;
-      else --right;
+
+      // 根据当前和与 target 的大小调整指针
+      if (sum < target) {
+        left++;
+      } else {
+        right--;
+      }
     }
   }
+
+  // 返回最接近 target 的和
   return closest;
-};
+}
 ```
