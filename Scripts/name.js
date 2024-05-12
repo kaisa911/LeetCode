@@ -2505,6 +2505,13 @@ const nameMap = {
     label: '',
     hasThinkings: 'false',
   },
+  1053: {
+    cnName: '交换一次的先前排列',
+    enName: 'Previous Permutation With One Swap',
+    difficulty: 'Medium',
+    label: '',
+    hasThinkings: 'true',
+  },
   1071: {
     cnName: '字符串的最大公因子',
     enName: 'Greatest Common Divisor of Strings',
@@ -2553,6 +2560,13 @@ const nameMap = {
     difficulty: 'Medium',
     label: '二叉树、BFS',
     hasThinkings: 'false',
+  },
+  1191: {
+    cnName: 'K 次串联后最大子数组之和',
+    enName: 'K-Concatenation Maximum Sum',
+    difficulty: 'Medium',
+    label: '',
+    hasThinkings: 'true',
   },
   1200: {
     cnName: '最小绝对差',

@@ -3,13 +3,13 @@
 
 some exercises of leetcode
 
-- Leetcode: 简单: 166, 中等: 207, 困难: 48, 剑指Offer: 73,
-- 总计：494
+- Leetcode: 简单: 166, 中等: 209, 困难: 48, 剑指Offer: 73,
+- 总计：496
 
 ```mermaid
 pie title 已完成的题目
     "简单" : 166
-    "中等" : 207
+    "中等" : 209
     "困难" : 48
     "剑指Offer" : 73
 ```
@@ -374,6 +374,7 @@ pie title 已完成的题目
 | 1004 | [Max Consecutive Ones III 最大连续1的个数 III](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/1004-MaxConsecutiveOnesIII.js) | Medium | 滑动窗口 |
 | 1021 | [Remove Outer Parentheses 删除最外层的括号](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/1021-RemoveOuterParentheses.js) | Easy |  |
 | 1022 | [Sum of Root To Leaf Binary Numbers 从根到叶的二进制数之和](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/1022-SumofRootToLeafBinaryNumbers.js) | Easy |  |
+| 1053 | [Previous Permutation With One Swap 交换一次的先前排列](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/1053-PreviousPermutationWithOneSwap.md) | Medium |  |
 | 1071 | [Greatest Common Divisor of Strings 字符串的最大公因子](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/1071-GreatestCommonDivisorofStrings.js) | Easy | 字符串、GCD |
 | 1108 | [Defanging an Ip Address IP 地址无效化](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/1108-DefanginganIpAddress.js) | Easy | 字符串 |
 | 1122 | [Relative Sort Array 数组的相对排序](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/1122-RelativeSortArray.md) | Easy |  |
@@ -381,6 +382,7 @@ pie title 已完成的题目
 | 1137 | [N-th Tribonacci Number 第 N 个泰波那契数](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/1137-N-thTribonacciNumber.md) | Easy |  |
 | 1143 | [Longest Common Subsequence 最长公共子序列](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/1143-LongestCommonSubsequence.js) | Medium |  |
 | 1161 | [Maximum Level Sum of a Binary Tree 最大层内元素和](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/1161-MaximumLevelSumofaBinaryTree.js) | Medium | 二叉树、BFS |
+| 1191 | [K-Concatenation Maximum Sum K 次串联后最大子数组之和](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/1191-K-ConcatenationMaximumSum.md) | Medium |  |
 | 1200 | [Minimum Abs Difference 最小绝对差](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/1200-MinimumAbsDifference.js) | Easy |  |
 | 1207 | [Unique Number of Occurrences 独一无二的出现次数](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/1207-UniqueNumberofOccurrences.js) | Easy | 哈希 |
 | 1217 | [Minimum Cost to Move Chips to The Same Position 玩筹码](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/1217-MinimumCosttoMoveChipstoTheSamePosition.js) | Easy |  |
