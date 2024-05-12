@@ -3,14 +3,14 @@
 
 some exercises of leetcode
 
-- Leetcode: 简单: 166, 中等: 207, 困难: 47, 剑指Offer: 73,
-- 总计：493
+- Leetcode: 简单: 166, 中等: 207, 困难: 48, 剑指Offer: 73,
+- 总计：494
 
 ```mermaid
 pie title 已完成的题目
     "简单" : 166
     "中等" : 207
-    "困难" : 47
+    "困难" : 48
     "剑指Offer" : 73
 ```
 
@@ -52,7 +52,7 @@ pie title 已完成的题目
 | 34 | [Search for a Range 搜索范围](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/34-SearchforaRange.md) | Medium |  |
 | 35 | [Search Insert Position 搜索插入位置](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/35-SearchInsertPosition.md) | Easy | 二分查找 |
 | 36 | [Valid Sudoku 验证数独](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/36-ValidSudoku.md) | Medium |  |
-| 37 | [Sudoku Solver 解数独](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Hard/37-SudokuSolver.js) | Hard |  |
+| 37 | [Sudoku Solver 解数独](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Hard/37-SudokuSolver.md) | Hard |  |
 | 38 | [Count and Say 数数并说](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/38-CountandSay.md) | Medium |  |
 | 39 | [Combination Sum 组合之和](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/39-CombinationSum.md) | Medium |  |
 | 40 | [Combination Sum II 组合之和 II](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/40-CombinationSumII.md) | Medium |  |
@@ -66,17 +66,17 @@ pie title 已完成的题目
 | 48 | [Rotate Image 旋转图像](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/48-RotateImage.md) | Medium |  |
 | 49 | [Group Anagrams 字母异位词分组](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/49-GroupAnagrams.md) | Medium | 哈希 |
 | 50 | [Pow(x, n) Pow(x, n)](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/50-Pow(x,n).md) | Medium |  |
-| 51 | [N-Queens N 皇后](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Hard/51-N-Queens.md) | Hard |  |
-| 52 | [N-Queens II N 皇后 II](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Hard/52-N-QueensII.md) | Hard |  |
+| 51 | [N-Queens N 皇后](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Hard/51-N-Queens.md) | Hard | 回溯 |
+| 52 | [N-Queens II N 皇后 II](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Hard/52-N-QueensII.md) | Hard | 回溯 |
 | 53 | [Maximum Subarray 最大子数组和](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/53-MaximumSubarray.md) | Medium | 数组 |
 | 54 | [Spiral Matrix 螺旋矩阵](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/54-SpiralMatrix.md) | Medium | 矩阵 |
 | 55 | [Jump Game 跳跃游戏](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/55-JumpGame.md) | Medium |  |
 | 56 | [Merge Intervals 合并区间](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/56-MergeIntervals.md) | Medium | 数组 |
-| 57 | [Insert Interval 插入区间](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Hard/57-InsertInterval.js) | Hard |  |
+| 57 | [Insert Interval 插入区间](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Hard/57-InsertInterval.md) | Hard |  |
 | 58 | [Length of Last Word 最后一个单词的长度](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/58-LengthofLastWord.md) | Easy | 字符串 |
-| 59 | [Spiral Matrix II 螺旋矩阵 II](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/59-SpiralMatrixII.js) | Medium | 矩阵 |
-| 60 | [Permutation Sequence 排列序列](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/60-PermutationSequence.js) | Medium |  |
-| 61 | [Rotate List 旋转链表](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/61-RotateList.js) | Medium |  |
+| 59 | [Spiral Matrix II 螺旋矩阵 II](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/59-SpiralMatrixII.md) | Medium | 矩阵 |
+| 60 | [Permutation Sequence 排列序列](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Hard/60-PermutationSequence.md) | Hard |  |
+| 61 | [Rotate List 旋转链表](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/61-RotateList.md) | Medium |  |
 | 62 | [Unique Paths 不同路径](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/62-UniquePaths.md) | Medium |  |
 | 63 | [Unique Paths II 不同路径 II](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/63-UniquePathsII.md) | Medium |  |
 | 64 | [Minimum Path Sum 最小路径和](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/64-MinimumPathSum.md) | Medium |  |
@@ -91,19 +91,19 @@ pie title 已完成的题目
 | 73 | [Set Matrix Zeroes 矩阵置零](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/73-SetMatrixZeroes.md) | Medium | 矩阵 |
 | 74 | [Search a 2D Matrix 搜索二维矩阵](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/74-Searcha2DMatrix.md) | Medium | 矩阵 |
 | 75 | [Sort Colors 颜色分类](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/75-SortColors.md) | Medium |  |
-| 76 | [Minimum Window Substring 最小覆盖子串](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Hard/76-MinimumWindowSubstring.js) | Hard | 子串 |
+| 76 | [Minimum Window Substring 最小覆盖子串](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Hard/76-MinimumWindowSubstring.md) | Hard | 子串 |
 | 77 | [Combinations 组合](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/77-Combinations.md) | Medium |  |
 | 78 | [Subsets 子集](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/78-Subsets.md) | Medium |  |
 | 79 | [Word Search 单词搜索](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/79-WordSearch.js) | Medium |  |
 | 80 | [Remove Duplicates from Sorted Array II 删除排序数组中的重复项 II](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/80-RemoveDuplicatesfromSortedArrayII.md) | Medium |  |
 | 81 | [Searching Rotated Sorted Array II 搜索旋转排序数组 II](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/81-SearchingRotatedSortedArrayII.js) | Medium |  |
-| 82 | [Remove Duplicate From Sorted List II 删除排序链表中的重复元素 II](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/82-RemoveDuplicateFromSortedListII.js) | Medium |  |
+| 82 | [Remove Duplicate From Sorted List II 删除排序链表中的重复元素 II](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/82-RemoveDuplicateFromSortedListII.md) | Medium |  |
 | 83 | [Remove Duplicates from Sorted List 删除排序链表中的重复元素](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/83-RemoveDuplicatesfromSortedList.md) | Easy | 链表 |
-| 84 | [Largest Rectangle in Histogram 柱状图中最大的矩形](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Hard/84-LargestRectangleinHistogram.js) | Hard |  |
-| 85 | [Maximal Rectangle 最大矩形](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Hard/85-MaximalRectangle.js) | Hard |  |
-| 86 | [Partition List 分隔链表](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/86-PartitionList.js) | Medium |  |
-| 87 | [Scramble String 扰乱字符串](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Hard/87-ScrambleString.js) | Hard |  |
-| 88 | [Merge Sorted Array 合并两个有序数组](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/88-MergeSortedArray.js) | Easy |  |
+| 84 | [Largest Rectangle in Histogram 柱状图中最大的矩形](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Hard/84-LargestRectangleinHistogram.md) | Hard |  |
+| 85 | [Maximal Rectangle 最大矩形](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Hard/85-MaximalRectangle.md) | Hard |  |
+| 86 | [Partition List 分隔链表](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/86-PartitionList.md) | Medium |  |
+| 87 | [Scramble String 扰乱字符串](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Hard/87-ScrambleString.md) | Hard |  |
+| 88 | [Merge Sorted Array 合并两个有序数组](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/88-MergeSortedArray.md) | Easy |  |
 | 89 | [Gray Code 格雷编码](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/89-GrayCode.js) | Medium |  |
 | 90 | [Subsets II 子集 II](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/90-SubsetsII.js) | Medium |  |
 | 91 | [Decode Ways 解码方法](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/91-DecodeWays.js) | Medium |  |
@@ -384,6 +384,7 @@ pie title 已完成的题目
 | 1200 | [Minimum Abs Difference 最小绝对差](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/1200-MinimumAbsDifference.js) | Easy |  |
 | 1207 | [Unique Number of Occurrences 独一无二的出现次数](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/1207-UniqueNumberofOccurrences.js) | Easy | 哈希 |
 | 1217 | [Minimum Cost to Move Chips to The Same Position 玩筹码](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/1217-MinimumCosttoMoveChipstoTheSamePosition.js) | Easy |  |
+| 1227 | [Airplane Seat Assignment Probability 飞机座位分配概率](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/1227-AirplaneSeatAssignmentProbability.md) | Medium |  |
 | 1260 | [Shift 2D Grid 二维网格迁移](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/1260-Shift2DGrid.js) | Easy |  |
 | 1268 | [Search Suggestion System 搜索推荐系统](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/1268-SearchSuggestionSystem.js) | Medium | 前缀树 |
 | 1289 | [Minimum Falling Path Sum II 下降路径最小和 II](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Hard/1289-MinimumFallingPathSumII.js) | Hard |  |
