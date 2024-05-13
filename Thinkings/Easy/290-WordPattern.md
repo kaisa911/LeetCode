@@ -36,10 +36,14 @@
 你可以假设  pattern  只包含小写字母， str  包含了由单个空格分隔的小写字母。
 
 思路：
-拿到这道题，首先就想判断一下，pattern 和 str 的数量是不是一样的，不一样的返回 false，一样的再比较。  
-然后把 pattern 的单词和 str 的单词对应起来。
-然后根据 pattern 的长度把 res 加起来。
-最后判断一下和 str 是否一样
+1. 分割字符串：首先，将str分割成单词数组。
+2. 长度比较：如果pattern的长度和单词数组的长度不相等，那么str肯定不遵循pattern，直接返回false。
+3. 建立映射：遍历pattern和单词数组，尝试为每个字符和单词建立映射关系。如果发现某个字符已经映射到另一个不同的单词，或者某个单词已经被另一个不同的字符映射，那么返回false。
+4. 检查映射：如果所有字符和单词都成功建立了映射关系，且没有冲突，则str遵循pattern，返回true。
+
+这种方法的时间复杂度是O(n)，其中n是pattern的长度，因为我们需要遍历每个字符和单词一次。空间复杂度是O(n)，因为我们需要存储所有字符和单词的映射关系。
+
+
 
 ```js
 /**
@@ -47,19 +51,30 @@
  * @param {string} str
  * @return {boolean}
  */
-var wordPattern = function(pattern, str) {
-  const patternSet = [...new Set(pattern.split(''))];
-  const strSet = [...new Set(str.split(' '))];
-  if (patternSet.length !== strSet.length) return false;
+var wordPattern = (pattern, str) => {
+  let words = str.split(' ');
+  if (pattern.length !== words.length) return false;
 
-  let obj = {},
-    res = '';
-  for (let i = 0, len = patternSet.length; i < len; i++) {
-    obj[patternSet[i]] = strSet[i];
+  let charToWord = {};
+  let wordToChar = {};
+
+  for (let i = 0; i < pattern.length; i++) {
+    let char = pattern[i];
+    let word = words[i];
+
+    if (charToWord[char]) {
+      if (charToWord[char] !== word) return false;
+    } else {
+      charToWord[char] = word;
+    }
+
+    if (wordToChar[word]) {
+      if (wordToChar[word] !== char) return false;
+    } else {
+      wordToChar[word] = char;
+    }
   }
-  for (let j = 0, length = pattern.length; j < length; j++) {
-    res += obj[pattern[j]] + ' ';
-  }
-  return res.trim() === str;
+
+  return true;
 };
 ```

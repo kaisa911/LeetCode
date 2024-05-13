@@ -3,18 +3,29 @@
  * @param {string} str
  * @return {boolean}
  */
-var wordPattern = function(pattern, str) {
-  const patternSet = [...new Set(pattern.split(''))];
-  const strSet = [...new Set(str.split(' '))];
-  if (patternSet.length !== strSet.length) return false;
+var wordPattern = (pattern, str) => {
+  let words = str.split(' ');
+  if (pattern.length !== words.length) return false;
 
-  let obj = {},
-    res = '';
-  for (let i = 0, len = patternSet.length; i < len; i++) {
-    obj[patternSet[i]] = strSet[i];
+  let charToWord = {};
+  let wordToChar = {};
+
+  for (let i = 0; i < pattern.length; i++) {
+    let char = pattern[i];
+    let word = words[i];
+
+    if (charToWord[char]) {
+      if (charToWord[char] !== word) return false;
+    } else {
+      charToWord[char] = word;
+    }
+
+    if (wordToChar[word]) {
+      if (wordToChar[word] !== char) return false;
+    } else {
+      wordToChar[word] = char;
+    }
   }
-  for (let j = 0, length = pattern.length; j < length; j++) {
-    res += obj[pattern[j]] + ' ';
-  }
-  return res.trim() === str;
+
+  return true;
 };
