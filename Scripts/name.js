@@ -2960,6 +2960,13 @@ const nameMap = {
     label: '动态规划',
     hasThinkings: 'true',
   },
+  3136: {
+    cnName: '两个字符串的排列差',
+    enName: 'Permutation Difference between Two Strings',
+    difficulty: 'Easy',
+    label: '',
+    hasThinkings: 'false',
+  },
 };
 
 module.exports = nameMap;

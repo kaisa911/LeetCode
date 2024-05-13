@@ -3,12 +3,12 @@
 
 some exercises of leetcode
 
-- Leetcode: 简单: 165, 中等: 210, 困难: 48, 剑指Offer: 73,
-- 总计：496
+- Leetcode: 简单: 166, 中等: 210, 困难: 48, 剑指Offer: 73,
+- 总计：497
 
 ```mermaid
 pie title 已完成的题目
-    "简单" : 165
+    "简单" : 166
     "中等" : 210
     "困难" : 48
     "剑指Offer" : 73
@@ -439,6 +439,7 @@ pie title 已完成的题目
 | 2697 | [Lexicographically Smallest Palindrome 字典序最小回文串](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/2697-LexicographicallySmallestPalindrome.md) | Easy | 双指针 |
 | 2731 | [Movement of Robots 移动机器人](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/2731-MovementofRobots.js) | Medium | 脑筋急转弯 |
 | 2760 | [Longest Even Odd Subarray With Threshold 最长奇偶子数组](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/2760-LongestEvenOddSubarrayWithThreshold.md) | Easy | 动态规划 |
+| 3136 | [Permutation Difference between Two Strings 两个字符串的排列差](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/3136-PermutationDifferencebetweenTwoStrings.js) | Easy |  |
 
 **剑指offer**
 
