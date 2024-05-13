@@ -3,13 +3,13 @@
 
 some exercises of leetcode
 
-- Leetcode: 简单: 166, 中等: 209, 困难: 48, 剑指Offer: 73,
+- Leetcode: 简单: 165, 中等: 210, 困难: 48, 剑指Offer: 73,
 - 总计：496
 
 ```mermaid
 pie title 已完成的题目
-    "简单" : 166
-    "中等" : 209
+    "简单" : 165
+    "中等" : 210
     "困难" : 48
     "剑指Offer" : 73
 ```
@@ -301,21 +301,21 @@ pie title 已完成的题目
 | 491 | [Non- decreasing Subsequence 递增子序列](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/491-Non-decreasingSubsequence.js) | Medium | DFS |
 | 494 | [Target Sum 目标和](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/494-TargetSum.js) | Medium | 回溯 |
 | 496 | [Next Greater Element I 下一个更大元素 I](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/496-NextGreaterElementI.js) | Easy | 哈希 |
-| 509 | [Fibonacci 斐波那契数](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/509-Fibonacci.js) | Easy |  |
-| 518 | [Coin Change II 零钱兑换 II](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/518-CoinChangeII.js) | Medium | 动态规划 |
-| 519 | [Random Flip Matrix 随机翻转矩阵](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/519-RandomFlipMatrix.js) | Medium | 数组 |
+| 509 | [Fibonacci 斐波那契数](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/509-Fibonacci.md) | Easy |  |
+| 518 | [Coin Change II 零钱兑换 II](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/518-CoinChangeII.md) | Medium | 动态规划 |
+| 519 | [Random Flip Matrix 随机翻转矩阵](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/519-RandomFlipMatrix.md) | Medium | 数组 |
 | 529 | [Minesweeper 扫雷游戏](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/529-Minesweeper.js) | Medium |  |
 | 538 | [Convert BST to Greater Tree 把二叉搜索树转换为累加树](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/538-ConvertBSTtoGreaterTree.js) | Medium | 二叉树 |
 | 541 | [Reverse String II 反转字符串 II](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/541-ReverseStringII.md) | Easy |  |
 | 543 | [Diameter of Binary Tree 二叉树的直径](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/543-DiameterofBinaryTree.js) | Easy | 二叉树 |
-| 547 | [Number of Provinces 省份数量](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/547-NumberofProvinces.js) | Medium | 图、DFS |
+| 547 | [Number of Provinces 省份数量](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/547-NumberofProvinces.md) | Medium | 图、DFS |
 | 551 | [Student Attendance Record I 学生出勤记录 I](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/551-StudentAttendanceRecordI.js) | Easy |  |
-| 552 | [Student Attendance Record II 学生出勤记录 II](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Hard/552-StudentAttendanceRecordII.js) | Hard |  |
-| 557 | [Reverse Words in a String III 反转字符串中的单词 III](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/557-ReverseWordsinaStringIII.js) | Easy | 字符串 |
-| 560 | [Subarray Sum Equals K 和为 k 的子数组](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/560-SubarraySumEqualsK.js) | Medium | 子串 |
-| 561 | [Array Partition 数组拆分](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/561-ArrayPairSum.js) | Easy |  |
-| 581 | [Shortest Unsorted Continuous Subarray 最短无序连续子数组](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/581-ShortestUnsortedContinuousSubarray.js) | Easy |  |
-| 589 | [N-ray Tree Preorder Traversal N叉树的前序遍历](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/589-N-rayTreePreorderTraversal.js) | Easy | 二叉树 |
+| 552 | [Student Attendance Record II 学生出勤记录 II](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Hard/552-StudentAttendanceRecordII.md) | Hard |  |
+| 557 | [Reverse Words in a String III 反转字符串中的单词 III](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/557-ReverseWordsinaStringIII.md) | Easy | 字符串 |
+| 560 | [Subarray Sum Equals K 和为 k 的子数组](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/560-SubarraySumEqualsK.md) | Medium | 子串 |
+| 561 | [Array Partition 数组拆分](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/561-ArrayPartition.md) | Easy |  |
+| 581 | [Shortest Unsorted Continuous Subarray 最短无序连续子数组](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/581-ShortestUnsortedContinuousSubarray.js) | Medium |  |
+| 589 | [N-ray Tree Preorder Traversal N叉树的前序遍历](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/589-N-rayTreePreorderTraversal.md) | Easy | 二叉树 |
 | 605 | [Can Place Flowers 种花问题](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/605-CanPlaceFlowers.js) | Easy | 贪心 |
 | 606 | [Construct String from Binary Tree 根据二叉树创建字符串](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/606-ConstructStringfromBinaryTree.md) | Easy |  |
 | 611 | [Valid Triangle Number 有效三角形的个数](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/611-ValidTriangleNumber.js) | Medium | 双指针 |
