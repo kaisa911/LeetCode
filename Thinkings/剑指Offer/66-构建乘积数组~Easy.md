@@ -20,24 +20,32 @@
 
 - 能不能只使用常数空间？（除了输出的数组之外）
 
+思路：
+1. 初始化：检查数组a的长度，如果为0，则直接返回空数组，因为没有元素可以相乘。
+2. 构建左侧乘积：初始化结果数组res，其中第一个元素是1（因为没有比它更前的元素）。然后，从第二个元素开始，遍历数组a，计算每个位置之前的所有元素的乘积，并存储在res中。
+3. 构建右侧乘积：初始化一个临时变量temp为1，然后从数组的倒数第二个元素开始，向前遍历数组a，计算每个位置之后的所有元素的乘积，并将这个乘积与res中已有的左侧乘积相乘，得到最终的乘积数组。
+4. 返回结果：返回构建好的乘积数组res。
+
+它的时间复杂度是O(n)，其中n是数组a的长度，因为每个元素恰好被访问两次（一次是计算左侧乘积，一次是计算右侧乘积）。空间复杂度是O(n)，因为需要一个大小与输入数组相同的数组来存储结果。
+
 ```ts
 /**
  * @param {number[]} a
  * @return {number[]}
  */
-var constructArr = function (a) {
+var constructArr = function(a) {
   const n = a.length;
   if (n === 0) return [];
-  const res = [1];
+  const res = new Array(n).fill(1);
   let temp = 1;
   for (let i = 1; i < n; i++) {
     temp *= a[i - 1];
     res[i] = temp;
   }
   temp = 1;
-  for (let i = n - 1 - 1; i >= 0; i--) {
-    temp *= a[i + 1];
+  for (let i = n - 1; i >= 0; i--) {
     res[i] *= temp;
+    temp *= a[i];
   }
   return res;
 };

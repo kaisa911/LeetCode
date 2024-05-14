@@ -15,16 +15,23 @@
 
 输出：3
 ```
+思路：
+1. 特殊情况：如果n为1，直接返回0，因为圆圈中只剩下一个数字，即0。
+2. 初始化：定义变量res为0，这将用来存储最终剩下的数字。
+3. 循环：使用一个for循环，从2开始到n（包括n）结束。
+4. 更新结果：在每次循环中，更新res为(res + m) % i。这里的% i确保了索引res始终在当前圆圈的大小范围内。
+5. 返回结果：循环结束后，返回res作为最终剩下的数字。
 
+这种方法的时间复杂度是O(n)，其中n是圆圈中数字的总数。空间复杂度是O(1)，因为只使用了常数级别的额外空间。
 ```ts
 /**
  * @param {number} n
  * @param {number} m
  * @return {number}
  */
-var lastRemaining = function (n, m) {
+var lastRemaining = function(n, m) {
+  if (n == 1) return 0;
   let res = 0;
-  // 最后一轮剩下2个人，所以从2开始反推
   for (let i = 2; i <= n; i++) {
     res = (res + m) % i;
   }

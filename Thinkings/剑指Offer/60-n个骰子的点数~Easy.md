@@ -29,27 +29,37 @@
 
 解释：投掷2次，可能出现的点数为2-12，共计11种。每种点数可能掷法数目分别为1,2,3,4,5,6,5,4,3,2,1。所以输出[1, 2, 3, 4, 5, 6, 5, 4, 3, 2, 1]。
 ```
+思路：
+1. 初始化：创建一个长度为n + 1的数组dp，并初始化所有元素为0，dp[0]设置为1。
+2. 基础情况：设置dp[1]到dp[6]每个元素为1，表示投掷1次骰子得到1到6点各有一种掷法。
+3. 动态规划：使用三层循环填充dp数组。外层循环从2到n，中间层循环遍历骰子的点数faceValue从1到6，内层循环遍历所有可能的总点数total。
+4. 更新掷法数量：如果当前总点数total减去当前点数faceValue仍然在范围内（即total - faceValue >= i），则将dp[total]更新为dp[total] + dp[total - faceValue]。
+5. 结果收集：返回从dp[n]到dp[6 * n]的数组，表示投掷n次骰子得到总点数从n到6n的掷法数量。
+
+这种方法的时间复杂度是O(n^2)，空间复杂度是O(n)。
 
 ```ts
-function twoSum(n: number): number[] {
-  const dp: number[] = new Array(70).fill(0);
+function numberOfDice(n) {
+  const dp = new Array(n + 1).fill(0);
+  dp[0] = 1; // 基础情况：0点的掷法只有1种，即不投掷任何骰子
+
+  // 投掷1次骰子，可以得到1到6点，每种点数的掷法只有1种
   for (let i = 1; i <= 6; i++) {
     dp[i] = 1;
   }
+
+  // 从投掷2次骰子开始，计算投掷n次骰子的掷法数量
   for (let i = 2; i <= n; i++) {
-    for (let j = i * 6; j >= i; j--) {
-      dp[j] = 0;
-      for (let cur = 1; cur <= 6; cur++) {
-        if (j - cur < i - 1) break;
-        dp[j] += dp[j - cur];
+    for (let faceValue = 1; faceValue <= 6; faceValue++) {
+      for (let total = i; total <= 6 * i; total++) {
+        if (total - faceValue >= 0) {
+          dp[total] += dp[total - faceValue];
+        }
       }
     }
   }
-  const ans: number[] = [];
-  const sum = Math.pow(6, n);
-  for (let i = n; i <= 6 * n; i++) {
-    ans.push(dp[i] / sum);
-  }
-  return ans;
+
+  // 返回投掷n次骰子，掷出n到6n点的掷法数量
+  return dp.slice(n, 6 * n + 1);
 }
 ```

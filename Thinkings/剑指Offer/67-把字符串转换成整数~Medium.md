@@ -70,32 +70,35 @@
 - 0 <= s.length <= 200
 - s 由英文字母（大写和小写）、数字（0-9）、' '、'+'、'-' 和 '.' 组成
 
+思路：
+1. 跳过前导空格：使用while循环跳过字符串开始的空格。
+2. 处理正负号：如果第一个非空格字符是正负号，设置符号并跳过该字符。
+3. 构建整数：使用while循环构建整数，并在每次迭代中检查字符是否是数字。
+4. 溢出检查：在每次迭代中，检查当前结果是否会导致溢出。如果会，返回相应的最大或最小整数值。
+5. 返回结果：返回考虑符号后的最终结果。
+
 ```ts
 /**
  * @param {string} str
  * @return {number}
  */
-var strToInt = function (str: string): number {
-  let res: number = 0,
-    // 正负号，默认正号
-    negativeSymbol: number = 1;
-  // 把首尾的空格都去掉
-  str = str.trim();
-  for (let i: number = 0; i < str.length; i++) {
-    // 负数
-    if (i == 0 && str[i] == '-') {
-      negativeSymbol = -1;
-      continue;
-      // 正数
-    } else if (i == 0 && str[i] == '+') continue;
-    // 因为空格会被转成0，所以要排除空格的情况，也就是说在数字范围内就加上
-    if (+str[i] >= 0 && +str[i] <= 9 && str[i] != ' ') {
-      res = res * 10 + (+str[i] - 0);
-      // 为什么在这里就判断呢，因为这里如果就溢出的话，就提前退出，不需要再后面无意义的计算了
-      if (res * negativeSymbol <= -2147483648) return -2147483648;
-      else if (res * negativeSymbol >= 2147483647) return 2147483647;
-    } else break;
+var strToInt = function (str) {
+  let i = 0,
+    len = str.length,
+    sign = 1,
+    res = 0;
+  while (i < len && str[i] === ' ') i++; // 跳过前导空格
+  if (i < len && (str[i] === '+' || str[i] === '-')) {
+    sign = str[i++] === '+' ? 1 : -1;
   }
-  return res * negativeSymbol;
+  while (i < len) {
+    if (str[i] >= '0' && str[i] <= '9') {
+      if (res > 0x1fffffffff) return sign === 1 ? 2147483647 : -2147483648;
+      res = res * 10 + (str[i++] - '0');
+    } else {
+      break;
+    }
+  }
+  return res * sign;
 };
 ```
