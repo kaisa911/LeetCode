@@ -21,6 +21,12 @@
 
 输出："cdefgab"
 ```
+思路：
+1. 字符串切片：使用slice方法从字符串s中切分出两部分。
+  - s.slice(n)获取从索引n到字符串末尾的部分。
+  - s.slice(0, n)获取从字符串开头到索引n的部分。
+2. 字符串拼接：将这两部分通过加法运算符+拼接起来，形成左旋转后的字符串。
+3. 返回结果：返回拼接后的字符串。
 
 ```ts
 /**
@@ -29,8 +35,7 @@
  * @return {string}
  */
 var reverseLeftWords = function (s, n) {
-  const arr = s.split('');
-  let temp = arr.splice(0, n);
-  return [...arr, ...temp].join('');
+  // 直接对字符串进行操作，避免数组转换
+  return s.slice(n) + s.slice(0, n);
 };
 ```
