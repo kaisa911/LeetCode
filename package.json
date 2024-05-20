@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "prod": "node ./Scripts/tool.js"
   },
   "keywords": [],
   "author": "",

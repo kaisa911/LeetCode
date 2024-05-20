@@ -61,7 +61,16 @@
 
 就 split 成数组，然后对每一位 `parseInt()` 比较大小，该位没有值赋值为 0
 
-然后比较，version1 大的返回 1，小的返回 -1，相等就比较到最后一位
+
+1. 分割版本号：使用split('.')方法将version1和version2分割成数组。
+2. 确定最长长度：使用Math.max()确定两个数组中较长的长度。
+3. 逐个比较：使用for循环从0到最长长度的索引进行比较。
+4. 处理缺失修订号：如果某个索引上的修订号不存在，则将其设置为0。
+5. 比较修订号：使用parseInt()将字符串转换为整数进行比较。
+6. 返回结果：在比较过程中，一旦发现某个修订号较大或较小，返回相应的1或-1。
+7. 处理相等情况：如果所有已比较的修订号都相等，继续比较下一个修订号。
+
+这种方法的时间复杂度是O(n)，其中n是版本号中修订号的数量。空间复杂度是O(1)，因为只使用了常数级别的额外空间来存储中间结果
 
 ```js
 /**
@@ -75,22 +84,17 @@ const compareVersion = (version1, version2) => {
   const len = Math.max(list1.length, list2.length);
 
   for (let i = 0; i < len; i += 1) {
-    if (!list1[i]) list1[i] = 0;
-    if (!list2[i]) list2[i] = 0;
+    const num1 = i < list1.length ? parseInt(list1[i]) : 0;
+    const num2 = i < list2.length ? parseInt(list2[i]) : 0;
 
-    if (parseInt(list1[i]) > parseInt(list2[i])) {
+    if (num1 > num2) {
       return 1;
-      break;
     }
-    if (parseInt(list1[i]) < parseInt(list2[i])) {
+    if (num1 < num2) {
       return -1;
-      break;
-    }
-    if (parseInt(list1[i]) === parseInt(list2[i]) && i !== len - 1) {
-      continue;
-    } else {
-      return 0;
     }
   }
+
+  return 0;
 };
 ```

@@ -18,14 +18,20 @@
 所以，4 是第一个错误的版本。 
 ```
 
-思路：我一开始没仔细看题，就想找一个版本。。那直接循环不就行了。。结果超时了。  
-然后发现了**你应该尽量减少对调用 API 的次数。**
-嗯，那就折半查找吧。
+思路：
 
-折半查找有个问题，之前直接写了 mid = （high - low）/ 2
-发现总是出现死循环，后来明白了，
-mid = low + （high - low）/ 2；
-这样就对了
+使用二分查找算法，它是一种高效的查找算法，特别是在这种需要查找满足特定条件的第一个元素的场景中。通过每次将搜索区间缩小一半，算法能够以对数时间复杂度找到第一个错误的版本。
+
+1. 初始化：定义两个变量low和high，分别初始化为1和n，代表当前的搜索区间。
+2. 二分查找：使用while循环实现二分查找，循环条件是low小于high。
+3. 计算中间索引：在循环体内部，计算中间索引mid，使用low + Math.floor((high - low) / 2)。
+4. 判断中间版本：调用isBadVersion(mid)判断中间版本是否错误。
+5. 更新搜索区间：
+  - 如果mid是错误的版本，则将high更新为mid，因为错误的版本之后的所有版本也都是错误的，因此搜索区间的上限可以缩小到mid。
+  - 如果mid不是错误版本，则将low更新为mid + 1，因为我们知道从mid + 1到high之间的某个版本是错误的。
+6. 返回结果：当low和high相遇时，即low == high，循环结束。此时low（或high）即为第一个错误的版本，返回low。
+
+这种方法的时间复杂度是O(log n)，空间复杂度是O(1)。
 
 ```js
 /**
@@ -49,16 +55,19 @@ var solution = function(isBadVersion) {
    */
   return function(n) {
     let low = 1;
-    let res = n;
-    while (low < res) {
-      let mid = low + Math.floor((res - low) / 2);
+    let high = n;
+    while (low < high) {
+      let mid = low + Math.floor((high - low) / 2);
       if (isBadVersion(mid)) {
-        res = mid;
+        // 如果mid是错误版本，则第一个错误版本在[low, mid]
+        high = mid;
       } else {
+        // 如果mid不是错误版本，则第一个错误版本在[mid + 1, high]
         low = mid + 1;
       }
     }
-    return res;
+    // 当low和high相遇时，即是第一个错误版本
+    return low;
   };
 };
 ```
