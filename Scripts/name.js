@@ -2932,6 +2932,13 @@ const nameMap = {
     label: '区间合并',
     hasThinkings: 'false',
   },
+  2639: {
+    cnName: '查询网格图中每一列的宽度',
+    enName: 'Find the Width of Columns of a Grid',
+    difficulty: 'Easy',
+    label: '数组',
+    hasThinkings: 'true',
+  },
   2652: {
     cnName: '倍数求和',
     enName: 'Sum Multiples',
@@ -2958,6 +2965,13 @@ const nameMap = {
     enName: 'Longest Even Odd Subarray With Threshold',
     difficulty: 'Easy',
     label: '动态规划',
+    hasThinkings: 'true',
+  },
+  3033: {
+    cnName: '修改矩阵',
+    enName: 'Modify the Matrix',
+    difficulty: 'Easy',
+    label: '数组',
     hasThinkings: 'true',
   },
   3136: {

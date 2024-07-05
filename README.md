@@ -3,12 +3,12 @@
 
 some exercises of leetcode
 
-- Leetcode: 简单: 166, 中等: 210, 困难: 48, 剑指Offer: 73,
-- 总计：497
+- Leetcode: 简单: 168, 中等: 210, 困难: 48, 剑指Offer: 73,
+- 总计：499
 
 ```mermaid
 pie title 已完成的题目
-    "简单" : 166
+    "简单" : 168
     "中等" : 210
     "困难" : 48
     "剑指Offer" : 73
@@ -435,10 +435,12 @@ pie title 已完成的题目
 | 2542 | [Maximum Subsequence Score 最大子序列的分数](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/2542-MaximumSubsequenceScore.js) | Medium | 优先队列 |
 | 2578 | [Split With Minimum Sum 最小和分割](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/2578-SplitWithMinimumSum.js) | Easy | 贪心 |
 | 2580 | [Count Ways to Group Overlapping Ranges 统计将重叠区间合并成组的方案数](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/2580-CountWaystoGroupOverlappingRanges.js) | Medium | 区间合并 |
+| 2639 | [Find the Width of Columns of a Grid 查询网格图中每一列的宽度](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/2639-FindtheWidthofColumnsofaGrid.md) | Easy | 数组 |
 | 2652 | [Sum Multiples 倍数求和](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/2652-SumMultiples.md) | Easy | 哈希 |
 | 2697 | [Lexicographically Smallest Palindrome 字典序最小回文串](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/2697-LexicographicallySmallestPalindrome.md) | Easy | 双指针 |
 | 2731 | [Movement of Robots 移动机器人](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/2731-MovementofRobots.js) | Medium | 脑筋急转弯 |
 | 2760 | [Longest Even Odd Subarray With Threshold 最长奇偶子数组](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/2760-LongestEvenOddSubarrayWithThreshold.md) | Easy | 动态规划 |
+| 3033 | [Modify the Matrix 修改矩阵](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/3033-ModifytheMatrix.md) | Easy | 数组 |
 | 3136 | [Permutation Difference between Two Strings 两个字符串的排列差](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/3136-PermutationDifferencebetweenTwoStrings.js) | Easy |  |
 
 **剑指offer**
