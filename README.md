@@ -426,22 +426,22 @@ pie title 已完成的题目
 | 2130 | [Maximum Twin Sum of a Linked List 链表最大孪生和](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/2130-MaximumTwinSumofaLinkedList.js) | Medium | 链表 |
 | 2215 | [Find the Difference of Two Arrays 找出两数组的不同](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/2215-FindtheDifferenceofTwoArrays.js) | Easy | 哈希 |
 | 2300 | [Successful Pairs of Spells and Potions 咒语和药水的成功对数](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/2300-SuccessfulPairsofSpellsandPotions.js) | Medium | 二分查找 |
-| 2336 | [Smallest Number in infinite Set 无限集中的最小数字](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/2336-SmallestNumberininfiniteSet.js) | Medium | 优先队列 |
-| 2352 | [Equal Row and Column Pairs 相等行列对](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/2352-EqualRowandColumnPairs.js) | Medium | 哈希 |
-| 2390 | [Removing Stars From a String 从字符串中移除星号](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/2390-RemovingStarsFromaString.js) | Medium | 栈 |
-| 2462 | [Total Cost to Hire K Workers 雇佣 K 位工人的总代价](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/2462-TotalCosttoHireKWorkers.js) | Medium | 优先队列 |
-| 2512 | [Reward Top K Students 奖励最顶尖的 K 名学生](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/2512-RewardTopKStudents.js) | Medium |  |
-| 2530 | [Maximal Score After Applying K Operations 执行 K 次操作后的最大分数](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/2530-MaximalScoreAfterApplyingKOperations.js) | Medium | 贪心、优先队列 |
-| 2542 | [Maximum Subsequence Score 最大子序列的分数](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/2542-MaximumSubsequenceScore.js) | Medium | 优先队列 |
-| 2578 | [Split With Minimum Sum 最小和分割](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/2578-SplitWithMinimumSum.js) | Easy | 贪心 |
-| 2580 | [Count Ways to Group Overlapping Ranges 统计将重叠区间合并成组的方案数](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/2580-CountWaystoGroupOverlappingRanges.js) | Medium | 区间合并 |
+| 2336 | [Smallest Number in infinite Set 无限集中的最小数字](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/2336-SmallestNumberininfiniteSet.md) | Medium | 优先队列 |
+| 2352 | [Equal Row and Column Pairs 相等行列对](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/2352-EqualRowandColumnPairs.md) | Medium | 哈希 |
+| 2390 | [Removing Stars From a String 从字符串中移除星号](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/2390-RemovingStarsFromaString.md) | Medium | 栈 |
+| 2462 | [Total Cost to Hire K Workers 雇佣 K 位工人的总代价](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/2462-TotalCosttoHireKWorkers.md) | Medium | 优先队列 |
+| 2512 | [Reward Top K Students 奖励最顶尖的 K 名学生](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/2512-RewardTopKStudents.md) | Medium |  |
+| 2530 | [Maximal Score After Applying K Operations 执行 K 次操作后的最大分数](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/2530-MaximalScoreAfterApplyingKOperations.md) | Medium | 贪心、优先队列 |
+| 2542 | [Maximum Subsequence Score 最大子序列的分数](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/2542-MaximumSubsequenceScore.md) | Medium | 优先队列 |
+| 2578 | [Split With Minimum Sum 最小和分割](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/2578-SplitWithMinimumSum.md) | Easy | 贪心 |
+| 2580 | [Count Ways to Group Overlapping Ranges 统计将重叠区间合并成组的方案数](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/2580-CountWaystoGroupOverlappingRanges.md) | Medium | 区间合并 |
 | 2639 | [Find the Width of Columns of a Grid 查询网格图中每一列的宽度](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/2639-FindtheWidthofColumnsofaGrid.md) | Easy | 数组 |
 | 2652 | [Sum Multiples 倍数求和](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/2652-SumMultiples.md) | Easy | 哈希 |
 | 2697 | [Lexicographically Smallest Palindrome 字典序最小回文串](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/2697-LexicographicallySmallestPalindrome.md) | Easy | 双指针 |
-| 2731 | [Movement of Robots 移动机器人](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/2731-MovementofRobots.js) | Medium | 脑筋急转弯 |
+| 2731 | [Movement of Robots 移动机器人](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/2731-MovementofRobots.md) | Medium | 脑筋急转弯 |
 | 2760 | [Longest Even Odd Subarray With Threshold 最长奇偶子数组](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/2760-LongestEvenOddSubarrayWithThreshold.md) | Easy | 动态规划 |
 | 3033 | [Modify the Matrix 修改矩阵](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/3033-ModifytheMatrix.md) | Easy | 数组 |
-| 3136 | [Permutation Difference between Two Strings 两个字符串的排列差](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/3136-PermutationDifferencebetweenTwoStrings.js) | Easy |  |
+| 3146 | [Permutation Difference between Two Strings 两个字符串的排列差](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/3146-PermutationDifferencebetweenTwoStrings.md) | Easy |  |
 
 **剑指offer**
 
