@@ -19,22 +19,22 @@ pie title 已完成的题目
 | 1 | [Two Sum 两数之和](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/1-TwoSum.md) | Easy | 哈希 |
 | 2 | [Add Two Numbers 两数相加](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/2-AddTwoNumbers.md) | Medium | 链表 |
 | 3 | [Longest Substring Without Repeating Characters 无重复字符的最长子串](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/3-LongestSubstringWithoutRepeatingCharacters.md) | Medium | 滑动窗口 |
-| 4 | [Median of Two Sorted Arrays 两个排序数组的中位数](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Hard/4-MedianofTwoSortedArrays.md) | Hard | 数组 |
+| 4 | [Median of Two Sorted Arrays 寻找两个正序数组的中位数](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Hard/4-MedianofTwoSortedArrays.md) | Hard | 数组 |
 | 5 | [Longest Palindromic Substring 最长回文子串](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/5-LongestPalindromicSubstring.md) | Medium | 双指针 |
-| 6 | [ZigZag Conversion Z 字形变换](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/6-ZigZagConversion.md) | Medium |  |
-| 7 | [Reverse Integer 翻转整数](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/7-ReverseInteger.md) | Medium |  |
-| 8 | [String to Integer (atoi) 字符串转为整数](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/8-StringtoInteger(atoi).md) | Medium |  |
-| 9 | [Palindrome Number 回文数字](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/9-PalindromeNumber.md) | Easy |  |
+| 6 | [ZigZag Conversion Z 字形变换](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/6-ZigZagConversion.md) | Medium | 字符串 |
+| 7 | [Reverse Integer 翻转整数](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/7-ReverseInteger.md) | Medium | 字符串 |
+| 8 | [String to Integer (atoi) 字符串转为整数](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/8-StringtoInteger(atoi).md) | Medium | 字符串 |
+| 9 | [Palindrome Number 回文数字](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/9-PalindromeNumber.md) | Easy | 数学 |
 | 10 | [Regular Expression Matching 正则表达式匹配](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Hard/10-RegularExpressionMatching.md) | Hard |  |
 | 11 | [Container With Most Water 盛最多水的容器](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/11-ContainerWithMostWater.md) | Medium | 双指针 |
 | 12 | [Integer to Roman 整数转罗马数字](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/12-IntegertoRoman.md) | Medium |  |
 | 13 | [Roman to Integer 罗马数字转整数](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/13-RomantoInteger.md) | Easy |  |
 | 14 | [Longest Common Prefix 最长共同前缀](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/14-LongestCommonPrefix.md) | Easy | 数组 |
 | 15 | [3 Sum 三数之和](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/15-3Sum.md) | Medium | 双指针 |
-| 16 | [3 Sum Closest 最接近的三数之和](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/16-3SumClosest.md) | Medium |  |
-| 17 | [Letter Combinations of a Phone Number 电话号码的字母组合](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/17-LetterCombinationsofaPhoneNumber.md) | Medium |  |
-| 18 | [4 Sum 四数之和](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/18-4Sum.md) | Medium |  |
-| 19 | [Remove Nth Node From End of List 删除链表的倒数第 N 个节点](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/19-RemoveNthNodeFromEndofLIst.md) | Medium |  |
+| 16 | [3 Sum Closest 最接近的三数之和](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/16-3SumClosest.md) | Medium | 双指针 |
+| 17 | [Letter Combinations of a Phone Number 电话号码的字母组合](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/17-LetterCombinationsofaPhoneNumber.md) | Medium | 字符串、回溯 |
+| 18 | [4 Sum 四数之和](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/18-4Sum.md) | Medium | 双指针法 |
+| 19 | [Remove Nth Node From End of List 删除链表的倒数第 N 个节点](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/19-RemoveNthNodeFromEndofLIst.md) | Medium | 快慢指针 |
 | 20 | [Valid Parentheses 有效的括号](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/20-ValidParentheses.md) | Easy | 栈 |
 | 21 | [Merge Two Sorted Lists 合并两个有序链表](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/21-MergeTwoSortedLists.md) | Easy |  |
 | 22 | [Generate Parentheses 生成括号](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/22-GenerateParentheses.md) | Medium |  |

@@ -17,47 +17,53 @@
 尽管上面的答案是按字典序排列的，但是你可以任意选择答案输出的顺序。
 
 **思路：**
-使用了回溯思想，先把数据整理一遍，整理出一个 map
-创建一个回溯方法，针对字符的长度，如果字符长度===传进来的数字的长度，就退出
-否则就继续一层一层的进行
+
+1. 数字到字母的映射：首先，定义了一个对象 digitToLetters，它作为从单个数字键到相应字母字符串的映射。这个映射基于电话按键上的数字与字母的对应关系。
+2. 函数定义：letterCombinations 函数接收一个字符串 digits 作为参数，这个字符串只包含数字 2 到 9。
+3. 边界条件处理：如果输入的字符串 digits 为空或长度为 0，直接返回一个空数组，因为没有字母组合可以生成。
+4. 初始化结果数组：定义一个数组 res 来存储生成的所有可能的字母组合。
+5. 定义回溯函数：backtrace 是一个内部定义的递归函数，它用于生成字母组合。它接收两个参数：index 表示当前处理的 digits 字符串中的索引位置，path 表示到目前为止构建的字母组合。
+6. 递归终止条件：如果 index 等于 digits 的长度，说明已经处理完所有数字，此时将当前的字母组合 path 添加到结果数组 res 中。
+7. 获取当前数字对应的字母：使用 digitToLetters 映射获取 digits 中当前索引 index 对应的数字键的字母字符串 letters。
+8. 递归生成组合：通过一个 for 循环遍历 letters 中的每个字母，并将每个字母添加到当前的字母组合 path 中，然后递归调用 backtrace 函数，索引加 1，继续生成剩余数字的字母组合。
+9. 初始递归调用：在 letterCombinations 函数的底部，以索引 0 和空字符串 '' 作为初始参数调用 backtrace 函数，开始递归过程。
+10. 返回结果：递归完成后，返回结果数组 res，其中包含了所有可能的字母组合。
+
+这个算法使用了回溯法，它是一种深度优先搜索策略，用于生成所有候选解决方案。在这个问题中，回溯法用于探索所有可能的字母组合，直到找到所有满足条件的组合。这种方法可以确保找到所有可能的组合，而不会重复或遗漏。
 
 ```js
 /**
  * @param {string} digits
  * @return {string[]}
  */
-var letterCombinations = function (digits) {
-  const strMap = {
-    '2': 'abc',
-    '3': 'def',
-    '4': 'ghi',
-    '5': 'jkl',
-    '6': 'mno',
-    '7': 'pqrs',
-    '8': 'tuv',
-    '9': 'wxyz',
-  };
+const digitToLetters = {
+  2: 'abc',
+  3: 'def',
+  4: 'ghi',
+  5: 'jkl',
+  6: 'mno',
+  7: 'pqrs',
+  8: 'tuv',
+  9: 'wxyz',
+};
 
-  const length = digits.length;
+const letterCombinations = (digits) => {
+  if (digits.length === 0) return [];
+
   const res = [];
-  if (length === 0) return res;
-
-  const backtrace = (combine, len) => {
-    if (combine.length === length) {
-      res.push(combine);
+  const backtrace = (index, path) => {
+    if (index === digits.length) {
+      res.push(path);
       return;
     }
 
-    let strNum = digits[len];
-    let strWrap = strMap[strNum];
-    if (strWrap) {
-      for (let i = 0; i < strWrap.length; i++) {
-        const letter = strWrap[i];
-        backtrace(combine + letter, len + 1);
-      }
+    const letters = digitToLetters[digits[index]];
+    for (let i = 0; i < letters.length; i++) {
+      backtrace(index + 1, path + letters[i]);
     }
   };
-  backtrace('', 0);
+
+  backtrace(0, '');
   return res;
 };
 ```
