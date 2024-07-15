@@ -30,7 +30,14 @@
 
 **思路：**
 
-排序两个数组，然后两个数组同时遍历，如果有相等的，就都加 1，否则谁的值小，谁加 1
+使用哈希表（在 JavaScript 中，可以使用对象或者 Map 来实现哈希表的功能）来找出两个数组 nums1 和 nums2 中的共同元素。这种方法的时间复杂度可以降低到 O(n + m)，其中 n 和 m 分别是两个数组的长度。以下是使用哈希表的算法步骤：
+
+1. 创建哈希表：遍历数组 nums1，将每个元素作为键，出现次数作为值，存储到一个哈希表中。
+2. 查找共同元素：遍历数组 nums2，对于 nums2 中的每个元素，检查它是否在哈希表中，以及哈希表中对应的值是否大于 0（即在 nums1 中出现过）。
+3. 存储结果：如果 nums2 中的元素在哈希表中，并且哈希表中的值大于 0，那么这个元素是共同元素，将其添加到结果数组中，并将哈希表中该元素的值减 1。
+4. 返回结果：遍历结束后，返回存储共同元素的数组。
+
+算法的优点是不需要对数组进行排序，因此在最坏情况下避免了排序的 O(n log n) 时间复杂度。同时，由于使用了哈希表，查找和插入操作的平均时间复杂度是 O(1)，使得整个算法更加高效。空间复杂度也是 O(n + m)，因为需要存储两个数组的元素到哈希表和结果数组中。
 
 ```js
 /**
@@ -38,25 +45,27 @@
  * @param {number[]} nums2
  * @return {number[]}
  */
-var intersect = function(nums1, nums2) {
-  nums1.sort((a, b) => a - b);
-  nums2.sort((a, b) => a - b);
-  let len1 = nums1.length;
-  let len2 = nums2.length;
-  let i = 0;
-  let j = 0;
-  let arr = [];
-  while (i < len1 && j < len2) {
-    if (nums1[i] == nums2[j]) {
-      arr.push(nums1[i]);
-      i++;
-      j++;
-    } else if (nums1[i] < nums2[j]) {
-      i++;
+var intersect = function (nums1, nums2) {
+  let map = new Map();
+  let result = [];
+
+  // 填充哈希表
+  for (let num of nums1) {
+    if (map.has(num)) {
+      map.set(num, map.get(num) + 1);
     } else {
-      j++;
+      map.set(num, 1);
     }
   }
-  return arr;
+
+  // 查找共同元素
+  for (let num of nums2) {
+    if (map.has(num) && map.get(num) > 0) {
+      result.push(num);
+      map.set(num, map.get(num) - 1);
+    }
+  }
+
+  return result;
 };
 ```

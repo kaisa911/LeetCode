@@ -17,7 +17,9 @@ const helper = () => {
   for (let i = 0; i < thinking.length; i++) {
     const list = fs.readdirSync(path.join(__dirname, `../Thinkings/${thinking[i].name}`));
     for (let j = 0; j < list.length; j++) {
-      result[thinking[i].name] = fs.readdirSync(path.join(__dirname, `../Thinkings/${thinking[i].name}`));
+      result[thinking[i].name] = fs.readdirSync(
+        path.join(__dirname, `../Thinkings/${thinking[i].name}`)
+      );
     }
   }
 
@@ -43,11 +45,8 @@ const sort = () => {
     enName: '${nameMap[infos[i]].enName || ''}',
     difficulty: '${nameMap[infos[i]].difficulty || ''}',
     label: '${nameMap[infos[i]].label || ''}',
-    hasThinkings: '${
-      nameMap[infos[i]].hasThinkings === 'true'
-        ? nameMap[infos[i]].hasThinkings
-        : (indexMap[nameMap[infos[i]].difficulty] || []).includes(`${infos[i]}`)
-    }',
+    hasThinkings: '${(indexMap[nameMap[infos[i]].difficulty] || []).includes(`${infos[i]}`)}',
+    checked: '${nameMap[infos[i]].checked || 'false'}',
   },\n`;
   }
 

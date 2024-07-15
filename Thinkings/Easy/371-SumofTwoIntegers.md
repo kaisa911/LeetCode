@@ -17,11 +17,16 @@
 ```
 
 **思路：**
-拿到这道题的时候，想了一下，Math 有没有 sum 的方法啊，哈哈哈。  
+这个函数首先检查输入的整数是否为负数，如果是，就将其转换为正数。然后使用异或操作来计算两个数的和，同时使用与操作来计算进位。如果存在进位，就继续进行加法运算，直到没有进位为止。
+
 只能用位运算来搞了
 按位异或可以获得该位相加得和，但是不能得到进位。
 按位与可以获取到该位相加的进位。进位应该加在前面一位上，所以要左移一位。
 所以采用递归，把所有的位数都加一遍。
+
+
+
+
 
 ```js
 /**
@@ -30,12 +35,30 @@
  * @return {number}
  */
 const getSum = (a, b) => {
-  let res, carry;
-  res = a ^ b;
-  carry = (a & b) << 1;
-  if (carry != 0) {
-    return getSum(res, carry);
+  // 考虑负数的情况，使用按位取反和加1操作将负数转换为正数
+  const MAX_INT = 0x7fffffff; // 32位整数的最大值
+  const MIN_INT = 0x80000000; // 32位整数的最小值
+
+  // 如果a是负数，将其转换为正数
+  if (a < 0) a = (~a + 1) & MAX_INT;
+  // 如果b是负数，将其转换为正数
+  if (b < 0) b = (~b + 1) & MAX_INT;
+
+  // 使用异或操作计算不带进位的和
+  let sum = a ^ b;
+  // 使用与操作计算进位
+  let carry = (a & b) << 1;
+
+  // 当进位不为0时，继续进行加法运算
+  while (carry !== 0) {
+    let tempSum = sum;
+    sum = tempSum ^ carry;
+    carry = (tempSum & carry) << 1;
   }
-  return res;
+
+  // 将结果转换回可能的负数形式
+  if (sum > MAX_INT) sum = ~(sum - 1) | MIN_INT;
+
+  return sum;
 };
 ```

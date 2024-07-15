@@ -5,6 +5,7 @@ const nameMap = {
     difficulty: 'Easy',
     label: '哈希',
     hasThinkings: 'true',
+    checked: 'true',
   },
   2: {
     cnName: '两数相加',
@@ -12,6 +13,7 @@ const nameMap = {
     difficulty: 'Medium',
     label: '链表',
     hasThinkings: 'true',
+    checked: 'false',
   },
   3: {
     cnName: '无重复字符的最长子串',
@@ -19,6 +21,7 @@ const nameMap = {
     difficulty: 'Medium',
     label: '滑动窗口',
     hasThinkings: 'true',
+    checked: 'false',
   },
   4: {
     cnName: '两个排序数组的中位数',
@@ -26,6 +29,7 @@ const nameMap = {
     difficulty: 'Hard',
     label: '数组',
     hasThinkings: 'true',
+    checked: 'false',
   },
   5: {
     cnName: '最长回文子串',
@@ -33,6 +37,7 @@ const nameMap = {
     difficulty: 'Medium',
     label: '双指针',
     hasThinkings: 'true',
+    checked: 'false',
   },
   6: {
     cnName: 'Z 字形变换',
@@ -40,6 +45,7 @@ const nameMap = {
     difficulty: 'Medium',
     label: '',
     hasThinkings: 'true',
+    checked: 'false',
   },
   7: {
     cnName: '翻转整数',
@@ -47,6 +53,7 @@ const nameMap = {
     difficulty: 'Medium',
     label: '',
     hasThinkings: 'true',
+    checked: 'false',
   },
   8: {
     cnName: '字符串转为整数',
@@ -54,6 +61,7 @@ const nameMap = {
     difficulty: 'Medium',
     label: '',
     hasThinkings: 'true',
+    checked: 'false',
   },
   9: {
     cnName: '回文数字',
@@ -61,6 +69,7 @@ const nameMap = {
     difficulty: 'Easy',
     label: '',
     hasThinkings: 'true',
+    checked: 'true',
   },
   10: {
     cnName: '正则表达式匹配',
@@ -68,6 +77,7 @@ const nameMap = {
     difficulty: 'Hard',
     label: '',
     hasThinkings: 'true',
+    checked: 'false',
   },
   11: {
     cnName: '盛最多水的容器',
@@ -75,6 +85,7 @@ const nameMap = {
     difficulty: 'Medium',
     label: '双指针',
     hasThinkings: 'true',
+    checked: 'false',
   },
   12: {
     cnName: '整数转罗马数字',
@@ -82,6 +93,7 @@ const nameMap = {
     difficulty: 'Medium',
     label: '',
     hasThinkings: 'true',
+    checked: 'false',
   },
   13: {
     cnName: '罗马数字转整数',
@@ -89,6 +101,7 @@ const nameMap = {
     difficulty: 'Easy',
     label: '',
     hasThinkings: 'true',
+    checked: 'true',
   },
   14: {
     cnName: '最长共同前缀',
@@ -96,6 +109,7 @@ const nameMap = {
     difficulty: 'Easy',
     label: '数组',
     hasThinkings: 'true',
+    checked: 'true',
   },
   15: {
     cnName: '三数之和',
@@ -103,6 +117,7 @@ const nameMap = {
     difficulty: 'Medium',
     label: '双指针',
     hasThinkings: 'true',
+    checked: 'false',
   },
   16: {
     cnName: '最接近的三数之和',
@@ -110,6 +125,7 @@ const nameMap = {
     difficulty: 'Medium',
     label: '',
     hasThinkings: 'true',
+    checked: 'false',
   },
   17: {
     cnName: '电话号码的字母组合',
@@ -117,6 +133,7 @@ const nameMap = {
     difficulty: 'Medium',
     label: '',
     hasThinkings: 'true',
+    checked: 'false',
   },
   18: {
     cnName: '四数之和',
@@ -124,6 +141,7 @@ const nameMap = {
     difficulty: 'Medium',
     label: '',
     hasThinkings: 'true',
+    checked: 'false',
   },
   19: {
     cnName: '删除链表的倒数第 N 个节点',
@@ -131,6 +149,7 @@ const nameMap = {
     difficulty: 'Medium',
     label: '',
     hasThinkings: 'true',
+    checked: 'false',
   },
   20: {
     cnName: '有效的括号',
@@ -138,6 +157,7 @@ const nameMap = {
     difficulty: 'Easy',
     label: '栈',
     hasThinkings: 'true',
+    checked: 'true',
   },
   21: {
     cnName: '合并两个有序链表',
@@ -145,6 +165,7 @@ const nameMap = {
     difficulty: 'Easy',
     label: '',
     hasThinkings: 'true',
+    checked: 'true',
   },
   22: {
     cnName: '生成括号',
@@ -152,6 +173,7 @@ const nameMap = {
     difficulty: 'Medium',
     label: '',
     hasThinkings: 'true',
+    checked: 'false',
   },
   23: {
     cnName: '合并 K 个排序链表',
@@ -159,6 +181,7 @@ const nameMap = {
     difficulty: 'Hard',
     label: '',
     hasThinkings: 'true',
+    checked: 'false',
   },
   24: {
     cnName: '两两交换链表中的节点',
@@ -166,6 +189,7 @@ const nameMap = {
     difficulty: 'Medium',
     label: '',
     hasThinkings: 'true',
+    checked: 'false',
   },
   25: {
     cnName: '每 k 个一组翻转链表',
@@ -173,6 +197,7 @@ const nameMap = {
     difficulty: 'Hard',
     label: '',
     hasThinkings: 'true',
+    checked: 'false',
   },
   26: {
     cnName: '从有序数组中删除重复项',
@@ -180,6 +205,7 @@ const nameMap = {
     difficulty: 'Easy',
     label: '双指针',
     hasThinkings: 'true',
+    checked: 'true',
   },
   27: {
     cnName: '移除元素',
@@ -187,6 +213,7 @@ const nameMap = {
     difficulty: 'Easy',
     label: '双指针',
     hasThinkings: 'true',
+    checked: 'true',
   },
   28: {
     cnName: '实现 strStr()',
@@ -194,6 +221,7 @@ const nameMap = {
     difficulty: 'Easy',
     label: 'KMP算法',
     hasThinkings: 'true',
+    checked: 'true',
   },
   29: {
     cnName: '两数相除',
@@ -201,6 +229,7 @@ const nameMap = {
     difficulty: 'Medium',
     label: '',
     hasThinkings: 'true',
+    checked: 'false',
   },
   30: {
     cnName: '串联所有单词的子串',
@@ -208,6 +237,7 @@ const nameMap = {
     difficulty: 'Hard',
     label: '',
     hasThinkings: 'true',
+    checked: 'false',
   },
   31: {
     cnName: '下一个排列',
@@ -215,6 +245,7 @@ const nameMap = {
     difficulty: 'Medium',
     label: '',
     hasThinkings: 'true',
+    checked: 'false',
   },
   32: {
     cnName: '最长有效括号',
@@ -222,6 +253,7 @@ const nameMap = {
     difficulty: 'Hard',
     label: '',
     hasThinkings: 'true',
+    checked: 'false',
   },
   33: {
     cnName: '在旋转有序数组中搜索',
@@ -229,6 +261,7 @@ const nameMap = {
     difficulty: 'Medium',
     label: '',
     hasThinkings: 'true',
+    checked: 'false',
   },
   34: {
     cnName: '搜索范围',
@@ -236,6 +269,7 @@ const nameMap = {
     difficulty: 'Medium',
     label: '',
     hasThinkings: 'true',
+    checked: 'false',
   },
   35: {
     cnName: '搜索插入位置',
@@ -243,6 +277,7 @@ const nameMap = {
     difficulty: 'Easy',
     label: '二分查找',
     hasThinkings: 'true',
+    checked: 'true',
   },
   36: {
     cnName: '验证数独',
@@ -250,6 +285,7 @@ const nameMap = {
     difficulty: 'Medium',
     label: '',
     hasThinkings: 'true',
+    checked: 'false',
   },
   37: {
     cnName: '解数独',
@@ -257,6 +293,7 @@ const nameMap = {
     difficulty: 'Hard',
     label: '',
     hasThinkings: 'true',
+    checked: 'false',
   },
   38: {
     cnName: '数数并说',
@@ -264,6 +301,7 @@ const nameMap = {
     difficulty: 'Medium',
     label: '',
     hasThinkings: 'true',
+    checked: 'false',
   },
   39: {
     cnName: '组合之和',
@@ -271,6 +309,7 @@ const nameMap = {
     difficulty: 'Medium',
     label: '',
     hasThinkings: 'true',
+    checked: 'false',
   },
   40: {
     cnName: '组合之和 II',
@@ -278,6 +317,7 @@ const nameMap = {
     difficulty: 'Medium',
     label: '',
     hasThinkings: 'true',
+    checked: 'false',
   },
   41: {
     cnName: '缺失的第一个正数',
@@ -285,6 +325,7 @@ const nameMap = {
     difficulty: 'Hard',
     label: '数组',
     hasThinkings: 'true',
+    checked: 'false',
   },
   42: {
     cnName: '接雨水',
@@ -292,6 +333,7 @@ const nameMap = {
     difficulty: 'Hard',
     label: '双指针',
     hasThinkings: 'true',
+    checked: 'false',
   },
   43: {
     cnName: '字符串相乘',
@@ -299,6 +341,7 @@ const nameMap = {
     difficulty: 'Medium',
     label: '',
     hasThinkings: 'true',
+    checked: 'false',
   },
   44: {
     cnName: '通配符匹配',
@@ -306,6 +349,7 @@ const nameMap = {
     difficulty: 'Hard',
     label: '',
     hasThinkings: 'true',
+    checked: 'false',
   },
   45: {
     cnName: '跳跃游戏 II',
@@ -313,6 +357,7 @@ const nameMap = {
     difficulty: 'Medium',
     label: '',
     hasThinkings: 'true',
+    checked: 'false',
   },
   46: {
     cnName: '全排列',
@@ -320,6 +365,7 @@ const nameMap = {
     difficulty: 'Medium',
     label: '',
     hasThinkings: 'true',
+    checked: 'false',
   },
   47: {
     cnName: '全排列 II',
@@ -327,6 +373,7 @@ const nameMap = {
     difficulty: 'Medium',
     label: '',
     hasThinkings: 'true',
+    checked: 'false',
   },
   48: {
     cnName: '旋转图像',
@@ -334,6 +381,7 @@ const nameMap = {
     difficulty: 'Medium',
     label: '',
     hasThinkings: 'true',
+    checked: 'false',
   },
   49: {
     cnName: '字母异位词分组',
@@ -341,6 +389,7 @@ const nameMap = {
     difficulty: 'Medium',
     label: '哈希',
     hasThinkings: 'true',
+    checked: 'false',
   },
   50: {
     cnName: 'Pow(x, n)',
@@ -348,6 +397,7 @@ const nameMap = {
     difficulty: 'Medium',
     label: '',
     hasThinkings: 'true',
+    checked: 'false',
   },
   51: {
     cnName: 'N 皇后',
@@ -355,6 +405,7 @@ const nameMap = {
     difficulty: 'Hard',
     label: '回溯',
     hasThinkings: 'true',
+    checked: 'false',
   },
   52: {
     cnName: 'N 皇后 II',
@@ -362,6 +413,7 @@ const nameMap = {
     difficulty: 'Hard',
     label: '回溯',
     hasThinkings: 'true',
+    checked: 'false',
   },
   53: {
     cnName: '最大子数组和',
@@ -369,6 +421,7 @@ const nameMap = {
     difficulty: 'Medium',
     label: '数组',
     hasThinkings: 'true',
+    checked: 'false',
   },
   54: {
     cnName: '螺旋矩阵',
@@ -376,6 +429,7 @@ const nameMap = {
     difficulty: 'Medium',
     label: '矩阵',
     hasThinkings: 'true',
+    checked: 'false',
   },
   55: {
     cnName: '跳跃游戏',
@@ -383,6 +437,7 @@ const nameMap = {
     difficulty: 'Medium',
     label: '',
     hasThinkings: 'true',
+    checked: 'false',
   },
   56: {
     cnName: '合并区间',
@@ -390,6 +445,7 @@ const nameMap = {
     difficulty: 'Medium',
     label: '数组',
     hasThinkings: 'true',
+    checked: 'false',
   },
   57: {
     cnName: '插入区间',
@@ -397,6 +453,7 @@ const nameMap = {
     difficulty: 'Hard',
     label: '',
     hasThinkings: 'true',
+    checked: 'false',
   },
   58: {
     cnName: '最后一个单词的长度',
@@ -404,6 +461,7 @@ const nameMap = {
     difficulty: 'Easy',
     label: '字符串',
     hasThinkings: 'true',
+    checked: 'true',
   },
   59: {
     cnName: '螺旋矩阵 II',
@@ -411,6 +469,7 @@ const nameMap = {
     difficulty: 'Medium',
     label: '矩阵',
     hasThinkings: 'true',
+    checked: 'false',
   },
   60: {
     cnName: '排列序列',
@@ -418,6 +477,7 @@ const nameMap = {
     difficulty: 'Hard',
     label: '',
     hasThinkings: 'true',
+    checked: 'false',
   },
   61: {
     cnName: '旋转链表',
@@ -425,6 +485,7 @@ const nameMap = {
     difficulty: 'Medium',
     label: '',
     hasThinkings: 'true',
+    checked: 'false',
   },
   62: {
     cnName: '不同路径',
@@ -432,6 +493,7 @@ const nameMap = {
     difficulty: 'Medium',
     label: '',
     hasThinkings: 'true',
+    checked: 'false',
   },
   63: {
     cnName: '不同路径 II',
@@ -439,6 +501,7 @@ const nameMap = {
     difficulty: 'Medium',
     label: '',
     hasThinkings: 'true',
+    checked: 'false',
   },
   64: {
     cnName: '最小路径和',
@@ -446,6 +509,7 @@ const nameMap = {
     difficulty: 'Medium',
     label: '',
     hasThinkings: 'true',
+    checked: 'false',
   },
   65: {
     cnName: '有效数字',
@@ -453,6 +517,7 @@ const nameMap = {
     difficulty: 'Hard',
     label: '',
     hasThinkings: 'true',
+    checked: 'false',
   },
   66: {
     cnName: '加一',
@@ -460,6 +525,7 @@ const nameMap = {
     difficulty: 'Easy',
     label: '数组',
     hasThinkings: 'true',
+    checked: 'true',
   },
   67: {
     cnName: '二进制求和',
@@ -467,6 +533,7 @@ const nameMap = {
     difficulty: 'Easy',
     label: '字符串',
     hasThinkings: 'true',
+    checked: 'true',
   },
   68: {
     cnName: '文本左右对齐',
@@ -474,6 +541,7 @@ const nameMap = {
     difficulty: 'Hard',
     label: '',
     hasThinkings: 'true',
+    checked: 'false',
   },
   69: {
     cnName: 'x 的平方根',
@@ -481,6 +549,7 @@ const nameMap = {
     difficulty: 'Easy',
     label: '二分法',
     hasThinkings: 'true',
+    checked: 'true',
   },
   70: {
     cnName: '爬楼梯',
@@ -488,6 +557,7 @@ const nameMap = {
     difficulty: 'Easy',
     label: '动态规划',
     hasThinkings: 'true',
+    checked: 'true',
   },
   71: {
     cnName: '简化路径',
@@ -495,6 +565,7 @@ const nameMap = {
     difficulty: 'Medium',
     label: '',
     hasThinkings: 'true',
+    checked: 'false',
   },
   72: {
     cnName: '编辑距离',
@@ -502,6 +573,7 @@ const nameMap = {
     difficulty: 'Hard',
     label: '',
     hasThinkings: 'true',
+    checked: 'false',
   },
   73: {
     cnName: '矩阵置零',
@@ -509,6 +581,7 @@ const nameMap = {
     difficulty: 'Medium',
     label: '矩阵',
     hasThinkings: 'true',
+    checked: 'false',
   },
   74: {
     cnName: '搜索二维矩阵',
@@ -516,6 +589,7 @@ const nameMap = {
     difficulty: 'Medium',
     label: '矩阵',
     hasThinkings: 'true',
+    checked: 'false',
   },
   75: {
     cnName: '颜色分类',
@@ -523,6 +597,7 @@ const nameMap = {
     difficulty: 'Medium',
     label: '',
     hasThinkings: 'true',
+    checked: 'false',
   },
   76: {
     cnName: '最小覆盖子串',
@@ -530,6 +605,7 @@ const nameMap = {
     difficulty: 'Hard',
     label: '子串',
     hasThinkings: 'true',
+    checked: 'false',
   },
   77: {
     cnName: '组合',
@@ -537,6 +613,7 @@ const nameMap = {
     difficulty: 'Medium',
     label: '',
     hasThinkings: 'true',
+    checked: 'false',
   },
   78: {
     cnName: '子集',
@@ -544,13 +621,15 @@ const nameMap = {
     difficulty: 'Medium',
     label: '',
     hasThinkings: 'true',
+    checked: 'false',
   },
   79: {
     cnName: '单词搜索',
     enName: 'Word Search',
     difficulty: 'Medium',
     label: '',
-    hasThinkings: 'true',
+    hasThinkings: 'false',
+    checked: 'false',
   },
   80: {
     cnName: '删除排序数组中的重复项 II',
@@ -558,13 +637,15 @@ const nameMap = {
     difficulty: 'Medium',
     label: '',
     hasThinkings: 'true',
+    checked: 'false',
   },
   81: {
     cnName: '搜索旋转排序数组 II',
     enName: 'Searching Rotated Sorted Array II',
     difficulty: 'Medium',
     label: '',
-    hasThinkings: 'true',
+    hasThinkings: 'false',
+    checked: 'false',
   },
   82: {
     cnName: '删除排序链表中的重复元素 II',
@@ -572,6 +653,7 @@ const nameMap = {
     difficulty: 'Medium',
     label: '',
     hasThinkings: 'true',
+    checked: 'false',
   },
   83: {
     cnName: '删除排序链表中的重复元素',
@@ -579,6 +661,7 @@ const nameMap = {
     difficulty: 'Easy',
     label: '链表',
     hasThinkings: 'true',
+    checked: 'true',
   },
   84: {
     cnName: '柱状图中最大的矩形',
@@ -586,6 +669,7 @@ const nameMap = {
     difficulty: 'Hard',
     label: '',
     hasThinkings: 'true',
+    checked: 'false',
   },
   85: {
     cnName: '最大矩形',
@@ -593,6 +677,7 @@ const nameMap = {
     difficulty: 'Hard',
     label: '',
     hasThinkings: 'true',
+    checked: 'false',
   },
   86: {
     cnName: '分隔链表',
@@ -600,6 +685,7 @@ const nameMap = {
     difficulty: 'Medium',
     label: '',
     hasThinkings: 'true',
+    checked: 'false',
   },
   87: {
     cnName: '扰乱字符串',
@@ -607,6 +693,7 @@ const nameMap = {
     difficulty: 'Hard',
     label: '',
     hasThinkings: 'true',
+    checked: 'false',
   },
   88: {
     cnName: '合并两个有序数组',
@@ -614,6 +701,7 @@ const nameMap = {
     difficulty: 'Easy',
     label: '',
     hasThinkings: 'true',
+    checked: 'true',
   },
   89: {
     cnName: '格雷编码',
@@ -621,6 +709,7 @@ const nameMap = {
     difficulty: 'Medium',
     label: '',
     hasThinkings: 'false',
+    checked: 'false',
   },
   90: {
     cnName: '子集 II',
@@ -628,6 +717,7 @@ const nameMap = {
     difficulty: 'Medium',
     label: '',
     hasThinkings: 'false',
+    checked: 'false',
   },
   91: {
     cnName: '解码方法',
@@ -635,6 +725,7 @@ const nameMap = {
     difficulty: 'Medium',
     label: '',
     hasThinkings: 'false',
+    checked: 'false',
   },
   92: {
     cnName: '反转链表 II',
@@ -642,6 +733,7 @@ const nameMap = {
     difficulty: 'Medium',
     label: '',
     hasThinkings: 'false',
+    checked: 'false',
   },
   93: {
     cnName: '复原 IP 地址',
@@ -649,6 +741,7 @@ const nameMap = {
     difficulty: 'Medium',
     label: '',
     hasThinkings: 'false',
+    checked: 'false',
   },
   94: {
     cnName: '二叉树的中序遍历',
@@ -656,13 +749,15 @@ const nameMap = {
     difficulty: 'Medium',
     label: '',
     hasThinkings: 'true',
+    checked: 'false',
   },
   95: {
     cnName: '不同的二叉搜索树 II',
     enName: 'Unique Binary Search Trees II',
     difficulty: 'Medium',
     label: '',
-    hasThinkings: 'true',
+    hasThinkings: 'false',
+    checked: 'false',
   },
   96: {
     cnName: '不同的二叉搜索树',
@@ -670,6 +765,7 @@ const nameMap = {
     difficulty: 'Medium',
     label: '',
     hasThinkings: 'false',
+    checked: 'false',
   },
   97: {
     cnName: '交错字符串',
@@ -677,6 +773,7 @@ const nameMap = {
     difficulty: 'Medium',
     label: '',
     hasThinkings: 'false',
+    checked: 'false',
   },
   98: {
     cnName: '验证搜索二叉树',
@@ -684,6 +781,7 @@ const nameMap = {
     difficulty: 'Medium',
     label: '',
     hasThinkings: 'false',
+    checked: 'false',
   },
   99: {
     cnName: '恢复搜索二叉树',
@@ -691,6 +789,7 @@ const nameMap = {
     difficulty: 'Medium',
     label: '',
     hasThinkings: 'false',
+    checked: 'false',
   },
   100: {
     cnName: '相同的树',
@@ -698,13 +797,15 @@ const nameMap = {
     difficulty: 'Easy',
     label: '二叉树',
     hasThinkings: 'true',
+    checked: 'true',
   },
   101: {
     cnName: '对称二叉树',
     enName: 'Symmetric Tree',
     difficulty: 'Easy',
     label: 'BFS',
-    hasThinkings: 'true',
+    hasThinkings: 'false',
+    checked: 'false',
   },
   102: {
     cnName: '二叉树的层序遍历',
@@ -712,6 +813,7 @@ const nameMap = {
     difficulty: 'Medium',
     label: '',
     hasThinkings: 'false',
+    checked: 'false',
   },
   103: {
     cnName: '二叉树的锯齿形层序遍历',
@@ -719,6 +821,7 @@ const nameMap = {
     difficulty: 'Medium',
     label: 'BFS',
     hasThinkings: 'false',
+    checked: 'false',
   },
   104: {
     cnName: '二叉树最大深度',
@@ -726,6 +829,7 @@ const nameMap = {
     difficulty: 'Easy',
     label: 'DFS',
     hasThinkings: 'false',
+    checked: 'false',
   },
   105: {
     cnName: '从前序与中序遍历序列构造二叉树',
@@ -733,13 +837,15 @@ const nameMap = {
     difficulty: 'Medium',
     label: '',
     hasThinkings: 'true',
+    checked: 'false',
   },
   106: {
     cnName: '从中序与后序遍历序列构造二叉树',
     enName: 'Construct Binary Tree from In order and Post order Traversal',
     difficulty: 'Medium',
     label: '',
-    hasThinkings: 'true',
+    hasThinkings: 'false',
+    checked: 'false',
   },
   107: {
     cnName: '二叉树的层次遍历 II',
@@ -747,20 +853,23 @@ const nameMap = {
     difficulty: 'Easy',
     label: '',
     hasThinkings: 'true',
+    checked: 'true',
   },
   108: {
     cnName: '将有序数组转换成二叉搜索树',
     enName: 'Convert Sorted Array to Binary Search Tree',
     difficulty: 'Easy',
     label: '分治',
-    hasThinkings: 'true',
+    hasThinkings: 'false',
+    checked: 'false',
   },
   109: {
     cnName: '将有序数组转换为二叉搜索树',
     enName: 'Convert Sorted Array to Binary Search Tree',
     difficulty: 'Medium',
     label: '',
-    hasThinkings: 'true',
+    hasThinkings: 'false',
+    checked: 'false',
   },
   110: {
     cnName: '平衡二叉树',
@@ -768,6 +877,7 @@ const nameMap = {
     difficulty: 'Easy',
     label: '',
     hasThinkings: 'true',
+    checked: 'true',
   },
   111: {
     cnName: '二叉树的最小深度',
@@ -775,6 +885,7 @@ const nameMap = {
     difficulty: 'Easy',
     label: '',
     hasThinkings: 'true',
+    checked: 'true',
   },
   112: {
     cnName: '路径总和',
@@ -782,6 +893,7 @@ const nameMap = {
     difficulty: 'Easy',
     label: '',
     hasThinkings: 'true',
+    checked: 'true',
   },
   113: {
     cnName: '路径总和 II',
@@ -789,6 +901,7 @@ const nameMap = {
     difficulty: 'Medium',
     label: '',
     hasThinkings: 'false',
+    checked: 'false',
   },
   114: {
     cnName: '二叉树展开为链表',
@@ -796,6 +909,7 @@ const nameMap = {
     difficulty: 'Medium',
     label: '二叉树',
     hasThinkings: 'false',
+    checked: 'false',
   },
   115: {
     cnName: '不同的子序列',
@@ -803,6 +917,7 @@ const nameMap = {
     difficulty: 'Hard',
     label: '动态规划',
     hasThinkings: 'false',
+    checked: 'false',
   },
   116: {
     cnName: '填充每个节点的下一个右侧节点指针',
@@ -810,6 +925,7 @@ const nameMap = {
     difficulty: 'Medium',
     label: '层序遍历',
     hasThinkings: 'false',
+    checked: 'false',
   },
   117: {
     cnName: '填充每个节点的下一个右侧节点指针 II',
@@ -817,6 +933,7 @@ const nameMap = {
     difficulty: 'Medium',
     label: '层次遍历',
     hasThinkings: 'false',
+    checked: 'false',
   },
   118: {
     cnName: '杨辉三角',
@@ -824,6 +941,7 @@ const nameMap = {
     difficulty: 'Easy',
     label: '',
     hasThinkings: 'false',
+    checked: 'false',
   },
   119: {
     cnName: '杨辉三角 II',
@@ -831,6 +949,7 @@ const nameMap = {
     difficulty: 'Easy',
     label: '',
     hasThinkings: 'false',
+    checked: 'false',
   },
   120: {
     cnName: '三角形最小路径和',
@@ -838,6 +957,7 @@ const nameMap = {
     difficulty: 'Medium',
     label: '动态规划',
     hasThinkings: 'false',
+    checked: 'false',
   },
   121: {
     cnName: '买卖股票的最佳时机',
@@ -845,6 +965,7 @@ const nameMap = {
     difficulty: 'Easy',
     label: '动态规划',
     hasThinkings: 'false',
+    checked: 'false',
   },
   122: {
     cnName: '股票买卖的最佳时机 II',
@@ -852,6 +973,7 @@ const nameMap = {
     difficulty: 'Medium',
     label: '',
     hasThinkings: 'false',
+    checked: 'false',
   },
   124: {
     cnName: '二叉树中的最大路径和',
@@ -859,6 +981,7 @@ const nameMap = {
     difficulty: 'Hard',
     label: '二叉树',
     hasThinkings: 'false',
+    checked: 'false',
   },
   125: {
     cnName: '验证回文串',
@@ -866,6 +989,7 @@ const nameMap = {
     difficulty: 'Easy',
     label: '',
     hasThinkings: 'false',
+    checked: 'false',
   },
   127: {
     cnName: '单词接龙',
@@ -873,6 +997,7 @@ const nameMap = {
     difficulty: 'Hard',
     label: 'BFS',
     hasThinkings: 'false',
+    checked: 'false',
   },
   128: {
     cnName: '最长连续序列',
@@ -880,6 +1005,7 @@ const nameMap = {
     difficulty: 'Medium',
     label: '哈希',
     hasThinkings: 'false',
+    checked: 'false',
   },
   129: {
     cnName: '求根到叶子节点数字之和',
@@ -887,6 +1013,7 @@ const nameMap = {
     difficulty: 'Medium',
     label: '',
     hasThinkings: 'true',
+    checked: 'false',
   },
   130: {
     cnName: '被围绕的区域',
@@ -894,6 +1021,7 @@ const nameMap = {
     difficulty: 'Medium',
     label: 'DFS',
     hasThinkings: 'false',
+    checked: 'false',
   },
   131: {
     cnName: '分隔回文串',
@@ -901,6 +1029,7 @@ const nameMap = {
     difficulty: 'Medium',
     label: '回溯',
     hasThinkings: 'false',
+    checked: 'false',
   },
   133: {
     cnName: '克隆图',
@@ -908,6 +1037,7 @@ const nameMap = {
     difficulty: 'Medium',
     label: 'DFS',
     hasThinkings: 'false',
+    checked: 'false',
   },
   134: {
     cnName: '加油站',
@@ -915,6 +1045,7 @@ const nameMap = {
     difficulty: 'Medium',
     label: '数组',
     hasThinkings: 'false',
+    checked: 'false',
   },
   136: {
     cnName: '只出现一次的数字',
@@ -922,6 +1053,7 @@ const nameMap = {
     difficulty: 'Easy',
     label: '',
     hasThinkings: 'false',
+    checked: 'false',
   },
   137: {
     cnName: '只出现一次的数字 II',
@@ -929,6 +1061,7 @@ const nameMap = {
     difficulty: 'Medium',
     label: '',
     hasThinkings: 'true',
+    checked: 'false',
   },
   138: {
     cnName: '随机链表的复制',
@@ -936,6 +1069,7 @@ const nameMap = {
     difficulty: 'Medium',
     label: '链表',
     hasThinkings: 'false',
+    checked: 'false',
   },
   139: {
     cnName: '单词拆分',
@@ -943,6 +1077,7 @@ const nameMap = {
     difficulty: 'Medium',
     label: '动态规划',
     hasThinkings: 'false',
+    checked: 'false',
   },
   140: {
     cnName: '单词拆分 II',
@@ -950,6 +1085,7 @@ const nameMap = {
     difficulty: 'Hard',
     label: '记忆化搜索',
     hasThinkings: 'false',
+    checked: 'false',
   },
   141: {
     cnName: '环形链表',
@@ -957,6 +1093,7 @@ const nameMap = {
     difficulty: 'Easy',
     label: '双指针、哈希',
     hasThinkings: 'true',
+    checked: 'true',
   },
   142: {
     cnName: '环形链表 II',
@@ -964,6 +1101,7 @@ const nameMap = {
     difficulty: 'Medium',
     label: '双指针、哈希',
     hasThinkings: 'false',
+    checked: 'false',
   },
   143: {
     cnName: '重排链表',
@@ -971,6 +1109,7 @@ const nameMap = {
     difficulty: 'Medium',
     label: '双指针',
     hasThinkings: 'false',
+    checked: 'false',
   },
   144: {
     cnName: '二叉树的前序遍历',
@@ -978,6 +1117,7 @@ const nameMap = {
     difficulty: 'Easy',
     label: '二叉树、栈',
     hasThinkings: 'false',
+    checked: 'false',
   },
   145: {
     cnName: '二叉树的后序遍历',
@@ -985,6 +1125,7 @@ const nameMap = {
     difficulty: 'Easy',
     label: '二叉树、栈',
     hasThinkings: 'false',
+    checked: 'false',
   },
   146: {
     cnName: 'LRU 缓存',
@@ -992,6 +1133,7 @@ const nameMap = {
     difficulty: 'Medium',
     label: '链表',
     hasThinkings: 'false',
+    checked: 'false',
   },
   147: {
     cnName: '对链表进行插入排序',
@@ -999,6 +1141,7 @@ const nameMap = {
     difficulty: 'Medium',
     label: '链表',
     hasThinkings: 'false',
+    checked: 'false',
   },
   148: {
     cnName: '排序链表',
@@ -1006,6 +1149,7 @@ const nameMap = {
     difficulty: 'Medium',
     label: '链表',
     hasThinkings: 'false',
+    checked: 'false',
   },
   149: {
     cnName: '直线上最多的点',
@@ -1013,6 +1157,7 @@ const nameMap = {
     difficulty: 'Hard',
     label: '哈希',
     hasThinkings: 'false',
+    checked: 'false',
   },
   150: {
     cnName: '逆波兰表达式求值',
@@ -1020,6 +1165,7 @@ const nameMap = {
     difficulty: 'Medium',
     label: '栈',
     hasThinkings: 'false',
+    checked: 'false',
   },
   151: {
     cnName: '反转字符串中的单词',
@@ -1027,6 +1173,7 @@ const nameMap = {
     difficulty: 'Medium',
     label: '双指针',
     hasThinkings: 'false',
+    checked: 'false',
   },
   152: {
     cnName: '乘积最大子数组',
@@ -1034,6 +1181,7 @@ const nameMap = {
     difficulty: 'Medium',
     label: '动态规划',
     hasThinkings: 'false',
+    checked: 'false',
   },
   153: {
     cnName: '寻找旋转排序数组中的最小值',
@@ -1041,6 +1189,7 @@ const nameMap = {
     difficulty: 'Medium',
     label: '二分查找',
     hasThinkings: 'false',
+    checked: 'false',
   },
   155: {
     cnName: '最小栈',
@@ -1048,6 +1197,7 @@ const nameMap = {
     difficulty: 'Easy',
     label: '',
     hasThinkings: 'false',
+    checked: 'false',
   },
   160: {
     cnName: '相交链表',
@@ -1055,6 +1205,7 @@ const nameMap = {
     difficulty: 'Easy',
     label: '双指针',
     hasThinkings: 'false',
+    checked: 'false',
   },
   162: {
     cnName: '寻找峰值',
@@ -1062,6 +1213,7 @@ const nameMap = {
     difficulty: 'Medium',
     label: '二分查找',
     hasThinkings: 'false',
+    checked: 'false',
   },
   165: {
     cnName: '比较版本号',
@@ -1069,6 +1221,7 @@ const nameMap = {
     difficulty: 'Easy',
     label: '',
     hasThinkings: 'true',
+    checked: 'true',
   },
   166: {
     cnName: '分数到小数',
@@ -1076,6 +1229,7 @@ const nameMap = {
     difficulty: 'Medium',
     label: '长除法',
     hasThinkings: 'false',
+    checked: 'false',
   },
   167: {
     cnName: '两数之和 II',
@@ -1083,6 +1237,7 @@ const nameMap = {
     difficulty: 'Easy',
     label: '',
     hasThinkings: 'false',
+    checked: 'false',
   },
   168: {
     cnName: 'Excel 列表名称',
@@ -1090,6 +1245,7 @@ const nameMap = {
     difficulty: 'Easy',
     label: '数学方法',
     hasThinkings: 'false',
+    checked: 'false',
   },
   169: {
     cnName: '求众数',
@@ -1097,6 +1253,7 @@ const nameMap = {
     difficulty: 'Easy',
     label: '',
     hasThinkings: 'false',
+    checked: 'false',
   },
   171: {
     cnName: '表列序号',
@@ -1104,6 +1261,7 @@ const nameMap = {
     difficulty: 'Easy',
     label: '',
     hasThinkings: 'true',
+    checked: 'true',
   },
   172: {
     cnName: '阶乘后的零',
@@ -1111,6 +1269,7 @@ const nameMap = {
     difficulty: 'Easy',
     label: '',
     hasThinkings: 'true',
+    checked: 'true',
   },
   179: {
     cnName: '最大数',
@@ -1118,6 +1277,7 @@ const nameMap = {
     difficulty: 'Medium',
     label: '数组',
     hasThinkings: 'false',
+    checked: 'false',
   },
   189: {
     cnName: '旋转数组',
@@ -1125,6 +1285,7 @@ const nameMap = {
     difficulty: 'Easy',
     label: '数组',
     hasThinkings: 'false',
+    checked: 'false',
   },
   190: {
     cnName: '颠倒二进制位',
@@ -1132,6 +1293,7 @@ const nameMap = {
     difficulty: 'Easy',
     label: '',
     hasThinkings: 'false',
+    checked: 'false',
   },
   191: {
     cnName: '位 1 的个数',
@@ -1139,6 +1301,7 @@ const nameMap = {
     difficulty: 'Easy',
     label: '',
     hasThinkings: 'false',
+    checked: 'false',
   },
   198: {
     cnName: '打家劫舍',
@@ -1146,6 +1309,7 @@ const nameMap = {
     difficulty: 'Easy',
     label: '',
     hasThinkings: 'false',
+    checked: 'false',
   },
   199: {
     cnName: '二叉树的右视图',
@@ -1153,6 +1317,7 @@ const nameMap = {
     difficulty: 'Medium',
     label: '',
     hasThinkings: 'true',
+    checked: 'false',
   },
   200: {
     cnName: '岛屿数量',
@@ -1160,6 +1325,7 @@ const nameMap = {
     difficulty: 'Medium',
     label: '图、DFS',
     hasThinkings: 'false',
+    checked: 'false',
   },
   202: {
     cnName: '快乐数',
@@ -1167,13 +1333,15 @@ const nameMap = {
     difficulty: 'Easy',
     label: '',
     hasThinkings: 'true',
+    checked: 'true',
   },
   203: {
     cnName: '删除链表中的元素',
     enName: 'Remove Linked List Elements',
     difficulty: 'Easy',
     label: '',
-    hasThinkings: 'true',
+    hasThinkings: 'false',
+    checked: 'false',
   },
   204: {
     cnName: '计数质数',
@@ -1181,6 +1349,7 @@ const nameMap = {
     difficulty: 'Easy',
     label: '',
     hasThinkings: 'true',
+    checked: 'true',
   },
   205: {
     cnName: '同构字符串',
@@ -1188,6 +1357,7 @@ const nameMap = {
     difficulty: 'Easy',
     label: '',
     hasThinkings: 'false',
+    checked: 'false',
   },
   206: {
     cnName: '反转链表',
@@ -1195,6 +1365,7 @@ const nameMap = {
     difficulty: 'Easy',
     label: '',
     hasThinkings: 'true',
+    checked: 'true',
   },
   207: {
     cnName: '课程表',
@@ -1202,6 +1373,7 @@ const nameMap = {
     difficulty: 'Medium',
     label: '图',
     hasThinkings: 'false',
+    checked: 'false',
   },
   208: {
     cnName: '实现Tire（前缀树）',
@@ -1209,6 +1381,7 @@ const nameMap = {
     difficulty: 'Medium',
     label: '前缀树',
     hasThinkings: 'false',
+    checked: 'false',
   },
   210: {
     cnName: '课程表 II',
@@ -1216,6 +1389,7 @@ const nameMap = {
     difficulty: 'Medium',
     label: 'BFS',
     hasThinkings: 'false',
+    checked: 'false',
   },
   212: {
     cnName: '单词搜索 II',
@@ -1223,6 +1397,7 @@ const nameMap = {
     difficulty: 'Hard',
     label: 'DFS',
     hasThinkings: 'false',
+    checked: 'false',
   },
   214: {
     cnName: '最短回文串',
@@ -1230,6 +1405,7 @@ const nameMap = {
     difficulty: 'Hard',
     label: 'KMP',
     hasThinkings: 'false',
+    checked: 'false',
   },
   215: {
     cnName: '数组中的第 K 大元素',
@@ -1237,6 +1413,7 @@ const nameMap = {
     difficulty: 'Medium',
     label: '优先队列',
     hasThinkings: 'false',
+    checked: 'false',
   },
   216: {
     cnName: '组合总和 III',
@@ -1244,6 +1421,7 @@ const nameMap = {
     difficulty: 'Medium',
     label: '空间枚举',
     hasThinkings: 'false',
+    checked: 'false',
   },
   217: {
     cnName: '存在重复元素',
@@ -1251,6 +1429,7 @@ const nameMap = {
     difficulty: 'Easy',
     label: '',
     hasThinkings: 'false',
+    checked: 'false',
   },
   218: {
     cnName: '天际线问题',
@@ -1258,6 +1437,7 @@ const nameMap = {
     difficulty: 'Hard',
     label: '二分查找',
     hasThinkings: 'false',
+    checked: 'false',
   },
   219: {
     cnName: '存在重复元素 II',
@@ -1265,6 +1445,7 @@ const nameMap = {
     difficulty: 'Easy',
     label: '',
     hasThinkings: 'false',
+    checked: 'false',
   },
   220: {
     cnName: '存在重复元素 III',
@@ -1272,6 +1453,7 @@ const nameMap = {
     difficulty: 'Hard',
     label: '桶排序',
     hasThinkings: 'false',
+    checked: 'false',
   },
   221: {
     cnName: '最大正方形',
@@ -1279,6 +1461,7 @@ const nameMap = {
     difficulty: 'Medium',
     label: '动态规划',
     hasThinkings: 'false',
+    checked: 'false',
   },
   225: {
     cnName: '用队列实现栈',
@@ -1286,6 +1469,7 @@ const nameMap = {
     difficulty: 'Easy',
     label: '',
     hasThinkings: 'false',
+    checked: 'false',
   },
   226: {
     cnName: '翻转二叉树',
@@ -1293,6 +1477,7 @@ const nameMap = {
     difficulty: 'Easy',
     label: '二叉树',
     hasThinkings: 'false',
+    checked: 'false',
   },
   227: {
     cnName: '基本计算器 II',
@@ -1300,6 +1485,7 @@ const nameMap = {
     difficulty: 'Medium',
     label: '栈',
     hasThinkings: 'false',
+    checked: 'false',
   },
   230: {
     cnName: '二叉搜索树中的第 K 小的元素',
@@ -1307,6 +1493,7 @@ const nameMap = {
     difficulty: 'Medium',
     label: '二叉树',
     hasThinkings: 'false',
+    checked: 'false',
   },
   231: {
     cnName: '2 的幂',
@@ -1314,6 +1501,7 @@ const nameMap = {
     difficulty: 'Easy',
     label: '',
     hasThinkings: 'false',
+    checked: 'false',
   },
   232: {
     cnName: '用栈实现队列',
@@ -1321,6 +1509,7 @@ const nameMap = {
     difficulty: 'Easy',
     label: '',
     hasThinkings: 'false',
+    checked: 'false',
   },
   233: {
     cnName: '数字 1 的个数',
@@ -1328,6 +1517,7 @@ const nameMap = {
     difficulty: 'Hard',
     label: '',
     hasThinkings: 'false',
+    checked: 'false',
   },
   234: {
     cnName: '回文链表',
@@ -1335,6 +1525,7 @@ const nameMap = {
     difficulty: 'Easy',
     label: '双指针',
     hasThinkings: 'false',
+    checked: 'false',
   },
   235: {
     cnName: '二叉搜索树的最近公共祖先',
@@ -1342,6 +1533,7 @@ const nameMap = {
     difficulty: 'Medium',
     label: '二叉树',
     hasThinkings: 'false',
+    checked: 'false',
   },
   236: {
     cnName: '二叉树的最近公共祖先',
@@ -1349,6 +1541,7 @@ const nameMap = {
     difficulty: 'Medium',
     label: '二叉树',
     hasThinkings: 'false',
+    checked: 'false',
   },
   237: {
     cnName: '删除链表中的节点',
@@ -1356,6 +1549,7 @@ const nameMap = {
     difficulty: 'Medium',
     label: '链表',
     hasThinkings: 'false',
+    checked: 'false',
   },
   238: {
     cnName: '除自身以外数组的乘积',
@@ -1363,6 +1557,7 @@ const nameMap = {
     difficulty: 'Medium',
     label: '数组',
     hasThinkings: 'true',
+    checked: 'false',
   },
   239: {
     cnName: '滑动窗口最大值',
@@ -1370,6 +1565,7 @@ const nameMap = {
     difficulty: 'Hard',
     label: '子串',
     hasThinkings: 'false',
+    checked: 'false',
   },
   240: {
     cnName: '搜索二维矩阵 II',
@@ -1377,6 +1573,7 @@ const nameMap = {
     difficulty: 'Medium',
     label: '二分查找',
     hasThinkings: 'false',
+    checked: 'false',
   },
   242: {
     cnName: '有效的字母异位词',
@@ -1384,6 +1581,7 @@ const nameMap = {
     difficulty: 'Easy',
     label: '',
     hasThinkings: 'true',
+    checked: 'true',
   },
   257: {
     cnName: '二叉树的所有路径',
@@ -1391,6 +1589,7 @@ const nameMap = {
     difficulty: 'Easy',
     label: '',
     hasThinkings: 'true',
+    checked: 'true',
   },
   258: {
     cnName: '各位相加',
@@ -1398,6 +1597,7 @@ const nameMap = {
     difficulty: 'Easy',
     label: '',
     hasThinkings: 'true',
+    checked: 'true',
   },
   260: {
     cnName: '只出现一次的数字 III',
@@ -1405,6 +1605,7 @@ const nameMap = {
     difficulty: 'Medium',
     label: '',
     hasThinkings: 'true',
+    checked: 'false',
   },
   263: {
     cnName: '丑数',
@@ -1412,6 +1613,7 @@ const nameMap = {
     difficulty: 'Easy',
     label: '',
     hasThinkings: 'true',
+    checked: 'true',
   },
   268: {
     cnName: '缺失数字',
@@ -1419,6 +1621,7 @@ const nameMap = {
     difficulty: 'Easy',
     label: '',
     hasThinkings: 'false',
+    checked: 'false',
   },
   274: {
     cnName: 'H 指数',
@@ -1426,6 +1629,7 @@ const nameMap = {
     difficulty: 'Medium',
     label: '',
     hasThinkings: 'false',
+    checked: 'false',
   },
   278: {
     cnName: '第一个错误的版本',
@@ -1433,6 +1637,7 @@ const nameMap = {
     difficulty: 'Easy',
     label: '',
     hasThinkings: 'true',
+    checked: 'true',
   },
   279: {
     cnName: '完全平方数',
@@ -1440,13 +1645,15 @@ const nameMap = {
     difficulty: 'Medium',
     label: '动态规划',
     hasThinkings: 'false',
+    checked: 'false',
   },
   283: {
     cnName: '移动零',
     enName: 'Move Zeroes',
     difficulty: 'Easy',
     label: '双指针',
-    hasThinkings: 'true',
+    hasThinkings: 'false',
+    checked: 'false',
   },
   287: {
     cnName: '寻找重复数',
@@ -1454,6 +1661,7 @@ const nameMap = {
     difficulty: 'Medium',
     label: '',
     hasThinkings: 'true',
+    checked: 'false',
   },
   289: {
     cnName: '生命游戏',
@@ -1461,6 +1669,7 @@ const nameMap = {
     difficulty: 'Medium',
     label: '数组',
     hasThinkings: 'false',
+    checked: 'false',
   },
   290: {
     cnName: '单词规律',
@@ -1468,6 +1677,7 @@ const nameMap = {
     difficulty: 'Easy',
     label: '',
     hasThinkings: 'true',
+    checked: 'true',
   },
   292: {
     cnName: 'Nim 游戏',
@@ -1475,6 +1685,7 @@ const nameMap = {
     difficulty: 'Easy',
     label: '数学',
     hasThinkings: 'false',
+    checked: 'false',
   },
   295: {
     cnName: '数据流的中位数',
@@ -1482,6 +1693,7 @@ const nameMap = {
     difficulty: 'Hard',
     label: '',
     hasThinkings: 'false',
+    checked: 'false',
   },
   297: {
     cnName: '二叉树的序列化与反序列化',
@@ -1489,6 +1701,7 @@ const nameMap = {
     difficulty: 'Hard',
     label: '',
     hasThinkings: 'false',
+    checked: 'false',
   },
   300: {
     cnName: '最长上升子序列',
@@ -1496,6 +1709,7 @@ const nameMap = {
     difficulty: 'Medium',
     label: '',
     hasThinkings: 'false',
+    checked: 'false',
   },
   301: {
     cnName: '删除无效的括号',
@@ -1503,6 +1717,7 @@ const nameMap = {
     difficulty: 'Hard',
     label: 'BFS',
     hasThinkings: 'false',
+    checked: 'false',
   },
   303: {
     cnName: '区域和检索-数组不可变',
@@ -1510,6 +1725,7 @@ const nameMap = {
     difficulty: 'Easy',
     label: '',
     hasThinkings: 'true',
+    checked: 'true',
   },
   309: {
     cnName: '买卖股票的最佳时机含冷冻期',
@@ -1517,6 +1733,7 @@ const nameMap = {
     difficulty: 'Medium',
     label: '动态规划',
     hasThinkings: 'false',
+    checked: 'false',
   },
   312: {
     cnName: '戳气球',
@@ -1524,6 +1741,7 @@ const nameMap = {
     difficulty: 'Hard',
     label: '动态规划',
     hasThinkings: 'false',
+    checked: 'false',
   },
   315: {
     cnName: '计算右侧小于当前元素的个数',
@@ -1531,6 +1749,7 @@ const nameMap = {
     difficulty: 'Hard',
     label: '归并排序',
     hasThinkings: 'false',
+    checked: 'false',
   },
   322: {
     cnName: '零钱兑换',
@@ -1538,6 +1757,7 @@ const nameMap = {
     difficulty: 'Medium',
     label: '动态规划',
     hasThinkings: 'false',
+    checked: 'false',
   },
   324: {
     cnName: '摆动排序 II',
@@ -1545,6 +1765,7 @@ const nameMap = {
     difficulty: 'Medium',
     label: '排序',
     hasThinkings: 'false',
+    checked: 'false',
   },
   326: {
     cnName: '3 的幂',
@@ -1552,6 +1773,7 @@ const nameMap = {
     difficulty: 'Easy',
     label: '',
     hasThinkings: 'false',
+    checked: 'false',
   },
   328: {
     cnName: '奇偶链表',
@@ -1559,6 +1781,7 @@ const nameMap = {
     difficulty: 'Medium',
     label: '链表',
     hasThinkings: 'false',
+    checked: 'false',
   },
   329: {
     cnName: '矩阵中的最长递增路径',
@@ -1566,6 +1789,7 @@ const nameMap = {
     difficulty: 'Hard',
     label: '记忆化搜索',
     hasThinkings: 'false',
+    checked: 'false',
   },
   332: {
     cnName: '重新安排行程',
@@ -1573,6 +1797,7 @@ const nameMap = {
     difficulty: 'Hard',
     label: 'DFS',
     hasThinkings: 'false',
+    checked: 'false',
   },
   334: {
     cnName: '递增的三元子序列',
@@ -1580,6 +1805,7 @@ const nameMap = {
     difficulty: 'Medium',
     label: '贪心、数组',
     hasThinkings: 'false',
+    checked: 'false',
   },
   337: {
     cnName: '打家劫舍 III',
@@ -1587,6 +1813,7 @@ const nameMap = {
     difficulty: 'Medium',
     label: '动态规划',
     hasThinkings: 'false',
+    checked: 'false',
   },
   338: {
     cnName: '比特位计数',
@@ -1594,6 +1821,7 @@ const nameMap = {
     difficulty: 'Easy',
     label: '',
     hasThinkings: 'false',
+    checked: 'false',
   },
   341: {
     cnName: '扁平化嵌套列表迭代器',
@@ -1601,6 +1829,7 @@ const nameMap = {
     difficulty: 'Medium',
     label: '栈',
     hasThinkings: 'false',
+    checked: 'false',
   },
   342: {
     cnName: '4 的幂',
@@ -1608,6 +1837,7 @@ const nameMap = {
     difficulty: 'Easy',
     label: '',
     hasThinkings: 'false',
+    checked: 'false',
   },
   343: {
     cnName: '整数拆分',
@@ -1615,6 +1845,7 @@ const nameMap = {
     difficulty: 'Medium',
     label: '',
     hasThinkings: 'false',
+    checked: 'false',
   },
   344: {
     cnName: '反转字符串',
@@ -1622,6 +1853,7 @@ const nameMap = {
     difficulty: 'Easy',
     label: '',
     hasThinkings: 'false',
+    checked: 'false',
   },
   345: {
     cnName: '翻转字符串中的元音字母',
@@ -1629,6 +1861,7 @@ const nameMap = {
     difficulty: 'Easy',
     label: '双指针',
     hasThinkings: 'false',
+    checked: 'false',
   },
   347: {
     cnName: '前 K 个高频元素',
@@ -1636,6 +1869,7 @@ const nameMap = {
     difficulty: 'Medium',
     label: '桶排序',
     hasThinkings: 'false',
+    checked: 'false',
   },
   349: {
     cnName: '两个数组的交集',
@@ -1643,6 +1877,7 @@ const nameMap = {
     difficulty: 'Easy',
     label: '',
     hasThinkings: 'false',
+    checked: 'false',
   },
   350: {
     cnName: '两个数组的交集 II',
@@ -1650,6 +1885,7 @@ const nameMap = {
     difficulty: 'Easy',
     label: '',
     hasThinkings: 'true',
+    checked: 'true',
   },
   365: {
     cnName: '水壶问题',
@@ -1657,6 +1893,7 @@ const nameMap = {
     difficulty: 'Medium',
     label: '数学方法',
     hasThinkings: 'false',
+    checked: 'false',
   },
   371: {
     cnName: '两个整数相加',
@@ -1664,6 +1901,7 @@ const nameMap = {
     difficulty: 'Easy',
     label: '',
     hasThinkings: 'true',
+    checked: 'true',
   },
   373: {
     cnName: '查找和最小的 K 对数字',
@@ -1671,6 +1909,7 @@ const nameMap = {
     difficulty: 'Medium',
     label: '',
     hasThinkings: 'false',
+    checked: 'false',
   },
   374: {
     cnName: '猜数字大小',
@@ -1678,6 +1917,7 @@ const nameMap = {
     difficulty: 'Easy',
     label: '二分查找',
     hasThinkings: 'false',
+    checked: 'false',
   },
   377: {
     cnName: '组合总和 Ⅳ',
@@ -1685,6 +1925,7 @@ const nameMap = {
     difficulty: 'Medium',
     label: '',
     hasThinkings: 'true',
+    checked: 'false',
   },
   378: {
     cnName: '有序矩阵中第 K 小的元素',
@@ -1692,6 +1933,7 @@ const nameMap = {
     difficulty: 'Medium',
     label: '二分查找',
     hasThinkings: 'false',
+    checked: 'false',
   },
   380: {
     cnName: 'O(1)时间插入删除和获取随机元素',
@@ -1699,6 +1941,7 @@ const nameMap = {
     difficulty: 'Medium',
     label: '哈希',
     hasThinkings: 'false',
+    checked: 'false',
   },
   381: {
     cnName: 'O(1)时间插入删除和获取随机元素-允许重复',
@@ -1706,6 +1949,7 @@ const nameMap = {
     difficulty: 'Hard',
     label: '哈希',
     hasThinkings: 'false',
+    checked: 'false',
   },
   383: {
     cnName: '赎金信',
@@ -1713,6 +1957,7 @@ const nameMap = {
     difficulty: 'Easy',
     label: '',
     hasThinkings: 'true',
+    checked: 'true',
   },
   384: {
     cnName: '打乱数组',
@@ -1720,6 +1965,7 @@ const nameMap = {
     difficulty: 'Medium',
     label: '数组',
     hasThinkings: 'false',
+    checked: 'false',
   },
   387: {
     cnName: '字符串中的第一个唯一字符',
@@ -1727,6 +1973,7 @@ const nameMap = {
     difficulty: 'Easy',
     label: '',
     hasThinkings: 'true',
+    checked: 'true',
   },
   389: {
     cnName: '找不同',
@@ -1734,6 +1981,7 @@ const nameMap = {
     difficulty: 'Easy',
     label: '',
     hasThinkings: 'false',
+    checked: 'false',
   },
   392: {
     cnName: '判断子序列',
@@ -1741,6 +1989,7 @@ const nameMap = {
     difficulty: 'Easy',
     label: '',
     hasThinkings: 'true',
+    checked: 'true',
   },
   394: {
     cnName: '字符串解码',
@@ -1748,6 +1997,7 @@ const nameMap = {
     difficulty: 'Medium',
     label: '',
     hasThinkings: 'false',
+    checked: 'false',
   },
   395: {
     cnName: '至少有 K 个充数字符的最长子串',
@@ -1755,6 +2005,7 @@ const nameMap = {
     difficulty: 'Medium',
     label: '分治',
     hasThinkings: 'false',
+    checked: 'false',
   },
   399: {
     cnName: '除法求值',
@@ -1762,6 +2013,7 @@ const nameMap = {
     difficulty: 'Medium',
     label: '图、DFS',
     hasThinkings: 'false',
+    checked: 'false',
   },
   400: {
     cnName: '第 N 个数字',
@@ -1769,6 +2021,7 @@ const nameMap = {
     difficulty: 'Medium',
     label: '',
     hasThinkings: 'true',
+    checked: 'false',
   },
   405: {
     cnName: '转 16 进制',
@@ -1776,6 +2029,7 @@ const nameMap = {
     difficulty: 'Easy',
     label: '',
     hasThinkings: 'false',
+    checked: 'false',
   },
   406: {
     cnName: '根据身高重建队列',
@@ -1783,6 +2037,7 @@ const nameMap = {
     difficulty: 'Medium',
     label: '数组',
     hasThinkings: 'false',
+    checked: 'false',
   },
   409: {
     cnName: '最长回文串',
@@ -1790,6 +2045,7 @@ const nameMap = {
     difficulty: '',
     label: '',
     hasThinkings: 'false',
+    checked: 'true',
   },
   412: {
     cnName: 'Fizz Buzz',
@@ -1797,6 +2053,7 @@ const nameMap = {
     difficulty: 'Easy',
     label: '字符串',
     hasThinkings: 'false',
+    checked: 'false',
   },
   414: {
     cnName: '第三大的数',
@@ -1804,6 +2061,7 @@ const nameMap = {
     difficulty: 'Easy',
     label: '',
     hasThinkings: 'false',
+    checked: 'false',
   },
   415: {
     cnName: '字符串相加',
@@ -1811,6 +2069,7 @@ const nameMap = {
     difficulty: 'Easy',
     label: '模拟',
     hasThinkings: 'false',
+    checked: 'false',
   },
   416: {
     cnName: '分割等和子集',
@@ -1818,6 +2077,7 @@ const nameMap = {
     difficulty: 'Medium',
     label: '动态规划',
     hasThinkings: 'false',
+    checked: 'false',
   },
   435: {
     cnName: '无重叠区间',
@@ -1825,6 +2085,7 @@ const nameMap = {
     difficulty: 'Medium',
     label: '区间集合',
     hasThinkings: 'false',
+    checked: 'false',
   },
   437: {
     cnName: '路径总和 III',
@@ -1832,13 +2093,15 @@ const nameMap = {
     difficulty: 'Medium',
     label: '二叉树、DFS',
     hasThinkings: 'false',
+    checked: 'false',
   },
   438: {
     cnName: '找到字符串中所有字母异位词',
     enName: 'Find All Anagrams in a String',
     difficulty: 'Medium',
     label: '滑动窗口',
-    hasThinkings: 'true',
+    hasThinkings: 'false',
+    checked: 'false',
   },
   440: {
     cnName: '字典序的第 K 小数字',
@@ -1846,6 +2109,7 @@ const nameMap = {
     difficulty: 'Hard',
     label: '字典树',
     hasThinkings: 'false',
+    checked: 'false',
   },
   441: {
     cnName: '排列硬币',
@@ -1853,6 +2117,7 @@ const nameMap = {
     difficulty: 'Easy',
     label: '二分查找',
     hasThinkings: 'false',
+    checked: 'false',
   },
   442: {
     cnName: '数组中重复的数据',
@@ -1860,6 +2125,7 @@ const nameMap = {
     difficulty: 'Medium',
     label: '数组',
     hasThinkings: 'false',
+    checked: 'false',
   },
   443: {
     cnName: '压缩字符串',
@@ -1867,6 +2133,7 @@ const nameMap = {
     difficulty: 'Medium',
     label: '字符串、双指针',
     hasThinkings: 'false',
+    checked: 'false',
   },
   447: {
     cnName: '回旋镖的数量',
@@ -1874,6 +2141,7 @@ const nameMap = {
     difficulty: 'Medium',
     label: '哈希',
     hasThinkings: 'false',
+    checked: 'false',
   },
   448: {
     cnName: '找到所有数组中消失的数字',
@@ -1881,6 +2149,7 @@ const nameMap = {
     difficulty: 'Easy',
     label: '',
     hasThinkings: 'true',
+    checked: 'false',
   },
   450: {
     cnName: '删除二叉搜索树中的节点',
@@ -1888,6 +2157,7 @@ const nameMap = {
     difficulty: 'Medium',
     label: '二叉搜索树',
     hasThinkings: 'false',
+    checked: 'false',
   },
   452: {
     cnName: '用最少数量的箭引爆气球',
@@ -1895,6 +2165,7 @@ const nameMap = {
     difficulty: 'Medium',
     label: '区间集合',
     hasThinkings: 'false',
+    checked: 'false',
   },
   454: {
     cnName: '四数相加 II',
@@ -1902,6 +2173,7 @@ const nameMap = {
     difficulty: 'Medium',
     label: '哈希',
     hasThinkings: 'false',
+    checked: 'false',
   },
   455: {
     cnName: '分发饼干',
@@ -1909,6 +2181,7 @@ const nameMap = {
     difficulty: 'Easy',
     label: '',
     hasThinkings: 'true',
+    checked: 'false',
   },
   456: {
     cnName: '132 模式',
@@ -1916,6 +2189,7 @@ const nameMap = {
     difficulty: 'Medium',
     label: '枚举',
     hasThinkings: 'false',
+    checked: 'false',
   },
   458: {
     cnName: '可怜的小猪',
@@ -1923,6 +2197,7 @@ const nameMap = {
     difficulty: 'Hard',
     label: '',
     hasThinkings: 'false',
+    checked: 'false',
   },
   459: {
     cnName: '重复的子字符串',
@@ -1930,6 +2205,7 @@ const nameMap = {
     difficulty: 'Easy',
     label: '',
     hasThinkings: 'true',
+    checked: 'false',
   },
   461: {
     cnName: '汉明距离',
@@ -1937,6 +2213,7 @@ const nameMap = {
     difficulty: 'Easy',
     label: '位运算',
     hasThinkings: 'false',
+    checked: 'false',
   },
   462: {
     cnName: '最小操作次数是数组元素相等II',
@@ -1944,6 +2221,7 @@ const nameMap = {
     difficulty: 'Medium',
     label: '排序',
     hasThinkings: 'false',
+    checked: 'false',
   },
   463: {
     cnName: '岛屿的周长',
@@ -1951,6 +2229,7 @@ const nameMap = {
     difficulty: 'Easy',
     label: 'DFS',
     hasThinkings: 'false',
+    checked: 'false',
   },
   464: {
     cnName: '我能赢吗',
@@ -1958,13 +2237,15 @@ const nameMap = {
     difficulty: 'Easy',
     label: '',
     hasThinkings: 'false',
+    checked: 'false',
   },
   485: {
     cnName: '最大连续 1 的个数',
     enName: 'Find Max Consecutive Ones',
     difficulty: 'Easy',
     label: '',
-    hasThinkings: 'true',
+    hasThinkings: 'false',
+    checked: 'false',
   },
   486: {
     cnName: '预测赢家',
@@ -1972,6 +2253,7 @@ const nameMap = {
     difficulty: 'Medium',
     label: '动态规划',
     hasThinkings: 'false',
+    checked: 'false',
   },
   491: {
     cnName: '递增子序列',
@@ -1979,6 +2261,7 @@ const nameMap = {
     difficulty: 'Medium',
     label: 'DFS',
     hasThinkings: 'false',
+    checked: 'false',
   },
   494: {
     cnName: '目标和',
@@ -1986,6 +2269,7 @@ const nameMap = {
     difficulty: 'Medium',
     label: '回溯',
     hasThinkings: 'false',
+    checked: 'false',
   },
   496: {
     cnName: '下一个更大元素 I',
@@ -1993,6 +2277,7 @@ const nameMap = {
     difficulty: 'Easy',
     label: '哈希',
     hasThinkings: 'false',
+    checked: 'false',
   },
   509: {
     cnName: '斐波那契数',
@@ -2000,6 +2285,7 @@ const nameMap = {
     difficulty: 'Easy',
     label: '',
     hasThinkings: 'true',
+    checked: 'false',
   },
   518: {
     cnName: '零钱兑换 II',
@@ -2007,6 +2293,7 @@ const nameMap = {
     difficulty: 'Medium',
     label: '动态规划',
     hasThinkings: 'true',
+    checked: 'false',
   },
   519: {
     cnName: '随机翻转矩阵',
@@ -2014,6 +2301,7 @@ const nameMap = {
     difficulty: 'Medium',
     label: '数组',
     hasThinkings: 'true',
+    checked: 'false',
   },
   529: {
     cnName: '扫雷游戏',
@@ -2021,6 +2309,7 @@ const nameMap = {
     difficulty: 'Medium',
     label: '',
     hasThinkings: 'false',
+    checked: 'false',
   },
   538: {
     cnName: '把二叉搜索树转换为累加树',
@@ -2028,6 +2317,7 @@ const nameMap = {
     difficulty: 'Medium',
     label: '二叉树',
     hasThinkings: 'false',
+    checked: 'false',
   },
   541: {
     cnName: '反转字符串 II',
@@ -2035,6 +2325,7 @@ const nameMap = {
     difficulty: 'Easy',
     label: '',
     hasThinkings: 'true',
+    checked: 'false',
   },
   543: {
     cnName: '二叉树的直径',
@@ -2042,6 +2333,7 @@ const nameMap = {
     difficulty: 'Easy',
     label: '二叉树',
     hasThinkings: 'false',
+    checked: 'false',
   },
   547: {
     cnName: '省份数量',
@@ -2049,13 +2341,15 @@ const nameMap = {
     difficulty: 'Medium',
     label: '图、DFS',
     hasThinkings: 'true',
+    checked: 'false',
   },
   551: {
     cnName: '学生出勤记录 I',
     enName: 'Student Attendance Record I',
     difficulty: 'Easy',
     label: '',
-    hasThinkings: 'true',
+    hasThinkings: 'false',
+    checked: 'false',
   },
   552: {
     cnName: '学生出勤记录 II',
@@ -2063,6 +2357,7 @@ const nameMap = {
     difficulty: 'Hard',
     label: '',
     hasThinkings: 'true',
+    checked: 'false',
   },
   557: {
     cnName: '反转字符串中的单词 III',
@@ -2070,6 +2365,7 @@ const nameMap = {
     difficulty: 'Easy',
     label: '字符串',
     hasThinkings: 'true',
+    checked: 'false',
   },
   560: {
     cnName: '和为 k 的子数组',
@@ -2077,6 +2373,7 @@ const nameMap = {
     difficulty: 'Medium',
     label: '子串',
     hasThinkings: 'true',
+    checked: 'false',
   },
   561: {
     cnName: '数组拆分',
@@ -2084,6 +2381,7 @@ const nameMap = {
     difficulty: 'Easy',
     label: '',
     hasThinkings: 'true',
+    checked: 'false',
   },
   581: {
     cnName: '最短无序连续子数组',
@@ -2091,6 +2389,7 @@ const nameMap = {
     difficulty: 'Medium',
     label: '',
     hasThinkings: 'false',
+    checked: 'false',
   },
   589: {
     cnName: 'N叉树的前序遍历',
@@ -2098,6 +2397,7 @@ const nameMap = {
     difficulty: 'Easy',
     label: '二叉树',
     hasThinkings: 'true',
+    checked: 'false',
   },
   605: {
     cnName: '种花问题',
@@ -2105,6 +2405,7 @@ const nameMap = {
     difficulty: 'Easy',
     label: '贪心',
     hasThinkings: 'false',
+    checked: 'false',
   },
   606: {
     cnName: '根据二叉树创建字符串',
@@ -2112,6 +2413,7 @@ const nameMap = {
     difficulty: 'Easy',
     label: '',
     hasThinkings: 'true',
+    checked: 'false',
   },
   611: {
     cnName: '有效三角形的个数',
@@ -2119,6 +2421,7 @@ const nameMap = {
     difficulty: 'Medium',
     label: '双指针',
     hasThinkings: 'false',
+    checked: 'false',
   },
   617: {
     cnName: '合并二叉树',
@@ -2126,6 +2429,7 @@ const nameMap = {
     difficulty: 'Easy',
     label: '二叉树',
     hasThinkings: 'false',
+    checked: 'false',
   },
   621: {
     cnName: '任务调度器',
@@ -2133,6 +2437,7 @@ const nameMap = {
     difficulty: 'Medium',
     label: '',
     hasThinkings: 'false',
+    checked: 'false',
   },
   628: {
     cnName: '三个数的最大乘积',
@@ -2140,6 +2445,7 @@ const nameMap = {
     difficulty: 'Easy',
     label: '',
     hasThinkings: 'false',
+    checked: 'false',
   },
   642: {
     cnName: '设计搜索自动补全系统',
@@ -2147,6 +2453,7 @@ const nameMap = {
     difficulty: 'Medium',
     label: '',
     hasThinkings: 'false',
+    checked: 'false',
   },
   643: {
     cnName: '子数组最大平均数 I',
@@ -2154,6 +2461,7 @@ const nameMap = {
     difficulty: 'Easy',
     label: '',
     hasThinkings: 'false',
+    checked: 'false',
   },
   647: {
     cnName: '回文子串',
@@ -2161,6 +2469,7 @@ const nameMap = {
     difficulty: 'Medium',
     label: 'Manacher 算法',
     hasThinkings: 'false',
+    checked: 'false',
   },
   649: {
     cnName: 'Dota2 参议院',
@@ -2168,6 +2477,7 @@ const nameMap = {
     difficulty: 'Medium',
     label: '队列',
     hasThinkings: 'false',
+    checked: 'false',
   },
   653: {
     cnName: '两数之和 IV - 输入二叉搜索树',
@@ -2175,6 +2485,7 @@ const nameMap = {
     difficulty: 'Easy',
     label: '二叉搜索树、DFS',
     hasThinkings: 'true',
+    checked: 'false',
   },
   657: {
     cnName: '机器人能否返回终点',
@@ -2182,6 +2493,7 @@ const nameMap = {
     difficulty: 'Easy',
     label: '数组',
     hasThinkings: 'false',
+    checked: 'false',
   },
   665: {
     cnName: '非递减数列',
@@ -2189,6 +2501,7 @@ const nameMap = {
     difficulty: 'Easy',
     label: '',
     hasThinkings: 'false',
+    checked: 'false',
   },
   668: {
     cnName: '乘法表中的第 K 小的数',
@@ -2196,6 +2509,7 @@ const nameMap = {
     difficulty: 'Hard',
     label: '',
     hasThinkings: 'false',
+    checked: 'false',
   },
   670: {
     cnName: '最大交换',
@@ -2203,6 +2517,7 @@ const nameMap = {
     difficulty: 'Medium',
     label: '贪心',
     hasThinkings: 'false',
+    checked: 'false',
   },
   680: {
     cnName: '验证回文串 II',
@@ -2210,6 +2525,7 @@ const nameMap = {
     difficulty: 'Easy',
     label: '',
     hasThinkings: 'false',
+    checked: 'false',
   },
   700: {
     cnName: '二叉搜索树中的搜索',
@@ -2217,6 +2533,7 @@ const nameMap = {
     difficulty: 'Easy',
     label: '二叉搜索树',
     hasThinkings: 'false',
+    checked: 'false',
   },
   703: {
     cnName: '数据流中的第 K 大元素',
@@ -2224,6 +2541,7 @@ const nameMap = {
     difficulty: 'Easy',
     label: '',
     hasThinkings: 'false',
+    checked: 'false',
   },
   704: {
     cnName: '二分查找',
@@ -2231,6 +2549,7 @@ const nameMap = {
     difficulty: 'Easy',
     label: '',
     hasThinkings: 'true',
+    checked: 'false',
   },
   709: {
     cnName: '转换成小写字母',
@@ -2238,6 +2557,7 @@ const nameMap = {
     difficulty: 'Easy',
     label: '',
     hasThinkings: 'false',
+    checked: 'false',
   },
   714: {
     cnName: '买卖股票的最佳时机含手续费',
@@ -2245,6 +2565,7 @@ const nameMap = {
     difficulty: 'Medium',
     label: '多维动态规划',
     hasThinkings: 'false',
+    checked: 'false',
   },
   720: {
     cnName: '词典中最长的单词',
@@ -2252,6 +2573,7 @@ const nameMap = {
     difficulty: 'Easy',
     label: '',
     hasThinkings: 'true',
+    checked: 'false',
   },
   724: {
     cnName: '寻找数组的中心索引',
@@ -2259,6 +2581,7 @@ const nameMap = {
     difficulty: 'Easy',
     label: '',
     hasThinkings: 'false',
+    checked: 'false',
   },
   735: {
     cnName: '小行星碰撞',
@@ -2266,6 +2589,7 @@ const nameMap = {
     difficulty: 'Medium',
     label: '栈',
     hasThinkings: 'false',
+    checked: 'false',
   },
   738: {
     cnName: '单调递增的数字',
@@ -2273,6 +2597,7 @@ const nameMap = {
     difficulty: 'Medium',
     label: '贪心',
     hasThinkings: 'false',
+    checked: 'false',
   },
   739: {
     cnName: '每日温度',
@@ -2280,6 +2605,7 @@ const nameMap = {
     difficulty: 'Medium',
     label: '单调栈',
     hasThinkings: 'false',
+    checked: 'false',
   },
   746: {
     cnName: '使用最小花费爬楼梯',
@@ -2287,6 +2613,7 @@ const nameMap = {
     difficulty: 'Easy',
     label: '动态规划',
     hasThinkings: 'true',
+    checked: 'false',
   },
   747: {
     cnName: '至少是其他数字两倍的最大数',
@@ -2294,6 +2621,7 @@ const nameMap = {
     difficulty: 'Easy',
     label: '',
     hasThinkings: 'false',
+    checked: 'false',
   },
   763: {
     cnName: '划分字母区间',
@@ -2301,6 +2629,7 @@ const nameMap = {
     difficulty: 'Medium',
     label: '贪心',
     hasThinkings: 'false',
+    checked: 'false',
   },
   778: {
     cnName: '水位上升的泳池中游泳',
@@ -2308,6 +2637,7 @@ const nameMap = {
     difficulty: 'Hard',
     label: '',
     hasThinkings: 'false',
+    checked: 'false',
   },
   784: {
     cnName: '字母大小写全排列',
@@ -2315,6 +2645,7 @@ const nameMap = {
     difficulty: 'Medium',
     label: '',
     hasThinkings: 'false',
+    checked: 'false',
   },
   790: {
     cnName: '多米诺和托米诺平铺',
@@ -2322,6 +2653,7 @@ const nameMap = {
     difficulty: 'Medium',
     label: '一维动态规划',
     hasThinkings: 'false',
+    checked: 'false',
   },
   814: {
     cnName: '二叉树剪枝',
@@ -2329,6 +2661,7 @@ const nameMap = {
     difficulty: 'Medium',
     label: '',
     hasThinkings: 'false',
+    checked: 'false',
   },
   841: {
     cnName: '钥匙和房间',
@@ -2336,6 +2669,7 @@ const nameMap = {
     difficulty: 'Medium',
     label: 'DFS',
     hasThinkings: 'false',
+    checked: 'false',
   },
   844: {
     cnName: '比较含退格的字符串',
@@ -2343,6 +2677,7 @@ const nameMap = {
     difficulty: 'Easy',
     label: '双指针',
     hasThinkings: 'false',
+    checked: 'false',
   },
   845: {
     cnName: '数组中最长的山脉',
@@ -2350,6 +2685,7 @@ const nameMap = {
     difficulty: 'Medium',
     label: '双指针',
     hasThinkings: 'false',
+    checked: 'false',
   },
   860: {
     cnName: '柠檬水找零',
@@ -2357,6 +2693,7 @@ const nameMap = {
     difficulty: 'Easy',
     label: '贪心',
     hasThinkings: 'false',
+    checked: 'false',
   },
   864: {
     cnName: '获取所有钥匙的最短路径',
@@ -2364,6 +2701,7 @@ const nameMap = {
     difficulty: 'Hard',
     label: 'BFS',
     hasThinkings: 'false',
+    checked: 'false',
   },
   867: {
     cnName: '转置矩阵',
@@ -2371,6 +2709,7 @@ const nameMap = {
     difficulty: 'Easy',
     label: '模拟',
     hasThinkings: 'false',
+    checked: 'false',
   },
   872: {
     cnName: '叶子相似的树',
@@ -2378,6 +2717,7 @@ const nameMap = {
     difficulty: 'Easy',
     label: '二叉树、DFS',
     hasThinkings: 'false',
+    checked: 'false',
   },
   875: {
     cnName: '爱吃香蕉的珂珂',
@@ -2385,6 +2725,7 @@ const nameMap = {
     difficulty: 'Medium',
     label: '二分查找',
     hasThinkings: 'false',
+    checked: 'false',
   },
   901: {
     cnName: '股票价格跨度',
@@ -2392,6 +2733,7 @@ const nameMap = {
     difficulty: 'Medium',
     label: '单调栈',
     hasThinkings: 'false',
+    checked: 'false',
   },
   905: {
     cnName: '按奇偶排序数组',
@@ -2399,6 +2741,7 @@ const nameMap = {
     difficulty: 'Easy',
     label: '',
     hasThinkings: 'false',
+    checked: 'false',
   },
   929: {
     cnName: '独特的电子邮件地址',
@@ -2406,6 +2749,7 @@ const nameMap = {
     difficulty: 'Easy',
     label: '',
     hasThinkings: 'false',
+    checked: 'false',
   },
   933: {
     cnName: '最近的请求次数',
@@ -2413,6 +2757,7 @@ const nameMap = {
     difficulty: 'Easy',
     label: '',
     hasThinkings: 'true',
+    checked: 'false',
   },
   941: {
     cnName: '有效的山脉数组',
@@ -2420,6 +2765,7 @@ const nameMap = {
     difficulty: 'Easy',
     label: '',
     hasThinkings: 'false',
+    checked: 'false',
   },
   942: {
     cnName: '增减字符串匹配',
@@ -2427,6 +2773,7 @@ const nameMap = {
     difficulty: 'Easy',
     label: '',
     hasThinkings: 'true',
+    checked: 'false',
   },
   946: {
     cnName: '验证栈序列',
@@ -2434,6 +2781,7 @@ const nameMap = {
     difficulty: 'Medium',
     label: '',
     hasThinkings: 'false',
+    checked: 'false',
   },
   953: {
     cnName: '验证外星语词典',
@@ -2441,6 +2789,7 @@ const nameMap = {
     difficulty: 'Easy',
     label: '',
     hasThinkings: 'false',
+    checked: 'false',
   },
   965: {
     cnName: '单值二叉树',
@@ -2448,6 +2797,7 @@ const nameMap = {
     difficulty: 'Easy',
     label: '',
     hasThinkings: 'true',
+    checked: 'false',
   },
   974: {
     cnName: '和可被 K 整除的子数组',
@@ -2455,6 +2805,7 @@ const nameMap = {
     difficulty: 'Medium',
     label: '',
     hasThinkings: 'false',
+    checked: 'false',
   },
   977: {
     cnName: '有序数组的平方',
@@ -2462,6 +2813,7 @@ const nameMap = {
     difficulty: 'Easy',
     label: '',
     hasThinkings: 'false',
+    checked: 'false',
   },
   989: {
     cnName: '数组形式的整数加法',
@@ -2469,6 +2821,7 @@ const nameMap = {
     difficulty: 'Easy',
     label: '',
     hasThinkings: 'false',
+    checked: 'false',
   },
   994: {
     cnName: '腐烂的橘子',
@@ -2476,6 +2829,7 @@ const nameMap = {
     difficulty: 'Medium',
     label: '图、BFS',
     hasThinkings: 'true',
+    checked: 'false',
   },
   1002: {
     cnName: '查找常用字符',
@@ -2483,6 +2837,7 @@ const nameMap = {
     difficulty: 'Easy',
     label: '',
     hasThinkings: 'false',
+    checked: 'false',
   },
   1004: {
     cnName: '最大连续1的个数 III',
@@ -2490,6 +2845,7 @@ const nameMap = {
     difficulty: 'Medium',
     label: '滑动窗口',
     hasThinkings: 'false',
+    checked: 'false',
   },
   1021: {
     cnName: '删除最外层的括号',
@@ -2497,6 +2853,7 @@ const nameMap = {
     difficulty: 'Easy',
     label: '',
     hasThinkings: 'false',
+    checked: 'false',
   },
   1022: {
     cnName: '从根到叶的二进制数之和',
@@ -2504,6 +2861,7 @@ const nameMap = {
     difficulty: 'Easy',
     label: '',
     hasThinkings: 'false',
+    checked: 'false',
   },
   1053: {
     cnName: '交换一次的先前排列',
@@ -2511,6 +2869,7 @@ const nameMap = {
     difficulty: 'Medium',
     label: '',
     hasThinkings: 'true',
+    checked: 'false',
   },
   1071: {
     cnName: '字符串的最大公因子',
@@ -2518,6 +2877,7 @@ const nameMap = {
     difficulty: 'Easy',
     label: '字符串、GCD',
     hasThinkings: 'false',
+    checked: 'false',
   },
   1108: {
     cnName: 'IP 地址无效化',
@@ -2525,6 +2885,7 @@ const nameMap = {
     difficulty: 'Easy',
     label: '字符串',
     hasThinkings: 'false',
+    checked: 'false',
   },
   1122: {
     cnName: '数组的相对排序',
@@ -2532,6 +2893,7 @@ const nameMap = {
     difficulty: 'Easy',
     label: '',
     hasThinkings: 'true',
+    checked: 'false',
   },
   1128: {
     cnName: '等价多米诺骨牌对的数量',
@@ -2539,6 +2901,7 @@ const nameMap = {
     difficulty: 'Easy',
     label: '数组',
     hasThinkings: 'false',
+    checked: 'false',
   },
   1137: {
     cnName: '第 N 个泰波那契数',
@@ -2546,6 +2909,7 @@ const nameMap = {
     difficulty: 'Easy',
     label: '',
     hasThinkings: 'true',
+    checked: 'false',
   },
   1143: {
     cnName: '最长公共子序列',
@@ -2553,6 +2917,7 @@ const nameMap = {
     difficulty: 'Medium',
     label: '',
     hasThinkings: 'false',
+    checked: 'false',
   },
   1161: {
     cnName: '最大层内元素和',
@@ -2560,6 +2925,7 @@ const nameMap = {
     difficulty: 'Medium',
     label: '二叉树、BFS',
     hasThinkings: 'false',
+    checked: 'false',
   },
   1191: {
     cnName: 'K 次串联后最大子数组之和',
@@ -2567,6 +2933,7 @@ const nameMap = {
     difficulty: 'Medium',
     label: '',
     hasThinkings: 'true',
+    checked: 'false',
   },
   1200: {
     cnName: '最小绝对差',
@@ -2574,6 +2941,7 @@ const nameMap = {
     difficulty: 'Easy',
     label: '',
     hasThinkings: 'false',
+    checked: 'false',
   },
   1207: {
     cnName: '独一无二的出现次数',
@@ -2581,6 +2949,7 @@ const nameMap = {
     difficulty: 'Easy',
     label: '哈希',
     hasThinkings: 'false',
+    checked: 'false',
   },
   1217: {
     cnName: '玩筹码',
@@ -2588,6 +2957,7 @@ const nameMap = {
     difficulty: 'Easy',
     label: '',
     hasThinkings: 'false',
+    checked: 'false',
   },
   1227: {
     cnName: '飞机座位分配概率',
@@ -2595,6 +2965,7 @@ const nameMap = {
     difficulty: 'Medium',
     label: '',
     hasThinkings: 'true',
+    checked: 'false',
   },
   1260: {
     cnName: '二维网格迁移',
@@ -2602,6 +2973,7 @@ const nameMap = {
     difficulty: 'Easy',
     label: '',
     hasThinkings: 'false',
+    checked: 'false',
   },
   1268: {
     cnName: '搜索推荐系统',
@@ -2609,6 +2981,7 @@ const nameMap = {
     difficulty: 'Medium',
     label: '前缀树',
     hasThinkings: 'false',
+    checked: 'false',
   },
   1289: {
     cnName: '下降路径最小和 II',
@@ -2616,6 +2989,7 @@ const nameMap = {
     difficulty: 'Hard',
     label: '',
     hasThinkings: 'false',
+    checked: 'false',
   },
   1318: {
     cnName: '或运算的最小翻转次数',
@@ -2623,6 +2997,7 @@ const nameMap = {
     difficulty: 'Medium',
     label: '位运算',
     hasThinkings: 'false',
+    checked: 'false',
   },
   1356: {
     cnName: '根据数字二进制下1的数目排序',
@@ -2630,6 +3005,7 @@ const nameMap = {
     difficulty: 'Easy',
     label: '位运算',
     hasThinkings: 'false',
+    checked: 'false',
   },
   1365: {
     cnName: '有多少小于当前数字的数字',
@@ -2637,13 +3013,15 @@ const nameMap = {
     difficulty: 'Easy',
     label: '',
     hasThinkings: 'false',
+    checked: 'false',
   },
   1370: {
     cnName: '上升下降字符串',
     enName: 'Increasing Decreasing String',
     difficulty: 'Easy',
     label: '桶计数',
-    hasThinkings: 'true',
+    hasThinkings: 'false',
+    checked: 'false',
   },
   1372: {
     cnName: '二叉树中的最长交错路径',
@@ -2651,6 +3029,7 @@ const nameMap = {
     difficulty: 'Medium',
     label: '二叉树、DFS',
     hasThinkings: 'false',
+    checked: 'false',
   },
   1388: {
     cnName: '3n 块披萨',
@@ -2658,6 +3037,7 @@ const nameMap = {
     difficulty: 'Hard',
     label: '',
     hasThinkings: 'false',
+    checked: 'false',
   },
   1403: {
     cnName: '非递增顺序的最小子序列',
@@ -2665,6 +3045,7 @@ const nameMap = {
     difficulty: 'Easy',
     label: '贪心',
     hasThinkings: 'false',
+    checked: 'false',
   },
   1413: {
     cnName: '逐步求和得到正数的最小值',
@@ -2672,6 +3053,7 @@ const nameMap = {
     difficulty: 'Easy',
     label: '',
     hasThinkings: 'false',
+    checked: 'false',
   },
   1431: {
     cnName: '拥有最多糖果的孩子',
@@ -2679,6 +3061,7 @@ const nameMap = {
     difficulty: 'Easy',
     label: '',
     hasThinkings: 'true',
+    checked: 'false',
   },
   1446: {
     cnName: '连续字符',
@@ -2686,6 +3069,7 @@ const nameMap = {
     difficulty: 'Easy',
     label: '数组',
     hasThinkings: 'false',
+    checked: 'false',
   },
   1448: {
     cnName: '统计二叉树中好节点的数目',
@@ -2693,6 +3077,7 @@ const nameMap = {
     difficulty: 'Medium',
     label: '二叉树、DFS',
     hasThinkings: 'false',
+    checked: 'false',
   },
   1451: {
     cnName: '重新排列句子中的单词',
@@ -2700,6 +3085,7 @@ const nameMap = {
     difficulty: 'Medium',
     label: '字符串',
     hasThinkings: 'false',
+    checked: 'false',
   },
   1456: {
     cnName: '定长子串中元音的最大数目',
@@ -2707,6 +3093,7 @@ const nameMap = {
     difficulty: 'Medium',
     label: '滑动窗口',
     hasThinkings: 'false',
+    checked: 'false',
   },
   1466: {
     cnName: '重新规划路线',
@@ -2714,6 +3101,7 @@ const nameMap = {
     difficulty: 'Medium',
     label: '图、DFS',
     hasThinkings: 'false',
+    checked: 'false',
   },
   1470: {
     cnName: '重新排列数组',
@@ -2721,6 +3109,7 @@ const nameMap = {
     difficulty: 'Easy',
     label: '数组',
     hasThinkings: 'false',
+    checked: 'false',
   },
   1493: {
     cnName: '删掉一个元素以后全为1的最长子数组',
@@ -2728,6 +3117,7 @@ const nameMap = {
     difficulty: 'Medium',
     label: '滑动窗口',
     hasThinkings: 'false',
+    checked: 'false',
   },
   1518: {
     cnName: '换水问题',
@@ -2735,6 +3125,7 @@ const nameMap = {
     difficulty: 'Easy',
     label: '数学方法',
     hasThinkings: 'false',
+    checked: 'false',
   },
   1528: {
     cnName: '重新排列字符串',
@@ -2742,6 +3133,7 @@ const nameMap = {
     difficulty: 'Easy',
     label: '数组',
     hasThinkings: 'false',
+    checked: 'false',
   },
   1572: {
     cnName: '矩阵对角线的元素和',
@@ -2749,13 +3141,15 @@ const nameMap = {
     difficulty: 'Easy',
     label: '',
     hasThinkings: 'false',
+    checked: 'false',
   },
   1576: {
     cnName: '替换所有的问号',
     enName: 'Replace All ?‘s to Avoid Consecutive Repeating Characters',
     difficulty: 'Easy',
     label: '数组',
-    hasThinkings: 'true',
+    hasThinkings: 'false',
+    checked: 'false',
   },
   1640: {
     cnName: '能否连接成数组',
@@ -2763,6 +3157,7 @@ const nameMap = {
     difficulty: 'Easy',
     label: '',
     hasThinkings: 'false',
+    checked: 'false',
   },
   1652: {
     cnName: '拆炸弹',
@@ -2770,6 +3165,7 @@ const nameMap = {
     difficulty: 'Easy',
     label: '滑动窗口',
     hasThinkings: 'true',
+    checked: 'false',
   },
   1657: {
     cnName: '确定两个字符串是否接近',
@@ -2777,6 +3173,7 @@ const nameMap = {
     difficulty: 'Medium',
     label: '哈希',
     hasThinkings: 'false',
+    checked: 'false',
   },
   1679: {
     cnName: 'K 和数对的最大数目',
@@ -2784,6 +3181,7 @@ const nameMap = {
     difficulty: 'Medium',
     label: '双指针',
     hasThinkings: 'false',
+    checked: 'false',
   },
   1726: {
     cnName: '同积元组',
@@ -2791,13 +3189,15 @@ const nameMap = {
     difficulty: 'Medium',
     label: '哈希',
     hasThinkings: 'false',
+    checked: 'false',
   },
   1732: {
     cnName: '找到最高海拔',
     enName: 'Find the Highest Altitude',
     difficulty: 'Easy',
     label: '前缀和',
-    hasThinkings: 'true',
+    hasThinkings: 'false',
+    checked: 'false',
   },
   1768: {
     cnName: '交替合并字符串',
@@ -2805,6 +3205,7 @@ const nameMap = {
     difficulty: 'Easy',
     label: '字符串',
     hasThinkings: 'false',
+    checked: 'false',
   },
   1823: {
     cnName: '找出游戏的获胜者',
@@ -2812,6 +3213,7 @@ const nameMap = {
     difficulty: 'Medium',
     label: '',
     hasThinkings: 'false',
+    checked: 'false',
   },
   1926: {
     cnName: '迷宫中离入口最近的出口',
@@ -2819,6 +3221,7 @@ const nameMap = {
     difficulty: 'Medium',
     label: '图、BFS',
     hasThinkings: 'false',
+    checked: 'false',
   },
   1945: {
     cnName: '字符串转化后的各位数字之和',
@@ -2826,6 +3229,7 @@ const nameMap = {
     difficulty: 'Easy',
     label: '',
     hasThinkings: 'true',
+    checked: 'false',
   },
   2028: {
     cnName: '找出缺失的观测数据',
@@ -2833,6 +3237,7 @@ const nameMap = {
     difficulty: 'Medium',
     label: '数学方法',
     hasThinkings: 'false',
+    checked: 'false',
   },
   2038: {
     cnName: '如果相邻两个颜色均相同则删除当前颜色',
@@ -2840,6 +3245,7 @@ const nameMap = {
     difficulty: 'Medium',
     label: '',
     hasThinkings: 'true',
+    checked: 'false',
   },
   2095: {
     cnName: '删除链表的中间节点',
@@ -2847,13 +3253,15 @@ const nameMap = {
     difficulty: 'Medium',
     label: '链表',
     hasThinkings: 'false',
+    checked: 'false',
   },
   2130: {
     cnName: '链表最大孪生和',
     enName: 'Maximum Twin Sum of a Linked List',
     difficulty: 'Medium',
     label: '链表',
-    hasThinkings: 'true',
+    hasThinkings: 'false',
+    checked: 'false',
   },
   2215: {
     cnName: '找出两数组的不同',
@@ -2861,6 +3269,7 @@ const nameMap = {
     difficulty: 'Easy',
     label: '哈希',
     hasThinkings: 'false',
+    checked: 'false',
   },
   2300: {
     cnName: '咒语和药水的成功对数',
@@ -2868,6 +3277,7 @@ const nameMap = {
     difficulty: 'Medium',
     label: '二分查找',
     hasThinkings: 'false',
+    checked: 'false',
   },
   2336: {
     cnName: '无限集中的最小数字',
@@ -2875,6 +3285,7 @@ const nameMap = {
     difficulty: 'Medium',
     label: '优先队列',
     hasThinkings: 'true',
+    checked: 'false',
   },
   2352: {
     cnName: '相等行列对',
@@ -2882,6 +3293,7 @@ const nameMap = {
     difficulty: 'Medium',
     label: '哈希',
     hasThinkings: 'true',
+    checked: 'false',
   },
   2390: {
     cnName: '从字符串中移除星号',
@@ -2889,6 +3301,7 @@ const nameMap = {
     difficulty: 'Medium',
     label: '栈',
     hasThinkings: 'true',
+    checked: 'false',
   },
   2462: {
     cnName: '雇佣 K 位工人的总代价',
@@ -2896,6 +3309,7 @@ const nameMap = {
     difficulty: 'Medium',
     label: '优先队列',
     hasThinkings: 'true',
+    checked: 'false',
   },
   2512: {
     cnName: '奖励最顶尖的 K 名学生',
@@ -2903,6 +3317,7 @@ const nameMap = {
     difficulty: 'Medium',
     label: '',
     hasThinkings: 'true',
+    checked: 'false',
   },
   2530: {
     cnName: '执行 K 次操作后的最大分数',
@@ -2910,6 +3325,7 @@ const nameMap = {
     difficulty: 'Medium',
     label: '贪心、优先队列',
     hasThinkings: 'true',
+    checked: 'false',
   },
   2542: {
     cnName: '最大子序列的分数',
@@ -2917,6 +3333,7 @@ const nameMap = {
     difficulty: 'Medium',
     label: '优先队列',
     hasThinkings: 'true',
+    checked: 'false',
   },
   2578: {
     cnName: '最小和分割',
@@ -2924,6 +3341,7 @@ const nameMap = {
     difficulty: 'Easy',
     label: '贪心',
     hasThinkings: 'true',
+    checked: 'false',
   },
   2580: {
     cnName: '统计将重叠区间合并成组的方案数',
@@ -2931,6 +3349,7 @@ const nameMap = {
     difficulty: 'Medium',
     label: '区间合并',
     hasThinkings: 'true',
+    checked: 'false',
   },
   2639: {
     cnName: '查询网格图中每一列的宽度',
@@ -2938,6 +3357,7 @@ const nameMap = {
     difficulty: 'Easy',
     label: '数组',
     hasThinkings: 'true',
+    checked: 'false',
   },
   2652: {
     cnName: '倍数求和',
@@ -2945,6 +3365,7 @@ const nameMap = {
     difficulty: 'Easy',
     label: '哈希',
     hasThinkings: 'true',
+    checked: 'false',
   },
   2697: {
     cnName: '字典序最小回文串',
@@ -2952,6 +3373,7 @@ const nameMap = {
     difficulty: 'Easy',
     label: '双指针',
     hasThinkings: 'true',
+    checked: 'false',
   },
   2731: {
     cnName: '移动机器人',
@@ -2959,6 +3381,7 @@ const nameMap = {
     difficulty: 'Medium',
     label: '脑筋急转弯',
     hasThinkings: 'true',
+    checked: 'false',
   },
   2760: {
     cnName: '最长奇偶子数组',
@@ -2966,6 +3389,7 @@ const nameMap = {
     difficulty: 'Easy',
     label: '动态规划',
     hasThinkings: 'true',
+    checked: 'false',
   },
   3033: {
     cnName: '修改矩阵',
@@ -2973,6 +3397,7 @@ const nameMap = {
     difficulty: 'Easy',
     label: '数组',
     hasThinkings: 'true',
+    checked: 'false',
   },
   3146: {
     cnName: '两个字符串的排列差',
@@ -2980,6 +3405,7 @@ const nameMap = {
     difficulty: 'Easy',
     label: '',
     hasThinkings: 'true',
+    checked: 'false',
   },
 };
 
