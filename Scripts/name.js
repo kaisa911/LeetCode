@@ -3188,7 +3188,7 @@ const nameMap = {
     enName: 'Tuple with Same Product',
     difficulty: 'Medium',
     label: '哈希',
-    hasThinkings: 'false',
+    hasThinkings: 'true',
     checked: 'false',
   },
   1732: {
@@ -3196,7 +3196,7 @@ const nameMap = {
     enName: 'Find the Highest Altitude',
     difficulty: 'Easy',
     label: '前缀和',
-    hasThinkings: 'false',
+    hasThinkings: 'true',
     checked: 'false',
   },
   1768: {
@@ -3204,7 +3204,7 @@ const nameMap = {
     enName: 'Merge String Alternatively',
     difficulty: 'Easy',
     label: '字符串',
-    hasThinkings: 'false',
+    hasThinkings: 'true',
     checked: 'false',
   },
   1823: {
@@ -3212,7 +3212,7 @@ const nameMap = {
     enName: 'Find The Winner',
     difficulty: 'Medium',
     label: '',
-    hasThinkings: 'false',
+    hasThinkings: 'true',
     checked: 'false',
   },
   1926: {
@@ -3220,7 +3220,7 @@ const nameMap = {
     enName: 'Nearest Exit from Entrance in Maze',
     difficulty: 'Medium',
     label: '图、BFS',
-    hasThinkings: 'false',
+    hasThinkings: 'true',
     checked: 'false',
   },
   1945: {
@@ -3236,7 +3236,7 @@ const nameMap = {
     enName: 'Find Missing Observations',
     difficulty: 'Medium',
     label: '数学方法',
-    hasThinkings: 'false',
+    hasThinkings: 'true',
     checked: 'false',
   },
   2038: {
@@ -3252,7 +3252,7 @@ const nameMap = {
     enName: 'Delete the Middle Node of a Linked List',
     difficulty: 'Medium',
     label: '链表',
-    hasThinkings: 'false',
+    hasThinkings: 'true',
     checked: 'false',
   },
   2130: {
@@ -3260,7 +3260,7 @@ const nameMap = {
     enName: 'Maximum Twin Sum of a Linked List',
     difficulty: 'Medium',
     label: '链表',
-    hasThinkings: 'false',
+    hasThinkings: 'true',
     checked: 'false',
   },
   2215: {
@@ -3268,7 +3268,7 @@ const nameMap = {
     enName: 'Find the Difference of Two Arrays',
     difficulty: 'Easy',
     label: '哈希',
-    hasThinkings: 'false',
+    hasThinkings: 'true',
     checked: 'false',
   },
   2300: {
@@ -3276,7 +3276,7 @@ const nameMap = {
     enName: 'Successful Pairs of Spells and Potions',
     difficulty: 'Medium',
     label: '二分查找',
-    hasThinkings: 'false',
+    hasThinkings: 'true',
     checked: 'false',
   },
   2336: {

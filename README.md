@@ -414,18 +414,18 @@ pie title 已完成的题目
 | 1652 | [Defuse the Bomb 拆炸弹](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/1652-DefusetheBomb.md) | Easy | 滑动窗口 |
 | 1657 | [Determine if Two Strings Are Close 确定两个字符串是否接近](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/1657-DetermineifTwoStringsAreClose.js) | Medium | 哈希 |
 | 1679 | [Max Number of K-Sum Pairs K 和数对的最大数目](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/1679-MaxNumberofK-SumPairs.js) | Medium | 双指针 |
-| 1726 | [Tuple with Same Product 同积元组](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/1726-TuplewithSameProduct.js) | Medium | 哈希 |
-| 1732 | [Find the Highest Altitude 找到最高海拔](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/1732-FindtheHighestAltitude.js) | Easy | 前缀和 |
-| 1768 | [Merge String Alternatively 交替合并字符串](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/1768-MergeStringAlternatively.js) | Easy | 字符串 |
-| 1823 | [Find The Winner 找出游戏的获胜者](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/1823-FindTheWinner.js) | Medium |  |
-| 1926 | [Nearest Exit from Entrance in Maze 迷宫中离入口最近的出口](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/1926-NearestExitfromEntranceinMaze.js) | Medium | 图、BFS |
+| 1726 | [Tuple with Same Product 同积元组](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/1726-TuplewithSameProduct.md) | Medium | 哈希 |
+| 1732 | [Find the Highest Altitude 找到最高海拔](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/1732-FindtheHighestAltitude.md) | Easy | 前缀和 |
+| 1768 | [Merge String Alternatively 交替合并字符串](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/1768-MergeStringAlternatively.md) | Easy | 字符串 |
+| 1823 | [Find The Winner 找出游戏的获胜者](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/1823-FindTheWinner.md) | Medium |  |
+| 1926 | [Nearest Exit from Entrance in Maze 迷宫中离入口最近的出口](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/1926-NearestExitfromEntranceinMaze.md) | Medium | 图、BFS |
 | 1945 | [Sum of Digits of String After Convert 字符串转化后的各位数字之和](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/1945-SumofDigitsofStringAfterConvert.md) | Easy |  |
-| 2028 | [Find Missing Observations 找出缺失的观测数据](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/2028-FindMissingObservations.js) | Medium | 数学方法 |
+| 2028 | [Find Missing Observations 找出缺失的观测数据](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/2028-FindMissingObservations.md) | Medium | 数学方法 |
 | 2038 | [Remove Colored Pieces if Both Neighbors are the Same Color 如果相邻两个颜色均相同则删除当前颜色](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/2038-RemoveColoredPiecesifBothNeighborsaretheSameColor.md) | Medium |  |
-| 2095 | [Delete the Middle Node of a Linked List 删除链表的中间节点](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/2095-DeletetheMiddleNodeofaLinkedList.js) | Medium | 链表 |
-| 2130 | [Maximum Twin Sum of a Linked List 链表最大孪生和](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/2130-MaximumTwinSumofaLinkedList.js) | Medium | 链表 |
-| 2215 | [Find the Difference of Two Arrays 找出两数组的不同](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/2215-FindtheDifferenceofTwoArrays.js) | Easy | 哈希 |
-| 2300 | [Successful Pairs of Spells and Potions 咒语和药水的成功对数](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/2300-SuccessfulPairsofSpellsandPotions.js) | Medium | 二分查找 |
+| 2095 | [Delete the Middle Node of a Linked List 删除链表的中间节点](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/2095-DeletetheMiddleNodeofaLinkedList.md) | Medium | 链表 |
+| 2130 | [Maximum Twin Sum of a Linked List 链表最大孪生和](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/2130-MaximumTwinSumofaLinkedList.md) | Medium | 链表 |
+| 2215 | [Find the Difference of Two Arrays 找出两数组的不同](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/2215-FindtheDifferenceofTwoArrays.md) | Easy | 哈希 |
+| 2300 | [Successful Pairs of Spells and Potions 咒语和药水的成功对数](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/2300-SuccessfulPairsofSpellsandPotions.md) | Medium | 二分查找 |
 | 2336 | [Smallest Number in infinite Set 无限集中的最小数字](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/2336-SmallestNumberininfiniteSet.md) | Medium | 优先队列 |
 | 2352 | [Equal Row and Column Pairs 相等行列对](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/2352-EqualRowandColumnPairs.md) | Medium | 哈希 |
 | 2390 | [Removing Stars From a String 从字符串中移除星号](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/2390-RemovingStarsFromaString.md) | Medium | 栈 |
