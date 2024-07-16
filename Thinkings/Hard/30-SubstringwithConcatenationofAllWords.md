@@ -2,7 +2,7 @@
 
 给定一个字符串 s 和一个字符串数组 words。 words 中所有字符串 长度相同。
 
- s 中的 串联子串 是指一个包含  words 中所有字符串以任意顺序排列连接起来的子串。
+s 中的 串联子串 是指一个包含 words 中所有字符串以任意顺序排列连接起来的子串。
 
 例如，如果 words = ["ab","cd","ef"]， 那么 "abcdef"， "abefcd"，"cdabef"， "cdefab"，"efabcd"， 和 "efcdab" 都是串联子串。 "acdbef" 不是串联子串，因为他不是任何 words 排列的连接。
 返回所有串联子串在 s 中的开始索引。你可以以 任意顺序 返回答案。
@@ -53,32 +53,37 @@ s 中没有子串长度为 16 并且等于 words 的任何顺序排列的连接�
  * @return {number[]}
  */
 const findSubstring = (s, words) => {
-  if (words.length === 0 || s.length === 0) return [];
-  let map = {},
-    res = [],
-    compare = '';
-  words.sort();
-  for (let i = 0; i < words.length; i++) {
-    compare += words[i];
-    if (typeof map[words[i]] !== 'undefined') map[words[i]]++;
-    else map[words[i]] = 1;
-  }
-  let word_len = words[0].length,
-    total_len = words.length * word_len;
-  for (let i = 0; i < s.length - total_len + 1; i++) {
-    let text = s.substr(i, word_len);
-    if (typeof map[text] !== 'undefined') {
-      if (checkSubstring(s, compare, i, word_len, total_len)) res.push(i);
-    }
-  }
-  return res;
+  const wordLen = words[0].length;
+  const totalLen = wordLen * words.length;
+  const wordCount = words.length;
+  const wordMap = new Map(words.map((word) => [word, 1]));
 
-  const checkSubstring = (s, compare, i, word_len, total_len) => {
-    let words = [];
-    for (let j = i; j < i + total_len; j += word_len) {
-      words.push(s.substr(j, word_len));
+  const result = [];
+
+  for (let start = 0; start <= s.length - totalLen; start++) {
+    let tempMap = new Map(wordMap);
+    let matchedCount = 0;
+
+    for (let end = start; end <= s.length - totalLen; end += wordLen) {
+      let currentWord = s.slice(end, end + wordLen);
+      if (!tempMap.has(currentWord) || tempMap.get(currentWord) === 0) {
+        start += wordLen * matchedCount; // 重置 start 到下一个可能的子串起始位置
+        matchedCount = 0;
+        tempMap.clear(); // 重置临时 Map
+        break;
+      }
+
+      tempMap.set(currentWord, tempMap.get(currentWord) - 1);
+      if (++matchedCount === wordCount) {
+        result.push(start);
+        start += wordLen * (wordCount - 1); // 跳过已匹配的单词
+        matchedCount = 0;
+        tempMap.clear(); // 重置临时 Map
+        break;
+      }
     }
-    return compare === words.sort().join('');
-  };
+  }
+
+  return result;
 };
 ```

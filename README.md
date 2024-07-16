@@ -36,16 +36,16 @@ pie title 已完成的题目
 | 18 | [4 Sum 四数之和](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/18-4Sum.md) | Medium | 双指针法 |
 | 19 | [Remove Nth Node From End of List 删除链表的倒数第 N 个节点](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/19-RemoveNthNodeFromEndofLIst.md) | Medium | 快慢指针 |
 | 20 | [Valid Parentheses 有效的括号](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/20-ValidParentheses.md) | Easy | 栈 |
-| 21 | [Merge Two Sorted Lists 合并两个有序链表](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/21-MergeTwoSortedLists.md) | Easy |  |
-| 22 | [Generate Parentheses 生成括号](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/22-GenerateParentheses.md) | Medium |  |
-| 23 | [Merge k Sorted Lists 合并 K 个排序链表](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Hard/23-MergekSortedLists.md) | Hard |  |
-| 24 | [Swap Nodes In Pairs 两两交换链表中的节点](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/24-SwapNodesInPairs.md) | Medium |  |
-| 25 | [Reverse Nodes in k-Group 每 k 个一组翻转链表](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Hard/25-ReverseNodesink-Group.md) | Hard |  |
+| 21 | [Merge Two Sorted Lists 合并两个有序链表](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/21-MergeTwoSortedLists.md) | Easy | 链表 |
+| 22 | [Generate Parentheses 生成括号](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/22-GenerateParentheses.md) | Medium | 回溯 |
+| 23 | [Merge k Sorted Lists 合并 K 个排序链表](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Hard/23-MergekSortedLists.md) | Hard | 链表、分治 |
+| 24 | [Swap Nodes In Pairs 两两交换链表中的节点](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/24-SwapNodesInPairs.md) | Medium | 链表、迭代法 |
+| 25 | [Reverse Nodes in k-Group 每 k 个一组翻转链表](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Hard/25-ReverseNodesink-Group.md) | Hard | 迭代、递归、链表 |
 | 26 | [Remove Duplicates from Sorted Array 从有序数组中删除重复项](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/26-RemoveDuplicatesfromSortedArray.md) | Easy | 双指针 |
 | 27 | [Remove Element 移除元素](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/27-RemoveElement.md) | Easy | 双指针 |
 | 28 | [Implement strStr() 实现 strStr()](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/28-ImplementstrStr.md) | Easy | KMP算法 |
-| 29 | [Divide Two Integers 两数相除](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/29-DivideTwoIntegers.md) | Medium |  |
-| 30 | [Substring with Concatenation of All Words 串联所有单词的子串](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Hard/30-SubstringwithConcatenationofAllWords.md) | Hard |  |
+| 29 | [Divide Two Integers 两数相除](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/29-DivideTwoIntegers.md) | Medium | 贪心、位运算 |
+| 30 | [Substring with Concatenation of All Words 串联所有单词的子串](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Hard/30-SubstringwithConcatenationofAllWords.md) | Hard | 字符串、滑动窗口 |
 | 31 | [Next-permutation 下一个排列](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/31-Next-permutation.md) | Medium |  |
 | 32 | [Longest Valid Parentheses 最长有效括号](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Hard/32-LongestValidParentheses.md) | Hard |  |
 | 33 | [Search in Rotated Sorted Array 在旋转有序数组中搜索](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/33-SearchinRotatedSortedArray.md) | Medium |  |
