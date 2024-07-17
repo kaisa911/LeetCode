@@ -37,6 +37,17 @@
 - 题目数据保证 nums 在预先未知的某个下标上进行了旋转
 - -104 <= target <= 104
 
+思路：
+
+1. 初始化：设置两个指针 left 和 right，分别指向数组的开始和结束。
+2. 二分查找：在循环中，计算中间索引 mid。
+3. 判断中间值：如果 nums[mid] 等于 target，则返回 mid。
+4. 确定搜索区间：通过比较 nums[mid]、nums[left] 和 nums[right] 的值来确定 target 可能在数组的哪一部分。如果 nums[mid] 比 nums[right] 小，说明 nums[mid] 到 nums[right] 是有序的；否则，nums[left] 到 nums[mid] 是有序的。
+5. 更新搜索区间：根据 target 与 nums[left]、nums[mid] 和 nums[right] 的关系，更新 left 或 right 指针，缩小搜索范围。
+6. 循环结束：如果 left 大于 right，则表示 target 不在数组中，返回 -1。
+
+算法的时间复杂度为 O(log n)，因为每次迭代都会将搜索区间减半。算法的空间复杂度为 O(1)，因为除了输入数组外，我们只使用了常数级别的额外空间。
+
 ```js
 /**
  * @param {number[]} nums
@@ -50,7 +61,6 @@ const search = (nums, target) => {
   while (left <= right) {
     let mid = Math.floor((left + right) / 2);
     if (nums[mid] == target) return mid;
-    
     else if (nums[mid] < nums[right]) {
       if (nums[mid] < target && nums[right] >= target) left = mid + 1;
       else right = mid - 1;
@@ -61,5 +71,4 @@ const search = (nums, target) => {
   }
   return -1;
 };
-
 ```

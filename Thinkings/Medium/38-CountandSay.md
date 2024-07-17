@@ -46,3 +46,41 @@ countAndSay(4) = 读 "21" = 一 个 2 + 一 个 1 = "12" + "11" = "1211"
 提示：
 
 - 1 <= n <= 30
+
+思路：
+
+1. 初始化：从 "1" 开始。
+2. 递归描述：对每一项进行描述，生成下一项。
+3. 描述过程：
+  - 遍历当前项的字符串。
+  - 计算连续相同字符的数量。
+  - 将数量和字符拼接成描述字符串。
+
+每项生成的时间复杂度为 O(m)，其中 m 是当前项的长度。对于 n 项，总的时间复杂度为 O(n*m)。
+空间复杂度为 O(m)，因为我们需要存储每一项的描述字符串。
+
+
+
+```js
+/**
+ * @param {number} n
+ * @return {string}
+ */
+const countAndSay = n => {
+  if (n <= 0) return '';
+  let res = '1';
+  while (--n) {
+    let cur = '';
+    for (let i = 0; i < res.length; ++i) {
+      let cnt = 1;
+      while (i + 1 < res.length && res[i] == res[i + 1]) {
+        ++cnt;
+        ++i;
+      }
+      cur += cnt.toString() + res[i];
+    }
+    res = cur;
+  }
+  return res;
+};
+```

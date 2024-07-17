@@ -38,10 +38,65 @@
 ,[".",".",".","4","1","9",".",".","5"]
 ,[".",".",".",".","8",".",".","7","9"]]
 输出：false
-解释：除了第一行的第一个数字从 5 改为 8 以外，空格内其他数字均与 示例1 相同。 但由于位于左上角的 3x3 宫内有两个 8 存在, 因此这个数独是无效的。
+解释：除了第一行的第一个数字从 5 改为 8 以外，空格内其他数字均与 示例 1 相同。 但由于位于左上角的 3x3 宫内有两个 8 存在, 因此这个数独是无效的。
 
 提示：
 
 - board.length == 9
 - board[i].length == 9
 - board[i][j] 是一位数字（1-9）或者 '.'
+
+思路：
+通过遍历数独的每个单元格，并使用三个数组（rowNums、colNums 和 cellNums）来存储行、列和 3x3 宫中的数字，来检查数独的有效性。代码是简洁且高效的，满足了题目的要求。
+
+为了验证数独的有效性，我们可以：
+
+1. 初始化：为每一行、每一列和每一个 3x3 宫准备一个集合，用于存储已经出现的数字。
+2. 遍历数独：逐个检查数独中的每个单元格。
+3. 检查单元格：如果单元格不是空（即不是 '.'），则检查它是否已经在相应的行、列和宫中出现过。
+  - 如果出现过，则数独无效，返回 false。
+  - 如果没有出现过，则将该数字添加到相应的行、列和宫的集合中。
+4. 返回结果：如果遍历完所有单元格都没有发现重复的数字，则数独有效，返回 true。
+
+算法的时间复杂度为 O(1)，因为我们只需要遍历一次数独的所有单元格。
+算法的空间复杂度为 O(1)，因为我们只使用了常数级别的额外空间来存储行、列和宫的数字集合。
+
+```js
+/**
+ * @param {character[][]} board
+ * @return {boolean}
+ */
+const isValidSudoku = (board) => {
+  let char,
+    rowNums = [],
+    colNums = [],
+    cellNums = [],
+    m = board.length,
+    n = board[0].length;
+
+  for (let i = 0; i < m; i++) {
+    for (let j = 0; j < n; j++) {
+      char = board[i][j];
+      if (char !== '.') {
+        if (rowNums.indexOf(char) > -1) return false;
+        rowNums.push(char);
+      }
+
+      char = board[j][i];
+      if (char !== '.') {
+        if (colNums.indexOf(char) > -1) return false;
+        colNums.push(char);
+      }
+
+      let row = Math.floor(i / 3) * 3 + Math.floor(j / 3);
+      let col = (i % 3) * 3 + (j % 3);
+      char = board[row][col];
+      if (char !== '.') {
+        if (cellNums.indexOf(char) > -1) return false;
+        cellNums.push(char);
+      }
+    }
+  }
+  return true;
+};
+```

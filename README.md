@@ -46,14 +46,14 @@ pie title 已完成的题目
 | 28 | [Implement strStr() 实现 strStr()](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/28-ImplementstrStr.md) | Easy | KMP算法 |
 | 29 | [Divide Two Integers 两数相除](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/29-DivideTwoIntegers.md) | Medium | 贪心、位运算 |
 | 30 | [Substring with Concatenation of All Words 串联所有单词的子串](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Hard/30-SubstringwithConcatenationofAllWords.md) | Hard | 字符串、滑动窗口 |
-| 31 | [Next-permutation 下一个排列](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/31-Next-permutation.md) | Medium |  |
-| 32 | [Longest Valid Parentheses 最长有效括号](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Hard/32-LongestValidParentheses.md) | Hard |  |
-| 33 | [Search in Rotated Sorted Array 在旋转有序数组中搜索](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/33-SearchinRotatedSortedArray.md) | Medium |  |
-| 34 | [Search for a Range 搜索范围](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/34-SearchforaRange.md) | Medium |  |
+| 31 | [Next-permutation 下一个排列](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/31-Next-permutation.md) | Medium | 数组 |
+| 32 | [Longest Valid Parentheses 最长有效括号](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Hard/32-LongestValidParentheses.md) | Hard | 栈 |
+| 33 | [Search in Rotated Sorted Array 在旋转有序数组中搜索](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/33-SearchinRotatedSortedArray.md) | Medium | 数组、二分查找 |
+| 34 | [Search for a Range 搜索范围](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/34-SearchforaRange.md) | Medium | 二分查找 |
 | 35 | [Search Insert Position 搜索插入位置](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/35-SearchInsertPosition.md) | Easy | 二分查找 |
-| 36 | [Valid Sudoku 验证数独](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/36-ValidSudoku.md) | Medium |  |
-| 37 | [Sudoku Solver 解数独](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Hard/37-SudokuSolver.md) | Hard |  |
-| 38 | [Count and Say 数数并说](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/38-CountandSay.md) | Medium |  |
+| 36 | [Valid Sudoku 验证数独](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/36-ValidSudoku.md) | Medium | 数组 |
+| 37 | [Sudoku Solver 解数独](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Hard/37-SudokuSolver.md) | Hard | DFS、回溯 |
+| 38 | [Count and Say 数数并说](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/38-CountandSay.md) | Medium | 字符串 |
 | 39 | [Combination Sum 组合之和](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/39-CombinationSum.md) | Medium |  |
 | 40 | [Combination Sum II 组合之和 II](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/40-CombinationSumII.md) | Medium |  |
 | 41 | [First Missing Positive 缺失的第一个正数](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Hard/41-FirstMissingPositive.md) | Hard | 数组 |
