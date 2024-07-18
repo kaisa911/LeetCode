@@ -54,11 +54,11 @@ pie title 已完成的题目
 | 36 | [Valid Sudoku 验证数独](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/36-ValidSudoku.md) | Medium | 数组 |
 | 37 | [Sudoku Solver 解数独](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Hard/37-SudokuSolver.md) | Hard | DFS、回溯 |
 | 38 | [Count and Say 数数并说](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/38-CountandSay.md) | Medium | 字符串 |
-| 39 | [Combination Sum 组合之和](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/39-CombinationSum.md) | Medium |  |
-| 40 | [Combination Sum II 组合之和 II](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/40-CombinationSumII.md) | Medium |  |
+| 39 | [Combination Sum 组合之和](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/39-CombinationSum.md) | Medium | 回溯、数组 |
+| 40 | [Combination Sum II 组合之和 II](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/40-CombinationSumII.md) | Medium | 回溯、数组 |
 | 41 | [First Missing Positive 缺失的第一个正数](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Hard/41-FirstMissingPositive.md) | Hard | 数组 |
 | 42 | [Trapping Rain Water 接雨水](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Hard/42-TrappingRainWater.md) | Hard | 双指针 |
-| 43 | [Multiply String 字符串相乘](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/43-MultiplyString.md) | Medium |  |
+| 43 | [Multiply String 字符串相乘](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/43-MultiplyString.md) | Medium | 字符串 |
 | 44 | [Wildcard Matching 通配符匹配](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Hard/44-WildcardMatching.md) | Hard |  |
 | 45 | [Jump Game II 跳跃游戏 II](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/45-JumpGameII.md) | Medium |  |
 | 46 | [Permutations 全排列](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/46-Permutations.md) | Medium |  |

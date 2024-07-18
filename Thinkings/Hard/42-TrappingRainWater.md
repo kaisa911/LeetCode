@@ -21,32 +21,45 @@
 提示：
 
 - n == height.length
-- 1 <= n <= 2 * 104
+- 1 <= n <= 2 \* 104
 - 0 <= height[i] <= 105
 
+思路：
+首先计算每个位置的左侧和右侧最大高度，然后通过比较这些最大高度与当前高度的差值来计算雨水量。
+
+1. 计算左侧最大高度：从左到右遍历数组，记录每个位置左侧的最大高度。
+2. 计算右侧最大高度：从右到左遍历数组，记录每个位置右侧的最大高度。
+3. 计算雨水量：对于每个位置，计算其左侧最大高度和右侧最大高度的较小值与当前高度的差值，累加这些差值即为总雨水量。
+
+时间复杂度为 O(n)，其中 n 是数组 height 的长度。这是因为我们需要遍历数组三次：一次计算左侧最大高度，一次计算右侧最大高度，一次计算雨水量。
+空间复杂度为 O(n)，因为我们使用了两个额外的数组 leftMax 和 rightMax 来存储每个位置的最大高度。
+
 ```js
-var trap = function(height) {
-    const n = height.length;
-    if (n == 0) {
-        return 0;
-    }
+var trap = function (height) {
+  const n = height.length;
+  if (n === 0) {
+    return 0;
+  }
 
-    const leftMax = new Array(n).fill(0);
-    leftMax[0] = height[0];
-    for (let i = 1; i < n; ++i) {
-        leftMax[i] = Math.max(leftMax[i - 1], height[i]);
-    }
+  // 计算每个位置左侧的最大高度
+  const leftMax = new Array(n).fill(0);
+  leftMax[0] = height[0];
+  for (let i = 1; i < n; ++i) {
+    leftMax[i] = Math.max(leftMax[i - 1], height[i]);
+  }
 
-    const rightMax = new Array(n).fill(0);
-    rightMax[n - 1] = height[n - 1];
-    for (let i = n - 2; i >= 0; --i) {
-        rightMax[i] = Math.max(rightMax[i + 1], height[i]);
-    }
+  // 计算每个位置右侧的最大高度
+  const rightMax = new Array(n).fill(0);
+  rightMax[n - 1] = height[n - 1];
+  for (let i = n - 2; i >= 0; --i) {
+    rightMax[i] = Math.max(rightMax[i + 1], height[i]);
+  }
 
-    let ans = 0;
-    for (let i = 0; i < n; ++i) {
-        ans += Math.min(leftMax[i], rightMax[i]) - height[i];
-    }
-    return ans;
+  let res = 0;
+  // 计算雨水量
+  for (let i = 0; i < n; ++i) {
+    res += Math.min(leftMax[i], rightMax[i]) - height[i];
+  }
+  return res;
 };
 ```

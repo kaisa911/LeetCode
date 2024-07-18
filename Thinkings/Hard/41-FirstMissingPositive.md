@@ -33,26 +33,42 @@
 - 1 <= nums.length <= 105
 - -231 <= nums[i] <= 231 - 1
 
+思路：
+
+1. 原地修改：我们可以通过原地修改数组来实现只使用常数级别的额外空间。
+2. 标记存在：将数组中的每个数字标记为它自身值的绝对值，这样可以利用数组的索引来表示数字是否存在。
+3. 查找缺失：遍历数组，找到第一个未被标记为相应数字绝对值的索引，该索引加1即为缺失的最小正数。
+
+时间复杂度为 O(n)，因为我们需要遍历数组两次：一次是标记存在，一次是查找缺失。
+空间复杂度为 O(1)，因为我们只使用了数组本身的空间，没有使用额外的空间。
+
+
 ```js
 /**
+ * 找出数组中缺失的最小正整数
  * @param {number[]} nums
  * @return {number}
  */
 const firstMissingPositive = nums => {
-  const tempArr = [];
-  let res = 1;
-  nums.map(item => {
-    if (item > 0) {
-      tempArr[item] = item;
-    }
-  });
-  for (let i = 1; i <= tempArr.length; i++) {
-    if (!tempArr[i]) {
-      res = i;
-      break;
+  const n = nums.length;
+  
+  // 第一次遍历，将数组中的数字标记为它自身值的绝对值
+  for (let i = 0; i < n; i++) {
+    while (nums[i] > 0 && nums[i] <= n && nums[nums[i] - 1] != nums[i]) {
+      let temp = nums[nums[i] - 1];
+      nums[nums[i] - 1] = nums[i];
+      nums[i] = temp;
     }
   }
-  return res;
+  
+  // 第二次遍历，找到第一个未被标记为相应数字绝对值的索引
+  for (let i = 0; i < n; i++) {
+    if (nums[i] != i + 1) {
+      return i + 1;
+    }
+  }
+  
+  // 如果数组中所有数字都存在，则返回数组长度加1
+  return n + 1;
 };
-
 ```
