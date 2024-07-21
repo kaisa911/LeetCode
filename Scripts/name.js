@@ -628,7 +628,7 @@ const nameMap = {
     enName: 'Word Search',
     difficulty: 'Medium',
     label: '',
-    hasThinkings: 'false',
+    hasThinkings: 'true',
     checked: 'false',
   },
   80: {
@@ -644,7 +644,7 @@ const nameMap = {
     enName: 'Searching Rotated Sorted Array II',
     difficulty: 'Medium',
     label: '',
-    hasThinkings: 'false',
+    hasThinkings: 'true',
     checked: 'false',
   },
   82: {
@@ -708,7 +708,7 @@ const nameMap = {
     enName: 'Gray Code',
     difficulty: 'Medium',
     label: '',
-    hasThinkings: 'false',
+    hasThinkings: 'true',
     checked: 'false',
   },
   90: {
@@ -716,7 +716,7 @@ const nameMap = {
     enName: 'Subsets II',
     difficulty: 'Medium',
     label: '',
-    hasThinkings: 'false',
+    hasThinkings: 'true',
     checked: 'false',
   },
   91: {
@@ -724,7 +724,7 @@ const nameMap = {
     enName: 'Decode Ways',
     difficulty: 'Medium',
     label: '',
-    hasThinkings: 'false',
+    hasThinkings: 'true',
     checked: 'false',
   },
   92: {
@@ -732,7 +732,7 @@ const nameMap = {
     enName: 'Reverse Linked List II',
     difficulty: 'Medium',
     label: '',
-    hasThinkings: 'false',
+    hasThinkings: 'true',
     checked: 'false',
   },
   93: {
@@ -1487,6 +1487,14 @@ const nameMap = {
     hasThinkings: 'false',
     checked: 'false',
   },
+  228: {
+    cnName: '汇总区间',
+    enName: 'Summary Ranges',
+    difficulty: 'Easy',
+    label: '',
+    hasThinkings: 'true',
+    checked: 'false',
+  },
   230: {
     cnName: '二叉搜索树中的第 K 小的元素',
     enName: 'Kth Smallest Element in a BST',
@@ -1735,6 +1743,14 @@ const nameMap = {
     hasThinkings: 'false',
     checked: 'false',
   },
+  310: {
+    cnName: '最小高度树',
+    enName: 'Minimum Height Trees',
+    difficulty: 'Medium',
+    label: 'BFC',
+    hasThinkings: 'true',
+    checked: 'false',
+  },
   312: {
     cnName: '戳气球',
     enName: 'Burst Balloons',
@@ -1749,6 +1765,14 @@ const nameMap = {
     difficulty: 'Hard',
     label: '归并排序',
     hasThinkings: 'false',
+    checked: 'false',
+  },
+  319: {
+    cnName: '灯泡开关',
+    enName: 'Bulb Switcher',
+    difficulty: 'Medium',
+    label: '数学',
+    hasThinkings: 'true',
     checked: 'false',
   },
   322: {
@@ -2925,6 +2949,14 @@ const nameMap = {
     difficulty: 'Medium',
     label: '二叉树、BFS',
     hasThinkings: 'false',
+    checked: 'false',
+  },
+  1186: {
+    cnName: '删除一次得到子数组最大和',
+    enName: 'Maximum Subarray Sum with One Deletion',
+    difficulty: 'Medium',
+    label: '动态规划',
+    hasThinkings: 'true',
     checked: 'false',
   },
   1191: {

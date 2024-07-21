@@ -3,13 +3,13 @@
 
 some exercises of leetcode
 
-- Leetcode: 简单: 168, 中等: 210, 困难: 48, 剑指Offer: 73,
-- 总计：499
+- Leetcode: 简单: 169, 中等: 213, 困难: 48, 剑指Offer: 73,
+- 总计：503
 
 ```mermaid
 pie title 已完成的题目
-    "简单" : 168
-    "中等" : 210
+    "简单" : 169
+    "中等" : 213
     "困难" : 48
     "剑指Offer" : 73
 ```
@@ -94,9 +94,9 @@ pie title 已完成的题目
 | 76 | [Minimum Window Substring 最小覆盖子串](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Hard/76-MinimumWindowSubstring.md) | Hard | 子串 |
 | 77 | [Combinations 组合](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/77-Combinations.md) | Medium |  |
 | 78 | [Subsets 子集](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/78-Subsets.md) | Medium |  |
-| 79 | [Word Search 单词搜索](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/79-WordSearch.js) | Medium |  |
+| 79 | [Word Search 单词搜索](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/79-WordSearch.md) | Medium |  |
 | 80 | [Remove Duplicates from Sorted Array II 删除排序数组中的重复项 II](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/80-RemoveDuplicatesfromSortedArrayII.md) | Medium |  |
-| 81 | [Searching Rotated Sorted Array II 搜索旋转排序数组 II](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/81-SearchingRotatedSortedArrayII.js) | Medium |  |
+| 81 | [Searching Rotated Sorted Array II 搜索旋转排序数组 II](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/81-SearchingRotatedSortedArrayII.md) | Medium |  |
 | 82 | [Remove Duplicate From Sorted List II 删除排序链表中的重复元素 II](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/82-RemoveDuplicateFromSortedListII.md) | Medium |  |
 | 83 | [Remove Duplicates from Sorted List 删除排序链表中的重复元素](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/83-RemoveDuplicatesfromSortedList.md) | Easy | 链表 |
 | 84 | [Largest Rectangle in Histogram 柱状图中最大的矩形](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Hard/84-LargestRectangleinHistogram.md) | Hard |  |
@@ -104,10 +104,10 @@ pie title 已完成的题目
 | 86 | [Partition List 分隔链表](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/86-PartitionList.md) | Medium |  |
 | 87 | [Scramble String 扰乱字符串](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Hard/87-ScrambleString.md) | Hard |  |
 | 88 | [Merge Sorted Array 合并两个有序数组](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/88-MergeSortedArray.md) | Easy |  |
-| 89 | [Gray Code 格雷编码](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/89-GrayCode.js) | Medium |  |
-| 90 | [Subsets II 子集 II](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/90-SubsetsII.js) | Medium |  |
-| 91 | [Decode Ways 解码方法](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/91-DecodeWays.js) | Medium |  |
-| 92 | [Reverse Linked List II 反转链表 II](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/92-ReverseLinkedListII.js) | Medium |  |
+| 89 | [Gray Code 格雷编码](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/89-GrayCode.md) | Medium |  |
+| 90 | [Subsets II 子集 II](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/90-SubsetsII.md) | Medium |  |
+| 91 | [Decode Ways 解码方法](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/91-DecodeWays.md) | Medium |  |
+| 92 | [Reverse Linked List II 反转链表 II](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/92-ReverseLinkedListII.md) | Medium |  |
 | 93 | [Restore Ip Address 复原 IP 地址](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/93-RestoreIpAddress.js) | Medium |  |
 | 94 | [Binary Tree Inorder Traversal 二叉树的中序遍历](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/94-BinaryTreeInorderTraversal.md) | Medium |  |
 | 95 | [Unique Binary Search Trees II 不同的二叉搜索树 II](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/95-UniqueBinarySearchTreesII.js) | Medium |  |
@@ -202,6 +202,7 @@ pie title 已完成的题目
 | 225 | [Implement Stack using Queues 用队列实现栈](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/225-ImplementStackusingQueues.js) | Easy |  |
 | 226 | [Invert Binary Tree 翻转二叉树](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/226-InvertBinaryTree.js) | Easy | 二叉树 |
 | 227 | [Basic Calculator II 基本计算器 II](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/227-BasicCalculatorII.js) | Medium | 栈 |
+| 228 | [Summary Ranges 汇总区间](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/228-SummaryRanges.md) | Easy |  |
 | 230 | [Kth Smallest Element in a BST 二叉搜索树中的第 K 小的元素](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/230-KthSmallestElementinaBST.js) | Medium | 二叉树 |
 | 231 | [Power of Two 2 的幂](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/231-isPowerOfTwo.js) | Easy |  |
 | 232 | [Implement Queue using Stacks 用栈实现队列](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/232-ImplementQueueusingStacks.js) | Easy |  |
@@ -233,8 +234,10 @@ pie title 已完成的题目
 | 301 | [Remove Invalid Parentheses 删除无效的括号](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Hard/301-RemoveInvalidParentheses.js) | Hard | BFS |
 | 303 | [Range Sum Query-Immutable 区域和检索-数组不可变](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/303-RangeSumQuery-Immutable.md) | Easy |  |
 | 309 | [Best Time to Buy and Sell Stock with Cooldown 买卖股票的最佳时机含冷冻期](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/309-BestTimetoBuyandSellStockwithCooldown.js) | Medium | 动态规划 |
+| 310 | [Minimum Height Trees 最小高度树](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/310-MinimumHeightTrees.md) | Medium | BFC |
 | 312 | [Burst Balloons 戳气球](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Hard/312-BurstBalloons.js) | Hard | 动态规划 |
 | 315 | [Count of Smallest Numbers After Self 计算右侧小于当前元素的个数](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Hard/315-CountofSmallestNumbersAfterSelf.js) | Hard | 归并排序 |
+| 319 | [Bulb Switcher 灯泡开关](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/319-BulbSwitcher.md) | Medium | 数学 |
 | 322 | [Coin Change 零钱兑换](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/322-CoinChange.js) | Medium | 动态规划 |
 | 324 | [Wiggle Sort II 摆动排序 II](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/324-WiggleSortII.js) | Medium | 排序 |
 | 326 | [Power of Three 3 的幂](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/326-isPowerOfThree.js) | Easy |  |
@@ -382,6 +385,7 @@ pie title 已完成的题目
 | 1137 | [N-th Tribonacci Number 第 N 个泰波那契数](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/1137-N-thTribonacciNumber.md) | Easy |  |
 | 1143 | [Longest Common Subsequence 最长公共子序列](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/1143-LongestCommonSubsequence.js) | Medium |  |
 | 1161 | [Maximum Level Sum of a Binary Tree 最大层内元素和](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/1161-MaximumLevelSumofaBinaryTree.js) | Medium | 二叉树、BFS |
+| 1186 | [Maximum Subarray Sum with One Deletion 删除一次得到子数组最大和](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/1186-MaximumSubarraySumwithOneDeletion.md) | Medium | 动态规划 |
 | 1191 | [K-Concatenation Maximum Sum K 次串联后最大子数组之和](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/1191-K-ConcatenationMaximumSum.md) | Medium |  |
 | 1200 | [Minimum Abs Difference 最小绝对差](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/1200-MinimumAbsDifference.js) | Easy |  |
 | 1207 | [Unique Number of Occurrences 独一无二的出现次数](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/1207-UniqueNumberofOccurrences.js) | Easy | 哈希 |
