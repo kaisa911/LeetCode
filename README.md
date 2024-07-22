@@ -59,11 +59,11 @@ pie title 已完成的题目
 | 41 | [First Missing Positive 缺失的第一个正数](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Hard/41-FirstMissingPositive.md) | Hard | 数组 |
 | 42 | [Trapping Rain Water 接雨水](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Hard/42-TrappingRainWater.md) | Hard | 双指针 |
 | 43 | [Multiply String 字符串相乘](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/43-MultiplyString.md) | Medium | 字符串 |
-| 44 | [Wildcard Matching 通配符匹配](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Hard/44-WildcardMatching.md) | Hard |  |
-| 45 | [Jump Game II 跳跃游戏 II](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/45-JumpGameII.md) | Medium |  |
-| 46 | [Permutations 全排列](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/46-Permutations.md) | Medium |  |
-| 47 | [Permutations II 全排列 II](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/47-PermutationsII.md) | Medium |  |
-| 48 | [Rotate Image 旋转图像](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/48-RotateImage.md) | Medium |  |
+| 44 | [Wildcard Matching 通配符匹配](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Hard/44-WildcardMatching.md) | Hard | 动态规划 |
+| 45 | [Jump Game II 跳跃游戏 II](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/45-JumpGameII.md) | Medium | 数组、贪心 |
+| 46 | [Permutations 全排列](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/46-Permutations.md) | Medium | 回溯 |
+| 47 | [Permutations II 全排列 II](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/47-PermutationsII.md) | Medium | 回溯 |
+| 48 | [Rotate Image 旋转图像](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/48-RotateImage.md) | Medium | 数组 |
 | 49 | [Group Anagrams 字母异位词分组](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/49-GroupAnagrams.md) | Medium | 哈希 |
 | 50 | [Pow(x, n) Pow(x, n)](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/50-Pow(x,n).md) | Medium |  |
 | 51 | [N-Queens N 皇后](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Hard/51-N-Queens.md) | Hard | 回溯 |
