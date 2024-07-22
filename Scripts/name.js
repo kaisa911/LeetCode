@@ -740,7 +740,7 @@ const nameMap = {
     enName: 'Restore Ip Address',
     difficulty: 'Medium',
     label: '',
-    hasThinkings: 'false',
+    hasThinkings: 'true',
     checked: 'false',
   },
   94: {
@@ -756,7 +756,7 @@ const nameMap = {
     enName: 'Unique Binary Search Trees II',
     difficulty: 'Medium',
     label: '',
-    hasThinkings: 'false',
+    hasThinkings: 'true',
     checked: 'false',
   },
   96: {
@@ -764,7 +764,7 @@ const nameMap = {
     enName: 'Unique Binary Search Trees',
     difficulty: 'Medium',
     label: '',
-    hasThinkings: 'false',
+    hasThinkings: 'true',
     checked: 'false',
   },
   97: {
@@ -772,7 +772,7 @@ const nameMap = {
     enName: 'Interleaving String',
     difficulty: 'Medium',
     label: '',
-    hasThinkings: 'false',
+    hasThinkings: 'true',
     checked: 'false',
   },
   98: {
@@ -780,7 +780,7 @@ const nameMap = {
     enName: 'Validate Binary Search Tree',
     difficulty: 'Medium',
     label: '',
-    hasThinkings: 'false',
+    hasThinkings: 'true',
     checked: 'false',
   },
   99: {
@@ -788,7 +788,7 @@ const nameMap = {
     enName: 'Recover Binary Search Tree',
     difficulty: 'Medium',
     label: '',
-    hasThinkings: 'false',
+    hasThinkings: 'true',
     checked: 'false',
   },
   100: {
@@ -804,7 +804,7 @@ const nameMap = {
     enName: 'Symmetric Tree',
     difficulty: 'Easy',
     label: 'BFS',
-    hasThinkings: 'false',
+    hasThinkings: 'true',
     checked: 'false',
   },
   102: {

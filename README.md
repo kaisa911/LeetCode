@@ -108,15 +108,15 @@ pie title 已完成的题目
 | 90 | [Subsets II 子集 II](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/90-SubsetsII.md) | Medium |  |
 | 91 | [Decode Ways 解码方法](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/91-DecodeWays.md) | Medium |  |
 | 92 | [Reverse Linked List II 反转链表 II](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/92-ReverseLinkedListII.md) | Medium |  |
-| 93 | [Restore Ip Address 复原 IP 地址](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/93-RestoreIpAddress.js) | Medium |  |
+| 93 | [Restore Ip Address 复原 IP 地址](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/93-RestoreIpAddress.md) | Medium |  |
 | 94 | [Binary Tree Inorder Traversal 二叉树的中序遍历](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/94-BinaryTreeInorderTraversal.md) | Medium |  |
-| 95 | [Unique Binary Search Trees II 不同的二叉搜索树 II](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/95-UniqueBinarySearchTreesII.js) | Medium |  |
-| 96 | [Unique Binary Search Trees 不同的二叉搜索树](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/96-UniqueBinarySearchTrees.js) | Medium |  |
-| 97 | [Interleaving String 交错字符串](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/97-InterleavingString.js) | Medium |  |
-| 98 | [Validate Binary Search Tree 验证搜索二叉树](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/98-ValidateBinarySearchTree.js) | Medium |  |
-| 99 | [Recover Binary Search Tree 恢复搜索二叉树](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/99-RecoverBinarySearchTree.js) | Medium |  |
+| 95 | [Unique Binary Search Trees II 不同的二叉搜索树 II](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/95-UniqueBinarySearchTreesII.md) | Medium |  |
+| 96 | [Unique Binary Search Trees 不同的二叉搜索树](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/96-UniqueBinarySearchTrees.md) | Medium |  |
+| 97 | [Interleaving String 交错字符串](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/97-InterleavingString.md) | Medium |  |
+| 98 | [Validate Binary Search Tree 验证搜索二叉树](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/98-ValidateBinarySearchTree.md) | Medium |  |
+| 99 | [Recover Binary Search Tree 恢复搜索二叉树](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/99-RecoverBinarySearchTree.md) | Medium |  |
 | 100 | [Same Tree 相同的树](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/100-SameTree.md) | Easy | 二叉树 |
-| 101 | [Symmetric Tree 对称二叉树](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/101-SymmetricTree.js) | Easy | BFS |
+| 101 | [Symmetric Tree 对称二叉树](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/101-SymmetricTree.md) | Easy | BFS |
 | 102 | [Binary Tree Level Order Traversal 二叉树的层序遍历](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/102-BinaryTreeLevelOrderTraversal.js) | Medium |  |
 | 103 | [Binary Tree Zigzag Level Order Traversal 二叉树的锯齿形层序遍历](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/103-BinaryTreeZigzagLevelOrderTraversal.js) | Medium | BFS |
 | 104 | [Maximum Depth of Binary Tree 二叉树最大深度](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/104-MaximumDepthofBinaryTree.js) | Easy | DFS |
