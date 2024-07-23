@@ -1,15 +1,11 @@
-/**
- * @param {string[]} strs
- * @return {string[][]}
- */
-const groupAnagrams = strs => {
-  let hash = {};
-  for (item of strs) {
-    let str = item
-      .split('')
-      .sort()
+const groupAnagrams = (strs) => {
+  const hash = {};
+  for (const item of strs) {
+    const sortedStr = Array.from(item)
+      .sort((a, b) => a.localeCompare(b))
       .join('');
-    !hash[str] ? (hash[str] = [item]) : hash[str].push(item);
+    hash[sortedStr] = hash[sortedStr] || [];
+    hash[sortedStr].push(item);
   }
   return Object.values(hash);
 };

@@ -65,10 +65,10 @@ pie title 已完成的题目
 | 47 | [Permutations II 全排列 II](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/47-PermutationsII.md) | Medium | 回溯 |
 | 48 | [Rotate Image 旋转图像](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/48-RotateImage.md) | Medium | 数组 |
 | 49 | [Group Anagrams 字母异位词分组](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/49-GroupAnagrams.md) | Medium | 哈希 |
-| 50 | [Pow(x, n) Pow(x, n)](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/50-Pow(x,n).md) | Medium |  |
+| 50 | [Pow(x, n) Pow(x, n)](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/50-Pow(x,n).md) | Medium | 数学 |
 | 51 | [N-Queens N 皇后](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Hard/51-N-Queens.md) | Hard | 回溯 |
 | 52 | [N-Queens II N 皇后 II](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Hard/52-N-QueensII.md) | Hard | 回溯 |
-| 53 | [Maximum Subarray 最大子数组和](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/53-MaximumSubarray.md) | Medium | 数组 |
+| 53 | [Maximum Subarray 最大子数组和](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/53-MaximumSubarray.md) | Medium | Kadane算法、动态规划 |
 | 54 | [Spiral Matrix 螺旋矩阵](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/54-SpiralMatrix.md) | Medium | 矩阵 |
 | 55 | [Jump Game 跳跃游戏](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/55-JumpGame.md) | Medium |  |
 | 56 | [Merge Intervals 合并区间](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/56-MergeIntervals.md) | Medium | 数组 |

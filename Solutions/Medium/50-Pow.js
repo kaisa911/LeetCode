@@ -4,12 +4,21 @@
  * @return {number}
  */
 const myPow = (x, n) => {
-  if (n === 0) return 1;
+  let result = 1;
+  let currentPow = x;
+
   if (n < 0) {
-    return 1 / myPow(x, -n);
+    x = 1 / x;
+    n = -n;
   }
-  if (n % 2 === 0) {
-    return myPow(x * x, n / 2);
+
+  while (n > 0) {
+    if (n % 2 === 1) {
+      result *= currentPow;
+    }
+    currentPow *= currentPow;
+    n = n / 2;
   }
-  return myPow(x * x, (n - 1) / 2) * x;
+
+  return result;
 };
