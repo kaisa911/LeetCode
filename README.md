@@ -3,14 +3,14 @@
 
 some exercises of leetcode
 
-- Leetcode: 简单: 169, 中等: 213, 困难: 48, 剑指Offer: 73,
-- 总计：503
+- Leetcode: 简单: 169, 中等: 213, 困难: 52, 剑指Offer: 73,
+- 总计：507
 
 ```mermaid
 pie title 已完成的题目
     "简单" : 169
     "中等" : 213
-    "困难" : 48
+    "困难" : 52
     "剑指Offer" : 73
 ```
 
@@ -138,15 +138,19 @@ pie title 已完成的题目
 | 120 | [Triangle 三角形最小路径和](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/120-Triangle.js) | Medium | 动态规划 |
 | 121 | [Best Time to Buy and Sell Stock 买卖股票的最佳时机](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/121-BestTimetoBuyandSellStock.js) | Easy | 动态规划 |
 | 122 | [Best Time to Buy and Sell Stock II 股票买卖的最佳时机 II](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/122-BestTimetoBuyandSellStockII.js) | Medium |  |
+| 123 | [Best Time to Buy and Sell Stock III 股票买卖的最佳时机 III](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Hard/123-BestTimetoBuyandSellStockIII.md) | Hard |  |
 | 124 | [Binary Tree Maximum Path Sum 二叉树中的最大路径和](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Hard/124-BinaryTreeMaximumPathSum.js) | Hard | 二叉树 |
 | 125 | [Is Palindrome 验证回文串](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/125-isPalindrome.js) | Easy |  |
+| 126 | [Word Ladder II 单词接龙 II](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Hard/126-WordLadderII.md) | Hard |  |
 | 127 | [Word Ladder 单词接龙](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Hard/127-WordLadder.js) | Hard | BFS |
 | 128 | [Longest Consecutive Sequence 最长连续序列](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/128-LongestConsecutiveSequence.js) | Medium | 哈希 |
 | 129 | [Sum Root to Leaf Numbers 求根到叶子节点数字之和](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/129-SumRoottoLeafNumbers.md) | Medium |  |
-| 130 | [Surrounded Regions 被围绕的区域](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/130-SurroundedRegions.js) | Medium | DFS |
-| 131 | [Palindrome Partitioning 分隔回文串](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/131-PalindromePartitioning.js) | Medium | 回溯 |
+| 130 | [Surrounded Regions 被围绕的区域](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/130-SurroundedRegions.md) | Medium | DFS |
+| 131 | [Palindrome Partitioning 分隔回文串](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/131-PalindromePartitioning.md) | Medium | 回溯 |
+| 132 | [Palindrome Partitioning II 分隔回文串II](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Hard/132-PalindromePartitioningII.md) | Hard |  |
 | 133 | [Clone Graph 克隆图](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/133-CloneGraph.js) | Medium | DFS |
 | 134 | [Gas Station 加油站](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/134-GasStation.js) | Medium | 数组 |
+| 135 | [Candy 分发糖果](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Hard/135-Candy.md) | Hard |  |
 | 136 | [Single Number 只出现一次的数字](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/136-singleNumber.js) | Easy |  |
 | 137 | [Single Number II 只出现一次的数字 II](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/137-SingleNumberII.md) | Medium |  |
 | 138 | [Copy List with Random Pointer 随机链表的复制](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/138-CopyListwithRandomPointer.js) | Medium | 链表 |
