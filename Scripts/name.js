@@ -975,6 +975,14 @@ const nameMap = {
     hasThinkings: 'false',
     checked: 'false',
   },
+  123: {
+    cnName: '股票买卖的最佳时机 III',
+    enName: 'Best Time to Buy and Sell Stock III',
+    difficulty: 'Hard',
+    label: '',
+    hasThinkings: 'true',
+    checked: 'false',
+  },
   124: {
     cnName: '二叉树中的最大路径和',
     enName: 'Binary Tree Maximum Path Sum',
@@ -989,6 +997,14 @@ const nameMap = {
     difficulty: 'Easy',
     label: '',
     hasThinkings: 'false',
+    checked: 'false',
+  },
+  126: {
+    cnName: '单词接龙 II',
+    enName: 'Word Ladder II',
+    difficulty: 'Hard',
+    label: '',
+    hasThinkings: 'true',
     checked: 'false',
   },
   127: {
@@ -1020,7 +1036,7 @@ const nameMap = {
     enName: 'Surrounded Regions',
     difficulty: 'Medium',
     label: 'DFS',
-    hasThinkings: 'false',
+    hasThinkings: 'true',
     checked: 'false',
   },
   131: {
@@ -1028,7 +1044,15 @@ const nameMap = {
     enName: 'Palindrome Partitioning',
     difficulty: 'Medium',
     label: '回溯',
-    hasThinkings: 'false',
+    hasThinkings: 'true',
+    checked: 'false',
+  },
+  132: {
+    cnName: '分隔回文串II',
+    enName: 'Palindrome Partitioning II',
+    difficulty: 'Hard',
+    label: '',
+    hasThinkings: 'true',
     checked: 'false',
   },
   133: {
@@ -1045,6 +1069,14 @@ const nameMap = {
     difficulty: 'Medium',
     label: '数组',
     hasThinkings: 'false',
+    checked: 'false',
+  },
+  135: {
+    cnName: '分发糖果',
+    enName: 'Candy',
+    difficulty: 'Hard',
+    label: '',
+    hasThinkings: 'true',
     checked: 'false',
   },
   136: {
