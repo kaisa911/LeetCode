@@ -70,9 +70,9 @@ pie title 已完成的题目
 | 52 | [N-Queens II N 皇后 II](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Hard/52-N-QueensII.md) | Hard | 回溯 |
 | 53 | [Maximum Subarray 最大子数组和](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/53-MaximumSubarray.md) | Medium | Kadane算法、动态规划 |
 | 54 | [Spiral Matrix 螺旋矩阵](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/54-SpiralMatrix.md) | Medium | 矩阵 |
-| 55 | [Jump Game 跳跃游戏](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/55-JumpGame.md) | Medium |  |
+| 55 | [Jump Game 跳跃游戏](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/55-JumpGame.md) | Medium | 数组 |
 | 56 | [Merge Intervals 合并区间](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/56-MergeIntervals.md) | Medium | 数组 |
-| 57 | [Insert Interval 插入区间](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Hard/57-InsertInterval.md) | Hard |  |
+| 57 | [Insert Interval 插入区间](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Hard/57-InsertInterval.md) | Hard | 数组 |
 | 58 | [Length of Last Word 最后一个单词的长度](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/58-LengthofLastWord.md) | Easy | 字符串 |
 | 59 | [Spiral Matrix II 螺旋矩阵 II](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/59-SpiralMatrixII.md) | Medium | 矩阵 |
 | 60 | [Permutation Sequence 排列序列](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Hard/60-PermutationSequence.md) | Hard |  |

@@ -32,57 +32,48 @@
 - newInterval.length == 2
 - 0 <= start <= end <= 105
 
+思路：
+
+1. 遍历原始区间列表
+2. 比较新区间与当前区间的位置关系
+3. 处理重叠情况，合并重叠的区间
+4. 构建新的结果数组
+
+时间复杂度： O(n)，其中 n 是原始区间列表的长度。算法只遍历了一次原始列表。空间复杂度： O(n) 用于存储结果的新数组。
+
 ```js
 /**
  * @param {number[][]} intervals
  * @param {number[]} newInterval
  * @return {number[][]}
  */
-var insert = function(intervals, newInterval) {
-  let len = intervals.length;
-  // 假设没有合并,最终的长度为 len + 1
-  let newLen = intervals.length + 1;
+var insert = function (intervals, newInterval) {
+  let result = [];
   let i = 0;
-  for (; i < len; i++) {
-    // 如果新区间小于当前区间
-    if (newInterval[0] < intervals[i][0]) {
-      // 区间不重叠,则新区间放在当前位置
-      if (newInterval[1] < intervals[i][0]) {
-        break;
-      }
-      //否则合并为新区间,将当前区间丢弃,新数组长度 - 1
-      newInterval[1] = Math.max(newInterval[1], intervals[i][1]);
-      intervals[i] = null;
-      newLen--;
-    } else {
-      // 新区间大于当前区间,且存在重叠
-      // 合并为新区间,将当前区间丢弃,新数组长度 - 1
-      if (newInterval[0] <= intervals[i][1]) {
-        newInterval[0] = intervals[i][0];
-        newInterval[1] = Math.max(newInterval[1], intervals[i][1]);
-        newLen--;
-        intervals[i] = null;
-      }
-    }
-  }
-  let res = [];
-  let j = 0;
-  let k = 0;
-  // 将新区间取代位置前的所有区间(不包括舍弃的,null)放入新数组
-  for (; k < i; k++) {
-    if (intervals[k] != null) {
-      res[j++] = intervals[k];
-    }
-  }
-  // 放入新区间
-  res[j++] = newInterval;
-  // 将新区间取代位置后的所有区间(不包括舍弃的,null)放入新数组
-  for (; k < len; k++) {
-    if (intervals[k] != null) {
-      res[j++] = intervals[k];
-    }
-  }
-  return res;
-};
+  const n = intervals.length;
 
+  // Add all intervals ending before newInterval starts
+  while (i < n && intervals[i][1] < newInterval[0]) {
+    result.push(intervals[i]);
+    i++;
+  }
+
+  // Merge all overlapping intervals
+  while (i < n && intervals[i][0] <= newInterval[1]) {
+    newInterval[0] = Math.min(newInterval[0], intervals[i][0]);
+    newInterval[1] = Math.max(newInterval[1], intervals[i][1]);
+    i++;
+  }
+
+  // Add the merged interval
+  result.push(newInterval);
+
+  // Add remaining intervals
+  while (i < n) {
+    result.push(intervals[i]);
+    i++;
+  }
+
+  return result;
+};
 ```
