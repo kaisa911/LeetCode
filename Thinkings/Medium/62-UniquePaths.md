@@ -35,9 +35,16 @@
 ```
 
 **思路：**
-根据题目描述，可以看出，这个小机器人一共要走 m+n-2 步，其中，有 m-1 步是向下走的，所以有多少中向下走的方法，就有多少种走法。
+使用动态规划（Dynamic Programming, DP）优化不同路径问题的算法可以通过以下步骤实现：
 
-实质上是在求 m-1 在 m+n-1 中有多少种组合
+1. 定义状态：定义 dp[i][j] 表示到达网格中第 i 行第 j 列的路径数量。
+2. 初始化状态：由于机器人只能从左上角开始，因此 dp[0][0] = 1，表示有一条路径可以到达起点。
+3. 状态转移方程：对于每个状态 dp[i][j]，机器人只能从左边 dp[i][j-1] 或上面 dp[i-1][j] 到达，因此状态转移方程为：dp[i][j]=dp[i−1][j]+dp[i][j−1]
+4. 填充 DP 表：按照行优先的方式填充 DP 表。对于第一行和第一列，由于只能从一个方向到达，所以直接复制上一行或左一列的值。对于其他位置，使用状态转移方程计算。
+5. 返回结果：DP 表的最后一个元素 dp[m-1][n-1] 就是到达右下角的路径总数。
+
+时间复杂度：O(m×n)，因为需要遍历整个 m x n 的 DP 表。
+空间复杂度：O(m×n)，DP 表的大小为 m x n。
 
 ```js
 /**
@@ -46,19 +53,17 @@
  * @return {number}
  */
 var uniquePaths = function(m, n) {
-  return helper(m + n - 2, m - 1) / helper(m - 1, m - 1);
-};
-// 这是一个阶乘函数，用来求m中取n个有多少个排列
-var helper = (m, n) => {
-  var num = 1;
-  var count = 0;
-  for (var i = m; i > 0; i--) {
-    if (count == n) {
-      break;
+  // 创建 DP 表
+  let dp = new Array(m).fill(0).map(() => new Array(n).fill(1));
+
+  // 从第二行第二列开始填充 DP 表
+  for (let i = 1; i < m; i++) {
+    for (let j = 1; j < n; j++) {
+      dp[i][j] = dp[i - 1][j] + dp[i][j - 1];
     }
-    num = num * i;
-    count++;
   }
-  return num;
+
+  // 返回到达右下角的路径数
+  return dp[m - 1][n - 1];
 };
 ```

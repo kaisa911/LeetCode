@@ -75,12 +75,12 @@ pie title 已完成的题目
 | 57 | [Insert Interval 插入区间](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Hard/57-InsertInterval.md) | Hard | 数组 |
 | 58 | [Length of Last Word 最后一个单词的长度](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/58-LengthofLastWord.md) | Easy | 字符串 |
 | 59 | [Spiral Matrix II 螺旋矩阵 II](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/59-SpiralMatrixII.md) | Medium | 矩阵 |
-| 60 | [Permutation Sequence 排列序列](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Hard/60-PermutationSequence.md) | Hard |  |
-| 61 | [Rotate List 旋转链表](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/61-RotateList.md) | Medium |  |
-| 62 | [Unique Paths 不同路径](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/62-UniquePaths.md) | Medium |  |
-| 63 | [Unique Paths II 不同路径 II](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/63-UniquePathsII.md) | Medium |  |
-| 64 | [Minimum Path Sum 最小路径和](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/64-MinimumPathSum.md) | Medium |  |
-| 65 | [Valid Number 有效数字](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Hard/65-ValidNumber.md) | Hard |  |
+| 60 | [Permutation Sequence 排列序列](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Hard/60-PermutationSequence.md) | Hard | 数学 |
+| 61 | [Rotate List 旋转链表](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/61-RotateList.md) | Medium | 链表 |
+| 62 | [Unique Paths 不同路径](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/62-UniquePaths.md) | Medium | 动态规划 |
+| 63 | [Unique Paths II 不同路径 II](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/63-UniquePathsII.md) | Medium | 动态规划 |
+| 64 | [Minimum Path Sum 最小路径和](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/64-MinimumPathSum.md) | Medium | 动态规划 |
+| 65 | [Valid Number 有效数字](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Hard/65-ValidNumber.md) | Hard | 正则 |
 | 66 | [Plus One 加一](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/66-PlusOne.md) | Easy | 数组 |
 | 67 | [Add Binary 二进制求和](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/67-AddBinary.md) | Easy | 字符串 |
 | 68 | [Text Justification 文本左右对齐](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Hard/68-TextJustification.md) | Hard |  |

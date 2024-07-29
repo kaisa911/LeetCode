@@ -3,18 +3,17 @@
  * @param {number} n
  * @return {number}
  */
-var uniquePaths = function(m, n) {
-  return helper(m + n - 2, m - 1) / helper(m - 1, m - 1);
-};
-var helper = (m, n) => {
-  var num = 1;
-  var count = 0;
-  for (var i = m; i > 0; i--) {
-    if (count == n) {
-      break;
+var uniquePaths = function (m, n) {
+  // 创建 DP 表
+  let dp = new Array(m).fill(0).map(() => new Array(n).fill(1));
+
+  // 从第二行第二列开始填充 DP 表
+  for (let i = 1; i < m; i++) {
+    for (let j = 1; j < n; j++) {
+      dp[i][j] = dp[i - 1][j] + dp[i][j - 1];
     }
-    num = num * i;
-    count++;
   }
-  return num;
+
+  // 返回到达右下角的路径数
+  return dp[m - 1][n - 1];
 };
