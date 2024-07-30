@@ -2,25 +2,45 @@
  * @param {number[][]} matrix
  * @return {void} Do not return anything, modify matrix in-place instead.
  */
-const setZeroes = matrix => {
-  let col = [];
-  for (let i = 0, len = matrix.length; i < len; i++) {
-    let flag = false;
-    for (let j = 0, len2 = matrix[0].length; j < len2; j++) {
+const setZeroes = (matrix) => {
+  const m = matrix.length;
+  const n = matrix[0].length;
+  let firstRowHasZero = false;
+  let firstColHasZero = false;
+
+  // 标记零的位置
+  for (let i = 0; i < m; i++) {
+    for (let j = 0; j < n; j++) {
       if (matrix[i][j] === 0) {
-        flag = true;
-        col.push(j);
+        if (i === 0) firstRowHasZero = true;
+        if (j === 0) firstColHasZero = true;
+        matrix[i][0] = matrix[0][j] = 0;
       }
     }
-    if (flag) {
-      matrix[i] = new Array(matrix[0].length).fill(0);
+  }
+
+  // 根据标记置零
+  for (let i = 1; i < m; i++) {
+    for (let j = 1; j < n; j++) {
+      if (matrix[i][0] === 0 || matrix[0][j] === 0) {
+        matrix[i][j] = 0;
+      }
     }
   }
-  col = [...new Set(col)];
-  matrix.forEach(item => {
-    col.forEach(ele => {
-      item[ele] = 0;
-    });
-  });
-  return matrix;
+
+  // 恢复第一行和第一列
+  for (let i = 0; i < m; i++) {
+    if (firstRowHasZero) {
+      for (let j = 0; j < n; j++) {
+        matrix[i][j] = 0;
+      }
+    }
+  }
+  for (let j = 0; j < n; j++) {
+    if (firstColHasZero) {
+      for (let i = 0; i < m; i++) {
+        matrix[i][j] = 0;
+      }
+    }
+  }
 };

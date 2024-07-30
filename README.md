@@ -83,16 +83,16 @@ pie title 已完成的题目
 | 65 | [Valid Number 有效数字](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Hard/65-ValidNumber.md) | Hard | 正则 |
 | 66 | [Plus One 加一](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/66-PlusOne.md) | Easy | 数组 |
 | 67 | [Add Binary 二进制求和](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/67-AddBinary.md) | Easy | 字符串 |
-| 68 | [Text Justification 文本左右对齐](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Hard/68-TextJustification.md) | Hard |  |
+| 68 | [Text Justification 文本左右对齐](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Hard/68-TextJustification.md) | Hard | 贪心 |
 | 69 | [Sqrt(x) x 的平方根](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/69-Sqrt(x).md) | Easy | 二分法 |
 | 70 | [Climbing Stairs 爬楼梯](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/70-ClimbingStairs.md) | Easy | 动态规划 |
-| 71 | [Simplify Path 简化路径](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/71-SimplifyPath.md) | Medium |  |
-| 72 | [Edit Distance 编辑距离](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Hard/72-EditDistance.md) | Hard |  |
+| 71 | [Simplify Path 简化路径](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/71-SimplifyPath.md) | Medium | 栈 |
+| 72 | [Edit Distance 编辑距离](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Hard/72-EditDistance.md) | Hard | 动态规划 |
 | 73 | [Set Matrix Zeroes 矩阵置零](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/73-SetMatrixZeroes.md) | Medium | 矩阵 |
 | 74 | [Search a 2D Matrix 搜索二维矩阵](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/74-Searcha2DMatrix.md) | Medium | 矩阵 |
-| 75 | [Sort Colors 颜色分类](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/75-SortColors.md) | Medium |  |
-| 76 | [Minimum Window Substring 最小覆盖子串](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Hard/76-MinimumWindowSubstring.md) | Hard | 子串 |
-| 77 | [Combinations 组合](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/77-Combinations.md) | Medium |  |
+| 75 | [Sort Colors 颜色分类](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/75-SortColors.md) | Medium | 快排 |
+| 76 | [Minimum Window Substring 最小覆盖子串](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Hard/76-MinimumWindowSubstring.md) | Hard | 子串、滑动窗口 |
+| 77 | [Combinations 组合](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/77-Combinations.md) | Medium | 回溯 |
 | 78 | [Subsets 子集](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/78-Subsets.md) | Medium |  |
 | 79 | [Word Search 单词搜索](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/79-WordSearch.md) | Medium |  |
 | 80 | [Remove Duplicates from Sorted Array II 删除排序数组中的重复项 II](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/80-RemoveDuplicatesfromSortedArrayII.md) | Medium |  |

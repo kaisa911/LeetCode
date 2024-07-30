@@ -40,33 +40,60 @@
 
 **思路：**
 
-从第一排开始，遍历，第一排有 0，就把 j 的记录到 col 里，i 就把 matrix 的第 i 行变成 0
+1. 初始化标记：首先，检查第一行和第一列是否有零，如果有，则设置 firstRowHasZero 和 firstColHasZero 为 true。
+2. 记录零的位置：使用第一行和第一列作为标记行和标记列。遍历矩阵的其余部分，如果发现某个元素为零，则在标记行的对应列和标记列的对应行位置记录一个非零值（这里使用 -1 作为标记）。
+3. 置零操作：再次遍历矩阵，根据标记行和标记列的值，将对应的行和列置零。
+4. 处理第一行和第一列：如果 firstRowHasZero 为 true，则将第一列的所有元素置零；如果 firstColHasZero 为 true，则将第一行的所有元素置零。
+5. 原地修改：整个过程中，不使用额外的数组来存储零的位置，而是直接在矩阵上进行修改，实现了原地算法。
+
+时间复杂度：O(m×n)，其中 m 和 n 分别是矩阵的行数和列数。这是因为算法需要遍历整个矩阵两次。
+空间复杂度：O(1)，除了输入矩阵本身，只使用了常数级别的额外空间来存储标记状态。
 
 ```js
 /**
  * @param {number[][]} matrix
  * @return {void} Do not return anything, modify matrix in-place instead.
  */
-const setZeroes = matrix => {
-  let col = [];
-  for (let i = 0, len = matrix.length; i < len; i++) {
-    let flag = false;
-    for (let j = 0, len2 = matrix[0].length; j < len2; j++) {
+const setZeroes = (matrix) => {
+  const m = matrix.length;
+  const n = matrix[0].length;
+  let firstRowHasZero = false;
+  let firstColHasZero = false;
+
+  // 标记零的位置
+  for (let i = 0; i < m; i++) {
+    for (let j = 0; j < n; j++) {
       if (matrix[i][j] === 0) {
-        flag = true;
-        col.push(j);
+        if (i === 0) firstRowHasZero = true;
+        if (j === 0) firstColHasZero = true;
+        matrix[i][0] = matrix[0][j] = 0;
       }
     }
-    if (flag) {
-      matrix[i] = new Array(matrix[0].length).fill(0);
+  }
+
+  // 根据标记置零
+  for (let i = 1; i < m; i++) {
+    for (let j = 1; j < n; j++) {
+      if (matrix[i][0] === 0 || matrix[0][j] === 0) {
+        matrix[i][j] = 0;
+      }
     }
   }
-  col = [...new Set(col)];
-  matrix.forEach(item => {
-    col.forEach(ele => {
-      item[ele] = 0;
-    });
-  });
-  return matrix;
+
+  // 恢复第一行和第一列
+  for (let i = 0; i < m; i++) {
+    if (firstRowHasZero) {
+      for (let j = 0; j < n; j++) {
+        matrix[i][j] = 0;
+      }
+    }
+  }
+  for (let j = 0; j < n; j++) {
+    if (firstColHasZero) {
+      for (let i = 0; i < m; i++) {
+        matrix[i][j] = 0;
+      }
+    }
+  }
 };
 ```

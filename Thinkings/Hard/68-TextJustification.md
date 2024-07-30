@@ -75,6 +75,20 @@ maxWidth = 20;
 
 **思路：**
 使用贪心算法
+1. 初始化：创建结果数组 res 用于存储最终的每行文本，以及变量 currentLine 和 currentLength 分别用于存储当前行的单词拼接字符串和当前行的字符长度。
+2. 遍历单词：使用 for...of 循环遍历 words 数组中的每个单词。
+3. 判断行长度：对于每个单词，如果加上该单词后行长度会超出 maxWidth，则需要处理当前行。
+4. 处理当前行：如果当前行不是第一行（即 currentLine 不为空），则需要在当前行的单词之间添加空格。首先计算总共需要添加的空格数 spaces，然后计算每个单词之间可以添加的空格数 spacesBetween 和额外空格的数量 extraSpaces。接着，使用循环在单词之间添加空格，如果还有额外空格，则从第一个单词开始逐个增加空格。
+5. 去除行尾空格：使用正则表达式 .replace(/\s+$/, '') 去除当前行末尾的空格。
+6. 添加到结果：将处理好的当前行添加到结果数组 res 中。
+7. 准备新行：将当前单词作为新行的开始，重置 currentLine 和 currentLength。
+8. 添加单词：如果加上当前单词没有超出 maxWidth，则将单词添加到 currentLine，更新 currentLength。
+9. 处理最后一行：循环结束后，处理最后一行，使用 .padEnd(maxWidth) 方法确保最后一行左对齐并满足 maxWidth 的长度要求。
+10. 返回结果：返回结果数组 res。
+
+
+时间复杂度：O(N)，其中 N 是单词数组 words 的长度。因为每个单词只被访问一次，以及对于每个单词，我们执行的操作（如字符串连接和分割）的时间复杂度都是线性的。
+空间复杂度：O(M)，其中 M 是所有单词长度加上结果字符串的长度。最坏情况下，所有单词可能都在同一行，因此 currentLine 可能包含所有单词，加上结果数组 res 存储的行数，构成了空间复杂度的主要部分。
 
 ```js
 /**
@@ -84,38 +98,47 @@ maxWidth = 20;
  */
 const fullJustify = (words, maxWidth) => {
   const res = [];
-  let sum = 0,
-    arr = [];
-  for (let i = 0; i < words.length; i++) {
-    if (arr.length !== 0 && sum + words[i].length >= maxWidth) {
-      let dif = maxWidth - sum;
-      if (arr.length == 1) {
-        for (let j = 0; j < dif; j++) arr[0] += ' ';
-      } else {
-        for (let j = 1; dif !== 0; j += 2) {
-          if (j % arr.length !== arr.length - 1) {
-            arr[j % arr.length] += ' ';
-            dif -= 1;
-          }
+  let currentLine = ''; // 当前行的累积字符串
+  let currentLength = 0; // 当前行的累积长度
+
+  for (const word of words) {
+    if (currentLength + currentLine.length() + word.length > maxWidth) {
+      // 处理当前行，添加空格并填充
+      const spaces = maxWidth - currentLength;
+      const gaps = currentLine.split(' ').length - 1;
+      let spacesBetween = Math.floor(spaces / gaps);
+      let extraSpaces = spaces % gaps;
+
+      let line = currentLine;
+      for (let i = 0; i < gaps; i++) {
+        if (i < extraSpaces) {
+          line += ' '.repeat(spacesBetween + 1);
+        } else {
+          line += ' '.repeat(spacesBetween);
         }
       }
-      res.push(arr.join(''));
-      arr = [];
-      sum = 0;
-      i -= 1;
+
+      // 去掉最后一个单词后的空格
+      line = line.replace(/\s+$/, '');
+
+      res.push(line);
+      currentLine = word; // 开始新一行
+      currentLength = word.length;
     } else {
-      if (arr.length !== 0) {
-        arr.push(' ');
-        sum += 1;
+      if (currentLine.length > 0) {
+        currentLine += ' ';
+        currentLength++;
       }
-      arr.push(words[i]);
-      sum += words[i].length;
+      currentLine += word;
+      currentLength += word.length;
     }
   }
-  if (arr.length !== 0) {
-    for (let i = sum; i < maxWidth; i++) arr[arr.length - 1] += ' ';
-    res.push(arr.join(''));
+
+  // 处理最后一行
+  if (currentLine.length > 0) {
+    res.push(currentLine.padEnd(maxWidth));
   }
+
   return res;
 };
 ```
