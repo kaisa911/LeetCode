@@ -1,36 +1,31 @@
 var exist = function (board, word) {
-  // 越界处理
-  board[-1] = [];
-  board.push([]);
+  const rows = board.length;
+  const cols = board[0].length;
+  const visited = new Array(rows).fill(0).map(() => new Array(cols).fill(false));
 
-  const dfs = function (word, board, y, x, i) {
-    if (i + 1 === word.length) {
-      return true;
+  function dfs(y, x, index) {
+    if (index === word.length) return true;
+    if (y < 0 || y >= rows || x < 0 || x >= cols || visited[y][x] || board[y][x] !== word[index]) {
+      return false;
     }
-    let tmp = board[y][x];
-    // 标记该元素已使用
-    board[y][x] = false;
-    if (board[y][x + 1] === word[i + 1] && dfs(word, board, y, x + 1, i + 1)) {
-      return true;
-    }
-    if (board[y][x - 1] === word[i + 1] && dfs(word, board, y, x - 1, i + 1)) {
-      return true;
-    }
-    if (board[y + 1][x] === word[i + 1] && dfs(word, board, y + 1, x, i + 1)) {
-      return true;
-    }
-    if (board[y - 1][x] === word[i + 1] && dfs(word, board, y - 1, x, i + 1)) {
-      return true;
-    }
-    board[y][x] = tmp;
-  };
 
-  // 寻找首个字母
-  for (let y = 0; y < board.length; y++) {
-    for (let x = 0; x < board[0].length; x++) {
-      if (word[0] === board[y][x] && dfs(word, board, y, x, 0)) {
+    visited[y][x] = true; // 标记为已访问
+    let exists =
+      dfs(y + 1, x, index + 1) ||
+      dfs(y - 1, x, index + 1) ||
+      dfs(y, x + 1, index + 1) ||
+      dfs(y, x - 1, index + 1);
+    visited[y][x] = false; // 回溯，恢复状态
+    return exists;
+  }
+
+  for (let y = 0; y < rows; y++) {
+    for (let x = 0; x < cols; x++) {
+      if (!visited[y][x] && dfs(y, x, 0)) {
         return true;
       }
     }
   }
+
+  return false;
 };

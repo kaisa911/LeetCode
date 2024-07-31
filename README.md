@@ -93,14 +93,14 @@ pie title 已完成的题目
 | 75 | [Sort Colors 颜色分类](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/75-SortColors.md) | Medium | 快排 |
 | 76 | [Minimum Window Substring 最小覆盖子串](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Hard/76-MinimumWindowSubstring.md) | Hard | 子串、滑动窗口 |
 | 77 | [Combinations 组合](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/77-Combinations.md) | Medium | 回溯 |
-| 78 | [Subsets 子集](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/78-Subsets.md) | Medium |  |
-| 79 | [Word Search 单词搜索](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/79-WordSearch.md) | Medium |  |
-| 80 | [Remove Duplicates from Sorted Array II 删除排序数组中的重复项 II](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/80-RemoveDuplicatesfromSortedArrayII.md) | Medium |  |
-| 81 | [Searching Rotated Sorted Array II 搜索旋转排序数组 II](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/81-SearchingRotatedSortedArrayII.md) | Medium |  |
-| 82 | [Remove Duplicate From Sorted List II 删除排序链表中的重复元素 II](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/82-RemoveDuplicateFromSortedListII.md) | Medium |  |
+| 78 | [Subsets 子集](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/78-Subsets.md) | Medium | 回溯 |
+| 79 | [Word Search 单词搜索](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/79-WordSearch.md) | Medium | 回溯、DFS |
+| 80 | [Remove Duplicates from Sorted Array II 删除排序数组中的重复项 II](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/80-RemoveDuplicatesfromSortedArrayII.md) | Medium | 贪心 |
+| 81 | [Searching Rotated Sorted Array II 搜索旋转排序数组 II](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/81-SearchingRotatedSortedArrayII.md) | Medium | 二分搜索 |
+| 82 | [Remove Duplicate From Sorted List II 删除排序链表中的重复元素 II](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/82-RemoveDuplicateFromSortedListII.md) | Medium | 链表、双指针 |
 | 83 | [Remove Duplicates from Sorted List 删除排序链表中的重复元素](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/83-RemoveDuplicatesfromSortedList.md) | Easy | 链表 |
-| 84 | [Largest Rectangle in Histogram 柱状图中最大的矩形](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Hard/84-LargestRectangleinHistogram.md) | Hard |  |
-| 85 | [Maximal Rectangle 最大矩形](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Hard/85-MaximalRectangle.md) | Hard |  |
+| 84 | [Largest Rectangle in Histogram 柱状图中最大的矩形](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Hard/84-LargestRectangleinHistogram.md) | Hard | 单调栈 |
+| 85 | [Maximal Rectangle 最大矩形](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Hard/85-MaximalRectangle.md) | Hard | 单调栈 |
 | 86 | [Partition List 分隔链表](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/86-PartitionList.md) | Medium |  |
 | 87 | [Scramble String 扰乱字符串](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Hard/87-ScrambleString.md) | Hard |  |
 | 88 | [Merge Sorted Array 合并两个有序数组](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/88-MergeSortedArray.md) | Easy |  |
