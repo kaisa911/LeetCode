@@ -3,12 +3,16 @@ const path = require('path');
 const nameMap = require('./name.js');
 
 const result = {};
-const solution = fs.readdirSync(path.join(__dirname, '../Solutions'), {
-  withFileTypes: true,
-});
-const thinking = fs.readdirSync(path.join(__dirname, '../Thinkings'), {
-  withFileTypes: true,
-});
+const solution = fs
+  .readdirSync(path.join(__dirname, '../Solutions'), {
+    withFileTypes: true,
+  })
+  .filter((item) => item.isDirectory());
+const thinking = fs
+  .readdirSync(path.join(__dirname, '../Thinkings'), {
+    withFileTypes: true,
+  })
+  .filter((item) => item.isDirectory());
 
 for (let i = 0; i < solution.length; i++) {
   result[solution[i].name] = fs.readdirSync(
@@ -30,6 +34,26 @@ for (let i = 0; i < thinking.length; i++) {
 
 const sortTable = Object.keys(nameMap);
 const offerTable = [];
+const indexList = [...result.Easy, ...result.Medium, ...result.Hard].map(
+  (item) => item.split('-')[0]
+);
+console.log(Object.keys(nameMap).length, 222);
+
+let noSolutionList = Object.keys(nameMap).filter((item) => {
+  if (nameMap[item].checked) return false;
+  if (nameMap[item].hasThinkings) return false;
+  if (indexList.includes(item)) return false;
+  return true;
+});
+
+const difficultyList = [];
+
+const hasNameNoSolution = [...noSolutionList].filter((item) => nameMap[item]?.cnName !== '');
+const top5Question = [...hasNameNoSolution];
+
+while (top5Question.length > 5) {
+  top5Question.splice(top5Question.length - 1, 1);
+}
 
 Object.keys(result).map((key) => {
   if (key === '剑指Offer') {
@@ -46,9 +70,7 @@ Object.keys(result).map((key) => {
 
 sortTable.sort((a, b) => a.index - b.index);
 offerTable.sort((a, b) => a.index - b.index);
-let noSolutionList = Object.keys(nameMap);
 
-const difficultyList = [];
 const tableHeader = `| Number | Name | Difficulty | label |
 |----|:--:|:------:|:-------:| `;
 const tableBody = sortTable.map((item) => {
@@ -64,13 +86,11 @@ const tableBody = sortTable.map((item) => {
           hasThinkings ? 'thinkings' : 'solutions'
         }/${fileName}.md`;
 
-  console.log(route);
-
   return `| ${item} | [${enName} ${cnName}](${route}) | ${difficulty} | ${label} |`;
 });
 
 const tableBody2 = offerTable.map((item) => {
-  const { index, name, difficulty } = item;
+  const { index, name } = item;
   const temp = name.split('-')[1];
   const showName = temp.split('.')[0].split('~');
   const flag = temp.split('.')[1];
@@ -106,32 +126,32 @@ ${tableHeader}
 ${tableBody2.join('\n')}
 `;
 
-const hasNameNoSolution = [...noSolutionList].filter((item) => nameMap[item].cnName !== '');
-const top5Question = [...hasNameNoSolution];
-
-while (top5Question.length > 5) {
-  top5Question.splice(top5Question.length - 1, 1);
-}
-
 const renderReadme = () => {
-  const result = { solution: {}, thinking: {} };
-  const solution = fs.readdirSync(path.join(__dirname, '../Solutions'), {
-    withFileTypes: true,
-  });
-  const thinking = fs.readdirSync(path.join(__dirname, '../Thinkings'), {
-    withFileTypes: true,
-  });
+  const result = {
+    solution: { Easy: 0, Medium: 0, Hard: 0, 剑指Offer: 73 },
+    thinking: { Easy: 0, Medium: 0, Hard: 0, 剑指Offer: 73 },
+  };
 
-  for (let i = 0; i < solution.length; i++) {
-    result.solution[solution[i].name] = fs.readdirSync(
-      path.join(__dirname, `../Solutions/${solution[i].name}`)
-    ).length;
-  }
-  for (let i = 0; i < thinking.length; i++) {
-    result.thinking[thinking[i].name] = fs.readdirSync(
-      path.join(__dirname, `../Thinkings/${solution[i].name}`)
-    ).length;
-  }
+  Object.keys(nameMap).map((key) => {
+    if (nameMap[key].difficulty === 'Easy') {
+      result.solution.Easy += 1;
+      if (nameMap[key].hasThinkings) {
+        result.thinking.Easy += 1;
+      }
+    }
+    if (nameMap[key].difficulty === 'Medium') {
+      result.solution.Medium += 1;
+      if (nameMap[key].hasThinkings) {
+        result.thinking.Medium += 1;
+      }
+    }
+    if (nameMap[key].difficulty === 'Hard') {
+      result.solution.Hard += 1;
+      if (nameMap[key].hasThinkings) {
+        result.thinking.Hard += 1;
+      }
+    }
+  });
 
   const sum = Object.values(result.solution).reduce((sum, solution) => (sum += solution), 0);
   const thinkSum = Object.values(result.thinking).reduce((sum, solution) => (sum += solution), 0);
@@ -141,7 +161,6 @@ const renderReadme = () => {
   fs.writeFileSync('README.md', content(result), { flag: 'w+' }, (error) => {
     console.log(error);
   });
-
   fs.writeFileSync(
     'RECORD.md',
     `难度出错的题目：${difficultyList} \n没有解答的题目数：${noSolutionList.length} \n没有解答的题目TOP5：${top5Question}`,

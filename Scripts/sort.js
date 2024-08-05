@@ -10,9 +10,11 @@ const helper = () => {
     剑指Offer: [],
   };
 
-  const thinking = fs.readdirSync(path.join(__dirname, '../Thinkings'), {
-    withFileTypes: true,
-  });
+  const thinking = fs
+    .readdirSync(path.join(__dirname, '../Thinkings'), {
+      withFileTypes: true,
+    })
+    .filter((item) => item.isDirectory());
 
   for (let i = 0; i < thinking.length; i++) {
     const list = fs.readdirSync(path.join(__dirname, `../Thinkings/${thinking[i].name}`));
@@ -45,8 +47,12 @@ const sort = () => {
     enName: '${nameMap[infos[i]].enName || ''}',
     difficulty: '${nameMap[infos[i]].difficulty || ''}',
     label: '${nameMap[infos[i]].label || ''}',
-    hasThinkings: '${(indexMap[nameMap[infos[i]].difficulty] || []).includes(`${infos[i]}`)}',
-    checked: '${nameMap[infos[i]].checked || 'false'}',
+    hasThinkings: ${
+      !nameMap[infos[i]].checked
+        ? (indexMap[nameMap[infos[i]].difficulty] || []).includes(`${infos[i]}`)
+        : true
+    },
+    checked: ${nameMap[infos[i]].checked || false},
   },\n`;
   }
 
