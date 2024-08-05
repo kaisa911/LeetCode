@@ -4,7 +4,7 @@ const nameMap = {
     enName: 'Two Sum',
     difficulty: 'Easy',
     label: '哈希',
-    hasThinkings: 'true',
+    hasThinkings: 'false',
     checked: 'true',
   },
   2: {
@@ -12,7 +12,7 @@ const nameMap = {
     enName: 'Add Two Numbers',
     difficulty: 'Medium',
     label: '链表',
-    hasThinkings: 'true',
+    hasThinkings: 'false',
     checked: 'true',
   },
   3: {
@@ -20,7 +20,7 @@ const nameMap = {
     enName: 'Longest Substring Without Repeating Characters',
     difficulty: 'Medium',
     label: '滑动窗口',
-    hasThinkings: 'true',
+    hasThinkings: 'false',
     checked: 'true',
   },
   4: {
@@ -28,7 +28,7 @@ const nameMap = {
     enName: 'Median of Two Sorted Arrays',
     difficulty: 'Hard',
     label: '数组',
-    hasThinkings: 'true',
+    hasThinkings: 'false',
     checked: 'true',
   },
   5: {
@@ -36,7 +36,7 @@ const nameMap = {
     enName: 'Longest Palindromic Substring',
     difficulty: 'Medium',
     label: '双指针',
-    hasThinkings: 'true',
+    hasThinkings: 'false',
     checked: 'true',
   },
   6: {
@@ -44,7 +44,7 @@ const nameMap = {
     enName: 'ZigZag Conversion',
     difficulty: 'Medium',
     label: '字符串',
-    hasThinkings: 'true',
+    hasThinkings: 'false',
     checked: 'true',
   },
   7: {
@@ -52,7 +52,7 @@ const nameMap = {
     enName: 'Reverse Integer',
     difficulty: 'Medium',
     label: '字符串',
-    hasThinkings: 'true',
+    hasThinkings: 'false',
     checked: 'true',
   },
   8: {
@@ -60,7 +60,7 @@ const nameMap = {
     enName: 'String to Integer (atoi)',
     difficulty: 'Medium',
     label: '字符串',
-    hasThinkings: 'true',
+    hasThinkings: 'false',
     checked: 'true',
   },
   9: {
@@ -68,7 +68,7 @@ const nameMap = {
     enName: 'Palindrome Number',
     difficulty: 'Easy',
     label: '数学',
-    hasThinkings: 'true',
+    hasThinkings: 'false',
     checked: 'true',
   },
   10: {
@@ -76,7 +76,7 @@ const nameMap = {
     enName: 'Regular Expression Matching',
     difficulty: 'Hard',
     label: '',
-    hasThinkings: 'true',
+    hasThinkings: 'false',
     checked: 'true',
   },
   11: {
@@ -84,7 +84,7 @@ const nameMap = {
     enName: 'Container With Most Water',
     difficulty: 'Medium',
     label: '双指针',
-    hasThinkings: 'true',
+    hasThinkings: 'false',
     checked: 'true',
   },
   12: {
@@ -92,7 +92,7 @@ const nameMap = {
     enName: 'Integer to Roman',
     difficulty: 'Medium',
     label: '',
-    hasThinkings: 'true',
+    hasThinkings: 'false',
     checked: 'true',
   },
   13: {
@@ -100,7 +100,7 @@ const nameMap = {
     enName: 'Roman to Integer',
     difficulty: 'Easy',
     label: '',
-    hasThinkings: 'true',
+    hasThinkings: 'false',
     checked: 'true',
   },
   14: {
@@ -108,7 +108,7 @@ const nameMap = {
     enName: 'Longest Common Prefix',
     difficulty: 'Easy',
     label: '数组',
-    hasThinkings: 'true',
+    hasThinkings: 'false',
     checked: 'true',
   },
   15: {
@@ -116,7 +116,7 @@ const nameMap = {
     enName: '3 Sum',
     difficulty: 'Medium',
     label: '双指针',
-    hasThinkings: 'true',
+    hasThinkings: 'false',
     checked: 'true',
   },
   16: {
@@ -124,7 +124,7 @@ const nameMap = {
     enName: '3 Sum Closest',
     difficulty: 'Medium',
     label: '双指针',
-    hasThinkings: 'true',
+    hasThinkings: 'false',
     checked: 'true',
   },
   17: {
@@ -132,7 +132,7 @@ const nameMap = {
     enName: 'Letter Combinations of a Phone Number',
     difficulty: 'Medium',
     label: '字符串、回溯',
-    hasThinkings: 'true',
+    hasThinkings: 'false',
     checked: 'true',
   },
   18: {
@@ -140,7 +140,7 @@ const nameMap = {
     enName: '4 Sum',
     difficulty: 'Medium',
     label: '双指针法',
-    hasThinkings: 'true',
+    hasThinkings: 'false',
     checked: 'true',
   },
   19: {
@@ -148,7 +148,7 @@ const nameMap = {
     enName: 'Remove Nth Node From End of List',
     difficulty: 'Medium',
     label: '快慢指针',
-    hasThinkings: 'true',
+    hasThinkings: 'false',
     checked: 'true',
   },
   20: {
@@ -156,7 +156,7 @@ const nameMap = {
     enName: 'Valid Parentheses',
     difficulty: 'Easy',
     label: '栈',
-    hasThinkings: 'true',
+    hasThinkings: 'false',
     checked: 'true',
   },
   21: {
@@ -164,7 +164,7 @@ const nameMap = {
     enName: 'Merge Two Sorted Lists',
     difficulty: 'Easy',
     label: '链表',
-    hasThinkings: 'true',
+    hasThinkings: 'false',
     checked: 'true',
   },
   22: {
@@ -172,7 +172,7 @@ const nameMap = {
     enName: 'Generate Parentheses',
     difficulty: 'Medium',
     label: '回溯',
-    hasThinkings: 'true',
+    hasThinkings: 'false',
     checked: 'true',
   },
   23: {
@@ -180,7 +180,7 @@ const nameMap = {
     enName: 'Merge k Sorted Lists',
     difficulty: 'Hard',
     label: '链表、分治',
-    hasThinkings: 'true',
+    hasThinkings: 'false',
     checked: 'true',
   },
   24: {
@@ -188,7 +188,7 @@ const nameMap = {
     enName: 'Swap Nodes In Pairs',
     difficulty: 'Medium',
     label: '链表、迭代法',
-    hasThinkings: 'true',
+    hasThinkings: 'false',
     checked: 'true',
   },
   25: {
@@ -196,7 +196,7 @@ const nameMap = {
     enName: 'Reverse Nodes in k-Group',
     difficulty: 'Hard',
     label: '迭代、递归、链表',
-    hasThinkings: 'true',
+    hasThinkings: 'false',
     checked: 'true',
   },
   26: {
@@ -204,7 +204,7 @@ const nameMap = {
     enName: 'Remove Duplicates from Sorted Array',
     difficulty: 'Easy',
     label: '双指针',
-    hasThinkings: 'true',
+    hasThinkings: 'false',
     checked: 'true',
   },
   27: {
@@ -212,7 +212,7 @@ const nameMap = {
     enName: 'Remove Element',
     difficulty: 'Easy',
     label: '双指针',
-    hasThinkings: 'true',
+    hasThinkings: 'false',
     checked: 'true',
   },
   28: {
@@ -220,7 +220,7 @@ const nameMap = {
     enName: 'Implement strStr()',
     difficulty: 'Easy',
     label: 'KMP算法',
-    hasThinkings: 'true',
+    hasThinkings: 'false',
     checked: 'true',
   },
   29: {
@@ -228,7 +228,7 @@ const nameMap = {
     enName: 'Divide Two Integers',
     difficulty: 'Medium',
     label: '贪心、位运算',
-    hasThinkings: 'true',
+    hasThinkings: 'false',
     checked: 'true',
   },
   30: {
@@ -244,7 +244,7 @@ const nameMap = {
     enName: 'Next-permutation',
     difficulty: 'Medium',
     label: '数组',
-    hasThinkings: 'true',
+    hasThinkings: 'false',
     checked: 'true',
   },
   32: {
@@ -252,7 +252,7 @@ const nameMap = {
     enName: 'Longest Valid Parentheses',
     difficulty: 'Hard',
     label: '栈',
-    hasThinkings: 'true',
+    hasThinkings: 'false',
     checked: 'true',
   },
   33: {
@@ -260,7 +260,7 @@ const nameMap = {
     enName: 'Search in Rotated Sorted Array',
     difficulty: 'Medium',
     label: '数组、二分查找',
-    hasThinkings: 'true',
+    hasThinkings: 'false',
     checked: 'true',
   },
   34: {
@@ -268,7 +268,7 @@ const nameMap = {
     enName: 'Search for a Range',
     difficulty: 'Medium',
     label: '二分查找',
-    hasThinkings: 'true',
+    hasThinkings: 'false',
     checked: 'true',
   },
   35: {
@@ -276,7 +276,7 @@ const nameMap = {
     enName: 'Search Insert Position',
     difficulty: 'Easy',
     label: '二分查找',
-    hasThinkings: 'true',
+    hasThinkings: 'false',
     checked: 'true',
   },
   36: {
@@ -284,7 +284,7 @@ const nameMap = {
     enName: 'Valid Sudoku',
     difficulty: 'Medium',
     label: '数组',
-    hasThinkings: 'true',
+    hasThinkings: 'false',
     checked: 'true',
   },
   37: {
@@ -292,7 +292,7 @@ const nameMap = {
     enName: 'Sudoku Solver',
     difficulty: 'Hard',
     label: 'DFS、回溯',
-    hasThinkings: 'true',
+    hasThinkings: 'false',
     checked: 'true',
   },
   38: {
@@ -300,7 +300,7 @@ const nameMap = {
     enName: 'Count and Say',
     difficulty: 'Medium',
     label: '字符串',
-    hasThinkings: 'true',
+    hasThinkings: 'false',
     checked: 'true',
   },
   39: {
@@ -308,7 +308,7 @@ const nameMap = {
     enName: 'Combination Sum',
     difficulty: 'Medium',
     label: '回溯、数组',
-    hasThinkings: 'true',
+    hasThinkings: 'false',
     checked: 'true',
   },
   40: {
@@ -316,7 +316,7 @@ const nameMap = {
     enName: 'Combination Sum II',
     difficulty: 'Medium',
     label: '回溯、数组',
-    hasThinkings: 'true',
+    hasThinkings: 'false',
     checked: 'true',
   },
   41: {
@@ -324,7 +324,7 @@ const nameMap = {
     enName: 'First Missing Positive',
     difficulty: 'Hard',
     label: '数组',
-    hasThinkings: 'true',
+    hasThinkings: 'false',
     checked: 'true',
   },
   42: {
@@ -332,7 +332,7 @@ const nameMap = {
     enName: 'Trapping Rain Water',
     difficulty: 'Hard',
     label: '双指针',
-    hasThinkings: 'true',
+    hasThinkings: 'false',
     checked: 'true',
   },
   43: {
@@ -340,7 +340,7 @@ const nameMap = {
     enName: 'Multiply String',
     difficulty: 'Medium',
     label: '字符串',
-    hasThinkings: 'true',
+    hasThinkings: 'false',
     checked: 'true',
   },
   44: {
@@ -348,7 +348,7 @@ const nameMap = {
     enName: 'Wildcard Matching',
     difficulty: 'Hard',
     label: '动态规划',
-    hasThinkings: 'true',
+    hasThinkings: 'false',
     checked: 'true',
   },
   45: {
@@ -356,7 +356,7 @@ const nameMap = {
     enName: 'Jump Game II',
     difficulty: 'Medium',
     label: '数组、贪心',
-    hasThinkings: 'true',
+    hasThinkings: 'false',
     checked: 'true',
   },
   46: {
@@ -364,7 +364,7 @@ const nameMap = {
     enName: 'Permutations',
     difficulty: 'Medium',
     label: '回溯',
-    hasThinkings: 'true',
+    hasThinkings: 'false',
     checked: 'true',
   },
   47: {
@@ -372,7 +372,7 @@ const nameMap = {
     enName: 'Permutations II',
     difficulty: 'Medium',
     label: '回溯',
-    hasThinkings: 'true',
+    hasThinkings: 'false',
     checked: 'true',
   },
   48: {
@@ -380,7 +380,7 @@ const nameMap = {
     enName: 'Rotate Image',
     difficulty: 'Medium',
     label: '数组',
-    hasThinkings: 'true',
+    hasThinkings: 'false',
     checked: 'true',
   },
   49: {
@@ -388,7 +388,7 @@ const nameMap = {
     enName: 'Group Anagrams',
     difficulty: 'Medium',
     label: '哈希',
-    hasThinkings: 'true',
+    hasThinkings: 'false',
     checked: 'true',
   },
   50: {
@@ -396,7 +396,7 @@ const nameMap = {
     enName: 'Pow(x, n)',
     difficulty: 'Medium',
     label: '数学',
-    hasThinkings: 'true',
+    hasThinkings: 'false',
     checked: 'true',
   },
   51: {
@@ -404,7 +404,7 @@ const nameMap = {
     enName: 'N-Queens',
     difficulty: 'Hard',
     label: '回溯',
-    hasThinkings: 'true',
+    hasThinkings: 'false',
     checked: 'true',
   },
   52: {
@@ -412,7 +412,7 @@ const nameMap = {
     enName: 'N-Queens II',
     difficulty: 'Hard',
     label: '回溯',
-    hasThinkings: 'true',
+    hasThinkings: 'false',
     checked: 'true',
   },
   53: {
@@ -420,7 +420,7 @@ const nameMap = {
     enName: 'Maximum Subarray',
     difficulty: 'Medium',
     label: 'Kadane算法、动态规划',
-    hasThinkings: 'true',
+    hasThinkings: 'false',
     checked: 'true',
   },
   54: {
@@ -428,7 +428,7 @@ const nameMap = {
     enName: 'Spiral Matrix',
     difficulty: 'Medium',
     label: '矩阵',
-    hasThinkings: 'true',
+    hasThinkings: 'false',
     checked: 'true',
   },
   55: {
@@ -436,7 +436,7 @@ const nameMap = {
     enName: 'Jump Game',
     difficulty: 'Medium',
     label: '数组',
-    hasThinkings: 'true',
+    hasThinkings: 'false',
     checked: 'true',
   },
   56: {
@@ -444,7 +444,7 @@ const nameMap = {
     enName: 'Merge Intervals',
     difficulty: 'Medium',
     label: '数组',
-    hasThinkings: 'true',
+    hasThinkings: 'false',
     checked: 'true',
   },
   57: {
@@ -452,7 +452,7 @@ const nameMap = {
     enName: 'Insert Interval',
     difficulty: 'Hard',
     label: '数组',
-    hasThinkings: 'true',
+    hasThinkings: 'false',
     checked: 'true',
   },
   58: {
@@ -460,7 +460,7 @@ const nameMap = {
     enName: 'Length of Last Word',
     difficulty: 'Easy',
     label: '字符串',
-    hasThinkings: 'true',
+    hasThinkings: 'false',
     checked: 'true',
   },
   59: {
@@ -468,7 +468,7 @@ const nameMap = {
     enName: 'Spiral Matrix II',
     difficulty: 'Medium',
     label: '矩阵',
-    hasThinkings: 'true',
+    hasThinkings: 'false',
     checked: 'true',
   },
   60: {
@@ -476,7 +476,7 @@ const nameMap = {
     enName: 'Permutation Sequence',
     difficulty: 'Hard',
     label: '数学',
-    hasThinkings: 'true',
+    hasThinkings: 'false',
     checked: 'true',
   },
   61: {
@@ -484,7 +484,7 @@ const nameMap = {
     enName: 'Rotate List',
     difficulty: 'Medium',
     label: '链表',
-    hasThinkings: 'true',
+    hasThinkings: 'false',
     checked: 'true',
   },
   62: {
@@ -492,7 +492,7 @@ const nameMap = {
     enName: 'Unique Paths',
     difficulty: 'Medium',
     label: '动态规划',
-    hasThinkings: 'true',
+    hasThinkings: 'false',
     checked: 'true',
   },
   63: {
@@ -500,7 +500,7 @@ const nameMap = {
     enName: 'Unique Paths II',
     difficulty: 'Medium',
     label: '动态规划',
-    hasThinkings: 'true',
+    hasThinkings: 'false',
     checked: 'true',
   },
   64: {
@@ -508,7 +508,7 @@ const nameMap = {
     enName: 'Minimum Path Sum',
     difficulty: 'Medium',
     label: '动态规划',
-    hasThinkings: 'true',
+    hasThinkings: 'false',
     checked: 'true',
   },
   65: {
@@ -516,7 +516,7 @@ const nameMap = {
     enName: 'Valid Number',
     difficulty: 'Hard',
     label: '正则',
-    hasThinkings: 'true',
+    hasThinkings: 'false',
     checked: 'true',
   },
   66: {
@@ -524,7 +524,7 @@ const nameMap = {
     enName: 'Plus One',
     difficulty: 'Easy',
     label: '数组',
-    hasThinkings: 'true',
+    hasThinkings: 'false',
     checked: 'true',
   },
   67: {
@@ -532,7 +532,7 @@ const nameMap = {
     enName: 'Add Binary',
     difficulty: 'Easy',
     label: '字符串',
-    hasThinkings: 'true',
+    hasThinkings: 'false',
     checked: 'true',
   },
   68: {
@@ -540,7 +540,7 @@ const nameMap = {
     enName: 'Text Justification',
     difficulty: 'Hard',
     label: '贪心',
-    hasThinkings: 'true',
+    hasThinkings: 'false',
     checked: 'true',
   },
   69: {
@@ -548,7 +548,7 @@ const nameMap = {
     enName: 'Sqrt(x)',
     difficulty: 'Easy',
     label: '二分法',
-    hasThinkings: 'true',
+    hasThinkings: 'false',
     checked: 'true',
   },
   70: {
@@ -556,7 +556,7 @@ const nameMap = {
     enName: 'Climbing Stairs',
     difficulty: 'Easy',
     label: '动态规划',
-    hasThinkings: 'true',
+    hasThinkings: 'false',
     checked: 'true',
   },
   71: {
@@ -564,7 +564,7 @@ const nameMap = {
     enName: 'Simplify Path',
     difficulty: 'Medium',
     label: '栈',
-    hasThinkings: 'true',
+    hasThinkings: 'false',
     checked: 'true',
   },
   72: {
@@ -572,7 +572,7 @@ const nameMap = {
     enName: 'Edit Distance',
     difficulty: 'Hard',
     label: '动态规划',
-    hasThinkings: 'true',
+    hasThinkings: 'false',
     checked: 'true',
   },
   73: {
@@ -580,7 +580,7 @@ const nameMap = {
     enName: 'Set Matrix Zeroes',
     difficulty: 'Medium',
     label: '矩阵',
-    hasThinkings: 'true',
+    hasThinkings: 'false',
     checked: 'true',
   },
   74: {
@@ -588,7 +588,7 @@ const nameMap = {
     enName: 'Search a 2D Matrix',
     difficulty: 'Medium',
     label: '矩阵',
-    hasThinkings: 'true',
+    hasThinkings: 'false',
     checked: 'true',
   },
   75: {
@@ -596,7 +596,7 @@ const nameMap = {
     enName: 'Sort Colors',
     difficulty: 'Medium',
     label: '快排',
-    hasThinkings: 'true',
+    hasThinkings: 'false',
     checked: 'true',
   },
   76: {
@@ -604,7 +604,7 @@ const nameMap = {
     enName: 'Minimum Window Substring',
     difficulty: 'Hard',
     label: '子串、滑动窗口',
-    hasThinkings: 'true',
+    hasThinkings: 'false',
     checked: 'true',
   },
   77: {
@@ -612,7 +612,7 @@ const nameMap = {
     enName: 'Combinations',
     difficulty: 'Medium',
     label: '回溯',
-    hasThinkings: 'true',
+    hasThinkings: 'false',
     checked: 'true',
   },
   78: {
@@ -620,7 +620,7 @@ const nameMap = {
     enName: 'Subsets',
     difficulty: 'Medium',
     label: '回溯',
-    hasThinkings: 'true',
+    hasThinkings: 'false',
     checked: 'true',
   },
   79: {
@@ -628,7 +628,7 @@ const nameMap = {
     enName: 'Word Search',
     difficulty: 'Medium',
     label: '回溯、DFS',
-    hasThinkings: 'true',
+    hasThinkings: 'false',
     checked: 'true',
   },
   80: {
@@ -636,7 +636,7 @@ const nameMap = {
     enName: 'Remove Duplicates from Sorted Array II',
     difficulty: 'Medium',
     label: '贪心',
-    hasThinkings: 'true',
+    hasThinkings: 'false',
     checked: 'true',
   },
   81: {
@@ -644,7 +644,7 @@ const nameMap = {
     enName: 'Searching Rotated Sorted Array II',
     difficulty: 'Medium',
     label: '二分搜索',
-    hasThinkings: 'true',
+    hasThinkings: 'false',
     checked: 'true',
   },
   82: {
@@ -652,7 +652,7 @@ const nameMap = {
     enName: 'Remove Duplicate From Sorted List II',
     difficulty: 'Medium',
     label: '链表、双指针',
-    hasThinkings: 'true',
+    hasThinkings: 'false',
     checked: 'true',
   },
   83: {
@@ -660,7 +660,7 @@ const nameMap = {
     enName: 'Remove Duplicates from Sorted List',
     difficulty: 'Easy',
     label: '链表',
-    hasThinkings: 'true',
+    hasThinkings: 'false',
     checked: 'true',
   },
   84: {
@@ -668,7 +668,7 @@ const nameMap = {
     enName: 'Largest Rectangle in Histogram',
     difficulty: 'Hard',
     label: '单调栈',
-    hasThinkings: 'true',
+    hasThinkings: 'false',
     checked: 'true',
   },
   85: {
@@ -676,56 +676,56 @@ const nameMap = {
     enName: 'Maximal Rectangle',
     difficulty: 'Hard',
     label: '单调栈',
-    hasThinkings: 'true',
+    hasThinkings: 'false',
     checked: 'true',
   },
   86: {
     cnName: '分隔链表',
     enName: 'Partition List',
     difficulty: 'Medium',
-    label: '',
-    hasThinkings: 'true',
-    checked: 'false',
+    label: '链表',
+    hasThinkings: 'false',
+    checked: 'true',
   },
   87: {
     cnName: '扰乱字符串',
     enName: 'Scramble String',
     difficulty: 'Hard',
-    label: '',
-    hasThinkings: 'true',
-    checked: 'false',
+    label: '分治、哈希',
+    hasThinkings: 'false',
+    checked: 'true',
   },
   88: {
     cnName: '合并两个有序数组',
     enName: 'Merge Sorted Array',
     difficulty: 'Easy',
-    label: '',
-    hasThinkings: 'true',
+    label: '数组',
+    hasThinkings: 'false',
     checked: 'true',
   },
   89: {
     cnName: '格雷编码',
     enName: 'Gray Code',
     difficulty: 'Medium',
-    label: '',
-    hasThinkings: 'true',
-    checked: 'false',
+    label: '数组',
+    hasThinkings: 'false',
+    checked: 'true',
   },
   90: {
     cnName: '子集 II',
     enName: 'Subsets II',
     difficulty: 'Medium',
-    label: '',
-    hasThinkings: 'true',
-    checked: 'false',
+    label: '回溯',
+    hasThinkings: 'false',
+    checked: 'true',
   },
   91: {
     cnName: '解码方法',
     enName: 'Decode Ways',
     difficulty: 'Medium',
-    label: '',
-    hasThinkings: 'true',
-    checked: 'false',
+    label: '动态规划',
+    hasThinkings: 'false',
+    checked: 'true',
   },
   92: {
     cnName: '反转链表 II',

@@ -8,7 +8,7 @@
 - 在一个随机下标处将字符串分割成两个非空的子字符串。即，如果已知字符串 s ，则可以将其分成两个子字符串 x 和 y ，且满足 s = x + y 。
 - 随机 决定是要「交换两个子字符串」还是要「保持这两个子字符串的顺序不变」。即，在执行这一步骤之后，s 可能是 s = x + y 或者 s = y + x 。
 - 在 x 和 y 这两个子字符串上继续从步骤 1 开始递归执行此算法。
-给你两个 长度相等 的字符串 s1 和 s2，判断 s2 是否是 s1 的扰乱字符串。如果是，返回 true ；否则，返回 false 。
+  给你两个 长度相等 的字符串 s1 和 s2，判断 s2 是否是 s1 的扰乱字符串。如果是，返回 true ；否则，返回 false 。
 
 示例 1：
 
@@ -46,14 +46,26 @@
 - 1 <= s1.length <= 30
 - s1 和 s2 由小写英文字母组成
 
+思路：
+给定两个长度相同的字符串 s1 和 s2，判断 s2 是否是 s1 的扰乱字符串。扰乱字符串是指通过随机分割原字符串并在分割后的子字符串之间进行交换或保持顺序的操作得到的新字符串。
+
+1. 备忘录：使用一个三维数组 memo 作为备忘录，存储已经计算过的状态，以避免重复计算。
+2. 辅助函数 dfs：定义一个递归函数 dfs 来判断在给定的起始索引 i1 和 i2 下，长度为 length 的子字符串 s1 和 s2 是否是扰乱字符串。
+3. 字符集检查：在 dfs 函数中，首先检查两个子字符串是否完全相同，如果相同则直接返回 true。如果字符集不相同，则返回 false。
+4. 分割与递归：枚举所有可能的分割点，对于每个分割点，递归地调用 dfs 函数来判断交换或不交换子字符串后是否满足扰乱字符串的条件。
+5. 辅助函数 checkIfSimilar：定义一个函数 checkIfSimilar 来检查两个子字符串的字符集是否相同。
+6. 备忘录存储：在递归过程中，使用备忘录来存储已经计算过的结果，当再次遇到相同的子问题时，直接返回存储的结果。
+7. 返回结果：dfs 函数返回 true 或 false 表示 s2 是否是 s1 的扰乱字符串。
+
+时间复杂度:O(n^2)，其中 n 是字符串的长度。最坏情况下，我们需要枚举所有可能的分割点，并对每个分割点进行两次递归调用。
+空间复杂度：O(n^3)，由于备忘录的大小为 n×n×(n/2)，其中 n 是字符串的长度。
+
 ```js
 var isScramble = function (s1, s2) {
   const length = s1.length;
   const memo = new Array(length)
     .fill(0)
-    .map(() =>
-      new Array(length).fill(0).map(() => new Array(length + 1).fill(0))
-    );
+    .map(() => new Array(length).fill(0).map(() => new Array(length + 1).fill(0)));
   return dfs(0, 0, length, s1, s2, memo);
 };
 const dfs = function (i1, i2, length, s1, s2, memo) {
@@ -73,18 +85,12 @@ const dfs = function (i1, i2, length, s1, s2, memo) {
   // 枚举分割位置
   for (let i = 1; i < length; ++i) {
     // 不交换的情况
-    if (
-      dfs(i1, i2, i, s1, s2, memo) &&
-      dfs(i1 + i, i2 + i, length - i, s1, s2, memo)
-    ) {
+    if (dfs(i1, i2, i, s1, s2, memo) && dfs(i1 + i, i2 + i, length - i, s1, s2, memo)) {
       memo[i1][i2][length] = 1;
       return true;
     }
     // 交换的情况
-    if (
-      dfs(i1, i2 + length - i, i, s1, s2, memo) &&
-      dfs(i1 + i, i2, length - i, s1, s2, memo)
-    ) {
+    if (dfs(i1, i2 + length - i, i, s1, s2, memo) && dfs(i1 + i, i2, length - i, s1, s2, memo)) {
       memo[i1][i2][length] = 1;
       return true;
     }

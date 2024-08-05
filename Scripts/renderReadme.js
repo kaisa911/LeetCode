@@ -17,9 +17,7 @@ for (let i = 0; i < solution.length; i++) {
 }
 
 for (let i = 0; i < thinking.length; i++) {
-  const list = fs.readdirSync(
-    path.join(__dirname, `../Thinkings/${thinking[i].name}`)
-  );
+  const list = fs.readdirSync(path.join(__dirname, `../Thinkings/${thinking[i].name}`));
   for (let j = 0; j < list.length; j++) {
     const index = result[thinking[i].name].findIndex(
       (item) => item.split('-')[0] === list[j].split('-')[0]
@@ -30,7 +28,7 @@ for (let i = 0; i < thinking.length; i++) {
   }
 }
 
-const sortTable = [];
+const sortTable = Object.keys(nameMap);
 const offerTable = [];
 
 Object.keys(result).map((key) => {
@@ -40,15 +38,6 @@ Object.keys(result).map((key) => {
         index: item.split('-')[0],
         name: item,
         difficulty: '剑指Offer',
-        label: '',
-      });
-    });
-  } else {
-    result[key].forEach((item) => {
-      sortTable.push({
-        index: item.split('-')[0],
-        name: item,
-        difficulty: key,
         label: '',
       });
     });
@@ -63,35 +52,21 @@ const difficultyList = [];
 const tableHeader = `| Number | Name | Difficulty | label |
 |----|:--:|:------:|:-------:| `;
 const tableBody = sortTable.map((item) => {
-  const { index, name, difficulty } = item;
-  const temp = name.split('-')[1];
-  const showName = temp
-    .split('.')[0]
-    .split(/(?=[A-Z])/)
-    .join(' ');
-  const flag = temp.split('.')[1];
+  const { cnName, enName, difficulty, checked, label, hasThinkings } = nameMap[item];
 
-  if (nameMap[index]) {
-    noSolutionList = noSolutionList.filter((item) => item !== index);
-  }
-  if (
-    nameMap[index]?.difficulty &&
-    nameMap[index]?.difficulty !== undefined &&
-    nameMap[index]?.difficulty !== difficulty
-  ) {
-    difficultyList.push({
-      index,
-      difficulty: nameMap[index]?.difficulty,
-      difficulty2: difficulty,
-    });
-  }
-  return `| ${index} | [${nameMap[index]?.enName || showName} ${
-    nameMap[index]?.cnName || ''
-  }](https://github.com/kaisa911/LeetCode/blob/master/${
-    flag === 'md' ? 'Thinkings' : 'Solutions'
-  }/${difficulty}/${name}) | ${nameMap[index]?.difficulty || difficulty} | ${
-    nameMap[index]?.label || ''
-  } |`;
+  const fileName = `${item}-${enName.split(' ').join('')}`;
+  const route =
+    checked !== 'true'
+      ? `https://github.com/kaisa911/LeetCode/blob/master/${
+          hasThinkings ? 'Thinkings' : 'Solutions'
+        }/${difficulty}/${fileName}${hasThinkings ? '.js' : 'md'}`
+      : `https://github.com/kaisa911/LeetCode/blob/master/package/${
+          hasThinkings ? 'thinkings' : 'solutions'
+        }/${fileName}.md`;
+
+  console.log(route);
+
+  return `| ${item} | [${enName} ${cnName}](${route}) | ${difficulty} | ${label} |`;
 });
 
 const tableBody2 = offerTable.map((item) => {
@@ -99,13 +74,9 @@ const tableBody2 = offerTable.map((item) => {
   const temp = name.split('-')[1];
   const showName = temp.split('.')[0].split('~');
   const flag = temp.split('.')[1];
-  return `| ${index} | [${
-    showName[0]
-  }](https://github.com/kaisa911/LeetCode/blob/master/${
+  return `| ${index} | [${showName[0]}](https://github.com/kaisa911/LeetCode/blob/master/${
     flag === 'md' ? 'Thinkings' : 'Solutions'
-  }/剑指Offer/${name}) | ${showName[1].split('##')[0]} | ${
-    showName[1].split('##')[1] || ''
-  } |`;
+  }/剑指Offer/${name}) | ${showName[1].split('##')[0]} | ${showName[1].split('##')[1] || ''} |`;
 });
 
 const content = (result) => `
@@ -113,9 +84,9 @@ const content = (result) => `
 
 some exercises of leetcode
 
-- Leetcode: 简单: ${result.solution.Easy}, 中等: ${
-  result.solution.Medium
-}, 困难: ${result.solution.Hard}, 剑指Offer: ${result.solution['剑指Offer']},
+- Leetcode: 简单: ${result.solution.Easy}, 中等: ${result.solution.Medium}, 困难: ${
+  result.solution.Hard
+}, 剑指Offer: ${result.solution['剑指Offer']},
 - 总计：${result.sum}
 
 \`\`\`mermaid
@@ -135,9 +106,7 @@ ${tableHeader}
 ${tableBody2.join('\n')}
 `;
 
-const hasNameNoSolution = [...noSolutionList].filter(
-  (item) => nameMap[item].cnName !== ''
-);
+const hasNameNoSolution = [...noSolutionList].filter((item) => nameMap[item].cnName !== '');
 const top5Question = [...hasNameNoSolution];
 
 while (top5Question.length > 5) {
@@ -164,14 +133,8 @@ const renderReadme = () => {
     ).length;
   }
 
-  const sum = Object.values(result.solution).reduce(
-    (sum, solution) => (sum += solution),
-    0
-  );
-  const thinkSum = Object.values(result.thinking).reduce(
-    (sum, solution) => (sum += solution),
-    0
-  );
+  const sum = Object.values(result.solution).reduce((sum, solution) => (sum += solution), 0);
+  const thinkSum = Object.values(result.thinking).reduce((sum, solution) => (sum += solution), 0);
 
   result.sum = sum;
   result.thinkSum = thinkSum;
