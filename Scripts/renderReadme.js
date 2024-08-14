@@ -37,8 +37,6 @@ const offerTable = [];
 const indexList = [...result.Easy, ...result.Medium, ...result.Hard].map(
   (item) => item.split('-')[0]
 );
-console.log(Object.keys(nameMap).length, 222);
-
 let noSolutionList = Object.keys(nameMap).filter((item) => {
   if (nameMap[item].checked) return false;
   if (nameMap[item].hasThinkings) return false;
@@ -78,7 +76,7 @@ const tableBody = sortTable.map((item) => {
 
   const fileName = `${item}-${enName.split(' ').join('')}`;
   const route =
-    checked !== 'true'
+    checked !== true
       ? `https://github.com/kaisa911/LeetCode/blob/master/${
           hasThinkings ? 'Thinkings' : 'Solutions'
         }/${difficulty}/${fileName}${hasThinkings ? '.js' : 'md'}`
