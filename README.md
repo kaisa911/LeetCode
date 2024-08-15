@@ -188,9 +188,9 @@ pie title 已完成的题目
 | 200 | [Number of Islands 岛屿数量](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/200-NumberofIslandsmd) | Medium | 图、DFS |
 | 202 | [Happy Number 快乐数](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/202-HappyNumber.md) | Easy | 双指针 |
 | 203 | [Remove Linked List Elements 删除链表中的元素](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/203-RemoveLinkedListElementsmd) | Easy |  |
-| 204 | [Count Primes 计数质数](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/204-CountPrimes.md) | Easy |  |
+| 204 | [Count Primes 计数质数](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/204-CountPrimes.md) | Easy | 厄拉多塞筛法 |
 | 205 | [Isomorphic Strings 同构字符串](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/205-IsomorphicStringsmd) | Easy |  |
-| 206 | [Reverse Linked List 反转链表](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/206-ReverseLinkedList.md) | Easy |  |
+| 206 | [Reverse Linked List 反转链表](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/206-ReverseLinkedList.md) | Easy | 双指针、链表 |
 | 207 | [Course Schedule 课程表](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/207-CourseSchedulemd) | Medium | 图 |
 | 208 | [Implement Tire (Prefix Tree) 实现Tire（前缀树）](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/208-ImplementTire(PrefixTree)md) | Medium | 前缀树 |
 | 210 | [Course Schedule II 课程表 II](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/210-CourseScheduleIImd) | Medium | BFS |
@@ -218,25 +218,25 @@ pie title 已完成的题目
 | 238 | [Product of Array Except Self 除自身以外数组的乘积](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/238-ProductofArrayExceptSelf.js) | Medium | 数组 |
 | 239 | [Slide Window Maximum 滑动窗口最大值](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Hard/239-SlideWindowMaximummd) | Hard | 子串 |
 | 240 | [Search a 2D Matrix II 搜索二维矩阵 II](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/240-Searcha2DMatrixIImd) | Medium | 二分查找 |
-| 242 | [Valid Anagram 有效的字母异位词](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/242-ValidAnagram.md) | Easy |  |
-| 257 | [Binary Tree Paths 二叉树的所有路径](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/257-BinaryTreePaths.md) | Easy |  |
-| 258 | [Add Digits 各位相加](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/258-AddDigits.md) | Easy |  |
+| 242 | [Valid Anagram 有效的字母异位词](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/242-ValidAnagram.md) | Easy | 字符串、哈希 |
+| 257 | [Binary Tree Paths 二叉树的所有路径](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/257-BinaryTreePaths.md) | Easy | 回溯 |
+| 258 | [Add Digits 各位相加](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/258-AddDigits.md) | Easy | 数学、递归 |
 | 260 | [Single Number III 只出现一次的数字 III](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/260-SingleNumberIII.js) | Medium |  |
-| 263 | [Ugly Number 丑数](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/263-UglyNumber.md) | Easy |  |
+| 263 | [Ugly Number 丑数](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/263-UglyNumber.md) | Easy | 数学 |
 | 268 | [Missing Number 缺失数字](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/268-MissingNumbermd) | Easy |  |
 | 274 | [H-Index H 指数](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/274-H-Indexmd) | Medium |  |
-| 278 | [First Bad Version 第一个错误的版本](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/278-FirstBadVersion.md) | Easy |  |
+| 278 | [First Bad Version 第一个错误的版本](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/278-FirstBadVersion.md) | Easy | 二分查找 |
 | 279 | [Perfect Squares 完全平方数](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/279-PerfectSquaresmd) | Medium | 动态规划 |
 | 283 | [Move Zeroes 移动零](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/283-MoveZeroesmd) | Easy | 双指针 |
 | 287 | [Find the Duplicate Number 寻找重复数](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/287-FindtheDuplicateNumber.js) | Medium |  |
 | 289 | [Game of Life 生命游戏](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/289-GameofLifemd) | Medium | 数组 |
-| 290 | [Word Pattern 单词规律](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/290-WordPattern.md) | Easy |  |
+| 290 | [Word Pattern 单词规律](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/290-WordPattern.md) | Easy | 字符串 |
 | 292 | [Nim Game Nim 游戏](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/292-NimGamemd) | Easy | 数学 |
 | 295 | [Find Median from Data Stream 数据流的中位数](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Hard/295-FindMedianfromDataStreammd) | Hard |  |
 | 297 | [Serialize and Deserialize Binary Tree 二叉树的序列化与反序列化](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Hard/297-SerializeandDeserializeBinaryTreemd) | Hard |  |
 | 300 | [Longest Increasing Subsequence 最长上升子序列](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/300-LongestIncreasingSubsequencemd) | Medium |  |
 | 301 | [Remove Invalid Parentheses 删除无效的括号](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Hard/301-RemoveInvalidParenthesesmd) | Hard | BFS |
-| 303 | [Range Sum Query-Immutable 区域和检索-数组不可变](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/303-RangeSumQuery-Immutable.md) | Easy |  |
+| 303 | [Range Sum Query-Immutable 区域和检索-数组不可变](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/303-RangeSumQuery-Immutable.md) | Easy | 数组 |
 | 309 | [Best Time to Buy and Sell Stock with Cooldown 买卖股票的最佳时机含冷冻期](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/309-BestTimetoBuyandSellStockwithCooldownmd) | Medium | 动态规划 |
 | 310 | [Minimum Height Trees 最小高度树](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/310-MinimumHeightTrees.js) | Medium | BFC |
 | 312 | [Burst Balloons 戳气球](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Hard/312-BurstBalloonsmd) | Hard | 动态规划 |
