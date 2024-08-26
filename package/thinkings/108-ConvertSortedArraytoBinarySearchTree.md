@@ -25,6 +25,17 @@
 - 数组不为空，就设根节点和左右子树，数组为空，设置 null
 - 在主函数里调用并返回这个方法
 
+1. 理解二叉搜索树：二叉搜索树（BST）是一棵二叉树，其中每个节点的值大于或等于其左子树上所有节点的值，并且小于或等于其右子树上所有节点的值。
+2. 选择中间点作为根：对于给定的升序数组，中间的元素是构建高度平衡二叉搜索树的理想根节点。
+3. 递归构造：使用递归函数 handleTreeNode 来构造树的节点：
+   - 如果数组为空（low 大于 high），则返回 null。
+   - 计算中间索引 mid，创建根节点，并使用数组中该索引处的值初始化节点。
+   - 递归地构造左子树和右子树，分别使用数组的左半部分和右半部分。
+4. 主函数调用：在 sortedArrayToBST 函数中，检查数组是否为空，如果不为空，则调用 handleTreeNode 函数，并传入数组以及索引范围。
+
+时间复杂度：O(n)，其中 n 是数组的长度。每个元素恰好被访问一次。
+空间复杂度：O(logn)，这是因为在最坏情况下（树完全不平衡），递归的深度可以达到数组长度的对数。
+
 ```js
 /**
  * Definition for a binary tree node.
@@ -37,7 +48,7 @@
  * @param {number[]} nums
  * @return {TreeNode}
  */
-var sortedArrayToBST = function(nums) {
+var sortedArrayToBST = function (nums) {
   if (nums.length === 0) return null;
   return handleTreeNode(nums, 0, nums.length - 1);
 };

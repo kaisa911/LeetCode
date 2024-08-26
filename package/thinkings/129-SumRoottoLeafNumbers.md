@@ -46,6 +46,17 @@
 - 如果左右子树都为 null，那就 10\*当前值
 - 如果左右子树不为 null，那就 10\*以前的值+当前的 val
 
+1. 递归辅助函数：定义一个辅助函数 helper，它接收当前节点 root 和当前路径的数字 sum 作为参数。
+2. 基本情况：如果当前节点是 null，则返回 0，表示没有贡献任何数字。
+3. 叶子节点：如果当前节点是叶子节点（没有左右子节点），则返回当前 sum 加上当前节点的值，因为这是路径上的一个完整数字。
+4. 递归计算：如果当前节点不是叶子节点，则递归地调用 helper 函数计算左子树和右子树上的数字之和：
+   - 对于左子树，将当前节点的值乘以 10（相当于在当前路径数字的末尾添加一个 0），然后加上当前节点的值，继续递归。
+   - 对于右子树，进行相同的操作。
+5. 总和计算：返回左右子树上数字之和的总和。
+
+时间复杂度：O(n)，其中 n 是二叉树中节点的数量。算法需要访问每个节点一次。
+空间复杂度：O(h)，其中 h 是二叉树的高度。这是因为在递归过程中，栈空间取决于树的高度，最坏情况下是树完全不平衡时的 O(n)。
+
 ```js
 /**
  * Definition for a binary tree node.
@@ -58,10 +69,10 @@
  * @param {TreeNode} root
  * @return {number}
  */
-var sumNumbers = function(root) {
+var sumNumbers = function (root) {
   return helper(root, 0);
 };
-var helper = function(root, sum) {
+var helper = function (root, sum) {
   if (!root) return 0;
   if (!root.left && !root.right) {
     return sum * 10 + root.val;

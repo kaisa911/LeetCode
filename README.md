@@ -108,22 +108,22 @@ pie title 已完成的题目
 | 90 | [Subsets II 子集 II](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/90-SubsetsII.md) | Medium | 回溯 |
 | 91 | [Decode Ways 解码方法](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/91-DecodeWays.md) | Medium | 动态规划 |
 | 92 | [Reverse Linked List II 反转链表 II](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/92-ReverseLinkedListII.md) | Medium | 链表 |
-| 93 | [Restore Ip Address 复原 IP 地址](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/93-RestoreIpAddress.js) | Medium |  |
-| 94 | [Binary Tree Inorder Traversal 二叉树的中序遍历](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/94-BinaryTreeInorderTraversal.js) | Medium |  |
-| 95 | [Unique Binary Search Trees II 不同的二叉搜索树 II](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/95-UniqueBinarySearchTreesII.js) | Medium |  |
-| 96 | [Unique Binary Search Trees 不同的二叉搜索树](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/96-UniqueBinarySearchTrees.js) | Medium |  |
-| 97 | [Interleaving String 交错字符串](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/97-InterleavingString.js) | Medium |  |
+| 93 | [Restore Ip Address 复原 IP 地址](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/93-RestoreIpAddress.md) | Medium | DFS |
+| 94 | [Binary Tree Inorder Traversal 二叉树的中序遍历](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/94-BinaryTreeInorderTraversal.md) | Medium | 递归、二叉树 |
+| 95 | [Unique Binary Search Trees II 不同的二叉搜索树 II](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/95-UniqueBinarySearchTreesII.md) | Medium | 二叉树、递归 |
+| 96 | [Unique Binary Search Trees 不同的二叉搜索树](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/96-UniqueBinarySearchTrees.md) | Medium | 卡特兰数 |
+| 97 | [Interleaving String 交错字符串](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/97-InterleavingString.md) | Medium | 动态规划 |
 | 98 | [Validate Binary Search Tree 验证搜索二叉树](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/98-ValidateBinarySearchTree.md) | Medium | 二叉树 |
-| 99 | [Recover Binary Search Tree 恢复搜索二叉树](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/99-RecoverBinarySearchTree.js) | Medium |  |
+| 99 | [Recover Binary Search Tree 恢复搜索二叉树](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/99-RecoverBinarySearchTree.md) | Medium | 二叉树 |
 | 100 | [Same Tree 相同的树](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/100-SameTree.md) | Easy | 二叉树 |
-| 101 | [Symmetric Tree 对称二叉树](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/101-SymmetricTree.js) | Easy | BFS |
+| 101 | [Symmetric Tree 对称二叉树](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/101-SymmetricTree.md) | Easy | BFS |
 | 102 | [Binary Tree Level Order Traversal 二叉树的层序遍历](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/102-BinaryTreeLevelOrderTraversalmd) | Medium |  |
 | 103 | [Binary Tree Zigzag Level Order Traversal 二叉树的锯齿形层序遍历](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/103-BinaryTreeZigzagLevelOrderTraversalmd) | Medium | BFS |
 | 104 | [Maximum Depth of Binary Tree 二叉树最大深度](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/104-MaximumDepthofBinaryTreemd) | Easy | DFS |
-| 105 | [Construct Binary Tree from Preorder and Inorder Traversal 从前序与中序遍历序列构造二叉树](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/105-ConstructBinaryTreefromPreorderandInorderTraversal.js) | Medium |  |
+| 105 | [Construct Binary Tree from Preorder and Inorder Traversal 从前序与中序遍历序列构造二叉树](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/105-ConstructBinaryTreefromPreorderandInorderTraversal.md) | Medium | 二叉树 |
 | 106 | [Construct Binary Tree from In order and Post order Traversal 从中序与后序遍历序列构造二叉树](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/106-ConstructBinaryTreefromInorderandPostorderTraversalmd) | Medium |  |
 | 107 | [Binary Tree Level Order Traversal II 二叉树的层次遍历 II](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/107-BinaryTreeLevelOrderTraversalII.md) | Easy |  |
-| 108 | [Convert Sorted Array to Binary Search Tree 将有序数组转换成二叉搜索树](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/108-ConvertSortedArraytoBinarySearchTreemd) | Easy | 分治 |
+| 108 | [Convert Sorted Array to Binary Search Tree 将有序数组转换成二叉搜索树](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/108-ConvertSortedArraytoBinarySearchTree.md) | Easy | 二叉树 |
 | 109 | [Convert Sorted Array to Binary Search Tree 将有序数组转换为二叉搜索树](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/109-ConvertSortedArraytoBinarySearchTreemd) | Medium |  |
 | 110 | [Balanced Binary Tree 平衡二叉树](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/110-BalancedBinaryTree.md) | Easy | 二叉树 |
 | 111 | [Minimum Depth of Binary Tree 二叉树的最小深度](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/111-MinimumDepthofBinaryTree.md) | Easy | 二叉树 |
@@ -144,7 +144,7 @@ pie title 已完成的题目
 | 126 | [Word Ladder II 单词接龙 II](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Hard/126-WordLadderII.js) | Hard |  |
 | 127 | [Word Ladder 单词接龙](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Hard/127-WordLaddermd) | Hard | BFS |
 | 128 | [Longest Consecutive Sequence 最长连续序列](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/128-LongestConsecutiveSequencemd) | Medium | 哈希 |
-| 129 | [Sum Root to Leaf Numbers 求根到叶子节点数字之和](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/129-SumRoottoLeafNumbers.js) | Medium |  |
+| 129 | [Sum Root to Leaf Numbers 求根到叶子节点数字之和](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/129-SumRoottoLeafNumbers.md) | Medium | 二叉树 |
 | 130 | [Surrounded Regions 被围绕的区域](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/130-SurroundedRegions.js) | Medium | DFS |
 | 131 | [Palindrome Partitioning 分隔回文串](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/131-PalindromePartitioning.js) | Medium | 回溯 |
 | 132 | [Palindrome Partitioning II 分隔回文串II](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Hard/132-PalindromePartitioningII.js) | Hard |  |
