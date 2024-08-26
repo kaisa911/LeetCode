@@ -3,13 +3,13 @@
 
 some exercises of leetcode
 
-- Leetcode: 简单: 169, 中等: 213, 困难: 52, 剑指Offer: 73,
-- 总计：507
+- Leetcode: 简单: 169, 中等: 214, 困难: 52, 剑指Offer: 73,
+- 总计：508
 
 ```mermaid
 pie title 已完成的题目
     "简单" : 169
-    "中等" : 213
+    "中等" : 214
     "困难" : 52
     "剑指Offer" : 73
 ```
@@ -30,10 +30,10 @@ pie title 已完成的题目
 | 12 | [Integer to Roman 整数转罗马数字](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/12-IntegertoRoman.md) | Medium |  |
 | 13 | [Roman to Integer 罗马数字转整数](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/13-RomantoInteger.md) | Easy |  |
 | 14 | [Longest Common Prefix 最长共同前缀](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/14-LongestCommonPrefix.md) | Easy | 数组 |
-| 15 | [3 Sum 三数之和](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/15-3Sum.md) | Medium | 双指针 |
-| 16 | [3 Sum Closest 最接近的三数之和](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/16-3SumClosest.md) | Medium | 双指针 |
+| 15 | [3 Sum 三数之和](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/15-3Sum.md) | Medium | 双指针、排序 |
+| 16 | [3 Sum Closest 最接近的三数之和](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/16-3SumClosest.md) | Medium | 双指针、排序 |
 | 17 | [Letter Combinations of a Phone Number 电话号码的字母组合](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/17-LetterCombinationsofaPhoneNumber.md) | Medium | 字符串、回溯 |
-| 18 | [4 Sum 四数之和](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/18-4Sum.md) | Medium | 双指针法 |
+| 18 | [4 Sum 四数之和](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/18-4Sum.md) | Medium | 双指针法、排序 |
 | 19 | [Remove Nth Node From End of List 删除链表的倒数第 N 个节点](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/19-RemoveNthNodeFromEndofList.md) | Medium | 快慢指针 |
 | 20 | [Valid Parentheses 有效的括号](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/20-ValidParentheses.md) | Easy | 栈 |
 | 21 | [Merge Two Sorted Lists 合并两个有序链表](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/21-MergeTwoSortedLists.md) | Easy | 链表 |
@@ -64,15 +64,15 @@ pie title 已完成的题目
 | 46 | [Permutations 全排列](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/46-Permutations.md) | Medium | 回溯 |
 | 47 | [Permutations II 全排列 II](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/47-PermutationsII.md) | Medium | 回溯 |
 | 48 | [Rotate Image 旋转图像](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/48-RotateImage.md) | Medium | 数组 |
-| 49 | [Group Anagrams 字母异位词分组](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/49-GroupAnagrams.md) | Medium | 哈希 |
+| 49 | [Group Anagrams 字母异位词分组](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/49-GroupAnagrams.md) | Medium | 哈希、排序 |
 | 50 | [Pow(x, n) Pow(x, n)](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/50-Pow(x,n).md) | Medium | 数学 |
 | 51 | [N-Queens N 皇后](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/51-N-Queens.md) | Hard | 回溯 |
 | 52 | [N-Queens II N 皇后 II](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/52-N-QueensII.md) | Hard | 回溯 |
 | 53 | [Maximum Subarray 最大子数组和](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/53-MaximumSubarray.md) | Medium | Kadane算法、动态规划 |
 | 54 | [Spiral Matrix 螺旋矩阵](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/54-SpiralMatrix.md) | Medium | 矩阵 |
 | 55 | [Jump Game 跳跃游戏](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/55-JumpGame.md) | Medium | 数组 |
-| 56 | [Merge Intervals 合并区间](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/56-MergeIntervals.md) | Medium | 数组 |
-| 57 | [Insert Interval 插入区间](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/57-InsertInterval.md) | Hard | 数组 |
+| 56 | [Merge Intervals 合并区间](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/56-MergeIntervals.md) | Medium | 数组、排序 |
+| 57 | [Insert Interval 插入区间](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/57-InsertInterval.md) | Hard | 数组、排序 |
 | 58 | [Length of Last Word 最后一个单词的长度](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/58-LengthofLastWord.md) | Easy | 字符串 |
 | 59 | [Spiral Matrix II 螺旋矩阵 II](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/59-SpiralMatrixII.md) | Medium | 矩阵 |
 | 60 | [Permutation Sequence 排列序列](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/60-PermutationSequence.md) | Hard | 数学 |
@@ -103,7 +103,7 @@ pie title 已完成的题目
 | 85 | [Maximal Rectangle 最大矩形](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/85-MaximalRectangle.md) | Hard | 单调栈 |
 | 86 | [Partition List 分隔链表](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/86-PartitionList.md) | Medium | 链表 |
 | 87 | [Scramble String 扰乱字符串](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/87-ScrambleString.md) | Hard | 分治、哈希 |
-| 88 | [Merge Sorted Array 合并两个有序数组](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/88-MergeSortedArray.md) | Easy | 数组 |
+| 88 | [Merge Sorted Array 合并两个有序数组](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/88-MergeSortedArray.md) | Easy | 数组、排序 |
 | 89 | [Gray Code 格雷编码](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/89-GrayCode.md) | Medium | 数组 |
 | 90 | [Subsets II 子集 II](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/90-SubsetsII.md) | Medium | 回溯 |
 | 91 | [Decode Ways 解码方法](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/91-DecodeWays.md) | Medium | 动态规划 |
@@ -128,10 +128,10 @@ pie title 已完成的题目
 | 110 | [Balanced Binary Tree 平衡二叉树](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/110-BalancedBinaryTree.md) | Easy | 二叉树 |
 | 111 | [Minimum Depth of Binary Tree 二叉树的最小深度](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/111-MinimumDepthofBinaryTree.md) | Easy | 二叉树 |
 | 112 | [Path Sum 路径总和](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/112-PathSum.md) | Easy | 递归 |
-| 113 | [Path Sum II 路径总和 II](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/113-PathSumIImd) | Medium |  |
-| 114 | [Flat Binary Tree to Linked List 二叉树展开为链表](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/114-FlatBinaryTreetoLinkedListmd) | Medium | 二叉树 |
-| 115 | [Distinct Subsequences 不同的子序列](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Hard/115-DistinctSubsequencesmd) | Hard | 动态规划 |
-| 116 | [Populating Next Right Pointers in Each Node 填充每个节点的下一个右侧节点指针](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/116-PopulatingNextRightPointersinEachNodemd) | Medium | 层序遍历 |
+| 113 | [Path Sum II 路径总和 II](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/113-PathSumII.js) | Medium |  |
+| 114 | [Flat Binary Tree to Linked List 二叉树展开为链表](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/114-FlatBinaryTreetoLinkedList.js) | Medium | 二叉树 |
+| 115 | [Distinct Subsequences 不同的子序列](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Hard/115-DistinctSubsequences.js) | Hard | 动态规划 |
+| 116 | [Populating Next Right Pointers in Each Node 填充每个节点的下一个右侧节点指针](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/116-PopulatingNextRightPointersinEachNode.js) | Medium | 层序遍历 |
 | 117 | [Populating Next Right Pointers in Each Node II 填充每个节点的下一个右侧节点指针 II](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/117-PopulatingNextRightPointersinEachNodeIImd) | Medium | 层次遍历 |
 | 118 | [Pascals Triangle 杨辉三角](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/118-PascalsTrianglemd) | Easy |  |
 | 119 | [Pascals Triangle II 杨辉三角 II](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/119-PascalsTriangleIImd) | Easy |  |
@@ -151,7 +151,7 @@ pie title 已完成的题目
 | 133 | [Clone Graph 克隆图](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/133-CloneGraphmd) | Medium | DFS |
 | 134 | [Gas Station 加油站](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/134-GasStationmd) | Medium | 数组 |
 | 135 | [Candy 分发糖果](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Hard/135-Candy.js) | Hard |  |
-| 136 | [Single Number 只出现一次的数字](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/136-SingleNumbermd) | Easy |  |
+| 136 | [Single Number 只出现一次的数字](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/136-SingleNumber.js) | Easy | 排序 |
 | 137 | [Single Number II 只出现一次的数字 II](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/137-SingleNumberII.js) | Medium |  |
 | 138 | [Copy List with Random Pointer 随机链表的复制](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/138-CopyListwithRandomPointermd) | Medium | 链表 |
 | 139 | [Word Break 单词拆分](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/139-WordBreakmd) | Medium | 动态规划 |
@@ -162,8 +162,8 @@ pie title 已完成的题目
 | 144 | [Binary Tree Preorder Traversal 二叉树的前序遍历](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/144-BinaryTreePreorderTraversalmd) | Easy | 二叉树、栈 |
 | 145 | [Binary Tree Postorder Traversal 二叉树的后序遍历](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/145-BinaryTreePostorderTraversalmd) | Easy | 二叉树、栈 |
 | 146 | [LRU Cache LRU 缓存](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/146-LRUCachemd) | Medium | 链表 |
-| 147 | [Insertion Sort List 对链表进行插入排序](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/147-InsertionSortListmd) | Medium | 链表 |
-| 148 | [Sort List 排序链表](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/148-SortListmd) | Medium | 链表 |
+| 147 | [Insertion Sort List 对链表进行插入排序](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/147-InsertionSortList.js) | Medium | 链表、排序 |
+| 148 | [Sort List 排序链表](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/148-SortList.js) | Medium | 链表、排序 |
 | 149 | [Max Points on a Line 直线上最多的点](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Hard/149-MaxPointsonaLinemd) | Hard | 哈希 |
 | 150 | [Evaluate Reverse Polish Notation 逆波兰表达式求值](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/150-EvaluateReversePolishNotationmd) | Medium | 栈 |
 | 151 | [Reverse Words in a String 反转字符串中的单词](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/151-ReverseWordsinaStringmd) | Medium | 双指针 |
@@ -172,14 +172,15 @@ pie title 已完成的题目
 | 155 | [Min Stack 最小栈](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/155-MinStackmd) | Easy |  |
 | 160 | [Intersection of Two Linked List 相交链表](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/160-IntersectionofTwoLinkedListmd) | Easy | 双指针 |
 | 162 | [Find Peak Element 寻找峰值](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/162-FindPeakElementmd) | Medium | 二分查找 |
+| 164 | [Maximum Gap 最大间距](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/164-MaximumGap.js) | Medium | 二分查找 |
 | 165 | [Compare Version Numbers 比较版本号](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/165-CompareVersionNumbers.md) | Easy | 字符串 |
 | 166 | [Fraction to Recurring Decimal 分数到小数](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/166-FractiontoRecurringDecimalmd) | Medium | 长除法 |
 | 167 | [Two Sum II 两数之和 II](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/167-TwoSumIImd) | Easy |  |
 | 168 | [Excel Sheet Column Title Excel 列表名称](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/168-ExcelSheetColumnTitlemd) | Easy | 数学方法 |
-| 169 | [Majority Element 求众数](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/169-MajorityElementmd) | Easy |  |
+| 169 | [Majority Element 求众数](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/169-MajorityElement.js) | Easy |  |
 | 171 | [Excel Sheet Column Number Excel 表列序号](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/171-ExcelSheetColumnNumberExcel.md) | Easy | 字符串 |
 | 172 | [Factorial Trailing Zeroes 阶乘后的零](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/172-FactorialTrailingZeroes.md) | Easy | 数学 |
-| 179 | [Largest Number 最大数](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/179-LargestNumbermd) | Medium | 数组 |
+| 179 | [Largest Number 最大数](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/179-LargestNumber.js) | Medium | 数组 |
 | 189 | [Rotate Array 旋转数组](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/189-RotateArraymd) | Easy | 数组 |
 | 190 | [Reverse Bits 颠倒二进制位](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/190-ReverseBitsmd) | Easy |  |
 | 191 | [Number of 1 Bits 位 1 的个数](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/191-Numberof1Bitsmd) | Easy |  |
