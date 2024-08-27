@@ -25,10 +25,10 @@ pie title 已完成的题目
 | 7 | [Reverse Integer 翻转整数](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/7-ReverseInteger.md) | Medium | 字符串 |
 | 8 | [String to Integer (atoi) 字符串转为整数](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/8-StringtoInteger(atoi).md) | Medium | 字符串 |
 | 9 | [Palindrome Number 回文数字](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/9-PalindromeNumber.md) | Easy | 数学 |
-| 10 | [Regular Expression Matching 正则表达式匹配](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/10-RegularExpressionMatching.md) | Hard |  |
+| 10 | [Regular Expression Matching 正则表达式匹配](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/10-RegularExpressionMatching.md) | Hard | 正则、字符串 |
 | 11 | [Container With Most Water 盛最多水的容器](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/11-ContainerWithMostWater.md) | Medium | 双指针 |
-| 12 | [Integer to Roman 整数转罗马数字](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/12-IntegertoRoman.md) | Medium |  |
-| 13 | [Roman to Integer 罗马数字转整数](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/13-RomantoInteger.md) | Easy |  |
+| 12 | [Integer to Roman 整数转罗马数字](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/12-IntegertoRoman.md) | Medium | 字符串 |
+| 13 | [Roman to Integer 罗马数字转整数](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/13-RomantoInteger.md) | Easy | 字符串 |
 | 14 | [Longest Common Prefix 最长共同前缀](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/14-LongestCommonPrefix.md) | Easy | 数组 |
 | 15 | [3 Sum 三数之和](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/15-3Sum.md) | Medium | 双指针、排序 |
 | 16 | [3 Sum Closest 最接近的三数之和](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/16-3SumClosest.md) | Medium | 双指针、排序 |
@@ -122,7 +122,7 @@ pie title 已完成的题目
 | 104 | [Maximum Depth of Binary Tree 二叉树最大深度](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/104-MaximumDepthofBinaryTree.md) | Easy | DFS |
 | 105 | [Construct Binary Tree from Preorder and Inorder Traversal 从前序与中序遍历序列构造二叉树](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/105-ConstructBinaryTreefromPreorderandInorderTraversal.md) | Medium | 二叉树 |
 | 106 | [Construct Binary Tree from In order and Post order Traversal 从中序与后序遍历序列构造二叉树](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/106-ConstructBinaryTreefromInorderandPostorderTraversal.md) | Medium | 二叉树 |
-| 107 | [Binary Tree Level Order Traversal II 二叉树的层次遍历 II](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/107-BinaryTreeLevelOrderTraversalII.md) | Easy |  |
+| 107 | [Binary Tree Level Order Traversal II 二叉树的层次遍历 II](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/107-BinaryTreeLevelOrderTraversalII.md) | Easy | 二叉树 |
 | 108 | [Convert Sorted Array to Binary Search Tree 将有序数组转换成二叉搜索树](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/108-ConvertSortedArraytoBinarySearchTree.md) | Easy | 二叉树 |
 | 109 | [Convert Sorted List to Binary Search Tree 将有序链表转换为二叉搜索树](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/109-ConvertSortedListtoBinarySearchTree.md) | Medium | 链表、二叉树 |
 | 110 | [Balanced Binary Tree 平衡二叉树](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/110-BalancedBinaryTree.md) | Easy | 二叉树 |
