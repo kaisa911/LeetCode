@@ -261,18 +261,18 @@ pie title 已完成的题目
 | 349 | [Intersection of Two Arrays 两个数组的交集](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/349-IntersectionofTwoArrays.js) | Easy |  |
 | 350 | [Intersection of Two Arrays II 两个数组的交集 II](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/350-IntersectionofTwoArraysII.md) | Easy |  |
 | 365 | [Water and Jug Problem 水壶问题](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/365-WaterandJugProblem.js) | Medium | 数学方法 |
-| 371 | [Sum of Two Integers 两个整数相加](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/371-SumofTwoIntegers.md) | Easy |  |
+| 371 | [Sum of Two Integers 两个整数相加](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/371-SumofTwoIntegers.md) | Easy | 位运算 |
 | 373 | [Find K Pairs with Smallest Sums 查找和最小的 K 对数字](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/373-FindKPairswithSmallestSums.js) | Medium |  |
 | 374 | [Guess Number Higher or lower 猜数字大小](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/374-GuessNumberHigherorlower.js) | Easy | 二分查找 |
 | 377 | [Combination Sum IV 组合总和 Ⅳ](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/377-CombinationSumIV.md) | Medium |  |
 | 378 | [Kth Smallest Element in a Sorted Matrix 有序矩阵中第 K 小的元素](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/378-KthSmallestElementinaSortedMatrix.js) | Medium | 二分查找 |
 | 380 | [Insert Delete GetRandom O1 O(1)时间插入删除和获取随机元素](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/380-InsertDeleteGetRandomO1.js) | Medium | 哈希 |
 | 381 | [Insert Delete GetRandom O(1) - Duplicates allowed O(1)时间插入删除和获取随机元素-允许重复](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Hard/381-InsertDeleteGetRandomO(1)-Duplicatesallowed.js) | Hard | 哈希 |
-| 383 | [Ransom Note 赎金信](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/383-RansomNote.md) | Easy |  |
+| 383 | [Ransom Note 赎金信](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/383-RansomNote.md) | Easy | 哈希表 |
 | 384 | [Shuffle an Array 打乱数组](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/384-ShuffleanArray.js) | Medium | 数组 |
 | 387 | [First Unique Character in a String 字符串中的第一个唯一字符](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/387-FirstUniqueCharacterinaString.md) | Easy | 哈希 |
 | 389 | [Find The Difference 找不同](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/389-FindTheDifference.js) | Easy |  |
-| 392 | [Is Subsequence 判断子序列](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/392-IsSubsequence.md) | Easy |  |
+| 392 | [Is Subsequence 判断子序列](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/392-IsSubsequence.md) | Easy | 子串 |
 | 394 | [Decode String 字符串解码](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/394-DecodeString.js) | Medium |  |
 | 395 | [Longest Substring with At Least K Repeating Characters 至少有 K 个充数字符的最长子串](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/395-LongestSubstringwithAtLeastKRepeatingCharacters.js) | Medium | 分治 |
 | 399 | [Evaluate Division 除法求值](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/399-EvaluateDivision.js) | Medium | 图、DFS |
