@@ -13,7 +13,6 @@ const thinking = fs
     withFileTypes: true,
   })
   .filter((item) => item.isDirectory());
-
 for (let i = 0; i < solution.length; i++) {
   result[solution[i].name] = fs.readdirSync(
     path.join(__dirname, `../Solutions/${solution[i].name}`)
@@ -79,7 +78,7 @@ const tableBody = sortTable.map((item) => {
     checked !== true
       ? `https://github.com/kaisa911/LeetCode/blob/master/${
           hasThinkings ? 'Thinkings' : 'Solutions'
-        }/${difficulty}/${fileName}${hasThinkings ? '.js' : 'md'}`
+        }/${difficulty}/${fileName}${!hasThinkings ? '.js' : '.md'}`
       : `https://github.com/kaisa911/LeetCode/blob/master/package/${
           hasThinkings ? 'thinkings' : 'solutions'
         }/${fileName}.md`;

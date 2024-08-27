@@ -2,7 +2,7 @@ var zigzagLevelOrder = function (root) {
   if (!root) {
     return [];
   }
-  const ans = [];
+  const res = [];
   const nodeQueue = [root];
   let isOrderLeft = true;
   while (nodeQueue.length) {
@@ -22,8 +22,8 @@ var zigzagLevelOrder = function (root) {
         nodeQueue.push(node.right);
       }
     }
-    ans.push(levelList);
+    res.push(levelList);
     isOrderLeft = !isOrderLeft;
   }
-  return ans;
+  return res;
 };
