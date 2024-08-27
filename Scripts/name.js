@@ -932,7 +932,7 @@ const nameMap = {
     enName: 'Populating Next Right Pointers in Each Node II',
     difficulty: 'Medium',
     label: '层次遍历',
-    hasThinkings: false,
+    hasThinkings: true,
     checked: false,
   },
   118: {
@@ -940,7 +940,7 @@ const nameMap = {
     enName: 'Pascals Triangle',
     difficulty: 'Easy',
     label: '',
-    hasThinkings: false,
+    hasThinkings: true,
     checked: false,
   },
   119: {
@@ -948,7 +948,7 @@ const nameMap = {
     enName: 'Pascals Triangle II',
     difficulty: 'Easy',
     label: '',
-    hasThinkings: false,
+    hasThinkings: true,
     checked: false,
   },
   120: {
@@ -956,7 +956,7 @@ const nameMap = {
     enName: 'Triangle',
     difficulty: 'Medium',
     label: '动态规划',
-    hasThinkings: false,
+    hasThinkings: true,
     checked: false,
   },
   121: {
@@ -964,7 +964,7 @@ const nameMap = {
     enName: 'Best Time to Buy and Sell Stock',
     difficulty: 'Easy',
     label: '动态规划',
-    hasThinkings: false,
+    hasThinkings: true,
     checked: false,
   },
   122: {
@@ -972,7 +972,7 @@ const nameMap = {
     enName: 'Best Time to Buy and Sell Stock II',
     difficulty: 'Medium',
     label: '',
-    hasThinkings: false,
+    hasThinkings: true,
     checked: false,
   },
   123: {
@@ -988,7 +988,7 @@ const nameMap = {
     enName: 'Binary Tree Maximum Path Sum',
     difficulty: 'Hard',
     label: '二叉树',
-    hasThinkings: false,
+    hasThinkings: true,
     checked: false,
   },
   125: {
@@ -996,7 +996,7 @@ const nameMap = {
     enName: 'Is Palindrome',
     difficulty: 'Easy',
     label: '',
-    hasThinkings: false,
+    hasThinkings: true,
     checked: false,
   },
   126: {
@@ -1012,7 +1012,7 @@ const nameMap = {
     enName: 'Word Ladder',
     difficulty: 'Hard',
     label: 'BFS',
-    hasThinkings: false,
+    hasThinkings: true,
     checked: false,
   },
   128: {
@@ -1020,7 +1020,7 @@ const nameMap = {
     enName: 'Longest Consecutive Sequence',
     difficulty: 'Medium',
     label: '哈希',
-    hasThinkings: false,
+    hasThinkings: true,
     checked: false,
   },
   129: {
@@ -1060,7 +1060,7 @@ const nameMap = {
     enName: 'Clone Graph',
     difficulty: 'Medium',
     label: 'DFS',
-    hasThinkings: false,
+    hasThinkings: true,
     checked: false,
   },
   134: {
@@ -1068,7 +1068,7 @@ const nameMap = {
     enName: 'Gas Station',
     difficulty: 'Medium',
     label: '数组',
-    hasThinkings: false,
+    hasThinkings: true,
     checked: false,
   },
   135: {
@@ -1100,7 +1100,7 @@ const nameMap = {
     enName: 'Copy List with Random Pointer',
     difficulty: 'Medium',
     label: '链表',
-    hasThinkings: false,
+    hasThinkings: true,
     checked: false,
   },
   139: {
@@ -1108,7 +1108,7 @@ const nameMap = {
     enName: 'Word Break',
     difficulty: 'Medium',
     label: '动态规划',
-    hasThinkings: false,
+    hasThinkings: true,
     checked: false,
   },
   140: {
@@ -1116,7 +1116,7 @@ const nameMap = {
     enName: 'Word Break II',
     difficulty: 'Hard',
     label: '记忆化搜索',
-    hasThinkings: false,
+    hasThinkings: true,
     checked: false,
   },
   141: {
@@ -1132,7 +1132,7 @@ const nameMap = {
     enName: 'Linked List Cycle II',
     difficulty: 'Medium',
     label: '双指针、哈希',
-    hasThinkings: false,
+    hasThinkings: true,
     checked: false,
   },
   143: {
@@ -1140,7 +1140,7 @@ const nameMap = {
     enName: 'Reorder List',
     difficulty: 'Medium',
     label: '双指针',
-    hasThinkings: false,
+    hasThinkings: true,
     checked: false,
   },
   144: {
@@ -1148,7 +1148,7 @@ const nameMap = {
     enName: 'Binary Tree Preorder Traversal',
     difficulty: 'Easy',
     label: '二叉树、栈',
-    hasThinkings: false,
+    hasThinkings: true,
     checked: false,
   },
   145: {
@@ -1156,7 +1156,7 @@ const nameMap = {
     enName: 'Binary Tree Postorder Traversal',
     difficulty: 'Easy',
     label: '二叉树、栈',
-    hasThinkings: false,
+    hasThinkings: true,
     checked: false,
   },
   146: {
@@ -1164,7 +1164,7 @@ const nameMap = {
     enName: 'LRU Cache',
     difficulty: 'Medium',
     label: '链表',
-    hasThinkings: false,
+    hasThinkings: true,
     checked: false,
   },
   147: {
@@ -2375,6 +2375,14 @@ const nameMap = {
     hasThinkings: false,
     checked: false,
   },
+  532: {
+    cnName: '数组中的 k-diff 数对',
+    enName: 'K-diff Pairs in an Array',
+    difficulty: 'Medium',
+    label: '',
+    hasThinkings: true,
+    checked: false,
+  },
   538: {
     cnName: '把二叉搜索树转换为累加树',
     enName: 'Convert BST to Greater Tree',
@@ -2452,7 +2460,7 @@ const nameMap = {
     enName: 'Shortest Unsorted Continuous Subarray',
     difficulty: 'Medium',
     label: '',
-    hasThinkings: false,
+    hasThinkings: true,
     checked: false,
   },
   589: {
@@ -2484,7 +2492,7 @@ const nameMap = {
     enName: 'Valid Triangle Number',
     difficulty: 'Medium',
     label: '双指针',
-    hasThinkings: false,
+    hasThinkings: true,
     checked: false,
   },
   617: {
@@ -2508,7 +2516,7 @@ const nameMap = {
     enName: 'Maximum Product of Three Numbers',
     difficulty: 'Easy',
     label: '',
-    hasThinkings: false,
+    hasThinkings: true,
     checked: false,
   },
   642: {
@@ -2589,6 +2597,14 @@ const nameMap = {
     difficulty: 'Easy',
     label: '',
     hasThinkings: false,
+    checked: false,
+  },
+  692: {
+    cnName: '前K个高频单词',
+    enName: 'Top K Frequent Words',
+    difficulty: 'Medium',
+    label: '',
+    hasThinkings: true,
     checked: false,
   },
   700: {
@@ -2693,6 +2709,14 @@ const nameMap = {
     difficulty: 'Medium',
     label: '贪心',
     hasThinkings: false,
+    checked: false,
+  },
+  767: {
+    cnName: '重构字符串',
+    enName: 'Reorganize String',
+    difficulty: 'Medium',
+    label: '贪心',
+    hasThinkings: true,
     checked: false,
   },
   778: {
@@ -2804,7 +2828,15 @@ const nameMap = {
     enName: 'Sort Array By Parity',
     difficulty: 'Easy',
     label: '',
-    hasThinkings: false,
+    hasThinkings: true,
+    checked: false,
+  },
+  912: {
+    cnName: '排序数组',
+    enName: 'Sort an Array',
+    difficulty: 'Medium',
+    label: '',
+    hasThinkings: true,
     checked: false,
   },
   929: {
@@ -2863,6 +2895,14 @@ const nameMap = {
     hasThinkings: true,
     checked: false,
   },
+  973: {
+    cnName: '最接近原点的 K 个点',
+    enName: 'K Closest Points to Origin',
+    difficulty: 'Medium',
+    label: '链表',
+    hasThinkings: true,
+    checked: false,
+  },
   974: {
     cnName: '和可被 K 整除的子数组',
     enName: 'Subarray Sums Divisible by K',
@@ -2876,7 +2916,7 @@ const nameMap = {
     enName: 'Squares of a Sorted Array',
     difficulty: 'Easy',
     label: '',
-    hasThinkings: false,
+    hasThinkings: true,
     checked: false,
   },
   989: {

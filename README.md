@@ -3,13 +3,13 @@
 
 some exercises of leetcode
 
-- Leetcode: 简单: 169, 中等: 214, 困难: 52, 剑指Offer: 73,
-- 总计：508
+- Leetcode: 简单: 169, 中等: 219, 困难: 52, 剑指Offer: 73,
+- 总计：513
 
 ```mermaid
 pie title 已完成的题目
     "简单" : 169
-    "中等" : 214
+    "中等" : 219
     "困难" : 52
     "剑指Offer" : 73
 ```
@@ -132,36 +132,36 @@ pie title 已完成的题目
 | 114 | [Flat Binary Tree to Linked List 二叉树展开为链表](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/114-FlatBinaryTreetoLinkedList.md) | Medium | 二叉树 |
 | 115 | [Distinct Subsequences 不同的子序列](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Hard/115-DistinctSubsequences.md) | Hard | 动态规划 |
 | 116 | [Populating Next Right Pointers in Each Node 填充每个节点的下一个右侧节点指针](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/116-PopulatingNextRightPointersinEachNode.md) | Medium | 层序遍历 |
-| 117 | [Populating Next Right Pointers in Each Node II 填充每个节点的下一个右侧节点指针 II](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/117-PopulatingNextRightPointersinEachNodeII.js) | Medium | 层次遍历 |
-| 118 | [Pascals Triangle 杨辉三角](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/118-PascalsTriangle.js) | Easy |  |
-| 119 | [Pascals Triangle II 杨辉三角 II](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/119-PascalsTriangleII.js) | Easy |  |
-| 120 | [Triangle 三角形最小路径和](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/120-Triangle.js) | Medium | 动态规划 |
-| 121 | [Best Time to Buy and Sell Stock 买卖股票的最佳时机](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/121-BestTimetoBuyandSellStock.js) | Easy | 动态规划 |
-| 122 | [Best Time to Buy and Sell Stock II 股票买卖的最佳时机 II](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/122-BestTimetoBuyandSellStockII.js) | Medium |  |
+| 117 | [Populating Next Right Pointers in Each Node II 填充每个节点的下一个右侧节点指针 II](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/117-PopulatingNextRightPointersinEachNodeII.md) | Medium | 层次遍历 |
+| 118 | [Pascals Triangle 杨辉三角](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/118-PascalsTriangle.md) | Easy |  |
+| 119 | [Pascals Triangle II 杨辉三角 II](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/119-PascalsTriangleII.md) | Easy |  |
+| 120 | [Triangle 三角形最小路径和](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/120-Triangle.md) | Medium | 动态规划 |
+| 121 | [Best Time to Buy and Sell Stock 买卖股票的最佳时机](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/121-BestTimetoBuyandSellStock.md) | Easy | 动态规划 |
+| 122 | [Best Time to Buy and Sell Stock II 股票买卖的最佳时机 II](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/122-BestTimetoBuyandSellStockII.md) | Medium |  |
 | 123 | [Best Time to Buy and Sell Stock III 股票买卖的最佳时机 III](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Hard/123-BestTimetoBuyandSellStockIII.md) | Hard |  |
-| 124 | [Binary Tree Maximum Path Sum 二叉树中的最大路径和](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Hard/124-BinaryTreeMaximumPathSum.js) | Hard | 二叉树 |
-| 125 | [Is Palindrome 验证回文串](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/125-IsPalindrome.js) | Easy |  |
+| 124 | [Binary Tree Maximum Path Sum 二叉树中的最大路径和](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Hard/124-BinaryTreeMaximumPathSum.md) | Hard | 二叉树 |
+| 125 | [Is Palindrome 验证回文串](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/125-IsPalindrome.md) | Easy |  |
 | 126 | [Word Ladder II 单词接龙 II](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Hard/126-WordLadderII.md) | Hard |  |
-| 127 | [Word Ladder 单词接龙](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Hard/127-WordLadder.js) | Hard | BFS |
-| 128 | [Longest Consecutive Sequence 最长连续序列](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/128-LongestConsecutiveSequence.js) | Medium | 哈希 |
+| 127 | [Word Ladder 单词接龙](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Hard/127-WordLadder.md) | Hard | BFS |
+| 128 | [Longest Consecutive Sequence 最长连续序列](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/128-LongestConsecutiveSequence.md) | Medium | 哈希 |
 | 129 | [Sum Root to Leaf Numbers 求根到叶子节点数字之和](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/129-SumRoottoLeafNumbers.md) | Medium | 二叉树 |
 | 130 | [Surrounded Regions 被围绕的区域](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/130-SurroundedRegions.md) | Medium | DFS |
 | 131 | [Palindrome Partitioning 分隔回文串](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/131-PalindromePartitioning.md) | Medium | 回溯 |
 | 132 | [Palindrome Partitioning II 分隔回文串II](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Hard/132-PalindromePartitioningII.md) | Hard |  |
-| 133 | [Clone Graph 克隆图](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/133-CloneGraph.js) | Medium | DFS |
-| 134 | [Gas Station 加油站](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/134-GasStation.js) | Medium | 数组 |
+| 133 | [Clone Graph 克隆图](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/133-CloneGraph.md) | Medium | DFS |
+| 134 | [Gas Station 加油站](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/134-GasStation.md) | Medium | 数组 |
 | 135 | [Candy 分发糖果](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Hard/135-Candy.md) | Hard |  |
 | 136 | [Single Number 只出现一次的数字](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/136-SingleNumber.md) | Easy | 排序 |
 | 137 | [Single Number II 只出现一次的数字 II](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/137-SingleNumberII.md) | Medium |  |
-| 138 | [Copy List with Random Pointer 随机链表的复制](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/138-CopyListwithRandomPointer.js) | Medium | 链表 |
-| 139 | [Word Break 单词拆分](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/139-WordBreak.js) | Medium | 动态规划 |
-| 140 | [Word Break II 单词拆分 II](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Hard/140-WordBreakII.js) | Hard | 记忆化搜索 |
+| 138 | [Copy List with Random Pointer 随机链表的复制](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/138-CopyListwithRandomPointer.md) | Medium | 链表 |
+| 139 | [Word Break 单词拆分](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/139-WordBreak.md) | Medium | 动态规划 |
+| 140 | [Word Break II 单词拆分 II](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Hard/140-WordBreakII.md) | Hard | 记忆化搜索 |
 | 141 | [Linked List Cycle 环形链表](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/141-LinkedListCycle.md) | Easy | 双指针、哈希 |
-| 142 | [Linked List Cycle II 环形链表 II](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/142-LinkedListCycleII.js) | Medium | 双指针、哈希 |
-| 143 | [Reorder List 重排链表](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/143-ReorderList.js) | Medium | 双指针 |
-| 144 | [Binary Tree Preorder Traversal 二叉树的前序遍历](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/144-BinaryTreePreorderTraversal.js) | Easy | 二叉树、栈 |
-| 145 | [Binary Tree Postorder Traversal 二叉树的后序遍历](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/145-BinaryTreePostorderTraversal.js) | Easy | 二叉树、栈 |
-| 146 | [LRU Cache LRU 缓存](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/146-LRUCache.js) | Medium | 链表 |
+| 142 | [Linked List Cycle II 环形链表 II](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/142-LinkedListCycleII.md) | Medium | 双指针、哈希 |
+| 143 | [Reorder List 重排链表](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/143-ReorderList.md) | Medium | 双指针 |
+| 144 | [Binary Tree Preorder Traversal 二叉树的前序遍历](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/144-BinaryTreePreorderTraversal.md) | Easy | 二叉树、栈 |
+| 145 | [Binary Tree Postorder Traversal 二叉树的后序遍历](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/145-BinaryTreePostorderTraversal.md) | Easy | 二叉树、栈 |
+| 146 | [LRU Cache LRU 缓存](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/146-LRUCache.md) | Medium | 链表 |
 | 147 | [Insertion Sort List 对链表进行插入排序](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/147-InsertionSortList.md) | Medium | 链表、排序 |
 | 148 | [Sort List 排序链表](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/148-SortList.md) | Medium | 链表、排序 |
 | 149 | [Max Points on a Line 直线上最多的点](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Hard/149-MaxPointsonaLine.js) | Hard | 哈希 |
@@ -313,6 +313,7 @@ pie title 已完成的题目
 | 518 | [Coin Change II 零钱兑换 II](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/518-CoinChangeII.md) | Medium | 动态规划 |
 | 519 | [Random Flip Matrix 随机翻转矩阵](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/519-RandomFlipMatrix.md) | Medium | 数组 |
 | 529 | [Minesweeper 扫雷游戏](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/529-Minesweeper.js) | Medium |  |
+| 532 | [K-diff Pairs in an Array 数组中的 k-diff 数对](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/532-K-diffPairsinanArray.md) | Medium |  |
 | 538 | [Convert BST to Greater Tree 把二叉搜索树转换为累加树](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/538-ConvertBSTtoGreaterTree.js) | Medium | 二叉树 |
 | 541 | [Reverse String II 反转字符串 II](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/541-ReverseStringII.md) | Easy |  |
 | 543 | [Diameter of Binary Tree 二叉树的直径](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/543-DiameterofBinaryTree.js) | Easy | 二叉树 |
@@ -326,10 +327,10 @@ pie title 已完成的题目
 | 589 | [N-ray Tree Preorder Traversal N叉树的前序遍历](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/589-N-rayTreePreorderTraversal.md) | Easy | 二叉树 |
 | 605 | [Can Place Flowers 种花问题](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/605-CanPlaceFlowers.js) | Easy | 贪心 |
 | 606 | [Construct String from Binary Tree 根据二叉树创建字符串](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/606-ConstructStringfromBinaryTree.md) | Easy |  |
-| 611 | [Valid Triangle Number 有效三角形的个数](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/611-ValidTriangleNumber.js) | Medium | 双指针 |
+| 611 | [Valid Triangle Number 有效三角形的个数](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/611-ValidTriangleNumber.md) | Medium | 双指针 |
 | 617 | [Merge Two Binary Tree 合并二叉树](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/617-MergeTwoBinaryTree.js) | Easy | 二叉树 |
 | 621 | [Task Scheduler 任务调度器](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/621-TaskScheduler.js) | Medium |  |
-| 628 | [Maximum Product of Three Numbers 三个数的最大乘积](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/628-MaximumProductofThreeNumbers.js) | Easy |  |
+| 628 | [Maximum Product of Three Numbers 三个数的最大乘积](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/628-MaximumProductofThreeNumbers.md) | Easy |  |
 | 642 | [Palindromic Substrings 设计搜索自动补全系统](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/642-PalindromicSubstrings.js) | Medium |  |
 | 643 | [Maximum Average Subarray I 子数组最大平均数 I](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/643-MaximumAverageSubarrayI.js) | Easy |  |
 | 647 | [Palindromic Substrings 回文子串](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/647-PalindromicSubstrings.js) | Medium | Manacher 算法 |
@@ -340,6 +341,7 @@ pie title 已完成的题目
 | 668 | [Kth Smallest Number in Multiplication Table 乘法表中的第 K 小的数](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Hard/668-KthSmallestNumberinMultiplicationTable.js) | Hard |  |
 | 670 | [Maximum Swap 最大交换](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/670-MaximumSwap.js) | Medium | 贪心 |
 | 680 | [Valid Palindrome II 验证回文串 II](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/680-ValidPalindromeII.js) | Easy |  |
+| 692 | [Top K Frequent Words 前K个高频单词](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/692-TopKFrequentWords.md) | Medium |  |
 | 700 | [Search in a Binary Search Tree 二叉搜索树中的搜索](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/700-SearchinaBinarySearchTree.js) | Easy | 二叉搜索树 |
 | 703 | [Kth Largest Element in a Stream 数据流中的第 K 大元素](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/703-KthLargestElementinaStream.js) | Easy |  |
 | 704 | [Binary Search 二分查找](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/704-BinarySearch.md) | Easy |  |
@@ -353,6 +355,7 @@ pie title 已完成的题目
 | 746 | [Min Cost Climbing Stairs 使用最小花费爬楼梯](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/746-MinCostClimbingStairs.md) | Easy | 动态规划 |
 | 747 | [Largest Number At Least Twice of Others 至少是其他数字两倍的最大数](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/747-LargestNumberAtLeastTwiceofOthers.js) | Easy |  |
 | 763 | [Partition Labels 划分字母区间](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/763-PartitionLabels.js) | Medium | 贪心 |
+| 767 | [Reorganize String 重构字符串](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/767-ReorganizeString.md) | Medium | 贪心 |
 | 778 | [Swim In Rising Water 水位上升的泳池中游泳](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Hard/778-SwimInRisingWater.js) | Hard |  |
 | 784 | [Letter Case Permutation 字母大小写全排列](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/784-LetterCasePermutation.js) | Medium |  |
 | 790 | [Domino and Tromino Tiling 多米诺和托米诺平铺](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/790-DominoandTrominoTiling.js) | Medium | 一维动态规划 |
@@ -366,7 +369,8 @@ pie title 已完成的题目
 | 872 | [Leaf-Similar Tree 叶子相似的树](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/872-Leaf-SimilarTree.js) | Easy | 二叉树、DFS |
 | 875 | [Koko Eating Banana 爱吃香蕉的珂珂](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/875-KokoEatingBanana.js) | Medium | 二分查找 |
 | 901 | [Online Stock Span 股票价格跨度](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/901-OnlineStockSpan.js) | Medium | 单调栈 |
-| 905 | [Sort Array By Parity 按奇偶排序数组](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/905-SortArrayByParity.js) | Easy |  |
+| 905 | [Sort Array By Parity 按奇偶排序数组](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/905-SortArrayByParity.md) | Easy |  |
+| 912 | [Sort an Array 排序数组](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/912-SortanArray.md) | Medium |  |
 | 929 | [Num Unique Emails 独特的电子邮件地址](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/929-NumUniqueEmails.js) | Easy |  |
 | 933 | [Number of Recent Calls 最近的请求次数](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/933-NumberofRecentCalls.md) | Easy |  |
 | 941 | [Valid Mountain Array 有效的山脉数组](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/941-ValidMountainArray.js) | Easy |  |
@@ -374,8 +378,9 @@ pie title 已完成的题目
 | 946 | [Validate Stack Sequences 验证栈序列](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/946-ValidateStackSequences.js) | Medium |  |
 | 953 | [Verifying an Alien Dictionary 验证外星语词典](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/953-VerifyinganAlienDictionary.js) | Easy |  |
 | 965 | [Univalued Binary Tree 单值二叉树](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/965-UnivaluedBinaryTree.md) | Easy |  |
+| 973 | [K Closest Points to Origin 最接近原点的 K 个点](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/973-KClosestPointstoOrigin.md) | Medium | 链表 |
 | 974 | [Subarray Sums Divisible by K 和可被 K 整除的子数组](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/974-SubarraySumsDivisiblebyK.js) | Medium |  |
-| 977 | [Squares of a Sorted Array 有序数组的平方](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/977-SquaresofaSortedArray.js) | Easy |  |
+| 977 | [Squares of a Sorted Array 有序数组的平方](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/977-SquaresofaSortedArray.md) | Easy |  |
 | 989 | [Add to Array-Form of Integer 数组形式的整数加法](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/989-AddtoArray-FormofInteger.js) | Easy |  |
 | 994 | [Rotting Oranges 腐烂的橘子](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/994-RottingOranges.md) | Medium | 图、BFS |
 | 1002 | [Find Common Characters 查找常用字符](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/1002-FindCommonCharacters.js) | Easy |  |
