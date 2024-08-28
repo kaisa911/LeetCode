@@ -323,7 +323,7 @@ pie title 已完成的题目
 | 557 | [Reverse Words in a String III 反转字符串中的单词 III](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/557-ReverseWordsinaStringIII.md) | Easy | 字符串 |
 | 560 | [Subarray Sum Equals K 和为 k 的子数组](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/560-SubarraySumEqualsK.md) | Medium | 子串 |
 | 561 | [Array Partition 数组拆分](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/561-ArrayPartition.md) | Easy |  |
-| 581 | [Shortest Unsorted Continuous Subarray 最短无序连续子数组](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/581-ShortestUnsortedContinuousSubarray.js) | Medium |  |
+| 581 | [Shortest Unsorted Continuous Subarray 最短无序连续子数组](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/581-ShortestUnsortedContinuousSubarray.md) | Medium |  |
 | 589 | [N-ray Tree Preorder Traversal N叉树的前序遍历](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/589-N-rayTreePreorderTraversal.md) | Easy | 二叉树 |
 | 605 | [Can Place Flowers 种花问题](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/605-CanPlaceFlowers.js) | Easy | 贪心 |
 | 606 | [Construct String from Binary Tree 根据二叉树创建字符串](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/606-ConstructStringfromBinaryTree.md) | Easy |  |
@@ -355,7 +355,7 @@ pie title 已完成的题目
 | 746 | [Min Cost Climbing Stairs 使用最小花费爬楼梯](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/746-MinCostClimbingStairs.md) | Easy | 动态规划 |
 | 747 | [Largest Number At Least Twice of Others 至少是其他数字两倍的最大数](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/747-LargestNumberAtLeastTwiceofOthers.js) | Easy |  |
 | 763 | [Partition Labels 划分字母区间](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/763-PartitionLabels.js) | Medium | 贪心 |
-| 767 | [Reorganize String 重构字符串](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/767-ReorganizeString.md) | Medium | 贪心 |
+| 767 | [Reorganize String 重构字符串](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/767-ReorganizeString.md) | Medium | 优先队列 |
 | 778 | [Swim In Rising Water 水位上升的泳池中游泳](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Hard/778-SwimInRisingWater.js) | Hard |  |
 | 784 | [Letter Case Permutation 字母大小写全排列](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/784-LetterCasePermutation.js) | Medium |  |
 | 790 | [Domino and Tromino Tiling 多米诺和托米诺平铺](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/790-DominoandTrominoTiling.js) | Medium | 一维动态规划 |
@@ -369,8 +369,8 @@ pie title 已完成的题目
 | 872 | [Leaf-Similar Tree 叶子相似的树](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/872-Leaf-SimilarTree.js) | Easy | 二叉树、DFS |
 | 875 | [Koko Eating Banana 爱吃香蕉的珂珂](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/875-KokoEatingBanana.js) | Medium | 二分查找 |
 | 901 | [Online Stock Span 股票价格跨度](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/901-OnlineStockSpan.js) | Medium | 单调栈 |
-| 905 | [Sort Array By Parity 按奇偶排序数组](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/905-SortArrayByParity.md) | Easy |  |
-| 912 | [Sort an Array 排序数组](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/912-SortanArray.md) | Medium |  |
+| 905 | [Sort Array By Parity 按奇偶排序数组](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/905-SortArrayByParity.md) | Easy | 双指针 |
+| 912 | [Sort an Array 排序数组](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/912-SortanArray.md) | Medium | 排序 |
 | 929 | [Num Unique Emails 独特的电子邮件地址](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/929-NumUniqueEmails.js) | Easy |  |
 | 933 | [Number of Recent Calls 最近的请求次数](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/933-NumberofRecentCalls.md) | Easy |  |
 | 941 | [Valid Mountain Array 有效的山脉数组](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/941-ValidMountainArray.js) | Easy |  |
@@ -378,9 +378,9 @@ pie title 已完成的题目
 | 946 | [Validate Stack Sequences 验证栈序列](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/946-ValidateStackSequences.js) | Medium |  |
 | 953 | [Verifying an Alien Dictionary 验证外星语词典](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/953-VerifyinganAlienDictionary.js) | Easy |  |
 | 965 | [Univalued Binary Tree 单值二叉树](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/965-UnivaluedBinaryTree.md) | Easy |  |
-| 973 | [K Closest Points to Origin 最接近原点的 K 个点](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/973-KClosestPointstoOrigin.md) | Medium | 链表 |
+| 973 | [K Closest Points to Origin 最接近原点的 K 个点](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/973-KClosestPointstoOrigin.md) | Medium | 排序 |
 | 974 | [Subarray Sums Divisible by K 和可被 K 整除的子数组](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/974-SubarraySumsDivisiblebyK.js) | Medium |  |
-| 977 | [Squares of a Sorted Array 有序数组的平方](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/977-SquaresofaSortedArray.md) | Easy |  |
+| 977 | [Squares of a Sorted Array 有序数组的平方](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/977-SquaresofaSortedArray.md) | Easy | 双指针 |
 | 989 | [Add to Array-Form of Integer 数组形式的整数加法](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/989-AddtoArray-FormofInteger.js) | Easy |  |
 | 994 | [Rotting Oranges 腐烂的橘子](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/994-RottingOranges.md) | Medium | 图、BFS |
 | 1002 | [Find Common Characters 查找常用字符](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/1002-FindCommonCharacters.js) | Easy |  |
