@@ -323,14 +323,14 @@ pie title 已完成的题目
 | 557 | [Reverse Words in a String III 反转字符串中的单词 III](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/557-ReverseWordsinaStringIII.md) | Easy | 字符串 |
 | 560 | [Subarray Sum Equals K 和为 k 的子数组](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/560-SubarraySumEqualsK.md) | Medium | 子串 |
 | 561 | [Array Partition 数组拆分](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/561-ArrayPartition.md) | Easy |  |
-| 581 | [Shortest Unsorted Continuous Subarray 最短无序连续子数组](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/581-ShortestUnsortedContinuousSubarray.md) | Medium |  |
+| 581 | [Shortest Unsorted Continuous Subarray 最短无序连续子数组](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/581-ShortestUnsortedContinuousSubarray.md) | Medium | 双指针 |
 | 589 | [N-ray Tree Preorder Traversal N叉树的前序遍历](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/589-N-rayTreePreorderTraversal.md) | Easy | 二叉树 |
 | 605 | [Can Place Flowers 种花问题](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/605-CanPlaceFlowers.js) | Easy | 贪心 |
 | 606 | [Construct String from Binary Tree 根据二叉树创建字符串](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/606-ConstructStringfromBinaryTree.md) | Easy |  |
-| 611 | [Valid Triangle Number 有效三角形的个数](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/611-ValidTriangleNumber.md) | Medium | 双指针 |
+| 611 | [Valid Triangle Number 有效三角形的个数](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/611-ValidTriangleNumber.md) | Medium | 排序、双指针 |
 | 617 | [Merge Two Binary Tree 合并二叉树](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/617-MergeTwoBinaryTree.js) | Easy | 二叉树 |
 | 621 | [Task Scheduler 任务调度器](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/621-TaskScheduler.js) | Medium |  |
-| 628 | [Maximum Product of Three Numbers 三个数的最大乘积](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/628-MaximumProductofThreeNumbers.md) | Easy |  |
+| 628 | [Maximum Product of Three Numbers 三个数的最大乘积](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/628-MaximumProductofThreeNumbers.md) | Easy | 排序 |
 | 642 | [Palindromic Substrings 设计搜索自动补全系统](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/642-PalindromicSubstrings.js) | Medium |  |
 | 643 | [Maximum Average Subarray I 子数组最大平均数 I](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/643-MaximumAverageSubarrayI.js) | Easy |  |
 | 647 | [Palindromic Substrings 回文子串](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/647-PalindromicSubstrings.js) | Medium | Manacher 算法 |
@@ -341,13 +341,13 @@ pie title 已完成的题目
 | 668 | [Kth Smallest Number in Multiplication Table 乘法表中的第 K 小的数](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Hard/668-KthSmallestNumberinMultiplicationTable.js) | Hard |  |
 | 670 | [Maximum Swap 最大交换](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/670-MaximumSwap.js) | Medium | 贪心 |
 | 680 | [Valid Palindrome II 验证回文串 II](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/680-ValidPalindromeII.js) | Easy |  |
-| 692 | [Top K Frequent Words 前K个高频单词](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/692-TopKFrequentWords.md) | Medium |  |
+| 692 | [Top K Frequent Words 前K个高频单词](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/692-TopKFrequentWords.md) | Medium | 排序 |
 | 700 | [Search in a Binary Search Tree 二叉搜索树中的搜索](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/700-SearchinaBinarySearchTree.js) | Easy | 二叉搜索树 |
 | 703 | [Kth Largest Element in a Stream 数据流中的第 K 大元素](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/703-KthLargestElementinaStream.js) | Easy |  |
 | 704 | [Binary Search 二分查找](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/704-BinarySearch.md) | Easy |  |
 | 709 | [To Lower Case 转换成小写字母](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/709-ToLowerCase.js) | Easy |  |
 | 714 | [Best Time to Buy and Sell Stock with Transaction Fee 买卖股票的最佳时机含手续费](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/714-BestTimetoBuyandSellStockwithTransactionFee.js) | Medium | 多维动态规划 |
-| 720 | [Longest Word in Dictionary 词典中最长的单词](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/720-LongestWordinDictionary.md) | Easy |  |
+| 720 | [Longest Word in Dictionary 词典中最长的单词](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/720-LongestWordinDictionary.md) | Easy | 贪心、排序 |
 | 724 | [Find Pivot Index 寻找数组的中心索引](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/724-FindPivotIndex.js) | Easy |  |
 | 735 | [Asteroid Collision 小行星碰撞](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/735-AsteroidCollision.js) | Medium | 栈 |
 | 738 | [Monotone Increasing Digits 单调递增的数字](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/738-MonotoneIncreasingDigits.js) | Medium | 贪心 |
