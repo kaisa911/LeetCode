@@ -907,9 +907,9 @@ const nameMap = {
     cnName: '二叉树展开为链表',
     enName: 'Flat Binary Tree to Linked List',
     difficulty: 'Medium',
-    label: '二叉树',
+    label: '二叉树、链表',
     hasThinkings: true,
-    checked: false,
+    checked: true,
   },
   115: {
     cnName: '不同的子序列',
@@ -917,7 +917,7 @@ const nameMap = {
     difficulty: 'Hard',
     label: '动态规划',
     hasThinkings: true,
-    checked: false,
+    checked: true,
   },
   116: {
     cnName: '填充每个节点的下一个右侧节点指针',
@@ -925,7 +925,7 @@ const nameMap = {
     difficulty: 'Medium',
     label: '层序遍历',
     hasThinkings: true,
-    checked: false,
+    checked: true,
   },
   117: {
     cnName: '填充每个节点的下一个右侧节点指针 II',
