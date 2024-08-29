@@ -132,11 +132,11 @@ pie title 已完成的题目
 | 114 | [Flat Binary Tree to Linked List 二叉树展开为链表](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/114-FlatBinaryTreetoLinkedList.md) | Medium | 二叉树、链表 |
 | 115 | [Distinct Subsequences 不同的子序列](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/115-DistinctSubsequences.md) | Hard | 动态规划 |
 | 116 | [Populating Next Right Pointers in Each Node 填充每个节点的下一个右侧节点指针](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/116-PopulatingNextRightPointersinEachNode.md) | Medium | 层序遍历 |
-| 117 | [Populating Next Right Pointers in Each Node II 填充每个节点的下一个右侧节点指针 II](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/117-PopulatingNextRightPointersinEachNodeII.md) | Medium | 层次遍历 |
-| 118 | [Pascals Triangle 杨辉三角](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/118-PascalsTriangle.md) | Easy |  |
-| 119 | [Pascals Triangle II 杨辉三角 II](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/119-PascalsTriangleII.md) | Easy |  |
-| 120 | [Triangle 三角形最小路径和](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/120-Triangle.md) | Medium | 动态规划 |
-| 121 | [Best Time to Buy and Sell Stock 买卖股票的最佳时机](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/121-BestTimetoBuyandSellStock.md) | Easy | 动态规划 |
+| 117 | [Populating Next Right Pointers in Each Node II 填充每个节点的下一个右侧节点指针 II](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/117-PopulatingNextRightPointersinEachNodeII.md) | Medium | 层次遍历 |
+| 118 | [Pascals Triangle 杨辉三角](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/118-PascalsTriangle.md) | Easy | 嵌套循环 |
+| 119 | [Pascals Triangle II 杨辉三角 II](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/119-PascalsTriangleII.md) | Easy | 数组 |
+| 120 | [Triangle 三角形最小路径和](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/120-Triangle.md) | Medium | 动态规划 |
+| 121 | [Best Time to Buy and Sell Stock 买卖股票的最佳时机](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/121-BestTimetoBuyandSellStock.md) | Easy | 动态规划、遍历 |
 | 122 | [Best Time to Buy and Sell Stock II 股票买卖的最佳时机 II](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/122-BestTimetoBuyandSellStockII.md) | Medium |  |
 | 123 | [Best Time to Buy and Sell Stock III 股票买卖的最佳时机 III](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Hard/123-BestTimetoBuyandSellStockIII.md) | Hard |  |
 | 124 | [Binary Tree Maximum Path Sum 二叉树中的最大路径和](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Hard/124-BinaryTreeMaximumPathSum.md) | Hard | 二叉树 |
