@@ -151,7 +151,7 @@ pie title 已完成的题目
 | 133 | [Clone Graph 克隆图](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/133-CloneGraph.md) | Medium | DFS |
 | 134 | [Gas Station 加油站](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/134-GasStation.md) | Medium | 数组 |
 | 135 | [Candy 分发糖果](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Hard/135-Candy.md) | Hard |  |
-| 136 | [Single Number 只出现一次的数字](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/136-SingleNumber.md) | Easy | 排序 |
+| 136 | [Single Number 只出现一次的数字](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/136-SingleNumber.md) | Easy | 异或 |
 | 137 | [Single Number II 只出现一次的数字 II](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/137-SingleNumberII.md) | Medium |  |
 | 138 | [Copy List with Random Pointer 随机链表的复制](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/138-CopyListwithRandomPointer.md) | Medium | 链表 |
 | 139 | [Word Break 单词拆分](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/139-WordBreak.md) | Medium | 动态规划 |
@@ -162,8 +162,8 @@ pie title 已完成的题目
 | 144 | [Binary Tree Preorder Traversal 二叉树的前序遍历](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/144-BinaryTreePreorderTraversal.md) | Easy | 二叉树、栈 |
 | 145 | [Binary Tree Postorder Traversal 二叉树的后序遍历](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/145-BinaryTreePostorderTraversal.md) | Easy | 二叉树、栈 |
 | 146 | [LRU Cache LRU 缓存](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/146-LRUCache.md) | Medium | 链表 |
-| 147 | [Insertion Sort List 对链表进行插入排序](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/147-InsertionSortList.md) | Medium | 链表、排序 |
-| 148 | [Sort List 排序链表](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/148-SortList.md) | Medium | 链表、排序 |
+| 147 | [Insertion Sort List 对链表进行插入排序](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/147-InsertionSortList.md) | Medium | 链表、排序 |
+| 148 | [Sort List 排序链表](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/148-SortList.md) | Medium | 链表、排序 |
 | 149 | [Max Points on a Line 直线上最多的点](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Hard/149-MaxPointsonaLine.js) | Hard | 哈希 |
 | 150 | [Evaluate Reverse Polish Notation 逆波兰表达式求值](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/150-EvaluateReversePolishNotation.js) | Medium | 栈 |
 | 151 | [Reverse Words in a String 反转字符串中的单词](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/151-ReverseWordsinaString.js) | Medium | 双指针 |
@@ -172,15 +172,15 @@ pie title 已完成的题目
 | 155 | [Min Stack 最小栈](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/155-MinStack.js) | Easy |  |
 | 160 | [Intersection of Two Linked List 相交链表](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/160-IntersectionofTwoLinkedList.js) | Easy | 双指针 |
 | 162 | [Find Peak Element 寻找峰值](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/162-FindPeakElement.js) | Medium | 二分查找 |
-| 164 | [Maximum Gap 最大间距](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/164-MaximumGap.md) | Medium | 二分查找 |
+| 164 | [Maximum Gap 最大间距](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/164-MaximumGap.md) | Medium | 桶排序 |
 | 165 | [Compare Version Numbers 比较版本号](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/165-CompareVersionNumbers.md) | Easy | 字符串 |
 | 166 | [Fraction to Recurring Decimal 分数到小数](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/166-FractiontoRecurringDecimal.js) | Medium | 长除法 |
 | 167 | [Two Sum II 两数之和 II](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/167-TwoSumII.js) | Easy |  |
 | 168 | [Excel Sheet Column Title Excel 列表名称](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/168-ExcelSheetColumnTitle.js) | Easy | 数学方法 |
-| 169 | [Majority Element 求众数](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/169-MajorityElement.md) | Easy |  |
+| 169 | [Majority Element 求众数](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/169-MajorityElement.md) | Easy | Boyer-Moore 投票算法 |
 | 171 | [Excel Sheet Column Number Excel 表列序号](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/171-ExcelSheetColumnNumberExcel.md) | Easy | 字符串 |
 | 172 | [Factorial Trailing Zeroes 阶乘后的零](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/172-FactorialTrailingZeroes.md) | Easy | 数学 |
-| 179 | [Largest Number 最大数](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/179-LargestNumber.md) | Medium | 数组 |
+| 179 | [Largest Number 最大数](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/179-LargestNumber.md) | Medium | 数组、排序 |
 | 189 | [Rotate Array 旋转数组](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/189-RotateArray.js) | Easy | 数组 |
 | 190 | [Reverse Bits 颠倒二进制位](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/190-ReverseBits.js) | Easy |  |
 | 191 | [Number of 1 Bits 位 1 的个数](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/191-Numberof1Bits.js) | Easy |  |
@@ -197,9 +197,9 @@ pie title 已完成的题目
 | 210 | [Course Schedule II 课程表 II](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/210-CourseScheduleII.js) | Medium | BFS |
 | 212 | [Word Search II 单词搜索 II](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Hard/212-WordSearchII.js) | Hard | DFS |
 | 214 | [Shortest Palindrome 最短回文串](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Hard/214-ShortestPalindrome.js) | Hard | KMP |
-| 215 | [Kth Largest Element in an Array 数组中的第 K 大元素](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/215-KthLargestElementinanArray.md) | Medium | 优先队列 |
+| 215 | [Kth Largest Element in an Array 数组中的第 K 大元素](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/215-KthLargestElementinanArray.md) | Medium | 快速选择 |
 | 216 | [Combination Sum III 组合总和 III](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/216-CombinationSumIII.js) | Medium | 空间枚举 |
-| 217 | [Contains Duplicate 存在重复元素](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/217-ContainsDuplicate.md) | Easy |  |
+| 217 | [Contains Duplicate 存在重复元素](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/217-ContainsDuplicate.md) | Easy | 哈希 |
 | 218 | [The Skyline Problem 天际线问题](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Hard/218-TheSkylineProblem.js) | Hard | 二分查找 |
 | 219 | [Contains Nearby Duplicate II 存在重复元素 II](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/219-ContainsNearbyDuplicateII.js) | Easy |  |
 | 220 | [Contains Nearby Duplicate III 存在重复元素 III](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Hard/220-ContainsNearbyDuplicateIII.js) | Hard | 桶排序 |
