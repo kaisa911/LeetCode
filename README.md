@@ -137,17 +137,17 @@ pie title 已完成的题目
 | 119 | [Pascals Triangle II 杨辉三角 II](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/119-PascalsTriangleII.md) | Easy | 数组 |
 | 120 | [Triangle 三角形最小路径和](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/120-Triangle.md) | Medium | 动态规划 |
 | 121 | [Best Time to Buy and Sell Stock 买卖股票的最佳时机](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/121-BestTimetoBuyandSellStock.md) | Easy | 动态规划、遍历 |
-| 122 | [Best Time to Buy and Sell Stock II 股票买卖的最佳时机 II](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/122-BestTimetoBuyandSellStockII.md) | Medium |  |
-| 123 | [Best Time to Buy and Sell Stock III 股票买卖的最佳时机 III](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Hard/123-BestTimetoBuyandSellStockIII.md) | Hard |  |
-| 124 | [Binary Tree Maximum Path Sum 二叉树中的最大路径和](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Hard/124-BinaryTreeMaximumPathSum.md) | Hard | 二叉树 |
-| 125 | [Is Palindrome 验证回文串](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/125-IsPalindrome.md) | Easy |  |
-| 126 | [Word Ladder II 单词接龙 II](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Hard/126-WordLadderII.md) | Hard |  |
-| 127 | [Word Ladder 单词接龙](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Hard/127-WordLadder.md) | Hard | BFS |
-| 128 | [Longest Consecutive Sequence 最长连续序列](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/128-LongestConsecutiveSequence.md) | Medium | 哈希 |
+| 122 | [Best Time to Buy and Sell Stock II 股票买卖的最佳时机 II](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/122-BestTimetoBuyandSellStockII.md) | Medium | 贪心、动态规划 |
+| 123 | [Best Time to Buy and Sell Stock III 股票买卖的最佳时机 III](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/123-BestTimetoBuyandSellStockIII.md) | Hard | 动态规划 |
+| 124 | [Binary Tree Maximum Path Sum 二叉树中的最大路径和](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/124-BinaryTreeMaximumPathSum.md) | Hard | 二叉树、DFS |
+| 125 | [Is Palindrome 验证回文串](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/125-IsPalindrome.md) | Easy | 双指针 |
+| 126 | [Word Ladder II 单词接龙 II](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/126-WordLadderII.md) | Hard | BFS、回溯 |
+| 127 | [Word Ladder 单词接龙](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/127-WordLadder.md) | Hard | BFS |
+| 128 | [Longest Consecutive Sequence 最长连续序列](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/128-LongestConsecutiveSequence.md) | Medium | 哈希 |
 | 129 | [Sum Root to Leaf Numbers 求根到叶子节点数字之和](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/129-SumRoottoLeafNumbers.md) | Medium | 二叉树 |
-| 130 | [Surrounded Regions 被围绕的区域](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/130-SurroundedRegions.md) | Medium | DFS |
-| 131 | [Palindrome Partitioning 分隔回文串](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/131-PalindromePartitioning.md) | Medium | 回溯 |
-| 132 | [Palindrome Partitioning II 分隔回文串II](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Hard/132-PalindromePartitioningII.md) | Hard |  |
+| 130 | [Surrounded Regions 被围绕的区域](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/130-SurroundedRegions.md) | Medium | DFS |
+| 131 | [Palindrome Partitioning 分隔回文串](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/131-PalindromePartitioning.md) | Medium | 回溯 |
+| 132 | [Palindrome Partitioning II 分隔回文串II](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/132-PalindromePartitioningII.md) | Hard | 动态规划 |
 | 133 | [Clone Graph 克隆图](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/133-CloneGraph.md) | Medium | DFS |
 | 134 | [Gas Station 加油站](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/134-GasStation.md) | Medium | 数组 |
 | 135 | [Candy 分发糖果](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Hard/135-Candy.md) | Hard |  |
