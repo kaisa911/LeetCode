@@ -148,20 +148,20 @@ pie title 已完成的题目
 | 130 | [Surrounded Regions 被围绕的区域](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/130-SurroundedRegions.md) | Medium | DFS |
 | 131 | [Palindrome Partitioning 分隔回文串](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/131-PalindromePartitioning.md) | Medium | 回溯 |
 | 132 | [Palindrome Partitioning II 分隔回文串II](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/132-PalindromePartitioningII.md) | Hard | 动态规划 |
-| 133 | [Clone Graph 克隆图](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/133-CloneGraph.md) | Medium | DFS |
-| 134 | [Gas Station 加油站](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/134-GasStation.md) | Medium | 数组 |
-| 135 | [Candy 分发糖果](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Hard/135-Candy.md) | Hard |  |
+| 133 | [Clone Graph 克隆图](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/133-CloneGraph.md) | Medium | DFS |
+| 134 | [Gas Station 加油站](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/134-GasStation.md) | Medium | 数组、贪心 |
+| 135 | [Candy 分发糖果](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/135-Candy.md) | Hard | 贪心 |
 | 136 | [Single Number 只出现一次的数字](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/136-SingleNumber.md) | Easy | 异或 |
-| 137 | [Single Number II 只出现一次的数字 II](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/137-SingleNumberII.md) | Medium |  |
-| 138 | [Copy List with Random Pointer 随机链表的复制](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/138-CopyListwithRandomPointer.md) | Medium | 链表 |
-| 139 | [Word Break 单词拆分](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/139-WordBreak.md) | Medium | 动态规划 |
-| 140 | [Word Break II 单词拆分 II](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Hard/140-WordBreakII.md) | Hard | 记忆化搜索 |
+| 137 | [Single Number II 只出现一次的数字 II](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/137-SingleNumberII.md) | Medium | 位运算 |
+| 138 | [Copy List with Random Pointer 随机链表的复制](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/138-CopyListwithRandomPointer.md) | Medium | 链表、哈希 |
+| 139 | [Word Break 单词拆分](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/139-WordBreak.md) | Medium | 动态规划 |
+| 140 | [Word Break II 单词拆分 II](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/140-WordBreakII.md) | Hard | 记忆化搜索、回溯 |
 | 141 | [Linked List Cycle 环形链表](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/141-LinkedListCycle.md) | Easy | 双指针、哈希 |
-| 142 | [Linked List Cycle II 环形链表 II](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/142-LinkedListCycleII.md) | Medium | 双指针、哈希 |
-| 143 | [Reorder List 重排链表](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/143-ReorderList.md) | Medium | 双指针 |
-| 144 | [Binary Tree Preorder Traversal 二叉树的前序遍历](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/144-BinaryTreePreorderTraversal.md) | Easy | 二叉树、栈 |
-| 145 | [Binary Tree Postorder Traversal 二叉树的后序遍历](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/145-BinaryTreePostorderTraversal.md) | Easy | 二叉树、栈 |
-| 146 | [LRU Cache LRU 缓存](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/146-LRUCache.md) | Medium | 链表 |
+| 142 | [Linked List Cycle II 环形链表 II](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/142-LinkedListCycleII.md) | Medium | 双指针、哈希 |
+| 143 | [Reorder List 重排链表](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/143-ReorderList.md) | Medium | 双指针 |
+| 144 | [Binary Tree Preorder Traversal 二叉树的前序遍历](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/144-BinaryTreePreorderTraversal.md) | Easy | 二叉树、栈 |
+| 145 | [Binary Tree Postorder Traversal 二叉树的后序遍历](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/145-BinaryTreePostorderTraversal.md) | Easy | 二叉树、栈 |
+| 146 | [LRU Cache LRU 缓存](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/146-LRUCache.md) | Medium | LRU |
 | 147 | [Insertion Sort List 对链表进行插入排序](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/147-InsertionSortList.md) | Medium | 链表、排序 |
 | 148 | [Sort List 排序链表](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/148-SortList.md) | Medium | 链表、排序 |
 | 149 | [Max Points on a Line 直线上最多的点](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Hard/149-MaxPointsonaLine.js) | Hard | 哈希 |
@@ -185,7 +185,7 @@ pie title 已完成的题目
 | 190 | [Reverse Bits 颠倒二进制位](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/190-ReverseBits.js) | Easy |  |
 | 191 | [Number of 1 Bits 位 1 的个数](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/191-Numberof1Bits.js) | Easy |  |
 | 198 | [House Robber 打家劫舍](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/198-HouseRobber.js) | Easy |  |
-| 199 | [Binary Tree Right Side View 二叉树的右视图](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/199-BinaryTreeRightSideView.md) | Medium |  |
+| 199 | [Binary Tree Right Side View 二叉树的右视图](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/199-BinaryTreeRightSideView.md) | Medium | BFS |
 | 200 | [Number of Islands 岛屿数量](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/200-NumberofIslands.js) | Medium | 图、DFS |
 | 202 | [Happy Number 快乐数](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/202-HappyNumber.md) | Easy | 双指针 |
 | 203 | [Remove Linked List Elements 删除链表中的元素](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/203-RemoveLinkedListElements.js) | Easy |  |
@@ -207,7 +207,7 @@ pie title 已完成的题目
 | 225 | [Implement Stack using Queues 用队列实现栈](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/225-ImplementStackusingQueues.js) | Easy |  |
 | 226 | [Invert Binary Tree 翻转二叉树](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/226-InvertBinaryTree.js) | Easy | 二叉树 |
 | 227 | [Basic Calculator II 基本计算器 II](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/227-BasicCalculatorII.js) | Medium | 栈 |
-| 228 | [Summary Ranges 汇总区间](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/228-SummaryRanges.md) | Easy |  |
+| 228 | [Summary Ranges 汇总区间](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/228-SummaryRanges.md) | Easy | 贪心 |
 | 230 | [Kth Smallest Element in a BST 二叉搜索树中的第 K 小的元素](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/230-KthSmallestElementinaBST.js) | Medium | 二叉树 |
 | 231 | [Power of Two 2 的幂](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/231-PowerofTwo.js) | Easy |  |
 | 232 | [Implement Queue using Stacks 用栈实现队列](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/232-ImplementQueueusingStacks.js) | Easy |  |
@@ -216,13 +216,13 @@ pie title 已完成的题目
 | 235 | [Lowest Common Ancestor of a Binary Search Tree 二叉搜索树的最近公共祖先](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/235-LowestCommonAncestorofaBinarySearchTree.js) | Medium | 二叉树 |
 | 236 | [Lowest Common Ancestor of a Binary Tree 二叉树的最近公共祖先](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/236-LowestCommonAncestorofaBinaryTree.js) | Medium | 二叉树 |
 | 237 | [Delete Node in a Linked List 删除链表中的节点](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/237-DeleteNodeinaLinkedList.js) | Medium | 链表 |
-| 238 | [Product of Array Except Self 除自身以外数组的乘积](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/238-ProductofArrayExceptSelf.md) | Medium | 数组 |
+| 238 | [Product of Array Except Self 除自身以外数组的乘积](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/238-ProductofArrayExceptSelf.md) | Medium | 数组 |
 | 239 | [Slide Window Maximum 滑动窗口最大值](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Hard/239-SlideWindowMaximum.js) | Hard | 子串 |
 | 240 | [Search a 2D Matrix II 搜索二维矩阵 II](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/240-Searcha2DMatrixII.js) | Medium | 二分查找 |
 | 242 | [Valid Anagram 有效的字母异位词](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/242-ValidAnagram.md) | Easy | 字符串、哈希 |
 | 257 | [Binary Tree Paths 二叉树的所有路径](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/257-BinaryTreePaths.md) | Easy | 回溯 |
 | 258 | [Add Digits 各位相加](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/258-AddDigits.md) | Easy | 数学、递归 |
-| 260 | [Single Number III 只出现一次的数字 III](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/260-SingleNumberIII.md) | Medium |  |
+| 260 | [Single Number III 只出现一次的数字 III](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/260-SingleNumberIII.md) | Medium | 位运算 |
 | 263 | [Ugly Number 丑数](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/263-UglyNumber.md) | Easy | 数学 |
 | 268 | [Missing Number 缺失数字](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/268-MissingNumber.js) | Easy |  |
 | 274 | [H-Index H 指数](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/274-H-Index.js) | Medium |  |
@@ -319,7 +319,7 @@ pie title 已完成的题目
 | 543 | [Diameter of Binary Tree 二叉树的直径](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/543-DiameterofBinaryTree.js) | Easy | 二叉树 |
 | 547 | [Number of Provinces 省份数量](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/547-NumberofProvinces.md) | Medium | 图、DFS |
 | 551 | [Student Attendance Record I 学生出勤记录 I](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/551-StudentAttendanceRecordI.js) | Easy |  |
-| 552 | [Student Attendance Record II 学生出勤记录 II](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Hard/552-StudentAttendanceRecordII.md) | Hard |  |
+| 552 | [Student Attendance Record II 学生出勤记录 II](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/552-StudentAttendanceRecordII.md) | Hard | 动态规划 |
 | 557 | [Reverse Words in a String III 反转字符串中的单词 III](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/557-ReverseWordsinaStringIII.md) | Easy | 字符串 |
 | 560 | [Subarray Sum Equals K 和为 k 的子数组](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/560-SubarraySumEqualsK.md) | Medium | 子串 |
 | 561 | [Array Partition 数组拆分](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/561-ArrayPartition.md) | Easy |  |
