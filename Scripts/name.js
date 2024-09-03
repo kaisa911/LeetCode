@@ -3475,9 +3475,9 @@ const nameMap = {
     cnName: '倍数求和',
     enName: 'Sum Multiples',
     difficulty: 'Easy',
-    label: '哈希',
+    label: '数学方法',
     hasThinkings: true,
-    checked: false,
+    checked: true,
   },
   2697: {
     cnName: '字典序最小回文串',
@@ -3485,7 +3485,7 @@ const nameMap = {
     difficulty: 'Easy',
     label: '双指针',
     hasThinkings: true,
-    checked: false,
+    checked: true,
   },
   2731: {
     cnName: '移动机器人',
@@ -3509,15 +3509,15 @@ const nameMap = {
     difficulty: 'Easy',
     label: '数组',
     hasThinkings: true,
-    checked: false,
+    checked: true,
   },
   3146: {
     cnName: '两个字符串的排列差',
     enName: 'Permutation Difference between Two Strings',
     difficulty: 'Easy',
-    label: '',
+    label: '哈希',
     hasThinkings: true,
-    checked: false,
+    checked: true,
   },
 };
 
