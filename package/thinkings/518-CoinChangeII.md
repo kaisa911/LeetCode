@@ -42,6 +42,15 @@
 - coins 中的所有值 互不相同
 - 0 <= amount <= 5000
 
+思路：
+1. 初始化动态规划数组：创建一个长度为 amount + 1 的数组 dp，用来存储每个金额所能组成的硬币组合数。dp[0] 初始化为 1，因为金额为 0 的组合只有一种，即不使用任何硬币。
+2. 遍历每一种硬币：对于数组 coins 中的每一种硬币，从该硬币的面值开始，更新 dp 数组。对于每个金额 i，如果 i 大于或等于硬币的面值，那么 dp[i] 的值应该加上 dp[i - coin] 的值，这表示使用一个硬币面值为 coin 的硬币后，组成金额 i - coin 的组合数。
+3. 返回结果：最后，dp[amount] 存储的就是组成总金额 amount 的硬币组合数。
+
+
+时间复杂度：O(amount * coins.length)，因为需要遍历每一种硬币，并对于每种硬币，更新从 coin 到 amount 的 dp 数组。
+空间复杂度：O(amount)，因为只使用了一维数组来存储中间结果。
+
 ```js
 var change = function (amount, coins) {
   const dp = new Array(amount + 1).fill(0);
