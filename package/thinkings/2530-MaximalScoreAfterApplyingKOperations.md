@@ -33,5 +33,31 @@
 
 提示：
 
-- 1 <= nums.length, k <= 105
-- 1 <= nums[i] <= 109
+- 1 <= nums.length, k <= 10^5
+- 1 <= nums[i] <= 10^9
+
+思路：
+
+1. 初始化：使用一个最大堆（优先队列）来存储数组 nums 中的所有元素。
+2. 执行操作：进行 k 次操作，每次操作都从堆中取出当前最大的数，将其加到得分 res 中，然后将该数替换为 ceil(nums[i] / 3) 后再次加入堆中。
+3. 返回结果：在执行完 k 次操作后，返回得到的得分 res。
+
+时间复杂度：每次执行操作的时间复杂度为 O(log n)，其中 n 是堆中的元素数量。总共执行 k 次操作，因此总时间复杂度为 O(k log n)。
+空间复杂度：O(n)，用于存储堆中的所有元素。
+
+```javascript
+var maxKelements = function (nums, k) {
+  // leetcode 内置的优先队列
+  q = new MaxPriorityQueue();
+  let res = 0;
+  for (const num of nums) {
+    q.enqueue(num);
+  }
+  for (let i = 0; i < k; i++) {
+    const x = q.dequeue().element;
+    res += x;
+    q.enqueue(Math.ceil(x / 3));
+  }
+  return res;
+};
+```

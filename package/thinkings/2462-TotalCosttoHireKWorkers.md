@@ -40,6 +40,43 @@
 
 提示：
 
-- 1 <= costs.length <= 105
-- 1 <= costs[i] <= 105
+- 1 <= costs.length <= 10^5
+- 1 <= costs[i] <= 10^5
 - 1 <= k, candidates <= costs.length
+
+思路：
+
+1. 初始化两个最小堆：使用两个最小堆 left 和 right 分别存储数组 costs 前面的 candidates 位工人和后面的 candidates 位工人的最小代价。
+2. 填充堆：从数组 costs 的两端开始，分别向两个堆中添加工人的代价，直到每个堆中都有 candidates 个工人的代价。
+3. 选择工人：进行 k 轮选择，每轮选择时，比较两个堆中的最小代价工人，选择代价最小的工人，并将其代价累加到总代价 ans 中。同时，从对应的堆中移除被选择的工人。
+4. 处理堆大小不足：如果在某一轮选择中，某个堆的大小小于 candidates，则继续从另一端添加工人直到堆中有 candidates 个工人的代价。
+5. 返回总代价：完成 k 轮选择后，返回计算得到的总代价。
+
+时间复杂度：O(n \* log(c))，其中 n 是数组 costs 的长度，c 是 candidates 的值。这是因为每次从数组 costs 中添加元素到堆中的时间复杂度为 O(log(c))。
+空间复杂度：O(c)，用于存储两个最小堆中的元素。
+
+```javascript
+var totalCost = function (costs, k, candidates) {
+  let left = new MinPriorityQueue();
+  let right = new MinPriorityQueue();
+  let i = 0;
+  let j = costs.length - 1;
+  let ans = 0;
+  while (k--) {
+    while (i <= j && left.size() < candidates) {
+      left.enqueue(costs[i++]);
+    }
+    while (i <= j && right.size() < candidates) {
+      right.enqueue(costs[j--]);
+    }
+    let min1 = left.size() > 0 ? left.front().element : Infinity;
+    let min2 = right.size() > 0 ? right.front().element : Infinity;
+    if (min1 <= min2) {
+      ans += left.dequeue().element;
+    } else {
+      ans += right.dequeue().element;
+    }
+  }
+  return ans;
+};
+```

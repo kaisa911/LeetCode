@@ -436,23 +436,23 @@ pie title 已完成的题目
 | 1945 | [Sum of Digits of String After Convert 字符串转化后的各位数字之和](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/1945-SumofDigitsofStringAfterConvert.md) | Easy |  |
 | 2028 | [Find Missing Observations 找出缺失的观测数据](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/2028-FindMissingObservations.md) | Medium | 数学方法 |
 | 2038 | [Remove Colored Pieces if Both Neighbors are the Same Color 如果相邻两个颜色均相同则删除当前颜色](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/2038-RemoveColoredPiecesifBothNeighborsaretheSameColor.md) | Medium |  |
-| 2095 | [Delete the Middle Node of a Linked List 删除链表的中间节点](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/2095-DeletetheMiddleNodeofaLinkedList.md) | Medium | 链表 |
-| 2130 | [Maximum Twin Sum of a Linked List 链表最大孪生和](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/2130-MaximumTwinSumofaLinkedList.md) | Medium | 链表 |
+| 2095 | [Delete the Middle Node of a Linked List 删除链表的中间节点](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/2095-DeletetheMiddleNodeofaLinkedList.md) | Medium | 链表、双指针 |
+| 2130 | [Maximum Twin Sum of a Linked List 链表最大孪生和](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/2130-MaximumTwinSumofaLinkedList.md) | Medium | 链表、双指针 |
 | 2215 | [Find the Difference of Two Arrays 找出两数组的不同](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/2215-FindtheDifferenceofTwoArrays.md) | Easy | 哈希 |
-| 2300 | [Successful Pairs of Spells and Potions 咒语和药水的成功对数](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/2300-SuccessfulPairsofSpellsandPotions.md) | Medium | 二分查找 |
-| 2336 | [Smallest Number in infinite Set 无限集中的最小数字](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/2336-SmallestNumberininfiniteSet.md) | Medium | 优先队列 |
-| 2352 | [Equal Row and Column Pairs 相等行列对](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/2352-EqualRowandColumnPairs.md) | Medium | 哈希 |
-| 2390 | [Removing Stars From a String 从字符串中移除星号](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/2390-RemovingStarsFromaString.md) | Medium | 栈 |
-| 2462 | [Total Cost to Hire K Workers 雇佣 K 位工人的总代价](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/2462-TotalCosttoHireKWorkers.md) | Medium | 优先队列 |
-| 2512 | [Reward Top K Students 奖励最顶尖的 K 名学生](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/2512-RewardTopKStudents.md) | Medium |  |
-| 2530 | [Maximal Score After Applying K Operations 执行 K 次操作后的最大分数](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/2530-MaximalScoreAfterApplyingKOperations.md) | Medium | 贪心、优先队列 |
-| 2542 | [Maximum Subsequence Score 最大子序列的分数](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/2542-MaximumSubsequenceScore.md) | Medium | 优先队列 |
+| 2300 | [Successful Pairs of Spells and Potions 咒语和药水的成功对数](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/2300-SuccessfulPairsofSpellsandPotions.md) | Medium | 二分查找 |
+| 2336 | [Smallest Number in infinite Set 无限集中的最小数字](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/2336-SmallestNumberininfiniteSet.md) | Medium | 优先队列 |
+| 2352 | [Equal Row and Column Pairs 相等行列对](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/2352-EqualRowandColumnPairs.md) | Medium | 哈希 |
+| 2390 | [Removing Stars From a String 从字符串中移除星号](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/2390-RemovingStarsFromaString.md) | Medium | 栈 |
+| 2462 | [Total Cost to Hire K Workers 雇佣 K 位工人的总代价](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/2462-TotalCosttoHireKWorkers.md) | Medium | 优先队列 |
+| 2512 | [Reward Top K Students 奖励最顶尖的 K 名学生](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/2512-RewardTopKStudents.md) | Medium | 排序 |
+| 2530 | [Maximal Score After Applying K Operations 执行 K 次操作后的最大分数](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/2530-MaximalScoreAfterApplyingKOperations.md) | Medium | 贪心、优先队列 |
+| 2542 | [Maximum Subsequence Score 最大子序列的分数](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/2542-MaximumSubsequenceScore.md) | Medium | 优先队列、滑动窗口 |
 | 2578 | [Split With Minimum Sum 最小和分割](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/2578-SplitWithMinimumSum.md) | Easy | 贪心 |
-| 2580 | [Count Ways to Group Overlapping Ranges 统计将重叠区间合并成组的方案数](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/2580-CountWaystoGroupOverlappingRanges.md) | Medium | 区间合并 |
+| 2580 | [Count Ways to Group Overlapping Ranges 统计将重叠区间合并成组的方案数](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/2580-CountWaystoGroupOverlappingRanges.md) | Medium | 区间合并 |
 | 2639 | [Find the Width of Columns of a Grid 查询网格图中每一列的宽度](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/2639-FindtheWidthofColumnsofaGrid.md) | Easy | 数组 |
 | 2652 | [Sum Multiples 倍数求和](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/2652-SumMultiples.md) | Easy | 数学方法 |
 | 2697 | [Lexicographically Smallest Palindrome 字典序最小回文串](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/2697-LexicographicallySmallestPalindrome.md) | Easy | 双指针 |
-| 2731 | [Movement of Robots 移动机器人](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/2731-MovementofRobots.md) | Medium | 脑筋急转弯 |
+| 2731 | [Movement of Robots 移动机器人](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/2731-MovementofRobots.md) | Medium | 脑筋急转弯 |
 | 2760 | [Longest Even Odd Subarray With Threshold 最长奇偶子数组](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/2760-LongestEvenOddSubarrayWithThreshold.md) | Easy | 动态规划 |
 | 3033 | [Modify the Matrix 修改矩阵](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/3033-ModifytheMatrix.md) | Easy | 数组 |
 | 3146 | [Permutation Difference between Two Strings 两个字符串的排列差](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/3146-PermutationDifferencebetweenTwoStrings.md) | Easy | 哈希 |
