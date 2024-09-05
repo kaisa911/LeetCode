@@ -34,3 +34,54 @@ smallestInfiniteSet.popSmallest(); // 返回 5 ，并将其从集合中移除。
 
 - 1 <= num <= 1000
 - 最多调用 popSmallest 和 addBack 方法 共计 1000 次
+
+思路：
+
+1. 类的构造函数 SmallestInfiniteSet()
+   - 初始化一个最小堆 minPriorityQueue，用于存储和获取最小值。
+   - 初始化一个集合 set，用于快速判断某个数是否已经在集合中。
+   - 通过一个循环，将从 1 到 1000 的所有整数加入到最小堆和集合中。
+2. 方法 popSmallest()
+   - 从最小堆中弹出（移除）并返回最小元素。
+   - 同时将这个元素从集合中删除。
+3. 方法 addBack(num)
+   - 如果传入的 num 不在集合中，将其加入到最小堆的末尾（虽然题目要求是加入到“最后”，但考虑到堆的特性，实际操作是直接插入，堆会自动调整以保持最小堆的特性）。
+   - 同时将这个元素添加到集合中。
+
+```javascript
+var SmallestInfiniteSet = function () {
+  this.minPriorityQueue = new MinPriorityQueue(); // 构造
+  this.set = new Set();
+  for (let i = 1; i <= 1000; i++) {
+    this.minPriorityQueue.enqueue(i);
+    this.set.add(i);
+  }
+};
+
+/**
+ * @return {number}
+ */
+SmallestInfiniteSet.prototype.popSmallest = function () {
+  const element = this.minPriorityQueue.dequeue().element;
+  this.set.delete(element);
+  return element;
+};
+
+/**
+ * @param {number} num
+ * @return {void}
+ */
+SmallestInfiniteSet.prototype.addBack = function (num) {
+  if (!this.set.has(num)) {
+    this.minPriorityQueue.enqueue(num);
+    this.set.add(num);
+  }
+};
+
+/**
+ * Your SmallestInfiniteSet object will be instantiated and called as such:
+ * var obj = new SmallestInfiniteSet()
+ * var param_1 = obj.popSmallest()
+ * obj.addBack(num)
+ */
+```

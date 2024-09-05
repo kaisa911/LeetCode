@@ -43,5 +43,43 @@
 
 提示：
 
-- 链表中节点的数目在范围 [1, 105] 内
-- 1 <= Node.val <= 105
+- 链表中节点的数目在范围 [1, 10^5] 内
+- 1 <= Node.val <= 10^5
+
+思路：
+
+1. 使用快慢指针：使用两个指针 slow 和 fast。slow 每次移动一个节点，而 fast 每次移动两个节点。
+2. 找到中间节点的前一个节点：当 fast 到达链表末尾时，slow 将指向中间节点的前一个节点。
+3. 删除中间节点：将 slow.next 指向 slow.next.next，这样就可以跳过中间节点，从而删除它。
+4. 特殊情况处理：如果链表只有一个或两个节点，直接删除中间节点并返回新的头节点。
+
+时间复杂度：O(n)，其中 n 是链表的长度。需要遍历整个链表一次。
+空间复杂度：O(1)，算法只使用了常量级别的额外空间。
+
+```javascript
+/**
+ * Definition for singly-linked list.
+ * function ListNode(val, next) {
+ *     this.val = (val===undefined ? 0 : val)
+ *     this.next = (next===undefined ? null : next)
+ * }
+ */
+/**
+ * @param {ListNode} head
+ * @return {ListNode}
+ */
+var deleteMiddle = function (head) {
+  if (!head || !head.next) {
+    return null; // 如果链表没有节点或只有一个节点，直接返回null
+  }
+  let slow = head;
+  let fast = head;
+  while (fast && fast.next) {
+    fast = fast.next.next;
+    slow = slow.next;
+  }
+  // 删除中间节点
+  slow.next = slow.next.next;
+  return head;
+};
+```
