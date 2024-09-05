@@ -192,25 +192,25 @@ pie title 已完成的题目
 | 204 | [Count Primes 计数质数](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/204-CountPrimes.md) | Easy | 厄拉多塞筛法 |
 | 205 | [Isomorphic Strings 同构字符串](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/205-IsomorphicStrings.md) | Easy |  |
 | 206 | [Reverse Linked List 反转链表](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/206-ReverseLinkedList.md) | Easy | 双指针、链表 |
-| 207 | [Course Schedule 课程表](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/207-CourseSchedule.js) | Medium | 图 |
-| 208 | [Implement Tire (Prefix Tree) 实现Tire（前缀树）](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/208-ImplementTire(PrefixTree).js) | Medium | 前缀树 |
-| 210 | [Course Schedule II 课程表 II](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/210-CourseScheduleII.js) | Medium | BFS |
-| 212 | [Word Search II 单词搜索 II](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Hard/212-WordSearchII.js) | Hard | DFS |
-| 214 | [Shortest Palindrome 最短回文串](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Hard/214-ShortestPalindrome.js) | Hard | KMP |
+| 207 | [Course Schedule 课程表](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/207-CourseSchedule.md) | Medium | 图 |
+| 208 | [Implement Tire (Prefix Tree) 实现Tire（前缀树）](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/208-ImplementTire(PrefixTree).md) | Medium | 前缀树 |
+| 210 | [Course Schedule II 课程表 II](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/210-CourseScheduleII.md) | Medium | BFS |
+| 212 | [Word Search II 单词搜索 II](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Hard/212-WordSearchII.md) | Hard | DFS |
+| 214 | [Shortest Palindrome 最短回文串](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Hard/214-ShortestPalindrome.md) | Hard | KMP |
 | 215 | [Kth Largest Element in an Array 数组中的第 K 大元素](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/215-KthLargestElementinanArray.md) | Medium | 快速选择 |
-| 216 | [Combination Sum III 组合总和 III](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/216-CombinationSumIII.js) | Medium | 空间枚举 |
+| 216 | [Combination Sum III 组合总和 III](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/216-CombinationSumIII.md) | Medium | 空间枚举 |
 | 217 | [Contains Duplicate 存在重复元素](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/217-ContainsDuplicate.md) | Easy | 哈希 |
-| 218 | [The Skyline Problem 天际线问题](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Hard/218-TheSkylineProblem.js) | Hard | 二分查找 |
-| 219 | [Contains Nearby Duplicate II 存在重复元素 II](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/219-ContainsNearbyDuplicateII.js) | Easy |  |
-| 220 | [Contains Nearby Duplicate III 存在重复元素 III](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Hard/220-ContainsNearbyDuplicateIII.js) | Hard | 桶排序 |
-| 221 | [Maximal Square 最大正方形](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/221-MaximalSquare.js) | Medium | 动态规划 |
-| 225 | [Implement Stack using Queues 用队列实现栈](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/225-ImplementStackusingQueues.js) | Easy |  |
-| 226 | [Invert Binary Tree 翻转二叉树](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/226-InvertBinaryTree.js) | Easy | 二叉树 |
-| 227 | [Basic Calculator II 基本计算器 II](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/227-BasicCalculatorII.js) | Medium | 栈 |
+| 218 | [The Skyline Problem 天际线问题](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Hard/218-TheSkylineProblem.md) | Hard | 二分查找 |
+| 219 | [Contains Nearby Duplicate II 存在重复元素 II](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/219-ContainsNearbyDuplicateII.md) | Easy |  |
+| 220 | [Contains Nearby Duplicate III 存在重复元素 III](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Hard/220-ContainsNearbyDuplicateIII.md) | Hard | 桶排序 |
+| 221 | [Maximal Square 最大正方形](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/221-MaximalSquare.md) | Medium | 动态规划 |
+| 225 | [Implement Stack using Queues 用队列实现栈](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/225-ImplementStackusingQueues.md) | Easy |  |
+| 226 | [Invert Binary Tree 翻转二叉树](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/226-InvertBinaryTree.md) | Easy | 二叉树 |
+| 227 | [Basic Calculator II 基本计算器 II](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/227-BasicCalculatorII.md) | Medium | 栈 |
 | 228 | [Summary Ranges 汇总区间](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/228-SummaryRanges.md) | Easy | 贪心 |
-| 230 | [Kth Smallest Element in a BST 二叉搜索树中的第 K 小的元素](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/230-KthSmallestElementinaBST.js) | Medium | 二叉树 |
-| 231 | [Power of Two 2 的幂](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/231-PowerofTwo.js) | Easy |  |
-| 232 | [Implement Queue using Stacks 用栈实现队列](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/232-ImplementQueueusingStacks.js) | Easy |  |
+| 230 | [Kth Smallest Element in a BST 二叉搜索树中的第 K 小的元素](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/230-KthSmallestElementinaBST.md) | Medium | 二叉树 |
+| 231 | [Power of Two 2 的幂](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/231-PowerofTwo.md) | Easy |  |
+| 232 | [Implement Queue using Stacks 用栈实现队列](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/232-ImplementQueueusingStacks.md) | Easy |  |
 | 233 | [Number of Digit One 数字 1 的个数](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Hard/233-NumberofDigitOne.js) | Hard |  |
 | 234 | [Palindrome Linked List 回文链表](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/234-PalindromeLinkedList.js) | Easy | 双指针 |
 | 235 | [Lowest Common Ancestor of a Binary Search Tree 二叉搜索树的最近公共祖先](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/235-LowestCommonAncestorofaBinarySearchTree.js) | Medium | 二叉树 |

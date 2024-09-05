@@ -1420,7 +1420,7 @@ const nameMap = {
     enName: 'Implement Tire (Prefix Tree)',
     difficulty: 'Medium',
     label: '前缀树',
-    hasThinkings: false,
+    hasThinkings: true,
     checked: false,
   },
   210: {
@@ -1428,7 +1428,7 @@ const nameMap = {
     enName: 'Course Schedule II',
     difficulty: 'Medium',
     label: 'BFS',
-    hasThinkings: false,
+    hasThinkings: true,
     checked: false,
   },
   212: {
@@ -1436,7 +1436,7 @@ const nameMap = {
     enName: 'Word Search II',
     difficulty: 'Hard',
     label: 'DFS',
-    hasThinkings: false,
+    hasThinkings: true,
     checked: false,
   },
   214: {
@@ -1444,7 +1444,7 @@ const nameMap = {
     enName: 'Shortest Palindrome',
     difficulty: 'Hard',
     label: 'KMP',
-    hasThinkings: false,
+    hasThinkings: true,
     checked: false,
   },
   215: {
@@ -1460,7 +1460,7 @@ const nameMap = {
     enName: 'Combination Sum III',
     difficulty: 'Medium',
     label: '空间枚举',
-    hasThinkings: false,
+    hasThinkings: true,
     checked: false,
   },
   217: {
@@ -1476,7 +1476,7 @@ const nameMap = {
     enName: 'The Skyline Problem',
     difficulty: 'Hard',
     label: '二分查找',
-    hasThinkings: false,
+    hasThinkings: true,
     checked: false,
   },
   219: {
@@ -1484,7 +1484,7 @@ const nameMap = {
     enName: 'Contains Nearby Duplicate II',
     difficulty: 'Easy',
     label: '',
-    hasThinkings: false,
+    hasThinkings: true,
     checked: false,
   },
   220: {
@@ -1492,7 +1492,7 @@ const nameMap = {
     enName: 'Contains Nearby Duplicate III',
     difficulty: 'Hard',
     label: '桶排序',
-    hasThinkings: false,
+    hasThinkings: true,
     checked: false,
   },
   221: {
@@ -1500,7 +1500,7 @@ const nameMap = {
     enName: 'Maximal Square',
     difficulty: 'Medium',
     label: '动态规划',
-    hasThinkings: false,
+    hasThinkings: true,
     checked: false,
   },
   225: {
@@ -1508,7 +1508,7 @@ const nameMap = {
     enName: 'Implement Stack using Queues',
     difficulty: 'Easy',
     label: '',
-    hasThinkings: false,
+    hasThinkings: true,
     checked: false,
   },
   226: {
@@ -1516,7 +1516,7 @@ const nameMap = {
     enName: 'Invert Binary Tree',
     difficulty: 'Easy',
     label: '二叉树',
-    hasThinkings: false,
+    hasThinkings: true,
     checked: false,
   },
   227: {
@@ -1524,7 +1524,7 @@ const nameMap = {
     enName: 'Basic Calculator II',
     difficulty: 'Medium',
     label: '栈',
-    hasThinkings: false,
+    hasThinkings: true,
     checked: false,
   },
   228: {
@@ -1540,7 +1540,7 @@ const nameMap = {
     enName: 'Kth Smallest Element in a BST',
     difficulty: 'Medium',
     label: '二叉树',
-    hasThinkings: false,
+    hasThinkings: true,
     checked: false,
   },
   231: {
@@ -1548,7 +1548,7 @@ const nameMap = {
     enName: 'Power of Two',
     difficulty: 'Easy',
     label: '',
-    hasThinkings: false,
+    hasThinkings: true,
     checked: false,
   },
   232: {
@@ -1556,7 +1556,7 @@ const nameMap = {
     enName: 'Implement Queue using Stacks',
     difficulty: 'Easy',
     label: '',
-    hasThinkings: false,
+    hasThinkings: true,
     checked: false,
   },
   233: {
@@ -1564,7 +1564,7 @@ const nameMap = {
     enName: 'Number of Digit One',
     difficulty: 'Hard',
     label: '',
-    hasThinkings: false,
+    hasThinkings: true,
     checked: false,
   },
   234: {
