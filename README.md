@@ -164,33 +164,33 @@ pie title 已完成的题目
 | 146 | [LRU Cache LRU 缓存](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/146-LRUCache.md) | Medium | LRU |
 | 147 | [Insertion Sort List 对链表进行插入排序](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/147-InsertionSortList.md) | Medium | 链表、排序 |
 | 148 | [Sort List 排序链表](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/148-SortList.md) | Medium | 链表、排序 |
-| 149 | [Max Points on a Line 直线上最多的点](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Hard/149-MaxPointsonaLine.js) | Hard | 哈希 |
-| 150 | [Evaluate Reverse Polish Notation 逆波兰表达式求值](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/150-EvaluateReversePolishNotation.js) | Medium | 栈 |
-| 151 | [Reverse Words in a String 反转字符串中的单词](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/151-ReverseWordsinaString.js) | Medium | 双指针 |
-| 152 | [Maximum Product Subarray 乘积最大子数组](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/152-MaximumProductSubarray.js) | Medium | 动态规划 |
-| 153 | [Find Minimum in Rotated Sorted Array 寻找旋转排序数组中的最小值](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/153-FindMinimuminRotatedSortedArray.js) | Medium | 二分查找 |
-| 155 | [Min Stack 最小栈](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/155-MinStack.js) | Easy |  |
-| 160 | [Intersection of Two Linked List 相交链表](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/160-IntersectionofTwoLinkedList.js) | Easy | 双指针 |
-| 162 | [Find Peak Element 寻找峰值](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/162-FindPeakElement.js) | Medium | 二分查找 |
+| 149 | [Max Points on a Line 直线上最多的点](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Hard/149-MaxPointsonaLine.md) | Hard | 哈希 |
+| 150 | [Evaluate Reverse Polish Notation 逆波兰表达式求值](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/150-EvaluateReversePolishNotation.md) | Medium | 栈 |
+| 151 | [Reverse Words in a String 反转字符串中的单词](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/151-ReverseWordsinaString.md) | Medium | 双指针 |
+| 152 | [Maximum Product Subarray 乘积最大子数组](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/152-MaximumProductSubarray.md) | Medium | 动态规划 |
+| 153 | [Find Minimum in Rotated Sorted Array 寻找旋转排序数组中的最小值](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/153-FindMinimuminRotatedSortedArray.md) | Medium | 二分查找 |
+| 155 | [Min Stack 最小栈](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/155-MinStack.md) | Easy |  |
+| 160 | [Intersection of Two Linked List 相交链表](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/160-IntersectionofTwoLinkedList.md) | Easy | 双指针 |
+| 162 | [Find Peak Element 寻找峰值](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/162-FindPeakElement.md) | Medium | 二分查找 |
 | 164 | [Maximum Gap 最大间距](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/164-MaximumGap.md) | Medium | 桶排序 |
 | 165 | [Compare Version Numbers 比较版本号](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/165-CompareVersionNumbers.md) | Easy | 字符串 |
-| 166 | [Fraction to Recurring Decimal 分数到小数](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/166-FractiontoRecurringDecimal.js) | Medium | 长除法 |
-| 167 | [Two Sum II 两数之和 II](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/167-TwoSumII.js) | Easy |  |
-| 168 | [Excel Sheet Column Title Excel 列表名称](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/168-ExcelSheetColumnTitle.js) | Easy | 数学方法 |
+| 166 | [Fraction to Recurring Decimal 分数到小数](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/166-FractiontoRecurringDecimal.md) | Medium | 长除法 |
+| 167 | [Two Sum II 两数之和 II](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/167-TwoSumII.md) | Easy |  |
+| 168 | [Excel Sheet Column Title Excel 列表名称](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/168-ExcelSheetColumnTitle.md) | Easy | 数学方法 |
 | 169 | [Majority Element 求众数](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/169-MajorityElement.md) | Easy | Boyer-Moore 投票算法 |
 | 171 | [Excel Sheet Column Number Excel 表列序号](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/171-ExcelSheetColumnNumberExcel.md) | Easy | 字符串 |
 | 172 | [Factorial Trailing Zeroes 阶乘后的零](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/172-FactorialTrailingZeroes.md) | Easy | 数学 |
 | 179 | [Largest Number 最大数](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/179-LargestNumber.md) | Medium | 数组、排序 |
-| 189 | [Rotate Array 旋转数组](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/189-RotateArray.js) | Easy | 数组 |
-| 190 | [Reverse Bits 颠倒二进制位](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/190-ReverseBits.js) | Easy |  |
-| 191 | [Number of 1 Bits 位 1 的个数](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/191-Numberof1Bits.js) | Easy |  |
-| 198 | [House Robber 打家劫舍](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/198-HouseRobber.js) | Easy |  |
+| 189 | [Rotate Array 旋转数组](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/189-RotateArray.md) | Easy | 数组 |
+| 190 | [Reverse Bits 颠倒二进制位](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/190-ReverseBits.md) | Easy |  |
+| 191 | [Number of 1 Bits 位 1 的个数](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/191-Numberof1Bits.md) | Easy |  |
+| 198 | [House Robber 打家劫舍](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/198-HouseRobber.md) | Easy |  |
 | 199 | [Binary Tree Right Side View 二叉树的右视图](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/199-BinaryTreeRightSideView.md) | Medium | BFS |
-| 200 | [Number of Islands 岛屿数量](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/200-NumberofIslands.js) | Medium | 图、DFS |
+| 200 | [Number of Islands 岛屿数量](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/200-NumberofIslands.md) | Medium | 图、DFS |
 | 202 | [Happy Number 快乐数](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/202-HappyNumber.md) | Easy | 双指针 |
-| 203 | [Remove Linked List Elements 删除链表中的元素](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/203-RemoveLinkedListElements.js) | Easy |  |
+| 203 | [Remove Linked List Elements 删除链表中的元素](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/203-RemoveLinkedListElements.md) | Easy |  |
 | 204 | [Count Primes 计数质数](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/204-CountPrimes.md) | Easy | 厄拉多塞筛法 |
-| 205 | [Isomorphic Strings 同构字符串](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/205-IsomorphicStrings.js) | Easy |  |
+| 205 | [Isomorphic Strings 同构字符串](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/205-IsomorphicStrings.md) | Easy |  |
 | 206 | [Reverse Linked List 反转链表](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/206-ReverseLinkedList.md) | Easy | 双指针、链表 |
 | 207 | [Course Schedule 课程表](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/207-CourseSchedule.js) | Medium | 图 |
 | 208 | [Implement Tire (Prefix Tree) 实现Tire（前缀树）](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/208-ImplementTire(PrefixTree).js) | Medium | 前缀树 |

@@ -1188,7 +1188,7 @@ const nameMap = {
     enName: 'Max Points on a Line',
     difficulty: 'Hard',
     label: '哈希',
-    hasThinkings: false,
+    hasThinkings: true,
     checked: false,
   },
   150: {
@@ -1196,7 +1196,7 @@ const nameMap = {
     enName: 'Evaluate Reverse Polish Notation',
     difficulty: 'Medium',
     label: '栈',
-    hasThinkings: false,
+    hasThinkings: true,
     checked: false,
   },
   151: {
@@ -1204,7 +1204,7 @@ const nameMap = {
     enName: 'Reverse Words in a String',
     difficulty: 'Medium',
     label: '双指针',
-    hasThinkings: false,
+    hasThinkings: true,
     checked: false,
   },
   152: {
@@ -1212,7 +1212,7 @@ const nameMap = {
     enName: 'Maximum Product Subarray',
     difficulty: 'Medium',
     label: '动态规划',
-    hasThinkings: false,
+    hasThinkings: true,
     checked: false,
   },
   153: {
@@ -1220,7 +1220,7 @@ const nameMap = {
     enName: 'Find Minimum in Rotated Sorted Array',
     difficulty: 'Medium',
     label: '二分查找',
-    hasThinkings: false,
+    hasThinkings: true,
     checked: false,
   },
   155: {
@@ -1228,7 +1228,7 @@ const nameMap = {
     enName: 'Min Stack',
     difficulty: 'Easy',
     label: '',
-    hasThinkings: false,
+    hasThinkings: true,
     checked: false,
   },
   160: {
@@ -1236,7 +1236,7 @@ const nameMap = {
     enName: 'Intersection of Two Linked List',
     difficulty: 'Easy',
     label: '双指针',
-    hasThinkings: false,
+    hasThinkings: true,
     checked: false,
   },
   162: {
@@ -1244,7 +1244,7 @@ const nameMap = {
     enName: 'Find Peak Element',
     difficulty: 'Medium',
     label: '二分查找',
-    hasThinkings: false,
+    hasThinkings: true,
     checked: false,
   },
   164: {
@@ -1268,7 +1268,7 @@ const nameMap = {
     enName: 'Fraction to Recurring Decimal',
     difficulty: 'Medium',
     label: '长除法',
-    hasThinkings: false,
+    hasThinkings: true,
     checked: false,
   },
   167: {
@@ -1276,7 +1276,7 @@ const nameMap = {
     enName: 'Two Sum II',
     difficulty: 'Easy',
     label: '',
-    hasThinkings: false,
+    hasThinkings: true,
     checked: false,
   },
   168: {
@@ -1284,7 +1284,7 @@ const nameMap = {
     enName: 'Excel Sheet Column Title',
     difficulty: 'Easy',
     label: '数学方法',
-    hasThinkings: false,
+    hasThinkings: true,
     checked: false,
   },
   169: {
@@ -1324,7 +1324,7 @@ const nameMap = {
     enName: 'Rotate Array',
     difficulty: 'Easy',
     label: '数组',
-    hasThinkings: false,
+    hasThinkings: true,
     checked: false,
   },
   190: {
@@ -1332,7 +1332,7 @@ const nameMap = {
     enName: 'Reverse Bits',
     difficulty: 'Easy',
     label: '',
-    hasThinkings: false,
+    hasThinkings: true,
     checked: false,
   },
   191: {
@@ -1340,7 +1340,7 @@ const nameMap = {
     enName: 'Number of 1 Bits',
     difficulty: 'Easy',
     label: '',
-    hasThinkings: false,
+    hasThinkings: true,
     checked: false,
   },
   198: {
@@ -1348,7 +1348,7 @@ const nameMap = {
     enName: 'House Robber',
     difficulty: 'Easy',
     label: '',
-    hasThinkings: false,
+    hasThinkings: true,
     checked: false,
   },
   199: {
@@ -1364,7 +1364,7 @@ const nameMap = {
     enName: 'Number of Islands',
     difficulty: 'Medium',
     label: '图、DFS',
-    hasThinkings: false,
+    hasThinkings: true,
     checked: false,
   },
   202: {
@@ -1380,7 +1380,7 @@ const nameMap = {
     enName: 'Remove Linked List Elements',
     difficulty: 'Easy',
     label: '',
-    hasThinkings: false,
+    hasThinkings: true,
     checked: false,
   },
   204: {
@@ -1396,7 +1396,7 @@ const nameMap = {
     enName: 'Isomorphic Strings',
     difficulty: 'Easy',
     label: '',
-    hasThinkings: false,
+    hasThinkings: true,
     checked: false,
   },
   206: {
@@ -1412,7 +1412,7 @@ const nameMap = {
     enName: 'Course Schedule',
     difficulty: 'Medium',
     label: '图',
-    hasThinkings: false,
+    hasThinkings: true,
     checked: false,
   },
   208: {
