@@ -1189,7 +1189,7 @@ const nameMap = {
     difficulty: 'Hard',
     label: '哈希',
     hasThinkings: true,
-    checked: false,
+    checked: true,
   },
   150: {
     cnName: '逆波兰表达式求值',
@@ -1197,7 +1197,7 @@ const nameMap = {
     difficulty: 'Medium',
     label: '栈',
     hasThinkings: true,
-    checked: false,
+    checked: true,
   },
   151: {
     cnName: '反转字符串中的单词',
@@ -1205,7 +1205,7 @@ const nameMap = {
     difficulty: 'Medium',
     label: '双指针',
     hasThinkings: true,
-    checked: false,
+    checked: true,
   },
   152: {
     cnName: '乘积最大子数组',
@@ -1213,7 +1213,7 @@ const nameMap = {
     difficulty: 'Medium',
     label: '动态规划',
     hasThinkings: true,
-    checked: false,
+    checked: true,
   },
   153: {
     cnName: '寻找旋转排序数组中的最小值',
@@ -1221,15 +1221,15 @@ const nameMap = {
     difficulty: 'Medium',
     label: '二分查找',
     hasThinkings: true,
-    checked: false,
+    checked: true,
   },
   155: {
     cnName: '最小栈',
     enName: 'Min Stack',
     difficulty: 'Easy',
-    label: '',
+    label: '数组',
     hasThinkings: true,
-    checked: false,
+    checked: true,
   },
   160: {
     cnName: '相交链表',
@@ -1237,7 +1237,7 @@ const nameMap = {
     difficulty: 'Easy',
     label: '双指针',
     hasThinkings: true,
-    checked: false,
+    checked: true,
   },
   162: {
     cnName: '寻找峰值',
@@ -1245,7 +1245,7 @@ const nameMap = {
     difficulty: 'Medium',
     label: '二分查找',
     hasThinkings: true,
-    checked: false,
+    checked: true,
   },
   164: {
     cnName: '最大间距',
@@ -1269,7 +1269,7 @@ const nameMap = {
     difficulty: 'Medium',
     label: '长除法',
     hasThinkings: true,
-    checked: false,
+    checked: true,
   },
   167: {
     cnName: '两数之和 II',
@@ -1435,9 +1435,9 @@ const nameMap = {
     cnName: '单词搜索 II',
     enName: 'Word Search II',
     difficulty: 'Hard',
-    label: 'DFS',
+    label: '字典树、DFS',
     hasThinkings: true,
-    checked: false,
+    checked: true,
   },
   214: {
     cnName: '最短回文串',

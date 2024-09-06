@@ -22,37 +22,72 @@ skipB - 在 listB 中（从头节点开始）跳到交叉节点的节点数
 
 示例 1：
 ![3](https://assets.leetcode-cn.com/aliyun-lc-upload/uploads/2018/12/14/160_example_1.png)
+
+```js
 输入：intersectVal = 8, listA = [4,1,8,4,5], listB = [5,6,1,8,4,5], skipA = 2, skipB = 3
 输出：Intersected at '8'
 解释：相交节点的值为 8 （注意，如果两个链表相交则不能为 0）。
 从各自的表头开始算起，链表 A 为 [4,1,8,4,5]，链表 B 为 [5,6,1,8,4,5]。
 在 A 中，相交节点前有 2 个节点；在 B 中，相交节点前有 3 个节点。
 — 请注意相交节点的值不为 1，因为在链表 A 和链表 B 之中值为 1 的节点 (A 中第二个节点和 B 中第三个节点) 是不同的节点。换句话说，它们在内存中指向两个不同的位置，而链表 A 和链表 B 中值为 8 的节点 (A 中第三个节点，B 中第四个节点) 在内存中指向相同的位置。
+```
 
 示例 2：
 ![3](https://assets.leetcode-cn.com/aliyun-lc-upload/uploads/2018/12/14/160_example_2.png)
+
+```js
 输入：intersectVal = 2, listA = [1,9,1,2,4], listB = [3,2,4], skipA = 3, skipB = 1
 输出：Intersected at '2'
 解释：相交节点的值为 2 （注意，如果两个链表相交则不能为 0）。
 从各自的表头开始算起，链表 A 为 [1,9,1,2,4]，链表 B 为 [3,2,4]。
 在 A 中，相交节点前有 3 个节点；在 B 中，相交节点前有 1 个节点。
+```
+
 示例 3：
 ![3](https://assets.leetcode-cn.com/aliyun-lc-upload/uploads/2018/12/14/160_example_3.png)
+
+```js
 输入：intersectVal = 0, listA = [2,6,4], listB = [1,5], skipA = 3, skipB = 2
 输出：null
 解释：从各自的表头开始算起，链表 A 为 [2,6,4]，链表 B 为 [1,5]。
 由于这两个链表不相交，所以 intersectVal 必须为 0，而 skipA 和 skipB 可以是任意值。
 这两个链表不相交，因此返回 null 。
+```
 
 提示：
 
-listA 中节点数目为 m
-listB 中节点数目为 n
-1 <= m, n <= 3 * 104
-1 <= Node.val <= 105
-0 <= skipA <= m
-0 <= skipB <= n
-如果 listA 和 listB 没有交点，intersectVal 为 0
-如果 listA 和 listB 有交点，intersectVal == listA[skipA] == listB[skipB]
+- listA 中节点数目为 m
+- listB 中节点数目为 n
+- 1 <= m, n <= 3 \* 10^4
+- 1 <= Node.val <= 10^5
+- 0 <= skipA <= m
+- 0 <= skipB <= n
+- 如果 listA 和 listB 没有交点，intersectVal 为 0
+- 如果 listA 和 listB 有交点，intersectVal == listA[skipA] == listB[skipB]
 
 进阶：你能否设计一个时间复杂度 O(m + n) 、仅用 O(1) 内存的解决方案？
+
+思路：
+
+1. 初始化指针：设置两个指针 pA 和 pB 分别指向两个链表的头节点。
+2. 遍历链表：两个指针分别遍历各自的链表，如果指针到达链表末尾，则将其指向另一个链表的头节点。
+3. 寻找相交点：当两个指针指向同一个节点时，返回该节点，即为相交链表的起始节点。
+4. 处理不相交的情况：如果两个指针都到达了各自链表的末尾，且没有相交，则返回 null。
+
+时间复杂度：O(m + n)，其中 m 和 n 分别是两个链表的长度。每个指针最多遍历两个链表的长度。
+空间复杂度：O(1)，算法只使用了两个指针，不需要额外的空间。
+
+```js
+var getIntersectionNode = function (headA, headB) {
+  if (headA === null || headB === null) {
+    return null;
+  }
+  let pA = headA,
+    pB = headB;
+  while (pA !== pB) {
+    pA = pA === null ? headB : pA.next;
+    pB = pB === null ? headA : pB.next;
+  }
+  return pA;
+};
+```

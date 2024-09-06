@@ -164,17 +164,17 @@ pie title 已完成的题目
 | 146 | [LRU Cache LRU 缓存](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/146-LRUCache.md) | Medium | LRU |
 | 147 | [Insertion Sort List 对链表进行插入排序](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/147-InsertionSortList.md) | Medium | 链表、排序 |
 | 148 | [Sort List 排序链表](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/148-SortList.md) | Medium | 链表、排序 |
-| 149 | [Max Points on a Line 直线上最多的点](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Hard/149-MaxPointsonaLine.md) | Hard | 哈希 |
-| 150 | [Evaluate Reverse Polish Notation 逆波兰表达式求值](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/150-EvaluateReversePolishNotation.md) | Medium | 栈 |
-| 151 | [Reverse Words in a String 反转字符串中的单词](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/151-ReverseWordsinaString.md) | Medium | 双指针 |
-| 152 | [Maximum Product Subarray 乘积最大子数组](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/152-MaximumProductSubarray.md) | Medium | 动态规划 |
-| 153 | [Find Minimum in Rotated Sorted Array 寻找旋转排序数组中的最小值](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/153-FindMinimuminRotatedSortedArray.md) | Medium | 二分查找 |
-| 155 | [Min Stack 最小栈](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/155-MinStack.md) | Easy |  |
-| 160 | [Intersection of Two Linked List 相交链表](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/160-IntersectionofTwoLinkedList.md) | Easy | 双指针 |
-| 162 | [Find Peak Element 寻找峰值](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/162-FindPeakElement.md) | Medium | 二分查找 |
+| 149 | [Max Points on a Line 直线上最多的点](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/149-MaxPointsonaLine.md) | Hard | 哈希 |
+| 150 | [Evaluate Reverse Polish Notation 逆波兰表达式求值](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/150-EvaluateReversePolishNotation.md) | Medium | 栈 |
+| 151 | [Reverse Words in a String 反转字符串中的单词](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/151-ReverseWordsinaString.md) | Medium | 双指针 |
+| 152 | [Maximum Product Subarray 乘积最大子数组](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/152-MaximumProductSubarray.md) | Medium | 动态规划 |
+| 153 | [Find Minimum in Rotated Sorted Array 寻找旋转排序数组中的最小值](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/153-FindMinimuminRotatedSortedArray.md) | Medium | 二分查找 |
+| 155 | [Min Stack 最小栈](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/155-MinStack.md) | Easy | 数组 |
+| 160 | [Intersection of Two Linked List 相交链表](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/160-IntersectionofTwoLinkedList.md) | Easy | 双指针 |
+| 162 | [Find Peak Element 寻找峰值](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/162-FindPeakElement.md) | Medium | 二分查找 |
 | 164 | [Maximum Gap 最大间距](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/164-MaximumGap.md) | Medium | 桶排序 |
 | 165 | [Compare Version Numbers 比较版本号](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/165-CompareVersionNumbers.md) | Easy | 字符串 |
-| 166 | [Fraction to Recurring Decimal 分数到小数](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/166-FractiontoRecurringDecimal.md) | Medium | 长除法 |
+| 166 | [Fraction to Recurring Decimal 分数到小数](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/166-FractiontoRecurringDecimal.md) | Medium | 长除法 |
 | 167 | [Two Sum II 两数之和 II](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/167-TwoSumII.md) | Easy |  |
 | 168 | [Excel Sheet Column Title Excel 列表名称](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/168-ExcelSheetColumnTitle.md) | Easy | 数学方法 |
 | 169 | [Majority Element 求众数](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/169-MajorityElement.md) | Easy | Boyer-Moore 投票算法 |
@@ -195,7 +195,7 @@ pie title 已完成的题目
 | 207 | [Course Schedule 课程表](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/207-CourseSchedule.md) | Medium | 图 |
 | 208 | [Implement Tire (Prefix Tree) 实现Tire（前缀树）](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/208-ImplementTire(PrefixTree).md) | Medium | 前缀树 |
 | 210 | [Course Schedule II 课程表 II](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/210-CourseScheduleII.md) | Medium | BFS |
-| 212 | [Word Search II 单词搜索 II](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Hard/212-WordSearchII.md) | Hard | DFS |
+| 212 | [Word Search II 单词搜索 II](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/212-WordSearchII.md) | Hard | 字典树、DFS |
 | 214 | [Shortest Palindrome 最短回文串](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Hard/214-ShortestPalindrome.md) | Hard | KMP |
 | 215 | [Kth Largest Element in an Array 数组中的第 K 大元素](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/215-KthLargestElementinanArray.md) | Medium | 快速选择 |
 | 216 | [Combination Sum III 组合总和 III](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/216-CombinationSumIII.md) | Medium | 空间枚举 |
@@ -211,7 +211,7 @@ pie title 已完成的题目
 | 230 | [Kth Smallest Element in a BST 二叉搜索树中的第 K 小的元素](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/230-KthSmallestElementinaBST.md) | Medium | 二叉树 |
 | 231 | [Power of Two 2 的幂](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/231-PowerofTwo.md) | Easy |  |
 | 232 | [Implement Queue using Stacks 用栈实现队列](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/232-ImplementQueueusingStacks.md) | Easy |  |
-| 233 | [Number of Digit One 数字 1 的个数](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Hard/233-NumberofDigitOne.js) | Hard |  |
+| 233 | [Number of Digit One 数字 1 的个数](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Hard/233-NumberofDigitOne.md) | Hard |  |
 | 234 | [Palindrome Linked List 回文链表](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/234-PalindromeLinkedList.js) | Easy | 双指针 |
 | 235 | [Lowest Common Ancestor of a Binary Search Tree 二叉搜索树的最近公共祖先](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/235-LowestCommonAncestorofaBinarySearchTree.js) | Medium | 二叉树 |
 | 236 | [Lowest Common Ancestor of a Binary Tree 二叉树的最近公共祖先](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/236-LowestCommonAncestorofaBinaryTree.js) | Medium | 二叉树 |
