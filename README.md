@@ -212,9 +212,9 @@ pie title 已完成的题目
 | 231 | [Power of Two 2 的幂](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/231-PowerofTwo.md) | Easy |  |
 | 232 | [Implement Queue using Stacks 用栈实现队列](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/232-ImplementQueueusingStacks.md) | Easy |  |
 | 233 | [Number of Digit One 数字 1 的个数](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Hard/233-NumberofDigitOne.md) | Hard |  |
-| 234 | [Palindrome Linked List 回文链表](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/234-PalindromeLinkedList.js) | Easy | 双指针 |
-| 235 | [Lowest Common Ancestor of a Binary Search Tree 二叉搜索树的最近公共祖先](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/235-LowestCommonAncestorofaBinarySearchTree.js) | Medium | 二叉树 |
-| 236 | [Lowest Common Ancestor of a Binary Tree 二叉树的最近公共祖先](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/236-LowestCommonAncestorofaBinaryTree.js) | Medium | 二叉树 |
+| 234 | [Palindrome Linked List 回文链表](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/234-PalindromeLinkedList.md) | Easy | 双指针 |
+| 235 | [Lowest Common Ancestor of a Binary Search Tree 二叉搜索树的最近公共祖先](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/235-LowestCommonAncestorofaBinarySearchTree.md) | Medium | 二叉树 |
+| 236 | [Lowest Common Ancestor of a Binary Tree 二叉树的最近公共祖先](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/236-LowestCommonAncestorofaBinaryTree.md) | Medium | 二叉树 |
 | 237 | [Delete Node in a Linked List 删除链表中的节点](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/237-DeleteNodeinaLinkedList.js) | Medium | 链表 |
 | 238 | [Product of Array Except Self 除自身以外数组的乘积](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/238-ProductofArrayExceptSelf.md) | Medium | 数组 |
 | 239 | [Slide Window Maximum 滑动窗口最大值](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Hard/239-SlideWindowMaximum.js) | Hard | 子串 |

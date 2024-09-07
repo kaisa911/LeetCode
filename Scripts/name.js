@@ -1572,7 +1572,7 @@ const nameMap = {
     enName: 'Palindrome Linked List',
     difficulty: 'Easy',
     label: '双指针',
-    hasThinkings: false,
+    hasThinkings: true,
     checked: false,
   },
   235: {
@@ -1580,7 +1580,7 @@ const nameMap = {
     enName: 'Lowest Common Ancestor of a Binary Search Tree',
     difficulty: 'Medium',
     label: '二叉树',
-    hasThinkings: false,
+    hasThinkings: true,
     checked: false,
   },
   236: {
@@ -1588,7 +1588,7 @@ const nameMap = {
     enName: 'Lowest Common Ancestor of a Binary Tree',
     difficulty: 'Medium',
     label: '二叉树',
-    hasThinkings: false,
+    hasThinkings: true,
     checked: false,
   },
   237: {
@@ -1596,7 +1596,7 @@ const nameMap = {
     enName: 'Delete Node in a Linked List',
     difficulty: 'Medium',
     label: '链表',
-    hasThinkings: false,
+    hasThinkings: true,
     checked: false,
   },
   238: {
