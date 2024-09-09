@@ -175,24 +175,24 @@ pie title 已完成的题目
 | 164 | [Maximum Gap 最大间距](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/164-MaximumGap.md) | Medium | 桶排序 |
 | 165 | [Compare Version Numbers 比较版本号](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/165-CompareVersionNumbers.md) | Easy | 字符串 |
 | 166 | [Fraction to Recurring Decimal 分数到小数](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/166-FractiontoRecurringDecimal.md) | Medium | 长除法 |
-| 167 | [Two Sum II 两数之和 II](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/167-TwoSumII.md) | Easy |  |
-| 168 | [Excel Sheet Column Title Excel 列表名称](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/168-ExcelSheetColumnTitle.md) | Easy | 数学方法 |
+| 167 | [Two Sum II 两数之和 II](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/167-TwoSumII.md) | Easy | 双指针 |
+| 168 | [Excel Sheet Column Title Excel 列表名称](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/168-ExcelSheetColumnTitle.md) | Easy | 数学方法 |
 | 169 | [Majority Element 求众数](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/169-MajorityElement.md) | Easy | Boyer-Moore 投票算法 |
 | 171 | [Excel Sheet Column Number Excel 表列序号](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/171-ExcelSheetColumnNumberExcel.md) | Easy | 字符串 |
 | 172 | [Factorial Trailing Zeroes 阶乘后的零](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/172-FactorialTrailingZeroes.md) | Easy | 数学 |
 | 179 | [Largest Number 最大数](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/179-LargestNumber.md) | Medium | 数组、排序 |
-| 189 | [Rotate Array 旋转数组](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/189-RotateArray.md) | Easy | 数组 |
-| 190 | [Reverse Bits 颠倒二进制位](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/190-ReverseBits.md) | Easy |  |
-| 191 | [Number of 1 Bits 位 1 的个数](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/191-Numberof1Bits.md) | Easy |  |
-| 198 | [House Robber 打家劫舍](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/198-HouseRobber.md) | Easy |  |
+| 189 | [Rotate Array 旋转数组](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/189-RotateArray.md) | Easy | 数组 |
+| 190 | [Reverse Bits 颠倒二进制位](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/190-ReverseBits.md) | Easy | 位运算 |
+| 191 | [Number of 1 Bits 位 1 的个数](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/191-Numberof1Bits.md) | Easy | 位运算 |
+| 198 | [House Robber 打家劫舍](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/198-HouseRobber.md) | Easy | 动态规划 |
 | 199 | [Binary Tree Right Side View 二叉树的右视图](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/199-BinaryTreeRightSideView.md) | Medium | BFS |
-| 200 | [Number of Islands 岛屿数量](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/200-NumberofIslands.md) | Medium | 图、DFS |
+| 200 | [Number of Islands 岛屿数量](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/200-NumberofIslands.md) | Medium | 图、DFS |
 | 202 | [Happy Number 快乐数](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/202-HappyNumber.md) | Easy | 双指针 |
-| 203 | [Remove Linked List Elements 删除链表中的元素](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/203-RemoveLinkedListElements.md) | Easy |  |
+| 203 | [Remove Linked List Elements 删除链表中的元素](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/203-RemoveLinkedListElements.md) | Easy | 链表 |
 | 204 | [Count Primes 计数质数](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/204-CountPrimes.md) | Easy | 厄拉多塞筛法 |
-| 205 | [Isomorphic Strings 同构字符串](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/205-IsomorphicStrings.md) | Easy |  |
+| 205 | [Isomorphic Strings 同构字符串](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/205-IsomorphicStrings.md) | Easy | 字符串 |
 | 206 | [Reverse Linked List 反转链表](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/206-ReverseLinkedList.md) | Easy | 双指针、链表 |
-| 207 | [Course Schedule 课程表](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/207-CourseSchedule.md) | Medium | 图 |
+| 207 | [Course Schedule 课程表](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/207-CourseSchedule.md) | Medium | 图、拓扑排序 |
 | 208 | [Implement Tire (Prefix Tree) 实现Tire（前缀树）](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/208-ImplementTire(PrefixTree).md) | Medium | 前缀树 |
 | 210 | [Course Schedule II 课程表 II](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/210-CourseScheduleII.md) | Medium | BFS |
 | 212 | [Word Search II 单词搜索 II](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/212-WordSearchII.md) | Hard | 字典树、DFS |
@@ -215,7 +215,7 @@ pie title 已完成的题目
 | 234 | [Palindrome Linked List 回文链表](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/234-PalindromeLinkedList.md) | Easy | 双指针 |
 | 235 | [Lowest Common Ancestor of a Binary Search Tree 二叉搜索树的最近公共祖先](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/235-LowestCommonAncestorofaBinarySearchTree.md) | Medium | 二叉树 |
 | 236 | [Lowest Common Ancestor of a Binary Tree 二叉树的最近公共祖先](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/236-LowestCommonAncestorofaBinaryTree.md) | Medium | 二叉树 |
-| 237 | [Delete Node in a Linked List 删除链表中的节点](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/237-DeleteNodeinaLinkedList.js) | Medium | 链表 |
+| 237 | [Delete Node in a Linked List 删除链表中的节点](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/237-DeleteNodeinaLinkedList.md) | Medium | 链表 |
 | 238 | [Product of Array Except Self 除自身以外数组的乘积](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/238-ProductofArrayExceptSelf.md) | Medium | 数组 |
 | 239 | [Slide Window Maximum 滑动窗口最大值](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Hard/239-SlideWindowMaximum.js) | Hard | 子串 |
 | 240 | [Search a 2D Matrix II 搜索二维矩阵 II](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/240-Searcha2DMatrixII.js) | Medium | 二分查找 |

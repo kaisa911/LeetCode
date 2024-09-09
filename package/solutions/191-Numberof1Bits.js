@@ -19,7 +19,7 @@ var hammingWeight = function(n) {
 let hammingWeight = function(n) {
   let res = 0;
   for (; n !== 0; n = n >>> 1) {
-    res += n & (1 === 1) ? 1 : 0;
+    res += n & 1;  // 直接使用 n & 1 判断当前位是否为 1
   }
   return res;
 };
