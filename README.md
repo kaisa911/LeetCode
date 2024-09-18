@@ -193,15 +193,15 @@ pie title 已完成的题目
 | 205 | [Isomorphic Strings 同构字符串](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/205-IsomorphicStrings.md) | Easy | 字符串 |
 | 206 | [Reverse Linked List 反转链表](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/206-ReverseLinkedList.md) | Easy | 双指针、链表 |
 | 207 | [Course Schedule 课程表](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/207-CourseSchedule.md) | Medium | 图、拓扑排序 |
-| 208 | [Implement Tire (Prefix Tree) 实现Tire（前缀树）](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/208-ImplementTire(PrefixTree).md) | Medium | 前缀树 |
-| 210 | [Course Schedule II 课程表 II](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/210-CourseScheduleII.md) | Medium | BFS |
+| 208 | [Implement Tire (Prefix Tree) 实现Tire（前缀树）](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/208-ImplementTire(PrefixTree).md) | Medium | 前缀树 |
+| 210 | [Course Schedule II 课程表 II](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/210-CourseScheduleII.md) | Medium | BFS |
 | 212 | [Word Search II 单词搜索 II](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/212-WordSearchII.md) | Hard | 字典树、DFS |
-| 214 | [Shortest Palindrome 最短回文串](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Hard/214-ShortestPalindrome.md) | Hard | KMP |
+| 214 | [Shortest Palindrome 最短回文串](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/214-ShortestPalindrome.md) | Hard | KMP |
 | 215 | [Kth Largest Element in an Array 数组中的第 K 大元素](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/215-KthLargestElementinanArray.md) | Medium | 快速选择 |
-| 216 | [Combination Sum III 组合总和 III](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/216-CombinationSumIII.md) | Medium | 空间枚举 |
+| 216 | [Combination Sum III 组合总和 III](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/216-CombinationSumIII.md) | Medium | 空间枚举、DFS |
 | 217 | [Contains Duplicate 存在重复元素](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/217-ContainsDuplicate.md) | Easy | 哈希 |
-| 218 | [The Skyline Problem 天际线问题](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Hard/218-TheSkylineProblem.md) | Hard | 二分查找 |
-| 219 | [Contains Nearby Duplicate II 存在重复元素 II](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/219-ContainsNearbyDuplicateII.md) | Easy |  |
+| 218 | [The Skyline Problem 天际线问题](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/218-TheSkylineProblem.md) | Hard | 二分查找 |
+| 219 | [Contains Nearby Duplicate II 存在重复元素 II](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/219-ContainsNearbyDuplicateII.md) | Easy | 哈希 |
 | 220 | [Contains Nearby Duplicate III 存在重复元素 III](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Hard/220-ContainsNearbyDuplicateIII.md) | Hard | 桶排序 |
 | 221 | [Maximal Square 最大正方形](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/221-MaximalSquare.md) | Medium | 动态规划 |
 | 225 | [Implement Stack using Queues 用队列实现栈](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/225-ImplementStackusingQueues.md) | Easy |  |

@@ -1421,7 +1421,7 @@ const nameMap = {
     difficulty: 'Medium',
     label: '前缀树',
     hasThinkings: true,
-    checked: false,
+    checked: true,
   },
   210: {
     cnName: '课程表 II',
@@ -1429,7 +1429,7 @@ const nameMap = {
     difficulty: 'Medium',
     label: 'BFS',
     hasThinkings: true,
-    checked: false,
+    checked: true,
   },
   212: {
     cnName: '单词搜索 II',
@@ -1445,7 +1445,7 @@ const nameMap = {
     difficulty: 'Hard',
     label: 'KMP',
     hasThinkings: true,
-    checked: false,
+    checked: true,
   },
   215: {
     cnName: '数组中的第 K 大元素',
@@ -1459,9 +1459,9 @@ const nameMap = {
     cnName: '组合总和 III',
     enName: 'Combination Sum III',
     difficulty: 'Medium',
-    label: '空间枚举',
+    label: '空间枚举、DFS',
     hasThinkings: true,
-    checked: false,
+    checked: true,
   },
   217: {
     cnName: '存在重复元素',
@@ -1477,15 +1477,15 @@ const nameMap = {
     difficulty: 'Hard',
     label: '二分查找',
     hasThinkings: true,
-    checked: false,
+    checked: true,
   },
   219: {
     cnName: '存在重复元素 II',
     enName: 'Contains Nearby Duplicate II',
     difficulty: 'Easy',
-    label: '',
+    label: '哈希',
     hasThinkings: true,
-    checked: false,
+    checked: true,
   },
   220: {
     cnName: '存在重复元素 III',
