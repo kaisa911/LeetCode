@@ -1612,7 +1612,7 @@ const nameMap = {
     enName: 'Slide Window Maximum',
     difficulty: 'Hard',
     label: '子串',
-    hasThinkings: false,
+    hasThinkings: true,
     checked: false,
   },
   240: {
@@ -1620,7 +1620,7 @@ const nameMap = {
     enName: 'Search a 2D Matrix II',
     difficulty: 'Medium',
     label: '二分查找',
-    hasThinkings: false,
+    hasThinkings: true,
     checked: false,
   },
   242: {
@@ -1668,7 +1668,7 @@ const nameMap = {
     enName: 'Missing Number',
     difficulty: 'Easy',
     label: '',
-    hasThinkings: false,
+    hasThinkings: true,
     checked: false,
   },
   274: {
@@ -1676,7 +1676,7 @@ const nameMap = {
     enName: 'H-Index',
     difficulty: 'Medium',
     label: '',
-    hasThinkings: false,
+    hasThinkings: true,
     checked: false,
   },
   278: {
@@ -1692,7 +1692,7 @@ const nameMap = {
     enName: 'Perfect Squares',
     difficulty: 'Medium',
     label: '动态规划',
-    hasThinkings: false,
+    hasThinkings: true,
     checked: false,
   },
   283: {
@@ -1700,7 +1700,7 @@ const nameMap = {
     enName: 'Move Zeroes',
     difficulty: 'Easy',
     label: '双指针',
-    hasThinkings: false,
+    hasThinkings: true,
     checked: false,
   },
   287: {
@@ -1716,7 +1716,7 @@ const nameMap = {
     enName: 'Game of Life',
     difficulty: 'Medium',
     label: '数组',
-    hasThinkings: false,
+    hasThinkings: true,
     checked: false,
   },
   290: {
@@ -1732,7 +1732,7 @@ const nameMap = {
     enName: 'Nim Game',
     difficulty: 'Easy',
     label: '数学',
-    hasThinkings: false,
+    hasThinkings: true,
     checked: false,
   },
   295: {
@@ -1740,7 +1740,7 @@ const nameMap = {
     enName: 'Find Median from Data Stream',
     difficulty: 'Hard',
     label: '',
-    hasThinkings: false,
+    hasThinkings: true,
     checked: false,
   },
   297: {
@@ -1748,7 +1748,7 @@ const nameMap = {
     enName: 'Serialize and Deserialize Binary Tree',
     difficulty: 'Hard',
     label: '',
-    hasThinkings: false,
+    hasThinkings: true,
     checked: false,
   },
   300: {
@@ -1756,7 +1756,7 @@ const nameMap = {
     enName: 'Longest Increasing Subsequence',
     difficulty: 'Medium',
     label: '',
-    hasThinkings: false,
+    hasThinkings: true,
     checked: false,
   },
   301: {
@@ -1764,7 +1764,7 @@ const nameMap = {
     enName: 'Remove Invalid Parentheses',
     difficulty: 'Hard',
     label: 'BFS',
-    hasThinkings: false,
+    hasThinkings: true,
     checked: false,
   },
   303: {
@@ -1780,7 +1780,7 @@ const nameMap = {
     enName: 'Best Time to Buy and Sell Stock with Cooldown',
     difficulty: 'Medium',
     label: '动态规划',
-    hasThinkings: false,
+    hasThinkings: true,
     checked: false,
   },
   310: {
@@ -1796,7 +1796,7 @@ const nameMap = {
     enName: 'Burst Balloons',
     difficulty: 'Hard',
     label: '动态规划',
-    hasThinkings: false,
+    hasThinkings: true,
     checked: false,
   },
   315: {
@@ -1804,7 +1804,7 @@ const nameMap = {
     enName: 'Count of Smallest Numbers After Self',
     difficulty: 'Hard',
     label: '归并排序',
-    hasThinkings: false,
+    hasThinkings: true,
     checked: false,
   },
   319: {
@@ -1820,7 +1820,7 @@ const nameMap = {
     enName: 'Coin Change',
     difficulty: 'Medium',
     label: '动态规划',
-    hasThinkings: false,
+    hasThinkings: true,
     checked: false,
   },
   324: {
@@ -1828,7 +1828,7 @@ const nameMap = {
     enName: 'Wiggle Sort II',
     difficulty: 'Medium',
     label: '排序',
-    hasThinkings: false,
+    hasThinkings: true,
     checked: false,
   },
   326: {
@@ -1836,7 +1836,7 @@ const nameMap = {
     enName: 'Power of Three',
     difficulty: 'Easy',
     label: '',
-    hasThinkings: false,
+    hasThinkings: true,
     checked: false,
   },
   328: {
@@ -1844,7 +1844,7 @@ const nameMap = {
     enName: 'Odd Even Linked List',
     difficulty: 'Medium',
     label: '链表',
-    hasThinkings: false,
+    hasThinkings: true,
     checked: false,
   },
   329: {
@@ -1852,7 +1852,7 @@ const nameMap = {
     enName: 'Longest Increasing Path in a Matrix',
     difficulty: 'Hard',
     label: '记忆化搜索',
-    hasThinkings: false,
+    hasThinkings: true,
     checked: false,
   },
   332: {
@@ -1860,7 +1860,7 @@ const nameMap = {
     enName: 'Reconstruct Itinerary',
     difficulty: 'Hard',
     label: 'DFS',
-    hasThinkings: false,
+    hasThinkings: true,
     checked: false,
   },
   334: {
@@ -1868,7 +1868,7 @@ const nameMap = {
     enName: 'Increasing Triplet Subsequence',
     difficulty: 'Medium',
     label: '贪心、数组',
-    hasThinkings: false,
+    hasThinkings: true,
     checked: false,
   },
   337: {

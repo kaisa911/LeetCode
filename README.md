@@ -217,38 +217,38 @@ pie title 已完成的题目
 | 236 | [Lowest Common Ancestor of a Binary Tree 二叉树的最近公共祖先](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/236-LowestCommonAncestorofaBinaryTree.md) | Medium | 二叉树 |
 | 237 | [Delete Node in a Linked List 删除链表中的节点](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/237-DeleteNodeinaLinkedList.md) | Medium | 链表 |
 | 238 | [Product of Array Except Self 除自身以外数组的乘积](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/238-ProductofArrayExceptSelf.md) | Medium | 数组 |
-| 239 | [Slide Window Maximum 滑动窗口最大值](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Hard/239-SlideWindowMaximum.js) | Hard | 子串 |
-| 240 | [Search a 2D Matrix II 搜索二维矩阵 II](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/240-Searcha2DMatrixII.js) | Medium | 二分查找 |
+| 239 | [Slide Window Maximum 滑动窗口最大值](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Hard/239-SlideWindowMaximum.md) | Hard | 子串 |
+| 240 | [Search a 2D Matrix II 搜索二维矩阵 II](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/240-Searcha2DMatrixII.md) | Medium | 二分查找 |
 | 242 | [Valid Anagram 有效的字母异位词](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/242-ValidAnagram.md) | Easy | 字符串、哈希 |
 | 257 | [Binary Tree Paths 二叉树的所有路径](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/257-BinaryTreePaths.md) | Easy | 回溯 |
 | 258 | [Add Digits 各位相加](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/258-AddDigits.md) | Easy | 数学、递归 |
 | 260 | [Single Number III 只出现一次的数字 III](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/260-SingleNumberIII.md) | Medium | 位运算 |
 | 263 | [Ugly Number 丑数](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/263-UglyNumber.md) | Easy | 数学 |
-| 268 | [Missing Number 缺失数字](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/268-MissingNumber.js) | Easy |  |
-| 274 | [H-Index H 指数](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/274-H-Index.js) | Medium |  |
+| 268 | [Missing Number 缺失数字](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/268-MissingNumber.md) | Easy |  |
+| 274 | [H-Index H 指数](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/274-H-Index.md) | Medium |  |
 | 278 | [First Bad Version 第一个错误的版本](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/278-FirstBadVersion.md) | Easy | 二分查找 |
-| 279 | [Perfect Squares 完全平方数](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/279-PerfectSquares.js) | Medium | 动态规划 |
-| 283 | [Move Zeroes 移动零](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/283-MoveZeroes.js) | Easy | 双指针 |
+| 279 | [Perfect Squares 完全平方数](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/279-PerfectSquares.md) | Medium | 动态规划 |
+| 283 | [Move Zeroes 移动零](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/283-MoveZeroes.md) | Easy | 双指针 |
 | 287 | [Find the Duplicate Number 寻找重复数](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/287-FindtheDuplicateNumber.md) | Medium | 布隆过滤 |
-| 289 | [Game of Life 生命游戏](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/289-GameofLife.js) | Medium | 数组 |
+| 289 | [Game of Life 生命游戏](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/289-GameofLife.md) | Medium | 数组 |
 | 290 | [Word Pattern 单词规律](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/290-WordPattern.md) | Easy | 字符串 |
-| 292 | [Nim Game Nim 游戏](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/292-NimGame.js) | Easy | 数学 |
-| 295 | [Find Median from Data Stream 数据流的中位数](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Hard/295-FindMedianfromDataStream.js) | Hard |  |
-| 297 | [Serialize and Deserialize Binary Tree 二叉树的序列化与反序列化](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Hard/297-SerializeandDeserializeBinaryTree.js) | Hard |  |
-| 300 | [Longest Increasing Subsequence 最长上升子序列](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/300-LongestIncreasingSubsequence.js) | Medium |  |
-| 301 | [Remove Invalid Parentheses 删除无效的括号](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Hard/301-RemoveInvalidParentheses.js) | Hard | BFS |
+| 292 | [Nim Game Nim 游戏](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/292-NimGame.md) | Easy | 数学 |
+| 295 | [Find Median from Data Stream 数据流的中位数](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Hard/295-FindMedianfromDataStream.md) | Hard |  |
+| 297 | [Serialize and Deserialize Binary Tree 二叉树的序列化与反序列化](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Hard/297-SerializeandDeserializeBinaryTree.md) | Hard |  |
+| 300 | [Longest Increasing Subsequence 最长上升子序列](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/300-LongestIncreasingSubsequence.md) | Medium |  |
+| 301 | [Remove Invalid Parentheses 删除无效的括号](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Hard/301-RemoveInvalidParentheses.md) | Hard | BFS |
 | 303 | [Range Sum Query-Immutable 区域和检索-数组不可变](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/303-RangeSumQuery-Immutable.md) | Easy | 数组 |
-| 309 | [Best Time to Buy and Sell Stock with Cooldown 买卖股票的最佳时机含冷冻期](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/309-BestTimetoBuyandSellStockwithCooldown.js) | Medium | 动态规划 |
+| 309 | [Best Time to Buy and Sell Stock with Cooldown 买卖股票的最佳时机含冷冻期](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/309-BestTimetoBuyandSellStockwithCooldown.md) | Medium | 动态规划 |
 | 310 | [Minimum Height Trees 最小高度树](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/310-MinimumHeightTrees.md) | Medium | 队列 |
-| 312 | [Burst Balloons 戳气球](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Hard/312-BurstBalloons.js) | Hard | 动态规划 |
-| 315 | [Count of Smallest Numbers After Self 计算右侧小于当前元素的个数](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Hard/315-CountofSmallestNumbersAfterSelf.js) | Hard | 归并排序 |
+| 312 | [Burst Balloons 戳气球](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Hard/312-BurstBalloons.md) | Hard | 动态规划 |
+| 315 | [Count of Smallest Numbers After Self 计算右侧小于当前元素的个数](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Hard/315-CountofSmallestNumbersAfterSelf.md) | Hard | 归并排序 |
 | 319 | [Bulb Switcher 灯泡开关](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/319-BulbSwitcher.md) | Medium | 数学 |
-| 322 | [Coin Change 零钱兑换](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/322-CoinChange.js) | Medium | 动态规划 |
-| 324 | [Wiggle Sort II 摆动排序 II](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/324-WiggleSortII.js) | Medium | 排序 |
-| 326 | [Power of Three 3 的幂](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/326-PowerofThree.js) | Easy |  |
-| 328 | [Odd Even Linked List 奇偶链表](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/328-OddEvenLinkedList.js) | Medium | 链表 |
-| 329 | [Longest Increasing Path in a Matrix 矩阵中的最长递增路径](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Hard/329-LongestIncreasingPathinaMatrix.js) | Hard | 记忆化搜索 |
-| 332 | [Reconstruct Itinerary 重新安排行程](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Hard/332-ReconstructItinerary.js) | Hard | DFS |
+| 322 | [Coin Change 零钱兑换](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/322-CoinChange.md) | Medium | 动态规划 |
+| 324 | [Wiggle Sort II 摆动排序 II](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/324-WiggleSortII.md) | Medium | 排序 |
+| 326 | [Power of Three 3 的幂](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/326-PowerofThree.md) | Easy |  |
+| 328 | [Odd Even Linked List 奇偶链表](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/328-OddEvenLinkedList.md) | Medium | 链表 |
+| 329 | [Longest Increasing Path in a Matrix 矩阵中的最长递增路径](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Hard/329-LongestIncreasingPathinaMatrix.md) | Hard | 记忆化搜索 |
+| 332 | [Reconstruct Itinerary 重新安排行程](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Hard/332-ReconstructItinerary.md) | Hard | DFS |
 | 334 | [Increasing Triplet Subsequence 递增的三元子序列](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/334-IncreasingTripletSubsequence.js) | Medium | 贪心、数组 |
 | 337 | [House Robber III 打家劫舍 III](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/337-HouseRobberIII.js) | Medium | 动态规划 |
 | 338 | [Counting Bits 比特位计数](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/338-CountingBits.js) | Easy |  |
