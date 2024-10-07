@@ -249,20 +249,20 @@ pie title 已完成的题目
 | 328 | [Odd Even Linked List 奇偶链表](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/328-OddEvenLinkedList.md) | Medium | 链表 |
 | 329 | [Longest Increasing Path in a Matrix 矩阵中的最长递增路径](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Hard/329-LongestIncreasingPathinaMatrix.md) | Hard | 记忆化搜索 |
 | 332 | [Reconstruct Itinerary 重新安排行程](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Hard/332-ReconstructItinerary.md) | Hard | DFS |
-| 334 | [Increasing Triplet Subsequence 递增的三元子序列](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/334-IncreasingTripletSubsequence.js) | Medium | 贪心、数组 |
-| 337 | [House Robber III 打家劫舍 III](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/337-HouseRobberIII.js) | Medium | 动态规划 |
-| 338 | [Counting Bits 比特位计数](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/338-CountingBits.js) | Easy |  |
-| 341 | [Flatten Nested List Iterator 扁平化嵌套列表迭代器](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/341-FlattenNestedListIterator.js) | Medium | 栈 |
-| 342 | [Power of Four 4 的幂](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/342-PowerofFour.js) | Easy |  |
-| 343 | [Integer Break 整数拆分](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/343-IntegerBreak.js) | Medium |  |
-| 344 | [Reverse String 反转字符串](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/344-ReverseString.js) | Easy |  |
-| 345 | [Reverse Vowels of a String 翻转字符串中的元音字母](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/345-ReverseVowelsofaString.js) | Easy | 双指针 |
-| 347 | [Top K Frequent Elements 前 K 个高频元素](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/347-TopKFrequentElements.js) | Medium | 桶排序 |
-| 349 | [Intersection of Two Arrays 两个数组的交集](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/349-IntersectionofTwoArrays.js) | Easy |  |
-| 350 | [Intersection of Two Arrays II 两个数组的交集 II](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/350-IntersectionofTwoArraysII.md) | Easy |  |
-| 365 | [Water and Jug Problem 水壶问题](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/365-WaterandJugProblem.js) | Medium | 数学方法 |
+| 334 | [Increasing Triplet Subsequence 递增的三元子序列](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/334-IncreasingTripletSubsequence.md) | Medium | 贪心、数组 |
+| 337 | [House Robber III 打家劫舍 III](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/337-HouseRobberIII.md) | Medium | 动态规划 |
+| 338 | [Counting Bits 比特位计数](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/338-CountingBits.md) | Easy |  |
+| 341 | [Flatten Nested List Iterator 扁平化嵌套列表迭代器](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/341-FlattenNestedListIterator.md) | Medium | 栈 |
+| 342 | [Power of Four 4 的幂](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/342-PowerofFour.md) | Easy |  |
+| 343 | [Integer Break 整数拆分](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/343-IntegerBreak.md) | Medium |  |
+| 344 | [Reverse String 反转字符串](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/344-ReverseString.md) | Easy |  |
+| 345 | [Reverse Vowels of a String 翻转字符串中的元音字母](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/345-ReverseVowelsofaString.md) | Easy | 双指针 |
+| 347 | [Top K Frequent Elements 前 K 个高频元素](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/347-TopKFrequentElements.md) | Medium | 桶排序 |
+| 349 | [Intersection of Two Arrays 两个数组的交集](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/349-IntersectionofTwoArrays.md) | Easy |  |
+| 350 | [Intersection of Two Arrays II 两个数组的交集 II](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/350-IntersectionofTwoArraysII.md) | Easy | 哈希 |
+| 365 | [Water and Jug Problem 水壶问题](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/365-WaterandJugProblem.md) | Medium | 数学方法 |
 | 371 | [Sum of Two Integers 两个整数相加](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/371-SumofTwoIntegers.md) | Easy | 位运算 |
-| 373 | [Find K Pairs with Smallest Sums 查找和最小的 K 对数字](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/373-FindKPairswithSmallestSums.js) | Medium |  |
+| 373 | [Find K Pairs with Smallest Sums 查找和最小的 K 对数字](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/373-FindKPairswithSmallestSums.md) | Medium |  |
 | 374 | [Guess Number Higher or lower 猜数字大小](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/374-GuessNumberHigherorlower.js) | Easy | 二分查找 |
 | 377 | [Combination Sum IV 组合总和 Ⅳ](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/377-CombinationSumIV.md) | Medium | 动态规划、回溯 |
 | 378 | [Kth Smallest Element in a Sorted Matrix 有序矩阵中第 K 小的元素](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/378-KthSmallestElementinaSortedMatrix.js) | Medium | 二分查找 |

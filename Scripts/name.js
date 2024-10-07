@@ -1876,7 +1876,7 @@ const nameMap = {
     enName: 'House Robber III',
     difficulty: 'Medium',
     label: '动态规划',
-    hasThinkings: false,
+    hasThinkings: true,
     checked: false,
   },
   338: {
@@ -1884,7 +1884,7 @@ const nameMap = {
     enName: 'Counting Bits',
     difficulty: 'Easy',
     label: '',
-    hasThinkings: false,
+    hasThinkings: true,
     checked: false,
   },
   341: {
@@ -1892,7 +1892,7 @@ const nameMap = {
     enName: 'Flatten Nested List Iterator',
     difficulty: 'Medium',
     label: '栈',
-    hasThinkings: false,
+    hasThinkings: true,
     checked: false,
   },
   342: {
@@ -1900,7 +1900,7 @@ const nameMap = {
     enName: 'Power of Four',
     difficulty: 'Easy',
     label: '',
-    hasThinkings: false,
+    hasThinkings: true,
     checked: false,
   },
   343: {
@@ -1908,7 +1908,7 @@ const nameMap = {
     enName: 'Integer Break',
     difficulty: 'Medium',
     label: '',
-    hasThinkings: false,
+    hasThinkings: true,
     checked: false,
   },
   344: {
@@ -1916,7 +1916,7 @@ const nameMap = {
     enName: 'Reverse String',
     difficulty: 'Easy',
     label: '',
-    hasThinkings: false,
+    hasThinkings: true,
     checked: false,
   },
   345: {
@@ -1924,7 +1924,7 @@ const nameMap = {
     enName: 'Reverse Vowels of a String',
     difficulty: 'Easy',
     label: '双指针',
-    hasThinkings: false,
+    hasThinkings: true,
     checked: false,
   },
   347: {
@@ -1932,7 +1932,7 @@ const nameMap = {
     enName: 'Top K Frequent Elements',
     difficulty: 'Medium',
     label: '桶排序',
-    hasThinkings: false,
+    hasThinkings: true,
     checked: false,
   },
   349: {
@@ -1940,14 +1940,14 @@ const nameMap = {
     enName: 'Intersection of Two Arrays',
     difficulty: 'Easy',
     label: '',
-    hasThinkings: false,
+    hasThinkings: true,
     checked: false,
   },
   350: {
     cnName: '两个数组的交集 II',
     enName: 'Intersection of Two Arrays II',
     difficulty: 'Easy',
-    label: '',
+    label: '哈希',
     hasThinkings: true,
     checked: true,
   },
@@ -1956,7 +1956,7 @@ const nameMap = {
     enName: 'Water and Jug Problem',
     difficulty: 'Medium',
     label: '数学方法',
-    hasThinkings: false,
+    hasThinkings: true,
     checked: false,
   },
   371: {
@@ -1972,7 +1972,7 @@ const nameMap = {
     enName: 'Find K Pairs with Smallest Sums',
     difficulty: 'Medium',
     label: '',
-    hasThinkings: false,
+    hasThinkings: true,
     checked: false,
   },
   374: {
@@ -1980,7 +1980,7 @@ const nameMap = {
     enName: 'Guess Number Higher or lower',
     difficulty: 'Easy',
     label: '二分查找',
-    hasThinkings: false,
+    hasThinkings: true,
     checked: false,
   },
   377: {
