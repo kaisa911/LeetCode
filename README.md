@@ -202,11 +202,11 @@ pie title 已完成的题目
 | 217 | [Contains Duplicate 存在重复元素](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/217-ContainsDuplicate.md) | Easy | 哈希 |
 | 218 | [The Skyline Problem 天际线问题](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/218-TheSkylineProblem.md) | Hard | 二分查找 |
 | 219 | [Contains Nearby Duplicate II 存在重复元素 II](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/219-ContainsNearbyDuplicateII.md) | Easy | 哈希 |
-| 220 | [Contains Nearby Duplicate III 存在重复元素 III](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Hard/220-ContainsNearbyDuplicateIII.md) | Hard | 桶排序 |
-| 221 | [Maximal Square 最大正方形](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/221-MaximalSquare.md) | Medium | 动态规划 |
-| 225 | [Implement Stack using Queues 用队列实现栈](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/225-ImplementStackusingQueues.md) | Easy |  |
-| 226 | [Invert Binary Tree 翻转二叉树](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/226-InvertBinaryTree.md) | Easy | 二叉树 |
-| 227 | [Basic Calculator II 基本计算器 II](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/227-BasicCalculatorII.md) | Medium | 栈 |
+| 220 | [Contains Nearby Duplicate III 存在重复元素 III](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/220-ContainsNearbyDuplicateIII.md) | Hard | 哈希表 |
+| 221 | [Maximal Square 最大正方形](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/221-MaximalSquare.md) | Medium | 动态规划 |
+| 225 | [Implement Stack using Queues 用队列实现栈](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/225-ImplementStackusingQueues.md) | Easy | 数组 |
+| 226 | [Invert Binary Tree 翻转二叉树](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/226-InvertBinaryTree.md) | Easy | 二叉树 |
+| 227 | [Basic Calculator II 基本计算器 II](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/227-BasicCalculatorII.md) | Medium | 栈 |
 | 228 | [Summary Ranges 汇总区间](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/228-SummaryRanges.md) | Easy | 贪心 |
 | 230 | [Kth Smallest Element in a BST 二叉搜索树中的第 K 小的元素](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/230-KthSmallestElementinaBST.md) | Medium | 二叉树 |
 | 231 | [Power of Two 2 的幂](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/231-PowerofTwo.md) | Easy |  |
@@ -263,7 +263,7 @@ pie title 已完成的题目
 | 365 | [Water and Jug Problem 水壶问题](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/365-WaterandJugProblem.md) | Medium | 数学方法 |
 | 371 | [Sum of Two Integers 两个整数相加](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/371-SumofTwoIntegers.md) | Easy | 位运算 |
 | 373 | [Find K Pairs with Smallest Sums 查找和最小的 K 对数字](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/373-FindKPairswithSmallestSums.md) | Medium |  |
-| 374 | [Guess Number Higher or lower 猜数字大小](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/374-GuessNumberHigherorlower.js) | Easy | 二分查找 |
+| 374 | [Guess Number Higher or lower 猜数字大小](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/374-GuessNumberHigherorlower.md) | Easy | 二分查找 |
 | 377 | [Combination Sum IV 组合总和 Ⅳ](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/377-CombinationSumIV.md) | Medium | 动态规划、回溯 |
 | 378 | [Kth Smallest Element in a Sorted Matrix 有序矩阵中第 K 小的元素](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/378-KthSmallestElementinaSortedMatrix.js) | Medium | 二分查找 |
 | 380 | [Insert Delete GetRandom O1 O(1)时间插入删除和获取随机元素](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/380-InsertDeleteGetRandomO1.js) | Medium | 哈希 |

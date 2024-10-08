@@ -1491,9 +1491,9 @@ const nameMap = {
     cnName: '存在重复元素 III',
     enName: 'Contains Nearby Duplicate III',
     difficulty: 'Hard',
-    label: '桶排序',
+    label: '哈希表',
     hasThinkings: true,
-    checked: false,
+    checked: true,
   },
   221: {
     cnName: '最大正方形',
@@ -1501,15 +1501,15 @@ const nameMap = {
     difficulty: 'Medium',
     label: '动态规划',
     hasThinkings: true,
-    checked: false,
+    checked: true,
   },
   225: {
     cnName: '用队列实现栈',
     enName: 'Implement Stack using Queues',
     difficulty: 'Easy',
-    label: '',
+    label: '数组',
     hasThinkings: true,
-    checked: false,
+    checked: true,
   },
   226: {
     cnName: '翻转二叉树',
@@ -1517,7 +1517,7 @@ const nameMap = {
     difficulty: 'Easy',
     label: '二叉树',
     hasThinkings: true,
-    checked: false,
+    checked: true,
   },
   227: {
     cnName: '基本计算器 II',
@@ -1525,7 +1525,7 @@ const nameMap = {
     difficulty: 'Medium',
     label: '栈',
     hasThinkings: true,
-    checked: false,
+    checked: true,
   },
   228: {
     cnName: '汇总区间',
