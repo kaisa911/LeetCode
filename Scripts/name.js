@@ -1996,7 +1996,7 @@ const nameMap = {
     enName: 'Kth Smallest Element in a Sorted Matrix',
     difficulty: 'Medium',
     label: '二分查找',
-    hasThinkings: false,
+    hasThinkings: true,
     checked: false,
   },
   380: {
@@ -2004,7 +2004,7 @@ const nameMap = {
     enName: 'Insert Delete GetRandom O1',
     difficulty: 'Medium',
     label: '哈希',
-    hasThinkings: false,
+    hasThinkings: true,
     checked: false,
   },
   381: {
@@ -2012,7 +2012,7 @@ const nameMap = {
     enName: 'Insert Delete GetRandom O(1) - Duplicates allowed',
     difficulty: 'Hard',
     label: '哈希',
-    hasThinkings: false,
+    hasThinkings: true,
     checked: false,
   },
   383: {
@@ -2028,7 +2028,7 @@ const nameMap = {
     enName: 'Shuffle an Array',
     difficulty: 'Medium',
     label: '数组',
-    hasThinkings: false,
+    hasThinkings: true,
     checked: false,
   },
   387: {
@@ -2044,7 +2044,7 @@ const nameMap = {
     enName: 'Find The Difference',
     difficulty: 'Easy',
     label: '',
-    hasThinkings: false,
+    hasThinkings: true,
     checked: false,
   },
   392: {
@@ -2060,7 +2060,7 @@ const nameMap = {
     enName: 'Decode String',
     difficulty: 'Medium',
     label: '',
-    hasThinkings: false,
+    hasThinkings: true,
     checked: false,
   },
   395: {
@@ -2068,7 +2068,7 @@ const nameMap = {
     enName: 'Longest Substring with At Least K Repeating Characters',
     difficulty: 'Medium',
     label: '分治',
-    hasThinkings: false,
+    hasThinkings: true,
     checked: false,
   },
   399: {
@@ -2076,7 +2076,7 @@ const nameMap = {
     enName: 'Evaluate Division',
     difficulty: 'Medium',
     label: '图、DFS',
-    hasThinkings: false,
+    hasThinkings: true,
     checked: false,
   },
   400: {
@@ -2092,7 +2092,7 @@ const nameMap = {
     enName: 'Convert a Number to Hexadecimal',
     difficulty: 'Easy',
     label: '',
-    hasThinkings: false,
+    hasThinkings: true,
     checked: false,
   },
   406: {
@@ -2100,7 +2100,7 @@ const nameMap = {
     enName: 'Queue Reconstruction by Height',
     difficulty: 'Medium',
     label: '数组',
-    hasThinkings: false,
+    hasThinkings: true,
     checked: false,
   },
   409: {
@@ -2116,7 +2116,7 @@ const nameMap = {
     enName: 'Fizz Buzz',
     difficulty: 'Easy',
     label: '字符串',
-    hasThinkings: false,
+    hasThinkings: true,
     checked: false,
   },
   414: {
@@ -2124,7 +2124,7 @@ const nameMap = {
     enName: 'Third Maximum Number',
     difficulty: 'Easy',
     label: '',
-    hasThinkings: false,
+    hasThinkings: true,
     checked: false,
   },
   415: {
@@ -2132,7 +2132,7 @@ const nameMap = {
     enName: 'Add Strings',
     difficulty: 'Easy',
     label: '模拟',
-    hasThinkings: false,
+    hasThinkings: true,
     checked: false,
   },
   416: {

@@ -265,23 +265,23 @@ pie title 已完成的题目
 | 373 | [Find K Pairs with Smallest Sums 查找和最小的 K 对数字](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/373-FindKPairswithSmallestSums.md) | Medium |  |
 | 374 | [Guess Number Higher or lower 猜数字大小](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/374-GuessNumberHigherorlower.md) | Easy | 二分查找 |
 | 377 | [Combination Sum IV 组合总和 Ⅳ](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/377-CombinationSumIV.md) | Medium | 动态规划、回溯 |
-| 378 | [Kth Smallest Element in a Sorted Matrix 有序矩阵中第 K 小的元素](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/378-KthSmallestElementinaSortedMatrix.js) | Medium | 二分查找 |
-| 380 | [Insert Delete GetRandom O1 O(1)时间插入删除和获取随机元素](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/380-InsertDeleteGetRandomO1.js) | Medium | 哈希 |
-| 381 | [Insert Delete GetRandom O(1) - Duplicates allowed O(1)时间插入删除和获取随机元素-允许重复](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Hard/381-InsertDeleteGetRandomO(1)-Duplicatesallowed.js) | Hard | 哈希 |
+| 378 | [Kth Smallest Element in a Sorted Matrix 有序矩阵中第 K 小的元素](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/378-KthSmallestElementinaSortedMatrix.md) | Medium | 二分查找 |
+| 380 | [Insert Delete GetRandom O1 O(1)时间插入删除和获取随机元素](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/380-InsertDeleteGetRandomO1.md) | Medium | 哈希 |
+| 381 | [Insert Delete GetRandom O(1) - Duplicates allowed O(1)时间插入删除和获取随机元素-允许重复](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Hard/381-InsertDeleteGetRandomO(1)-Duplicatesallowed.md) | Hard | 哈希 |
 | 383 | [Ransom Note 赎金信](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/383-RansomNote.md) | Easy | 哈希表 |
-| 384 | [Shuffle an Array 打乱数组](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/384-ShuffleanArray.js) | Medium | 数组 |
+| 384 | [Shuffle an Array 打乱数组](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/384-ShuffleanArray.md) | Medium | 数组 |
 | 387 | [First Unique Character in a String 字符串中的第一个唯一字符](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/387-FirstUniqueCharacterinaString.md) | Easy | 哈希 |
-| 389 | [Find The Difference 找不同](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/389-FindTheDifference.js) | Easy |  |
+| 389 | [Find The Difference 找不同](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/389-FindTheDifference.md) | Easy |  |
 | 392 | [Is Subsequence 判断子序列](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/392-IsSubsequence.md) | Easy | 子串 |
-| 394 | [Decode String 字符串解码](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/394-DecodeString.js) | Medium |  |
-| 395 | [Longest Substring with At Least K Repeating Characters 至少有 K 个充数字符的最长子串](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/395-LongestSubstringwithAtLeastKRepeatingCharacters.js) | Medium | 分治 |
-| 399 | [Evaluate Division 除法求值](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/399-EvaluateDivision.js) | Medium | 图、DFS |
+| 394 | [Decode String 字符串解码](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/394-DecodeString.md) | Medium |  |
+| 395 | [Longest Substring with At Least K Repeating Characters 至少有 K 个充数字符的最长子串](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/395-LongestSubstringwithAtLeastKRepeatingCharacters.md) | Medium | 分治 |
+| 399 | [Evaluate Division 除法求值](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/399-EvaluateDivision.md) | Medium | 图、DFS |
 | 400 | [Find Nth Digit 第 N 个数字](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/400-FindNthDigit.md) | Medium | 字符串 |
-| 405 | [Convert a Number to Hexadecimal 转 16 进制](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/405-ConvertaNumbertoHexadecimal.js) | Easy |  |
-| 406 | [Queue Reconstruction by Height 根据身高重建队列](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/406-QueueReconstructionbyHeight.js) | Medium | 数组 |
+| 405 | [Convert a Number to Hexadecimal 转 16 进制](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/405-ConvertaNumbertoHexadecimal.md) | Easy |  |
+| 406 | [Queue Reconstruction by Height 根据身高重建队列](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/406-QueueReconstructionbyHeight.md) | Medium | 数组 |
 | 409 | [Longest Palindrome 最长回文串](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/409-LongestPalindrome.md) | Easy | 贪心、字符串 |
-| 412 | [Fizz Buzz Fizz Buzz](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/412-FizzBuzz.js) | Easy | 字符串 |
-| 414 | [Third Maximum Number 第三大的数](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/414-ThirdMaximumNumber.js) | Easy |  |
+| 412 | [Fizz Buzz Fizz Buzz](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/412-FizzBuzz.md) | Easy | 字符串 |
+| 414 | [Third Maximum Number 第三大的数](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/414-ThirdMaximumNumber.md) | Easy |  |
 | 415 | [Add Strings 字符串相加](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/415-AddStrings.js) | Easy | 模拟 |
 | 416 | [Partition Equal Subset Sum 分割等和子集](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/416-PartitionEqualSubsetSum.js) | Medium | 动态规划 |
 | 435 | [Non-overlapping Intervals 无重叠区间](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/435-Non-overlappingIntervals.js) | Medium | 区间集合 |
