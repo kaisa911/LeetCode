@@ -282,16 +282,16 @@ pie title 已完成的题目
 | 409 | [Longest Palindrome 最长回文串](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/409-LongestPalindrome.md) | Easy | 贪心、字符串 |
 | 412 | [Fizz Buzz Fizz Buzz](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/412-FizzBuzz.md) | Easy | 字符串 |
 | 414 | [Third Maximum Number 第三大的数](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/414-ThirdMaximumNumber.md) | Easy |  |
-| 415 | [Add Strings 字符串相加](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/415-AddStrings.js) | Easy | 模拟 |
-| 416 | [Partition Equal Subset Sum 分割等和子集](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/416-PartitionEqualSubsetSum.js) | Medium | 动态规划 |
-| 435 | [Non-overlapping Intervals 无重叠区间](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/435-Non-overlappingIntervals.js) | Medium | 区间集合 |
-| 437 | [Path Sum III 路径总和 III](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/437-PathSumIII.js) | Medium | 二叉树、DFS |
-| 438 | [Find All Anagrams in a String 找到字符串中所有字母异位词](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/438-FindAllAnagramsinaString.js) | Medium | 滑动窗口 |
-| 440 | [Kth Smallest in Lexicographical Order 字典序的第 K 小数字](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Hard/440-KthSmallestinLexicographicalOrder.js) | Hard | 字典树 |
-| 441 | [Arranging Coins 排列硬币](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/441-ArrangingCoins.js) | Easy | 二分查找 |
-| 442 | [Find All Duplicates in an Array 数组中重复的数据](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/442-FindAllDuplicatesinanArray.js) | Medium | 数组 |
-| 443 | [String Compression 压缩字符串](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/443-StringCompression.js) | Medium | 字符串、双指针 |
-| 447 | [Number of Boomerangs 回旋镖的数量](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/447-NumberofBoomerangs.js) | Medium | 哈希 |
+| 415 | [Add Strings 字符串相加](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/415-AddStrings.md) | Easy | 模拟 |
+| 416 | [Partition Equal Subset Sum 分割等和子集](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/416-PartitionEqualSubsetSum.md) | Medium | 动态规划 |
+| 435 | [Non-overlapping Intervals 无重叠区间](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/435-Non-overlappingIntervals.md) | Medium | 区间集合 |
+| 437 | [Path Sum III 路径总和 III](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/437-PathSumIII.md) | Medium | 二叉树、DFS |
+| 438 | [Find All Anagrams in a String 找到字符串中所有字母异位词](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/438-FindAllAnagramsinaString.md) | Medium | 滑动窗口 |
+| 440 | [Kth Smallest in Lexicographical Order 字典序的第 K 小数字](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Hard/440-KthSmallestinLexicographicalOrder.md) | Hard | 字典树 |
+| 441 | [Arranging Coins 排列硬币](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/441-ArrangingCoins.md) | Easy | 二分查找 |
+| 442 | [Find All Duplicates in an Array 数组中重复的数据](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/442-FindAllDuplicatesinanArray.md) | Medium | 数组 |
+| 443 | [String Compression 压缩字符串](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/443-StringCompression.md) | Medium | 字符串、双指针 |
+| 447 | [Number of Boomerangs 回旋镖的数量](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/447-NumberofBoomerangs.md) | Medium | 哈希 |
 | 448 | [Find All Numbers Disappeared in an Array 找到所有数组中消失的数字](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/448-FindAllNumbersDisappearedinanArray.md) | Easy |  |
 | 450 | [Delete Node in a BST 删除二叉搜索树中的节点](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/450-DeleteNodeinaBST.js) | Medium | 二叉搜索树 |
 | 452 | [Minimum Number of Arrows to Burst Balloons 用最少数量的箭引爆气球](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/452-MinimumNumberofArrowstoBurstBalloons.js) | Medium | 区间集合 |

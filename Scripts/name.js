@@ -2140,7 +2140,7 @@ const nameMap = {
     enName: 'Partition Equal Subset Sum',
     difficulty: 'Medium',
     label: '动态规划',
-    hasThinkings: false,
+    hasThinkings: true,
     checked: false,
   },
   435: {
@@ -2148,7 +2148,7 @@ const nameMap = {
     enName: 'Non-overlapping Intervals',
     difficulty: 'Medium',
     label: '区间集合',
-    hasThinkings: false,
+    hasThinkings: true,
     checked: false,
   },
   437: {
@@ -2156,7 +2156,7 @@ const nameMap = {
     enName: 'Path Sum III',
     difficulty: 'Medium',
     label: '二叉树、DFS',
-    hasThinkings: false,
+    hasThinkings: true,
     checked: false,
   },
   438: {
@@ -2164,7 +2164,7 @@ const nameMap = {
     enName: 'Find All Anagrams in a String',
     difficulty: 'Medium',
     label: '滑动窗口',
-    hasThinkings: false,
+    hasThinkings: true,
     checked: false,
   },
   440: {
@@ -2172,7 +2172,7 @@ const nameMap = {
     enName: 'Kth Smallest in Lexicographical Order',
     difficulty: 'Hard',
     label: '字典树',
-    hasThinkings: false,
+    hasThinkings: true,
     checked: false,
   },
   441: {
@@ -2180,7 +2180,7 @@ const nameMap = {
     enName: 'Arranging Coins',
     difficulty: 'Easy',
     label: '二分查找',
-    hasThinkings: false,
+    hasThinkings: true,
     checked: false,
   },
   442: {
@@ -2188,7 +2188,7 @@ const nameMap = {
     enName: 'Find All Duplicates in an Array',
     difficulty: 'Medium',
     label: '数组',
-    hasThinkings: false,
+    hasThinkings: true,
     checked: false,
   },
   443: {
@@ -2196,7 +2196,7 @@ const nameMap = {
     enName: 'String Compression',
     difficulty: 'Medium',
     label: '字符串、双指针',
-    hasThinkings: false,
+    hasThinkings: true,
     checked: false,
   },
   447: {
@@ -2204,7 +2204,7 @@ const nameMap = {
     enName: 'Number of Boomerangs',
     difficulty: 'Medium',
     label: '哈希',
-    hasThinkings: false,
+    hasThinkings: true,
     checked: false,
   },
   448: {
@@ -2220,7 +2220,7 @@ const nameMap = {
     enName: 'Delete Node in a BST',
     difficulty: 'Medium',
     label: '二叉搜索树',
-    hasThinkings: false,
+    hasThinkings: true,
     checked: false,
   },
   452: {
