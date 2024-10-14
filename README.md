@@ -208,24 +208,24 @@ pie title 已完成的题目
 | 226 | [Invert Binary Tree 翻转二叉树](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/226-InvertBinaryTree.md) | Easy | 二叉树 |
 | 227 | [Basic Calculator II 基本计算器 II](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/227-BasicCalculatorII.md) | Medium | 栈 |
 | 228 | [Summary Ranges 汇总区间](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/228-SummaryRanges.md) | Easy | 贪心 |
-| 230 | [Kth Smallest Element in a BST 二叉搜索树中的第 K 小的元素](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/230-KthSmallestElementinaBST.md) | Medium | 二叉树 |
-| 231 | [Power of Two 2 的幂](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/231-PowerofTwo.md) | Easy |  |
-| 232 | [Implement Queue using Stacks 用栈实现队列](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/232-ImplementQueueusingStacks.md) | Easy |  |
-| 233 | [Number of Digit One 数字 1 的个数](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Hard/233-NumberofDigitOne.md) | Hard |  |
-| 234 | [Palindrome Linked List 回文链表](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/234-PalindromeLinkedList.md) | Easy | 双指针 |
-| 235 | [Lowest Common Ancestor of a Binary Search Tree 二叉搜索树的最近公共祖先](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/235-LowestCommonAncestorofaBinarySearchTree.md) | Medium | 二叉树 |
-| 236 | [Lowest Common Ancestor of a Binary Tree 二叉树的最近公共祖先](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/236-LowestCommonAncestorofaBinaryTree.md) | Medium | 二叉树 |
-| 237 | [Delete Node in a Linked List 删除链表中的节点](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/237-DeleteNodeinaLinkedList.md) | Medium | 链表 |
+| 230 | [Kth Smallest Element in a BST 二叉搜索树中的第 K 小的元素](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/230-KthSmallestElementinaBST.md) | Medium | 二叉树、栈 |
+| 231 | [Power of Two 2 的幂](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/231-PowerofTwo.md) | Easy | 位运算 |
+| 232 | [Implement Queue using Stacks 用栈实现队列](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/232-ImplementQueueusingStacks.md) | Easy | 栈 |
+| 233 | [Number of Digit One 数字 1 的个数](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/233-NumberofDigitOne.md) | Hard | 数学 |
+| 234 | [Palindrome Linked List 回文链表](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/234-PalindromeLinkedList.md) | Easy | 双指针 |
+| 235 | [Lowest Common Ancestor of a Binary Search Tree 二叉搜索树的最近公共祖先](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/235-LowestCommonAncestorofaBinarySearchTree.md) | Medium | 二叉树、递归 |
+| 236 | [Lowest Common Ancestor of a Binary Tree 二叉树的最近公共祖先](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/236-LowestCommonAncestorofaBinaryTree.md) | Medium | 二叉树 |
+| 237 | [Delete Node in a Linked List 删除链表中的节点](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/237-DeleteNodeinaLinkedList.md) | Medium | 链表 |
 | 238 | [Product of Array Except Self 除自身以外数组的乘积](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/238-ProductofArrayExceptSelf.md) | Medium | 数组 |
-| 239 | [Slide Window Maximum 滑动窗口最大值](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Hard/239-SlideWindowMaximum.md) | Hard | 子串 |
-| 240 | [Search a 2D Matrix II 搜索二维矩阵 II](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/240-Searcha2DMatrixII.md) | Medium | 二分查找 |
+| 239 | [Slide Window Maximum 滑动窗口最大值](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/239-SlideWindowMaximum.md) | Hard | 双端队列 |
+| 240 | [Search a 2D Matrix II 搜索二维矩阵 II](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/240-Searcha2DMatrixII.md) | Medium | 数组 |
 | 242 | [Valid Anagram 有效的字母异位词](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/242-ValidAnagram.md) | Easy | 字符串、哈希 |
 | 257 | [Binary Tree Paths 二叉树的所有路径](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/257-BinaryTreePaths.md) | Easy | 回溯 |
 | 258 | [Add Digits 各位相加](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/258-AddDigits.md) | Easy | 数学、递归 |
 | 260 | [Single Number III 只出现一次的数字 III](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/260-SingleNumberIII.md) | Medium | 位运算 |
 | 263 | [Ugly Number 丑数](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/263-UglyNumber.md) | Easy | 数学 |
-| 268 | [Missing Number 缺失数字](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/268-MissingNumber.md) | Easy |  |
-| 274 | [H-Index H 指数](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/274-H-Index.md) | Medium |  |
+| 268 | [Missing Number 缺失数字](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/268-MissingNumber.md) | Easy | 数学 |
+| 274 | [H-Index H 指数](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/274-H-Index.md) | Medium | 数组 |
 | 278 | [First Bad Version 第一个错误的版本](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/278-FirstBadVersion.md) | Easy | 二分查找 |
 | 279 | [Perfect Squares 完全平方数](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/279-PerfectSquares.md) | Medium | 动态规划 |
 | 283 | [Move Zeroes 移动零](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/283-MoveZeroes.md) | Easy | 双指针 |
@@ -293,7 +293,7 @@ pie title 已完成的题目
 | 443 | [String Compression 压缩字符串](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/443-StringCompression.md) | Medium | 字符串、双指针 |
 | 447 | [Number of Boomerangs 回旋镖的数量](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/447-NumberofBoomerangs.md) | Medium | 哈希 |
 | 448 | [Find All Numbers Disappeared in an Array 找到所有数组中消失的数字](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/448-FindAllNumbersDisappearedinanArray.md) | Easy |  |
-| 450 | [Delete Node in a BST 删除二叉搜索树中的节点](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/450-DeleteNodeinaBST.js) | Medium | 二叉搜索树 |
+| 450 | [Delete Node in a BST 删除二叉搜索树中的节点](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/450-DeleteNodeinaBST.md) | Medium | 二叉搜索树 |
 | 452 | [Minimum Number of Arrows to Burst Balloons 用最少数量的箭引爆气球](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/452-MinimumNumberofArrowstoBurstBalloons.js) | Medium | 区间集合 |
 | 454 | [4Sum II 四数相加 II](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/454-4SumII.js) | Medium | 哈希 |
 | 455 | [Assign Cookies 分发饼干](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/455-AssignCookies.md) | Easy |  |
