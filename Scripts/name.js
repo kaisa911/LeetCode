@@ -2228,7 +2228,7 @@ const nameMap = {
     enName: 'Minimum Number of Arrows to Burst Balloons',
     difficulty: 'Medium',
     label: '区间集合',
-    hasThinkings: false,
+    hasThinkings: true,
     checked: false,
   },
   454: {
@@ -2236,7 +2236,7 @@ const nameMap = {
     enName: '4Sum II',
     difficulty: 'Medium',
     label: '哈希',
-    hasThinkings: false,
+    hasThinkings: true,
     checked: false,
   },
   455: {
@@ -2252,7 +2252,7 @@ const nameMap = {
     enName: '132 Pattern',
     difficulty: 'Medium',
     label: '枚举',
-    hasThinkings: false,
+    hasThinkings: true,
     checked: false,
   },
   458: {
@@ -2260,7 +2260,7 @@ const nameMap = {
     enName: 'Poor Pigs',
     difficulty: 'Hard',
     label: '',
-    hasThinkings: false,
+    hasThinkings: true,
     checked: false,
   },
   459: {
@@ -2271,12 +2271,20 @@ const nameMap = {
     hasThinkings: true,
     checked: false,
   },
+  460: {
+    cnName: 'LFU 缓存',
+    enName: 'LFU Cache',
+    difficulty: 'Hard',
+    label: '哈希，链表',
+    hasThinkings: true,
+    checked: false,
+  },
   461: {
     cnName: '汉明距离',
     enName: 'Hamming Distance',
     difficulty: 'Easy',
     label: '位运算',
-    hasThinkings: false,
+    hasThinkings: true,
     checked: false,
   },
   462: {
@@ -2284,7 +2292,7 @@ const nameMap = {
     enName: 'Minimum Move to Equal Array Elements II',
     difficulty: 'Medium',
     label: '排序',
-    hasThinkings: false,
+    hasThinkings: true,
     checked: false,
   },
   463: {
@@ -2292,7 +2300,7 @@ const nameMap = {
     enName: 'Island Perimeter',
     difficulty: 'Easy',
     label: 'DFS',
-    hasThinkings: false,
+    hasThinkings: true,
     checked: false,
   },
   464: {
@@ -2300,7 +2308,7 @@ const nameMap = {
     enName: 'Can I Win',
     difficulty: 'Easy',
     label: '',
-    hasThinkings: false,
+    hasThinkings: true,
     checked: false,
   },
   485: {
@@ -2308,7 +2316,7 @@ const nameMap = {
     enName: 'Find Max Consecutive Ones',
     difficulty: 'Easy',
     label: '',
-    hasThinkings: false,
+    hasThinkings: true,
     checked: false,
   },
   486: {
@@ -2316,7 +2324,7 @@ const nameMap = {
     enName: 'Predict the Winner',
     difficulty: 'Medium',
     label: '动态规划',
-    hasThinkings: false,
+    hasThinkings: true,
     checked: false,
   },
   491: {
@@ -2324,7 +2332,7 @@ const nameMap = {
     enName: 'Non- decreasing Subsequence',
     difficulty: 'Medium',
     label: 'DFS',
-    hasThinkings: false,
+    hasThinkings: true,
     checked: false,
   },
   494: {
@@ -2332,7 +2340,7 @@ const nameMap = {
     enName: 'Target Sum',
     difficulty: 'Medium',
     label: '回溯',
-    hasThinkings: false,
+    hasThinkings: true,
     checked: false,
   },
   496: {
@@ -2340,7 +2348,7 @@ const nameMap = {
     enName: 'Next Greater Element I',
     difficulty: 'Easy',
     label: '哈希',
-    hasThinkings: false,
+    hasThinkings: true,
     checked: false,
   },
   509: {
@@ -2372,7 +2380,7 @@ const nameMap = {
     enName: 'Minesweeper',
     difficulty: 'Medium',
     label: '',
-    hasThinkings: false,
+    hasThinkings: true,
     checked: false,
   },
   532: {
@@ -2388,7 +2396,7 @@ const nameMap = {
     enName: 'Convert BST to Greater Tree',
     difficulty: 'Medium',
     label: '二叉树',
-    hasThinkings: false,
+    hasThinkings: true,
     checked: false,
   },
   541: {
@@ -2404,7 +2412,7 @@ const nameMap = {
     enName: 'Diameter of Binary Tree',
     difficulty: 'Easy',
     label: '二叉树',
-    hasThinkings: false,
+    hasThinkings: true,
     checked: false,
   },
   547: {
@@ -2420,7 +2428,7 @@ const nameMap = {
     enName: 'Student Attendance Record I',
     difficulty: 'Easy',
     label: '',
-    hasThinkings: false,
+    hasThinkings: true,
     checked: false,
   },
   552: {
@@ -2476,7 +2484,7 @@ const nameMap = {
     enName: 'Can Place Flowers',
     difficulty: 'Easy',
     label: '贪心',
-    hasThinkings: false,
+    hasThinkings: true,
     checked: false,
   },
   606: {
@@ -2500,7 +2508,7 @@ const nameMap = {
     enName: 'Merge Two Binary Tree',
     difficulty: 'Easy',
     label: '二叉树',
-    hasThinkings: false,
+    hasThinkings: true,
     checked: false,
   },
   621: {
@@ -2508,7 +2516,7 @@ const nameMap = {
     enName: 'Task Scheduler',
     difficulty: 'Medium',
     label: '',
-    hasThinkings: false,
+    hasThinkings: true,
     checked: false,
   },
   628: {
@@ -2524,7 +2532,7 @@ const nameMap = {
     enName: 'Palindromic Substrings',
     difficulty: 'Medium',
     label: '',
-    hasThinkings: false,
+    hasThinkings: true,
     checked: false,
   },
   643: {
@@ -2532,7 +2540,7 @@ const nameMap = {
     enName: 'Maximum Average Subarray I',
     difficulty: 'Easy',
     label: '',
-    hasThinkings: false,
+    hasThinkings: true,
     checked: false,
   },
   647: {
@@ -2540,7 +2548,7 @@ const nameMap = {
     enName: 'Palindromic Substrings',
     difficulty: 'Medium',
     label: 'Manacher 算法',
-    hasThinkings: false,
+    hasThinkings: true,
     checked: false,
   },
   649: {
@@ -2548,7 +2556,7 @@ const nameMap = {
     enName: 'Dota2 Senate',
     difficulty: 'Medium',
     label: '队列',
-    hasThinkings: false,
+    hasThinkings: true,
     checked: false,
   },
   653: {
