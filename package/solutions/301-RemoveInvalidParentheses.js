@@ -1,16 +1,16 @@
 var removeInvalidParentheses = function (s) {
-  const ans = [];
+  const res = [];
   let currSet = new Set();
 
   currSet.add(s);
   while (true) {
     for (const str of currSet) {
       if (isValid(str)) {
-        ans.push(str);
+        res.push(str);
       }
     }
-    if (ans.length > 0) {
-      return ans;
+    if (res.length > 0) {
+      return res;
     }
     const nextSet = new Set();
     for (const str of currSet) {

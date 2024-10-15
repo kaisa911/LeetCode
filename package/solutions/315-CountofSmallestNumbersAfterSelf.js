@@ -34,3 +34,31 @@ const countSmaller = (nums) => {
   mergeSort(0, indexedNums.length);
   return counts;
 };
+
+const countSmaller = (nums) => {
+  const n = nums.length;
+  const counts = new Array(n).fill(0);
+  const sortedNums = new Array(n);
+  const bit = new Array(n + 1).fill(0);
+
+  for (let i = n - 1; i >= 0; i--) {
+    sortedNums[i] = nums[i];
+  }
+
+  for (let i = n - 1; i >= 0; i--) {
+    const num = sortedNums[i];
+    counts[i] = bit[0];
+    let j = num;
+    while (j > 0) {
+      counts[i] += bit[j];
+      j -= j & -j;
+    }
+    let j = num;
+    while (j <= n) {
+      bit[j]++;
+      j += j & -j;
+    }
+  }
+
+  return counts;
+};
