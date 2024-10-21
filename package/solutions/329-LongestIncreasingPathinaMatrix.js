@@ -2,7 +2,7 @@ var longestIncreasingPath = function (matrix) {
   const rowLen = matrix.length;
   const colLen = matrix[0].length;
   const dp = Array.from({ length: rowLen }, () => new Array(colLen).fill(0));
-  let ans = 0;
+  let res = 0;
 
   // 第一步： 从一点往4个方向递归：碰到比他大的就加一，否则就加0，结束返回；
   function helper(i, j, lastNum) {
@@ -18,8 +18,8 @@ var longestIncreasingPath = function (matrix) {
 
   for (let i = 0; i < rowLen; i++) {
     for (let j = 0; j < colLen; j++) {
-      ans = Math.max(ans, helper(i, j, -1));
+      res = Math.max(res, helper(i, j, -1));
     }
   }
-  return ans;
+  return res;
 };
