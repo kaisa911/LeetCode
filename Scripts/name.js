@@ -2956,7 +2956,7 @@ const nameMap = {
     enName: 'Max Consecutive Ones III',
     difficulty: 'Medium',
     label: '滑动窗口',
-    hasThinkings: false,
+    hasThinkings: true,
     checked: false,
   },
   1021: {
@@ -2964,7 +2964,7 @@ const nameMap = {
     enName: 'Remove Outer Parentheses',
     difficulty: 'Easy',
     label: '',
-    hasThinkings: false,
+    hasThinkings: true,
     checked: false,
   },
   1022: {
@@ -2972,7 +2972,7 @@ const nameMap = {
     enName: 'Sum of Root To Leaf Binary Numbers',
     difficulty: 'Easy',
     label: '',
-    hasThinkings: false,
+    hasThinkings: true,
     checked: false,
   },
   1053: {
@@ -2988,7 +2988,7 @@ const nameMap = {
     enName: 'Greatest Common Divisor of Strings',
     difficulty: 'Easy',
     label: '字符串、GCD',
-    hasThinkings: false,
+    hasThinkings: true,
     checked: false,
   },
   1108: {
@@ -2996,7 +2996,7 @@ const nameMap = {
     enName: 'Defanging an Ip Address',
     difficulty: 'Easy',
     label: '字符串',
-    hasThinkings: false,
+    hasThinkings: true,
     checked: false,
   },
   1122: {
@@ -3012,7 +3012,7 @@ const nameMap = {
     enName: 'Number of Equivalent Domino Pairs',
     difficulty: 'Easy',
     label: '数组',
-    hasThinkings: false,
+    hasThinkings: true,
     checked: false,
   },
   1137: {
@@ -3028,7 +3028,7 @@ const nameMap = {
     enName: 'Longest Common Subsequence',
     difficulty: 'Medium',
     label: '',
-    hasThinkings: false,
+    hasThinkings: true,
     checked: false,
   },
   1161: {
@@ -3036,7 +3036,7 @@ const nameMap = {
     enName: 'Maximum Level Sum of a Binary Tree',
     difficulty: 'Medium',
     label: '二叉树、BFS',
-    hasThinkings: false,
+    hasThinkings: true,
     checked: false,
   },
   1186: {
@@ -3060,7 +3060,7 @@ const nameMap = {
     enName: 'Minimum Abs Difference',
     difficulty: 'Easy',
     label: '',
-    hasThinkings: false,
+    hasThinkings: true,
     checked: false,
   },
   1207: {
@@ -3068,7 +3068,7 @@ const nameMap = {
     enName: 'Unique Number of Occurrences',
     difficulty: 'Easy',
     label: '哈希',
-    hasThinkings: false,
+    hasThinkings: true,
     checked: false,
   },
   1217: {
@@ -3076,7 +3076,7 @@ const nameMap = {
     enName: 'Minimum Cost to Move Chips to The Same Position',
     difficulty: 'Easy',
     label: '',
-    hasThinkings: false,
+    hasThinkings: true,
     checked: false,
   },
   1227: {
@@ -3092,7 +3092,7 @@ const nameMap = {
     enName: 'Shift 2D Grid',
     difficulty: 'Easy',
     label: '',
-    hasThinkings: false,
+    hasThinkings: true,
     checked: false,
   },
   1268: {
@@ -3100,7 +3100,7 @@ const nameMap = {
     enName: 'Search Suggestion System',
     difficulty: 'Medium',
     label: '前缀树',
-    hasThinkings: false,
+    hasThinkings: true,
     checked: false,
   },
   1289: {
@@ -3108,7 +3108,7 @@ const nameMap = {
     enName: 'Minimum Falling Path Sum II',
     difficulty: 'Hard',
     label: '',
-    hasThinkings: false,
+    hasThinkings: true,
     checked: false,
   },
   1318: {
@@ -3116,7 +3116,7 @@ const nameMap = {
     enName: 'Minimum Flips to Make a OR b Equal to c',
     difficulty: 'Medium',
     label: '位运算',
-    hasThinkings: false,
+    hasThinkings: true,
     checked: false,
   },
   1356: {
@@ -3124,7 +3124,7 @@ const nameMap = {
     enName: 'Sort Integers by The Number of 1 Bits',
     difficulty: 'Easy',
     label: '位运算',
-    hasThinkings: false,
+    hasThinkings: true,
     checked: false,
   },
   1365: {
@@ -3132,7 +3132,7 @@ const nameMap = {
     enName: 'How Many Numbers Are Smaller Than the Current Number',
     difficulty: 'Easy',
     label: '',
-    hasThinkings: false,
+    hasThinkings: true,
     checked: false,
   },
   1370: {
@@ -3140,7 +3140,7 @@ const nameMap = {
     enName: 'Increasing Decreasing String',
     difficulty: 'Easy',
     label: '桶计数',
-    hasThinkings: false,
+    hasThinkings: true,
     checked: false,
   },
   1372: {
@@ -3148,7 +3148,7 @@ const nameMap = {
     enName: 'Longest ZigZag Path in a Binary Tree',
     difficulty: 'Medium',
     label: '二叉树、DFS',
-    hasThinkings: false,
+    hasThinkings: true,
     checked: false,
   },
   1388: {
@@ -3156,7 +3156,7 @@ const nameMap = {
     enName: 'Pizza With 3n Slices',
     difficulty: 'Hard',
     label: '',
-    hasThinkings: false,
+    hasThinkings: true,
     checked: false,
   },
   1403: {
@@ -3164,7 +3164,7 @@ const nameMap = {
     enName: 'Minimum Subsequence in Non-Increasing Order',
     difficulty: 'Easy',
     label: '贪心',
-    hasThinkings: false,
+    hasThinkings: true,
     checked: false,
   },
   1413: {
@@ -3172,7 +3172,7 @@ const nameMap = {
     enName: 'Minimum Value to Get Positive Step by Step Sum',
     difficulty: 'Easy',
     label: '',
-    hasThinkings: false,
+    hasThinkings: true,
     checked: false,
   },
   1431: {
@@ -3188,7 +3188,7 @@ const nameMap = {
     enName: 'Consecutive Characters',
     difficulty: 'Easy',
     label: '数组',
-    hasThinkings: false,
+    hasThinkings: true,
     checked: false,
   },
   1448: {
@@ -3196,7 +3196,7 @@ const nameMap = {
     enName: 'Count Good Nodes in Binary Tree',
     difficulty: 'Medium',
     label: '二叉树、DFS',
-    hasThinkings: false,
+    hasThinkings: true,
     checked: false,
   },
   1451: {
@@ -3204,7 +3204,7 @@ const nameMap = {
     enName: 'Rearrange Words in a Sentence',
     difficulty: 'Medium',
     label: '字符串',
-    hasThinkings: false,
+    hasThinkings: true,
     checked: false,
   },
   1456: {
@@ -3212,7 +3212,7 @@ const nameMap = {
     enName: 'Maximum Number of Vowels in a Substring of Given Length',
     difficulty: 'Medium',
     label: '滑动窗口',
-    hasThinkings: false,
+    hasThinkings: true,
     checked: false,
   },
   1466: {
@@ -3220,7 +3220,7 @@ const nameMap = {
     enName: 'Reorder Routes to Make All Paths Lead to the City Zero',
     difficulty: 'Medium',
     label: '图、DFS',
-    hasThinkings: false,
+    hasThinkings: true,
     checked: false,
   },
   1470: {
@@ -3228,7 +3228,7 @@ const nameMap = {
     enName: 'Shuffle the Array',
     difficulty: 'Easy',
     label: '数组',
-    hasThinkings: false,
+    hasThinkings: true,
     checked: false,
   },
   1493: {
@@ -3236,7 +3236,7 @@ const nameMap = {
     enName: 'Longest Subarray of 1’s After Deleting One Element',
     difficulty: 'Medium',
     label: '滑动窗口',
-    hasThinkings: false,
+    hasThinkings: true,
     checked: false,
   },
   1518: {
@@ -3244,7 +3244,7 @@ const nameMap = {
     enName: 'Water Bottles',
     difficulty: 'Easy',
     label: '数学方法',
-    hasThinkings: false,
+    hasThinkings: true,
     checked: false,
   },
   1528: {
@@ -3252,7 +3252,7 @@ const nameMap = {
     enName: 'Shuffle String',
     difficulty: 'Easy',
     label: '数组',
-    hasThinkings: false,
+    hasThinkings: true,
     checked: false,
   },
   1572: {
@@ -3260,7 +3260,7 @@ const nameMap = {
     enName: 'Matrix Diagonal Sum',
     difficulty: 'Easy',
     label: '',
-    hasThinkings: false,
+    hasThinkings: true,
     checked: false,
   },
   1576: {
@@ -3268,7 +3268,7 @@ const nameMap = {
     enName: 'Replace All ?‘s to Avoid Consecutive Repeating Characters',
     difficulty: 'Easy',
     label: '数组',
-    hasThinkings: false,
+    hasThinkings: true,
     checked: false,
   },
   1640: {
@@ -3276,7 +3276,7 @@ const nameMap = {
     enName: 'Check Array Formation Through Concatenation',
     difficulty: 'Easy',
     label: '',
-    hasThinkings: false,
+    hasThinkings: true,
     checked: false,
   },
   1652: {
@@ -3292,7 +3292,7 @@ const nameMap = {
     enName: 'Determine if Two Strings Are Close',
     difficulty: 'Medium',
     label: '哈希',
-    hasThinkings: false,
+    hasThinkings: true,
     checked: false,
   },
   1679: {
@@ -3300,7 +3300,7 @@ const nameMap = {
     enName: 'Max Number of K-Sum Pairs',
     difficulty: 'Medium',
     label: '双指针',
-    hasThinkings: false,
+    hasThinkings: true,
     checked: false,
   },
   1726: {

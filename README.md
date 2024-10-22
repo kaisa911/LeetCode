@@ -386,49 +386,49 @@ pie title 已完成的题目
 | 994 | [Rotting Oranges 腐烂的橘子](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/994-RottingOranges.md) | Medium | 图、BFS |
 | 1002 | [Find Common Characters 查找常用字符](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/1002-FindCommonCharacters.js) | Easy |  |
 | 1004 | [Max Consecutive Ones III 最大连续1的个数 III](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/1004-MaxConsecutiveOnesIII.js) | Medium | 滑动窗口 |
-| 1021 | [Remove Outer Parentheses 删除最外层的括号](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/1021-RemoveOuterParentheses.js) | Easy |  |
-| 1022 | [Sum of Root To Leaf Binary Numbers 从根到叶的二进制数之和](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/1022-SumofRootToLeafBinaryNumbers.js) | Easy |  |
+| 1021 | [Remove Outer Parentheses 删除最外层的括号](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/1021-RemoveOuterParentheses.md) | Easy |  |
+| 1022 | [Sum of Root To Leaf Binary Numbers 从根到叶的二进制数之和](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/1022-SumofRootToLeafBinaryNumbers.md) | Easy |  |
 | 1053 | [Previous Permutation With One Swap 交换一次的先前排列](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/1053-PreviousPermutationWithOneSwap.md) | Medium | 数组 |
-| 1071 | [Greatest Common Divisor of Strings 字符串的最大公因子](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/1071-GreatestCommonDivisorofStrings.js) | Easy | 字符串、GCD |
-| 1108 | [Defanging an Ip Address IP 地址无效化](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/1108-DefanginganIpAddress.js) | Easy | 字符串 |
+| 1071 | [Greatest Common Divisor of Strings 字符串的最大公因子](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/1071-GreatestCommonDivisorofStrings.md) | Easy | 字符串、GCD |
+| 1108 | [Defanging an Ip Address IP 地址无效化](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/1108-DefanginganIpAddress.md) | Easy | 字符串 |
 | 1122 | [Relative Sort Array 数组的相对排序](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/1122-RelativeSortArray.md) | Easy |  |
-| 1128 | [Number of Equivalent Domino Pairs 等价多米诺骨牌对的数量](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/1128-NumberofEquivalentDominoPairs.js) | Easy | 数组 |
+| 1128 | [Number of Equivalent Domino Pairs 等价多米诺骨牌对的数量](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/1128-NumberofEquivalentDominoPairs.md) | Easy | 数组 |
 | 1137 | [N-th Tribonacci Number 第 N 个泰波那契数](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/1137-N-thTribonacciNumber.md) | Easy |  |
-| 1143 | [Longest Common Subsequence 最长公共子序列](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/1143-LongestCommonSubsequence.js) | Medium |  |
-| 1161 | [Maximum Level Sum of a Binary Tree 最大层内元素和](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/1161-MaximumLevelSumofaBinaryTree.js) | Medium | 二叉树、BFS |
+| 1143 | [Longest Common Subsequence 最长公共子序列](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/1143-LongestCommonSubsequence.md) | Medium |  |
+| 1161 | [Maximum Level Sum of a Binary Tree 最大层内元素和](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/1161-MaximumLevelSumofaBinaryTree.md) | Medium | 二叉树、BFS |
 | 1186 | [Maximum Subarray Sum with One Deletion 删除一次得到子数组最大和](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/1186-MaximumSubarraySumwithOneDeletion.md) | Medium | 动态规划 |
 | 1191 | [K-Concatenation Maximum Sum K 次串联后最大子数组之和](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/1191-K-ConcatenationMaximumSum.md) | Medium | Kadane 算法 |
-| 1200 | [Minimum Abs Difference 最小绝对差](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/1200-MinimumAbsDifference.js) | Easy |  |
-| 1207 | [Unique Number of Occurrences 独一无二的出现次数](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/1207-UniqueNumberofOccurrences.js) | Easy | 哈希 |
-| 1217 | [Minimum Cost to Move Chips to The Same Position 玩筹码](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/1217-MinimumCosttoMoveChipstoTheSamePosition.js) | Easy |  |
+| 1200 | [Minimum Abs Difference 最小绝对差](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/1200-MinimumAbsDifference.md) | Easy |  |
+| 1207 | [Unique Number of Occurrences 独一无二的出现次数](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/1207-UniqueNumberofOccurrences.md) | Easy | 哈希 |
+| 1217 | [Minimum Cost to Move Chips to The Same Position 玩筹码](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/1217-MinimumCosttoMoveChipstoTheSamePosition.md) | Easy |  |
 | 1227 | [Airplane Seat Assignment Probability 飞机座位分配概率](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/1227-AirplaneSeatAssignmentProbability.md) | Medium | 数学 |
-| 1260 | [Shift 2D Grid 二维网格迁移](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/1260-Shift2DGrid.js) | Easy |  |
-| 1268 | [Search Suggestion System 搜索推荐系统](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/1268-SearchSuggestionSystem.js) | Medium | 前缀树 |
-| 1289 | [Minimum Falling Path Sum II 下降路径最小和 II](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Hard/1289-MinimumFallingPathSumII.js) | Hard |  |
-| 1318 | [Minimum Flips to Make a OR b Equal to c 或运算的最小翻转次数](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/1318-MinimumFlipstoMakeaORbEqualtoc.js) | Medium | 位运算 |
-| 1356 | [Sort Integers by The Number of 1 Bits 根据数字二进制下1的数目排序](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/1356-SortIntegersbyTheNumberof1Bits.js) | Easy | 位运算 |
-| 1365 | [How Many Numbers Are Smaller Than the Current Number 有多少小于当前数字的数字](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/1365-HowManyNumbersAreSmallerThantheCurrentNumber.js) | Easy |  |
-| 1370 | [Increasing Decreasing String 上升下降字符串](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/1370-IncreasingDecreasingString.js) | Easy | 桶计数 |
-| 1372 | [Longest ZigZag Path in a Binary Tree 二叉树中的最长交错路径](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/1372-LongestZigZagPathinaBinaryTree.js) | Medium | 二叉树、DFS |
-| 1388 | [Pizza With 3n Slices 3n 块披萨](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Hard/1388-PizzaWith3nSlices.js) | Hard |  |
-| 1403 | [Minimum Subsequence in Non-Increasing Order 非递增顺序的最小子序列](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/1403-MinimumSubsequenceinNon-IncreasingOrder.js) | Easy | 贪心 |
-| 1413 | [Minimum Value to Get Positive Step by Step Sum 逐步求和得到正数的最小值](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/1413-MinimumValuetoGetPositiveStepbyStepSum.js) | Easy |  |
+| 1260 | [Shift 2D Grid 二维网格迁移](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/1260-Shift2DGrid.md) | Easy |  |
+| 1268 | [Search Suggestion System 搜索推荐系统](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/1268-SearchSuggestionSystem.md) | Medium | 前缀树 |
+| 1289 | [Minimum Falling Path Sum II 下降路径最小和 II](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Hard/1289-MinimumFallingPathSumII.md) | Hard |  |
+| 1318 | [Minimum Flips to Make a OR b Equal to c 或运算的最小翻转次数](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/1318-MinimumFlipstoMakeaORbEqualtoc.md) | Medium | 位运算 |
+| 1356 | [Sort Integers by The Number of 1 Bits 根据数字二进制下1的数目排序](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/1356-SortIntegersbyTheNumberof1Bits.md) | Easy | 位运算 |
+| 1365 | [How Many Numbers Are Smaller Than the Current Number 有多少小于当前数字的数字](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/1365-HowManyNumbersAreSmallerThantheCurrentNumber.md) | Easy |  |
+| 1370 | [Increasing Decreasing String 上升下降字符串](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/1370-IncreasingDecreasingString.md) | Easy | 桶计数 |
+| 1372 | [Longest ZigZag Path in a Binary Tree 二叉树中的最长交错路径](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/1372-LongestZigZagPathinaBinaryTree.md) | Medium | 二叉树、DFS |
+| 1388 | [Pizza With 3n Slices 3n 块披萨](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Hard/1388-PizzaWith3nSlices.md) | Hard |  |
+| 1403 | [Minimum Subsequence in Non-Increasing Order 非递增顺序的最小子序列](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/1403-MinimumSubsequenceinNon-IncreasingOrder.md) | Easy | 贪心 |
+| 1413 | [Minimum Value to Get Positive Step by Step Sum 逐步求和得到正数的最小值](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/1413-MinimumValuetoGetPositiveStepbyStepSum.md) | Easy |  |
 | 1431 | [Kids With the Greatest Number of Candies 拥有最多糖果的孩子](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/1431-KidsWiththeGreatestNumberofCandies.md) | Easy |  |
-| 1446 | [Consecutive Characters 连续字符](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/1446-ConsecutiveCharacters.js) | Easy | 数组 |
-| 1448 | [Count Good Nodes in Binary Tree 统计二叉树中好节点的数目](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/1448-CountGoodNodesinBinaryTree.js) | Medium | 二叉树、DFS |
-| 1451 | [Rearrange Words in a Sentence 重新排列句子中的单词](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/1451-RearrangeWordsinaSentence.js) | Medium | 字符串 |
-| 1456 | [Maximum Number of Vowels in a Substring of Given Length 定长子串中元音的最大数目](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/1456-MaximumNumberofVowelsinaSubstringofGivenLength.js) | Medium | 滑动窗口 |
-| 1466 | [Reorder Routes to Make All Paths Lead to the City Zero 重新规划路线](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/1466-ReorderRoutestoMakeAllPathsLeadtotheCityZero.js) | Medium | 图、DFS |
-| 1470 | [Shuffle the Array 重新排列数组](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/1470-ShuffletheArray.js) | Easy | 数组 |
-| 1493 | [Longest Subarray of 1’s After Deleting One Element 删掉一个元素以后全为1的最长子数组](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/1493-LongestSubarrayof1’sAfterDeletingOneElement.js) | Medium | 滑动窗口 |
-| 1518 | [Water Bottles 换水问题](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/1518-WaterBottles.js) | Easy | 数学方法 |
-| 1528 | [Shuffle String 重新排列字符串](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/1528-ShuffleString.js) | Easy | 数组 |
-| 1572 | [Matrix Diagonal Sum 矩阵对角线的元素和](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/1572-MatrixDiagonalSum.js) | Easy |  |
-| 1576 | [Replace All ?‘s to Avoid Consecutive Repeating Characters 替换所有的问号](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/1576-ReplaceAll?‘stoAvoidConsecutiveRepeatingCharacters.js) | Easy | 数组 |
-| 1640 | [Check Array Formation Through Concatenation 能否连接成数组](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/1640-CheckArrayFormationThroughConcatenation.js) | Easy |  |
+| 1446 | [Consecutive Characters 连续字符](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/1446-ConsecutiveCharacters.md) | Easy | 数组 |
+| 1448 | [Count Good Nodes in Binary Tree 统计二叉树中好节点的数目](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/1448-CountGoodNodesinBinaryTree.md) | Medium | 二叉树、DFS |
+| 1451 | [Rearrange Words in a Sentence 重新排列句子中的单词](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/1451-RearrangeWordsinaSentence.md) | Medium | 字符串 |
+| 1456 | [Maximum Number of Vowels in a Substring of Given Length 定长子串中元音的最大数目](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/1456-MaximumNumberofVowelsinaSubstringofGivenLength.md) | Medium | 滑动窗口 |
+| 1466 | [Reorder Routes to Make All Paths Lead to the City Zero 重新规划路线](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/1466-ReorderRoutestoMakeAllPathsLeadtotheCityZero.md) | Medium | 图、DFS |
+| 1470 | [Shuffle the Array 重新排列数组](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/1470-ShuffletheArray.md) | Easy | 数组 |
+| 1493 | [Longest Subarray of 1’s After Deleting One Element 删掉一个元素以后全为1的最长子数组](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/1493-LongestSubarrayof1’sAfterDeletingOneElement.md) | Medium | 滑动窗口 |
+| 1518 | [Water Bottles 换水问题](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/1518-WaterBottles.md) | Easy | 数学方法 |
+| 1528 | [Shuffle String 重新排列字符串](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/1528-ShuffleString.md) | Easy | 数组 |
+| 1572 | [Matrix Diagonal Sum 矩阵对角线的元素和](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/1572-MatrixDiagonalSum.md) | Easy |  |
+| 1576 | [Replace All ?‘s to Avoid Consecutive Repeating Characters 替换所有的问号](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/1576-ReplaceAll?‘stoAvoidConsecutiveRepeatingCharacters.md) | Easy | 数组 |
+| 1640 | [Check Array Formation Through Concatenation 能否连接成数组](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/1640-CheckArrayFormationThroughConcatenation.md) | Easy |  |
 | 1652 | [Defuse the Bomb 拆炸弹](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/1652-DefusetheBomb.md) | Easy | 滑动窗口 |
-| 1657 | [Determine if Two Strings Are Close 确定两个字符串是否接近](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/1657-DetermineifTwoStringsAreClose.js) | Medium | 哈希 |
-| 1679 | [Max Number of K-Sum Pairs K 和数对的最大数目](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/1679-MaxNumberofK-SumPairs.js) | Medium | 双指针 |
+| 1657 | [Determine if Two Strings Are Close 确定两个字符串是否接近](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/1657-DetermineifTwoStringsAreClose.md) | Medium | 哈希 |
+| 1679 | [Max Number of K-Sum Pairs K 和数对的最大数目](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/1679-MaxNumberofK-SumPairs.md) | Medium | 双指针 |
 | 1726 | [Tuple with Same Product 同积元组](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/1726-TuplewithSameProduct.md) | Medium | 哈希 |
 | 1732 | [Find the Highest Altitude 找到最高海拔](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/1732-FindtheHighestAltitude.md) | Easy | 前缀和 |
 | 1768 | [Merge String Alternatively 交替合并字符串](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/1768-MergeStringAlternatively.md) | Easy | 字符串 |
