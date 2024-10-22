@@ -243,16 +243,16 @@ pie title 已完成的题目
 | 312 | [Burst Balloons 戳气球](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/312-BurstBalloons.md) | Hard | 三维动态规划 |
 | 315 | [Count of Smallest Numbers After Self 计算右侧小于当前元素的个数](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/315-CountofSmallestNumbersAfterSelf.md) | Hard | 归并排序、树状数组 |
 | 319 | [Bulb Switcher 灯泡开关](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/319-BulbSwitcher.md) | Medium | 数学 |
-| 322 | [Coin Change 零钱兑换](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/322-CoinChange.md) | Medium | 动态规划 |
-| 324 | [Wiggle Sort II 摆动排序 II](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/324-WiggleSortII.md) | Medium | 排序 |
-| 326 | [Power of Three 3 的幂](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/326-PowerofThree.md) | Easy |  |
-| 328 | [Odd Even Linked List 奇偶链表](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/328-OddEvenLinkedList.md) | Medium | 链表 |
-| 329 | [Longest Increasing Path in a Matrix 矩阵中的最长递增路径](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Hard/329-LongestIncreasingPathinaMatrix.md) | Hard | 记忆化搜索 |
-| 332 | [Reconstruct Itinerary 重新安排行程](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Hard/332-ReconstructItinerary.md) | Hard | DFS |
-| 334 | [Increasing Triplet Subsequence 递增的三元子序列](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/334-IncreasingTripletSubsequence.md) | Medium | 贪心、数组 |
-| 337 | [House Robber III 打家劫舍 III](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/337-HouseRobberIII.md) | Medium | 动态规划 |
-| 338 | [Counting Bits 比特位计数](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/338-CountingBits.md) | Easy |  |
-| 341 | [Flatten Nested List Iterator 扁平化嵌套列表迭代器](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/341-FlattenNestedListIterator.md) | Medium | 栈 |
+| 322 | [Coin Change 零钱兑换](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/322-CoinChange.md) | Medium | 动态规划 |
+| 324 | [Wiggle Sort II 摆动排序 II](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/324-WiggleSortII.md) | Medium | 排序 |
+| 326 | [Power of Three 3 的幂](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/326-PowerofThree.md) | Easy | 数学 |
+| 328 | [Odd Even Linked List 奇偶链表](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/328-OddEvenLinkedList.md) | Medium | 链表 |
+| 329 | [Longest Increasing Path in a Matrix 矩阵中的最长递增路径](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/329-LongestIncreasingPathinaMatrix.md) | Hard | 记忆化搜索 |
+| 332 | [Reconstruct Itinerary 重新安排行程](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/332-ReconstructItinerary.md) | Hard | DFS |
+| 334 | [Increasing Triplet Subsequence 递增的三元子序列](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/334-IncreasingTripletSubsequence.md) | Medium | 贪心、数组 |
+| 337 | [House Robber III 打家劫舍 III](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/337-HouseRobberIII.md) | Medium | 动态规划 |
+| 338 | [Counting Bits 比特位计数](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/338-CountingBits.md) | Easy | 位运算 |
+| 341 | [Flatten Nested List Iterator 扁平化嵌套列表迭代器](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/341-FlattenNestedListIterator.md) | Medium | 栈 |
 | 342 | [Power of Four 4 的幂](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/342-PowerofFour.md) | Easy |  |
 | 343 | [Integer Break 整数拆分](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/343-IntegerBreak.md) | Medium |  |
 | 344 | [Reverse String 反转字符串](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/344-ReverseString.md) | Easy |  |

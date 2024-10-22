@@ -1821,7 +1821,7 @@ const nameMap = {
     difficulty: 'Medium',
     label: '动态规划',
     hasThinkings: true,
-    checked: false,
+    checked: true,
   },
   324: {
     cnName: '摆动排序 II',
@@ -1829,15 +1829,15 @@ const nameMap = {
     difficulty: 'Medium',
     label: '排序',
     hasThinkings: true,
-    checked: false,
+    checked: true,
   },
   326: {
     cnName: '3 的幂',
     enName: 'Power of Three',
     difficulty: 'Easy',
-    label: '',
+    label: '数学',
     hasThinkings: true,
-    checked: false,
+    checked: true,
   },
   328: {
     cnName: '奇偶链表',
@@ -1845,7 +1845,7 @@ const nameMap = {
     difficulty: 'Medium',
     label: '链表',
     hasThinkings: true,
-    checked: false,
+    checked: true,
   },
   329: {
     cnName: '矩阵中的最长递增路径',
@@ -1853,7 +1853,7 @@ const nameMap = {
     difficulty: 'Hard',
     label: '记忆化搜索',
     hasThinkings: true,
-    checked: false,
+    checked: true,
   },
   332: {
     cnName: '重新安排行程',
@@ -1861,7 +1861,7 @@ const nameMap = {
     difficulty: 'Hard',
     label: 'DFS',
     hasThinkings: true,
-    checked: false,
+    checked: true,
   },
   334: {
     cnName: '递增的三元子序列',
@@ -1869,7 +1869,7 @@ const nameMap = {
     difficulty: 'Medium',
     label: '贪心、数组',
     hasThinkings: true,
-    checked: false,
+    checked: true,
   },
   337: {
     cnName: '打家劫舍 III',
@@ -1877,15 +1877,15 @@ const nameMap = {
     difficulty: 'Medium',
     label: '动态规划',
     hasThinkings: true,
-    checked: false,
+    checked: true,
   },
   338: {
     cnName: '比特位计数',
     enName: 'Counting Bits',
     difficulty: 'Easy',
-    label: '',
+    label: '位运算',
     hasThinkings: true,
-    checked: false,
+    checked: true,
   },
   341: {
     cnName: '扁平化嵌套列表迭代器',
@@ -1893,7 +1893,7 @@ const nameMap = {
     difficulty: 'Medium',
     label: '栈',
     hasThinkings: true,
-    checked: false,
+    checked: true,
   },
   342: {
     cnName: '4 的幂',
