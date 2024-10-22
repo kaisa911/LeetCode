@@ -2572,7 +2572,7 @@ const nameMap = {
     enName: 'Robot Return to Origin',
     difficulty: 'Easy',
     label: '数组',
-    hasThinkings: false,
+    hasThinkings: true,
     checked: false,
   },
   665: {
@@ -2580,7 +2580,7 @@ const nameMap = {
     enName: 'Non-decreasing Array',
     difficulty: 'Easy',
     label: '',
-    hasThinkings: false,
+    hasThinkings: true,
     checked: false,
   },
   668: {
@@ -2588,7 +2588,7 @@ const nameMap = {
     enName: 'Kth Smallest Number in Multiplication Table',
     difficulty: 'Hard',
     label: '',
-    hasThinkings: false,
+    hasThinkings: true,
     checked: false,
   },
   670: {
@@ -2596,7 +2596,7 @@ const nameMap = {
     enName: 'Maximum Swap',
     difficulty: 'Medium',
     label: '贪心',
-    hasThinkings: false,
+    hasThinkings: true,
     checked: false,
   },
   680: {
@@ -2604,7 +2604,7 @@ const nameMap = {
     enName: 'Valid Palindrome II',
     difficulty: 'Easy',
     label: '',
-    hasThinkings: false,
+    hasThinkings: true,
     checked: false,
   },
   692: {
@@ -2620,7 +2620,7 @@ const nameMap = {
     enName: 'Search in a Binary Search Tree',
     difficulty: 'Easy',
     label: '二叉搜索树',
-    hasThinkings: false,
+    hasThinkings: true,
     checked: false,
   },
   703: {
@@ -2628,7 +2628,7 @@ const nameMap = {
     enName: 'Kth Largest Element in a Stream',
     difficulty: 'Easy',
     label: '',
-    hasThinkings: false,
+    hasThinkings: true,
     checked: false,
   },
   704: {
@@ -2644,7 +2644,7 @@ const nameMap = {
     enName: 'To Lower Case',
     difficulty: 'Easy',
     label: '',
-    hasThinkings: false,
+    hasThinkings: true,
     checked: false,
   },
   714: {
@@ -2652,7 +2652,7 @@ const nameMap = {
     enName: 'Best Time to Buy and Sell Stock with Transaction Fee',
     difficulty: 'Medium',
     label: '多维动态规划',
-    hasThinkings: false,
+    hasThinkings: true,
     checked: false,
   },
   720: {
@@ -2668,7 +2668,7 @@ const nameMap = {
     enName: 'Find Pivot Index',
     difficulty: 'Easy',
     label: '',
-    hasThinkings: false,
+    hasThinkings: true,
     checked: false,
   },
   735: {
@@ -2676,7 +2676,7 @@ const nameMap = {
     enName: 'Asteroid Collision',
     difficulty: 'Medium',
     label: '栈',
-    hasThinkings: false,
+    hasThinkings: true,
     checked: false,
   },
   738: {
@@ -2684,7 +2684,7 @@ const nameMap = {
     enName: 'Monotone Increasing Digits',
     difficulty: 'Medium',
     label: '贪心',
-    hasThinkings: false,
+    hasThinkings: true,
     checked: false,
   },
   739: {
@@ -2692,7 +2692,7 @@ const nameMap = {
     enName: 'Daily Temperatures',
     difficulty: 'Medium',
     label: '单调栈',
-    hasThinkings: false,
+    hasThinkings: true,
     checked: false,
   },
   746: {
@@ -2708,7 +2708,7 @@ const nameMap = {
     enName: 'Largest Number At Least Twice of Others',
     difficulty: 'Easy',
     label: '',
-    hasThinkings: false,
+    hasThinkings: true,
     checked: false,
   },
   763: {
@@ -2716,7 +2716,7 @@ const nameMap = {
     enName: 'Partition Labels',
     difficulty: 'Medium',
     label: '贪心',
-    hasThinkings: false,
+    hasThinkings: true,
     checked: false,
   },
   767: {
@@ -2732,7 +2732,7 @@ const nameMap = {
     enName: 'Swim In Rising Water',
     difficulty: 'Hard',
     label: '',
-    hasThinkings: false,
+    hasThinkings: true,
     checked: false,
   },
   784: {
@@ -2740,7 +2740,7 @@ const nameMap = {
     enName: 'Letter Case Permutation',
     difficulty: 'Medium',
     label: '',
-    hasThinkings: false,
+    hasThinkings: true,
     checked: false,
   },
   790: {
@@ -2748,7 +2748,7 @@ const nameMap = {
     enName: 'Domino and Tromino Tiling',
     difficulty: 'Medium',
     label: '一维动态规划',
-    hasThinkings: false,
+    hasThinkings: true,
     checked: false,
   },
   814: {
@@ -2756,7 +2756,7 @@ const nameMap = {
     enName: 'Binary Tree Pruning',
     difficulty: 'Medium',
     label: '',
-    hasThinkings: false,
+    hasThinkings: true,
     checked: false,
   },
   841: {
@@ -2764,7 +2764,7 @@ const nameMap = {
     enName: 'Keys and Rooms',
     difficulty: 'Medium',
     label: 'DFS',
-    hasThinkings: false,
+    hasThinkings: true,
     checked: false,
   },
   844: {
@@ -2772,7 +2772,7 @@ const nameMap = {
     enName: 'Backspace Sting Compare',
     difficulty: 'Easy',
     label: '双指针',
-    hasThinkings: false,
+    hasThinkings: true,
     checked: false,
   },
   845: {
@@ -2780,7 +2780,7 @@ const nameMap = {
     enName: 'Longest Mountain in Array',
     difficulty: 'Medium',
     label: '双指针',
-    hasThinkings: false,
+    hasThinkings: true,
     checked: false,
   },
   860: {
@@ -2788,7 +2788,7 @@ const nameMap = {
     enName: 'Lemonade Change',
     difficulty: 'Easy',
     label: '贪心',
-    hasThinkings: false,
+    hasThinkings: true,
     checked: false,
   },
   864: {
@@ -2796,7 +2796,7 @@ const nameMap = {
     enName: 'Shortest Path to Get All Keys',
     difficulty: 'Hard',
     label: 'BFS',
-    hasThinkings: false,
+    hasThinkings: true,
     checked: false,
   },
   867: {
@@ -2804,7 +2804,7 @@ const nameMap = {
     enName: 'Transpose Matrix',
     difficulty: 'Easy',
     label: '模拟',
-    hasThinkings: false,
+    hasThinkings: true,
     checked: false,
   },
   872: {
@@ -2812,7 +2812,7 @@ const nameMap = {
     enName: 'Leaf-Similar Tree',
     difficulty: 'Easy',
     label: '二叉树、DFS',
-    hasThinkings: false,
+    hasThinkings: true,
     checked: false,
   },
   875: {
@@ -2820,7 +2820,7 @@ const nameMap = {
     enName: 'Koko Eating Banana',
     difficulty: 'Medium',
     label: '二分查找',
-    hasThinkings: false,
+    hasThinkings: true,
     checked: false,
   },
   901: {
@@ -2828,7 +2828,7 @@ const nameMap = {
     enName: 'Online Stock Span',
     difficulty: 'Medium',
     label: '单调栈',
-    hasThinkings: false,
+    hasThinkings: true,
     checked: false,
   },
   905: {
@@ -2852,7 +2852,7 @@ const nameMap = {
     enName: 'Num Unique Emails',
     difficulty: 'Easy',
     label: '',
-    hasThinkings: false,
+    hasThinkings: true,
     checked: false,
   },
   933: {
@@ -2868,7 +2868,7 @@ const nameMap = {
     enName: 'Valid Mountain Array',
     difficulty: 'Easy',
     label: '',
-    hasThinkings: false,
+    hasThinkings: true,
     checked: false,
   },
   942: {
@@ -2884,7 +2884,7 @@ const nameMap = {
     enName: 'Validate Stack Sequences',
     difficulty: 'Medium',
     label: '',
-    hasThinkings: false,
+    hasThinkings: true,
     checked: false,
   },
   953: {
@@ -2892,7 +2892,7 @@ const nameMap = {
     enName: 'Verifying an Alien Dictionary',
     difficulty: 'Easy',
     label: '',
-    hasThinkings: false,
+    hasThinkings: true,
     checked: false,
   },
   965: {
@@ -2916,7 +2916,7 @@ const nameMap = {
     enName: 'Subarray Sums Divisible by K',
     difficulty: 'Medium',
     label: '',
-    hasThinkings: false,
+    hasThinkings: true,
     checked: false,
   },
   977: {
@@ -2932,7 +2932,7 @@ const nameMap = {
     enName: 'Add to Array-Form of Integer',
     difficulty: 'Easy',
     label: '',
-    hasThinkings: false,
+    hasThinkings: true,
     checked: false,
   },
   994: {
@@ -2948,7 +2948,7 @@ const nameMap = {
     enName: 'Find Common Characters',
     difficulty: 'Easy',
     label: '',
-    hasThinkings: false,
+    hasThinkings: true,
     checked: false,
   },
   1004: {
