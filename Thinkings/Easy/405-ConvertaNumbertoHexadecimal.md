@@ -8,13 +8,35 @@
 
 示例 1：
 
+```javascript
 输入：num = 26
 输出："1a"
+```
+
 示例 2：
 
+```javascript
 输入：num = -1
 输出："ffffffff"
+```
 
 提示：
 
--2^31 <= num <= 2^31 - 1
+- -2^31 <= num <= 2^31 - 1
+
+```javascript
+/**
+ * @param {number} num
+ * @return {string}
+ */
+const toHex = num => {
+  let hex;
+  if (num >= 0) {
+    hex = num.toString(16);
+  } else {
+    hex = (+num + Math.pow(2, 32)).toString(16);
+  }
+
+  return hex;
+};
+```

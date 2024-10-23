@@ -6,15 +6,38 @@
 
 示例 1：
 ![1](https://assets.leetcode.com/uploads/2021/04/09/arrangecoins1-grid.jpg)
+
+```javascript
 输入：n = 5
 输出：2
 解释：因为第三行不完整，所以返回 2 。
+```
+
 示例 2：
 ![2](https://assets.leetcode.com/uploads/2021/04/09/arrangecoins2-grid.jpg)
+
+```javascript
 输入：n = 8
 输出：3
 解释：因为第四行不完整，所以返回 3 。
+```
 
 提示：
 
-1 <= n <= 2^31 - 1
+- 1 <= n <= 2^31 - 1
+
+```javascript
+var arrangeCoins = function (n) {
+  let left = 1,
+    right = n;
+  while (left < right) {
+    const mid = Math.floor((right - left + 1) / 2) + left;
+    if (mid * (mid + 1) <= 2 * n) {
+      left = mid;
+    } else {
+      right = mid - 1;
+    }
+  }
+  return left;
+};
+```

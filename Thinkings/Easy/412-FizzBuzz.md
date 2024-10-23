@@ -9,17 +9,45 @@ answer[i] == i （以字符串形式）如果上述条件全不满足。
 
 示例 1：
 
+```javascript
 输入：n = 3
 输出：["1","2","Fizz"]
+```
+
 示例 2：
 
+```javascript
 输入：n = 5
 输出：["1","2","Fizz","4","Buzz"]
+```
+
 示例 3：
 
+```javascript
 输入：n = 15
 输出：["1","2","Fizz","4","Buzz","Fizz","7","8","Fizz","Buzz","11","Fizz","13","14","FizzBuzz"]
+```
 
 提示：
 
-1 <= n <= 10^4
+- 1 <= n <= 10^4
+
+```javascript
+var fizzBuzz = function (n) {
+  const answer = [];
+  for (let i = 1; i <= n; i++) {
+    const sb = [];
+    if (i % 3 === 0) {
+      sb.push('Fizz');
+    }
+    if (i % 5 === 0) {
+      sb.push('Buzz');
+    }
+    if (sb.length === 0) {
+      sb.push(i);
+    }
+    answer.push(sb.join(''));
+  }
+  return answer;
+};
+```

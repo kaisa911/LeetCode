@@ -6,14 +6,29 @@
 
 示例 1：
 
+```javascript
 输入：s = ["h","e","l","l","o"]
 输出：["o","l","l","e","h"]
+```
+
 示例 2：
 
+```javascript
 输入：s = ["H","a","n","n","a","h"]
 输出：["h","a","n","n","a","H"]
+```
 
 提示：
 
-1 <= s.length <= 10^5
-s[i] 都是 ASCII 码表中的可打印字符
+- 1 <= s.length <= 10^5
+- s[i] 都是 ASCII 码表中的可打印字符
+
+```javascript
+/**
+ * @param {character[]} s
+ * @return {void} Do not return anything, modify s in-place instead.
+ */
+var reverseString = function(s) {
+  return s.reverse();
+};
+```
