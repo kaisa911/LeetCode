@@ -3527,6 +3527,14 @@ const nameMap = {
     hasThinkings: true,
     checked: true,
   },
+  3175: {
+    cnName: '找到连续赢 K 场比赛的第一位玩家',
+    enName: 'Find The First Player to win K Games in a Row',
+    difficulty: 'Medium',
+    label: '双指针',
+    hasThinkings: true,
+    checked: true,
+  },
 };
 
 module.exports = nameMap;

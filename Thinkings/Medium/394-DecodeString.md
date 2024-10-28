@@ -10,24 +10,62 @@
 
 示例 1：
 
+```js
 输入：s = "3[a]2[bc]"
 输出："aaabcbc"
+```
+
 示例 2：
 
+```js
 输入：s = "3[a2[c]]"
 输出："accaccacc"
+```
+
 示例 3：
 
+```js
 输入：s = "2[abc]3[cd]ef"
 输出："abcabccdcdcdef"
+```
+
 示例 4：
 
+```js
 输入：s = "abc3[cd]xyz"
 输出："abccdcdcdxyz"
+```
 
 提示：
 
-1 <= s.length <= 30
-s 由小写英文字母、数字和方括号 '[]' 组成
-s 保证是一个 有效 的输入。
-s 中所有整数的取值范围为 [1, 300]
+- 1 <= s.length <= 30
+- s 由小写英文字母、数字和方括号 '[]' 组成
+- s 保证是一个 有效 的输入。
+- s 中所有整数的取值范围为 [1, 300]
+
+```js
+/**
+ * @param {string} s
+ * @return {string}
+ */
+var decodeString = function (s) {
+ let stack = [];
+ let num = '';
+ let str = '';
+ for (c of s) {
+  if (c >= 0) {
+   num += c;
+  } else if (c === '[') {
+   stack.push([str, +num]);
+   str = '';
+   num = '';
+  } else if (c === ']') {
+   const [last_str, last_num] = stack.pop();
+   str = last_str + str.repeat(last_num);
+  } else {
+   str += c;
+  }
+ }
+ return str;
+};
+```

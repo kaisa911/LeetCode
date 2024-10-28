@@ -8,21 +8,66 @@
 
 示例 1：
 ![1](https://assets.leetcode-cn.com/aliyun-lc-upload/uploads/2018/10/12/island.png)
+
+```js
 输入：grid = [[0,1,0,0],[1,1,1,0],[0,1,0,0],[1,1,0,0]]
 输出：16
 解释：它的周长是上面图片中的 16 个黄色的边
+```
+
 示例 2：
 
+```js
 输入：grid = [[1]]
 输出：4
+```
+
 示例 3：
 
+```js
 输入：grid = [[1,0]]
 输出：4
+```
 
 提示：
 
-row == grid.length
-col == grid[i].length
-1 <= row, col <= 100
-grid[i][j] 为 0 或 1
+- row == grid.length
+- col == grid[i].length
+- 1 <= row, col <= 100
+- grid[i][j] 为 0 或 1
+
+```js
+var islandPerimeter = function (grid) {
+  const dx = [0, 1, 0, -1];
+  const dy = [1, 0, -1, 0];
+  const n = grid.length,
+    m = grid[0].length;
+
+  const dfs = (x, y) => {
+    if (x < 0 || x >= n || y < 0 || y >= m || grid[x][y] === 0) {
+      return 1;
+    }
+    if (grid[x][y] === 2) {
+      return 0;
+    }
+    grid[x][y] = 2;
+    let res = 0;
+    for (let i = 0; i < 4; ++i) {
+      const tx = x + dx[i];
+      const ty = y + dy[i];
+      res += dfs(tx, ty);
+    }
+    return res;
+  };
+
+  let ans = 0;
+  for (let i = 0; i < n; ++i) {
+    for (let j = 0; j < m; ++j) {
+      if (grid[i][j] === 1) {
+        ans += dfs(i, j);
+      }
+    }
+  }
+  return ans;
+};
+```

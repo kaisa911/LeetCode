@@ -3,13 +3,13 @@
 
 some exercises of leetcode
 
-- Leetcode: 简单: 169, 中等: 219, 困难: 53, 剑指Offer: 73,
-- 总计：514
+- Leetcode: 简单: 169, 中等: 220, 困难: 53, 剑指Offer: 73,
+- 总计：515
 
 ```mermaid
 pie title 已完成的题目
     "简单" : 169
-    "中等" : 219
+    "中等" : 220
     "困难" : 53
     "剑指Offer" : 73
 ```
@@ -457,6 +457,7 @@ pie title 已完成的题目
 | 2760 | [Longest Even Odd Subarray With Threshold 最长奇偶子数组](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/2760-LongestEvenOddSubarrayWithThreshold.md) | Easy | 动态规划 |
 | 3033 | [Modify the Matrix 修改矩阵](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/3033-ModifytheMatrix.md) | Easy | 数组 |
 | 3146 | [Permutation Difference between Two Strings 两个字符串的排列差](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/3146-PermutationDifferencebetweenTwoStrings.md) | Easy | 哈希 |
+| 3175 | [Find The First Player to win K Games in a Row 找到连续赢 K 场比赛的第一位玩家](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/3175-FindTheFirstPlayertowinKGamesinaRow.md) | Medium | 双指针 |
 
 **剑指offer**
 

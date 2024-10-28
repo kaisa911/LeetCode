@@ -10,6 +10,7 @@ int[] shuffle() 返回数组随机打乱后的结果
 
 示例 1：
 
+```js
 输入
 ["Solution", "shuffle", "reset", "shuffle"]
 [[[1, 2, 3]], [], [], []]
@@ -21,10 +22,33 @@ Solution solution = new Solution([1, 2, 3]);
 solution.shuffle();    // 打乱数组 [1,2,3] 并返回结果。任何 [1,2,3]的排列返回的概率应该相同。例如，返回 [3, 1, 2]
 solution.reset();      // 重设数组到它的初始状态 [1, 2, 3] 。返回 [1, 2, 3]
 solution.shuffle();    // 随机返回数组 [1, 2, 3] 打乱后的结果。例如，返回 [1, 3, 2]
+```
 
 提示：
 
-1 <= nums.length <= 50
--10^6 <= nums[i] <= 10^6
-nums 中的所有元素都是 唯一的
-最多可以调用 10^4 次 reset 和 shuffle
+- 1 <= nums.length <= 50
+- -10^6 <= nums[i] <= 10^6
+- nums 中的所有元素都是 唯一的
+- 最多可以调用 10^4 次 reset 和 shuffle
+
+```js
+var Solution = function (nums) {
+  this.nums = nums;
+  this.original = this.nums.slice();
+};
+
+Solution.prototype.reset = function () {
+  this.nums = this.original.slice();
+  return this.nums;
+};
+
+Solution.prototype.shuffle = function () {
+  for (let i = 0; i < this.nums.length; ++i) {
+    const j = Math.floor(Math.random() * (this.nums.length - i)) + i;
+    const temp = this.nums[i];
+    this.nums[i] = this.nums[j];
+    this.nums[j] = temp;
+  }
+  return this.nums;
+};
+```

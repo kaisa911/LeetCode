@@ -6,20 +6,49 @@
 
 示例 1：
 
+```js
 输入：nums = [4,3,2,7,8,2,3,1]
 输出：[2,3]
+```
+
 示例 2：
 
+```js
 输入：nums = [1,1,2]
 输出：[1]
+```
+
 示例 3：
 
+```js
 输入：nums = [1]
 输出：[]
+```
 
 提示：
 
-n == nums.length
-1 <= n <= 10^5
-1 <= nums[i] <= n
-nums 中的每个元素出现 一次 或 两次
+- n == nums.length
+- 1 <= n <= 10^5
+- 1 <= nums[i] <= n
+- nums 中的每个元素出现 一次 或 两次
+
+```js
+var findDuplicates = function (nums) {
+  const swap = (nums, index1, index2) => {
+    [nums[index1], nums[index2]] = [nums[index2], nums[index1]]
+  };
+  const n = nums.length;
+  for (let i = 0; i < n; ++i) {
+    while (nums[i] != nums[nums[i] - 1]) {
+      swap(nums, i, nums[i] - 1);
+    }
+  }
+  const ans = [];
+  for (let i = 0; i < n; ++i) {
+    if (nums[i] - 1 !== i) {
+      ans.push(nums[i]);
+    }
+  }
+  return ans;
+};
+```
