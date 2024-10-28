@@ -253,20 +253,20 @@ pie title 已完成的题目
 | 337 | [House Robber III 打家劫舍 III](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/337-HouseRobberIII.md) | Medium | 动态规划 |
 | 338 | [Counting Bits 比特位计数](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/338-CountingBits.md) | Easy | 位运算 |
 | 341 | [Flatten Nested List Iterator 扁平化嵌套列表迭代器](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/341-FlattenNestedListIterator.md) | Medium | 栈 |
-| 342 | [Power of Four 4 的幂](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/342-PowerofFour.md) | Easy |  |
-| 343 | [Integer Break 整数拆分](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/343-IntegerBreak.md) | Medium |  |
-| 344 | [Reverse String 反转字符串](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/344-ReverseString.md) | Easy |  |
-| 345 | [Reverse Vowels of a String 翻转字符串中的元音字母](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/345-ReverseVowelsofaString.md) | Easy | 双指针 |
-| 347 | [Top K Frequent Elements 前 K 个高频元素](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/347-TopKFrequentElements.md) | Medium | 桶排序 |
-| 349 | [Intersection of Two Arrays 两个数组的交集](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/349-IntersectionofTwoArrays.md) | Easy |  |
+| 342 | [Power of Four 4 的幂](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/342-PowerofFour.md) | Easy | 数学 |
+| 343 | [Integer Break 整数拆分](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/343-IntegerBreak.md) | Medium | 数学 |
+| 344 | [Reverse String 反转字符串](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/344-ReverseString.md) | Easy | API |
+| 345 | [Reverse Vowels of a String 翻转字符串中的元音字母](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/345-ReverseVowelsofaString.md) | Easy | 双指针 |
+| 347 | [Top K Frequent Elements 前 K 个高频元素](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/347-TopKFrequentElements.md) | Medium | 桶排序、堆排序 |
+| 349 | [Intersection of Two Arrays 两个数组的交集](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/349-IntersectionofTwoArrays.md) | Easy | Set |
 | 350 | [Intersection of Two Arrays II 两个数组的交集 II](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/350-IntersectionofTwoArraysII.md) | Easy | 哈希 |
-| 365 | [Water and Jug Problem 水壶问题](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/365-WaterandJugProblem.md) | Medium | 数学方法 |
+| 365 | [Water and Jug Problem 水壶问题](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/365-WaterandJugProblem.md) | Medium | 数学方法 |
 | 371 | [Sum of Two Integers 两个整数相加](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/371-SumofTwoIntegers.md) | Easy | 位运算 |
-| 373 | [Find K Pairs with Smallest Sums 查找和最小的 K 对数字](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/373-FindKPairswithSmallestSums.md) | Medium |  |
-| 374 | [Guess Number Higher or lower 猜数字大小](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/374-GuessNumberHigherorlower.md) | Easy | 二分查找 |
+| 373 | [Find K Pairs with Smallest Sums 查找和最小的 K 对数字](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/373-FindKPairswithSmallestSums.md) | Medium | 优先队列 |
+| 374 | [Guess Number Higher or lower 猜数字大小](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/374-GuessNumberHigherorlower.md) | Easy | 二分查找 |
 | 377 | [Combination Sum IV 组合总和 Ⅳ](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/377-CombinationSumIV.md) | Medium | 动态规划、回溯 |
-| 378 | [Kth Smallest Element in a Sorted Matrix 有序矩阵中第 K 小的元素](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/378-KthSmallestElementinaSortedMatrix.md) | Medium | 二分查找 |
-| 380 | [Insert Delete GetRandom O1 O(1)时间插入删除和获取随机元素](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/380-InsertDeleteGetRandomO1.md) | Medium | 哈希 |
+| 378 | [Kth Smallest Element in a Sorted Matrix 有序矩阵中第 K 小的元素](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/378-KthSmallestElementinaSortedMatrix.md) | Medium | 二分查找 |
+| 380 | [Insert Delete GetRandom O1 O(1)时间插入删除和获取随机元素](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/380-InsertDeleteGetRandomO1.md) | Medium | 哈希 |
 | 381 | [Insert Delete GetRandom O(1) - Duplicates allowed O(1)时间插入删除和获取随机元素-允许重复](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Hard/381-InsertDeleteGetRandomO(1)-Duplicatesallowed.md) | Hard | 哈希 |
 | 383 | [Ransom Note 赎金信](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/383-RansomNote.md) | Easy | 哈希表 |
 | 384 | [Shuffle an Array 打乱数组](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/384-ShuffleanArray.md) | Medium | 数组 |
@@ -337,7 +337,7 @@ pie title 已完成的题目
 | 647 | [Palindromic Substrings 回文子串](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/647-PalindromicSubstrings.md) | Medium | Manacher 算法 |
 | 649 | [Dota2 Senate Dota2 参议院](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/649-Dota2Senate.md) | Medium | 队列 |
 | 653 | [Two Sum IV - Input is a BST 两数之和 IV - 输入二叉搜索树](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/653-TwoSumIV-InputisaBST.md) | Easy | 二叉搜索树、DFS |
-| 657 | [Robot Return to Origin 机器人能否返回终点](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Easy/657-RobotReturntoOrigin.js) | Easy | 数组 |
+| 657 | [Robot Return to Origin 机器人能否返回终点](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/657-RobotReturntoOrigin.md) | Easy | 数组 |
 | 665 | [Non-decreasing Array 非递减数列](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/665-Non-decreasingArray.md) | Easy |  |
 | 668 | [Kth Smallest Number in Multiplication Table 乘法表中的第 K 小的数](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Hard/668-KthSmallestNumberinMultiplicationTable.md) | Hard |  |
 | 670 | [Maximum Swap 最大交换](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/670-MaximumSwap.md) | Medium | 贪心 |
