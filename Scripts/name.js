@@ -3535,6 +3535,22 @@ const nameMap = {
     hasThinkings: true,
     checked: true,
   },
+  3211: {
+    cnName: '生成不含相邻零的二进制字符串',
+    enName: 'Generate Binary Strings Without Adjacent Zeros',
+    difficulty: 'Medium',
+    label: '回溯、位运算',
+    hasThinkings: true,
+    checked: false,
+  },
+  3216: {
+    cnName: '交换后字典序最小的字符串',
+    enName: 'Lexicographically Smallest String After a Swap',
+    difficulty: 'Easy',
+    label: '回溯、位运算',
+    hasThinkings: true,
+    checked: false,
+  },
 };
 
 module.exports = nameMap;

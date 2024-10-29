@@ -6,22 +6,47 @@
 
 示例 1：
 
+```javascript
 输入：points = [[0,0],[1,0],[2,0]]
 输出：2
 解释：两个回旋镖为 [[1,0],[0,0],[2,0]] 和 [[1,0],[2,0],[0,0]]
+```
+
 示例 2：
 
+```javascript
 输入：points = [[1,1],[2,2],[3,3]]
 输出：2
+```
+
 示例 3：
 
+```javascript
 输入：points = [[1,1]]
 输出：0
+```
 
 提示：
 
-n == points.length
-1 <= n <= 500
-points[i].length == 2
--10^4 <= xi, yi <= 10^4
-所有点都 互不相同
+- n == points.length
+- 1 <= n <= 500
+- points[i].length == 2
+- -10^4 <= xi, yi <= 10^4
+- 所有点都 互不相同
+
+```javascript
+var numberOfBoomerangs = function (points) {
+  let ans = 0;
+  for (const p of points) {
+    const cnt = new Map();
+    for (const q of points) {
+      const dis = (p[0] - q[0]) * (p[0] - q[0]) + (p[1] - q[1]) * (p[1] - q[1]);
+      cnt.set(dis, (cnt.get(dis) || 0) + 1);
+    }
+    for (const [_, m] of cnt.entries()) {
+      ans += m * (m - 1);
+    }
+  }
+  return ans;
+};
+```

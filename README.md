@@ -3,13 +3,13 @@
 
 some exercises of leetcode
 
-- Leetcode: 简单: 169, 中等: 220, 困难: 53, 剑指Offer: 73,
-- 总计：515
+- Leetcode: 简单: 170, 中等: 221, 困难: 53, 剑指Offer: 73,
+- 总计：517
 
 ```mermaid
 pie title 已完成的题目
-    "简单" : 169
-    "中等" : 220
+    "简单" : 170
+    "中等" : 221
     "困难" : 53
     "剑指Offer" : 73
 ```
@@ -458,6 +458,8 @@ pie title 已完成的题目
 | 3033 | [Modify the Matrix 修改矩阵](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/3033-ModifytheMatrix.md) | Easy | 数组 |
 | 3146 | [Permutation Difference between Two Strings 两个字符串的排列差](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/3146-PermutationDifferencebetweenTwoStrings.md) | Easy | 哈希 |
 | 3175 | [Find The First Player to win K Games in a Row 找到连续赢 K 场比赛的第一位玩家](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/3175-FindTheFirstPlayertowinKGamesinaRow.md) | Medium | 双指针 |
+| 3211 | [Generate Binary Strings Without Adjacent Zeros 生成不含相邻零的二进制字符串](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/3211-GenerateBinaryStringsWithoutAdjacentZeros.md) | Medium | 回溯、位运算 |
+| 3216 | [Lexicographically Smallest String After a Swap 交换后字典序最小的字符串](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/3216-LexicographicallySmallestStringAfteraSwap.md) | Easy | 回溯、位运算 |
 
 **剑指offer**
 

@@ -14,21 +14,54 @@
 
 示例 1：
 
+```javascript
 输入：chars = ["a","a","b","b","c","c","c"]
 输出：返回 6 ，输入数组的前 6 个字符应该是：["a","2","b","2","c","3"]
 解释："aa" 被 "a2" 替代。"bb" 被 "b2" 替代。"ccc" 被 "c3" 替代。
+```
+
 示例 2：
 
+```javascript
 输入：chars = ["a"]
 输出：返回 1 ，输入数组的前 1 个字符应该是：["a"]
 解释：唯一的组是“a”，它保持未压缩，因为它是一个字符。
+```
+
 示例 3：
 
+```javascript
 输入：chars = ["a","b","b","b","b","b","b","b","b","b","b","b","b"]
 输出：返回 4 ，输入数组的前 4 个字符应该是：["a","b","1","2"]。
 解释：由于字符 "a" 不重复，所以不会被压缩。"bbbbbbbbbbbb" 被 “b12” 替代。
+```
 
 提示：
 
-1 <= chars.length <= 2000
-chars[i] 可以是小写英文字母、大写英文字母、数字或符号
+- 1 <= chars.length <= 2000
+- chars[i] 可以是小写英文字母、大写英文字母、数字或符号
+
+```javascript
+const compress = (chars) => {
+  const len = chars.length;
+  let s = '';
+  let i = 0,
+    j = i + 1;
+  while (j <= len) {
+    // 相等的话 右指针向右移
+    if (chars[i] === chars[j]) {
+      j++;
+    } else {
+      const tempS = j - i > 1 ? `${chars[i]}${j - i}` : `${chars[i]}`;
+      s += tempS;
+      i = j;
+      j = i + 1;
+    }
+  }
+  // 写入chars
+  for (let i = 0; i < s.length; i++) {
+    chars[i] = s[i];
+  }
+  return s.length;
+};
+```

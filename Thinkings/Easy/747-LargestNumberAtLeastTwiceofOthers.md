@@ -6,17 +6,36 @@
 
 示例 1：
 
+```javascript
 输入：nums = [3,6,1,0]
 输出：1
 解释：6 是最大的整数，对于数组中的其他整数，6 至少是数组中其他元素的两倍。6 的下标是 1 ，所以返回 1 。
+```
+
 示例 2：
 
+```javascript
 输入：nums = [1,2,3,4]
 输出：-1
 解释：4 没有超过 3 的两倍大，所以返回 -1 。
+```
 
 提示：
 
-2 <= nums.length <= 50
-0 <= nums[i] <= 100
-nums 中的最大元素是唯一的
+- 2 <= nums.length <= 50
+- 0 <= nums[i] <= 100
+- nums 中的最大元素是唯一的
+
+```javascript
+/**
+ * @param {number[]} nums
+ * @return {number}
+ */
+var dominantIndex = function(nums) {
+  if (nums.length === 1) return 0;
+  const tempArr = [...nums];
+  nums.sort((a, b) => b - a);
+
+  return nums[0] >= nums[1] * 2 ? tempArr.indexOf(nums[0]) : -1;
+};
+```
