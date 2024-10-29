@@ -271,35 +271,35 @@ pie title 已完成的题目
 | 383 | [Ransom Note 赎金信](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/383-RansomNote.md) | Easy | 哈希表 |
 | 384 | [Shuffle an Array 打乱数组](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/384-ShuffleanArray.md) | Medium | 数组 |
 | 387 | [First Unique Character in a String 字符串中的第一个唯一字符](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/387-FirstUniqueCharacterinaString.md) | Easy | 哈希 |
-| 389 | [Find The Difference 找不同](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/389-FindTheDifference.md) | Easy |  |
+| 389 | [Find The Difference 找不同](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/389-FindTheDifference.md) | Easy | 字符串 |
 | 392 | [Is Subsequence 判断子序列](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/392-IsSubsequence.md) | Easy | 子串 |
 | 394 | [Decode String 字符串解码](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/394-DecodeString.md) | Medium |  |
 | 395 | [Longest Substring with At Least K Repeating Characters 至少有 K 个充数字符的最长子串](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/395-LongestSubstringwithAtLeastKRepeatingCharacters.md) | Medium | 分治 |
 | 399 | [Evaluate Division 除法求值](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/399-EvaluateDivision.md) | Medium | 图、DFS |
 | 400 | [Find Nth Digit 第 N 个数字](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/400-FindNthDigit.md) | Medium | 字符串 |
-| 405 | [Convert a Number to Hexadecimal 转 16 进制](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/405-ConvertaNumbertoHexadecimal.md) | Easy |  |
+| 405 | [Convert a Number to Hexadecimal 转 16 进制](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/405-ConvertaNumbertoHexadecimal.md) | Easy | 数学 |
 | 406 | [Queue Reconstruction by Height 根据身高重建队列](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/406-QueueReconstructionbyHeight.md) | Medium | 数组 |
 | 409 | [Longest Palindrome 最长回文串](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/409-LongestPalindrome.md) | Easy | 贪心、字符串 |
-| 412 | [Fizz Buzz Fizz Buzz](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/412-FizzBuzz.md) | Easy | 字符串 |
-| 414 | [Third Maximum Number 第三大的数](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/414-ThirdMaximumNumber.md) | Easy |  |
-| 415 | [Add Strings 字符串相加](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/415-AddStrings.md) | Easy | 模拟 |
+| 412 | [Fizz Buzz Fizz Buzz](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/412-FizzBuzz.md) | Easy | 字符串 |
+| 414 | [Third Maximum Number 第三大的数](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/414-ThirdMaximumNumber.md) | Easy | 数组 |
+| 415 | [Add Strings 字符串相加](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/415-AddStrings.md) | Easy | 模拟 |
 | 416 | [Partition Equal Subset Sum 分割等和子集](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/416-PartitionEqualSubsetSum.md) | Medium | 动态规划 |
 | 435 | [Non-overlapping Intervals 无重叠区间](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/435-Non-overlappingIntervals.md) | Medium | 区间集合 |
 | 437 | [Path Sum III 路径总和 III](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/437-PathSumIII.md) | Medium | 二叉树、DFS |
 | 438 | [Find All Anagrams in a String 找到字符串中所有字母异位词](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/438-FindAllAnagramsinaString.md) | Medium | 滑动窗口 |
 | 440 | [Kth Smallest in Lexicographical Order 字典序的第 K 小数字](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Hard/440-KthSmallestinLexicographicalOrder.md) | Hard | 字典树 |
-| 441 | [Arranging Coins 排列硬币](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/441-ArrangingCoins.md) | Easy | 二分查找 |
+| 441 | [Arranging Coins 排列硬币](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/441-ArrangingCoins.md) | Easy | 二分查找 |
 | 442 | [Find All Duplicates in an Array 数组中重复的数据](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/442-FindAllDuplicatesinanArray.md) | Medium | 数组 |
 | 443 | [String Compression 压缩字符串](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/443-StringCompression.md) | Medium | 字符串、双指针 |
 | 447 | [Number of Boomerangs 回旋镖的数量](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/447-NumberofBoomerangs.md) | Medium | 哈希 |
-| 448 | [Find All Numbers Disappeared in an Array 找到所有数组中消失的数字](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/448-FindAllNumbersDisappearedinanArray.md) | Easy |  |
+| 448 | [Find All Numbers Disappeared in an Array 找到所有数组中消失的数字](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/448-FindAllNumbersDisappearedinanArray.md) | Easy | 数组 |
 | 450 | [Delete Node in a BST 删除二叉搜索树中的节点](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/450-DeleteNodeinaBST.md) | Medium | 二叉搜索树 |
 | 452 | [Minimum Number of Arrows to Burst Balloons 用最少数量的箭引爆气球](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/452-MinimumNumberofArrowstoBurstBalloons.md) | Medium | 区间集合 |
 | 454 | [4Sum II 四数相加 II](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/454-4SumII.md) | Medium | 哈希 |
-| 455 | [Assign Cookies 分发饼干](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/455-AssignCookies.md) | Easy |  |
+| 455 | [Assign Cookies 分发饼干](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/455-AssignCookies.md) | Easy | 贪心 |
 | 456 | [132 Pattern 132 模式](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/456-132Pattern.md) | Medium | 枚举 |
 | 458 | [Poor Pigs 可怜的小猪](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Hard/458-PoorPigs.md) | Hard |  |
-| 459 | [Repeated Substring Pattern 重复的子字符串](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/459-RepeatedSubstringPattern.md) | Easy |  |
+| 459 | [Repeated Substring Pattern 重复的子字符串](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/459-RepeatedSubstringPattern.md) | Easy | 字符串 |
 | 460 | [LFU Cache LFU 缓存](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Hard/460-LFUCache.md) | Hard | 哈希，链表 |
 | 461 | [Hamming Distance 汉明距离](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/461-HammingDistance.md) | Easy | 位运算 |
 | 462 | [Minimum Move to Equal Array Elements II 最小操作次数是数组元素相等II](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/462-MinimumMovetoEqualArrayElementsII.md) | Medium | 排序 |
