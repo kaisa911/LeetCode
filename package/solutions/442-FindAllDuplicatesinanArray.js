@@ -8,11 +8,11 @@ var findDuplicates = function (nums) {
       swap(nums, i, nums[i] - 1);
     }
   }
-  const ans = [];
+  const res = [];
   for (let i = 0; i < n; ++i) {
     if (nums[i] - 1 !== i) {
-      ans.push(nums[i]);
+      res.push(nums[i]);
     }
   }
-  return ans;
+  return res;
 };

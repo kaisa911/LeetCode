@@ -1,5 +1,5 @@
 var longestSubstring = function (s, k) {
-  let ret = 0;
+  let res = 0;
   const n = s.length;
   for (let t = 1; t <= 26; t++) {
     let l = 0,
@@ -29,10 +29,10 @@ var longestSubstring = function (s, k) {
         l++;
       }
       if (less == 0) {
-        ret = Math.max(ret, r - l + 1);
+        res = Math.max(res, r - l + 1);
       }
       r++;
     }
   }
-  return ret;
+  return res;
 };
