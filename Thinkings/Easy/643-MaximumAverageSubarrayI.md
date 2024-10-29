@@ -8,16 +8,43 @@
 
 示例 1：
 
+```javascript
 输入：nums = [1,12,-5,-6,50,3], k = 4
 输出：12.75
 解释：最大平均数 (12-5-6+50)/4 = 51/4 = 12.75
+```
+
 示例 2：
 
+```javascript
 输入：nums = [5], k = 1
 输出：5.00000
+```
 
 提示：
 
-n == nums.length
-1 <= k <= n <= 105
--104 <= nums[i] <= 104
+- n == nums.length
+- 1 <= k <= n <= 10^5
+- -10^4 <= nums[i] <= 10^4
+
+```javascript
+/**
+ * @param {number[]} nums
+ * @param {number} k
+ * @return {number}
+ */
+var findMaxAverage = function (nums, k) {
+  let cur = 0;
+  let max = 0;
+  for (let i = 0; i < nums.length; i++) {
+    if (i < k) {
+      cur += nums[i];
+      max = cur;
+      continue;
+    }
+    cur = cur + nums[i] - nums[i - k];
+    max = cur > max ? cur : max;
+  }
+  return max / k;
+};
+```

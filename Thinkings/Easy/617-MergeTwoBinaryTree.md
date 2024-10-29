@@ -10,14 +10,36 @@
 
 示例 1：
 
+```javascript
 输入：root1 = [1,3,2,5], root2 = [2,1,3,null,4,null,7]
 输出：[3,4,5,5,4,null,7]
+```
+
 示例 2：
 
+```javascript
 输入：root1 = [1], root2 = [1,2]
 输出：[2,2]
+```
 
 提示：
 
-两棵树中的节点数目在范围 [0, 2000] 内
--104 <= Node.val <= 104
+- 两棵树中的节点数目在范围 [0, 2000] 内
+- -10^4 <= Node.val <= 10^4
+
+```javascript
+const mergeTrees = (t1, t2) => {
+  if (t1 == null && t2) {
+    return t2;
+  }
+  if ((t1 && t2 == null) || (t1 == null && t2 == null)) {
+    return t1;
+  }
+  t1.val += t2.val;
+
+  t1.left = mergeTrees(t1.left, t2.left);
+  t1.right = mergeTrees(t1.right, t2.right);
+
+  return t1;
+};
+```

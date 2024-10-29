@@ -6,16 +6,48 @@
 
 示例 1：
 
+```javascript
 输入：flowerbed = [1,0,0,0,1], n = 1
 输出：true
+```
+
 示例 2：
 
+```javascript
 输入：flowerbed = [1,0,0,0,1], n = 2
 输出：false
+```
 
 提示：
 
-1 <= flowerbed.length <= 2 * 104
-flowerbed[i] 为 0 或 1
-flowerbed 中不存在相邻的两朵花
-0 <= n <= flowerbed.length
+- 1 <= flowerbed.length <= 2 \* 10^4
+- flowerbed[i] 为 0 或 1
+- flowerbed 中不存在相邻的两朵花
+- 0 <= n <= flowerbed.length
+
+```javascript
+var canPlaceFlowers = function (flowerbed, n) {
+  let count = 0;
+  const m = flowerbed.length;
+  let prev = -1;
+  for (let i = 0; i < m; i++) {
+    if (flowerbed[i] === 1) {
+      if (prev < 0) {
+        count += Math.floor(i / 2);
+      } else {
+        count += Math.floor((i - prev - 2) / 2);
+      }
+      if (count >= n) {
+        return true;
+      }
+      prev = i;
+    }
+  }
+  if (prev < 0) {
+    count += (m + 1) / 2;
+  } else {
+    count += (m - prev - 1) / 2;
+  }
+  return count >= n;
+};
+```

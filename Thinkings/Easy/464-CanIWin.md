@@ -1,6 +1,6 @@
 # 我能赢吗
 
-在 "100 game" 这个游戏中，两名玩家轮流选择从 1 到 10 的任意整数，累计整数和，先使得累计整数和 达到或超过  100 的玩家，即为胜者。
+在 "100 game" 这个游戏中，两名玩家轮流选择从 1 到 10 的任意整数，累计整数和，先使得累计整数和 达到或超过 100 的玩家，即为胜者。
 
 如果我们将游戏规则改为 “玩家 不能 重复使用整数” 呢？
 
@@ -10,6 +10,7 @@
 
 示例 1：
 
+```javascript
 输入：maxChoosableInteger = 10, desiredTotal = 11
 输出：false
 解释：
@@ -18,16 +19,54 @@
 如果第一个玩家选择 1，那么第二个玩家只能选择从 2 到 10 的整数。
 第二个玩家可以通过选择整数 10（那么累积和为 11 >= desiredTotal），从而取得胜利.
 同样地，第一个玩家选择任意其他整数，第二个玩家都会赢。
+```
+
 示例 2:
 
+```javascript
 输入：maxChoosableInteger = 10, desiredTotal = 0
 输出：true
+```
+
 示例 3:
 
+```javascript
 输入：maxChoosableInteger = 10, desiredTotal = 1
 输出：true
+```
 
 提示:
 
-1 <= maxChoosableInteger <= 20
-0 <= desiredTotal <= 300
+- 1 <= maxChoosableInteger <= 20
+- 0 <= desiredTotal <= 300
+
+```javascript
+var canIWin = function (maxChoosableInteger, desiredTotal) {
+  const memo = new Map();
+  const dfs = (maxChoosableInteger, usedNumbers, desiredTotal, currentTotal) => {
+    if (!memo.has(usedNumbers)) {
+      let res = false;
+      for (let i = 0; i < maxChoosableInteger; i++) {
+        if (((usedNumbers >> i) & 1) === 0) {
+          if (i + 1 + currentTotal >= desiredTotal) {
+            res = true;
+            break;
+          }
+          if (
+            !dfs(maxChoosableInteger, usedNumbers | (1 << i), desiredTotal, currentTotal + i + 1)
+          ) {
+            res = true;
+            break;
+          }
+        }
+      }
+      memo.set(usedNumbers, res);
+    }
+    return memo.get(usedNumbers);
+  };
+  if (((1 + maxChoosableInteger) * maxChoosableInteger) / 2 < desiredTotal) {
+    return false;
+  }
+  return dfs(maxChoosableInteger, 0, desiredTotal, 0);
+};
+```

@@ -13,16 +13,45 @@
 
 示例 1：
 
+```javascript
 输入：s = "PPALLP"
 输出：true
 解释：学生缺勤次数少于 2 次，且不存在 3 天或以上的连续迟到记录。
+```
+
 示例 2：
 
+```javascript
 输入：s = "PPALLL"
 输出：false
 解释：学生最后三天连续迟到，所以不满足出勤奖励的条件。
+```
 
 提示：
 
-1 <= s.length <= 1000
-s[i] 为 'A'、'L' 或 'P'
+- 1 <= s.length <= 1000
+- s[i] 为 'A'、'L' 或 'P'
+
+```javascript
+var checkRecord = function (s) {
+  let absents = 0;
+  let lates = 0;
+  for (let i = 0; i < str.length; i++) {
+    let char = s[i];
+    if (char === 'A') {
+      absents += 1;
+      if (absents >= 2) {
+        return false;
+      }
+    } else if (char === 'L') {
+      lates += 1;
+      if (lates >= 3) {
+        return false;
+      }
+    } else {
+      lates = 0;
+    }
+  }
+  return true;
+};
+```

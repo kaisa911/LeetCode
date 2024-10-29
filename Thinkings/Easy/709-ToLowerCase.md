@@ -4,18 +4,42 @@
 
 示例 1：
 
+```javascript
 输入：s = "Hello"
 输出："hello"
+```
+
 示例 2：
 
+```javascript
 输入：s = "here"
 输出："here"
+```
+
 示例 3：
 
+```javascript
 输入：s = "LOVELY"
 输出："lovely"
+```
 
 提示：
 
-1 <= s.length <= 100
-s 由 ASCII 字符集中的可打印字符组成
+- 1 <= s.length <= 100
+- s 由 ASCII 字符集中的可打印字符组成
+
+```javascript
+/**
+ * @param {string} str
+ * @return {string}
+ */
+var toLowerCase = function (str) {
+  str = [...str];
+  for (let i = 0; i < str.length; i++) {
+    if (str[i].charCodeAt() < 91 && str[i].charCodeAt() > 59) {
+      str[i] = String.fromCharCode(+str[i].charCodeAt() + 32);
+    }
+  }
+  return str.join('');
+};
+```

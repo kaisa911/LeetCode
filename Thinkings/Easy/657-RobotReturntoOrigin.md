@@ -10,16 +10,35 @@
 
 示例 1:
 
+```javascript
 输入: moves = "UD"
 输出: true
 解释：机器人向上移动一次，然后向下移动一次。所有动作都具有相同的幅度，因此它最终回到它开始的原点。因此，我们返回 true。
+```
+
 示例 2:
 
+```javascript
 输入: moves = "LL"
 输出: false
 解释：机器人向左移动两次。它最终位于原点的左侧，距原点有两次 “移动” 的距离。我们返回 false，因为它在移动结束时没有返回原点。
+```
 
 提示:
 
-1 <= moves.length <= 2 * 104
-moves 只包含字符 'U', 'D', 'L' 和 'R'
+- 1 <= moves.length <= 2 \* 10^4
+- moves 只包含字符 'U', 'D', 'L' 和 'R'
+
+```javascript
+var judgeCircle = function (moves) {
+  var x = 0; // 记录当前位置
+  var y = 0;
+  for (var i = 0; i < moves.length; i++) {
+    if (moves[i] == 'U') y++;
+    if (moves[i] == 'D') y--;
+    if (moves[i] == 'L') x++;
+    if (moves[i] == 'R') x--;
+  }
+  return x == 0 && y == 0;
+};
+```

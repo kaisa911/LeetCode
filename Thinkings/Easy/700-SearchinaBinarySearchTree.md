@@ -6,16 +6,35 @@
 
 示例 1:
 ![](https://assets.leetcode.com/uploads/2021/01/12/tree1.jpg)
+
+```javascript
 输入：root = [4,2,7,1,3], val = 2
 输出：[2,1,3]
+```
+
 示例 2:
 ![](https://assets.leetcode.com/uploads/2021/01/12/tree2.jpg)
+
+```javascript
 输入：root = [4,2,7,1,3], val = 5
 输出：[]
+```
 
 提示：
 
-树中节点数在 [1, 5000] 范围内
-1 <= Node.val <= 107
-root 是二叉搜索树
-1 <= val <= 107
+- 树中节点数在 [1, 5000] 范围内
+- 1 <= Node.val <= 10^7
+- root 是二叉搜索树
+- 1 <= val <= 10^7
+
+```javascript
+var searchBST = function (root, val) {
+  while (root) {
+    if (val === root.val) {
+      return root;
+    }
+    root = val < root.val ? root.left : root.right;
+  }
+  return null;
+};
+```
