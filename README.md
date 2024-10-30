@@ -304,30 +304,30 @@ pie title 已完成的题目
 | 461 | [Hamming Distance 汉明距离](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/461-HammingDistance.md) | Easy | 位运算 |
 | 462 | [Minimum Move to Equal Array Elements II 最小操作次数是数组元素相等II](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/462-MinimumMovetoEqualArrayElementsII.md) | Medium | 排序 |
 | 463 | [Island Perimeter 岛屿的周长](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/463-IslandPerimeter.md) | Easy | DFS |
-| 464 | [Can I Win 我能赢吗](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/464-CanIWin.md) | Easy |  |
-| 485 | [Find Max Consecutive Ones 最大连续 1 的个数](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/485-FindMaxConsecutiveOnes.md) | Easy |  |
+| 464 | [Can I Win 我能赢吗](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/464-CanIWin.md) | Easy | DFS |
+| 485 | [Find Max Consecutive Ones 最大连续 1 的个数](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/485-FindMaxConsecutiveOnes.md) | Easy | 数组 |
 | 486 | [Predict the Winner 预测赢家](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/486-PredicttheWinner.md) | Medium | 动态规划 |
 | 491 | [Non- decreasing Subsequence 递增子序列](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/491-Non-decreasingSubsequence.md) | Medium | DFS |
 | 494 | [Target Sum 目标和](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/494-TargetSum.md) | Medium | 回溯 |
-| 496 | [Next Greater Element I 下一个更大元素 I](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/496-NextGreaterElementI.md) | Easy | 哈希 |
-| 509 | [Fibonacci 斐波那契数](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/509-Fibonacci.md) | Easy |  |
+| 496 | [Next Greater Element I 下一个更大元素 I](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/496-NextGreaterElementI.md) | Easy | 单调栈 |
+| 509 | [Fibonacci 斐波那契数](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/509-Fibonacci.md) | Easy | 数学 |
 | 518 | [Coin Change II 零钱兑换 II](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/518-CoinChangeII.md) | Medium | 动态规划 |
 | 519 | [Random Flip Matrix 随机翻转矩阵](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/519-RandomFlipMatrix.md) | Medium | 数组 |
 | 529 | [Minesweeper 扫雷游戏](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/529-Minesweeper.md) | Medium |  |
 | 532 | [K-diff Pairs in an Array 数组中的 k-diff 数对](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/532-K-diffPairsinanArray.md) | Medium | 哈希 |
 | 538 | [Convert BST to Greater Tree 把二叉搜索树转换为累加树](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/538-ConvertBSTtoGreaterTree.md) | Medium | 二叉树 |
-| 541 | [Reverse String II 反转字符串 II](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/541-ReverseStringII.md) | Easy |  |
-| 543 | [Diameter of Binary Tree 二叉树的直径](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/543-DiameterofBinaryTree.md) | Easy | 二叉树 |
+| 541 | [Reverse String II 反转字符串 II](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/541-ReverseStringII.md) | Easy | 字符串 |
+| 543 | [Diameter of Binary Tree 二叉树的直径](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/543-DiameterofBinaryTree.md) | Easy | 后序遍历 |
 | 547 | [Number of Provinces 省份数量](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/547-NumberofProvinces.md) | Medium | 图、DFS |
-| 551 | [Student Attendance Record I 学生出勤记录 I](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/551-StudentAttendanceRecordI.md) | Easy |  |
+| 551 | [Student Attendance Record I 学生出勤记录 I](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/551-StudentAttendanceRecordI.md) | Easy | 遍历 |
 | 552 | [Student Attendance Record II 学生出勤记录 II](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/552-StudentAttendanceRecordII.md) | Hard | 动态规划 |
-| 557 | [Reverse Words in a String III 反转字符串中的单词 III](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/557-ReverseWordsinaStringIII.md) | Easy | 字符串 |
+| 557 | [Reverse Words in a String III 反转字符串中的单词 III](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/557-ReverseWordsinaStringIII.md) | Easy | 字符串 |
 | 560 | [Subarray Sum Equals K 和为 k 的子数组](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/560-SubarraySumEqualsK.md) | Medium | 前缀和、哈希 |
-| 561 | [Array Partition 数组拆分](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/561-ArrayPartition.md) | Easy |  |
+| 561 | [Array Partition 数组拆分](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/561-ArrayPartition.md) | Easy | 数组 |
 | 581 | [Shortest Unsorted Continuous Subarray 最短无序连续子数组](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/581-ShortestUnsortedContinuousSubarray.md) | Medium | 双指针 |
-| 589 | [N-ray Tree Preorder Traversal N叉树的前序遍历](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/589-N-rayTreePreorderTraversal.md) | Easy | 二叉树 |
-| 605 | [Can Place Flowers 种花问题](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/605-CanPlaceFlowers.md) | Easy | 贪心 |
-| 606 | [Construct String from Binary Tree 根据二叉树创建字符串](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/606-ConstructStringfromBinaryTree.md) | Easy |  |
+| 589 | [N-ray Tree Preorder Traversal N叉树的前序遍历](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/589-N-rayTreePreorderTraversal.md) | Easy | 二叉树 |
+| 605 | [Can Place Flowers 种花问题](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/605-CanPlaceFlowers.md) | Easy | 贪心 |
+| 606 | [Construct String from Binary Tree 根据二叉树创建字符串](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/606-ConstructStringfromBinaryTree.md) | Easy | 二叉树 |
 | 611 | [Valid Triangle Number 有效三角形的个数](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/611-ValidTriangleNumber.md) | Medium | 排序、双指针 |
 | 617 | [Merge Two Binary Tree 合并二叉树](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/617-MergeTwoBinaryTree.md) | Easy | 二叉树 |
 | 621 | [Task Scheduler 任务调度器](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/621-TaskScheduler.md) | Medium |  |
