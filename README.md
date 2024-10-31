@@ -290,10 +290,10 @@ pie title 已完成的题目
 | 440 | [Kth Smallest in Lexicographical Order 字典序的第 K 小数字](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Hard/440-KthSmallestinLexicographicalOrder.md) | Hard | 字典树 |
 | 441 | [Arranging Coins 排列硬币](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/441-ArrangingCoins.md) | Easy | 二分查找 |
 | 442 | [Find All Duplicates in an Array 数组中重复的数据](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/442-FindAllDuplicatesinanArray.md) | Medium | 数组 |
-| 443 | [String Compression 压缩字符串](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/443-StringCompression.md) | Medium | 字符串、双指针 |
-| 447 | [Number of Boomerangs 回旋镖的数量](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/447-NumberofBoomerangs.md) | Medium | 哈希 |
+| 443 | [String Compression 压缩字符串](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/443-StringCompression.md) | Medium | 字符串、双指针 |
+| 447 | [Number of Boomerangs 回旋镖的数量](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/447-NumberofBoomerangs.md) | Medium | 哈希 |
 | 448 | [Find All Numbers Disappeared in an Array 找到所有数组中消失的数字](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/448-FindAllNumbersDisappearedinanArray.md) | Easy | 数组 |
-| 450 | [Delete Node in a BST 删除二叉搜索树中的节点](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/450-DeleteNodeinaBST.md) | Medium | 二叉搜索树 |
+| 450 | [Delete Node in a BST 删除二叉搜索树中的节点](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/450-DeleteNodeinaBST.md) | Medium | 二叉搜索树 |
 | 452 | [Minimum Number of Arrows to Burst Balloons 用最少数量的箭引爆气球](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/452-MinimumNumberofArrowstoBurstBalloons.md) | Medium | 区间集合 |
 | 454 | [4Sum II 四数相加 II](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/454-4SumII.md) | Medium | 哈希 |
 | 455 | [Assign Cookies 分发饼干](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/455-AssignCookies.md) | Easy | 贪心 |
@@ -329,32 +329,32 @@ pie title 已完成的题目
 | 605 | [Can Place Flowers 种花问题](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/605-CanPlaceFlowers.md) | Easy | 贪心 |
 | 606 | [Construct String from Binary Tree 根据二叉树创建字符串](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/606-ConstructStringfromBinaryTree.md) | Easy | 二叉树 |
 | 611 | [Valid Triangle Number 有效三角形的个数](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/611-ValidTriangleNumber.md) | Medium | 排序、双指针 |
-| 617 | [Merge Two Binary Tree 合并二叉树](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/617-MergeTwoBinaryTree.md) | Easy | 二叉树 |
+| 617 | [Merge Two Binary Tree 合并二叉树](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/617-MergeTwoBinaryTree.md) | Easy | 二叉树 |
 | 621 | [Task Scheduler 任务调度器](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/621-TaskScheduler.md) | Medium |  |
 | 628 | [Maximum Product of Three Numbers 三个数的最大乘积](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/628-MaximumProductofThreeNumbers.md) | Easy | 排序 |
 | 642 | [Palindromic Substrings 设计搜索自动补全系统](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/642-PalindromicSubstrings.md) | Medium |  |
-| 643 | [Maximum Average Subarray I 子数组最大平均数 I](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/643-MaximumAverageSubarrayI.md) | Easy |  |
+| 643 | [Maximum Average Subarray I 子数组最大平均数 I](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/643-MaximumAverageSubarrayI.md) | Easy | 滑动窗口 |
 | 647 | [Palindromic Substrings 回文子串](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/647-PalindromicSubstrings.md) | Medium | Manacher 算法 |
 | 649 | [Dota2 Senate Dota2 参议院](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/649-Dota2Senate.md) | Medium | 队列 |
-| 653 | [Two Sum IV - Input is a BST 两数之和 IV - 输入二叉搜索树](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/653-TwoSumIV-InputisaBST.md) | Easy | 二叉搜索树、DFS |
-| 657 | [Robot Return to Origin 机器人能否返回终点](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/657-RobotReturntoOrigin.md) | Easy | 数组 |
-| 665 | [Non-decreasing Array 非递减数列](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/665-Non-decreasingArray.md) | Easy |  |
+| 653 | [Two Sum IV - Input is a BST 两数之和 IV - 输入二叉搜索树](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/653-TwoSumIV-InputisaBST.md) | Easy | 二叉搜索树、DFS |
+| 657 | [Robot Return to Origin 机器人能否返回终点](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/657-RobotReturntoOrigin.md) | Easy | 数组 |
+| 665 | [Non-decreasing Array 非递减数列](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/665-Non-decreasingArray.md) | Easy | 数组 |
 | 668 | [Kth Smallest Number in Multiplication Table 乘法表中的第 K 小的数](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Hard/668-KthSmallestNumberinMultiplicationTable.md) | Hard |  |
 | 670 | [Maximum Swap 最大交换](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/670-MaximumSwap.md) | Medium | 贪心 |
-| 680 | [Valid Palindrome II 验证回文串 II](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/680-ValidPalindromeII.md) | Easy |  |
+| 680 | [Valid Palindrome II 验证回文串 II](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/680-ValidPalindromeII.md) | Easy | 双指针 |
 | 692 | [Top K Frequent Words 前K个高频单词](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/692-TopKFrequentWords.md) | Medium | 排序 |
-| 700 | [Search in a Binary Search Tree 二叉搜索树中的搜索](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/700-SearchinaBinarySearchTree.md) | Easy | 二叉搜索树 |
-| 703 | [Kth Largest Element in a Stream 数据流中的第 K 大元素](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/703-KthLargestElementinaStream.md) | Easy |  |
-| 704 | [Binary Search 二分查找](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/704-BinarySearch.md) | Easy |  |
-| 709 | [To Lower Case 转换成小写字母](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/709-ToLowerCase.md) | Easy |  |
+| 700 | [Search in a Binary Search Tree 二叉搜索树中的搜索](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/700-SearchinaBinarySearchTree.md) | Easy | 二叉搜索树 |
+| 703 | [Kth Largest Element in a Stream 数据流中的第 K 大元素](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/703-KthLargestElementinaStream.md) | Easy | 堆 |
+| 704 | [Binary Search 二分查找](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/704-BinarySearch.md) | Easy | 双指针 |
+| 709 | [To Lower Case 转换成小写字母](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/709-ToLowerCase.md) | Easy | 字符串 |
 | 714 | [Best Time to Buy and Sell Stock with Transaction Fee 买卖股票的最佳时机含手续费](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/714-BestTimetoBuyandSellStockwithTransactionFee.md) | Medium | 多维动态规划 |
 | 720 | [Longest Word in Dictionary 词典中最长的单词](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/720-LongestWordinDictionary.md) | Easy | 贪心、排序 |
-| 724 | [Find Pivot Index 寻找数组的中心索引](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/724-FindPivotIndex.md) | Easy |  |
+| 724 | [Find Pivot Index 寻找数组的中心索引](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/724-FindPivotIndex.md) | Easy | 数组 |
 | 735 | [Asteroid Collision 小行星碰撞](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/735-AsteroidCollision.md) | Medium | 栈 |
 | 738 | [Monotone Increasing Digits 单调递增的数字](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/738-MonotoneIncreasingDigits.md) | Medium | 贪心 |
 | 739 | [Daily Temperatures 每日温度](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/739-DailyTemperatures.md) | Medium | 单调栈 |
-| 746 | [Min Cost Climbing Stairs 使用最小花费爬楼梯](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/746-MinCostClimbingStairs.md) | Easy | 动态规划 |
-| 747 | [Largest Number At Least Twice of Others 至少是其他数字两倍的最大数](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/747-LargestNumberAtLeastTwiceofOthers.md) | Easy |  |
+| 746 | [Min Cost Climbing Stairs 使用最小花费爬楼梯](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/746-MinCostClimbingStairs.md) | Easy | 动态规划 |
+| 747 | [Largest Number At Least Twice of Others 至少是其他数字两倍的最大数](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/747-LargestNumberAtLeastTwiceofOthers.md) | Easy | 数组、排序 |
 | 763 | [Partition Labels 划分字母区间](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/763-PartitionLabels.md) | Medium | 贪心 |
 | 767 | [Reorganize String 重构字符串](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/767-ReorganizeString.md) | Medium | 优先队列 |
 | 778 | [Swim In Rising Water 水位上升的泳池中游泳](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Hard/778-SwimInRisingWater.md) | Hard |  |
