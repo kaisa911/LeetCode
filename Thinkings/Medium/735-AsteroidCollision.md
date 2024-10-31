@@ -8,22 +8,61 @@
 
 示例 1：
 
+```js
 输入：asteroids = [5,10,-5]
 输出：[5,10]
 解释：10 和 -5 碰撞后只剩下 10 。 5 和 10 永远不会发生碰撞。
+```
+
 示例 2：
 
+```js
 输入：asteroids = [8,-8]
 输出：[]
 解释：8 和 -8 碰撞后，两者都发生爆炸。
+```
+
 示例 3：
 
+```js
 输入：asteroids = [10,2,-5]
 输出：[10]
 解释：2 和 -5 发生碰撞后剩下 -5 。10 和 -5 发生碰撞后剩下 10 。
+```
 
 提示：
 
-2 <= asteroids.length <= 104
--1000 <= asteroids[i] <= 1000
-asteroids[i] != 0
+- 2 <= asteroids.length <= 10^4
+- -1000 <= asteroids[i] <= 1000
+- asteroids[i] != 0
+
+```js
+var asteroidCollision = function (asteroids) {
+  const stack = [];
+  for (const aster of asteroids) {
+    let alive = true;
+    while (
+      alive &&
+      aster < 0 &&
+      stack.length > 0 &&
+      stack[stack.length - 1] > 0
+    ) {
+      alive = stack[stack.length - 1] < -aster;
+      // aster 是否存在
+      if (stack[stack.length - 1] <= -aster) {
+        // 栈顶行星爆炸
+        stack.pop();
+      }
+    }
+    if (alive) {
+      stack.push(aster);
+    }
+  }
+  const size = stack.length;
+  const res = new Array(size).fill(0);
+  for (let i = size - 1; i >= 0; i--) {
+    res[i] = stack.pop();
+  }
+  return res;
+};
+```

@@ -17,6 +17,8 @@ AutocompleteSystem(String[] sentence, int[] times):这是构造函数。输入�
 List<String> input(char c):输入c是用户输入的下一个字符。字符只能是小写字母(“a”到“z”)、空格(“”)或特殊字符(“#”)。另外，前面输入的句子应该记录在系统中。输出将是前3个历史热门句子，它们的前缀与已经输入的句子部分相同。
 
 例子:
+
+```js
 操作:AutocompleteSystem(["i love you"， "island"，"ironman"， "i love leetcode"]， [5,3,2,2])
 系统已经追踪到以下句子及其对应的时间:
 
@@ -46,10 +48,32 @@ List<String> input(char c):输入c是用户输入的下一个字符。字符只�
 输出:[]
 解释:
 用户完成输入后，在系统中将句子“i a”保存为历史句。下面的输入将被计算为新的搜索。
+```
 
 提示:
 
-输入的句子总是以字母开头，以“#”结尾，两个单词之间只有一个空格。
-要搜索的完整句子不会超过100个。包括历史数据在内的每句话的长度不会超过100句。
-在编写测试用例时，即使是字符输入，也请使用双引号而不是单引号。
-请记住重置在AutocompleteSystem类中声明的类变量，因为静态/类变量是跨多个测试用例持久化的。详情请点击这里。
+- 输入的句子总是以字母开头，以“#”结尾，两个单词之间只有一个空格。
+- 要搜索的完整句子不会超过100个。包括历史数据在内的每句话的长度不会超过100句。
+- 在编写测试用例时，即使是字符输入，也请使用双引号而不是单引号。
+- 请记住重置在AutocompleteSystem类中声明的类变量，因为静态/类变量是跨多个测试用例持久化的。详情请点击这里。
+
+```js
+/**
+ * @param {string} s
+ * @return {number}
+ */
+var countSubstrings = function (s) {
+ const n = s.length;
+ let count = 0;
+ for (let i = 0; i < 2 * n - 1; i++) {
+  let left = Math.floor(i / 2);
+  let right = left + (i % 2);
+  while (left >= 0 && right < n && s[left] === s[right]) {
+   count++;
+   left--;
+   right++;
+  }
+ }
+ return count;
+};
+```

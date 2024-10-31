@@ -2227,9 +2227,9 @@ const nameMap = {
     cnName: '用最少数量的箭引爆气球',
     enName: 'Minimum Number of Arrows to Burst Balloons',
     difficulty: 'Medium',
-    label: '区间集合',
+    label: '区间集合、贪心',
     hasThinkings: true,
-    checked: false,
+    checked: true,
   },
   454: {
     cnName: '四数相加 II',
@@ -2237,7 +2237,7 @@ const nameMap = {
     difficulty: 'Medium',
     label: '哈希',
     hasThinkings: true,
-    checked: false,
+    checked: true,
   },
   455: {
     cnName: '分发饼干',
@@ -2251,9 +2251,9 @@ const nameMap = {
     cnName: '132 模式',
     enName: '132 Pattern',
     difficulty: 'Medium',
-    label: '枚举',
+    label: '数组、栈',
     hasThinkings: true,
-    checked: false,
+    checked: true,
   },
   458: {
     cnName: '可怜的小猪',
@@ -2529,7 +2529,7 @@ const nameMap = {
   },
   642: {
     cnName: '设计搜索自动补全系统',
-    enName: 'Palindromic Substrings',
+    enName: 'Design Search Autocomplete System',
     difficulty: 'Medium',
     label: '',
     hasThinkings: true,

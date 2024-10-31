@@ -10,6 +10,7 @@
 
 示例 1：
 
+```js
 输入：prices = [1, 3, 2, 8, 4, 9], fee = 2
 输出：8
 解释：能够达到的最大利润:  
@@ -18,13 +19,31 @@
 在此处买入 prices[4] = 4
 在此处卖出 prices[5] = 9
 总利润: ((8 - 1) - 2) + ((9 - 4) - 2) = 8
+```
+
 示例 2：
 
+```js
 输入：prices = [1,3,7,5,10,3], fee = 3
 输出：6
+```
 
 提示：
 
-1 <= prices.length <= 5 *104
-1 <= prices[i] < 5* 104
-0 <= fee < 5 * 104
+- 1 <= prices.length <= 5 \* 10^4
+- 1 <= prices[i] < 5\* 10^4
+- 0 <= fee < 5 \* 10^4
+
+```js
+var maxProfit = function (prices, fee) {
+  const n = prices.length;
+  let [sell, buy] = [0, -prices[0]];
+  for (let i = 1; i < n; i++) {
+    [sell, buy] = [
+      Math.max(sell, buy + prices[i] - fee),
+      Math.max(buy, sell - prices[i]),
+    ];
+  }
+  return sell;
+};
+```

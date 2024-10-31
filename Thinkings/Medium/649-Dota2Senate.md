@@ -14,14 +14,18 @@ Dota2 参议院由来自两派的参议员组成。现在参议院希望对一�
 
 示例 1：
 
+```js
 输入：senate = "RD"
 输出："Radiant"
 解释：
 第 1 轮时，第一个参议员来自 Radiant 阵营，他可以使用第一项权利让第二个参议员失去所有权利。
 这一轮中，第二个参议员将会被跳过，因为他的权利被禁止了。
 第 2 轮时，第一个参议员可以宣布胜利，因为他是唯一一个有投票权的人。
+```
+
 示例 2：
 
+```js
 输入：senate = "RDD"
 输出："Dire"
 解释：
@@ -29,9 +33,35 @@ Dota2 参议院由来自两派的参议员组成。现在参议院希望对一�
 这一轮中，第二个来自 Dire 阵营的参议员会将被跳过，因为他的权利被禁止了。
 这一轮中，第三个来自 Dire 阵营的参议员可以使用他的第一项权利禁止第一个参议员的权利。
 因此在第二轮只剩下第三个参议员拥有投票的权利,于是他可以宣布胜利
+```
 
 提示：
 
-n == senate.length
-1 <= n <= 104
-senate[i] 为 'R' 或 'D'
+- n == senate.length
+- 1 <= n <= 10^4
+- senate[i] 为 'R' 或 'D'
+
+```js
+var predictPartyVictory = function (senate) {
+  const n = senate.length;
+  const radiant = [],
+    dire = [];
+  for (const [i, ch] of Array.from(senate).entries()) {
+    if (ch === 'R') {
+      radiant.push(i);
+    } else {
+      dire.push(i);
+    }
+  }
+  while (radiant.length && dire.length) {
+    if (radiant[0] < dire[0]) {
+      radiant.push(radiant[0] + n);
+    } else {
+      dire.push(dire[0] + n);
+    }
+    radiant.shift();
+    dire.shift();
+  }
+  return radiant.length ? 'Radiant' : 'Dire';
+};
+```

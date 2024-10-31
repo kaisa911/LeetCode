@@ -294,10 +294,10 @@ pie title 已完成的题目
 | 447 | [Number of Boomerangs 回旋镖的数量](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/447-NumberofBoomerangs.md) | Medium | 哈希 |
 | 448 | [Find All Numbers Disappeared in an Array 找到所有数组中消失的数字](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/448-FindAllNumbersDisappearedinanArray.md) | Easy | 数组 |
 | 450 | [Delete Node in a BST 删除二叉搜索树中的节点](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/450-DeleteNodeinaBST.md) | Medium | 二叉搜索树 |
-| 452 | [Minimum Number of Arrows to Burst Balloons 用最少数量的箭引爆气球](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/452-MinimumNumberofArrowstoBurstBalloons.md) | Medium | 区间集合 |
-| 454 | [4Sum II 四数相加 II](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/454-4SumII.md) | Medium | 哈希 |
+| 452 | [Minimum Number of Arrows to Burst Balloons 用最少数量的箭引爆气球](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/452-MinimumNumberofArrowstoBurstBalloons.md) | Medium | 区间集合、贪心 |
+| 454 | [4Sum II 四数相加 II](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/454-4SumII.md) | Medium | 哈希 |
 | 455 | [Assign Cookies 分发饼干](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/455-AssignCookies.md) | Easy | 贪心 |
-| 456 | [132 Pattern 132 模式](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/456-132Pattern.md) | Medium | 枚举 |
+| 456 | [132 Pattern 132 模式](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/456-132Pattern.md) | Medium | 数组、栈 |
 | 458 | [Poor Pigs 可怜的小猪](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Hard/458-PoorPigs.md) | Hard |  |
 | 459 | [Repeated Substring Pattern 重复的子字符串](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/459-RepeatedSubstringPattern.md) | Easy | 字符串 |
 | 460 | [LFU Cache LFU 缓存](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Hard/460-LFUCache.md) | Hard | 哈希，链表 |

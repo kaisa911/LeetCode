@@ -9,6 +9,7 @@
 
 示例 1：
 
+```js
 输入：nums = [1,1,1,1,1], target = 3
 输出：5
 解释：一共有 5 种方法让最终目标和为 3 。
@@ -17,14 +18,36 @@
 +1 + 1 - 1 + 1 + 1 = 3
 +1 + 1 + 1 - 1 + 1 = 3
 +1 + 1 + 1 + 1 - 1 = 3
+```
+
 示例 2：
 
+```js
 输入：nums = [1], target = 1
 输出：1
+```
 
 提示：
 
-1 <= nums.length <= 20
-0 <= nums[i] <= 1000
-0 <= sum(nums[i]) <= 1000
--1000 <= target <= 1000
+- 1 <= nums.length <= 20
+- 0 <= nums[i] <= 1000
+- 0 <= sum(nums[i]) <= 1000
+- -1000 <= target <= 1000
+
+```js
+var findTargetSumWays = function (nums, target) {
+  let count = 0;
+  const backtrack = (nums, target, index, sum) => {
+    if (index === nums.length) {
+      if (sum === target) {
+        count++;
+      }
+    } else {
+      backtrack(nums, target, index + 1, sum + nums[index]);
+      backtrack(nums, target, index + 1, sum - nums[index]);
+    }
+  };
+  backtrack(nums, target, 0, 0);
+  return count;
+};
+```

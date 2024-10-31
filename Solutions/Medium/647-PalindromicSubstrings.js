@@ -11,7 +11,7 @@ var countSubstrings = function (s) {
   const f = new Array(n);
   let iMax = 0,
     rMax = 0,
-    ans = 0;
+    res = 0;
   for (let i = 1; i < n; ++i) {
     // 初始化  f[i]
     f[i] = i <= rMax ? Math.min(rMax - i + 1, f[2 * iMax - i]) : 1;
@@ -25,7 +25,7 @@ var countSubstrings = function (s) {
       rMax = i + f[i] - 1;
     }
     // 统计答案, 当前贡献为 (f[i] - 1) / 2 上取整
-    ans += Math.floor(f[i] / 2);
+    res += Math.floor(f[i] / 2);
   }
-  return ans;
+  return res;
 };

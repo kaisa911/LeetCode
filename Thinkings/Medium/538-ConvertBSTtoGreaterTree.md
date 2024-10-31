@@ -11,24 +11,56 @@
 
 示例 1：
 ![1](https://assets.leetcode-cn.com/aliyun-lc-upload/uploads/2019/05/03/tree.png)
+
+```js
 输入：[4,1,6,0,2,5,7,null,null,null,3,null,null,null,8]
 输出：[30,36,21,36,35,26,15,null,null,null,33,null,null,null,8]
+```
+
 示例 2：
 
+```js
 输入：root = [0,null,1]
 输出：[1,null,1]
+```
+
 示例 3：
 
+```js
 输入：root = [1,0,2]
 输出：[3,3,2]
+```
+
 示例 4：
 
+```js
 输入：root = [3,2,4,1]
 输出：[7,9,4,10]
+```
 
 提示：
 
-树中的节点数介于 0 和 104 之间。
-每个节点的值介于 -104 和 104 之间。
-树中的所有值 互不相同 。
-给定的树为二叉搜索树。
+- 树中的节点数介于 0 和 10^4 之间。
+- 每个节点的值介于 -10^4 和 10^4 之间。
+- 树中的所有值 互不相同 。
+- 给定的树为二叉搜索树。
+
+```js
+const convertBST = (root) => {
+  let sum = 0;
+  const inOrder = (root) => {
+    if (root == null) {
+      // 遍历到null节点，开始返回
+      return;
+    }
+    inOrder(root.right); // 先进入右子树
+
+    sum += root.val; // 节点值累加给sum
+    root.val = sum; // 累加的结果，赋给root.val
+
+    inOrder(root.left); // 然后才进入左子树
+  };
+  inOrder(root); // 递归的入口，从根节点开始
+  return root;
+};
+```

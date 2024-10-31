@@ -6,17 +6,48 @@
 
 示例 1:
 
+```js
 输入: n = 10
 输出: 9
+```
+
 示例 2:
 
+```js
 输入: n = 1234
 输出: 1234
+```
+
 示例 3:
 
+```js
 输入: n = 332
 输出: 299
+```
 
 提示:
 
-0 <= n <= 109
+0 <= n <= 10^9
+
+```js
+var monotoneIncreasingDigits = function (n) {
+  const strN = n
+    .toString()
+    .split('')
+    .map((v) => +v);
+  let i = 1;
+  while (i < strN.length && strN[i - 1] <= strN[i]) {
+    i += 1;
+  }
+  if (i < strN.length) {
+    while (i > 0 && strN[i - 1] > strN[i]) {
+      strN[i - 1] -= 1;
+      i -= 1;
+    }
+    for (i += 1; i < strN.length; ++i) {
+      strN[i] = 9;
+    }
+  }
+  return parseInt(strN.join(''));
+};
+```

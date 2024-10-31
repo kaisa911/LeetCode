@@ -20,9 +20,9 @@ var asteroidCollision = function (asteroids) {
     }
   }
   const size = stack.length;
-  const ans = new Array(size).fill(0);
+  const res = new Array(size).fill(0);
   for (let i = size - 1; i >= 0; i--) {
-    ans[i] = stack.pop();
+    res[i] = stack.pop();
   }
-  return ans;
+  return res;
 };
