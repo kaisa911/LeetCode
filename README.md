@@ -267,7 +267,7 @@ pie title 已完成的题目
 | 377 | [Combination Sum IV 组合总和 Ⅳ](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/377-CombinationSumIV.md) | Medium | 动态规划、回溯 |
 | 378 | [Kth Smallest Element in a Sorted Matrix 有序矩阵中第 K 小的元素](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/378-KthSmallestElementinaSortedMatrix.md) | Medium | 二分查找 |
 | 380 | [Insert Delete GetRandom O1 O(1)时间插入删除和获取随机元素](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/380-InsertDeleteGetRandomO1.md) | Medium | 哈希 |
-| 381 | [Insert Delete GetRandom O(1) - Duplicates allowed O(1)时间插入删除和获取随机元素-允许重复](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Hard/381-InsertDeleteGetRandomO(1)-Duplicatesallowed.md) | Hard | 哈希 |
+| 381 | [Insert Delete GetRandom O(1) - Duplicates allowed O(1)时间插入删除和获取随机元素-允许重复](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/381-InsertDeleteGetRandomO(1)-Duplicatesallowed.md) | Hard | 哈希 |
 | 383 | [Ransom Note 赎金信](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/383-RansomNote.md) | Easy | 哈希表 |
 | 384 | [Shuffle an Array 打乱数组](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/384-ShuffleanArray.md) | Medium | Fisher-Yates洗牌算法 |
 | 387 | [First Unique Character in a String 字符串中的第一个唯一字符](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/387-FirstUniqueCharacterinaString.md) | Easy | 哈希 |
@@ -287,7 +287,7 @@ pie title 已完成的题目
 | 435 | [Non-overlapping Intervals 无重叠区间](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/435-Non-overlappingIntervals.md) | Medium | 区间集合、贪心 |
 | 437 | [Path Sum III 路径总和 III](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/437-PathSumIII.md) | Medium | 二叉树、DFS |
 | 438 | [Find All Anagrams in a String 找到字符串中所有字母异位词](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/438-FindAllAnagramsinaString.md) | Medium | 滑动窗口 |
-| 440 | [Kth Smallest in Lexicographical Order 字典序的第 K 小数字](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Hard/440-KthSmallestinLexicographicalOrder.md) | Hard | 字典树 |
+| 440 | [Kth Smallest in Lexicographical Order 字典序的第 K 小数字](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/440-KthSmallestinLexicographicalOrder.md) | Hard | 字典树 |
 | 441 | [Arranging Coins 排列硬币](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/441-ArrangingCoins.md) | Easy | 二分查找 |
 | 442 | [Find All Duplicates in an Array 数组中重复的数据](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/442-FindAllDuplicatesinanArray.md) | Medium | 数组 |
 | 443 | [String Compression 压缩字符串](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/443-StringCompression.md) | Medium | 字符串、双指针 |
@@ -298,24 +298,24 @@ pie title 已完成的题目
 | 454 | [4Sum II 四数相加 II](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/454-4SumII.md) | Medium | 哈希 |
 | 455 | [Assign Cookies 分发饼干](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/455-AssignCookies.md) | Easy | 贪心 |
 | 456 | [132 Pattern 132 模式](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/456-132Pattern.md) | Medium | 数组、栈 |
-| 458 | [Poor Pigs 可怜的小猪](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Hard/458-PoorPigs.md) | Hard |  |
+| 458 | [Poor Pigs 可怜的小猪](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/458-PoorPigs.md) | Hard | 数学 |
 | 459 | [Repeated Substring Pattern 重复的子字符串](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/459-RepeatedSubstringPattern.md) | Easy | 字符串 |
-| 460 | [LFU Cache LFU 缓存](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Hard/460-LFUCache.md) | Hard | 哈希，链表 |
+| 460 | [LFU Cache LFU 缓存](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/460-LFUCache.md) | Hard | 哈希，链表 |
 | 461 | [Hamming Distance 汉明距离](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/461-HammingDistance.md) | Easy | 位运算 |
-| 462 | [Minimum Move to Equal Array Elements II 最小操作次数是数组元素相等II](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/462-MinimumMovetoEqualArrayElementsII.md) | Medium | 排序 |
+| 462 | [Minimum Move to Equal Array Elements II 最小操作次数是数组元素相等II](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/462-MinimumMovetoEqualArrayElementsII.md) | Medium | 排序 |
 | 463 | [Island Perimeter 岛屿的周长](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/463-IslandPerimeter.md) | Easy | DFS |
 | 464 | [Can I Win 我能赢吗](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/464-CanIWin.md) | Easy | DFS |
 | 485 | [Find Max Consecutive Ones 最大连续 1 的个数](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/485-FindMaxConsecutiveOnes.md) | Easy | 数组 |
-| 486 | [Predict the Winner 预测赢家](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/486-PredicttheWinner.md) | Medium | 动态规划 |
-| 491 | [Non- decreasing Subsequence 递增子序列](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/491-Non-decreasingSubsequence.md) | Medium | DFS |
-| 494 | [Target Sum 目标和](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/494-TargetSum.md) | Medium | 回溯 |
+| 486 | [Predict the Winner 预测赢家](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/486-PredicttheWinner.md) | Medium | 动态规划 |
+| 491 | [Non- decreasing Subsequence 递增子序列](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/491-Non-decreasingSubsequence.md) | Medium | DFS |
+| 494 | [Target Sum 目标和](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/494-TargetSum.md) | Medium | 动态规划 |
 | 496 | [Next Greater Element I 下一个更大元素 I](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/496-NextGreaterElementI.md) | Easy | 单调栈 |
 | 509 | [Fibonacci 斐波那契数](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/509-Fibonacci.md) | Easy | 数学 |
 | 518 | [Coin Change II 零钱兑换 II](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/518-CoinChangeII.md) | Medium | 动态规划 |
 | 519 | [Random Flip Matrix 随机翻转矩阵](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/519-RandomFlipMatrix.md) | Medium | 数组 |
-| 529 | [Minesweeper 扫雷游戏](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/529-Minesweeper.md) | Medium |  |
+| 529 | [Minesweeper 扫雷游戏](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/529-Minesweeper.md) | Medium | DFS |
 | 532 | [K-diff Pairs in an Array 数组中的 k-diff 数对](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/532-K-diffPairsinanArray.md) | Medium | 哈希 |
-| 538 | [Convert BST to Greater Tree 把二叉搜索树转换为累加树](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/538-ConvertBSTtoGreaterTree.md) | Medium | 二叉树 |
+| 538 | [Convert BST to Greater Tree 把二叉搜索树转换为累加树](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/538-ConvertBSTtoGreaterTree.md) | Medium | 二叉树 |
 | 541 | [Reverse String II 反转字符串 II](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/541-ReverseStringII.md) | Easy | 字符串 |
 | 543 | [Diameter of Binary Tree 二叉树的直径](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/543-DiameterofBinaryTree.md) | Easy | 后序遍历 |
 | 547 | [Number of Provinces 省份数量](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/547-NumberofProvinces.md) | Medium | 图、DFS |
@@ -330,11 +330,11 @@ pie title 已完成的题目
 | 606 | [Construct String from Binary Tree 根据二叉树创建字符串](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/606-ConstructStringfromBinaryTree.md) | Easy | 二叉树 |
 | 611 | [Valid Triangle Number 有效三角形的个数](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/611-ValidTriangleNumber.md) | Medium | 排序、双指针 |
 | 617 | [Merge Two Binary Tree 合并二叉树](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/617-MergeTwoBinaryTree.md) | Easy | 二叉树 |
-| 621 | [Task Scheduler 任务调度器](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/621-TaskScheduler.md) | Medium |  |
+| 621 | [Task Scheduler 任务调度器](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/621-TaskScheduler.md) | Medium | 数组 |
 | 628 | [Maximum Product of Three Numbers 三个数的最大乘积](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/628-MaximumProductofThreeNumbers.md) | Easy | 排序 |
-| 642 | [Palindromic Substrings 设计搜索自动补全系统](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/642-PalindromicSubstrings.md) | Medium |  |
+| 642 | [Design Search Autocomplete System 设计搜索自动补全系统](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/642-DesignSearchAutocompleteSystem.md) | Medium | 数组 |
 | 643 | [Maximum Average Subarray I 子数组最大平均数 I](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/643-MaximumAverageSubarrayI.md) | Easy | 滑动窗口 |
-| 647 | [Palindromic Substrings 回文子串](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/647-PalindromicSubstrings.md) | Medium | Manacher 算法 |
+| 647 | [Palindromic Substrings 回文子串](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/647-PalindromicSubstrings.md) | Medium | 字符串 |
 | 649 | [Dota2 Senate Dota2 参议院](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/649-Dota2Senate.md) | Medium | 队列 |
 | 653 | [Two Sum IV - Input is a BST 两数之和 IV - 输入二叉搜索树](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/653-TwoSumIV-InputisaBST.md) | Easy | 二叉搜索树、DFS |
 | 657 | [Robot Return to Origin 机器人能否返回终点](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/657-RobotReturntoOrigin.md) | Easy | 数组 |

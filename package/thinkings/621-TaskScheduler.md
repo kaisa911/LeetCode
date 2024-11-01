@@ -40,19 +40,28 @@
 - tasks[i] 是大写英文字母
 - 0 <= n <= 100
 
+思路：
+
+拿到这个题目，首先需要统计每个任务出现的频率，找到出现频率最高的任务次数`maxExec`以及具有相同最高频率的任务数量`maxCount`。解题思路是通过计算以最高频率任务为基准，考虑冷却时间间隔，计算出一个可能的最短时间，然后与任务总数进行比较取较大值。选择这种方法的理由是，通过分析任务频率和冷却时间的关系，可以较为直观地推导出可能的最短时间。
+
+1. 首先，使用 `_.countBy` 函数统计每个任务出现的频率，并将频率值存储在 `freq` 对象中。
+2. 对频率值进行排序，得到按从大到小的顺序排列的数组 `counts` ，方便获取最大的频率值 `maxExec` 。
+3. 通过遍历 `counts` 数组，找到具有相同最大频率值的任务数量 `maxCount` 。
+4. 最后，按照与原始解法相同的逻辑计算并返回最短时间间隔，即比较以最高频率任务为基准考虑冷却时间计算出的时间和任务总数，取较大值。
+
+时间复杂度：O(nlogn)，主要开销在于对频率数组的排序操作。
+空间复杂度：O(n)，用于存储任务频率和其他辅助变量。
+
 ```js
 var leastInterval = function (tasks, n) {
   const freq = _.countBy(tasks);
+  const counts = Object.values(freq).sort((a, b) => b - a);
+  let maxExec = counts[0];
+  let maxCount = 1;
 
-  // 最多的执行次数
-  const maxExec = Math.max(...Object.values(freq));
-  // 具有最多执行次数的任务数量
-  let maxCount = 0;
-  Object.values(freq).forEach((v) => {
-    if (v === maxExec) {
-      maxCount++;
-    }
-  });
+  for (let i = 1; i < counts.length && counts[i] === maxExec; i++) {
+    maxCount++;
+  }
 
   return Math.max((maxExec - 1) * (n + 1) + maxCount, tasks.length);
 };
