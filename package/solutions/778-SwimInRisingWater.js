@@ -4,7 +4,7 @@ var swimInWater = function (grid) {
     right = n * n - 1;
   while (left < right) {
     const mid = Math.floor((left + right) / 2);
-    if (check(grid, mid)) {
+    if (canReach(grid, mid)) {
       right = mid;
     } else {
       left = mid + 1;
@@ -13,7 +13,7 @@ var swimInWater = function (grid) {
   return left;
 };
 
-const check = (grid, threshold) => {
+const canReach = (grid, threshold) => {
   if (grid[0][0] > threshold) {
     return false;
   }
@@ -29,18 +29,14 @@ const check = (grid, threshold) => {
     [-1, 0],
   ];
   while (queue.length) {
-    const square = queue.shift();
-    const i = square[0],
-      j = square[1];
+    const [i, j] = queue.shift();
 
-    for (const direction of directions) {
-      const ni = i + direction[0],
-        nj = j + direction[1];
-      if (ni >= 0 && ni < n && nj >= 0 && nj < n) {
-        if (!visited[ni][nj] && grid[ni][nj] <= threshold) {
-          queue.push([ni, nj]);
-          visited[ni][nj] = true;
-        }
+    for (const [di, dj] of directions) {
+      const ni = i + di;
+      const nj = j + dj;
+      if (ni >= 0 && ni < n && nj >= 0 && nj < n && !visited[ni][nj] && grid[ni][nj] <= threshold) {
+        queue.push([ni, nj]);
+        visited[ni][nj] = true;
       }
     }
   }

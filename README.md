@@ -335,40 +335,40 @@ pie title 已完成的题目
 | 642 | [Design Search Autocomplete System 设计搜索自动补全系统](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/642-DesignSearchAutocompleteSystem.md) | Medium | 数组 |
 | 643 | [Maximum Average Subarray I 子数组最大平均数 I](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/643-MaximumAverageSubarrayI.md) | Easy | 滑动窗口 |
 | 647 | [Palindromic Substrings 回文子串](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/647-PalindromicSubstrings.md) | Medium | 字符串 |
-| 649 | [Dota2 Senate Dota2 参议院](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/649-Dota2Senate.md) | Medium | 队列 |
+| 649 | [Dota2 Senate Dota2 参议院](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/649-Dota2Senate.md) | Medium | 队列 |
 | 653 | [Two Sum IV - Input is a BST 两数之和 IV - 输入二叉搜索树](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/653-TwoSumIV-InputisaBST.md) | Easy | 二叉搜索树、DFS |
 | 657 | [Robot Return to Origin 机器人能否返回终点](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/657-RobotReturntoOrigin.md) | Easy | 数组 |
 | 665 | [Non-decreasing Array 非递减数列](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/665-Non-decreasingArray.md) | Easy | 数组 |
-| 668 | [Kth Smallest Number in Multiplication Table 乘法表中的第 K 小的数](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Hard/668-KthSmallestNumberinMultiplicationTable.md) | Hard |  |
-| 670 | [Maximum Swap 最大交换](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/670-MaximumSwap.md) | Medium | 贪心 |
+| 668 | [Kth Smallest Number in Multiplication Table 乘法表中的第 K 小的数](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/668-KthSmallestNumberinMultiplicationTable.md) | Hard | 二分查找 |
+| 670 | [Maximum Swap 最大交换](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/670-MaximumSwap.md) | Medium | 贪心 |
 | 680 | [Valid Palindrome II 验证回文串 II](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/680-ValidPalindromeII.md) | Easy | 双指针 |
 | 692 | [Top K Frequent Words 前K个高频单词](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/692-TopKFrequentWords.md) | Medium | 排序 |
 | 700 | [Search in a Binary Search Tree 二叉搜索树中的搜索](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/700-SearchinaBinarySearchTree.md) | Easy | 二叉搜索树 |
 | 703 | [Kth Largest Element in a Stream 数据流中的第 K 大元素](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/703-KthLargestElementinaStream.md) | Easy | 堆 |
 | 704 | [Binary Search 二分查找](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/704-BinarySearch.md) | Easy | 双指针 |
 | 709 | [To Lower Case 转换成小写字母](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/709-ToLowerCase.md) | Easy | 字符串 |
-| 714 | [Best Time to Buy and Sell Stock with Transaction Fee 买卖股票的最佳时机含手续费](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/714-BestTimetoBuyandSellStockwithTransactionFee.md) | Medium | 多维动态规划 |
+| 714 | [Best Time to Buy and Sell Stock with Transaction Fee 买卖股票的最佳时机含手续费](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/714-BestTimetoBuyandSellStockwithTransactionFee.md) | Medium | 多维动态规划 |
 | 720 | [Longest Word in Dictionary 词典中最长的单词](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/720-LongestWordinDictionary.md) | Easy | 贪心、排序 |
 | 724 | [Find Pivot Index 寻找数组的中心索引](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/724-FindPivotIndex.md) | Easy | 数组 |
-| 735 | [Asteroid Collision 小行星碰撞](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/735-AsteroidCollision.md) | Medium | 栈 |
-| 738 | [Monotone Increasing Digits 单调递增的数字](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/738-MonotoneIncreasingDigits.md) | Medium | 贪心 |
-| 739 | [Daily Temperatures 每日温度](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/739-DailyTemperatures.md) | Medium | 单调栈 |
+| 735 | [Asteroid Collision 小行星碰撞](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/735-AsteroidCollision.md) | Medium | 栈 |
+| 738 | [Monotone Increasing Digits 单调递增的数字](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/738-MonotoneIncreasingDigits.md) | Medium | 字符串 |
+| 739 | [Daily Temperatures 每日温度](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/739-DailyTemperatures.md) | Medium | 单调栈 |
 | 746 | [Min Cost Climbing Stairs 使用最小花费爬楼梯](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/746-MinCostClimbingStairs.md) | Easy | 动态规划 |
 | 747 | [Largest Number At Least Twice of Others 至少是其他数字两倍的最大数](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/747-LargestNumberAtLeastTwiceofOthers.md) | Easy | 数组、排序 |
-| 763 | [Partition Labels 划分字母区间](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/763-PartitionLabels.md) | Medium | 贪心 |
+| 763 | [Partition Labels 划分字母区间](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/763-PartitionLabels.md) | Medium | 贪心 |
 | 767 | [Reorganize String 重构字符串](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/767-ReorganizeString.md) | Medium | 优先队列 |
-| 778 | [Swim In Rising Water 水位上升的泳池中游泳](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Hard/778-SwimInRisingWater.md) | Hard |  |
-| 784 | [Letter Case Permutation 字母大小写全排列](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/784-LetterCasePermutation.md) | Medium |  |
-| 790 | [Domino and Tromino Tiling 多米诺和托米诺平铺](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/790-DominoandTrominoTiling.md) | Medium | 一维动态规划 |
-| 814 | [Binary Tree Pruning 二叉树剪枝](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/814-BinaryTreePruning.md) | Medium |  |
-| 841 | [Keys and Rooms 钥匙和房间](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/841-KeysandRooms.md) | Medium | DFS |
-| 844 | [Backspace Sting Compare 比较含退格的字符串](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/844-BackspaceStingCompare.md) | Easy | 双指针 |
-| 845 | [Longest Mountain in Array 数组中最长的山脉](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/845-LongestMountaininArray.md) | Medium | 双指针 |
-| 860 | [Lemonade Change 柠檬水找零](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/860-LemonadeChange.md) | Easy | 贪心 |
-| 864 | [Shortest Path to Get All Keys 获取所有钥匙的最短路径](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Hard/864-ShortestPathtoGetAllKeys.md) | Hard | BFS |
-| 867 | [Transpose Matrix 转置矩阵](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/867-TransposeMatrix.md) | Easy | 模拟 |
-| 872 | [Leaf-Similar Tree 叶子相似的树](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/872-Leaf-SimilarTree.md) | Easy | 二叉树、DFS |
-| 875 | [Koko Eating Banana 爱吃香蕉的珂珂](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/875-KokoEatingBanana.md) | Medium | 二分查找 |
+| 778 | [Swim In Rising Water 水位上升的泳池中游泳](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/778-SwimInRisingWater.md) | Hard | BFS |
+| 784 | [Letter Case Permutation 字母大小写全排列](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/784-LetterCasePermutation.md) | Medium | 回溯 |
+| 790 | [Domino and Tromino Tiling 多米诺和托米诺平铺](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/790-DominoandTrominoTiling.md) | Medium | 动态规划 |
+| 814 | [Binary Tree Pruning 二叉树剪枝](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/814-BinaryTreePruning.md) | Medium | 二叉树 |
+| 841 | [Keys and Rooms 钥匙和房间](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/841-KeysandRooms.md) | Medium | 栈 |
+| 844 | [Backspace Sting Compare 比较含退格的字符串](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/844-BackspaceStingCompare.md) | Easy | 双指针 |
+| 845 | [Longest Mountain in Array 数组中最长的山脉](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/845-LongestMountaininArray.md) | Medium | 双指针 |
+| 860 | [Lemonade Change 柠檬水找零](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/860-LemonadeChange.md) | Easy | 贪心 |
+| 864 | [Shortest Path to Get All Keys 获取所有钥匙的最短路径](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/864-ShortestPathtoGetAllKeys.md) | Hard | BFS |
+| 867 | [Transpose Matrix 转置矩阵](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/867-TransposeMatrix.md) | Easy | 模拟 |
+| 872 | [Leaf-Similar Tree 叶子相似的树](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/872-Leaf-SimilarTree.md) | Easy | 二叉树、DFS |
+| 875 | [Koko Eating Banana 爱吃香蕉的珂珂](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/875-KokoEatingBanana.md) | Medium | 二分查找 |
 | 901 | [Online Stock Span 股票价格跨度](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/901-OnlineStockSpan.md) | Medium | 单调栈 |
 | 905 | [Sort Array By Parity 按奇偶排序数组](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/905-SortArrayByParity.md) | Easy | 双指针 |
 | 912 | [Sort an Array 排序数组](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/912-SortanArray.md) | Medium | 排序 |
