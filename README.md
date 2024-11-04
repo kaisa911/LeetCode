@@ -369,32 +369,32 @@ pie title 已完成的题目
 | 867 | [Transpose Matrix 转置矩阵](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/867-TransposeMatrix.md) | Easy | 模拟 |
 | 872 | [Leaf-Similar Tree 叶子相似的树](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/872-Leaf-SimilarTree.md) | Easy | 二叉树、DFS |
 | 875 | [Koko Eating Banana 爱吃香蕉的珂珂](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/875-KokoEatingBanana.md) | Medium | 二分查找 |
-| 901 | [Online Stock Span 股票价格跨度](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/901-OnlineStockSpan.md) | Medium | 单调栈 |
+| 901 | [Online Stock Span 股票价格跨度](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/901-OnlineStockSpan.md) | Medium | 单调栈 |
 | 905 | [Sort Array By Parity 按奇偶排序数组](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/905-SortArrayByParity.md) | Easy | 双指针 |
 | 912 | [Sort an Array 排序数组](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/912-SortanArray.md) | Medium | 排序 |
-| 929 | [Num Unique Emails 独特的电子邮件地址](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/929-NumUniqueEmails.md) | Easy |  |
-| 933 | [Number of Recent Calls 最近的请求次数](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/933-NumberofRecentCalls.md) | Easy |  |
-| 941 | [Valid Mountain Array 有效的山脉数组](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/941-ValidMountainArray.md) | Easy |  |
-| 942 | [DI String Match 增减字符串匹配](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/942-DIStringMatch.md) | Easy |  |
-| 946 | [Validate Stack Sequences 验证栈序列](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/946-ValidateStackSequences.md) | Medium |  |
-| 953 | [Verifying an Alien Dictionary 验证外星语词典](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/953-VerifyinganAlienDictionary.md) | Easy |  |
-| 965 | [Univalued Binary Tree 单值二叉树](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/965-UnivaluedBinaryTree.md) | Easy |  |
+| 929 | [Num Unique Emails 独特的电子邮件地址](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/929-NumUniqueEmails.md) | Easy | 哈希 |
+| 933 | [Number of Recent Calls 最近的请求次数](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/933-NumberofRecentCalls.md) | Easy | 队列 |
+| 941 | [Valid Mountain Array 有效的山脉数组](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/941-ValidMountainArray.md) | Easy | 数组 |
+| 942 | [DI String Match 增减字符串匹配](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/942-DIStringMatch.md) | Easy | 贪心 |
+| 946 | [Validate Stack Sequences 验证栈序列](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/946-ValidateStackSequences.md) | Medium | 栈 |
+| 953 | [Verifying an Alien Dictionary 验证外星语词典](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/953-VerifyinganAlienDictionary.md) | Easy | 哈希 |
+| 965 | [Univalued Binary Tree 单值二叉树](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/965-UnivaluedBinaryTree.md) | Easy | DFS |
 | 973 | [K Closest Points to Origin 最接近原点的 K 个点](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/973-KClosestPointstoOrigin.md) | Medium | 排序 |
-| 974 | [Subarray Sums Divisible by K 和可被 K 整除的子数组](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/974-SubarraySumsDivisiblebyK.md) | Medium |  |
+| 974 | [Subarray Sums Divisible by K 和可被 K 整除的子数组](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/974-SubarraySumsDivisiblebyK.md) | Medium | 哈希 |
 | 977 | [Squares of a Sorted Array 有序数组的平方](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/977-SquaresofaSortedArray.md) | Easy | 双指针 |
-| 989 | [Add to Array-Form of Integer 数组形式的整数加法](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/989-AddtoArray-FormofInteger.md) | Easy |  |
+| 989 | [Add to Array-Form of Integer 数组形式的整数加法](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/989-AddtoArray-FormofInteger.md) | Easy | 位运算 |
 | 994 | [Rotting Oranges 腐烂的橘子](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/994-RottingOranges.md) | Medium | 图、BFS |
-| 1002 | [Find Common Characters 查找常用字符](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/1002-FindCommonCharacters.md) | Easy |  |
-| 1004 | [Max Consecutive Ones III 最大连续1的个数 III](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/1004-MaxConsecutiveOnesIII.md) | Medium | 滑动窗口 |
-| 1021 | [Remove Outer Parentheses 删除最外层的括号](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/1021-RemoveOuterParentheses.md) | Easy |  |
-| 1022 | [Sum of Root To Leaf Binary Numbers 从根到叶的二进制数之和](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/1022-SumofRootToLeafBinaryNumbers.md) | Easy |  |
+| 1002 | [Find Common Characters 查找常用字符](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/1002-FindCommonCharacters.md) | Easy | 字符串 |
+| 1004 | [Max Consecutive Ones III 最大连续1的个数 III](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/1004-MaxConsecutiveOnesIII.md) | Medium | 滑动窗口 |
+| 1021 | [Remove Outer Parentheses 删除最外层的括号](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/1021-RemoveOuterParentheses.md) | Easy | 字符串 |
+| 1022 | [Sum of Root To Leaf Binary Numbers 从根到叶的二进制数之和](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/1022-SumofRootToLeafBinaryNumbers.md) | Easy | DFS |
 | 1053 | [Previous Permutation With One Swap 交换一次的先前排列](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/1053-PreviousPermutationWithOneSwap.md) | Medium | 数组 |
-| 1071 | [Greatest Common Divisor of Strings 字符串的最大公因子](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/1071-GreatestCommonDivisorofStrings.md) | Easy | 字符串、GCD |
-| 1108 | [Defanging an Ip Address IP 地址无效化](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/1108-DefanginganIpAddress.md) | Easy | 字符串 |
-| 1122 | [Relative Sort Array 数组的相对排序](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/1122-RelativeSortArray.md) | Easy |  |
-| 1128 | [Number of Equivalent Domino Pairs 等价多米诺骨牌对的数量](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/1128-NumberofEquivalentDominoPairs.md) | Easy | 数组 |
-| 1137 | [N-th Tribonacci Number 第 N 个泰波那契数](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/1137-N-thTribonacciNumber.md) | Easy |  |
-| 1143 | [Longest Common Subsequence 最长公共子序列](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/1143-LongestCommonSubsequence.md) | Medium |  |
+| 1071 | [Greatest Common Divisor of Strings 字符串的最大公因子](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/1071-GreatestCommonDivisorofStrings.md) | Easy | 字符串、GCD |
+| 1108 | [Defanging an Ip Address IP 地址无效化](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/1108-DefanginganIpAddress.md) | Easy | 字符串 |
+| 1122 | [Relative Sort Array 数组的相对排序](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/1122-RelativeSortArray.md) | Easy | 数组 |
+| 1128 | [Number of Equivalent Domino Pairs 等价多米诺骨牌对的数量](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/1128-NumberofEquivalentDominoPairs.md) | Easy | 数组 |
+| 1137 | [N-th Tribonacci Number 第 N 个泰波那契数](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/1137-N-thTribonacciNumber.md) | Easy | 动态规划 |
+| 1143 | [Longest Common Subsequence 最长公共子序列](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/1143-LongestCommonSubsequence.md) | Medium | 动态规划 |
 | 1161 | [Maximum Level Sum of a Binary Tree 最大层内元素和](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/1161-MaximumLevelSumofaBinaryTree.md) | Medium | 二叉树、BFS |
 | 1186 | [Maximum Subarray Sum with One Deletion 删除一次得到子数组最大和](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/1186-MaximumSubarraySumwithOneDeletion.md) | Medium | 动态规划 |
 | 1191 | [K-Concatenation Maximum Sum K 次串联后最大子数组之和](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/1191-K-ConcatenationMaximumSum.md) | Medium | Kadane 算法 |

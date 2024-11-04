@@ -6,6 +6,8 @@
 
 示例 1：
 ![](https://assets.leetcode-cn.com/aliyun-lc-upload/uploads/2019/08/17/capture.jpeg)
+
+```javascript
 输入：root = [1,7,0,7,-8,null,null]
 输出：2
 解释：
@@ -13,12 +15,44 @@
 第 2 层各元素之和为 7 + 0 = 7，
 第 3 层各元素之和为 7 + -8 = -1，
 所以我们返回第 2 层的层号，它的层内元素之和最大。
+```
+
 示例 2：
 
+```javascript
 输入：root = [989,null,10250,98693,-89388,null,null,null,-32127]
 输出：2
+```
 
 提示：
 
-树中的节点数在 [1, 104]范围内
--105 <= Node.val <= 105
+树中的节点数在 [1, 10^4]范围内
+-10^5 <= Node.val <= 10^5
+
+```javascript
+var maxLevelSum = function (root) {
+  let ans = 1,
+    maxSum = root.val;
+  let q = [];
+  q.push(root);
+  for (let level = 1; q.length > 0; ++level) {
+    const nq = [];
+    let sum = 0;
+    for (const node of q) {
+      sum += node.val;
+      if (node.left) {
+        nq.push(node.left);
+      }
+      if (node.right) {
+        nq.push(node.right);
+      }
+    }
+    if (sum > maxSum) {
+      maxSum = sum;
+      ans = level;
+    }
+    q = nq;
+  }
+  return ans;
+};
+```
