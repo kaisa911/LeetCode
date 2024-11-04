@@ -43,3 +43,19 @@
 - 1 <= k <= n <= 500
 
 进阶：你能否使用线性时间复杂度和常数空间复杂度解决此问题？
+
+```javascript
+var findTheWinner = function (n, k) {
+  const queue = [];
+  for (let i = 1; i <= n; i++) {
+    queue.push(i);
+  }
+  while (queue.length > 1) {
+    for (let i = 1; i < k; i++) {
+      queue.push(queue.shift());
+    }
+    queue.shift();
+  }
+  return queue[0];
+};
+```

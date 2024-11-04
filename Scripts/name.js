@@ -2527,6 +2527,14 @@ const nameMap = {
     hasThinkings: true,
     checked: true,
   },
+  633: {
+    cnName: '平方数之和',
+    enName: 'Sum of Square Numbers',
+    difficulty: 'Medium',
+    label: '双指针',
+    hasThinkings: true,
+    checked: false,
+  },
   642: {
     cnName: '设计搜索自动补全系统',
     enName: 'Design Search Autocomplete System',
@@ -3101,7 +3109,7 @@ const nameMap = {
     difficulty: 'Medium',
     label: '前缀树',
     hasThinkings: true,
-    checked: false,
+    checked: true,
   },
   1289: {
     cnName: '下降路径最小和 II',
@@ -3117,7 +3125,7 @@ const nameMap = {
     difficulty: 'Medium',
     label: '位运算',
     hasThinkings: true,
-    checked: false,
+    checked: true,
   },
   1356: {
     cnName: '根据数字二进制下1的数目排序',
@@ -3548,6 +3556,14 @@ const nameMap = {
     enName: 'Lexicographically Smallest String After a Swap',
     difficulty: 'Easy',
     label: '回溯、位运算',
+    hasThinkings: true,
+    checked: false,
+  },
+  3222: {
+    cnName: '求出硬币游戏的赢家',
+    enName: 'Find the Winning Player in Coin Game',
+    difficulty: 'Easy',
+    label: '数学',
     hasThinkings: true,
     checked: false,
   },

@@ -45,5 +45,31 @@ k 个数字的 平均值 为这些数字求和后再除以 k 。
 提示：
 
 - m == rolls.length
-- 1 <= n, m <= 105
+- 1 <= n, m <= 10^5
 - 1 <= rolls[i], mean <= 6
+
+```javascript
+/**
+ * @param {number[]} rolls
+ * @param {number} mean
+ * @param {number} n
+ * @return {number[]}
+ */
+var missingRolls = function (rolls, mean, n) {
+  const cnt = _.sum(rolls),
+    m = rolls.length;
+  const x = m * mean + n * mean - cnt;
+  if (x / n > 6 || x / n < 1) {
+    return [];
+  } else {
+    let so = (x / n) >> 0;
+    const ans = new Array(n).fill(so);
+    let last = x - n * so,
+      k = 0;
+    while (last-- > 0) {
+      ans[k++]++;
+    }
+    return ans;
+  }
+};
+```

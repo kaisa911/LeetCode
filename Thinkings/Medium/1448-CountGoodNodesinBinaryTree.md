@@ -6,6 +6,8 @@
 
 示例 1：
 ![](https://assets.leetcode-cn.com/aliyun-lc-upload/uploads/2020/05/16/test_sample_1.png)
+
+```javascript
 输入：root = [3,1,4,3,null,1,5]
 输出：4
 解释：图中蓝色节点为好节点。
@@ -13,18 +15,45 @@
 节点 4 -> (3,4) 是路径中的最大值。
 节点 5 -> (3,4,5) 是路径中的最大值。
 节点 3 -> (3,1,3) 是路径中的最大值。
+```
+
 示例 2：
 ![](https://assets.leetcode-cn.com/aliyun-lc-upload/uploads/2020/05/16/test_sample_2.png)
+
+```javascript
 输入：root = [3,3,null,4,2]
 输出：3
 解释：节点 2 -> (3, 3, 2) 不是好节点，因为 "3" 比它大。
+```
+
 示例 3：
 
+```javascript
 输入：root = [1]
 输出：1
 解释：根节点是好节点。
+```
 
 提示：
 
-二叉树中节点数目范围是 [1, 10^5] 。
-每个节点权值的范围是 [-10^4, 10^4] 。
+- 二叉树中节点数目范围是 [1, 10^5] 。
+- 每个节点权值的范围是 [-10^4, 10^4] 。
+
+```javascript
+var goodNodes = function (root) {
+  const dfs = (root, path_max) => {
+    if (root == null) {
+      return 0;
+    }
+    let res = 0;
+    if (root.val >= path_max) {
+      res++;
+      path_max = root.val;
+    }
+    res += dfs(root.left, path_max) + dfs(root.right, path_max);
+    return res;
+  };
+  return dfs(root, -Infinity);
+};
+
+```

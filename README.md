@@ -3,13 +3,13 @@
 
 some exercises of leetcode
 
-- Leetcode: 简单: 170, 中等: 221, 困难: 53, 剑指Offer: 73,
-- 总计：517
+- Leetcode: 简单: 171, 中等: 222, 困难: 53, 剑指Offer: 73,
+- 总计：519
 
 ```mermaid
 pie title 已完成的题目
-    "简单" : 170
-    "中等" : 221
+    "简单" : 171
+    "中等" : 222
     "困难" : 53
     "剑指Offer" : 73
 ```
@@ -332,6 +332,7 @@ pie title 已完成的题目
 | 617 | [Merge Two Binary Tree 合并二叉树](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/617-MergeTwoBinaryTree.md) | Easy | 二叉树 |
 | 621 | [Task Scheduler 任务调度器](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/621-TaskScheduler.md) | Medium | 数组 |
 | 628 | [Maximum Product of Three Numbers 三个数的最大乘积](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/628-MaximumProductofThreeNumbers.md) | Easy | 排序 |
+| 633 | [Sum of Square Numbers 平方数之和](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/633-SumofSquareNumbers.js) | Medium | 双指针 |
 | 642 | [Design Search Autocomplete System 设计搜索自动补全系统](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/642-DesignSearchAutocompleteSystem.md) | Medium | 数组 |
 | 643 | [Maximum Average Subarray I 子数组最大平均数 I](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/643-MaximumAverageSubarrayI.md) | Easy | 滑动窗口 |
 | 647 | [Palindromic Substrings 回文子串](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/647-PalindromicSubstrings.md) | Medium | 字符串 |
@@ -403,9 +404,9 @@ pie title 已完成的题目
 | 1217 | [Minimum Cost to Move Chips to The Same Position 玩筹码](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/1217-MinimumCosttoMoveChipstoTheSamePosition.md) | Easy |  |
 | 1227 | [Airplane Seat Assignment Probability 飞机座位分配概率](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/1227-AirplaneSeatAssignmentProbability.md) | Medium | 数学 |
 | 1260 | [Shift 2D Grid 二维网格迁移](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/1260-Shift2DGrid.md) | Easy |  |
-| 1268 | [Search Suggestion System 搜索推荐系统](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/1268-SearchSuggestionSystem.md) | Medium | 前缀树 |
+| 1268 | [Search Suggestion System 搜索推荐系统](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/1268-SearchSuggestionSystem.md) | Medium | 前缀树 |
 | 1289 | [Minimum Falling Path Sum II 下降路径最小和 II](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Hard/1289-MinimumFallingPathSumII.md) | Hard |  |
-| 1318 | [Minimum Flips to Make a OR b Equal to c 或运算的最小翻转次数](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/1318-MinimumFlipstoMakeaORbEqualtoc.md) | Medium | 位运算 |
+| 1318 | [Minimum Flips to Make a OR b Equal to c 或运算的最小翻转次数](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/1318-MinimumFlipstoMakeaORbEqualtoc.md) | Medium | 位运算 |
 | 1356 | [Sort Integers by The Number of 1 Bits 根据数字二进制下1的数目排序](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/1356-SortIntegersbyTheNumberof1Bits.md) | Easy | 位运算 |
 | 1365 | [How Many Numbers Are Smaller Than the Current Number 有多少小于当前数字的数字](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/1365-HowManyNumbersAreSmallerThantheCurrentNumber.md) | Easy |  |
 | 1370 | [Increasing Decreasing String 上升下降字符串](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/1370-IncreasingDecreasingString.md) | Easy | 桶计数 |
@@ -460,6 +461,7 @@ pie title 已完成的题目
 | 3175 | [Find The First Player to win K Games in a Row 找到连续赢 K 场比赛的第一位玩家](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/3175-FindTheFirstPlayertowinKGamesinaRow.md) | Medium | 双指针 |
 | 3211 | [Generate Binary Strings Without Adjacent Zeros 生成不含相邻零的二进制字符串](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/3211-GenerateBinaryStringsWithoutAdjacentZeros.md) | Medium | 回溯、位运算 |
 | 3216 | [Lexicographically Smallest String After a Swap 交换后字典序最小的字符串](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/3216-LexicographicallySmallestStringAfteraSwap.md) | Easy | 回溯、位运算 |
+| 3222 | [Find the Winning Player in Coin Game 求出硬币游戏的赢家](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/3222-FindtheWinningPlayerinCoinGame.md) | Easy | 数学 |
 
 **剑指offer**
 

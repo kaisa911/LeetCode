@@ -12,23 +12,79 @@ n 座城市，从 0 到 n-1 编号，其间共有 n-1 条路线。因此，要�
 
 示例 1：
 ![1](https://assets.leetcode-cn.com/aliyun-lc-upload/uploads/2020/05/30/sample_1_1819.png)
+
+```javascript
 输入：n = 6, connections = [[0,1],[1,3],[2,3],[4,0],[4,5]]
 输出：3
 解释：更改以红色显示的路线的方向，使每个城市都可以到达城市 0 。
+```
+
 示例 2：
 ![1](https://assets.leetcode-cn.com/aliyun-lc-upload/uploads/2020/05/30/sample_2_1819.png)
+
+```javascript
 输入：n = 5, connections = [[1,0],[1,2],[3,2],[3,4]]
 输出：2
 解释：更改以红色显示的路线的方向，使每个城市都可以到达城市 0 。
+```
+
 示例 3：
 
+```javascript
 输入：n = 3, connections = [[1,0],[2,0]]
 输出：0
+```
 
 提示：
 
-2 <= n <= 5 * 10^4
-connections.length == n-1
-connections[i].length == 2
-0 <= connections[i][0], connections[i][1] <= n-1
-connections[i][0] != connections[i][1]
+- 2 <= n <= 5 * 10^4
+- connections.length == n-1
+- connections[i].length == 2
+- 0 <= connections[i][0], connections[i][1] <= n-1
+- connections[i][0] != connections[i][1]
+
+```javascript
+/**
+ * @param {number} n
+ * @param {number[][]} connections
+ * @return {number}
+ */
+var minReorder = function (n, connections) {
+  const toMap = new Map(),
+    fromMap = new Map();
+  for (let connection of connections) {
+    if (!fromMap.has(connection[1])) {
+      fromMap.set(connection[1], []);
+    }
+    fromMap.get(connection[1]).push(connection[0]);
+    if (!toMap.has(connection[0])) {
+      toMap.set(connection[0], []);
+    }
+    toMap.get(connection[0]).push(connection[1]);
+  }
+
+  let count = 0;
+  const validCityRoad = new Array(n).fill(false);
+  const dfs = function (currCity) {
+    validCityRoad[currCity] = true;
+    const fromCities = fromMap.get(currCity);
+    if (fromCities) {
+      for (let city of fromCities) {
+        dfs(city);
+      }
+    }
+    const toCities = toMap.get(currCity);
+    if (toCities) {
+      for (let city of toCities) {
+        if (!validCityRoad[city]) {
+          count++;
+          dfs(city);
+        }
+      }
+    }
+  };
+
+  dfs(0);
+  return count;
+};
+```

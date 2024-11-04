@@ -12,20 +12,43 @@
 
 示例 1：
 ![2](https://assets.leetcode-cn.com/aliyun-lc-upload/uploads/2020/03/07/sample_1_1702.png)
+
+```javascript
 输入：root = [1,null,1,1,1,null,null,1,1,null,1,null,null,null,1,null,1]
 输出：3
 解释：蓝色节点为树中最长交错路径（右 -> 左 -> 右）。
+```
+
 示例 2：
 ![2](https://assets.leetcode-cn.com/aliyun-lc-upload/uploads/2020/03/07/sample_2_1702.png)
+
+```javascript
 输入：root = [1,1,1,null,1,null,null,1,1,null,1]
 输出：4
 解释：蓝色节点为树中最长交错路径（左 -> 右 -> 左 -> 右）。
+```
+
 示例 3：
 
+```javascript
 输入：root = [1]
 输出：0
+```
 
 提示：
 
-每棵树最多有 50000 个节点。
-每个节点的值在 [1, 100] 之间。
+- 每棵树最多有 50000 个节点。
+- 每个节点的值在 [1, 100] 之间。
+
+```javascript
+var longestZigZag = function (root) {
+  let res = 0;
+  const dfs = (node, l, r) => {
+    res = Math.max(res, l, r);
+    if (node.left) dfs(node.left, r + 1, 0);
+    if (node.right) dfs(node.right, 0, l + 1);
+  };
+  dfs(root, 0, 0);
+  return res;
+};
+```

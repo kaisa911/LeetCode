@@ -12,17 +12,54 @@ Bob 将会挑选你所选择的披萨顺时针方向的下一块披萨。
 
 示例 1：
 ![](https://assets.leetcode-cn.com/aliyun-lc-upload/uploads/2020/03/21/sample_3_1723.png)
+
+```javascript
 输入：slices = [1,2,3,4,5,6]
 输出：10
 解释：选择大小为 4 的披萨，Alice 和 Bob 分别挑选大小为 3 和 5 的披萨。然后你选择大小为 6 的披萨，Alice 和 Bob 分别挑选大小为 2 和 1 的披萨。你获得的披萨总大小为 4 + 6 = 10 。
+```
+
 示例 2：
 ![](https://assets.leetcode-cn.com/aliyun-lc-upload/uploads/2020/03/21/sample_4_1723.png)
+
+```javascript
 输入：slices = [8,9,8,6,1,1]
 输出：16
 解释：两轮都选大小为 8 的披萨。如果你选择大小为 9 的披萨，你的朋友们就会选择大小为 8 的披萨，这种情况下你的总和不是最大的。
+```
 
 提示：
 
-1 <= slices.length <= 500
-slices.length % 3 == 0
-1 <= slices[i] <= 1000
+- 1 <= slices.length <= 500
+- slices.length % 3 == 0
+- 1 <= slices[i] <= 1000
+
+```javascript
+var maxSizeSlices = (slices) => {
+  const v1 = slices.slice(1);
+  const v2 = slices.slice(0, slices.length - 1);
+  const res1 = calculate(v1);
+  const res2 = calculate(v2);
+
+  return Math.max(res1, res2);
+};
+
+var calculate = (slices) => {
+  const N = slices.length;
+  const n = Math.floor((slices.length + 1) / 3);
+  const dp = new Array(N).fill(0).map(() => new Array(n + 1).fill(-Infinity));
+  dp[0][0] = 0;
+  dp[0][1] = slices[0];
+  dp[1][0] = 0;
+  dp[1][1] = Math.max(slices[0], slices[1]);
+
+  for (var i = 0; i < N; i++) {
+    dp[i][0] = 0;
+    for (let j = 0; j <= n; j++) {
+      dp[i][j] = Math.max(dp[i - 1][j], dp[i - 2][j - 1] + slices[i]);
+    }
+  }
+  return dp[N - 1][n];
+};
+
+```

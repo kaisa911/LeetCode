@@ -8,6 +8,7 @@
 
 示例 1：
 
+```javascript
 输入：nums = [1,2,3,4], k = 5
 输出：2
 解释：开始时 nums = [1,2,3,4]：
@@ -15,17 +16,46 @@
 - 移出 1 和 4 ，之后 nums = [2,3]
 - 移出 2 和 3 ，之后 nums = []
 不再有和为 5 的数对，因此最多执行 2 次操作。
+```
+
 示例 2：
 
+```javascript
 输入：nums = [3,1,3,4,3], k = 6
 输出：1
 解释：开始时 nums = [3,1,3,4,3]：
 
 - 移出前两个 3 ，之后nums = [1,4,3]
 不再有和为 6 的数对，因此最多执行 1 次操作。
+```
 
 提示：
 
-1 <= nums.length <= 10^5
-1 <= nums[i] <= 10^9
-1 <= k <= 10^9
+- 1 <= nums.length <= 10^5
+- 1 <= nums[i] <= 10^9
+- 1 <= k <= 10^9
+
+```javascript
+/**
+ * @param {number[]} nums
+ * @param {number} k
+ * @return {number}
+ */
+var maxOperations = function (nums, k) {
+  nums.sort((a, b) => a - b);
+  let len = 0;
+  for (let i = 0, j = nums.length - 1; i < j; ) {
+    const sum = nums[i] + nums[j];
+    if (sum === k) {
+      i++;
+      j--;
+      len++;
+    } else if (sum > k) {
+      j--;
+    } else if (sum < k) {
+      i++;
+    }
+  }
+  return len;
+};
+```

@@ -10,22 +10,47 @@ position[i] + 1 或 position[i] - 1 ，此时 cost = 1
 
 示例 1：
 ![](https://assets.leetcode.com/uploads/2020/08/15/chips_e1.jpg)
+
+```javascript
 输入：position = [1,2,3]
 输出：1
 解释：第一步:将位置3的筹码移动到位置1，成本为0。
 第二步:将位置2的筹码移动到位置1，成本= 1。
 总成本是1。
+```
+
 示例 2：
 ![](https://assets.leetcode.com/uploads/2020/08/15/chip_e2.jpg)
+
+```javascript
 输入：position = [2,2,2,3,3]
 输出：2
 解释：我们可以把位置3的两个筹码移到位置2。每一步的成本为1。总成本= 2。
+```
+
 示例 3:
 
+```javascript
 输入：position = [1,1000000000]
 输出：1
+```
 
 提示：
 
-1 <= position.length <= 100
-1 <= position[i] <= 10^9
+- 1 <= position.length <= 100
+- 1 <= position[i] <= 10^9
+
+```javascript
+var minCostToMoveChips = function (position) {
+  let even = 0,
+    odd = 0;
+  for (const pos of position) {
+    if ((pos & 1) !== 0) {
+      odd++;
+    } else {
+      even++;
+    }
+  }
+  return Math.min(odd, even);
+};
+```

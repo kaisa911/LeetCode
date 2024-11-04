@@ -6,6 +6,8 @@
 
 示例 1：
 ![1](https://assets.leetcode.com/uploads/2021/08/10/falling-grid.jpg)
+
+```javascript
 输入：grid = [[1,2,3],[4,5,6],[7,8,9]]
 输出：13
 解释：
@@ -14,13 +16,53 @@
 [2,4,8], [2,4,9], [2,6,7], [2,6,8],
 [3,4,8], [3,4,9], [3,5,7], [3,5,9]
 下降路径中数字和最小的是 [1,5,7] ，所以答案是 13 。
+```
+
 示例 2：
 
+```javascript
 输入：grid = [[7]]
 输出：7
+```
 
 提示：
 
-n == grid.length == grid[i].length
-1 <= n <= 200
--99 <= grid[i][j] <= 99
+- n == grid.length == grid[i].length
+- 1 <= n <= 200
+- -99 <= grid[i][j] <= 99
+
+```javascript
+const minFallingPathSum = (grid) => {
+  const n = grid.length;
+  let first_min_sum = 0;
+  let second_min_sum = 0;
+  let first_min_Index = -1;
+
+  for (let i = 0; i < n; i++) {
+    let cur_first_min_sum = Infinity;
+    let cur_Second_min_sum = Infinity;
+    let cur_first_min_Index = -1;
+
+    for (let j = 0; j < n; j++) {
+      let cur_sum = grid[i][j];
+      if (j !== first_min_Index) {
+        cur_sum += first_min_sim;
+      } else {
+        cur_sum += second_min_sim;
+      }
+
+      if (cur_sum < cur_first_min_sum) {
+        cur_Second_min_sum = cur_first_min_sum;
+        cur_first_min_sum = cur_sum;
+        cur_first_min_Index = j;
+      } else if (cur_sum < cur_Second_min_sum) {
+        cur_Second_min_sum = cur_sum;
+      }
+    }
+    first_min_sum = cur_first_min_sum;
+    second_min_sum = cur_Second_min_sum;
+    first_min_Index = cur_first_min_Index;
+  }
+  return first_min_sum;
+};
+```
