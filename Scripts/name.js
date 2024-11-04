@@ -3037,7 +3037,7 @@ const nameMap = {
     difficulty: 'Medium',
     label: '二叉树、BFS',
     hasThinkings: true,
-    checked: false,
+    checked: true,
   },
   1186: {
     cnName: '删除一次得到子数组最大和',

@@ -395,7 +395,7 @@ pie title 已完成的题目
 | 1128 | [Number of Equivalent Domino Pairs 等价多米诺骨牌对的数量](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/1128-NumberofEquivalentDominoPairs.md) | Easy | 数组 |
 | 1137 | [N-th Tribonacci Number 第 N 个泰波那契数](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/1137-N-thTribonacciNumber.md) | Easy | 动态规划 |
 | 1143 | [Longest Common Subsequence 最长公共子序列](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/1143-LongestCommonSubsequence.md) | Medium | 动态规划 |
-| 1161 | [Maximum Level Sum of a Binary Tree 最大层内元素和](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/1161-MaximumLevelSumofaBinaryTree.md) | Medium | 二叉树、BFS |
+| 1161 | [Maximum Level Sum of a Binary Tree 最大层内元素和](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/1161-MaximumLevelSumofaBinaryTree.md) | Medium | 二叉树、BFS |
 | 1186 | [Maximum Subarray Sum with One Deletion 删除一次得到子数组最大和](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/1186-MaximumSubarraySumwithOneDeletion.md) | Medium | 动态规划 |
 | 1191 | [K-Concatenation Maximum Sum K 次串联后最大子数组之和](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/1191-K-ConcatenationMaximumSum.md) | Medium | Kadane 算法 |
 | 1200 | [Minimum Abs Difference 最小绝对差](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/1200-MinimumAbsDifference.md) | Easy |  |
