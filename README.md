@@ -332,7 +332,7 @@ pie title 已完成的题目
 | 617 | [Merge Two Binary Tree 合并二叉树](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/617-MergeTwoBinaryTree.md) | Easy | 二叉树 |
 | 621 | [Task Scheduler 任务调度器](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/621-TaskScheduler.md) | Medium | 数组 |
 | 628 | [Maximum Product of Three Numbers 三个数的最大乘积](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/628-MaximumProductofThreeNumbers.md) | Easy | 排序 |
-| 633 | [Sum of Square Numbers 平方数之和](https://github.com/kaisa911/LeetCode/blob/master/Solutions/Medium/633-SumofSquareNumbers.js) | Medium | 双指针 |
+| 633 | [Sum of Square Numbers 平方数之和](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/633-SumofSquareNumbers.md) | Medium | 双指针 |
 | 642 | [Design Search Autocomplete System 设计搜索自动补全系统](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/642-DesignSearchAutocompleteSystem.md) | Medium | 数组 |
 | 643 | [Maximum Average Subarray I 子数组最大平均数 I](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/643-MaximumAverageSubarrayI.md) | Easy | 滑动窗口 |
 | 647 | [Palindromic Substrings 回文子串](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/647-PalindromicSubstrings.md) | Medium | 字符串 |
@@ -399,48 +399,48 @@ pie title 已完成的题目
 | 1161 | [Maximum Level Sum of a Binary Tree 最大层内元素和](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/1161-MaximumLevelSumofaBinaryTree.md) | Medium | 二叉树、BFS |
 | 1186 | [Maximum Subarray Sum with One Deletion 删除一次得到子数组最大和](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/1186-MaximumSubarraySumwithOneDeletion.md) | Medium | 动态规划 |
 | 1191 | [K-Concatenation Maximum Sum K 次串联后最大子数组之和](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/1191-K-ConcatenationMaximumSum.md) | Medium | Kadane 算法 |
-| 1200 | [Minimum Abs Difference 最小绝对差](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/1200-MinimumAbsDifference.md) | Easy |  |
-| 1207 | [Unique Number of Occurrences 独一无二的出现次数](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/1207-UniqueNumberofOccurrences.md) | Easy | 哈希 |
-| 1217 | [Minimum Cost to Move Chips to The Same Position 玩筹码](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/1217-MinimumCosttoMoveChipstoTheSamePosition.md) | Easy |  |
+| 1200 | [Minimum Abs Difference 最小绝对差](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/1200-MinimumAbsDifference.md) | Easy | 数组 |
+| 1207 | [Unique Number of Occurrences 独一无二的出现次数](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/1207-UniqueNumberofOccurrences.md) | Easy | 哈希 |
+| 1217 | [Minimum Cost to Move Chips to The Same Position 玩筹码](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/1217-MinimumCosttoMoveChipstoTheSamePosition.md) | Easy | 数组 |
 | 1227 | [Airplane Seat Assignment Probability 飞机座位分配概率](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/1227-AirplaneSeatAssignmentProbability.md) | Medium | 数学 |
-| 1260 | [Shift 2D Grid 二维网格迁移](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/1260-Shift2DGrid.md) | Easy |  |
+| 1260 | [Shift 2D Grid 二维网格迁移](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/1260-Shift2DGrid.md) | Easy | 数组 |
 | 1268 | [Search Suggestion System 搜索推荐系统](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/1268-SearchSuggestionSystem.md) | Medium | 前缀树 |
-| 1289 | [Minimum Falling Path Sum II 下降路径最小和 II](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Hard/1289-MinimumFallingPathSumII.md) | Hard |  |
+| 1289 | [Minimum Falling Path Sum II 下降路径最小和 II](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/1289-MinimumFallingPathSumII.md) | Hard | 动态规划 |
 | 1318 | [Minimum Flips to Make a OR b Equal to c 或运算的最小翻转次数](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/1318-MinimumFlipstoMakeaORbEqualtoc.md) | Medium | 位运算 |
-| 1356 | [Sort Integers by The Number of 1 Bits 根据数字二进制下1的数目排序](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/1356-SortIntegersbyTheNumberof1Bits.md) | Easy | 位运算 |
-| 1365 | [How Many Numbers Are Smaller Than the Current Number 有多少小于当前数字的数字](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/1365-HowManyNumbersAreSmallerThantheCurrentNumber.md) | Easy |  |
-| 1370 | [Increasing Decreasing String 上升下降字符串](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/1370-IncreasingDecreasingString.md) | Easy | 桶计数 |
-| 1372 | [Longest ZigZag Path in a Binary Tree 二叉树中的最长交错路径](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/1372-LongestZigZagPathinaBinaryTree.md) | Medium | 二叉树、DFS |
-| 1388 | [Pizza With 3n Slices 3n 块披萨](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Hard/1388-PizzaWith3nSlices.md) | Hard |  |
-| 1403 | [Minimum Subsequence in Non-Increasing Order 非递增顺序的最小子序列](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/1403-MinimumSubsequenceinNon-IncreasingOrder.md) | Easy | 贪心 |
-| 1413 | [Minimum Value to Get Positive Step by Step Sum 逐步求和得到正数的最小值](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/1413-MinimumValuetoGetPositiveStepbyStepSum.md) | Easy |  |
-| 1431 | [Kids With the Greatest Number of Candies 拥有最多糖果的孩子](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/1431-KidsWiththeGreatestNumberofCandies.md) | Easy |  |
-| 1446 | [Consecutive Characters 连续字符](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/1446-ConsecutiveCharacters.md) | Easy | 数组 |
-| 1448 | [Count Good Nodes in Binary Tree 统计二叉树中好节点的数目](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/1448-CountGoodNodesinBinaryTree.md) | Medium | 二叉树、DFS |
-| 1451 | [Rearrange Words in a Sentence 重新排列句子中的单词](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/1451-RearrangeWordsinaSentence.md) | Medium | 字符串 |
-| 1456 | [Maximum Number of Vowels in a Substring of Given Length 定长子串中元音的最大数目](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/1456-MaximumNumberofVowelsinaSubstringofGivenLength.md) | Medium | 滑动窗口 |
-| 1466 | [Reorder Routes to Make All Paths Lead to the City Zero 重新规划路线](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/1466-ReorderRoutestoMakeAllPathsLeadtotheCityZero.md) | Medium | 图、DFS |
-| 1470 | [Shuffle the Array 重新排列数组](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/1470-ShuffletheArray.md) | Easy | 数组 |
-| 1493 | [Longest Subarray of 1’s After Deleting One Element 删掉一个元素以后全为1的最长子数组](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/1493-LongestSubarrayof1’sAfterDeletingOneElement.md) | Medium | 滑动窗口 |
-| 1518 | [Water Bottles 换水问题](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/1518-WaterBottles.md) | Easy | 数学方法 |
-| 1528 | [Shuffle String 重新排列字符串](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/1528-ShuffleString.md) | Easy | 数组 |
-| 1572 | [Matrix Diagonal Sum 矩阵对角线的元素和](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/1572-MatrixDiagonalSum.md) | Easy |  |
-| 1576 | [Replace All ?‘s to Avoid Consecutive Repeating Characters 替换所有的问号](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/1576-ReplaceAll?‘stoAvoidConsecutiveRepeatingCharacters.md) | Easy | 数组 |
-| 1640 | [Check Array Formation Through Concatenation 能否连接成数组](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/1640-CheckArrayFormationThroughConcatenation.md) | Easy |  |
-| 1652 | [Defuse the Bomb 拆炸弹](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/1652-DefusetheBomb.md) | Easy | 滑动窗口 |
-| 1657 | [Determine if Two Strings Are Close 确定两个字符串是否接近](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/1657-DetermineifTwoStringsAreClose.md) | Medium | 哈希 |
-| 1679 | [Max Number of K-Sum Pairs K 和数对的最大数目](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/1679-MaxNumberofK-SumPairs.md) | Medium | 双指针 |
+| 1356 | [Sort Integers by The Number of 1 Bits 根据数字二进制下1的数目排序](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/1356-SortIntegersbyTheNumberof1Bits.md) | Easy | 数组 |
+| 1365 | [How Many Numbers Are Smaller Than the Current Number 有多少小于当前数字的数字](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/1365-HowManyNumbersAreSmallerThantheCurrentNumber.md) | Easy | 数组 |
+| 1370 | [Increasing Decreasing String 上升下降字符串](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/1370-IncreasingDecreasingString.md) | Easy | 桶计数 |
+| 1372 | [Longest ZigZag Path in a Binary Tree 二叉树中的最长交错路径](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/1372-LongestZigZagPathinaBinaryTree.md) | Medium | 二叉树、DFS |
+| 1388 | [Pizza With 3n Slices 3n 块披萨](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/1388-PizzaWith3nSlices.md) | Hard | 动态规划 |
+| 1403 | [Minimum Subsequence in Non-Increasing Order 非递增顺序的最小子序列](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/1403-MinimumSubsequenceinNon-IncreasingOrder.md) | Easy | 贪心 |
+| 1413 | [Minimum Value to Get Positive Step by Step Sum 逐步求和得到正数的最小值](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/1413-MinimumValuetoGetPositiveStepbyStepSum.md) | Easy | 数组 |
+| 1431 | [Kids With the Greatest Number of Candies 拥有最多糖果的孩子](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/1431-KidsWiththeGreatestNumberofCandies.md) | Easy | 数组 |
+| 1446 | [Consecutive Characters 连续字符](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/1446-ConsecutiveCharacters.md) | Easy | 数组 |
+| 1448 | [Count Good Nodes in Binary Tree 统计二叉树中好节点的数目](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/1448-CountGoodNodesinBinaryTree.md) | Medium | 二叉树、DFS |
+| 1451 | [Rearrange Words in a Sentence 重新排列句子中的单词](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/1451-RearrangeWordsinaSentence.md) | Medium | 字符串 |
+| 1456 | [Maximum Number of Vowels in a Substring of Given Length 定长子串中元音的最大数目](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/1456-MaximumNumberofVowelsinaSubstringofGivenLength.md) | Medium | 滑动窗口 |
+| 1466 | [Reorder Routes to Make All Paths Lead to the City Zero 重新规划路线](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/1466-ReorderRoutestoMakeAllPathsLeadtotheCityZero.md) | Medium | 图、DFS |
+| 1470 | [Shuffle the Array 重新排列数组](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/1470-ShuffletheArray.md) | Easy | 数组 |
+| 1493 | [Longest Subarray of 1’s After Deleting One Element 删掉一个元素以后全为1的最长子数组](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/1493-LongestSubarrayof1’sAfterDeletingOneElement.md) | Medium | 滑动窗口 |
+| 1518 | [Water Bottles 换水问题](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/1518-WaterBottles.md) | Easy | 数学方法 |
+| 1528 | [Shuffle String 重新排列字符串](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/1528-ShuffleString.md) | Easy | 数组 |
+| 1572 | [Matrix Diagonal Sum 矩阵对角线的元素和](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/1572-MatrixDiagonalSum.md) | Easy | 数组 |
+| 1576 | [Replace All ?‘s to Avoid Consecutive Repeating Characters 替换所有的问号](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/1576-ReplaceAll?‘stoAvoidConsecutiveRepeatingCharacters.md) | Easy | 数组 |
+| 1640 | [Check Array Formation Through Concatenation 能否连接成数组](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/1640-CheckArrayFormationThroughConcatenation.md) | Easy | 哈希 |
+| 1652 | [Defuse the Bomb 拆炸弹](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/1652-DefusetheBomb.md) | Easy | 滑动窗口 |
+| 1657 | [Determine if Two Strings Are Close 确定两个字符串是否接近](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/1657-DetermineifTwoStringsAreClose.md) | Medium | 哈希 |
+| 1679 | [Max Number of K-Sum Pairs K 和数对的最大数目](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/1679-MaxNumberofK-SumPairs.md) | Medium | 哈希 |
 | 1726 | [Tuple with Same Product 同积元组](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/1726-TuplewithSameProduct.md) | Medium | 哈希 |
-| 1732 | [Find the Highest Altitude 找到最高海拔](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/1732-FindtheHighestAltitude.md) | Easy | 前缀和 |
-| 1768 | [Merge String Alternatively 交替合并字符串](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/1768-MergeStringAlternatively.md) | Easy | 字符串 |
-| 1823 | [Find The Winner 找出游戏的获胜者](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/1823-FindTheWinner.md) | Medium |  |
-| 1926 | [Nearest Exit from Entrance in Maze 迷宫中离入口最近的出口](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/1926-NearestExitfromEntranceinMaze.md) | Medium | 图、BFS |
-| 1945 | [Sum of Digits of String After Convert 字符串转化后的各位数字之和](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/1945-SumofDigitsofStringAfterConvert.md) | Easy |  |
-| 2028 | [Find Missing Observations 找出缺失的观测数据](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/2028-FindMissingObservations.md) | Medium | 数学方法 |
-| 2038 | [Remove Colored Pieces if Both Neighbors are the Same Color 如果相邻两个颜色均相同则删除当前颜色](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/2038-RemoveColoredPiecesifBothNeighborsaretheSameColor.md) | Medium |  |
+| 1732 | [Find the Highest Altitude 找到最高海拔](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/1732-FindtheHighestAltitude.md) | Easy | 前缀和 |
+| 1768 | [Merge String Alternatively 交替合并字符串](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/1768-MergeStringAlternatively.md) | Easy | 字符串 |
+| 1823 | [Find The Winner 找出游戏的获胜者](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/1823-FindTheWinner.md) | Medium | 数学方法 |
+| 1926 | [Nearest Exit from Entrance in Maze 迷宫中离入口最近的出口](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/1926-NearestExitfromEntranceinMaze.md) | Medium | 图、BFS |
+| 1945 | [Sum of Digits of String After Convert 字符串转化后的各位数字之和](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/1945-SumofDigitsofStringAfterConvert.md) | Easy | 字符串 |
+| 2028 | [Find Missing Observations 找出缺失的观测数据](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/2028-FindMissingObservations.md) | Medium | 数学方法 |
+| 2038 | [Remove Colored Pieces if Both Neighbors are the Same Color 如果相邻两个颜色均相同则删除当前颜色](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/2038-RemoveColoredPiecesifBothNeighborsaretheSameColor.md) | Medium | 数组 |
 | 2095 | [Delete the Middle Node of a Linked List 删除链表的中间节点](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/2095-DeletetheMiddleNodeofaLinkedList.md) | Medium | 链表、双指针 |
 | 2130 | [Maximum Twin Sum of a Linked List 链表最大孪生和](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/2130-MaximumTwinSumofaLinkedList.md) | Medium | 链表、双指针 |
-| 2215 | [Find the Difference of Two Arrays 找出两数组的不同](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/2215-FindtheDifferenceofTwoArrays.md) | Easy | 哈希 |
+| 2215 | [Find the Difference of Two Arrays 找出两数组的不同](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/2215-FindtheDifferenceofTwoArrays.md) | Easy | 哈希 |
 | 2300 | [Successful Pairs of Spells and Potions 咒语和药水的成功对数](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/2300-SuccessfulPairsofSpellsandPotions.md) | Medium | 二分查找 |
 | 2336 | [Smallest Number in infinite Set 无限集中的最小数字](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/2336-SmallestNumberininfiniteSet.md) | Medium | 优先队列 |
 | 2352 | [Equal Row and Column Pairs 相等行列对](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/2352-EqualRowandColumnPairs.md) | Medium | 哈希 |
@@ -449,9 +449,9 @@ pie title 已完成的题目
 | 2512 | [Reward Top K Students 奖励最顶尖的 K 名学生](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/2512-RewardTopKStudents.md) | Medium | 排序 |
 | 2530 | [Maximal Score After Applying K Operations 执行 K 次操作后的最大分数](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/2530-MaximalScoreAfterApplyingKOperations.md) | Medium | 贪心、优先队列 |
 | 2542 | [Maximum Subsequence Score 最大子序列的分数](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/2542-MaximumSubsequenceScore.md) | Medium | 优先队列、滑动窗口 |
-| 2578 | [Split With Minimum Sum 最小和分割](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/2578-SplitWithMinimumSum.md) | Easy | 贪心 |
+| 2578 | [Split With Minimum Sum 最小和分割](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/2578-SplitWithMinimumSum.md) | Easy | 贪心 |
 | 2580 | [Count Ways to Group Overlapping Ranges 统计将重叠区间合并成组的方案数](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/2580-CountWaystoGroupOverlappingRanges.md) | Medium | 区间合并 |
-| 2639 | [Find the Width of Columns of a Grid 查询网格图中每一列的宽度](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/2639-FindtheWidthofColumnsofaGrid.md) | Easy | 数组 |
+| 2639 | [Find the Width of Columns of a Grid 查询网格图中每一列的宽度](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/2639-FindtheWidthofColumnsofaGrid.md) | Easy | 数组 |
 | 2652 | [Sum Multiples 倍数求和](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/2652-SumMultiples.md) | Easy | 数学方法 |
 | 2697 | [Lexicographically Smallest Palindrome 字典序最小回文串](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/2697-LexicographicallySmallestPalindrome.md) | Easy | 双指针 |
 | 2731 | [Movement of Robots 移动机器人](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/2731-MovementofRobots.md) | Medium | 脑筋急转弯 |
@@ -459,9 +459,9 @@ pie title 已完成的题目
 | 3033 | [Modify the Matrix 修改矩阵](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/3033-ModifytheMatrix.md) | Easy | 数组 |
 | 3146 | [Permutation Difference between Two Strings 两个字符串的排列差](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/3146-PermutationDifferencebetweenTwoStrings.md) | Easy | 哈希 |
 | 3175 | [Find The First Player to win K Games in a Row 找到连续赢 K 场比赛的第一位玩家](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/3175-FindTheFirstPlayertowinKGamesinaRow.md) | Medium | 双指针 |
-| 3211 | [Generate Binary Strings Without Adjacent Zeros 生成不含相邻零的二进制字符串](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Medium/3211-GenerateBinaryStringsWithoutAdjacentZeros.md) | Medium | 回溯、位运算 |
-| 3216 | [Lexicographically Smallest String After a Swap 交换后字典序最小的字符串](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/3216-LexicographicallySmallestStringAfteraSwap.md) | Easy | 回溯、位运算 |
-| 3222 | [Find the Winning Player in Coin Game 求出硬币游戏的赢家](https://github.com/kaisa911/LeetCode/blob/master/Thinkings/Easy/3222-FindtheWinningPlayerinCoinGame.md) | Easy | 数学 |
+| 3211 | [Generate Binary Strings Without Adjacent Zeros 生成不含相邻零的二进制字符串](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/3211-GenerateBinaryStringsWithoutAdjacentZeros.md) | Medium | 回溯、位运算 |
+| 3216 | [Lexicographically Smallest String After a Swap 交换后字典序最小的字符串](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/3216-LexicographicallySmallestStringAfteraSwap.md) | Easy | 贪心 |
+| 3222 | [Find the Winning Player in Coin Game 求出硬币游戏的赢家](https://github.com/kaisa911/LeetCode/blob/master/package/thinkings/3222-FindtheWinningPlayerinCoinGame.md) | Easy | 数学 |
 
 **剑指offer**
 
