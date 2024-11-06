@@ -43,34 +43,37 @@ for (int i = 0; i < k; i++) {
 
 提示：
 
-- 1 <= nums.length <= 3 \* 104
-- -104 <= nums[i] <= 104
+- 1 <= nums.length <= 3 \* 10^4
+- -10^4 <= nums[i] <= 10^4
 - nums 已按 非严格递增 排列
 
 思路：
 
-因为要求原地修改数组，且前面的 K 个数是不重复的。所以可以采用双指针来做这道题：
-一个指针用来表示数组 index，一个指针来记录不重复的 index
+拿到这道题，因为要求原地修改数组并返回不重复元素的个数，且数组是非严格递增排列的，所以很自然想到使用双指针的方法。一个指针遍历数组中的所有元素，另一个指针指向当前不重复元素的位置。这样在遍历过程中，当遇到新的不重复元素时，将其放置在第二个指针指向的位置，从而实现原地修改和去除重复元素。
 
-1. 如果数组为空（即长度为 0），则直接返回 0。
-2. 初始化两个指针 i 和 j，都设置为 0，以及一个变量 len，用于存储数组的长度。
-3. 遍历数组
-4. 在循环中，如果 nums[j]（当前非重复元素的最后一个）和 nums[i]（当前元素）不相等，那么就把 nums[i] 赋值给 nums[++j]。这里的 ++j 表示先将 j 加 1，然后进行赋值操作。
-5. 循环结束后，返回 j + 1，这是因为 j 是从 0 开始的，所以实际的长度应该是 j + 1
+1. 首先处理数组为空的情况，这是一种边界情况的考虑，能避免后续可能出现的错误。
+2. 初始化两个指针 `left` 和 `right` 都为 0， `left` 指针用于标记已处理的不重复元素的最后位置，`right` 指针用于遍历整个数组。
+3. 在遍历过程中，当 `nums[left]` 与 `nums[right]` 不相等时，说明找到了新的不重复元素，将其放置在 `left` 指针的下一个位置，然后更新 `left` 指针。
+4. 遍历结束后，由于 `left` 是从 0 开始计数的，所以返回 `left + 1` 即为不重复元素的个数。
+
+时间复杂度：O(n)，因为需要遍历数组一次。
+空间复杂度：O(1)，因为只使用了固定的几个变量，没有额外的空间与数组长度成正比。
 
 ```js
 /**
  * @param {number[]} nums
  * @return {number}
  */
-const removeDuplicates = (nums) => {
+var removeDuplicates = function (nums) {
   if (nums.length === 0) return 0;
-  let i = 0,
-    j = 0,
-    len = nums.length;
-  for (i; i < len; i++) {
-    if (nums[j] !== nums[i]) nums[++j] = nums[i];
+  let left = 0,
+    right = 0;
+  for (right; right < nums.length; right++) {
+    if (nums[left] !== nums[right]) {
+      nums[left + 1] = nums[right];
+      left += 1;
+    }
   }
-  return j + 1;
+  return left + 1;
 };
 ```
