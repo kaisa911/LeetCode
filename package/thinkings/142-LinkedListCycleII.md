@@ -55,38 +55,21 @@
 
 ```javascript
 var detectCycle = function (head) {
-  if (!head || !head.next) {
-    return null;
-  }
-
+  if (!head ||!head.next) return null;
   let slow = head;
   let fast = head;
-
-  // 检测快慢指针是否相遇，判断是否存在环
-  while (fast.next && fast.next.next) {
+  while (fast && fast.next) {
     slow = slow.next;
     fast = fast.next.next;
-
     if (slow === fast) {
-      // 存在环，slow 重新指向头节点，fast 留在相遇点
-      break;
+      slow = head;
+      while (slow!== fast) {
+        slow = slow.next;
+        fast = fast.next;
+      }
+      return slow;
     }
   }
-
-  // 如果没有检测到环，返回 null
-  if (!fast.next || !fast.next.next) {
-    return null;
-  }
-
-  // 重新初始化 slow 指向头节点
-  slow = head;
-
-  // 同时移动 slow 和 fast，直至它们相遇，相遇点即为环的起点
-  while (slow !== fast) {
-    slow = slow.next;
-    fast = fast.next;
-  }
-
-  return slow;
+  return null;
 };
 ```
