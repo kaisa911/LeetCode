@@ -1,16 +1,16 @@
 /*
- * @lc app=leetcode.cn id=365 lang=javascript
+ * @lc app=leetcode.cn id=365 lang=rust
  *
  * [365] 水壶问题
  *
  * https://leetcode.cn/problems/water-and-jug-problem/description/
  *
  * algorithms
- * Medium (44.17%)
+ * Medium (44.21%)
  * Likes:    536
  * Dislikes: 0
  * Total Accepted:    69.8K
- * Total Submissions: 157.9K
+ * Total Submissions: 158K
  * Testcase Example:  '3\n5\n4'
  *
  * 有两个水壶，容量分别为 x 和 y 升。水的供应是无限的。确定是否有可能使用这两个壶准确得到 target 升。
@@ -66,21 +66,24 @@
  */
 
 // @lc code=start
-/**
- * @param {number} x
- * @param {number} y
- * @param {number} target
- * @return {boolean}
- */
-var canMeasureWater = function (x, y, target) {
-  if (x + y < target) return false;
-  if (target === 0) {
-    return x === 0 || y === 0;
-  }
-  return target % gcd(x, y) === 0;
-};
-function gcd(a, b) {
-  if (b === 0) return a;
-  return gcd(b, a % b);
+impl Solution {
+    pub fn can_measure_water(x: i32, y: i32, target: i32) -> bool {
+        if x + y < target {
+            return false;
+        }
+        if target == 0 {
+            return x == 0 || y == 0;
+        }
+
+        target % gcd(x, y) == 0
+    }
+    
 }
+fn gcd(a: i32, b: i32) -> i32 {
+    if b == 0 {
+        return a;
+    }
+    gcd(b, a % b)
+}
+
 // @lc code=end

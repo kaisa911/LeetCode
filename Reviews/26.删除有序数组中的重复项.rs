@@ -1,13 +1,13 @@
 /*
- * @lc app=leetcode.cn id=26 lang=javascript
+ * @lc app=leetcode.cn id=26 lang=rust
  *
  * [26] 删除有序数组中的重复项
  *
  * https://leetcode.cn/problems/remove-duplicates-from-sorted-array/description/
  *
  * algorithms
- * Easy (57.25%)
- * Likes:    3669
+ * Easy (57.31%)
+ * Likes:    3675
  * Dislikes: 0
  * Total Accepted:    2M
  * Total Submissions: 3.6M
@@ -73,19 +73,20 @@
  */
 
 // @lc code=start
-/**
- * @param {number[]} nums
- * @return {number}
- */
-var removeDuplicates = function (nums) {
-  if (nums.length === 0) return 0;
-  let left = 0;
-  for (let i = 0; i < nums.length; i++) {
-    if (nums[left] !== nums[i]) {
-      nums[left + 1] = nums[i];
-      left = left + 1;
+impl Solution {
+    pub fn remove_duplicates(nums: &mut Vec<i32>) -> i32 {
+        if nums.is_empty() {
+            return 0;
+        }
+        let mut left:usize = 0;
+
+        for i in 0..nums.len() {
+            if nums[left] != nums[i] {
+                left += 1;
+                nums[left] = nums[i];
+            }
+        }
+        (left + 1) as i32
     }
-  }
-  return left + 1;
-};
+}
 // @lc code=end
