@@ -75,7 +75,6 @@
 2. 去除空白：使用 trim 方法去除输入字符串 str 两端的空白字符。
 3. 空字符串处理：如果字符串为空，直接返回0。
 4. 符号处理：检查字符串的第一个字符是否为正负号，并设置相应的符号标志 sign。
-5. 跳过非数字字符：使用一个循环跳过所有非数字字符，如果遇到非数字字符则停止解析。
 6. 数字解析：使用另一个循环将遇到的数字字符累加到整数 num 中。在累加过程中，检查是否可能发生溢出。如果发生溢出，返回相应的最大或最小整数值。
 7. 应用符号：将之前确定的符号应用到 num 上。
 8. 返回结果：返回最终的整数结果。
@@ -106,21 +105,15 @@ const myAtoi = (str) => {
     i++;
   }
 
-  // 跳过非数字字符，如果遇到非数字字符则停止解析
-  for (; i < str.length; i++) {
-    if (str[i] < '0' || str[i] > '9') break;
-  }
-
-  // 如果没有数字字符，直接返回0
-  if (i === 0) return 0;
-
   // 将数字字符转换为整数
   let num = 0;
-  for (; i < str.length; i++) {
-    if (str[i] >= '0' && str[i] <= '9') {
-      const digit = parseInt(str[i], 10); // 转换为数字
+  while (i < str.length) {
+    const char = str[i];
+    if (char >= '0' && char <= '9') {
+      const digit = parseInt(char, 10);
       // 检查溢出
-      if (num > INT_MAX / 10 || (num === INT_MAX / 10 && digit > INT_MAX % 10)) {
+      if (num > Math.floor(INT_MAX / 10) || 
+          (num === Math.floor(INT_MAX / 10) && digit > INT_MAX % 10)) {
         return sign === 1 ? INT_MAX : INT_MIN;
       }
       num = num * 10 + digit;
@@ -128,7 +121,9 @@ const myAtoi = (str) => {
       // 遇到非数字字符停止解析
       break;
     }
+    i++;
   }
+
   // 应用符号
   return num * sign;
 };

@@ -83,14 +83,13 @@
  */
 var removeElement = function (nums, val) {
   if (nums.length === 0) return 0;
-  let res = 0;
-
-  for (i = 0; i < nums.length; i++) {
-    if (nums[i] !== val) {
-      nums[res] = nums[i];
-      res += 1;
+  let left = 0;
+  for (let right = 0; right < nums.length; right++) {
+    if (nums[right] !== val) {
+      nums[left] = nums[right];
+      left += 1;
     }
   }
-  return res;
+  return left;
 };
 // @lc code=end

@@ -67,32 +67,37 @@
  *     this.next = null;
  * }
  */
+// if (!head || !head.next) return head;
+//   let dummy = new ListNode(0);
+//   dummy.next = head;
+//   let pre = dummy;
+//   while (pre.next && pre.next.next) {
+//     let node1 = pre.next;
+//     let node2 = pre.next.next;
+//     node1.next = node2.next;
+//     node2.next = node1;
+//     pre.next = node2;
+//     pre = node1;
+//   }
+//   return dummy.next;
 /**
  * @param {ListNode} head
  * @return {ListNode}
  */
 function swapPairs(head) {
-  // 如果链表为空或只有一个节点，直接返回头节点
-  if (!head || !head.next) {
-    return head;
-  }
-
-  let newHead = new ListNode(0);
-  let prev = newHead;
+  if (!head || !head.next) return head;
+  let dummy = new ListNode(0);
+  let prev = dummy;
   let current = head;
-
   while (current && current.next) {
-    // 保存下一个节点
-    let next = current.next.next;
-    // 交换当前节点的下一个节点指向前一个节点
-    current.next.next = current.next;
-    // 将交换后的节点连接到新的头节点上
-    prev.next = current.next;
-    // 更新指针
-    prev = current;
-    current = next;
+    let node1 = current;
+    let node2 = current.next;
+    node1.next = node2.next;
+    node2.next = node1;
+    prev.next = node2;
+    prev = node1;
+    current = node1.next;
   }
-
-  return newHead.next;
+  return dummy.next;
 }
 ```

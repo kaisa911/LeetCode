@@ -56,9 +56,9 @@
 var moveZeroes = function (nums) {
   if (!nums.length) return [];
   let left = 0;
-  for (let i = 0; i < nums.length; i++) {
-    if (nums[i] !== 0) {
-      [nums[left], nums[i]] = [nums[i], nums[left]];
+  for (let right = 0; right < nums.length; right++) {
+    if (nums[right] !== 0) {
+      [nums[left], nums[right]] = [nums[right], nums[left]];
       left += 1;
     }
   }

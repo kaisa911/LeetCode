@@ -68,12 +68,13 @@
  */
 var twoSum = function (nums, target) {
   const hash = {};
-  for (let i = 0; i < nums.length; i++) {
-    if (hash[target - nums[i]] !== undefined) {
-      return [hash[target - nums[i]], i];
+  for (let i = 0; i < nums.length; i += 1) {
+    const num = nums[i];
+    if(hash[target - num] !== undefined) {
+      return [hash[target - num], i];
+    } else {
+      hash[num] = i;
     }
-    hash[nums[i]] = i;
   }
-  return [];
 };
 // @lc code=end

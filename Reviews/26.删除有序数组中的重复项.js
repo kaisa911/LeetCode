@@ -78,12 +78,11 @@
  * @return {number}
  */
 var removeDuplicates = function (nums) {
-  if (nums.length === 0) return 0;
+  if (!nums?.length) return 0;
   let left = 0;
-  for (let i = 0; i < nums.length; i++) {
-    if (nums[left] !== nums[i]) {
-      nums[left + 1] = nums[i];
-      left = left + 1;
+  for (let right = 1; right < nums.length; right++) {
+    if (nums[left] !== nums[right]) {
+      nums[++left] = nums[right];
     }
   }
   return left + 1;
