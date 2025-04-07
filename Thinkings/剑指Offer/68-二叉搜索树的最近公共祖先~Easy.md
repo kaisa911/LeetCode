@@ -31,13 +31,14 @@
 
 思路：
 
-1. 基本情况：如果当前节点为空，或者当前节点就是p或q，则返回当前节点。
-2. 递归遍历：递归地在左子树和右子树中寻找p和q。
-3. 寻找LCA：
-  - 如果左子树和右子树的递归调用都返回了非空节点，说明p和q一个在左子树，一个在右子树，当前节点就是它们的LCA。
-  - 如果只在左子树或右子树中找到目标节点，那么返回那个子树的LCA。
+BST的特性决定了：
 
-该实现的时间复杂度是O(h)，其中h是二叉树的高度，因为在最坏的情况下，可能需要遍历整个树的高度来找到LCA。该实现的空间复杂度是O(h)，这是因为在最坏的情况下，递归调用可能会使用与树的高度相等的栈空间。
+- ​当p和q的值均小于当前节点值 → LCA在左子树；
+- ​当p和q的值均大于当前节点值 → LCA在右子树；
+- ​当p和q分列当前节点两侧 → 当前节点就是LCA（因为这是它们路径分岔的最后一个公共节点）。
+
+
+该实现的时间复杂度是 O(h)，其中 h 是二叉树的高度，因为在最坏的情况下，可能需要遍历整个树的高度来找到 LCA。该实现的空间复杂度是 O(h)，这是因为在最坏的情况下，递归调用可能会使用与树的高度相等的栈空间。
 
 ```ts
 /**
@@ -53,15 +54,12 @@ function lowestCommonAncestor(root, p, q) {
   if (!root || root === p || root === q) {
     return root;
   }
-  const left = lowestCommonAncestor(root.left, p, q);
-  const right = lowestCommonAncestor(root.right, p, q);
-
-  // 如果左子树和右子树都包含目标节点，那么当前节点就是LCA
-  if (left && right) {
-    return root;
+  if (root.val > p.val && root.val > q.val) {
+    return lowestCommonAncestor(root.left, p, q);
+  } else if (root.val < p.val && root.val < q.val) {
+    return lowestCommonAncestor(root.right, p, q);
+  } else {
+    return root; // 当前节点是分岔点
   }
-
-  // 如果只在一个子树中找到目标节点，那么返回那个子树的LCA
-  return left || right;
 }
 ```
