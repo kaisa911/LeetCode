@@ -31,15 +31,15 @@
 
 思路:
 
-1. 初始化：声明res用于存储最终的LCA节点。
-2. 递归函数：定义一个递归函数dfs，它接收当前节点root和要寻找的两个节点p和q。
-3. 基本情况：如果当前节点为空，返回false。
-4. 递归搜索：对当前节点的左子树和右子树分别进行递归调用dfs。
-5. 更新LCA：如果左子树和右子树都返回true，或者当前节点是p或q之一，并且至少一个子树返回true，则将当前节点设置为LCA（res = root）。
-6. 返回值：递归函数返回true，如果当前节点是p或q之一，或者任何子树返回true。
-7. 最终结果：在递归结束后，返回res作为LCA。
+1. 初始化：声明 res 用于存储最终的 LCA 节点。
+2. 递归函数：定义一个递归函数 dfs，它接收当前节点 root 和要寻找的两个节点 p 和 q。
+3. 基本情况：如果当前节点为空，返回 false。
+4. 递归搜索：对当前节点的左子树和右子树分别进行递归调用 dfs。
+5. 更新 LCA：如果左子树和右子树都返回 true，或者当前节点是 p 或 q 之一，并且至少一个子树返回 true，则将当前节点设置为 LCA（res = root）。
+6. 返回值：递归函数返回 true，如果当前节点是 p 或 q 之一，或者任何子树返回 true。
+7. 最终结果：在递归结束后，返回 res 作为 LCA。
 
-它的时间复杂度是O(n)，其中n是二叉树中节点的数量，因为每个节点恰好被访问一次。空间复杂度是O(h)，其中h是二叉树的高度，这是因为在最坏的情况下（树完全不平衡），递归堆栈可能需要存储与树的高度相等的节点数量。
+它的时间复杂度是 O(n)，其中 n 是二叉树中节点的数量，因为每个节点恰好被访问一次。空间复杂度是 O(h)，其中 h 是二叉树的高度，这是因为在最坏的情况下（树完全不平衡），递归堆栈可能需要存储与树的高度相等的节点数量。
 
 ```ts
 /**
@@ -52,58 +52,12 @@
  * }
  */
 var lowestCommonAncestor = function (root, p, q) {
-  let res;
-  const dfs = (root, p, q) => {
-    if (root === null) {
-      return false;
-    }
-    const lson = dfs(root.left, p, q);
-    const rson = dfs(root.right, p, q);
-    if (
-      (lson && rson) ||
-      ((root.val === p.val || root.val === q.val) && (lson || rson))
-    ) {
-      res = root;
-    }
-    return lson || rson || root.val === p.val || root.val === q.val;
-  };
-  dfs(root, p, q);
-  return res;
+  if (!root) return null;
+  if (root === p || root === q) return root;
+  const left = lowestCommonAncestor(root.left, p, q);
+  const right = lowestCommonAncestor(root.right, p, q);
+  if (left && right) return root;
+  return left || right;
 };
 ```
 
-```ts
-/**
- * Definition for a binary tree node.
- * public class TreeNode {
- *     int val;
- *     TreeNode left;
- *     TreeNode right;
- *     TreeNode(int x) { val = x; }
- * }
- */
-
-interface TreeNode {
-  val: number;
-}
-
-var lowestCommonAncestor = function (root, p, q) {
-  let ans;
-  const dfs = (root, p, q) => {
-    if (root === null) {
-      return false;
-    }
-    const lson = dfs(root.left, p, q);
-    const rson = dfs(root.right, p, q);
-    if (
-      (lson && rson) ||
-      ((root.val === p.val || root.val === q.val) && (lson || rson))
-    ) {
-      ans = root;
-    }
-    return lson || rson || root.val === p.val || root.val === q.val;
-  };
-  dfs(root, p, q);
-  return ans;
-};
-```
